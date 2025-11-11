@@ -12,20 +12,15 @@
  */
 
 (function (global) {
-  const BASE_URL = "https://cdn.jsdelivr.net/gh/gaboom63/MSM-API@latest/data/monsters/";
+  // Use GitHub raw files instead of jsDelivr
+  const BASE_URL = "https://raw.githubusercontent.com/gaboom63/MSM-API/master/data/monsters/";
   const cache = {};
 
-  /**
-   * Normalize the monster name and determine the correct folder.
-   * @param {string} rawName
-   * @returns {{folder: string, file: string, fullName: string}}
-   */
   function resolveMonsterPath(rawName) {
     const words = rawName.trim().split(/\s+/);
     let folder = "Common";
     let baseName = rawName;
 
-    // Check for "Rare" or "Epic" prefixes
     if (words[0].toLowerCase() === "rare") {
       folder = "Rare";
       baseName = words.slice(1).join(" ");
@@ -34,21 +29,10 @@
       baseName = words.slice(1).join(" ");
     }
 
-    // Capitalize file name for proper casing (optional)
     const fileName = baseName.replace(/\b\w/g, (c) => c.toUpperCase());
-
-    return {
-      folder,
-      file: fileName,
-      fullName: rawName,
-    };
+    return { folder, file: fileName };
   }
 
-  /**
-   * Fetch and build a monster object.
-   * @param {string} name
-   * @returns {Promise<Monster>}
-   */
   async function getMonster(name) {
     const { folder, file } = resolveMonsterPath(name);
     const url = `${BASE_URL}${folder}/${file}.json`;
@@ -56,6 +40,9 @@
     const res = await fetch(url);
     if (!res.ok) throw new Error(`Monster ${name} not found at ${url}`);
     const data = await res.json();
+
+    // Automatically set image path based on folder
+    data.image = `${BASE_URL}${folder}/${file}.png`;
 
     return {
       ...data,
@@ -85,26 +72,21 @@
     };
   }
 
-  // Main MSM object — with async lazy loading
   const MSM = new Proxy({}, {
     get(target, prop) {
       if (prop === "monster" || prop === "getMonster") return getMonster;
-
-      // Return from cache if already loaded
       if (cache[prop]) return cache[prop];
 
-      // Placeholder for deferred fetch
       const placeholder = {};
       Object.defineProperty(placeholder, "_loaded", {
         value: (async () => {
           const monster = await getMonster(prop);
-          cache[prop] = monster; // replace cache with final object
+          cache[prop] = monster;
           return monster;
         })(),
         enumerable: false,
       });
 
-      // Proxy defers property access until loaded
       const proxy = new Proxy(placeholder, {
         get(_, subProp) {
           return async (...args) => {
@@ -120,7 +102,6 @@
     },
   });
 
-  // Export for Node or browser
   if (typeof module !== "undefined" && module.exports) {
     module.exports = MSM;
   } else {
