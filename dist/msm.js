@@ -29,7 +29,7 @@
       baseName = words.slice(1).join(" ");
     }
 
-    const fileName = baseName.replace(/\b\w/g, (c) => c.toUpperCase());
+    const fileName = baseName.replace(/\b\w/g, (c) => c.toLowerCase());
     return { folder, file: fileName };
   }
 
