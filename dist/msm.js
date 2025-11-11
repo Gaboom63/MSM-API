@@ -41,8 +41,9 @@
     if (!res.ok) throw new Error(`Monster ${name} not found at ${url}`);
     const data = await res.json();
 
-    // Automatically set image path based on folder
-    data.image = `${BASE_URL}${folder}/${file}.png`;
+    let dataImgSrc = name.slice(0, 1).toUpperCase(); 
+    let newName = dataImgSrc + name.slice(1, name.length);
+    data.image = `https://raw.githubusercontent.com/gaboom63/MSM-API/master/images/bm/${newName}.png`;
 
     return {
       ...data,
