@@ -1,0 +1,22 @@
+{
+  "name": "Mammott",
+  "description": "",
+  "image": "https://gaboom63.github.io/MSM-Combo-Finder/images/bm/Mammott.png",
+  "cost": "300 Coins",
+  "islands": [
+    "plant",
+    "cold",
+    "air",
+    "earth",
+    "mirror plant",
+    "mirror cold",
+    "mirror air",
+    "mirror earth",
+    "shugabush",
+    "oasis",
+    "light",
+    "mirror light",
+    "faerie",
+    "mirror faerie"
+  ]
+}
