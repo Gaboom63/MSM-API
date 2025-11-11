@@ -10,14 +10,13 @@
  * @property {function(): {name:string, islands:number, cost:string, description:string}} statistics
  */
 
-/**
- * @type {{getMonster: function(string): Promise<Monster>, monster: function(string): Promise<Monster>}}
- */
-const MSM = { getMonster, monster: getMonster };
-
 (function (global) {
   const BASE_URL = "https://cdn.jsdelivr.net/gh/gaboom63/MSM-API/data/monsters/";
 
+  /**
+   * @param {string} name
+   * @returns {Promise<Monster>}
+   */
   async function getMonster(name) {
     name = name.toLowerCase();
     const url = `${BASE_URL}${name}.json`;
@@ -44,11 +43,15 @@ const MSM = { getMonster, monster: getMonster };
     };
   }
 
+  /**
+   * @type {{getMonster: function(string): Promise<Monster>, monster: function(string): Promise<Monster>}}
+   */
   const MSM = { 
     getMonster,
-    monster: getMonster
+    monster: getMonster // alias for convenience
   };
 
+  // Export for Node.js or attach to global (browser)
   if (typeof module !== "undefined" && module.exports) {
     module.exports = MSM;
   } else {
