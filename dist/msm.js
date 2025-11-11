@@ -5,27 +5,40 @@
  * @property {string} image
  * @property {string} cost
  * @property {string[]} islands
+ * @property {function(string): string} islands
  * @property {function(): string} like
  * @property {function(): string} info
  * @property {function(): {name:string, islands:number, cost:string, description:string}} statistics
  */
 
 (function (global) {
-  const BASE_URL = "https://cdn.jsdelivr.net/gh/gaboom63/MSM-API/data/monsters/";
+  const BASE_URL = "https://cdn.jsdelivr.net/gh/gaboom63/MSM-API@latest/data/monsters/";
+  const cache = {};
 
   /**
+   * Fetch and build a monster object.
    * @param {string} name
    * @returns {Promise<Monster>}
    */
   async function getMonster(name) {
     name = name.toLowerCase();
     const url = `${BASE_URL}${name}.json`;
+
     const res = await fetch(url);
-    if (!res.ok) throw new Error(`Monster ${name} not found`);
+    if (!res.ok) throw new Error(`Monster ${name} not found at ${url}`);
     const data = await res.json();
 
     return {
       ...data,
+      islands(islandName) {
+        const firstWord = islandName.split(" ")[0].toLowerCase();
+        return data.islands.includes(firstWord)
+          ? `${data.name} is on ${islandName}!`
+          : `${data.name} is not on ${islandName}.`;
+      },
+      description() {
+        return `${data.name}'s Description: ${data.description || "No description available."}`;
+      },
       like() {
         return `You liked ${data.name}!`;
       },
@@ -37,21 +50,48 @@
           name: data.name,
           islands: data.islands?.length || 0,
           cost: data.cost || "Unknown",
-          description: data.description || "No description available."
+          description: data.description || "No description available.",
         };
-      }
+      },
     };
   }
 
-  /**
-   * @type {{getMonster: function(string): Promise<Monster>, monster: function(string): Promise<Monster>}}
-   */
-  const MSM = { 
-    getMonster,
-    monster: getMonster // alias for convenience
-  };
+  // Main MSM object — with async lazy loading
+  const MSM = new Proxy({}, {
+    get(target, prop) {
+      if (prop === "monster" || prop === "getMonster") return getMonster;
 
-  // Export for Node.js or attach to global (browser)
+      // Return from cache if already loaded
+      if (cache[prop]) return cache[prop];
+
+      // Placeholder for deferred fetch
+      const placeholder = {};
+      Object.defineProperty(placeholder, "_loaded", {
+        value: (async () => {
+          const monster = await getMonster(prop);
+          cache[prop] = monster; // replace cache with final object
+          return monster;
+        })(),
+        enumerable: false,
+      });
+
+      // Proxy defers property access until loaded
+      const proxy = new Proxy(placeholder, {
+        get(_, subProp) {
+          return async (...args) => {
+            const real = await placeholder._loaded;
+            const value = real[subProp];
+            return typeof value === "function" ? value(...args) : value;
+          };
+        },
+      });
+
+      cache[prop] = proxy;
+      return proxy;
+    },
+  });
+
+  // Export for Node or browser
   if (typeof module !== "undefined" && module.exports) {
     module.exports = MSM;
   } else {
