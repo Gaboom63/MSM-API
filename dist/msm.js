@@ -16,13 +16,42 @@
   const cache = {};
 
   /**
+   * Normalize the monster name and determine the correct folder.
+   * @param {string} rawName
+   * @returns {{folder: string, file: string, fullName: string}}
+   */
+  function resolveMonsterPath(rawName) {
+    const words = rawName.trim().split(/\s+/);
+    let folder = "Common";
+    let baseName = rawName;
+
+    // Check for "Rare" or "Epic" prefixes
+    if (words[0].toLowerCase() === "rare") {
+      folder = "Rare";
+      baseName = words.slice(1).join(" ");
+    } else if (words[0].toLowerCase() === "epic") {
+      folder = "Epic";
+      baseName = words.slice(1).join(" ");
+    }
+
+    // Capitalize file name for proper casing (optional)
+    const fileName = baseName.replace(/\b\w/g, (c) => c.toUpperCase());
+
+    return {
+      folder,
+      file: fileName,
+      fullName: rawName,
+    };
+  }
+
+  /**
    * Fetch and build a monster object.
    * @param {string} name
    * @returns {Promise<Monster>}
    */
   async function getMonster(name) {
-    name = name.toLowerCase();
-    const url = `${BASE_URL}${name}.json`;
+    const { folder, file } = resolveMonsterPath(name);
+    const url = `${BASE_URL}${folder}/${file}.json`;
 
     const res = await fetch(url);
     if (!res.ok) throw new Error(`Monster ${name} not found at ${url}`);
