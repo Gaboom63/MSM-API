@@ -2,26 +2,41 @@
 (function (global) {
   const BASE_URL = "https://cdn.jsdelivr.net/gh/gaboom63/MSM-API/data/monsters/";
 
-  async function getMonster(name) {
-    name = name.toLowerCase();
-    const url = `${BASE_URL}${name}.json`;
+  async function monster(name) {
+    if (!name) throw new Error("Monster name is required.");
+    const safeName = name.trim().toLowerCase().replace(/\s+/g, "");
+    const url = `${BASE_URL}${safeName}.json`;
+
     const res = await fetch(url);
-    if (!res.ok) throw new Error(`Monster ${name} not found`);
+    if (!res.ok) throw new Error(`Monster "${name}" not found.`);
+
     const data = await res.json();
 
-    // Wrap it with helper methods
+    // Add methods to the monster object
     return {
       ...data,
+
       like() {
         return `You liked ${data.name}!`;
       },
+
+      statistics() {
+        return {
+          name: data.name,
+          islands: data.islands?.length || 0,
+          cost: data.cost || "Unknown",
+          description: data.description || "No description available."
+        };
+      },
+
       info() {
-        return `${data.name} costs ${data.cost} and appears on ${data.islands.length} islands.`;
+        const islandList = (data.islands || []).join(", ");
+        return `${data.name} costs ${data.cost} and appears on: ${islandList}`;
       }
     };
   }
 
-  const MSM = { getMonster };
+  const MSM = { monster };
 
   if (typeof module !== "undefined" && module.exports) {
     module.exports = MSM;
