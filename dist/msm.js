@@ -1,3 +1,20 @@
+/**
+ * @typedef {Object} Monster
+ * @property {string} name
+ * @property {string} description
+ * @property {string} image
+ * @property {string} cost
+ * @property {string[]} islands
+ * @property {function(): string} like
+ * @property {function(): string} info
+ * @property {function(): {name:string, islands:number, cost:string, description:string}} statistics
+ */
+
+/**
+ * @type {{getMonster: function(string): Promise<Monster>, monster: function(string): Promise<Monster>}}
+ */
+const MSM = { getMonster, monster: getMonster };
+
 (function (global) {
   const BASE_URL = "https://cdn.jsdelivr.net/gh/gaboom63/MSM-API/data/monsters/";
 
