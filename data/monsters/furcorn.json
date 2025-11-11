@@ -3,6 +3,6 @@
     "description": "This tiny, delicate creature maintains a steady internal temperature by fluffing or flattening its silky green pelt. Furcorns are special. Protect them.",
     "image": "https://gaboom63.github.io/MSM-Combo-Finder/images/bm/Furcorn.png", 
     "cost": "30 Diamonds",
-    "islands": ["plant", "cold", "air", "earth", "mirror plant", "mirror cold", "mirror air", "mirror earth", "shugabush", "oasis", "light", "mirror light", "faerie", "mirror faerie"],
+    "islands": ["plant", "cold", "earth", "gold", "tribal", "mirror plant", "mirror cold", "mirror earth", "shugabush", "light", "mirror light"],
     "breedingCombo": ["Potbelly + Mammott"]
 }
