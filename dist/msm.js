@@ -12,7 +12,6 @@
  */
 
 (function (global) {
-  // Use GitHub raw files instead of jsDelivr
   const BASE_URL = "https://raw.githubusercontent.com/gaboom63/MSM-API/master/data/monsters/";
   const cache = {};
 
@@ -29,7 +28,7 @@
       baseName = words.slice(1).join(" ");
     }
 
-    const fileName = baseName.replace(/\b\w/g, (c) => c.toLowerCase());
+    const fileName = baseName.replace(/\b\w/g, (c) => c.toUpperCase());
     return { folder, file: fileName };
   }
 
@@ -90,6 +89,9 @@
         return data.islands.includes(firstWord)
           ? `${data.name} is on ${islandName}!`
           : `${data.name} is not on ${islandName}.`;
+      },
+      island() {
+        return data.islands
       },
       description() {
         return `${data.name}'s Description: ${data.description || "No description available."}`;
