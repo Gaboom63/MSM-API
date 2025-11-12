@@ -1,0 +1,8 @@
+{
+    "name": "Noggin",
+    "description": "Noggins are basically musical rocks. Deeply in tune with the earth, their simple rhythms echo an island's pulse. The sensation of reverberation produced by a Noggin motivates all other Monsters.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Noggin.png?raw=true",
+    "cost": "300 Coins",
+    "islands": ["plant", "air", "water", "earth", "colossingum", "gold", "haven", "faerie", "bone", "composer", "mirror plant", "mirror air", "mirror water", "mirror earth"],
+    "breedingCombo": ["Plant: Entbrat", "Air: Riff + Noggin", "Water: Shellbeat + Noggin", "Earth: Quarrister + Noggin", "Haven: Tring + Noggin", "Pladdie + Noggin", "Plinkajou + Noggin"]
+}
