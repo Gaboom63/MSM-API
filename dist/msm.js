@@ -41,12 +41,42 @@
     if (!res.ok) throw new Error(`Monster ${name} not found at ${url}`);
     const data = await res.json();
 
-    let dataImgSrc = name.slice(0, 1).toUpperCase(); 
+    let dataImgSrc = name.slice(0, 1).toUpperCase();
     let newName = dataImgSrc + name.slice(1, name.length);
     data.image = `https://raw.githubusercontent.com/gaboom63/MSM-API/master/images/bm/${newName}.png`;
+    const monsterImageCache = {};
 
     return {
       ...data,
+      async loadImage(imgElement, monsterName) {
+        const img = document.getElementById(imgElement);
+        if (!img) {
+          console.error(`Image element #${imgElement} not found`);
+          return;
+        }
+
+        // If cached, use it immediately
+        if (monsterImageCache[monsterName]) {
+          img.src = monsterImageCache[monsterName];
+          return;
+        }
+
+        const monster = MSM[monsterName];
+        if (!monster || typeof monster.image !== 'function') {
+          console.error(`Monster "${monsterName}" not found or invalid`);
+          img.src = "";
+          return;
+        }
+
+        try {
+          const src = await monster.image();
+          monsterImageCache[monsterName] = src; // cache the result
+          img.src = src;
+        } catch (err) {
+          console.error(`Error loading ${monsterName}:`, err);
+          img.src = "";
+        }
+      },
       islands(islandName) {
         const firstWord = islandName.split(" ")[0].toLowerCase();
         return data.islands.includes(firstWord)
