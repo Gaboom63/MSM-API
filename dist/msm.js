@@ -48,11 +48,21 @@
 
     return {
       ...data,
-      // Global or module-level cache
       async loadImage(imgElement) {
-        const img = document.getElementById(imgElement);
+        // Try to find by ID first
+        let img = document.getElementById(imgElement);
+
+        // If not found, try by class name (use first matching element)
         if (!img) {
-          console.error(`Image element #${imgElement} not found`);
+          const elements = document.getElementsByClassName(imgElement);
+          if (elements.length > 0) {
+            img = elements[0];
+          }
+        }
+
+        // If still not found, fail like before
+        if (!img) {
+          console.error(`Image element with ID or class "${imgElement}" not found`);
           return;
         }
 
@@ -65,7 +75,6 @@
           return;
         }
 
-        // Use the monster's own image property directly
         try {
           // data.image is already a URL string
           const src = data.image;
