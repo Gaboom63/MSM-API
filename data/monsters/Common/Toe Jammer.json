@@ -1,7 +1,7 @@
 {
     "name": "Toe Jammer",
     "description": "While Toe Jammers may appear fragile, these rubbery Water elementals are very tough. Toe Jammers sing of liquid wonders: deep sea leviathans, crashing surf, flooded basements, and bubble tea!",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Toe Jammer.png?raw=true",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Toe%20Jammer.png?raw=true",
     "cost": "250 Coins",
     "islands": ["plant", "cold", "air", "water", "colossingum", "gold", "oasis", "psychic", "bone", "tribal", "composer", "mirror plant", "mirror cold", "mirror water", "mirror psychic", "mirror bone"],
     "breedingCombo": ["Plant: Entbrat + Toe Jammer", "Cold: Deedge + Toe Jammer", "Air: Riff + Toe Jammer", "Water: Shellbeat", "Fire Oasis: Sneyser + Toe Jammer", "Psychic: Toe Jammer", "Bone: Toe Jammer"]
