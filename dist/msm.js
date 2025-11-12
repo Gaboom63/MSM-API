@@ -48,29 +48,28 @@
 
     return {
       ...data,
-      async loadImage(imgElement, monsterName) {
+      // Global or module-level cache
+      async loadImage(imgElement) {
         const img = document.getElementById(imgElement);
         if (!img) {
           console.error(`Image element #${imgElement} not found`);
           return;
         }
 
-        // If cached, use it immediately
+        const monsterName = data.name.toLowerCase(); // for cache
+        const monsterImageCache = getMonster.cache || (getMonster.cache = {});
+
+        // If cached, use it
         if (monsterImageCache[monsterName]) {
           img.src = monsterImageCache[monsterName];
           return;
         }
 
-        const monster = MSM[monsterName];
-        if (!monster || typeof monster.image !== 'function') {
-          console.error(`Monster "${monsterName}" not found or invalid`);
-          img.src = "";
-          return;
-        }
-
+        // Use the monster's own image property directly
         try {
-          const src = await monster.image();
-          monsterImageCache[monsterName] = src; // cache the result
+          // data.image is already a URL string
+          const src = data.image;
+          monsterImageCache[monsterName] = src;
           img.src = src;
         } catch (err) {
           console.error(`Error loading ${monsterName}:`, err);
@@ -105,14 +104,17 @@
 
   const MSM = new Proxy({}, {
     get(target, prop) {
-      if (prop === "monster" || prop === "getMonster") return getMonster;
-      if (cache[prop]) return cache[prop];
+      // Always normalize the property name
+      const normalized = String(prop).toLowerCase();
+
+      if (normalized === "monster" || normalized === "getmonster") return getMonster;
+      if (cache[normalized]) return cache[normalized];
 
       const placeholder = {};
       Object.defineProperty(placeholder, "_loaded", {
         value: (async () => {
-          const monster = await getMonster(prop);
-          cache[prop] = monster;
+          const monster = await getMonster(normalized);
+          cache[normalized] = monster;
           return monster;
         })(),
         enumerable: false,
@@ -128,10 +130,11 @@
         },
       });
 
-      cache[prop] = proxy;
+      cache[normalized] = proxy;
       return proxy;
     },
   });
+
 
   if (typeof module !== "undefined" && module.exports) {
     module.exports = MSM;
