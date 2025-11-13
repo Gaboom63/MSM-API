@@ -1,0 +1,8 @@
+{
+    "name": "Thwok",
+    "description": "Thwoks may be easily tongue-tied when trying to vocalize, but the length of their tongue is fundamental to performing their soulful tune. With designated bands for gustation of any kind, it composes savoury bass lines that fuse sound and taste in a multi-sensory experience.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Thwok.png?raw=true",
+    "cost": "17000 Coins",
+    "islands": ["wublin"],
+    "breedingCombo": ["None. Zap The Contents, And Power Up!"]
+}

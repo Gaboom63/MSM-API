@@ -3,6 +3,6 @@
     "description": "Mammotts luxurious fur ensures that these Cold elementals are never chilly. Tangles, however, are an ongoing issue. Their resonant anthem celebrates blizzards and frosted windows. Mammotts do not shovel snow.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Mammott.png?raw=true", 
     "cost": "300 Coins",
-    "islands": ["plant", "cold", "air", "earth", "gold", "tribal", "mirror plant", "mirror cold", "mirror air", "mirror earth", "shugabush", "oasis", "light", "mirror light", "faerie", "mirror faerie"],
+    "islands": ["plant", "cold", "air", "earth", "gold", "tribal", "mirror plant", "mirror cold", "mirror air", "mirror earth", "shugabush", "colossingum", "composer", "oasis", "light", "mirror light", "faerie", "mirror faerie"],
     "breedingCombo": ["There is no perticular combonation for Mammott, instead you should breed a quad element with a Mammott to produce Mammott."]
 }

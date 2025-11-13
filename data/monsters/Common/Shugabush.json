@@ -1,0 +1,8 @@
+{
+    "name": "Shugabush",
+    "description": "Despite originating from a warm climate, the kindly Shugabush is unusually furry. Its penchant for sweet treats is legendary, second only to its skill as a performer. The felt hat that adorns its head, which it has been overheard calling a phay-door-uh, is one of its prized possessions, alongside its trusty mandolin, of course. The Shugabush revels in jamming along with other Monsters and is a true embodiment of the spirit of collaboration.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Shugabush.png?raw=true",
+    "cost": "15000 Coins",
+    "islands": ["plant", "shugabush", "gold", "mirror plant"],
+    "breedingCombo": ["Bowgart + Clamble", "Teleport Or Buy"]
+}

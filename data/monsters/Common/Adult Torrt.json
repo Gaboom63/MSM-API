@@ -1,0 +1,8 @@
+{
+    "name": "Adult Torrt",
+    "description": "Everything is sunshine and good vibes for the adult Torrt - it bleaches its hair to achieve a constant state of beach readiness - but is it all just a veneer masking self-doubt and feelings of unworthiness? Nah, this Celestial's got the right Attitorrt.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Torrt (adult).png?raw=true",
+    "cost": "10 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up."]
+}

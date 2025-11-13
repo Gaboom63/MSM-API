@@ -1,0 +1,8 @@
+{
+    "name": "Rhysmuth",
+    "description": "Rhysmuth's cubic configuration comes from its complex Crystalline composition. Each of its four Elements exerts incredible pressure against the others, compressing the very fiber of this Ethereal's being into compact blocks which vibrate with an atomic energy that can barely be contained. The most powerful of these blocks, the Rhubix Cube, is closely guarded within Rhysmuth's heart. A word to the wise: beware when excavating the Workshop's Mini-Mine, as this crafty Quad enjoys creeping among the minerals.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rhysmuth.png?raw=true",
+    "cost": "3300 Diamonds",
+    "islands": ["workshop"],
+    "breedingCombo": ["Gaddzooks + 2 Of: Plasma Meeb + Mech Meeb + Crystal Meeb", "Auglur + 2 Of: Plasma Meeb + Mech Meeb + Poison Meeb", "Flasque + 2 Of: Plasma Meeb + Mech Meeb + Poison Meeb", "Teeter-Tauter + 2 Of: Mech Meeb + Crystal Meeb + Poison Meeb"]
+}

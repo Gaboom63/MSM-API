@@ -1,0 +1,8 @@
+{
+    "name": "Blasoom",
+    "description": "The Blasoom has emerged from its ancient shell like a flower blossoming in the early days of spring, feeling refreshed and vibrantly alive. A surprising development in the Celestial's renewal was the disappearance of one of its elegantly oaky legs. While countless botanists and horticulturalists of the Plant Element have researched this loss of limb, the biological explanation behind its late leg growth remains elusive. The Blasoom appears undeterred however, happily hopping from place to place.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Blasoom.png?raw=true",
+    "cost": "14 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

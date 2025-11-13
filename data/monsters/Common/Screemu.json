@@ -1,0 +1,8 @@
+{
+    "name": "Screemu",
+    "description": "By nature, the Screemu has very drab coloring, so it spruces itself up with ribbons and paint splatter. Make no mistake, these adornments are the only bright things about Screemu. This delusional Monster has no ears to hear itself and is of the opinion it can outsing an entire cache of Furcorns.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Screemu.png?raw=true",
+    "cost": "5000 Coins",
+    "islands": ["wublin"],
+    "breedingCombo": ["None. Zap The Contents, And Power Up!"]
+}

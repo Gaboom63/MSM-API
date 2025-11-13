@@ -1,0 +1,8 @@
+{
+    "name": "Fleechwurm",
+    "description": "In addition to using them to play music, some Monsters take advantage of their unique features and body shapes, and use them for other purposes. In the case of the Fleechwurm, its resonant body cavity can generate a series of whistles that have an unusual hypnotic effect on other Wublins. They can be used to coax others into doing unglamorous chores for it, or to lovingly preen its leaf-like limbs. Some Wublins are more resistant than others, and playfully admonish the Fleechwurm so it doesn't become too mischievous.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Fleechwurm.png?raw=true",
+    "cost": "5000 Coins",
+    "islands": ["wublin"],
+    "breedingCombo": ["None. Zap The Contents, And Power Up!"]
+}

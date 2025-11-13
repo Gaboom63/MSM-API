@@ -1,0 +1,8 @@
+{
+    "name": "Zynth",
+    "description": "The Zynth thrives on the natural electricity emitted by Wublin Island. This Monster stores the excess energy to power its glowing abdomen and produce a wonderful harmonic buzzing sound. A word of caution - don't stand too close to the Zynth, unless you want to reek of the orange fizz and ozone smell that accompanies it wherever it goes.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Zynth.png?raw=true",
+    "cost": "3000 Coins",
+    "islands": ["wublin"],
+    "breedingCombo": ["None. Zap The Contents, And Power Up!"]
+}

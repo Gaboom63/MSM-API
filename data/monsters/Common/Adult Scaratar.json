@@ -1,0 +1,8 @@
+{
+    "name": "Adult Scaratar",
+    "description": "No longer forced to lay its trademark instrument on the ground, the Scaratar fastidiously infuses wood with special toxins that transform it into a more ornate version. At this age, the Celestial of Poison is perhaps a little too preoccupied with superficially being an indicator of quality, and will often fixate on polishing its instrument rather than practicing its arpeggios.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Scaratar%20(adult).png?raw=true",
+    "cost": "10 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Blow't",
+    "description": "The Quad-Elemental Blow't is filled to bursting with the unbridled power of its Elements! To relieve the immense pressure built up inside its elastic anatomy, Blow't inhales a lung-expanding breath that forces the excess energy into its prickly array of quill chambers. Here, the glorious magic of the Elements is converted into only the most mesmerizing of music before expelling a dazzling prism of lightwaves as a not-so-wasteful waste product.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Blow_t.png?raw=true",
+    "cost": "The Quad-Elemental Blow't is filled to bursting with the unbridled power of its Elements! To relieve the immense pressure built up inside its elastic anatomy, Blow't inhales a lung-expanding breath that forces the excess energy into its prickly array of quill chambers. Here, the glorious magic of the Elements is converted into only the most mesmerizing of music before expelling a dazzling prism of lightwaves as a not-so-wasteful waste product.",
+    "islands": ["light", "nexus", "mirror light"],
+    "breedingCombo": ["Furcorn + Pluckbill", "Flowah + Bulbo", "Boskus + Gob"]
+}

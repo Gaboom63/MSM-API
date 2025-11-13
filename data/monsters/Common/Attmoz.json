@@ -1,0 +1,8 @@
+{
+    "name": "Attmoz",
+    "description": "The Attmoz has long dreamt of strumming the strings of a physical instrument like its Celestial cousin Scaratar. Unfortunately this virtuoso suffers from a lack of binocular depth perception, making fine motor skills a challenge. Remaining as flexible and fluid air, this one-eyed wonder has risen above its limitations and adapted an instrument that harnesses the very essence of the element it reigns over. The Air Celestial's strength in the face of adversity has made it a symbol of perseverance for all Air Elementals.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Attmoz.png?raw=true",
+    "cost": "12 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

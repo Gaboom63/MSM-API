@@ -1,0 +1,8 @@
+{
+    "name": "Larvaluss",
+    "description": "The marvelous Larvaluss is far-flung from any large body of water... unless you count the sea of stars twinkling above in the sky of the pocket dimension! Still, it feels right at home on the Sanctum, where it revels in the company of its fellow Magical Monsters and uses its music to whisk them off to slumberland. What appear to be strings are actually nostril hairs extending from the nose of Larvaluss, which is hidden somewhere in the mess of 'furthers' on the back of its head. Tuning can be a bit of an issue when the Monster's sinuses act up.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Larvaluss.png?raw=true",
+    "cost": "400 Diamonds",
+    "islands": ["sanctum"],
+    "breedingCombo": ["Osstax + Theremind", "Xyster + Floot Fly", "Deja-Jin + Claackula"]
+}

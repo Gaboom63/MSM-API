@@ -1,0 +1,8 @@
+{
+    "name": "Fung Pray",
+    "description": "The chimeric Fung Pray strives to achieve complete balance in all aspects of life, according to transcendental teachings passed down from generation to generation. Even though tranquility and precision are held in highest esteem, the occasional burst of unbridled exuberance is permitted. Bystanders can identify such a display by the appearance of glowing gills under the Fung Pray’s headcap.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Fung Pray.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": ["ethereal", "colossingum"],
+    "breedingCombo": ["Jeeode + Humbug"]
+}

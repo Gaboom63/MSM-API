@@ -1,0 +1,8 @@
+{
+    "name": "Adult Glaishur",
+    "description": "Even though many Celestials endure some level of awkwardness in adulthood, Glaishur doesn't appear to be one of them. Sure, it's grown in size a bit and its snow-encrusted fists don't leave a ton of room for finesse... but for the most part, the Celestial of Cold exudes the same even-temperedness throughout its whole life. Perhaps the prevailing sense of 'coolness' is the source of its zen approach - after all, what's cooler than being cool? Ice cold.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Glaishur%20(adult).png?raw=true",
+    "cost": "10 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Anglow",
+    "description": "In the deepest possible depths of the living ocean, one might find a massive crack in the sea floor. This deep-sea ditch is known to many as the Monstriana Trench, which acts as a sanctuary for hundreds of strange creatures. Some examples of these creatures are Anemonons, Glimmerglaws, and Jlelljiggles, but the most popular among these is the ambiguous but luminous Anglow, waiting to put on a fantastical light show just for you! The intergalactic isopod approaches and politely asks its soon-to-be viewer if it would like the opportunity of a lifetime, witnessing an unforgettable light show! If the viewer accepts, it is then dazzled and delighted by flashes of colors, and this barrel-eyed buddy never fails to put big, bright smiles on the faces of its audience. When the Anglow isn't bringing amazing light shows to the creatures of the deep, it searches the waters surrounding the islands for cupcakes and pizzas that might have slipped off the edge. But when the sky is clear, and its stomach is full, the Mythical of Water Island prefers to gaze at the stars, nebulas, and planets of the cosmos, which is where many monsters think the Anglow came from!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Anglow.png?raw=true",
+    "cost": "225 Diamonds",
+    "islands": ["water", "mythical", "mirror water"],
+    "breedingCombo": ["Scups + Pummel"]
+}

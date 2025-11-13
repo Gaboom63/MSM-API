@@ -1,0 +1,8 @@
+{
+    "name": "Adult Hornacle",
+    "description": "At this stage, the adult Hornacle is transfixed by treasure, and bedecks its face and carapace with piercing and baubles looted from its swashbuckling adventures. No matter how much the Celestial tries to avoid it, these same adventures invariably result in the loss of its leg; thankfully, a congenial octopus supplies the prosthetic solution in the form of bottles it recovers from the surface of the living ocean.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Hornacle%20(adult).png?raw=true",
+    "cost": "10 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None, Zap, And Power Up!"]
+}

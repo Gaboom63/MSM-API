@@ -1,0 +1,8 @@
+{
+    "name": "Shugabeats",
+    "description": "While it's no stranger to stringed instruments, the Shugabeats has always had a closer affinity to the rhythm selection. An accomplished gardener, it cultivates and sustains a living drumkit made of different types of mushrooms. When struck, the cymbal-shrooms release a fine amber powder, which is why so many Shugabeats' beards are tinted likewise.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Shugabeats.png?raw=true",
+    "cost": "700 Diamonds",
+    "islands": ["shugabush"],
+    "breedingCombo": ["Shugabush + Furcorn"]
+}

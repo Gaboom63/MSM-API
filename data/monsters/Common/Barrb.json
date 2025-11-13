@@ -1,0 +1,8 @@
+{
+    "name": "Barrb",
+    "description": "On a moonlit night when a Barrb has reached maturity, its elegant neck foliage, formerly chartreuse, blooms into a luscious collar in a fetching shade of magenta. This collar quickly becomes the Barrb's pride and joy, requiring frequent waterings and plenty of sunlight.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Barrb.png?raw=true",
+    "cost": "100 Relics",
+    "islands": ["haven", "amber"],
+    "breedingCombo": ["Dandidoo + Kayna", "Flowah + Tweedle", "Glowl + Potbelly"]
+}

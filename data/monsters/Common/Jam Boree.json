@@ -1,0 +1,8 @@
+{
+    "name": "Jam Boree",
+    "description": "To say that the Seasonal Shanty is Jam-packed with goodwill and jubilation would be accurate, and that's largely thanks to the presence of the Jam Boree! For many years, the self-styled leader of the Shanty has taken it upon itself to try to organize the Seasonal trappings that festoon every corner of the floating hideaway. It's a very patient Monster, who looks forward every year to Anniversary Month when it throws a huge party for the migratory Seasonals coming home to roost! Jam Boree appreciates when Treats other than Cake are served at such shindigs.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Jam%20Boree%20-%20Year%2011.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": ["gold", "seasonal"],
+    "breedingCombo": ["Punkleton + Hoola"]
+}

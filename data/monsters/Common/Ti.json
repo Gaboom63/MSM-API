@@ -1,0 +1,8 @@
+{
+    "name": "Ti",
+    "description": "Timid in the light, Dipsters make their homes underground. The muffled monster music from above gives Dipsters the courage to rise and join the harmonious melody! ... although it may only be one note at a time. Dipsters are resourceful creatures, and collect natural materials to disguise the entrances to their tunnels. No one knows how far down a Dipster hole goes.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Ti.png?raw=true",
+    "cost": "Plant: 1 Key; Cold: 2 Key; Air: 3; Haven: 3; Oasis: 3; Water: 4; Earth: 5; Light: 6; Psychic: 6; Faerie: 6; Bone: 6; Ethereal: 7; Sanctum: 7",
+    "islands": ["plant", "cold", "air", "water", "earth", "ethereal", "haven", "oasis", "light", "psychic", "faerie", "bone", "sanctum", "mirror plant", "mirror cold", "mirror air", "mirror water", "mirror earth", "mirror light", "mirror psychic", "mirror faerie", "mirror bone"],
+    "breedingCombo": ["Buy From Shop."]
+}

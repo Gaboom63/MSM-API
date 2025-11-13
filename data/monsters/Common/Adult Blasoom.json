@@ -1,0 +1,8 @@
+{
+    "name": "Adult Blasoom",
+    "description": "For an Element with strong ties to forward-thinking concepts like rebirth and renewal, the adult Blasoom sure spends a lot of time thinking about the past. Specifically, the Plant Celestial fancies itself an aficionado of something called the Middle C Ages (no one's sure what that's in reference to). Its enthusiasm as a history buff knows no limits; it styles its growing facial ferns to resemble ancient heaumes (though it must be hard to see where you're going) and even organizes 'Renna-sawnts' fairs to march around at (one leg at a time).",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Blasoom%20(adult).png?raw=true",
+    "cost": "10 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

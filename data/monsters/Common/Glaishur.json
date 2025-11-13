@@ -1,0 +1,8 @@
+{
+    "name": "Glaishur",
+    "description": "Glaishur's rebirth has given it a perspective on life that is as new and bright as freshly fallen snow. The cheerfully chill Celestial is embracing its newfound joie de vivre by taking up a creative hobby: snow sculpture! Many of this frosty giant's oeuvres are meticulously sculpted in the image of the Cold Elementals who revere it, but these Monsterpieces do not last long. Once a sculpture is complete, it is then toppled and molded anew, representing an eternal circle of life.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Glaishur.png?raw=true",
+    "cost": "10 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Stogg",
+    "description": "As avid rock collectors, Stoggs relish digging into the earth with their powerful forelegs to find shiny new minerals. Unfortunately this absentminded Monster also enjoys burying their treasure, often forgetting the location soon after.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Stogg.png?raw=true",
+    "cost": "50 Relics",
+    "islands": ["haven", "faerie", "bone", "amber", "mirror faerie", "mirror bone"],
+    "breedingCombo": ["Noggin + Kayna"]
+}

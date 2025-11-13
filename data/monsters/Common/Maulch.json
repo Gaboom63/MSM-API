@@ -1,0 +1,8 @@
+{
+    "name": "Maulch",
+    "description": "Sometimes referred to as a 'Clodyawper,' the Maulch is a mound of potting soil with a pronounced underbite. Its vocalizations suggest it gargles with ballast and sandpaper for fun. Its berries - should one be so foolish as to sample them - taste like cinnamon mayonnaise mixed with ham cola and profound regret. The leaf-like appendage atop its noggin acts as a handy parasol, protecting it from inclement weather and some of the more peculiar atmospheric emissions endemic to Wublin Island. It's easily startled by hiccups and denim hats.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Maulch.png?raw=true",
+    "cost": "17000 Coins",
+    "islands": ["Wublin"],
+    "breedingCombo": ["None. Zap The Contents, And Power Up!"]
+}

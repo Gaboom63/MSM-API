@@ -1,0 +1,8 @@
+{
+    "name": "Auglur",
+    "description": "The Auglur leans heavily into its Mech-Element parentage, and blurs the line between the real and virtual worlds by manifesting a trio of hands with digital digits. You don't need augmented reality goggles to see them; the Auglur's power makes them visible to all. From there, it's a simple matter of gesturing and swiping in mid-air at 'sonic panels' that create soundscapes drawn from nostalgic dreams. Alright, maybe it's not actually so simple for you or I [sic] - but to the Auglur, it comes naturally… er, Ethereally.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Auglur.png?raw=true",
+    "cost": "1900 Diamonds",
+    "islands": ["workshop", "plasma", "mech"],
+    "breedingCombo": ["Plasma Meeb + Mech Meeb + Poison Meeb"]
+}

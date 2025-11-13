@@ -1,0 +1,8 @@
+{
+    "name": "Incisaur",
+    "description": "With a smile only a Monster mother could love, the charming Incisaur loves to munch on cold Treats like Ice Cream and popsicles day and night - lucky! Like all Monsters, its metabolism is designed to derive maximum nutrition from foods that humans might consider junk food, but its ability to bypass Ice Cream headaches and actually improve its focus with its frigid diet seems to be unique to this species. While this Quad might have aspired to be a beatboxer at one point, the Incisaur's wiggly teeth make that difficult (but still manage to produce a whole lot of spittle in the process).",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Incisaur.png?raw=true",
+    "cost": "300 Relics",
+    "islands": ["bone", "amber", "mirror bone"],
+    "breedingCombo": ["Buy From Shop"]
+}

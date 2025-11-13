@@ -1,0 +1,8 @@
+{
+    "name": "Stoowarb",
+    "description": "The Stoowarb is a good-natured goofball that uses its glorious gift of gab to bring merriment to Monsters. Impressions, one-liners, wisecracks, and general tomfoolery have earned this jovial jokester a reputation as the life of the party! While many assume the Stoowarb's third eye is imbued with clairvoyant powers, its friends know the truth: it simply serves to distract from this wily Werdo's formidable forehead.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Stoowarb.png?raw=true",
+    "cost": "100 Relics",
+    "islands": ["air", "earth", "mirror air", "mirror earth"],
+    "breedingCombo": ["Buy From Shop"]
+}

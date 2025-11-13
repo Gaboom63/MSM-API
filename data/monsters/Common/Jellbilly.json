@@ -1,0 +1,8 @@
+{
+    "name": "Jellbilly",
+    "description": "This rootin'-tootin' Ethereal is something of a legend to the scavenging Cybops of the neighboring dimension. Their cycloptic vision and distinctive vocal twang are modeled after the Jellbilly's own. Even though they may never meet face-to-face, Jellbillies generously return every piece of Cybop fan mail they receive, taking advantage of their many tentacles to write several replies at once.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Jellbilly.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": ["ethereal", "colossingum", "plasma"],
+    "breedingCombo": ["Ghazt + Humbug"]
+}

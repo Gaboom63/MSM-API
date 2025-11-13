@@ -1,0 +1,8 @@
+{
+    "name": "Ffidyll",
+    "description": "Nestled cozily among the clovers is where you'll find the pocket-sized Ffidyll. A bright-eyed Seasonal with a talent for fiddling and a penchant for partying, it's nonetheless an uncommon sight for the majority of the year. It appears most active around the time of the vernal equinox, which makes sense considering its verdurous presentation. There's a rumor that Ffidyll's snout can be used to sniff out caches of Coins, which it then generously distributes among its fellow Monsters. Even so, the snout's biggest claim to fame has supposedly been to serve as the inspiration for another long-nosed facade.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Ffidyll.png?raw=true",
+    "cost": "225 Diamonds",
+    "islands": ["faerie", "seasonal", "mirror faerie"],
+    "breedingCombo": ["Pladdie + Floot Fly", "Schmoochle + Blabbit"]
+}

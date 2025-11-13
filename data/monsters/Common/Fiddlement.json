@@ -1,0 +1,8 @@
+{
+    "name": "Fiddlement",
+    "description": "Fiddlements are powered by the very Element of Light itself, releasing huge amounts of incandescent energy through the filaments of their cranial bulbs. The intense amplitude of light waves creates a unique whirring sound within the bulb, which Fiddlements use to express themselves. Serendipitously, the lampshade-like cone created by a Fiddlement's body channels its raw luminescence like a spotlight, which this bright little Monster gladly shines on solo performances, late-night walks to the fridge, and potholes in need of repair",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Fiddlement.png?raw=true",
+    "cost": "300 Diamonds",
+    "islands": ["light", "nexus", "mirror light"],
+    "breedingCombo": ["Pluckbill + Mammott", "Boskus + Fluoress", "Bulbo + Kayna"]
+}

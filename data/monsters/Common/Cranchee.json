@@ -1,0 +1,8 @@
+{
+    "name": "Cranchee",
+    "description": "It's not surprising that some mistakenly pronounce the Cranchee's name as 'cranky' - the Dreamythical's disposition can sometimes seem a little frigid and standoffish. In an unusual role reversal, it appears that this Monster has sprung not from the Cold Mythical's imagination, but instead from its companion's, the Strombone! That would go a long way towards explaining why the Cranchee has a combination of aquatic and glacial traits. Underwater, the Cranchee's voice is said to be melic and mellifluous - out in the open air, its distorted 'boodap-badimbo' wail is nonetheless a welcome addition to the Mythical song.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Cranchee.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": ["mythical"],
+    "breedingCombo": ["Cataliszt + Strombonin"]
+}

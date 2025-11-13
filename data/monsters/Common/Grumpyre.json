@@ -1,0 +1,8 @@
+{
+    "name": "Grumpyre",
+    "description": "Another of the mysterious Ethereals, you can never fully tell what kind of mood the Grumpyre is in. Thanks to its shifting eyes and mouth as it gurgles forth its song, it might appear sad when really it's happy, or afraid when it's actually having a blast. This makes sense, since it embodies the essence of Shadow - always a bit obscured, and able to unnerve even the most intrepid of Monsters.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Grumpyre.png?raw=true",
+    "cost": "1000 Diamonds",
+    "islands": ["cold", "colossingum", "ethereal", "mirror cold"],
+    "breedingCombo": ["Deedge + Spunge", "Deedge + Thumpies", "Deedge + Congle", "Deedge + Bowgart"]
+}

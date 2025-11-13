@@ -1,0 +1,8 @@
+{
+    "name": "Phosphoran Phlox",
+    "description": "Stirred by the Monster denizens of Light Island, the Phosphoran Phlox has arisen! Is this entity the flower or the Monster? In short, it's both... and it's neither. The true nature of the Titansoul is complex: it's a physical manifestation of the 'soul' of the Phosphora Titan, but it also appears to have a life-force distinct from its Titanic host. Light Island Monsters play a vital role in its inspiriting, conferring Soul'er Power by 'Linking' to the Titansoul and progressively raising its power level. The Phosphoran Phlox is silent, but as its Soul'er Power grows, it is able to exercise astounding musical control over its environment: manipulating the Aurora Monstralis overhead, conjuring dazzling light effects along the Titan's brow, and transforming nodules into musical lamps! Phosphora's desire to join in the song is no doubt inspired by its mentor's admiration of the Colossals' musical gifts, and the Phosphoran Phlox helps to cement the Titan's place in the Monster World.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Phosphoran%20Phlox.png?raw=true",
+    "cost": "10,000,000 Coins",
+    "islands": ["light", "mirror light"],
+    "breedingCombo": ["Buy From Shop"]
+}

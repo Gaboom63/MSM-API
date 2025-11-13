@@ -1,0 +1,8 @@
+{
+    "name": "Osstax",
+    "description": "Not unlike other species in the Monster World, Osstax begin as disparate individuals who find each other and join together to make a whole greater than the sum of its parts. This can be a tricky process, though, as it's important for the individual beings to fit together perfectly, both physically and as a kinship group. The bottom Osstak is generally understood to be the leader and most important of the three, although there have been exceptions. The bony enamel of their exteriors, matched with the intricacy of their chambered interiors, produce a haunting wheeze that is identifiable across the entire Sanctum.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Osstax.png?raw=true",
+    "cost": "200 Diamonds",
+    "islands": ["sanctum"],
+    "breedingCombo": ["Floot Fly + Clackula"]
+}

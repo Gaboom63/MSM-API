@@ -1,0 +1,8 @@
+{
+    "name": "Pinghound",
+    "description": "Among the stars where the Water Mythical is believed to call home is a whole other world of sound. Alongside the main species of spacefaring beings, this corner of the cosmos was shared with a domesticated creature known as the Pinghound. Thanks to the power of dreamcraft, this beast can be drawn from the imagination and realized in physical form in the dreamscape of Mythical Island! Brave, loyal, and slightly territorial, Pinghounds also use a luminous and musical display to communicate. They are the close companions of Water Mythicals, who are delighted to be reunited with simulacra of their erstwhile pets in the Monster World.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Pinghound.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": ["mythical"],
+    "breedingCombo": ["Cataliszt + Anglow"]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Vhenshun",
+    "description": "Behold… a workshop within the Workshop! Fittingly, the Mech Quad Vhenshun looks like the wooden workbench of Monster antiquity where items and decorations alike were crafted… if that workbench sprang to life and swapped crafting for clanging! Not only is this contraption itself a product of mechanical invention, it's an inventor in its own right! The Monster is constantly experimenting with the materials available to devise new gadgets and gizmos - not unlike the Celestial that shares its Elemental affiliation. Rumors swirl around that it's planning a hi-Mech heist to distract Zarroë and escape into the great beyond, but we're not sure the world is prepared for Vhenshun impact.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Vhenshun.png?raw=true",
+    "cost": "3100 Diamonds",
+    "islands": ["workshop", "mech"],
+    "breedingCombo": ["Yooreek + 2 Of: Plasma Meeb + Shadow Meeb + Mech Meeb", "Blarret + 2 Of: Plasma Meeb + Shadow Meeb + Poison Meeb", "Auglur + 2 Of: Plasma Meeb + Mech Meeb + Poison Meeb", "Piplash + 2 Of: Shadown Meeb + Mech Meeb + Poison Meeb"]
+}

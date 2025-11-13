@@ -1,0 +1,8 @@
+{
+    "name": "Tiawa",
+    "description": "Proven as a keen leader, the Tiawa's very presence suggests a soothing sageness. In the face of adversity, the queenly Quad simply flourishes its crown of planks, and undertakes any situation or challenge with the help of its noble hearts (it grows a second one alongside a second eye as it ages). For many years, Monsters have followed the knowledgeable beat of Tiawa's drumming digits as it crafts subtle melodies. Even today, Tiawa continues to give priceless counsel to anyone, and will for generations to come.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Tiawa.png?raw=true",
+    "cost": "300 Relics",
+    "islands": ["light", "amber", "mirror light"],
+    "breedingCombo": ["Buy From Shop"]
+}

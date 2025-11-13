@@ -1,0 +1,8 @@
+{
+    "name": "Adult Vhamp",
+    "description": "When a problem comes along, you must revamp it. Faced with the eventual deterioration of its physical form, the adult Vhamp invests endless time and energy into novelty mechanisms, doodads and paintjobs to try and stay youthful and relevant. 'Mech-nical' difficulties being an inevitable part of the future, the Celestial of Mech has attempted to distract itself from such concerns by taking up a new hobby: a keen interest in all things Mythical.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Vhamp%20(adult).png?raw=true",
+    "cost": "10 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Sox",
+    "description": "According to monster lore, the ancestors of the Sox were self-conscious of the gaping holes in their tails. Over time, it was discovered that eating precious stones spurred the growth of peculiar metal pads over the holes. Quite by accident, Soxes learned they could use them, along with their tube-like snouts, to create smooth musical riffs! The age-old mystery of 'What does the Sox say' has now been solved.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Sox.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": ["ethereal", "colossingum", "plasma"],
+    "breedingCombo": ["Ghazt + Jeeode"]
+}

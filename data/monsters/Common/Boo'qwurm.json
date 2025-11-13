@@ -1,0 +1,8 @@
+{
+    "name": "Boo'qwurm",
+    "description": "Do you have a love of reading and brain teasers, but you're nervous about trying to crack open any of those fearsomely-toothed Bib'leos lyin' around? No sweat for the clever Boo'qwurm, who has a special way with the rambunctious creatures. Exceptionally well-read and stuffed to the brim with wit and wordplay, this Seasonal simply recites a favorite passage from memory or solves a particularly challenging word puzzle, and the Bib'leos immediately become docile. So docile, in fact, that a Boo'qwurm is able to use special pads in its hands to drum upon their covers and absorb all of the knowledge contained therein. It's supposedly much faster that way - makes studying for tests a breeze.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Boo_qwurm.png?raw=true",
+    "cost": "225 Diamonds",
+    "islands": ["psychic", "seasonal", "mirror psychic"],
+    "breedingCombo": ["Periscorp + Bonkers", "Schmoochle + Hoola"]
+}

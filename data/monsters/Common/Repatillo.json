@@ -1,0 +1,8 @@
+{
+    "name": "Repatillo",
+    "description": "The Repatillo is capable of rolling into a tight, armoured ball, ideal for barrelling down steep hills and valleys. It is a mystery how Repatillos managed to tuck away their many limbs, though their fellow Monsters have a few theories.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Repatillo.png?raw=true",
+    "cost": "100 Relics",
+    "islands": ["haven", "amber"],
+    "breedingCombo": ["Shrubb + Kayna", "Stogg + Potbelly", "Flowah + Noggin"]
+}

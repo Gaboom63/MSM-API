@@ -1,0 +1,8 @@
+{
+    "name": "Vhamp",
+    "description": "There's nothing like a good tune-up for the Mech Celestial! Vhamp’s revival was like a cosmic car wash, removing centuries of rust and rubble to reveal a shining new Monster beneath. Movin’ and shakin' like a well-oiled machine, Vhamp now spends its days making repairs to the broken down Island it calls home, collecting shiny scraps all the while.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Vhamp.png?raw=true",
+    "cost": "8 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

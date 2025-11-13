@@ -1,0 +1,8 @@
+{
+    "name": "Tympa",
+    "description": "One might reasonably conclude that rat-tat-tapping upon its own eardrums all day would give the Tympa a headache. On the contrary, this Wublin delights in banging the drum - particularly for a good cause! While it doesn't have much in terms of material wealth, it selflessly devotes its time and energy to helping fellow Monsters however it can, making the Tympa a very good friend, indeed.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Tympa.png?raw=true",
+    "cost": "34000 Coins",
+    "islands": ["wublin"],
+    "breedingCombo": ["None. Zap The Contents, And Power Up!"]
+}

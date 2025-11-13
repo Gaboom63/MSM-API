@@ -1,0 +1,8 @@
+{
+    "name": "Knucklehead",
+    "description": "The golem-like Knucklehead possesses a level of strength nearly unmatched in all of the Monster World. When the Monster slams its gargantuan fists together to produce its signature sound, small quantities of light emanate from the impact. This strength is seldom on display when the Knucklehead is not performing, however - instead, its favorite pastimes include delicate needlework and sculpting miniature clay models for use in role-playing tabletop gaming.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Knucklehead.png?raw=true",
+    "cost": "200 Diamonds",
+    "islands": ["sanctum"],
+    "breedingCombo": ["Floot Fly + Fluoress"]
+}

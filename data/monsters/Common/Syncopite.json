@@ -1,0 +1,8 @@
+{
+    "name": "Syncopite",
+    "description": "Syncopite is a Diamond in the rough: unpolished and unrefined, yet glistening with an immense potential concealed inside its crude frame. The rugged Celestial has a surprisingly magnetic personality, capable of uniting its fellow Monsters and forging rock-solid friendships. Unfortunately, this inherent magnetism can be troublesome for the mineralized Monster, whose thoughts are frequently interrupted by the sudden collision of stones against its crystalline cranium.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Syncopite.png?raw=true",
+    "cost": "11 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

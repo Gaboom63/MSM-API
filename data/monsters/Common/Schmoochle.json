@@ -1,0 +1,8 @@
+{
+    "name": "Schmoochle",
+    "description": "No one can agree on how the two-headed Schmoochle came to be. Some say that it began as two individual Monsters who fell so deeply in love with each other that they forfeited their own bodies and decided to live together in just one. Others insist that they are just born that way, arriving in a puff of brightly-colored feathers. In any case, a Schmoochle is always a welcome addition to the Air Island chorus.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Schmoochle.png?raw=true",
+    "cost": "225 Diamonds",
+    "islands": ["air", "colossingum", "gold", "seasonal", "mirror air"],
+    "breedingCombo": ["Riff + Tweedle"]
+}

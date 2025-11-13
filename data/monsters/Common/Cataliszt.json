@@ -1,0 +1,8 @@
+{
+    "name": "Cataliszt",
+    "description": "If questioned where it came from, the Cataliszt will reply that it has always existed in the reveries of other Monsters. The reclining feline Dream Elemental is the pioneer and most prominent practitioner of dreamcraft, a special branch of summoning magic that permits somnolent teleportation AND makes manifest the wildest and wackiest figments of the imagination. To accomplish this, the Cataliszt focuses its attention on the 'Cradle,' a tangle of threads strung between its stocky limbs. It will playfully strum and swat at the Cradle to accumulate enough dream energy to cough up a hairball spore, which will react opposite the eggs of the Mythicals to produce exotic 'Dreamythicals' for all to enjoy.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Cataliszt.png?raw=true",
+    "cost": "100000 Coins",
+    "islands": ["mythical"],
+    "breedingCombo": ["Buy From Shop"]
+}

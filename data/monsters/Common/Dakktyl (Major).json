@@ -1,0 +1,8 @@
+{
+    "name": "Dakktyl (Major)",
+    "description": "Hey I know you! The frenetically flailing flurry of bombastic energy from this enneapod is positively infectious! But one look at the jaunty gesticulations of Dakktyl, and you'll start to have a hard time telling up from down. You'd think the fate of the Monster World depended on it with the amount of gusto the Bombast Paironormal puts into its performance, but it's actually essential for the Monster to maintain its form. Dakktyl is constantly one pop or lock away from collapsing, and is paradoxically able to maintain perfect stability through complete chaotic disorder. Perhaps it is thanks to its unconventional symmetry, or the fact that the Monster's undeniable amount of sass is somehow present in both its Major and Minor forms. However, the real question is whether or not the Dakktyl knowingly participates in such strenuous physical activity when its energy is going to run out eventually? The toll is certainly visible in the ruined posture and flexibility of its Minor manifestation. Sometimes it's possible that the clanging and banging of its inner parts can even cause of state of self-inflected [sic] amnesia for Dakktyl, and that it must start every new day with a freshly-wiped memory, but… ¡noʎ ʍouʞ I ʎǝH",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Dakktyl%20(Major).png?raw=true",
+    "cost": "3000 Diamonds",
+    "islands": ["paironormal"],
+    "breedingCombo": ["Owlesque + Arcorina"]
+}

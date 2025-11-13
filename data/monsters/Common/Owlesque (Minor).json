@@ -1,0 +1,8 @@
+{
+    "name": "Owlesque (Minor)",
+    "description": "The Hoax Paironormal lives by the four D's: deceive, dissemble, dissimulate and distract! Owlesque's Major and Minor forms symbolize the false projection of ourselves that we present to others, and the true self that we keep concealed. Yet, neither form is any less lovely than the other: with a simple flip, both aspects of Owlesque are equally striking, offering an unsettlingly strigine elegance and eye-catching markings (if you know which eye to catch). For all its supposed trickery, this Paironormal's existence encourages radical acceptance of all aspects of ourselves, and its piercing eyes (both camouflaged and corporeal) dare you to believe that beauty is simply a matter of perspective.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Owlesque%20(Minor).png?raw=true",
+    "cost": "900 Diamonds",
+    "islands": ["mirror faerie", "paironormal"],
+    "breedingCombo": ["Pladdie + Ziggurab", "Pladdie + Cantorell", "Pladdie + Bridg-it", "Pladdie + Clavi Gnat"]
+}

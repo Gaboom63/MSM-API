@@ -1,0 +1,8 @@
+{
+    "name": "Adult Syncopite",
+    "description": "Patience has been rewarded for the bejeweled adult Syncopite, who has finally grown enough crystals to form them into the individual articulated elements of hands. Fearing that someday they may fuse to its stocky body, the middle-aged Celestial of Crystal wastes no time in waving its hands around and wildly gesticulating while performing. Its reach is not limitless, however; asked whether it can extend to scratch the top of its 'head', Syncopite replies: 'Can't touch this.'",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Syncopite%20adult).png?raw=true",
+    "cost": "10 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

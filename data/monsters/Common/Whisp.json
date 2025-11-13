@@ -1,0 +1,8 @@
+{
+    "name": "Whisp",
+    "description": "Even though it may look like the Whisp doesn't get out too often, nothing could be further from the truth. It loves to swoop, glide and careen through the phantasmagorical terrain of Ethereal Island, entertaining other Monsters with its mellifluous voice and charming conversational skills. Whisps don't cast reflections in mirrors, which makes it difficult to preen their stylish hairdos.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Whisp.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": ["ethereal", "colossingum", "plasma"],
+    "breedingCombo": ["Ghazt + Grumpyre"]
+}

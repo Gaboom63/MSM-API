@@ -1,0 +1,8 @@
+{
+    "name": "Shugabass",
+    "description": "This cool customer delivers a mean bass line, but that's the only mean thing about it! The Shugabass is steadfastly supportive of its fellow Monsters and can always be relied on to say a kind word or crack a good joke. The slowest moving member of the Shugafam, the Shugabass' pelt is the perfect environment for a special fungus to thrive which gives it its distinctive teal color.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Shugabass.png?raw=true",
+    "cost": "700 Diamonds",
+    "islands": ["shugabush"],
+    "breedingCombo": ["Shugabush + Potbelly"]
+}

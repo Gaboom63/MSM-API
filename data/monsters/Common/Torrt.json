@@ -1,0 +1,8 @@
+{
+    "name": "Torrt",
+    "description": "Torrt is the rock that all Earth Elementals lean on: dependable, unwavering, and grounded. The steady beat of its drum actively defies the laws of physics, resonating throughout the Monster World and within each Earth Elemental regardless of distance or acoustics. This enduring rhythm has been harnessed by the Monsters for many surprising purposes, including lulling rambunctious young Monsters to sleep.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Torrt.png?raw=true",
+    "cost": "7 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

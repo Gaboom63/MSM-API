@@ -1,0 +1,8 @@
+{
+    "name": "Adult Galvana",
+    "description": "Energized by the Electrical currents that crackle at its finger (and toe) tips, adult Galvana has found a healthy outlet through physical activity. The Celestial of Electricity has grown into a star athlete capable of impressive orb control and unparalleled stamina. Galvana is a natural leader with a strong sense of sportsMonship, proudly taking on a team captain role and guiding its fellow Monsters with words of encouragement and motivation. It's the MVP of any Monster orchestra!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Galvana (adult).png?raw=true",
+    "cost": "10 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

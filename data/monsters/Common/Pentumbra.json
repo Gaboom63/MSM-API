@@ -1,0 +1,8 @@
+{
+    "name": "Pentumbra",
+    "description": "Even though its official species name is recognized to be 'Pentumbra' (because of its five limbs and the shadow it casts), everyone just wants to call this Monster a 'Shady Long-Legs'. The Ethereal Quad's affinity for the Shadow Element causes an unusual sticky pink residue to form on its legs - something to do with the fact that they're so often bathed in darkness. Apparently this phenomenon has been known to happen at large scale, when the dark matter of the Rift between dimensions seeps out from interdimensional fractures. It could be a trick of light, but the gloom that dwells beneath a Pentumbra almost seems to take a life of its own... but because it's nothing more than a shadow of a shade, it tends to imitate other beings' sounds rather than create its own.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Pentumbra.png?raw=true",
+    "cost": "3200 Diamonds",
+    "islands": ["workshop"],
+    "breedingCombo": ["Meebkin + 2 Of: Plasma Meeb + Shadow Meeb + Crystal Meeb", "Blarret + 2 Of: Plasma Meeb + Shadow Meeb + Poison Meeb", "Flasque + 2 Of: Plasma Meeb + Crystal Meeb + Poison Meeb", "X'rt + 2 Of: Shadow Meeb + Crystal Meeb + Poison Meeb"]
+}

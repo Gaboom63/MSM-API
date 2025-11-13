@@ -1,0 +1,8 @@
+{
+    "name": "Gnarls",
+    "description": "Depending on how you look at it, Gnarls are both bigger and smaller than any of the other Quint-Element Monsters. Bigger in the sense that each 'being' is actually comprised of multiple organisms instead of just one; and smaller because the Gnarls themselves are actually quite minuscule! Some might say they are little more than parasitic vines that attach themselves to a tree and coordinate to hijack the plant's latent motor functions. Then it's a simple matter of working together to 'animate' the tree's trunk and branches to give it a full range of motion. Each Gnarl operates the opposite side of the tree, and synchronously conjoin their tendrils to form a 'mouth' through which wind can blow to produce sound. Mercifully, the tree doesn't perceive this transformation as troublesome - instead, it delights in the opportunity to explore the Monster World and make music! Another mercy is that the Plant Top Boss's dual intelligences are satisfied to stick to one tree - no need to 'infect' anyone else.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Gnarls.png?raw=true",
+    "cost": "500 Relics",
+    "islands": ["bone", "amber", "mirror bone"],
+    "breedingCombo": ["Buy From Shop"]
+}

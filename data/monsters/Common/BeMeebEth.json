@@ -1,0 +1,8 @@
+{
+    "name": "BeMeebEth",
+    "description": "It's alive! Not since the creation of the Wubbox has Monsterkind witnessed such a significant scientific achievement. The gargantuan BeMeebEth represents the pinnacle of Zarroë's mad tinkering and endless experimentation. The Ethereal Quint towers over the other denizens of the Ethereal Workshop, inspiring awe and apprehension in equal measure. Visible in its unstable composition are all five Ethereal Elements: Plasmic tentacles, Shadowy claws, Crystalline cartilage, pockmarked Poisonous spines, and the Mech-nical jaw that houses its mighty brain. From the moment it erupted from the Synthesizer's upper bulb, there was no question that this Monster was the Top Boss of the Workshop.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/BeMeebEth.png?raw=true",
+    "cost": "5555 Diamonds",
+    "islands": ["workshop"],
+    "breedingCombo": ["Whail + 3 Of: Plasma Meeb + Shadow Meeb + Mech Meeb + Crystal Meeb", "Vhenshun + 3 Of: Plasma Meeb + Shadow Meeb + Mech Meeb + Poison Meeb", "Pentumbra + 3 Of: Plasma Meeb + Shadow Meeb + Crystal Meeb + Poison Meeb", "Rhysmuth + 3 Of: Plasma Meeb + Mech Meeb + Crystal Meeb + Poison Meeb", "Oogiddy + 3 Of: Shadow Meeb + Mech Meeb + Crystal Meeb + Poison Meeb"]
+}

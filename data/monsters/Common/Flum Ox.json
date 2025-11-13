@@ -1,0 +1,8 @@
+{
+    "name": "Flum Ox",
+    "description": "A great deal of study has gone into understanding how the branched horns of the Flum Ox can bend and flex, seemingly at the Monster's whim. The tines at their tips are solid and sturdy to the touch, but for a moment later, can be observed forming a variety of gestures. Could it be that this Fire Quad's ability to achieve a state of rhythmic bliss is responsible for this phenomenon? Or perhaps it's its deep communion with its Elements, and which additionally allows it to levitate? The mystery endures, but no one could ever argue that being around a Flum Ox is a serene experience, indeed.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Flum%20Ox.png?raw=true",
+    "cost": "300 Relics",
+    "islands": ["bone", "amber", "mirror bone"],
+    "breedingCombo": ["Buy From Shop"]
+}
