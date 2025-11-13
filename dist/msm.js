@@ -28,26 +28,60 @@
       baseName = words.slice(1).join(" ");
     }
 
-    const fileName = baseName
-      .split(' ')
-      .map(w => w.charAt(0).toUpperCase() + w.slice(1))
-      .join(' ');
+    const fileName = baseName.replace(
+      /(^|[\s'-])([a-z])/g,
+      (m, before, letter) => before + letter.toUpperCase()
+    );
 
     return { folder, file: fileName };
   }
+
 
 
   async function getMonster(name) {
     const { folder, file } = resolveMonsterPath(name);
     const url = `${BASE_URL}${folder}/${file}.json`;
 
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`Monster ${name} not found at ${url}`);
+    let res = await fetch(url);
+
+    // If the monster isn't found, try fuzzy matching
+    if (!res.ok) {
+      console.warn(`Direct fetch failed for ${file}. Trying fuzzy match...`);
+
+      const apiUrl = `https://api.github.com/repos/gaboom63/MSM-API/contents/data/monsters/${folder}`;
+      const listRes = await fetch(apiUrl);
+
+      if (!listRes.ok) throw new Error(`Monster ${name} not found at ${url}`);
+      const files = await listRes.json();
+
+      // Normalize names for comparison
+      const normalize = s => s.toLowerCase().replace(/[^a-z]/g, "");
+      const target = normalize(file);
+
+      // Find closest match (exact letters, ignoring punctuation/case)
+      let bestMatch = null;
+      for (const f of files) {
+        if (f.name.endsWith(".json")) {
+          const base = f.name.replace(".json", "");
+          if (normalize(base) === target) {
+            bestMatch = f.name;
+            break;
+          }
+        }
+      }
+
+      if (!bestMatch) {
+        throw new Error(`Monster ${name} not found (even with fuzzy search) in ${folder}`);
+      }
+
+      console.warn(`Resolved fuzzy match: ${file} → ${bestMatch}`);
+      res = await fetch(`${BASE_URL}${folder}/${bestMatch}`);
+      if (!res.ok) throw new Error(`Failed to load fuzzy match ${bestMatch}`);
+    }
+
     const data = await res.json();
 
-    // ✅ Do NOT overwrite data.image at all — just trust the JSON
-    // (If some JSONs are missing the field, you could handle that separately.)
-
+    // (rest of your code remains unchanged)
     const monsterImageCache = {};
 
     return {
@@ -55,12 +89,10 @@
 
       async loadImage(imgElement) {
         let img = document.getElementById(imgElement);
-
         if (!img) {
           const elements = document.getElementsByClassName(imgElement);
           if (elements.length > 0) img = elements[0];
         }
-
         if (!img) {
           console.error(`Image element with ID or class "${imgElement}" not found`);
           return;
@@ -69,7 +101,6 @@
         const monsterName = data.name.toLowerCase();
         const monsterImageCache = getMonster.cache || (getMonster.cache = {});
 
-        // ✅ If cached, use it
         if (monsterImageCache[monsterName]) {
           img.src = monsterImageCache[monsterName];
           return;
@@ -77,10 +108,6 @@
 
         try {
           let src = data.image;
-
-          // ✅ Handle relative paths (optional)
-          // For example, if the JSON says "images/bm/JamBoree.png",
-          // prepend the GitHub base URL automatically
           if (src && !src.startsWith("http")) {
             src = `https://raw.githubusercontent.com/gaboom63/MSM-API/master/${src}`;
           }
