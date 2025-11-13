@@ -28,9 +28,14 @@
       baseName = words.slice(1).join(" ");
     }
 
-    const fileName = baseName.replace(/\b\w/g, (c) => c.toUpperCase());
+    const fileName = baseName
+      .split(' ')
+      .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(' ');
+
     return { folder, file: fileName };
   }
+
 
   async function getMonster(name) {
     const { folder, file } = resolveMonsterPath(name);
