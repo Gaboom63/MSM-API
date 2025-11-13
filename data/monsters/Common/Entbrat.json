@@ -1,0 +1,8 @@
+{
+    "name": "Entbrat",
+    "description": "The complex combination of elements that produces an Entbrat results in a truly gentle giant. This massive Monster's great bellow vibrates the particles of the world from the clouds in the sky to the stones in the ground. Entbrats are not notably intelligent.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Entbrat.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": ["plant", "colossingum", "gold", "tribal", "composer", "mirror plant"],
+    "breedingCombo": ["Shrubb + Maw", "Oaktopus + Drumpler", "Furcorn + Fwog"]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "Mimic",
+    "description": "Mimic?! What are you doing here? We now have substantial evidence that the shapeshifting Air Top Boss has been laying low in the Monster World ever since the Dawn of Fire, masquerading as its fellow Monsters. Previously, these imitations have extended only to appearance and sound, but now it seems like the Mimic is upping the ante and trying to pass itself off as a Relic-seeking Fire Monster. Those in the know are wise to its chicanery, but the rabble has been successfully duped - the trick has something to do with the mysterious atmosphere the Mimic can generate around itself, and the way light bends around it. That voice, though… there’s no mistaking that voice.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Mimic.png?raw=true",
+    "cost": "500 Relics",
+    "islands": ["oasis"],
+    "breedingCombo": ["Buy From Shop"]
+}

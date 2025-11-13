@@ -1,0 +1,8 @@
+{
+    "name": "Drumpler",
+    "description": "One would not expect the progeny of Earth and Cold to be an elastic creature, but the Drumpler is exactly that. Its tough abdominal hide can be stretched taut to produce sound, yet the Drumpler experiences no discomfort whatsoever.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Drumpler.png?raw=true",
+    "cost": "30 Diamonds",
+    "islands": ["plant", "air", "earth", "colossingum", "gold", "faerie", "tribal", "composer", "mirror plant", "mirror air", "mirror earth", "mirror faerie"],
+    "breedingCombo": ["Noggin + Mammott"]
+}

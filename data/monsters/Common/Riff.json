@@ -1,0 +1,8 @@
+{
+    "name": "Riff",
+    "description": "Riffs are masterful musicians. Very little is known about these complex Monsters, but they do have some distinct and unusual habits. For example, Riffs use their flexible toes to select random objects from the ground which they inspect, then eat.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Riff.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": ["air", "colossingum", "gold", "tribal", "composer", "mirror air"],
+    "breedingCombo": ["Cybop + Maw", "Quibble + Drumpler", "Pango + Fwog"]
+}

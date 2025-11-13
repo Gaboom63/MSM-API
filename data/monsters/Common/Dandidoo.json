@@ -1,0 +1,8 @@
+{
+    "name": "Dandidoo",
+    "description": "With downy puffs shimmering in the slightest breath of wind, a Dandidoo sashays elegantly across the landscape. It is much less inclined to strut after it has gone to seed and the puffs have blown away.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Dandidoo.png?raw=true",
+    "cost": "30 Diamonds",
+    "islands": ["cold", "water", "earth", "colossingum", "gold", "haven", "tribal", "composer", "mirror cold", "mirror water", "mirror earth"],
+    "breedingCombo": ["Tweedle + Potbelly"]
+}

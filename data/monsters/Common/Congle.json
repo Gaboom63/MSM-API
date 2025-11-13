@@ -1,0 +1,8 @@
+{
+    "name": "Congle",
+    "description": "So that's what happens to the shells when Monsters hatch! Congles are great recyclers, and use a lot of drums. Eggshells can only stand so much pounding, after all.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Congle.png?raw=true",
+    "cost": "50 Diamonds",
+    "islands": ["cold", "air", "colossingum", "gold", "oasis", "tribal", "composer", "mirror cold", "mirror air"],
+    "breedingCombo": ["Maw + Tweedle", "Pango + Toe Jammer", "Quibble + Mammott"]
+}

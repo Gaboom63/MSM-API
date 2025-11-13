@@ -1,0 +1,8 @@
+{
+    "name": "Thumpies",
+    "description": "Thumpies are well-adapted to inter-dimensional travel, and can be found throughout the multiverse. In fact, they even have their own game (now remastered and better than ever)!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Thumpies.png?raw=true",
+    "cost": "50 Diamonds",
+    "islands": ["cold", "earth", "gold", "tribal", "composer", "mirror cold", "mirror earth"],
+    "breedingCombo": ["Dandidoo + Mammott", "Pango + Potbelly", "Furcorn + Tweedle"]
+}
