@@ -40,46 +40,52 @@
     if (!res.ok) throw new Error(`Monster ${name} not found at ${url}`);
     const data = await res.json();
 
-    let newName = name
-      .split(" ")
-      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(" ");
+    // ✅ Do NOT overwrite data.image at all — just trust the JSON
+    // (If some JSONs are missing the field, you could handle that separately.)
 
-    data.image = `https://raw.githubusercontent.com/gaboom63/MSM-API/master/images/bm/${encodeURIComponent(newName)}.png`;
     const monsterImageCache = {};
 
     return {
       ...data,
+
       async loadImage(imgElement) {
-        // Try to find by ID first
         let img = document.getElementById(imgElement);
 
-        // If not found, try by class name (use first matching element)
         if (!img) {
           const elements = document.getElementsByClassName(imgElement);
-          if (elements.length > 0) {
-            img = elements[0];
-          }
+          if (elements.length > 0) img = elements[0];
         }
 
-        // If still not found, fail like before
         if (!img) {
           console.error(`Image element with ID or class "${imgElement}" not found`);
           return;
         }
 
-        const monsterName = data.name.toLowerCase(); // for cache
+        const monsterName = data.name.toLowerCase();
         const monsterImageCache = getMonster.cache || (getMonster.cache = {});
 
-        // If cached, use it
+        // ✅ If cached, use it
         if (monsterImageCache[monsterName]) {
           img.src = monsterImageCache[monsterName];
           return;
         }
 
         try {
-          // data.image is already a URL string
-          const src = data.image;
+          let src = data.image;
+
+          // ✅ Handle relative paths (optional)
+          // For example, if the JSON says "images/bm/JamBoree.png",
+          // prepend the GitHub base URL automatically
+          if (src && !src.startsWith("http")) {
+            src = `https://raw.githubusercontent.com/gaboom63/MSM-API/master/${src}`;
+          }
+
+          if (!src) {
+            console.warn(`No image specified for ${data.name}`);
+            img.src = "";
+            return;
+          }
+
           monsterImageCache[monsterName] = src;
           img.src = src;
         } catch (err) {
@@ -87,6 +93,7 @@
           img.src = "";
         }
       },
+
       islands(islandName) {
         const firstWord = islandName.split(" ")[0].toLowerCase();
         return data.islands.includes(firstWord)
@@ -94,7 +101,7 @@
           : `${data.name} is not on ${islandName}.`;
       },
       island() {
-        return data.islands
+        return data.islands;
       },
       description() {
         return `${data.name}'s Description: ${data.description || "No description available."}`;
@@ -115,6 +122,7 @@
       },
     };
   }
+
 
   const MSM = new Proxy({}, {
     get(target, prop) {
