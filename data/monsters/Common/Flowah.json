@@ -2,7 +2,19 @@
     "name": "Flowah",
     "description": "Every rose has its thorns, but you'll find that the Flowah tends to be a little more 'thorn' than 'rose.' This burly beast may seem like a curmudgeon, but beneath its prickly exterior lies a soul that's sweeter than honeysuckle.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Flowah.png?raw=true",
-    "cost": "50 Relics",
-    "islands": ["haven", "light", "psychic", "amber", "mirror light", "mirror psychic"],
-    "breedingCombo": ["Potbelly + Kayna"]
+    "cost": "Haven, Light, Psychic: 50 Relics, Amber: 10 Relics",
+    "islands": [
+        "haven",
+        "light",
+        "psychic",
+        "amber",
+        "mirror light",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Potbelly + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 10 hr, Enhanced Time: 7 hr 30 min"
+    ]
 }

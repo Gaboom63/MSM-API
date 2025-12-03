@@ -3,6 +3,16 @@
     "description": "The shy and unsightly Dermit harbors clusters of itchy warts all over its skin, but what is an occasional nuisance for the Wublin is the great boon for mushrooms of all varieties. As quickly as the Monster can scratch away new growths with its long nails, there's more where that came from. Oh well, spontaneous singing is as good a salve as any!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Dermit.png?raw=true",
     "cost": "17000 Coins",
-    "islands": ["wublin"],
-    "breedingCombo": ["None. Zap The Contents, And Power Up!"]
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative from: Scargo, Negative toward: Gheegur, Positive from: Zynth, Positive toward: Thwok"
+    ],
+    "powerUpTime": [
+        "3 Days"
+    ]
 }

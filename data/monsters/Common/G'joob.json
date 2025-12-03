@@ -2,7 +2,16 @@
     "name": "G'joob",
     "description": "Lethargic as they come, G'joobs are healthy eaters and even better sleepers. They spend most of their time drowsing under trees, using their six flippers to drag themselves around and waiting for the sun to come so they can try and get a tan. It's believed that the circular breathing prowess honed in their musical offerings is the secret to how they rest so easy.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/G_joob.png?raw=true",
-    "cost": "225 Diamonds",
-    "islands": ["plant", "mythical", "mirror plant"],
-    "breedingCombo": ["Pummel + T-Rox"]
+    "cost": "Plant: 225 Diamonds, Mythical: 500 Diamonds",
+    "islands": [
+        "plant",
+        "mythical",
+        "mirror plant"
+    ],
+    "breedingCombo": [
+        "Pummel + T-Rox"
+    ],
+    "breedingTime": [
+        "Breeding Time: 18 hr, Enhanced Time: 13 hr 30 min"
+    ]
 }

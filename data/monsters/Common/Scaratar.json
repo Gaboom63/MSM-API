@@ -3,6 +3,10 @@
     "description": "While Scaratar may reign over the element of Poison, the serene Celestial wouldn't hurt a Humbug. The only thing that this pacifist prods with its surprisingly venomous forelegs is its instrument, whose harmonious sound echoes throughout the Monster World like an antidote coursing through the body. Despite its tranquil nature, it's certainly wise not to sneak up on a Scaratar: if it pricks you by surprise, you may be left with an embarrassing case of Tweedle Pox.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Scaratar.png?raw=true",
     "cost": "9 Keys",
-    "islands": ["celestial"],
-    "breedingCombo": ["None. Zap, And Power Up!"]
+    "islands": [
+        "celestial"
+    ],
+    "breedingCombo": [
+        "None. Zap, And Power Up!"
+    ]
 }

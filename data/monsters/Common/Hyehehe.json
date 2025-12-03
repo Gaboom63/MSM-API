@@ -3,6 +3,15 @@
     "description": "If misfortune befalls you and you hear a snickering laugh nearby, you've been pranked by the one and only Hyehehe. This triple-eared trickster revels in the hot and humid weather patterns characteristic of Earth Island, and uses it as a base of operations for its scheming. The Monster adorns its motley coat with a range of foreign symbols observed from the human world, and styles itself as a kind of court jester for its own world. In a startling turn of events, it was recently ascertained that the former #1 prankster of the Monster World, the Hoola, is actually Hyehehe's disciple! The Seasonal learned everything it knows about hoodwinking other Monsters from the cackling Mythical who shares its preferred habitat. It's also believed that this jokester was responsible for popularizing the name 'Hahoo' for the foremost stone scribe - turns out that's not the Titan's real name at all! The Hyehehe is named, of course, after the iconic laughing call it makes as it dances… although in the summer months, it has been known to emit a low ha.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Hyehehe.png?raw=true",
     "cost": "225 Diamonds",
-    "islands": ["earth", "mythical", "mirror earth"],
-    "breedingCombo": ["Thumpies + PomPom"]
+    "islands": [
+        "earth",
+        "mythical",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Thumpies + PomPom"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 4 hr, Enhanced Time: 21 hr"
+    ]
 }

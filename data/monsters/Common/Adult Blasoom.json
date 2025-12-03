@@ -4,5 +4,6 @@
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Blasoom%20(adult).png?raw=true",
     "cost": "10 Keys",
     "islands": ["celestial"],
-    "breedingCombo": ["None. Zap, And Power Up!"]
+    "breedingCombo": ["None. Zap, And Power Up!"],
+    "breedingTime": ["Ascend For 10 Keys"]
 }

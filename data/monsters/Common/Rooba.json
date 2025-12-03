@@ -1,8 +1,22 @@
 {
     "name": "Rooba",
-    "description": "",
+    "description": "In keeping with the biology of their coiffed-calved relatives, Roobas consume a holistic plant-based diet that not only gives them a lush green hue, but also a foliage-like consistency to their furthered body - and even accelerated hair growth! This naturalistic Monster will be happy to open your mind to a wild world of vegetation, from its fondness for fronds to its soft spot for sprouts. Just make sure to check for stray hairs before dining!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rooba.png?raw=true",
-    "cost": "",
-    "islands": [],
-    "breedingCombo": []
+    "cost": "300 Diamonds",
+    "islands": [
+        "psychic",
+        "nexus",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Flowah + Theremind",
+        "Bonkers + Kayna",
+        "Yuggler + Potbelly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+    ],
+    "orbTime": [
+        "Orb Time: 1 day 10 hr"
+    ]
 }

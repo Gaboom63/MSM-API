@@ -3,6 +3,15 @@
     "description": "Indigenous to the aquaslime pools of Ethereal Island, this blubberous beast always wants to be smack dab in the middle of the action. So that they never miss out on that action, Bellowfish cooperate to create each other's crystal-powered mechanized suits, which let them leave the water and join in the musical menagerie. That said, they're not particularly known for their punctuality; if there's a latecomer to a Monster party, it's safe to assume a Bellowfish is the one who knocks.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Bellowfish.png?raw=true",
     "cost": "1250 Diamonds",
-    "islands": ["ethereal", "colossingum", "mech"],
-    "breedingCombo": ["Reebro + Jeeode"]
+    "islands": [
+        "ethereal",
+        "colossingum",
+        "mech"
+    ],
+    "breedingCombo": [
+        "Reebro + Jeeode"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 18 hr, Enhanced Time: 1 day 7 hr 30 min, Islet Breeding Time: 20 hr"
+    ]
 }

@@ -3,6 +3,16 @@
     "description": "Nobody is sure whether the constant collision of the Scargo's clash cymbal-tipped eye-stalks causes it any discomfort, or if the Wublin has just gotten used to it. What is sure is that this Monster's technique is near-perfection - many new percussionists can't seem to get a handle on the proper grip. Then again, if the cymbals were attached to you, you might figure it out quicker than most, too.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Scargo.png?raw=true",
     "cost": "3000 Coins",
-    "islands": ["wublin"],
-    "breedingCombo": ["None. Zap The Contents, And Power Up!"]
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "powerUpTime": [
+        "3 day"
+    ],
+    "polarity": [
+        "Negative from: Maulch, Negative toward: Dermit, Positive from: Blipsqueak, Positive toward: Pixolotl"
+    ]
 }

@@ -3,6 +3,18 @@
     "description": "Yooreek… uh… what's the story behind this Monster? It seems to possess an organic exterior, but the sound it produces definitely evokes something more robotic. Perhaps this trait is 'inherited' from auditory residue from former residents of the Workshop. This Ethereal and Gaddzooks appear to have a lot of genetic programming in common, but the quirks of the attunement and synthesis processes have resulted in markedly different final products. It matters little to these two, who savor each other's company and really 'click' musically.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Yooreek.png?raw=true",
     "cost": "1500 Diamonds",
-    "islands": ["workshop", "plasma", "mech"],
-    "breedingCombo": ["Plasma Meeb + Shadow Meeb + Mech Meeb"]
+    "islands": [
+        "workshop",
+        "plasma",
+        "mech"
+    ],
+    "breedingCombo": [
+        "Plasma Meeb + Shadow Meeb + Mech Meeb"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 6 hr"
+    ],
+    "synthesisTime": [
+        "Success: 1 day 6 hr, Failure: 10 hr"
+    ]
 }

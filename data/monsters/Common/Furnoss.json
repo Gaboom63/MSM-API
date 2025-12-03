@@ -3,6 +3,10 @@
     "description": "Upon its revival, Furnoss sensed that once-bright flame of the Fire Element had dimmed to a faint ember. The fiercely devoted Celestial of Fire recalled that even the tiniest of sparks can be reignited and began to drum diligently, its resounding beat stoking the flames of hope within all Fire Elementals. With the Fire Element beginning to glow again, Furnoss now stores the Monster World's excess embers in its Bakery-like tummy. It has rescued countless turkey dinners from burnt ends in the process.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Furnoss.png?raw=true",
     "cost": "25 Keys",
-    "islands": ["celestial"],
-    "breedingCombo": ["None. Zap, And Power Up!"]
+    "islands": [
+        "celestial"
+    ],
+    "breedingCombo": [
+        "None. Zap, And Power Up!"
+    ]
 }

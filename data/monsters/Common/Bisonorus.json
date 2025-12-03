@@ -3,6 +3,15 @@
     "description": "It takes TWO to tango, and in this case it takes TWO to sing as well. Together since birth, these Fire Monsters have a great knack for communication (usually one telling the other what TWO do). With the diminutive Emperor Bisonorus atop the burly Standard Bisonorus, they are unstoppably fearless - except that one time when the latter had to crisis-manage the former's dignity after an unusual wardrobe malfunction involving some possibly imaginary clothes. With each supporting the other, they always seem to have can-TWO attitudes.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Bisonorus.png?raw=true",
     "cost": "300 Relics",
-    "islands": ["psychic", "amber", "mirror psychic"],
-    "breedingCombo": ["Buy From Shop"]
+    "islands": [
+        "psychic",
+        "amber",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 16 hr, Enhanced Time: 1 day 6 hr"
+    ]
 }

@@ -1,8 +1,17 @@
 {
     "name": "HippityHop",
-    "description": "",
+    "description": "HippityHops hippy to the hop, and they don't stop! The conjoined siblings Hippity and Hop act as each other's hypeMon during the day, cheering on one another's mouthy beats. During cold nights, they burrow deep underground to their subterranean home, using only echolocation and the sensory organs topping their ears and arms to navigate the pitch black tunnels. Together HippityHops symbolize the harmonious duality of vocals and percussion.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/HippityHop.png?raw=true",
-    "cost": "",
-    "islands": [],
-    "breedingCombo": []
+    "cost": "150 Diamonds",
+    "islands": [
+        "faerie",
+        "nexus",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Noggin + Floot Fly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+    ]
 }

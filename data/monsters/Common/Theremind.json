@@ -3,6 +3,21 @@
     "description": "The cerebral Theremind hears the inner voices of all Monsters, all the time! While this incessant cross-chatter can be a little confusion for even the most gargantuan of brains, Thereminds benefit from a bottomless well of knowledge and surprisingly intuitive emotional intelligence. But please, if it feels like this Psychic Elemental isn't listening to you, have some patience - it may be wrapped up in a conversation miles away!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Theremind.png?raw=true",
     "cost": "25,000 Coins",
-    "islands": ["psychic", "sanctum", "nexus", "mirror psychic"],
-    "breedingCombo": ["Buy From Shop", "Gloptic + Theremind", "Enchantling + Theremind"]
+    "islands": [
+        "psychic",
+        "sanctum",
+        "nexus",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Buy From Shop",
+        "Gloptic + Theremind",
+        "Enchantling + Theremind"
+    ],
+    "breedingTime": [
+        "Breeding Time: 3 hr, Enhanced Time: 2 hr 15 min"
+    ],
+    "orbTime": [
+        "Orb Time: 21 hr"
+    ]
 }

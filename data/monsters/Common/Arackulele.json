@@ -3,6 +3,15 @@
     "description": "Multi-limbed and multi-talented, the Ethereal Monster known as the Arackulele experiences no greater joy than when it's plucking and strumming on its homemade chordophone. Its rousing and inspirational musical stylings are emblematic of its whole attitude towards life: even though we are all just specks in the vastness of the multiverse, when enough Monsters join together in harmony, anything is possible!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Arackulele.png?raw=true",
     "cost": "1250 Diamonds",
-    "islands": ["ethereal", "colossingum", "mech"],
-    "breedingCombo": ["Grumpyre + Reebro"]
+    "islands": [
+        "ethereal",
+        "colossingum",
+        "mech"
+    ],
+    "breedingCombo": [
+        "Grumpyre + Reebro"
+    ],
+    "breedingTime": [
+        "Breeding Time: 42 hr, Enhanced Time: 31 hr 30 min"
+    ]
 }

@@ -1,8 +1,17 @@
 {
     "name": "Gob",
-    "description": "",
+    "description": "Gob's gaping gabber leaves gandering groups gobsmacked. An unassuming figure at first blush, a withdrawn Gob might not even appear as a Monster to the untrained eye. But keener onlookers may note the subtle wiggle of its frill before suddenly, it happens: The Aperture Overture! Gob opens wide to release a moving melody that resonates from deep within its internal organs themselves... pipes, pedals, and all.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Gob.png?raw=true",
-    "cost": "",
-    "islands": [],
-    "breedingCombo": []
+    "cost": "150 Diamonds",
+    "islands": [
+        "light",
+        "nexus",
+        "mirror light"
+    ],
+    "breedingCombo": [
+        "Potbelly + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+    ]
 }

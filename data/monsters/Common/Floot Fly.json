@@ -3,6 +3,18 @@
     "description": "Long-believed to be little more than myth, the Monsters were all aflutter to find that this mysterious Magical isn't just make-believe! The Floot Fly's mask holds much more than melodious musings: it also holds the Faerie Elemental's deepest secrets. The best chance to catch this Monster unmasked is during its nightly skinny dip in a tinkling freshet, but that's a sight you simply can't unsee.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Floot Fly.png?raw=true",
     "cost": "30,000 Coins",
-    "islands": ["faerie", "sanctum", "nexus", "mirror faerie"],
-    "breedingCombo": ["Buy From Shop", "Pladdie + Floot Fly", "Enchantling + Floot Fly"]
+    "islands": [
+        "faerie",
+        "sanctum",
+        "nexus",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Buy From Shop",
+        "Pladdie + Floot Fly",
+        "Enchantling + Floot Fly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 4 hr, Enhanced Time: 3 hr"
+    ]
 }

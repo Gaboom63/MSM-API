@@ -1,8 +1,18 @@
 {
     "name": "Dwumrohl",
-    "description": "",
+    "description": "The Dwumrohl is armed to the teeth. Yet because they are so well-concealed by its feathers, it remains a mystery as to just how many arms the Dwumrohl has. This adroit percussionist has immaculate rhythm and can keep the beat alive with four, five, or even six arms behind its back.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Dwumrohl.png?raw=true",
-    "cost": "",
-    "islands": [],
-    "breedingCombo": []
+    "cost": "34000 Coins",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap and power up!"
+    ], 
+    "polarity": [
+        "Negative from: Fleechwurm, Negative toward: Fleechwurm, Positive from: Astropod, Positive toward: Whajje"
+    ],
+    "powerUpTime": [
+        "14 Days"
+    ]
 }

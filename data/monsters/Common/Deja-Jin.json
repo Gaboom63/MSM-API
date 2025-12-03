@@ -1,0 +1,15 @@
+{
+    "name": "Déjà-Jin",
+    "description": "If you have the sudden, nagging suspicion that you're experiencing something you've seen or heard of before, it could be that you're in the vicinity of Déjà-Jin! Some traits of the levitating Psychic-Faerie hybrid, like its guttural voice and colorful crystal array, may remind some of more established species elsewhere in the Monster World. However, what makes the Déjà-Jin totally unique is the piezoelectric charge coursing through its horns, and which is responsible for the disorienting psychic effect it has on others.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Déjà-Jin.png?raw=true",
+    "cost": "200 Diamonds",
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Theremind + Floot Fly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+    ]
+}

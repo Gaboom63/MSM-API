@@ -3,6 +3,17 @@
     "description": "It takes a lot of strength training to hold up Sooza's humongous horn - how else do you think it got those calves? But like any well-balanced Monster, Sooza's physical strength doesn't hold a candle to the robust heart that its friends know so well. Sooza is always prepared to drop everything (except its horn) so it can listen to a Monster in need and lift their spirits.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Sooza.png?raw=true",
     "cost": "100 Relics",
-    "islands": ["light", "amber", "mirror light"],
-    "breedingCombo": ["Boskus + Potbelly", "Flowah + Mammott", "Furcorn + Kayna"]
+    "islands": [
+        "light",
+        "amber",
+        "mirror light"
+    ],
+    "breedingCombo": [
+        "Boskus + Potbelly",
+        "Flowah + Mammott",
+        "Furcorn + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+    ]
 }

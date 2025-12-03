@@ -3,6 +3,16 @@
     "description": "It is scientifically impossible to become vexed with the sweet-natured Whaddle. Not that this demure little Monster would ever do something vexing! One flutter of its fluffy lashes or gentle giggle is all that's needed to soothe the spirit of a troubled Monster.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Whaddle.png?raw=true",
     "cost": "100 Relics",
-    "islands": ["oasis", "amber"],
-    "breedingCombo": ["Quibble + Kayna", "Phangler + Tweedle", "Glowl + Toe Jammer"]
+    "islands": [
+        "oasis",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Quibble + Kayna",
+        "Phangler + Tweedle",
+        "Glowl + Toe Jammer"
+    ],
+    "breedingTime": [
+        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+    ]
 }

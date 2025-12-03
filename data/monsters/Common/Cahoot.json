@@ -3,6 +3,13 @@
     "description": "No matter what dimension you inhabit, there's no better wingMon to call on than the dauntless Cahoot. Got a new music part you want to try out, but you're nervous to debut it publicly? Cahoot will lend an ear. Want to take up a new hobby, but you're concerned you're not cut out for it? Cahoot will be your cheering section. Its many gill-mouths harness its cosmic wingscape to produce a single unified voice that instils the listener with self-confidence and positivity. Trust us, you're gonna want to be in cahoots with Cahoot.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Cahoot.png?raw=true",
     "cost": "200 Diamonds",
-    "islands": ["sanctum"],
-    "breedingCombo": ["Theremind + Fluoress"]
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Theremind + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+    ]
 }

@@ -3,6 +3,24 @@
     "description": "The daring Plinkajou will risk life and limb in the paleontological pursuit of osseous treasures. Its play-hensile tail gives it the agility it needs to climb the tallest boulders and cling to crumbling cliff sides without fear. Not once has a Plinkajou been caught losing its footing! Instead, it descends to its ground-level den of its own accord for playtime, when it bats at its favorite fossilized findings to make tinkling little tunes.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Plinkajou.png?raw=true",
     "cost": "600 Diamonds",
-    "islands": ["bone", "nexus", "mirror bone"],
-    "breedingCombo": ["Fwog + Hawlo", "Stogg + Denchuhs", "Phangler + Peckidna", "Banjaw + Noggin", "Uuduk + Toe Jammer", "Withur + Kayna", "Thrumble + Clackula"]
+    "islands": [
+        "bone",
+        "nexus",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Fwog + Hawlo",
+        "Stogg + Denchuhs",
+        "Phangler + Peckidna",
+        "Banjaw + Noggin",
+        "Uuduk + Toe Jammer",
+        "Withur + Kayna",
+        "Thrumble + Clackula"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 8 hr, Enhanced Time: 1 day"
+    ],
+    "orbTime": [
+        "Orb Tme: 2 day 2 hr"
+    ]
 }

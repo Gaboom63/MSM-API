@@ -3,6 +3,13 @@
     "description": "For a Monster whose brain is so prominently on display, the adult Plixie sure is fixated on physical gains. During this period, it focuses almost exclusively on bulking up its arms, and drawing further attention to them by decorating them with temporary tattoos. The arms get so swole that they weigh down the Plixie, making flight nearly impossible - all while conspicuously skipping leg day.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Plixie (adult).png?raw=true",
     "cost": "10 Keys",
-    "islands": ["celestial"],
-    "breedingCombo": ["None. Zap, And Power Up!"]
+    "islands": [
+        "celestial"
+    ],
+    "breedingCombo": [
+        "None. Zap, And Power Up!"
+    ],
+    "breedingTime": [
+        "Ascend For 10 Keys"
+    ]
 }

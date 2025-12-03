@@ -3,6 +3,16 @@
     "description": "Scallywag? Rapscallion? No... Mon $caggs? Oh, Scallyrags you rascal, why is your name so hard to get right? The Rascal Paironormal is an enigma wrapped in a riddle, wrapped in a vest... or a trenchcoat. Actually, it seems to be three distinct creatures stacked on top of each other? What's important is that this Big Top-hatted Monster can be big time trouble for its fellow Paironormals. A Mon of many faces, Scallyrags is a masterful manipulator able to influence precisely what kind of impression it makes on those around it. Some describe themselves curiously drawn to the dapper Monster upon first encountering it, bemused and delighted by its dainty movements. Others meanwhile experience an immediate and almost primal aversion to the Monster, wary of its eerily unsettling nature. Of course, in its Minor form, it becomes far clearer that the youthful creatures (who lack distinct names of their own) are motivated to deceive and manipulate borne of a complaint that they don't have a big enough allowance. Indeed, they could be said to be 'babies with no money.' How exactly the rest of the Monsters on Paironormal Carnival haven't yet gotten wise to their schemes is anyone's guess. One thing is certain, you will only see the Scallyrags that Scallyrags wants you to see.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Scallyrags%20(Major).png?raw=true",
     "cost": "3000 Diamonds",
-    "islands": ["paironormal"],
-    "breedingCombo": ["Haironette + Owlesque"]
+    "islands": [
+        "paironormal"
+    ],
+    "breedingCombo": [
+        "Haironette + Owlesque"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 21 hr, Enhanced Time: 1 day 9 hr 45 min"
+    ],
+    "fuguingTime": [
+        "Success: 1 day 21 hr, Failure: 22 hr"
+    ]
 }

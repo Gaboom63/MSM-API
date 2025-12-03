@@ -3,6 +3,13 @@
     "description": "Most Celestials grow in size as they mature, but even though it's the oldest among the twelve, Furnoss remains mostly the same as an adult - a 'slow burn', if you will. Fittingly, the adult Furnoss is obsessed with music of all genres, but fixates especially on 'marching band' drumlines (whatever those are). The Fire Celestial's 'band geek' aesthetic is enough to convince any onlookers that it is not, in fact, a punk.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Furnoss%20(adult).png?raw=true",
     "cost": "10 Key",
-    "islands": ["celestial"],
-    "breedingCombo": ["None. Zap, Power It Up!"]
+    "islands": [
+        "celestial"
+    ],
+    "breedingCombo": [
+        "None. Zap, Power It Up!"
+    ],
+    "breedingTime": [
+        "Ascend For 10 Keys"
+    ]
 }

@@ -3,6 +3,16 @@
     "description": "If you hear the cheerful gobbley-gobbley-goo of the gobbley Gobbleygourd, prepare your tummy: you're about to feel stuffed! This overzealous Monster was so thrilled to find new friends moving in to Fire Haven that it seized the opportunity to finally kickstart the Seasonal Event of its dreams: Feast-Ember, a time for sharing in nature's delectable bounty. From Smunkin Pie to savory Turkey, crunchy Big Salad to toasty Bread, Gobbleygourd will see to it that you sample a healthy bite of each dish. Much like an excitable relation who's always coming up with new holiday traditions, the Gobbleygourd might seem a bit... intense in its Feast-Ember celebrations - but you can't help but play along!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Gobbleygourd.png?raw=true",
     "cost": "225 Diamonds",
-    "islands": ["haven", "oasis", "seasonal"],
-    "breedingCombo": ["Kayna + Glowl", "Punkleton + Yool"]
+    "islands": [
+        "haven",
+        "oasis",
+        "seasonal"
+    ],
+    "breedingCombo": [
+        "Kayna + Glowl",
+        "Punkleton + Yool"
+    ],
+    "breedingTime": [
+        "Breeding Time: 21 hr, Enhanced TIme: 15 hr 45 min"
+    ]
 }

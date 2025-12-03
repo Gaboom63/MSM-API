@@ -3,6 +3,25 @@
     "description": "Soaring high above, Quibbles are able to spot and collect resonant rocks with which to build their clever keyboards. This happens only occasionally of course, when the two Quibble minds are able to agree on a single purpose.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Quibble.png?raw=true",
     "cost": "30 Diamonds",
-    "islands": ["cold", "air", "water", "shugabush", "colossingum", "gold", "oasis", "tribal", "composer", "mirror cold", "mirror air", "mirror water"],
-    "breedingCombo": ["Tweedle + Toe Jammer", "Shugabush + Quibble"]
+    "islands": [
+        "cold",
+        "air",
+        "water",
+        "shugabush",
+        "colossingum",
+        "gold",
+        "oasis",
+        "tribal",
+        "composer",
+        "mirror cold",
+        "mirror air",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "Tweedle + Toe Jammer",
+        "Shugabush + Quibble"
+    ],
+    "breedingTime": [
+        "Breeding Time: 8 hr, Enhanced Time: 6 hr"
+    ]
 }

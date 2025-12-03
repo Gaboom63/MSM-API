@@ -1,8 +1,16 @@
 {
     "name": "Shugajo",
-    "description": "",
+    "description": "The perfectionist of the Shugafam, this fastidious fellow values precision and detail above all else. It follows that the Shugajo is the namesake of an instrument that requires a finely-honed technique. The secret to its success? Soothing daily mudbaths, which keep the mind clear and the limbs limber (and tinted a rich, chocolatey brown).",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Shugajo.png?raw=true",
-    "cost": "",
-    "islands": [],
-    "breedingCombo": []
+    "cost": "700 Diamonds",
+    "islands": [
+        "shugabush"
+    ],
+    "breedingCombo": [
+        "Shugabush + Oaktopus"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 11 hr, Enhanced Time: 1 day 2 hr 15 min"
+    ]
+
 }

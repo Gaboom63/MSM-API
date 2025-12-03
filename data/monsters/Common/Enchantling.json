@@ -3,6 +3,19 @@
     "description": "If Enchantler is the Titan-Who-Would-Be-Colossal, then Enchantling is the Monster-Who-Would-Be-Titan! Although there are other instances of Titans starting life in a miniaturized form, the exact nature of the relationship between these two entities remains a mystery. Some have suggested that the Enchantling taps into the same Monstromantic energies coursing through its namesake's antlers to transfigure itself into a shape more akin to that of Enchantler. The evidence that one has an effect on the other is incontrovertible, as the entire Sanctum seemed to light up when it first made its appearance and sang forth its exuberant song.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Enchantling.png?raw=true",
     "cost": "750 Diamonds",
-    "islands": ["sanctum"],
-    "breedingCombo": ["Deja-Jin + Roarick", "Xyster + Kunklehead", "Cahoot + Osstax", "Mushaboom + Theremind", "G'day + Floot Fly", "Frondley + Clackula", "Larvaluss + Fluoress"]
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Deja-Jin + Roarick",
+        "Xyster + Kunklehead",
+        "Cahoot + Osstax",
+        "Mushaboom + Theremind",
+        "G'day + Floot Fly",
+        "Frondley + Clackula",
+        "Larvaluss + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 2 hr, Enhanced Time: 1 day 13 hr 30 min"
+    ]
 }

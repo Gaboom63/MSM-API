@@ -3,6 +3,16 @@
     "description": "How do Zuukers stay warm? Their mostly featherless bodies would appear to have little insulation. These ingenious specimens breathe in through their mouths, warm the air inside, and pump out their signature drone through their blowholes, producing a nice and toasty sensation. That's also why Zuukers always appear red in the face.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Zuuker.png?raw=true",
     "cost": "20000 Coins",
-    "islands": ["wublin"],
-    "breedingCombo": ["None. Zap The Contents, And Power Up!"]
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative from: Screemu, Negative toward: Thwok, Positive from: Maulch, Positive toward: Bona-Petite"
+    ],
+    "powerUpTime": [
+        "10 Days"
+    ]
 }

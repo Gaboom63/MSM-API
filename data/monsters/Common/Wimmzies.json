@@ -1,8 +1,20 @@
 {
     "name": "Wimmzies",
-    "description": "",
+    "description": "Wimmzies are a bubbly chorus of Monsters positively bursting at the seams with delight. It's this very overflowing of glee that is cause for the sorority of singers' patchwork appearance: their delicately-sewn casings contain the fine mist that makes up the Wimmzies' upper bodies! Little more than fluttering eyelashes and tapping toes, this squad is nonetheless erupting with joy and - of course - whimsy.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Wimmzies.png?raw=true",
-    "cost": "",
-    "islands": [],
-    "breedingCombo": []
+    "cost": "150 Diamonds",
+    "islands": [
+        "faerie",
+        "nexus",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Kayna + Floot Fly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+    ],
+    "orbTime": [
+        "Orb Time: 1 day 3 hr"
+    ]
 }

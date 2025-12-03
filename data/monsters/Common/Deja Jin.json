@@ -1,8 +1,0 @@
-{
-    "name": "Déjà-Jin",
-    "description": "",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Déjà-Jin.png?raw=true",
-    "cost": "200 Diamonds",
-    "islands": ["sanctum"],
-    "breedingCombo": ["Theremind + Floot Fly"]
-}

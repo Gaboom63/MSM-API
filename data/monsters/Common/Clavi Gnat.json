@@ -3,6 +3,17 @@
     "description": "Clavi Gnats produce their signature grooves by tapping the spherical sacs of the Clavi Creeper - the sprawling plant where they make their home. It's hard to tell whether the insectoid Monster enjoys its music-making thanks to its jumbled-up face, but make no mistake: upside down or rightside up, that doesn't change the fact that the Clavi Gnat is a hard worker, and one of the most reliable friends to hatch this side of the leaf.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Clavi Gnat.png?raw=true",
     "cost": "300 Diamonds",
-    "islands": ["faerie", "nexus", "mirror faerie"],
-    "breedingCombo": ["Mammott + Wimmzies", "Kayna + Squot", "Floot Fly + Boskus"]
+    "islands": [
+        "faerie",
+        "nexus",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Mammott + Wimmzies",
+        "Kayna + Squot",
+        "Floot Fly + Boskus"
+    ],
+    "breedingTime": [
+        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+    ]
 }

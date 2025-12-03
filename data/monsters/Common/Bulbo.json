@@ -1,8 +1,17 @@
 {
     "name": "Bulbo",
-    "description": "",
+    "description": "Don't be creeped out by the creepy-crawly Bulbo if you spy its strange glow in the dead of night! This Light hybrid produces its eye-popping shine from its posterior bulb, a stunning piece of glasswork powered by the kinetic energy of its stridulatory organs. To maximize the impact of its radiant rump, Bulbos slink about in the dark, bulging their eyes to observe the expression of its listeners in the dimness... whether that expression is one of shock or awe.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Bulbo.png?raw=true",
-    "cost": "",
-    "islands": [],
-    "breedingCombo": []
+    "cost": "150 Diamonds",
+    "islands": [
+        "Light",
+        "Nexus",
+        "Mirror Light"
+    ],
+    "breedingCombo": [
+        "Mammott + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+    ]
 }

@@ -1,8 +1,17 @@
 {
     "name": "Hawlo",
-    "description": "",
+    "description": "The Hawlo is 'knot' what it appears to be... but just what IS it? No one dares woodchip the chipper wood making up this percussive Monster's disguise to find out. Instead, its peers have chosen to accept Hawlo's perplexing presentation, and simply shake their trunk to the 'berry' delightful rhythm of its stump or admire its talent for pyrogravure.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Hawlo.png?raw=true",
-    "cost": "",
-    "islands": [],
-    "breedingCombo": []
+    "cost": "150 Diamonds",
+    "islands": [
+        "bone",
+        "nexus",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Kayna + Clackula"
+    ],
+    "breedingTime": [
+        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+    ]
 }

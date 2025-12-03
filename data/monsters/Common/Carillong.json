@@ -3,6 +3,15 @@
     "description": "At the turning of the year, Monsters of all kinds set aside time to reflect on the year that's passed and observe the renewal of the Crescendo Moon. That's when the Seasonal Carillong loves to 'chime in!' This charming Mon-drake (or Monster-dragon) seems to be magically suspended in a state of jubilant youth and never appears to age. No matter what dimension it inhabits, it is never separated from its beloved Chimekeeper, a golden instrument of musical and chronomagical power. Each different color bell of the tintinnabulum is said to have its own special significance, and the Carillong takes its duty of ushering in the new year very sincerely.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Carillong.png?raw=true",
     "cost": "225 Diamonds",
-    "islands": ["sanctum", "seasonal"],
-    "breedingCombo": ["Mushaboom + Roarick", "Yool + Schmoochle"]
+    "islands": [
+        "sanctum",
+        "seasonal"
+    ],
+    "breedingCombo": [
+        "Mushaboom + Roarick",
+        "Yool + Schmoochle"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 3 hr 9 min 32 sec, Enhanced Time: 20 hr 22 min 9 sec"
+    ]
 }

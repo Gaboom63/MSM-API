@@ -3,6 +3,17 @@
     "description": "A close relative of Smunkins, the Punkleton lays low for most of the year, with only its head poking above the soil. It is rumored to be the offspring of two Triple-Element Monsters. For a limited time, it will wrench itself out of the ground, and attempt to spook other Monsters with its boisterous song! It apparently works, and easily-startled neighbors would do well to give it a wide berth.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Punkleton.png?raw=true",
     "cost": "225 Diamonds",
-    "islands": ["plant", "colossingum", "gold", "seasonal", "mirror plant"],
-    "breedingCombo": ["Bowgart + T-Rox"]
+    "islands": [
+        "plant",
+        "colossingum",
+        "gold",
+        "seasonal",
+        "mirror plant"
+    ],
+    "breedingCombo": [
+        "Bowgart + T-Rox"
+    ],
+    "breedingTime": [
+        "Breeding Time: 18 hr, Enhanced Time: 13 hr 30 min"
+    ]
 }

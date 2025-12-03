@@ -3,6 +3,13 @@
     "description": "Picture yourself in a boat on a river, with Hummatite trees and star-spangled skies… that's reportedly the setting that appeared in the Plant Mythical's imagination when it first envisioned the Bleatnik. This Dreamythical has inherited its counterpart's love of napping and snoozing, and spends the majority of its time lost in delightful reveries of its own. In these reveries, the Monster describes cavorting and frolicking in fields of strawberries - although on closer inspection, they might be Halleberries. When it is awake, the Bleatnik loves to gurgle forth a transcendental vocal line that harkens back to its psychedelic origins - just be careful around its unusually serrated beak as it shudders open and closed.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Bleatnik.png?raw=true",
     "cost": "750 Diamonds",
-    "islands": ["mythical"],
-    "breedingCombo": ["Cataliszt + G'joob"]
+    "islands": [
+        "mythical"
+    ],
+    "breedingCombo": [
+        "Cataliszt + G'joob"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 3 hr, Enhanced Time: 20 hr 15 min"
+    ]
 }

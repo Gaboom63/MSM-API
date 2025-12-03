@@ -3,6 +3,15 @@
     "description": "The instability present in all Triple-Element Ethereals is no better represented than in the Gaddzooks. Every snap of their jaws and tap of their feet threatens to shatter its very form, and yet this Monster is able to keep it together and perform. An outlier in the Monster World as far as double-headedness goes, both of the Gaddzook brainstems get along famously and are always totally in sync with one another (we suppose you'd have to be in order to attain that level of percussive prowess). This cheerfulness and amicability extends to friendships with its fellow Ethereals as well, particularly the closely-related Yooreek.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Gaddzooks.png?raw=true",
     "cost": "1800 Diamonds",
-    "islands": ["workshop", "plasma", "mech"],
-    "breedingCombo": ["Plasma Meeb + Mech Meeb + Crystal Meeb"]
+    "islands": [
+        "workshop",
+        "plasma",
+        "mech"
+    ],
+    "breedingCombo": [
+        "Plasma Meeb + Mech Meeb + Crystal Meeb"
+    ],
+    "synthesisTime": [
+        "Success: 1 day 6 hr, Failure: 10 hr"
+    ]
 }

@@ -3,6 +3,13 @@
     "description": "When it's not strumming away on its electric guitar, the Shugarock enjoys nothing more than to kick back and relax. One of its favorite pastimes is to bask in the warm glow of the midday sun to get a tan. Unfortunately, the sun has little effect on the bark-like skin of the Monster, but it has faded its fur to a pleasant shade of jade. Ever the good sport, the Shugarock has decided to embrace change and keep the color.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Shugarock.png?raw=true",
     "cost": "700 Diamonds",
-    "islands": ["shugabush"],
-    "breedingCombo": ["Shugabush + Mammott"]
+    "islands": [
+        "shugabush"
+    ],
+    "breedingCombo": [
+        "Shugabush + Mammott"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 11 hr, Enhanced Time: 1 day 2 hr 15 min"
+    ]
 }

@@ -3,6 +3,30 @@
     "description": "One day as the Monsters were tunneling underground, they stumbled upon an immense vault containing several of the mysterious objects known as the Wubbox. Very little is known of their origin or purpose, save a few observations: after being incubated in the Nursery, sample analysis of the box's exterior indicates that it shares traits with every known Natural Monster species - in fact, it even has specialized compartments with an otherworldly shrinking technology. The box is also imbued with an elemental energy unfamiliar to those on the surface - a shocking discovery, to say the least. Gather some intrepid Monster volunteers and see what happens when you 'box' them!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Wubbox.png?raw=true",
     "cost": "75,000,000 Coins",
-    "islands": ["plant", "cold", "air", "water", "earth", "gold", "ethereal", "haven", "oasis", "wublin", "mirror plant", "mirror cold", "mirror air", "mirror water", "mirror earth"],
-    "breedingCombo": ["Box All Common Monsters, And Power It Up!"]
+    "islands": [
+        "plant",
+        "cold",
+        "air",
+        "water",
+        "earth",
+        "gold",
+        "ethereal",
+        "haven",
+        "oasis",
+        "wublin",
+        "mirror plant",
+        "mirror cold",
+        "mirror air",
+        "mirror water",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Box All Common Monsters, And Power It Up!"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day, Enhanced 1 day 12 hr"
+    ],
+    "powerUpTime": [
+        "Forever, No Time Limit."
+    ]
 }

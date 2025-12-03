@@ -3,6 +3,22 @@
     "description": "The Deedge, attuned to the beat of the Earth, pulls together multiple elements to produce a complex beat. A tireless, energetic performer, it keeps all the Monsters dancing.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Deedge.png?raw=true",
     "cost": "150 Diamonds",
-    "islands": ["cold", "shugabush", "colossingum", "gold", "tribal", "composer", "mirror cold"],
-    "breedingCombo": ["Dandidoo + Maw", "Quibble + Furcorn", "Pango + Oaktopus", "Shugabush + Deedge"]
+    "islands": [
+        "cold",
+        "shugabush",
+        "colossingum",
+        "gold",
+        "tribal",
+        "composer",
+        "mirror cold"
+    ],
+    "breedingCombo": [
+        "Dandidoo + Maw",
+        "Quibble + Furcorn",
+        "Pango + Oaktopus",
+        "Shugabush + Deedge"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day, Enhanced Time: 18 hr"
+    ]
 }

@@ -3,6 +3,18 @@
     "description": "Phanglers are destined for a life in the limelight! These Natural-born crooners live to perform, and their dulcet tones are frequently employees at all manner of shindigs. Don't get caught without live entertainment at your Anniversary Month party: book Phangler today!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Phangler.png?raw=true",
     "cost": "50 Relics",
-    "islands": ["oasis", "psychic", "bone",  "amber", "mirror psychic", "mirror bone"],
-    "breedingCombo": ["Toe Jammer + Kayna"]
+    "islands": [
+        "oasis",
+        "psychic",
+        "bone",
+        "amber",
+        "mirror psychic",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Toe Jammer + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 10 hr, Enhanced Time: 7 hr 30 min"
+    ]
 }

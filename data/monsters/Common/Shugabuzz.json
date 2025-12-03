@@ -3,6 +3,13 @@
     "description": "The Shugabuzz is the most eccentric of the Shugafam, mainly reflected in its unusual choice of instrument. Other peculiar traits include its facial fur stylings, and a diet of almost exclusively saggle nuts (which everyone else says taste like rocks and give its limbs their smoky-purple coloration).",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Shugabuzz.png?raw=true",
     "cost": "700 Diamonds",
-    "islands": ["shugabush"],
-    "breedingCombo": ["Shugabush + Quibble"]
+    "islands": [
+        "shugabush"
+    ],
+    "breedingCombo": [
+        "Shugabush + Quibble"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 11 hr, Enhanced Time: 1 day 2 hr 15 min"
+    ]
 }

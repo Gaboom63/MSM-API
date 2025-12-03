@@ -1,8 +1,17 @@
 {
     "name": "Poppette",
-    "description": "",
+    "description": "Poppette's shiny bubbles may look ready to pop, but be forewarned: this Monster is tougher than a lead balloon! No matter how hard you pinch and poke, the unpoppable Poppette will withstand your efforts. Years of constant prodding have made this once-bubbly Monster more hardened than chewed bubblegum - or bubbledrum, if you will.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Poppette.png?raw=true",
-    "cost": "",
-    "islands": [],
-    "breedingCombo": []
+    "cost": "150 Diamonds",
+    "islands": [
+        "psychic",
+        "nexus",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Toe Jammer + Theremind"
+    ],
+    "breedingTime": [
+        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+    ]
 }

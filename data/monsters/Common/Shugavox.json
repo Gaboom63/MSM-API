@@ -1,8 +1,15 @@
 {
     "name": "Shugavox",
-    "description": "",
+    "description": "Even more so than its mandolin-toting cousin, the Shugavox loves to wail out a wild tune in the company of its Monster brethren. It and the Shugabush enjoy a friendly rivalry for pretty much everything, including their tastes in phay-door-uhs. To make itself stand out more, the Shugavox regularly mists itself with essence of Deedge earwax to color itself blue.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Shugavox.png?raw=true",
-    "cost": "",
-    "islands": [],
-    "breedingCombo": []
+    "cost": "700 Diamonds",
+    "islands": [
+        "shugabush"
+    ],
+    "breedingCombo": [
+        "Shugabush + Deedge"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 11 hr, Enhanced Time: 1 day 2 hr 15 min"
+    ]
 }

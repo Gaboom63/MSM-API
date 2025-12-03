@@ -3,6 +3,17 @@
     "description": "For each year of life, the Uuduk gains an extra vertebra in its slinky spine. The full height of an Uuduk, however, is hidden from view deep beneath the soil: an Uuduk never reveals its age! Wear-and-tear on its impressive blowhorns may hint at the number of birthdays this coy Monster has seen, but it just as easily could indicate how itchy it was that day.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Uuduk.png?raw=true",
     "cost": "300 Diamonds",
-    "islands": ["bone", "nexus", "mirror bone"],
-    "breedingCombo": ["Hawlo + Noggin", "Peckidna + Kayna", "Stogg + Clackula"]
+    "islands": [
+        "bone",
+        "nexus",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Hawlo + Noggin",
+        "Peckidna + Kayna",
+        "Stogg + Clackula"
+    ],
+    "breedingTime": [
+        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+    ]
 }

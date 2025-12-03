@@ -3,6 +3,18 @@
     "description": "Unusual among Monsters for its ability to form actual words and sing them in a way that tells a story, it is with wonder and the love of collaboration that the Tawkerr sings its Monster anthem. Constantly dreaming up new compositions, the Tawkerr enjoys supporting friends in times of need. Leaning too heavily upon its shoulders is not recommended, however, lest its shoulder spikes leave unattractive dents in one's fuzzy pelt, satin jacket, or delicate epidermis.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Tawkerr.png?raw=true",
     "cost": "100 Relics",
-    "islands": ["plant", "cold", "earth", "mirror plant", "mirror cold", "mirror earth"],
-    "breedingCombo": ["Buy From Shop"]
+    "islands": [
+        "plant",
+        "cold",
+        "earth",
+        "mirror plant",
+        "mirror cold",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 8 hr, Enhanced Time: 6 hr"
+    ]
 }

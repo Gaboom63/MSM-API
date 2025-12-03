@@ -1,8 +1,19 @@
 {
     "name": "Spytrap",
-    "description": "",
+    "description": "Looks can be deceiving... and so can the Spytrap. This botanical beast grows in the dark and does its darndest to go completely unnoticed by the surrounding fauna. But once an unsuspecting creature scuttles too close, SNAP - It is suddenly ensnared! And what better to do when encased in the acoustic wonderland of a Spytrap yap than to bang out a banger? In exchange for its ward's kind company and musical talent, the host Monster happily supplies a steady drip of some of the sweetest sap ever sampled.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Spytrap.png?raw=true",
-    "cost": "",
-    "islands": [],
-    "breedingCombo": []
+    "cost": "300 Diamonds",
+    "islands": [
+        "light",
+        "nexus",
+        "mirror light"
+    ],
+    "breedingCombo": [
+        "Gob + Mammott",
+        "Furcorn + Fluoress",
+        "Bulbo + Potbelly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+    ]
 }

@@ -1,8 +1,8 @@
 {
     "name": "Withur",
-    "description": "",
+    "description": "Light as a feather and exquisitely empyreal, Withur shares a spiritual connection with a similarly ghostly Ethereal. But whereas its spectral 'sister' makes music with its mellifluous voice, Withur favors the haunting vibrations produced by plucking the fins of the Lyrodocus Rex. Much like the famed Fossil-osaurus, this skeletal creature is merely a fiberglass model from the days of yore - although it seems blissfully oblivious to this fact, tapping its tail along to the rhythm.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Withur.png?raw=true",
-    "cost": "",
-    "islands": [],
-    "breedingCombo": []
+    "cost": "300 Diamonds",
+    "islands": ["bone", "nexus", "mirror bone"],
+    "breedingCombo": ["Denchuhs + Noggin", "Peckidna + Toe Jammer", "Fwog + Clackula"]
 }

@@ -3,6 +3,18 @@
     "description": "Dapper Clackula doesn't have a mouth of its own with which to chitter-chatter about its many cultured interests, so the Bone Elemental leaves all the yammering to its loquacious little hands. If only they'd behave! When the lanky gentle-Mon's appendages get too snippy with dinner guests, it delivers the quickest of pin-point pinches to each chatterbox with its dainty fangs. While not enough to cause any pain, it's certainly enough to send a message: keep it classy!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Clackula.png?raw=true",
     "cost": "25,000 Coins",
-    "islands": ["bone", "sanctum", "nexus", "mirror bone"],
-    "breedingCombo": ["Buy From Shop", "Plinkajou + Clackula", "Enchantling + Clackula"]
+    "islands": [
+        "bone",
+        "sanctum",
+        "nexus",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Buy From Shop",
+        "Plinkajou + Clackula",
+        "Enchantling + Clackula"
+    ],
+    "breedingTime": [
+        "Breeding Time: 5 hr, Enhanced Time: 3 hr 45 min"
+    ]
 }

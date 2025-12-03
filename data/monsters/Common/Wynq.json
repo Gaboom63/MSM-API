@@ -3,6 +3,16 @@
     "description": "Where does a Wynq's hair end and its beard begin? The Monster world may never know. All that we can say for certain is that the Wynq's furry-yet-feathered coat of 'furthers' is the envy of all follicularly-challenged Monsters!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Wynq.png?raw=true",
     "cost": "100 Relics",
-    "islands": ["oasis", "amber"],
-    "breedingCombo": ["Maw + Kayna", "Boskus + Toe Jammer", "Phangler + Mammott"]
+    "islands": [
+        "oasis",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Maw + Kayna",
+        "Boskus + Toe Jammer",
+        "Phangler + Mammott"
+    ],
+    "breedingTime": [
+        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+    ]
 }

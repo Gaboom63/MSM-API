@@ -2,7 +2,16 @@
     "name": "Drummidary",
     "description": "Even from afar, the rhythmic booms of the Drummidary can be heard. The Earth Top Boss is perfectly adapted to thrive in the harshest climates imaginable, because it's able to safeguard any supplies or food it may need in its four hump-drums. Over the course of its lifetime, the Drummidary never stops growing, and some specimens in the contemporary era have grown to considerable size - even though the Quint-Element Monster can be sentimental and hold on to keepsakes of its humble upbringing, like its training wheels. Sometimes, it'll gather other percussion Monsters around, and whirl on those same wheels to perform impressive breakdance routines, all while cranking out beastly beats!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Drummidary.png?raw=true",
-    "cost": "500 Relics",
-    "islands": ["light", "amber", "mirror light"],
-    "breedingCombo": ["Buy From Shop"]
+    "cost": "Light: 500 Relics, Amber: 40 Relics",
+    "islands": [
+        "light",
+        "amber",
+        "mirror light"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 3 day 8 hr, Enhanced Time: 2 day 12 hr"
+    ]
 }

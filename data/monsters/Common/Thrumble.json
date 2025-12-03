@@ -3,6 +3,17 @@
     "description": "Wide-mouthed and keen snackers, Thrumbles are prone to swallowing Treats whole. Their elongated gullets can squash and stretch to provide said Treats with ample time to be pulverized by the reverberations of this happy-go-lucky hummer's signature thrumming. When thrumming on an empty stomach, bubbling pockets of air can expand and prompt a sudden flurry of giggles!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Thrumble.png?raw=true",
     "cost": "100 Relics",
-    "islands": ["bone", "amber", "mirror bone"],
-    "breedingCombo": ["Fwog + Kayna", "Stogg + Toe Jammer", "Phangler + Noggin"]
+    "islands": [
+        "bone",
+        "amber",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Fwog + Kayna",
+        "Stogg + Toe Jammer",
+        "Phangler + Noggin"
+    ],
+    "breedingTime": [
+        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+    ]
 }

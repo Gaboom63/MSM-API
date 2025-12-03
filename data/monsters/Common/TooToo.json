@@ -1,8 +1,19 @@
 {
     "name": "TooToo",
-    "description": "",
+    "description": "Pirouette! Plié! En Pointe! Pamplemousse! The graceful TooToo can perform it all with great panache from the tips of its tippy-toed toesies. Light as a further, you would not even know that this lithe Monster has landed from a splendid saute if not for the brilliant rings of light and sound that radiate out from the point of impact. Its distinctive tutu is TooToo's secret weapon in maintaining perfect balance, and has become a staple of the Bah-llay school of dance.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/TooToo.png?raw=true",
-    "cost": "",
-    "islands": [],
-    "breedingCombo": []
+    "cost": "300 Diamonds",
+    "islands": [
+        "light",
+        "nexus",
+        "mirror light"
+    ],
+    "breedingCombo": [
+        "Pluckbill + Potbelly",
+        "Gob + Kayna",
+        "Flowah + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+    ]
 }

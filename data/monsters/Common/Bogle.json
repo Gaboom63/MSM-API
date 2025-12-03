@@ -3,6 +3,13 @@
     "description": "The following is an excerpt retrieved from the Monster development journals of an unidentified Colossal, chronicling some of their earliest recorded efforts in the pocket dimension:'The 'Bogle' project has unfortunately been placed on indefinite hiatus. Thought we were really onto something, designing a creature that stored air within a solid globe on its back to produce its music. That would be its air supply as it sang forth. Alas, the plans for the Core Air Elemental didn't really come together the way we planned - the inflexibility of the globe makes inhalation and exhalation a challenge for Bogle, coupled with its intense weight requiring multiple legs slapdashedly added to support it. We're starting from scratch on this one, although we'll be keeping a few aspects - it'll still be a vocalist, and we're all quite partial to the color scheme.' Seemingly added much later, another Colossal's notes have been scribbled in the margin: 'A fresh perspective on Bogle has rendered this Monster viable. Most importantly - no longer a vocalist. The rigid globe of the original has been swapped out for an elastic air sack. Now that that weight has been lifted, the load-bearing legs have been converted into tubes through which the air can flow. Preserved the original's distracted personality because it's charming, but added a few avian touches of the final Air Elemental (like furthers and claws) for good measure.'",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Bogle.png?raw=true",
     "cost": "5000 Diamonds",
-    "islands": ["mech"],
-    "breedingCombo": ["Obtain From The Dish-Harmonizer!"]
+    "islands": [
+        "mech"
+    ],
+    "breedingCombo": [
+        "Obtain From The Dish-Harmonizer!"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 2 hr"
+    ]
 }

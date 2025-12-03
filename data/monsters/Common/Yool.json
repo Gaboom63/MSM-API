@@ -3,6 +3,17 @@
     "description": "Towards the end of the year, the plump and pleasant Yool schedules a relaxing sojourn on Cold Island. Its arrival is heralded by the jingle bells dangling from its antlers, and the booming resonance of its voice. Just being near a Yool produces feelings of peace and joy, so the other Monsters always try and convince it to stay the whole year round.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Yool.png?raw=true",
     "cost": "225 Diamonds",
-    "islands": ["cold", "colossingum", "gold", "seasonal", "mirror cold"],
-    "breedingCombo": ["Thumpies + Congle"]
+    "islands": [
+        "cold",
+        "colossingum",
+        "gold",
+        "seasonal",
+        "mirror cold"
+    ],
+    "breedingCombo": [
+        "Thumpies + Congle"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 12 hr, Enhanced Time: 1 day 3 hr"
+    ]
 }

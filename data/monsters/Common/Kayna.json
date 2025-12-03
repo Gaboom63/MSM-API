@@ -3,6 +3,29 @@
     "description": "The ancient Kayna was long thought lost to an enigmatic event in Monster antiquity. A solitary specimen encased in amber was rescued on Tribal Island. It's true, but only recently did a new generation of these beings begin to appear, beckoned by the mysterious call of Relics resonating deep within the world's volcanic core. Now this feisty Fire Elemental is ready to play its part in restoring the glory of its powerful Element in the Monster World.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Kayna.png?raw=true",
     "cost": "10 Relics",
-    "islands": ["haven", "oasis", "light", "psychic", "faerie", "bone", "amber", "tribal", "mirror light", "mirror psychic", "mirror faerie", "mirror bone"],
-    "breedingCombo": ["Tring + Kayna", "Sneyser + Kayna", "Blow't + Kayna", "Gloptic + Kayna", "Pladdie + Kayna", "Plinkajou + Kayna"]
+    "islands": [
+        "haven",
+        "oasis",
+        "light",
+        "psychic",
+        "faerie",
+        "bone",
+        "amber",
+        "tribal",
+        "mirror light",
+        "mirror psychic",
+        "mirror faerie",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Tring + Kayna",
+        "Sneyser + Kayna",
+        "Blow't + Kayna",
+        "Gloptic + Kayna",
+        "Pladdie + Kayna",
+        "Plinkajou + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 7 hr, Enhanced time: 5 hr 15 min"
+    ]
 }

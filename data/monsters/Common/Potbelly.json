@@ -3,6 +3,35 @@
     "description": "Potbellies are all Plant, and grow like weeds. They are welcome participants in the chorus, so long as they wear their pots and refrain from invading others' space.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Potbelly.png?raw=true",
     "cost": "250 Coins",
-    "islands": ["plant", "cold", "water", "earth", "shugabush", "colossingum", "gold", "haven", "light", "psychic", "tribal", "composer", "mirror plant", "mirror cold", "mirror water", "mirror earth"],
-    "breedingCombo": ["Plant: Entbrat + Potbelly", "Cold: Deedge + Potbelly", "Water: Shellbeat + Potbelly", "Earth: Quarrister + Potbelly", "Haven: Tring + Potbelly", "Light: Blow't + Potbelly", "Gloptic + Potbelly", "Shugabush: Shugabush + Potbelly"]
+    "islands": [
+        "plant",
+        "cold",
+        "water",
+        "earth",
+        "shugabush",
+        "colossingum",
+        "gold",
+        "haven",
+        "light",
+        "psychic",
+        "tribal",
+        "composer",
+        "mirror plant",
+        "mirror cold",
+        "mirror water",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Plant: Entbrat + Potbelly",
+        "Cold: Deedge + Potbelly",
+        "Water: Shellbeat + Potbelly",
+        "Earth: Quarrister + Potbelly",
+        "Haven: Tring + Potbelly",
+        "Light: Blow't + Potbelly",
+        "Gloptic + Potbelly",
+        "Shugabush: Shugabush + Potbelly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 hr, Enhanced Time: 1 hr 30 min"
+    ]
 }

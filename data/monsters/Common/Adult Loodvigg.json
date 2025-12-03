@@ -3,6 +3,13 @@
     "description": "Perhaps it's motivated by some sense of latent rebelliousness, or maybe it was just time for a change, but the adult Loodvigg has embraced the exact opposite of Shadow - Light! It grafts gleaming gems onto the teeth of its keyboard, coiffs its hair, cuffs and ruff, and prioritizes flashy and flamboyant flourishes in its musical performance.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Loodvigg%20(adult).png?raw=true",
     "cost": "10 Keys",
-    "islands": ["celestial"],
-    "breedingCombo": ["None. Zap, And Power Up!"]
+    "islands": [
+        "celestial"
+    ],
+    "breedingCombo": [
+        "None. Zap, And Power Up!"
+    ],
+    "breedingTime": [
+        "Ascend For 10 Keys"
+    ]
 }

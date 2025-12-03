@@ -3,6 +3,23 @@
     "description": "The PomPom grows brilliant pink plumes by eating only foods that are red. The pelt may grow to be very long. While dancing and emitting its strident cry, the PomPom is an arresting sight.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/PomPom.png?raw=true",
     "cost": "50 Diamonds",
-    "islands": ["air", "earth", "shugabush", "colossingum", "gold", "tribal", "composer", "mirror air", "mirror earth"],
-    "breedingCombo": ["Drumpler + Tweedle", "Pango + Noggin", "Cybop + Mammott"]
+    "islands": [
+        "air",
+        "earth",
+        "shugabush",
+        "colossingum",
+        "gold",
+        "tribal",
+        "composer",
+        "mirror air",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Drumpler + Tweedle",
+        "Pango + Noggin",
+        "Cybop + Mammott"
+    ],
+    "breedingTime": [
+        "Breeding Time: 12 hr, Enhanced Time: 9 hr"
+    ]
 }

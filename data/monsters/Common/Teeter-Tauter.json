@@ -3,6 +3,17 @@
     "description": "Teeter-Tauter is an unusually unstable pair, even when compared to its synthetic siblings who slink about the Workshop. Its chaotic Elemental power necessitated its split into two separate beings that together form one lovably lopsided Ethereal - made complete with some minor 'Mech-nical' enhancements! While the bipedal Teeter's acrobatic prowess is undeniable, its tireless tittering tends to teeter toward tedious in the eye of its more responsible half, Tauter.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Teeter-Tauter.png?raw=true",
     "cost": "2400 Diamonds",
-    "islands": ["workshop", "mech"],
-    "breedingCombo": ["Mech Meeb + Crystal Meeb + Poison Meeb"]
+    "islands": [
+        "workshop",
+        "mech"
+    ],
+    "breedingCombo": [
+        "Mech Meeb + Crystal Meeb + Poison Meeb"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 6 hr"
+    ],
+    "synthesisTime": [
+        "Success: 1 day 6 hr, Failure: 10 hr"
+    ]
 }

@@ -3,6 +3,13 @@
     "description": "Some have accused Attmoz of being a bit of a windbag at this stage, but that's only because the Celestial talks nonstop about its new favorite topic: glam rock. The gestural skills used to play its trademark instrument have a number of other uses as well; using its hands to swipe and streak through the air, it’s now a master of karate (and friendship) for everyone. Ah-AH-ah!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Attmoz%20(adult).png?raw=true",
     "cost": "10 Keys",
-    "islands": ["celestial"],
-    "breedingCombo": ["None. Zap, And Power Up!"]
+    "islands": [
+        "celestial"
+    ],
+    "breedingCombo": [
+        "None. Zap, And Power Up!"
+    ],
+    "breedingTime": [
+        "Ascend For 10 Keys"
+    ]
 }

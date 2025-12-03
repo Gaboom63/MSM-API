@@ -3,6 +3,24 @@
     "description": "Gather 'round, wee laddies and lassies, and hear the distinct bellow of Pladdie: lord of the Faeries! A spinner of yarns and teller of tales, this tartan talent provides its own dramatic mood music to every storytelling experience. Whether they be legends of mysterious winged Monsters flapping in the night, or a titanic sea creature patrolling the deep, Pladdie is a pro at captivating its audience through song and speech.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Pladdie.png?raw=true",
     "cost": "600 Diamonds",
-    "islands": ["faerie", "nexus", "mirror faerie"],
-    "breedingCombo": ["Drumpler + Wimmzies", "Stogg + Squot", "Boskus + HippityHop", "Clavi Gnat + Noggin", "Bridg-it + Mammott", "Cantorell + Kayna", "Ziggurab + Floot Fly"]
+    "islands": [
+        "faerie",
+        "nexus",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Drumpler + Wimmzies",
+        "Stogg + Squot",
+        "Boskus + HippityHop",
+        "Clavi Gnat + Noggin",
+        "Bridg-it + Mammott",
+        "Cantorell + Kayna",
+        "Ziggurab + Floot Fly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 8 hr, Enhanced Time: 1 day"
+    ],
+    "orbTime": [
+        "Orb Time: 2 day 2 hr"
+    ]
 }
