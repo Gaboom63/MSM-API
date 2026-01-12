@@ -1,0 +1,18 @@
+{
+    "name": "Astropod",
+    "description": "The Astropod is a bizarre amalgam of seemingly incompatible features that come together to create a truly unique Monster performer. The electricity that courses through its Wublin body manifests itself between its antlers and in the color-shifting tufts on its shell. Conversing with an Astropod is a complicated affair, as the slightest movement of its puny upper arms communicates nuanced subtexts and exposed veiled thoughts.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Astropod.png?raw=true",
+    "cost": "20000 Coins",
+    "islands": [
+        "Wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap Eggs And Power Up!"
+    ],
+    "polarity": [
+        "Negative form: Brump, Negative toward: Zynth, Positive from: Bona-Petite, Positive toward: Dwumrohl"
+    ],
+    "powerUpTime": [
+        "10 Days"
+    ]
+}

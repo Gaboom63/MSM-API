@@ -1,0 +1,17 @@
+{
+    "name": "Tuskski",
+    "description": "The 'Big' Tuskski abides by a simple philosophy: staying chill when life throws something unexpected at you. Wherever it roams, the Cold Top Boss can generate its own frosty condensation, and offers its service as a private snow maker. On its own time, the Tuskski will seek out hills and mountains, blanket them with snow and uses its tusks to uproot the miniature coniferous trees on its back. Then, it arranges them in specific configurations and makes use of the uniquely-adapted nails on its hind feet to whisk down the slopes and participate in what it calls 'ten-pine bowling.' Even though it's personally enthralled by this pastime, others do not share the Quint's enthusiasm and say it's boring... yeah, well, you know, that's just, like, your opinion, Mon.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Tuskski.png?raw=true",
+    "cost": "500 Relics",
+    "islands": [
+        "faerie",
+        "amber",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 3 day 8 hr, Enhanced Time: 2 day 12 hr"
+    ]
+}

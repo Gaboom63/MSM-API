@@ -1,0 +1,24 @@
+{
+    "name": "Clamble",
+    "description": "The vine-like Clamble protects its tender Plant head with flat metallic shells. As it grows, it saves the cast-off plates. While the element of Cold is in its family tree, the Clamble's green parts do not tolerate freezing.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Clamble.png?raw=true",
+    "cost": "50 Diamonds",
+    "islands": [
+        "plant",
+        "earth",
+        "colossingum",
+        "gold",
+        "tribal",
+        "composer",
+        "mirror plant",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Drumpler + Potbelly",
+        "Furcorn + Noggin",
+        "Shrubb + Mammott"
+    ],
+    "breedingTime": [
+        "Breeding Time: 12 hr, Enhanced Time: 9 hr"
+    ]
+}

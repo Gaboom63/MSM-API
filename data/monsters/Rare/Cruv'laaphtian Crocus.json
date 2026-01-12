@@ -1,0 +1,16 @@
+{
+    "name": "Cruv'laaphtian Crocus",
+    "description": "Stirred by the Monster denizens of Psychic Island, the Cruv'laaphtian Crocus has arisen! The distinction between 'flower' and Monster is blurred ever further in the physiology of this Titansoul - it's as if they have been fused into one entity with little sense of where one ends the other begins. It's unmistakably connected to the soul of the Psychic Titan, though - writhing tentacles reconstituted as roots and claws alike, brain matter coursing with synaptic action, and critter-like eyes it manipulates like juggling balls! One gets the ominous sense during its performance 'conducting' the Island's music that it is straining to pull itself out of the ground and float upwards into the endless Beyond. Perhaps its musical manipulation of the larger eyes, tentacle electrocutions and streaking meteor showers represent its attempts to destabilize the island and dislodge itself from the ground. Alas, Cruv'laapht is far too clever for that. Even though it will likely never tire of its ambition to break free and explore the cosmos, the Crocus is content to embody the musical aspirations of Cruv'laapht, and cements the Titan's place in the Monster World.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Cruv'laaphtian%20Crocus.png?raw=true",
+    "cost": "10,000,000 Coins",
+    "islands": [
+        "psychic",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 12 hr, Enhanced Time: 9 hr"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Fwog",
+    "description": "Emerging from its muddy birthplace, the Fwog sings passionately in the hope of attracting a companion. Its hypnotic call fills the air, stirring the most primal feelings of excitement in all Monsters.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Fwog.png?raw=true",
+    "cost": "30 Diamonds",
+    "islands": [
+        "plant",
+        "air",
+        "water",
+        "colossingum",
+        "gold",
+        "bone",
+        "tribal",
+        "composer",
+        "mirror plant",
+        "mirror air",
+        "mirror water",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Noggin + Toe Jammer"
+    ],
+    "breedingTime": [
+        "Breeding Time: 30 min, Enhanced Time: 22 min 30 sec"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Cantorell",
+    "description": "The Cantorell may seem to be a rather small-statured Monster to the naked eye, but beneath the soil, this fungal fiend grows a far-reaching system of mycelia capable of propagating dozens of clones! As more and more like-minded Cantorell caps emerge from the earth, they often compete for space both physical and musical. It's not uncommon to spot a Cantorell choir growing in a ring-like shape, so that each cap can feel included.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Cantorell.png?raw=true",
+    "cost": "300 Diamonds",
+    "islands": [
+        "faerie",
+        "nexus",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Squout + Noggin",
+        "HippityHop + Mammott",
+        "Drumpler + Floot Fly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Flasque",
+    "description": "It's challenging to describe the Flasque as a 'living thing' by the conventional definition of the term. The Ethereal's body consists of little more than an assortment of beakers and chalices, which float and move together impossibly, defying all known scientific laws. If that wasn't already enough, the Monster purposefully collides these body parts together - isn't it fearful of breaking the glass? By a fluke of nature, the Flasque's green lifeblood that sloshes and splashes about inside its body parts actually fortifies them and makes them completely shatter-resistant.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Flasque.png?raw=true",
+    "cost": "Workshop: 2000 Diamonds, Plasma: 3000 Diamonds",
+    "islands": [
+        "workshop",
+        "plasma"
+    ],
+    "breedingCombo": [
+        "Plasma Meeb + Crystal Meeb + Poison Meeb"
+    ],
+    "breedingTime": [
+        "Success: 1 day 6 hr, Failure: 10 hr"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Gloptic",
+    "description": "Gazing into the chromatic depths of Gloptic's eye will hypnotize suggestible Monsters in a harp-beat! Once under the mucky Monster's spell, their target begins to experience a wide range of delightful visions known as Gloptical Illoozions. While harmless, Gloptical Illoozions are infamous for causing chronic brain-itch.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Gloptic.png?raw=true",
+    "cost": "600 Diamonds",
+    "islands": [
+        "psychic",
+        "nexus",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Oaktopus + Yuggler",
+        "Flowah + Popette",
+        "Phangler + Bonkers",
+        "Rootitoot + Theremind",
+        "Tapricorn + Kayna",
+        "Rooba + Toe Jammer",
+        "Periscorp + Potbelly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 8 hr, Enhanced Time: 1 day"
+    ]
+}

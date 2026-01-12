@@ -1,0 +1,17 @@
+{
+    "name": "Edamimi",
+    "description": "Don't get beaned or bamboozled into thinking that the wind is what causes Edamimi's gentle melodic swaying; its undulations are as deliberate as they are hypnotic. Being somewhat of a prankster as a sprout, this Monster has spread its roots and grown a fresh perspective on life. Even though growing up can sometimes be a bum-pea ride, Edamimi can't help but 'photo-sympathize' with the growing pains of fellow plant-based Monsters. Vowing to turn over a new leaf before any friendships have soiled, this rap-scallion still loves to party sh-allot, but now it's all about 'good chives' only!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Edamimi.png?raw=true",
+    "cost": "Psychic: 300 Relics, Amber: 30 Relics",
+    "islands": [
+        "psychic",
+        "amber",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 16 hr, Enhanced Time: 1 day 6 hr"
+    ]
+}

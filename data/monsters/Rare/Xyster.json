@@ -1,0 +1,15 @@
+{
+    "name": "Xyster",
+    "description": "Are you thinking what we're thinking? Chances are the Xyster is thinking it too - its elaborate antlers attract and retain nearby thoughts for the Magical Monster to examine at its leisure. It bears a striking resemblance to another occupant of the Pocket Dimension, and might be the descendant of ancient transplants from a neighboring isle. Recent discoveries in the Monster World may have identified the 'missing link' in its evolution... speaking of links, the Xyster absolutely loves to swat at and coddle its caudal vertebrae to produce mind-bending melodies for all to enjoy.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Xyster.png?raw=true",
+    "cost": "200 Diamonds",
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Theremind + Clackula"
+    ],
+    "breedingTime": [
+        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+    ]
+}

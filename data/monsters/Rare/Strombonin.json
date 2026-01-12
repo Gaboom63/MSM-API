@@ -1,0 +1,17 @@
+{
+    "name": "Strombonin",
+    "description": "This Mythical shares many traits with a certain Fire Monster, but its preferred habitat couldn't be more different. The masterless Strombonin is a drifter… well and truly, as it drifts upon the ice floes that surround Cold Island. The only company it typically keeps is that of a specialized cold-weather snail called the Strombone whose pallial lungs possess unique musical qualities. Albeit being stoic and reserved itself, the hexapod's presence is unmistakable when it bellows forth rebellious decibels with the help of its mollusk companion.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Strombonin.png?raw=true",
+    "cost": "225 Diamonds",
+    "islands": [
+        "cold",
+        "mythical",
+        "mirror cold"
+    ],
+    "breedingCombo": [
+        "Spunge + Bowgart"
+    ],
+    "breedingTime": [
+        "Breeding Time: 23 hr, Enhanced Time: 17 hr 15 min"
+    ]
+}

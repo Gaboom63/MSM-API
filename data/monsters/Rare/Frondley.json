@@ -1,0 +1,17 @@
+{
+    "name": "Frondley",
+    "description": "When traipsing through a grove of trees in the pocket dimension, take care where you're stepping - you wouldn't want to tread on any of the root-toes of the Frondley! Its long strands of 'hair' dangle down from the top of its wasp-waisted body, making it difficult to recognize quickly. There's no mistaking it when it begins to hum, though - a glowing eye, psycho-static energy coursing through its hair and an surreal aura of warmth and friendship are enough to get anyone's attention!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Frondley.png?raw=true",
+    "cost": "400 Diamonds",
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Knucklehead + Theremind",
+        "Cahoot + Floot Fly",
+        "Deja-Jin + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 6 hr, Enhanced Time: 22 hr 30 min"
+    ]
+}

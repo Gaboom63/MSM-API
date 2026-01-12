@@ -1,0 +1,20 @@
+{
+    "name": "Fluoress",
+    "description": "A dimmed Fluoress exudes a gloomy aura, but the moment it joins the Monster chorus, the demure avatar of Light shines with all the fluorescent radiance of its Element! Each panel of a Fluoress's 'skirt' is packed with Fluorophyll, a Magically-occurring chemical that responds to sudden agitation with a luminous light show that's designed to draw in new friends when a Fluoress is feeling much too bashful.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Fluoress.png?raw=true",
+    "cost": "30,000 Coins",
+    "islands": [
+        "light",
+        "sanctum",
+        "nexus",
+        "mirror light"
+    ],
+    "breedingCombo": [
+        "Buy From Shop",
+        "Blow't + Fluoress",
+        "Enchantling + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 hr, Enhanced Time: 1 hr 30 min"
+    ]
+}

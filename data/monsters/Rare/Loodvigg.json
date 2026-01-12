@@ -1,0 +1,8 @@
+{
+    "name": "Loodvigg",
+    "description": "Loodvigg’s skeletal visage may suggest it lacks a pulse, but take the time to revive it, and you will find that the Celestial of Shadow is very much alive! This peculiar pianist is a role model for all startling Shadow Elementals that feel misunderstood by their peers. Though Loodvigg’s appearance may chill onlookers to the bone, inside lies a creative soul capable of elegant self-expression through the gentlest caress of its keys. Sadly, the occasional mood swing can lead the adolescent Celestial to be a little forceful with its keyboard - hence the braces.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Loodvigg.png?raw=true",
+    "cost": "8 Keys",
+    "islands": ["celestial"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

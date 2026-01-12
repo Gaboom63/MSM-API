@@ -1,0 +1,15 @@
+{
+    "name": "Roarick",
+    "description": "Alas, poor Roarick! We know it; a monster of infinite breath, of most excellent Monstromancy; it hath borne a gleaming eye on its body a thousand times; and now, how adored in our imagination it is! Our spirits rise at it. Here hang those magical trinkets that cast spells we know not how oft. How be its vibes now? Its rambles? Its skull? The flashes of its Elements, that were wont to set the Sanctum on a roar? To sing or not to sing? No question - Sing!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Roarick.png?raw=true",
+    "cost": "200 Diamonds",
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Clackula + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+    ]
+}

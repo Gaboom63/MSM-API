@@ -1,0 +1,17 @@
+{
+    "name": "G'day",
+    "description": "Crikey! No one can argue that G'day is a supremely cool Monster, but its origin is hotly debated. Could it be that forebears of Plant Island's G'joob got swept up in an Ethereal interdimensional portal and landed in the pocket dimension? Or maybe it's the other way around, and G'day came first and somehow migrated to the main dimension at an unspecified time. So which is it? Mythical or Magical? G'day is definitively Magical... but with just a hint of Mythical for good measure!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/G_day.png?raw=true",
+    "cost": "400 Diamonds",
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Roarick + Theremind",
+        "Cahoot + Clackula",
+        "Xyster + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 6 hr, Enhanced Time: 22 hr 30 min"
+    ]
+}

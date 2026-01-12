@@ -1,0 +1,19 @@
+{
+    "name": "Periscorp",
+    "description": "If Periscorp's eyes look familiar, you must have gazed upon the pupils of Psychic Island's Critters! Periscorps share a feed with those all-seeing eyeballs, storing its favorite footage within its gelatinous dorsal sacs. When these sacs are agitated by Periscorp's dual stingers, they play a brief soundbite from their stored footage - who knew the Psychic Island Critters had ears, too?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Periscorp.png?raw=true",
+    "cost": "300 Diamonds",
+    "islands": [
+        "psychic",
+        "nexus",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Phangler + Theremind",
+        "Poppette + Kayna",
+        "Yuggler + Toe Jammer"
+    ],
+    "breedingTime": [
+        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+    ]
+}

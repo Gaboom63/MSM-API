@@ -1,0 +1,16 @@
+{
+    "name": "Boodoo",
+    "description": "Offspring of Shadow and Crystal, Boodoos are contradictory creatures. Its uncanny appearance belies a gentle soul who enjoys home-cooking, collecting vintage dolls and artisanal craft-making. A Boodoo's shakers and ornamental headdress represent only a small portion of its creative pursuits; Monsters far and wide will travel to witness the unveiling of a Boodoo original.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Boodoo.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": [
+        "ethereal",
+        "colossingum"
+    ],
+    "breedingCombo": [
+        "Grumpyre + Jeeode"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 18 hr, Enhanced Time: 1 day 7 hr 20 min"
+    ]
+}

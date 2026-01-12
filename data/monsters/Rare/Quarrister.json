@@ -1,0 +1,22 @@
+{
+    "name": "Quarrister",
+    "description": "The first stage of the Quarrister's life cycle begins deep underground. Each head is a separate creature, feeding on crystals and fending for themselves. Eventually, groups of heads band together and harmonize their efforts until they physically fuse together. Every once in a while, one of the Quarrister's voices will go for a solo, but that kind of behavior is usually seen as big-headed.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Quarrister.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "earth",
+        "colossingum",
+        "gold",
+        "tribal",
+        "composer",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Dandidoo + Drumpler",
+        "Cybop + Furcorn",
+        "Pango + Shrubb"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day, Enhanced Time: 18 hr"
+    ]
+}

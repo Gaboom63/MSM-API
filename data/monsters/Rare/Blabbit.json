@@ -1,0 +1,19 @@
+{
+    "name": "Blabbit",
+    "description": "The playful Blabbit shares a common ancestor with the Reedling, and developed an equally eccentric adaptation for breathing - blowing bubbles! As it releases the bubbles, it makes an adorable trilling sound which endears it to the other Monsters. This is lucky for the Blabbit, because it also has a reputation for being a bit of a nuisance when it 'borrows' Monster eggs to paint and hide all over the place.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Blabbit.png?raw=true",
+    "cost": "225 Diamonds",
+    "islands": [
+        "water",
+        "colossingum",
+        "gold",
+        "seasonal",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "Spunge + Scups"
+    ],
+    "breedingTime": [
+        "Breeding Time: 19 hr, Enhanced Time: 14 hr 15 min"
+    ]
+}

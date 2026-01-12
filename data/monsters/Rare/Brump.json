@@ -1,0 +1,15 @@
+{
+    "name": "Brump",
+    "description": "Eww. Almost unique among Wublins, this Monster's appearance definitely brings to mind the eggs used to wake it... and also elicits a gag reflex. The Brump uses its Furcorn-like headstalks and Fwoggy feet to forage for food. It's pretty nasty, but presumably like you, we just can't seem to look away.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Brump.png?raw=true",
+    "cost": "2000 Coins",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative from: Blipsqueak, Negative toward: Astropod, Positive from: Fleechwurm, Positive toward: Poewk"
+    ]
+}

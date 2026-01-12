@@ -1,0 +1,18 @@
+{
+    "name": "Oogiddy",
+    "description": "Look, we get it - Oogiddy doesn't exactly give everyone the warm fuzzies. But what if we told you that in the midst of its nauseating display, it is actually performing a crucial function to preserve the ecosystem of the Workshop? Oogiddy traps Poisonous gasses within its bulbous body, mixing them with its own uniquely fragrant blend of acidic juices to neutralize all toxicity. The goopy byproduct created through this process ain't pretty, but it acts as a highly effective fertilizer (or hair gel!). Oogiddy even bids its fellow Monsters to steer clear of noxious substances by aggressively pulsating its chromatophores in warning.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Oogiddy.png?raw=true",
+    "cost": "3400 Diamonds",
+    "islands": [
+        "workshop"
+    ],
+    "breedingCombo": [
+        "Nitebear + 2 Of: Shadow Meeb + Mech Meeb + Crystal Meeb",
+        "Piplash + 2 Of: Shadow Meeb + Mech Meeb + Poison Meeb",
+        "X'rt + 2 Of: Shadow Meeb + Crystal Meeb + Poison Meeb",
+        "Teeter-Tauter + 2 Of: Mech Meeb + Crystal Meeb + Poison Meeb"
+    ],
+    "synthesisTime": [
+        "Success: 1 day 18 hr, Failure: 17 hr"
+    ]
+}

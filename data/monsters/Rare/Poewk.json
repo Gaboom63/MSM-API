@@ -1,0 +1,18 @@
+{
+    "name": "Poewk",
+    "description": "Is that the Poewk's face, or is it a mask procured from parts unknown? If it is indeed a mask... Why? Is it bashful? Cold? Ghastly to behold? Or is this Wublin simply into cosplay? That would explain a lot. The Poewk's musical performance is a mesmerizing display of frantic grace and composed frenzy.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Poewk.png?raw=true",
+    "cost": "5000 Coins",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative from: Bona-Petite, Negative toward: Maulch, Positive from: Brump, Positive toward: Tympa"
+    ],
+    "powerUpTime": [
+        "5 days"
+    ]
+}

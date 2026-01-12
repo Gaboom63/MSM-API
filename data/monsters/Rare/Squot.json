@@ -1,0 +1,17 @@
+{
+    "name": "Squot",
+    "description": "Squots are toadstool-like Monsters that creep about in the old dark corners of forested areas, nestling into the damp moss or lying in wait beneath a toppled log. At night, these unusual Monsters truly come alive! Using their spindly arms, Squots reach into hollow tree trunks to pluck out fluorescent Playphids and use them as instruments in their percussive pursuits. Despite knocking politely on their tiny doors, Playphids are nonetheless quite timorous when in the presence of a Squot.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Squot.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "faerie",
+        "nexus",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Mammott + Floot Fly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+    ]
+}

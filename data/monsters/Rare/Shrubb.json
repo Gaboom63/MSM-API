@@ -1,0 +1,25 @@
+{
+    "name": "Shrubb",
+    "description": "The willowy Shrubb performs continually in a graceful ballet. This statuesque Monster has astounding stamina, ensuring a steady source of modulation and sprayed saliva for the entire island chorus.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Shrubb.png?raw=true",
+    "cost": "30 Diamonds",
+    "islands": [
+        "plant",
+        "water",
+        "earth",
+        "coloossingum",
+        "gold",
+        "haven",
+        "tribal",
+        "composer",
+        "mirror plant",
+        "mirror water",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Potbelly + Noggin"
+    ],
+    "breedingTime": [
+        "Breeding Time: 8 hr, Enhanced Time: 6 hr"
+    ]
+}

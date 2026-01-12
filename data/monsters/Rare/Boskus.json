@@ -1,0 +1,20 @@
+{
+    "name": "Boskus",
+    "description": "If you value your dignity, never challenge a Boskus to a thumb war! Years of lip-flubbering with its nasal digit have given this silly Monster a finger strong enough to lift broken-down Diggers and uproot even the most stubborn of stumps.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Boskus.png?raw=true",
+    "cost": "50 Relics",
+    "islands": [
+        "oasis",
+        "light",
+        "faerie",
+        "amber",
+        "mirror light",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Mammott + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 18 hr, Enhanced Time: 1 day 7 hr 30 min"
+    ]
+}

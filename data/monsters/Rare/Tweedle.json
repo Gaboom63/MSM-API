@@ -1,0 +1,8 @@
+{
+    "name": "Tweedle",
+    "description": "Tweedles are nothing but Air! These flighty creatures really get around, and see themselves as fashionable and popular. Tweedles love to spread whispers and gossip, keeping the social life on their island very interesting.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Tweedle.png?raw=true",
+    "cost": "300 Coins",
+    "islands": ["cold", "air", "water", "earth", "colossingum", "gold", "haven", "oasis", "tribal", "composer", "mirror cold", "mirror air", "mirror water", "mirror earth"],
+    "breedingCombo": ["Cold: Deedge + Tweedle", "Air: Riff + Tweedle", "Water: Shellbeat + Tweedle", "Earth: Quarrister + Tweedle", "Haven: Tring + Tweedle", "Oasis: Sneyser + Tweedle"]
+}

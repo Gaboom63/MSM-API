@@ -1,0 +1,24 @@
+{
+    "name": "Spunge",
+    "description": "The Spunge's Plant body is filled with inflatable chambers that can be filled with Air or Water. While singing, it uses Air to produce a pure whistling sound, but this Monster loves to aim and shoot a powerful jet of water at unsuspecting passersby.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Spunge.png?raw=true",
+    "cost": "50 Diamonds",
+    "islands": [
+        "cold",
+        "water",
+        "colossingum",
+        "gold",
+        "tribal",
+        "composer",
+        "mirror cold",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "Dandidoo + Toe Jammer",
+        "Quibble + Potbelly",
+        "Oaktopus + Tweedle"
+    ],
+    "breedingTime": [
+        "Breeding Time: 12 hr, Enhanced Time: 9 hr"
+    ]
+}

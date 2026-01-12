@@ -1,0 +1,17 @@
+{
+    "name": "Dragong",
+    "description": "The Dragong's lithe body belies incredible strength and resilience, which it uses to absorb the vibration of its tail- and feet-plates. In addition to the cymbal-like clashing they create, these plates allow the Dragong to skim the water's surface, and unsurprisingly, to prepare delicious dishes for its Ethereal cohorts.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Dragong.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": [
+        "ethereal",
+        "colossingum",
+        "mech"
+    ],
+    "breedingCombo": [
+        "Reebro + Humbug"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 18 hr (Ethereal), 20 hr (Islets), Enhanced Time: 1 day 7 hr 30 min"
+    ]
+}

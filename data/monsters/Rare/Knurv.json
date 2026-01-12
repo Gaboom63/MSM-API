@@ -1,0 +1,15 @@
+{
+    "name": "Knurv",
+    "description": "Over the course of its multiversal sojourns, the Fire Haven Mythical has had the opportunity to observe and partake of various cultures and civilizations. It's particularly interested in folklore, but there's one legend that has gripped its imagination from the first moment it heard it - that of the Knurv. Known by another name in its native dimension, tales relate that this 'bogeyMon' of sorts extends its elongated optic nerves to spy on others without their knowledge. On Mythical Island, it has been reimagined using dreamcraft as an enthusiastic musical performer; using its optic nerves not for spying, but for creating captivating melodies reminiscent of its Mythical creator.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Knurv.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "mythical"
+    ],
+    "breedingCombo": [
+        "Cataliszt + Buzzinga"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 8 hr, Enhanced: 1 day"
+    ]
+}

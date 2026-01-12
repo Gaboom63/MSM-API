@@ -1,0 +1,8 @@
+{
+    "name": "Galvana",
+    "description": "Even the mightiest of Celestials has to start somewhere! The revived Galvana enjoys its new found freedom from age-old responsibilities, blissfully unaware that its very own creations roam the Monster World. Unshackled from the burdens of guardianship, Galvana instead releases its raw Electrical energy through play, even toying with the very orb that contains its power.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Galvana.png?raw=true",
+    "cost": "28 Keys",
+    "islands": ["celestials"],
+    "breedingCombo": ["None. Zap, And Power Up!"]
+}

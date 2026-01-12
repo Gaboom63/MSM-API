@@ -1,0 +1,18 @@
+{
+    "name": "Blipsqueak",
+    "description": "Before settling into its finalized form, this impassioned Wublin decided that its musical contribution would be to recite several words it had heard on faint radio frequencies from the human universe, in a kingdom known only as the Mait-Land. Its maker acquiesced to these linguistic leanings, making sure to fashion a robotic body that featured all the parts mentioned - well, in one form or another, or rather in a way that only a Monster could truly do.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Blipsqueak.png?raw=true",
+    "cost": "5000 Coins",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative Form: Tympa, Negative Toward: Brump, Positive Form: Screemu, Positive Toward: Scargo"
+    ],
+    "powerUpTime": [
+        "5 Days"
+    ]
+}

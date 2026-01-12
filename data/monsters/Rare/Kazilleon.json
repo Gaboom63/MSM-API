@@ -1,0 +1,16 @@
+{
+    "name": "Kazilleon",
+    "description": "Kazilleons aren't the greatest-smelling Monsters. For one, the toxic gas they spew when they're singing has been known to singe fur and upset appetites. To boot, the noxious fumes emanating from their color-shifting skin is sometimes harvested to help strip paint off of old buildings. The thing is, they're so friendly, everyone wants them around anyhow.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Kazilleon.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": [
+        "ethereal",
+        "colossingum"
+    ],
+    "breedingCombo": [
+        "Grumpyre + Humbug"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 18 hr, Enhanced Time: 1 day 7 hr 30 min"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Peckidna",
+    "description": "A flock of colorful birds plucking the instrument of a willing little Monster? It may sound familiar, yet the Peckidna evolved independently of the woolen Monster you know and love thanks to its unique habitat and Elemental make-up. The caring Peckidna crawls beneath the bellies of itchy-tummied giants and uses its spines to scritch and scratch away. Its shell not only provides a cozy place to get some 'me time,' but also a layer of protection from any flaky skin that may fall from the Monster above!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Peckidna.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "bone",
+        "nexus",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Noggin + Clackula"
+    ],
+    "breedingTime": [
+        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+    ]
+}

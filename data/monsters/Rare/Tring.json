@@ -1,0 +1,22 @@
+{
+    "name": "Tring",
+    "description": "A Tring's nose ring is its most prized possession. Each Tring crafts its own ring using foraged metals, shaping it with their impressive strength until the ring produces the gentle chime for which Trings are best known.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Tring.png?raw=true",
+    "cost": "200 Relics",
+    "islands": [
+        "haven",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Stogg + Dandidoo",
+        "Shrubb + Glowl",
+        "Flowah + Cybop",
+        "Reedling + Kayna",
+        "Floogull + Potbelly",
+        "Barrb + Noggin",
+        "Repatillo + Tweedle"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 16 hr, Enhanced Time: 1 day 6 hr"
+    ]
+}

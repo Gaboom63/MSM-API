@@ -1,0 +1,19 @@
+{
+    "name": "Banjaw",
+    "description": "Banjaw's principle tendon is 37 times stretchier than a Stritch Skin, 42 times tougher than a Diamond, and 100 times twangier than, well - anything! Pulling back this durable tendon allows this skeletal character to slingshot anything (or any Monster) great distances. Just beware that you don't get too close to that mighty ring of chompers on your way.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Banjaw.png?raw=true",
+    "cost": "300 Diamonds",
+    "islands": [
+        "bone",
+        "nexus",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Hawlo + Toe Jammer",
+        "Denchuhs + Kayna",
+        "Phangler + Clackula"
+    ],
+    "breedingTime": [
+        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+    ]
+}

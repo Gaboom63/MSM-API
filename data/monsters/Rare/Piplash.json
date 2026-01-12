@@ -1,0 +1,16 @@
+{
+    "name": "Piplash",
+    "description": "Wow! This Triple-Element Ethereal is… not what we were expecting. In a class of Monsters that includes some of the more unsightly species, the Piplash exists in stark and striking contrast. It's so cute and endearing! Even its headbanging, stereotypically associated with hardcore genres, is absolutely delightful. What precisely is going on here?! Is the Piplash harboring some secret, putting up a front, concealing a side we can't see? Could the Monster possibly be as wholesome as it outwardly seems? This is driving us crazy!!!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Piplash.png?raw=true",
+    "cost": "2200 Diamonds",
+    "islands": [
+        "workshop",
+        "mech"
+    ],
+    "breedingCombo": [
+        "Shadow Meeb + Mech Meeb + Poison Meeb"
+    ],
+    "synthesisTime": [
+        "Success: 1 day 6 hr, Failure: 10 hr"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Glowl",
+    "description": "A Glowl would seemingly make an excellent spy, soaring high above its flightless companions, but its fire-bright tail feathers make it easy to spot. Nevertheless, this Monster maintains a bird's eye view of the world below and is always up-to-date on the latest happenings.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Glowl.png?raw=true",
+    "cost": "50 Relics",
+    "islands": [
+        "haven",
+        "oasis",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Tweedle + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 10 hr, Enhanced Time: 7 hr 30 min"
+    ]
+}

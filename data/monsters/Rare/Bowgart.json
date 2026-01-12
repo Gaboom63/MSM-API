@@ -1,0 +1,24 @@
+{
+    "name": "Bowgart",
+    "description": "The Bowgart loves to stand in puddles. It sucks a muddy mixture of Earth and Water through its feet to feed rapid horn growth. When shed, a horn will be strung and tuned, then replace the Bowgart's old instrument.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Bowgart.png?raw=true",
+    "cost": "50 Diamonds",
+    "islands": [
+        "plant",
+        "cold",
+        "colossingum",
+        "gold",
+        "tribal",
+        "composer",
+        "mirror plant",
+        "mirror cold"
+    ],
+    "breedingCombo": [
+        "Maw + Potbelly",
+        "Oaktopus + Mammott",
+        "Furcorn + Toe Jammer"
+    ],
+    "breedingTime": [
+        "Breeding Time: 12 hr, Enhanced Time: 9 hr"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Whajje",
+    "description": "For a Wublin, the Whajje is almost... dainty. Named for its distinctive 'Whajje-Whajje' cry, it can most often be found standing on tippy-toes so that its song rings out above the heads of other Monsters. Whajjes scrupulously preen their feathers to create a sort of dish to amplify the sound of their voices. Other Supernaturals are always daring it to join their capers, but the Whajje is better-behaved than most - a trait for which it cryptically credits its furry feet.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Whajje.png?raw=true",
+    "cost": "20000 Coins",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative from: Zynth, Negative toward: Pixolotl, Positive from: Dwumrohl, Positive toward: Creepscule"
+    ],
+    "powerUpTime": [
+        "10 Days"
+    ]
+}

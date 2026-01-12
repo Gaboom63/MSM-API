@@ -1,0 +1,19 @@
+{
+    "name": "Bridg-it",
+    "description": "Ever cross a rickety old bridge and feel like something is waiting for you underneath? It was probably just a Bridg-it! This tender soul loves hosting guests for tea, served just how they like it, in a tasse balanced delicately on its length digits. Following tea, guests are invited to sit back and enjoy the Bridg-it's exquisite 'chinstrument' as their host taps a tinkling little tune that would make any visitor feel special. What a treat!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Bridg-it.png?raw=true",
+    "cost": "300 Diamonds",
+    "islands": [
+        "faerie",
+        "nexus",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Wimmzies + Noggin",
+        "HippityHop + Kayna",
+        "Stogg + Flooy Fly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 10 hr"
+    ]
+}

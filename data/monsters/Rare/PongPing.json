@@ -1,0 +1,17 @@
+{
+    "name": "PongPing",
+    "description": "There's a persistent cliché that you can either be a music fan or a sports nut, but not both - and the PongPing proves otherwise! Even though its vermiform body is better suited to standing activities like table tennis, the Monster also loves embarking on cross-island marathons, no matter how long they take. To keep its spirits up on the way, the PongPing uses its paddles to practice a series of rhythmic rudiments on its inflatable cheeks. When intense weather or fatigue threaten to discourage, the Monster likes to remember the optimistic adage its forebears always used to say: 'Life is like a music box of Chokkolits... wait, why are there Chokkolits in a music box? What a mess! Oh well, let's get started on clean-up.' We know, it's kind of convoluted.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/PongPing.png?raw=true",
+    "cost": "300 Relics",
+    "islands": [
+        "bone",
+        "amber",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 16 hr, Enhanced Time: 1 day 6 hr"
+    ]
+}

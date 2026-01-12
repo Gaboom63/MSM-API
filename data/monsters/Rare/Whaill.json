@@ -1,0 +1,23 @@
+{
+    "name": "Whaill",
+    "description": "Some Ethereals prefer to whisper, while others favor wailing. The Quad-Element Whaill is the latter, so-named for the ululations that gurgle forth from its many mouths. Although at first blush these sounds seem melodious, over time they can elicit feelings of dread and disorientation in the listener. That's because the sound waves the Whaill produces actually begin to tear apart the fabric of space time and threaten to expose reality to the Rift, the world between worlds. But how can the polystomatous Plasma Boss help it? When you have hands for mouths and mouths for hands, there's little else that you can do but wail.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Whaill.png?raw=true",
+    "cost": "3000 Diamonds",
+    "islands": [
+        "workshop",
+        "plasma"
+    ],
+    "breedingCombo": [
+        "Yooreek + 2 Of: Plasma Meeb + Shadow Meeb + Mech Meeb",
+        "Meebkin + 2 Of: Plasma Meeb + Shadow Meeb + Crystal Meeb ",
+        "Gaddzooks + 2 Of: Plasma Meeb + Mech Meeb + Crystal Meeb",
+        "Gaddzooks + 2 Of: Plasma Meeb + Mech Meeb + Crystal Meeb",
+        "Nitebear + 2 Of: Shadow Meeb + Mech Meeb + Crystal Meeb"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 6 hr"
+    ],
+    "synthesisTime": [
+        "Success: 1 day 18 hr, Failure: 17 hr"
+    ]
+}

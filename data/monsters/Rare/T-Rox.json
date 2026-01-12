@@ -1,0 +1,24 @@
+{
+    "name": "T-Rox",
+    "description": "The T-Rox exudes enthusiasm and energy, displaying flashing spikelets and chomping jaws. Monsters with toes should steer well clear of the T-Rox.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/T-Rox.png?raw=true",
+    "cost": "50 Diamonds",
+    "islands": [
+        "plant",
+        "air",
+        "colossingum",
+        "gold",
+        "tribal",
+        "composer",
+        "mirror plant",
+        "mirror air"
+    ],
+    "breedingCombo": [
+        "Maw + Noggin",
+        "Drumpler + Toe Jammer",
+        "Fwog + Mammott"
+    ],
+    "breedingTime": [
+        "Breeding Time: 8 hr, Enhanced Time: 6 hr"
+    ]
+}

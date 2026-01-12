@@ -1,0 +1,17 @@
+{
+    "name": "Krillby",
+    "description": "It is unclear whether Krillby's vestigial wings are powerful enough for sustained flight, but this Fire Monster is more at home on the ground than in the air. Its talons make it easy to maneuver across many different terrains, while its wings guide the air in and around the ocarina-like bodies to help produce the lovely whistles for which they are known. This also regulates the Krillby's body temperature when running very fast, something you have to do often when you look as tasty as Krillby does.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Krillby.png?raw=true",
+    "cost": "300 Relics",
+    "islands": [
+        "faerie",
+        "amber",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 16 hr, Enhanced Time: 1 day 6 hr"
+    ]
+}

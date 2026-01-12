@@ -1,0 +1,15 @@
+{
+    "name": "Lowb",
+    "description": "The following is an excerpt retrieved from the Monster development journals of an unidentified Colossal, chronicling some of their earliest recorded efforts in the pocket dimension:'Progress halted on the skittish specimen codenamed 'Lowb.' Subject initially showed encouraging signs of maturation and musical resonance, but the duration of these fails to meet performance targets. Internal structure of the subject's thoracic cavity was designed to house a flowering bud, but external stimuli cause an unanticipated hardening of the outer shell. As such, this model has been shelved. Disappointing news, as the hope was for this creation to be designated as the Core Elemental of Plant. Nevertheless, the work continues: a promising new design has been stabilized with the assistance of pottery and will be explored further.' Seemingly added much later, another Colossal's notes have been scribbled in the margin: Cancellation of the Lowb prototype was premature. Using the Dish-Harmonizer, I was able to harness the subject's shell hardening ability to fashion a dendritic structure composed of elder specimens on which the juvenile specimen can bounce. A constant cycle of renewal is now underway, in which old becomes reabsorbed and born anew. I knew this idea had potential, it just needed a few tweaks: now the Plant Primordial has a new lease on life.'",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Lowb.png?raw=true",
+    "cost": "5000 Diamonds",
+    "islands": [
+        "plasma"
+    ],
+    "breedingCombo": [
+        "Obtain From The Dish-Harmonizer!"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 2 hr"
+    ]
+}

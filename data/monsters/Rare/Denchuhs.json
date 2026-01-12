@@ -1,0 +1,17 @@
+{
+    "name": "Denchuhs",
+    "description": "The pint-sized Denchuhs are a lot like a pair of your grandaddy's dentures: they're at their best when they're together, but often fall out! Occasional spats are an inevitability when looks are so identical, yet personalities are more contrary than fire and ice: gabby versus glum, sanguine versus stoic, and bubbly versus been-there-done-that. But at the end of a long day, all these little Denchuhs want is a hefty snack in their mega-mouths and the comfort of a held hand.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Denchuhs.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "bone",
+        "nexus",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Toe Jammer + Clackula"
+    ], 
+    "breedingTime": [
+        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+    ]
+}

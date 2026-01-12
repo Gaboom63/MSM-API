@@ -1,0 +1,17 @@
+{
+    "name": "Spurrit",
+    "description": "Huzzah! If you're reading this, that means that you've accomplished the unimaginable and actually tracked down the Spurrit! A notoriously elusive Seasonal, it nonetheless asserts that it's native to the Monster World… but some have their doubts. When it's not excitedly joining in on an island's song, the Spurrit can be observed fastidiously scribbling in journals, carrying out bold (and sometimes inadvisable) science experiments, and generally marveling at the world around it. The secret to its tireless joie de vivre? Maintaining uninterrupted access to the waters of the living ocean, which it slurps down with a self-satisfied, if perplexing, gulp.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Spurrit.png?raw=true",
+    "cost": "225 Diamonds",
+    "islands": [
+        "oasis",
+        "seasonal"
+    ],
+    "breedingCombo": [
+        "Wynq + Maw",
+        "Blabbit + Hoola"
+    ],
+    "breedingTime": [
+        "Breeding Time: 20 hr 18 min, Enhanced Time: 15 hr 13 min 30 sec"
+    ]
+}
