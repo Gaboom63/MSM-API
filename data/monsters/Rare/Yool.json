@@ -3,6 +3,7 @@
     "description": "Hitching a ride with its Common Seasonal cousin, the Rare Yool journeys to Cold Island each year to ring in the heart-warming Festival of Yay with its fellow Monsters. Legend says it was once a curmudgeonly loner, preferring to spend time by itself - but once it discovered the joy of friendship, it sprinkled its beard with scrumptious candy and resolved to hold the message of goodwill towards all Monsterkind in its heart, no matter the season.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Yool.png?raw=true",
     "cost": "500 Diamonds",
+    "shantyPrice": "625 Diamonds",
     "islands": [
         "cold",
         "gold",

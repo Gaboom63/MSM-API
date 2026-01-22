@@ -3,6 +3,7 @@
     "description": "While the Mon-drake Seasonals recognize and respect the 5 foundational Natural Elements of the Monster World, they actually revere a different grouping of Elements they call the 5 Phases - Wood, Fire, Earth, Metal and Water. Of the Phases, Rare Carillongs are firm devotees of Wood; they prize creativity and an inquisitive mind above all else. They even carry special wooden Chimekeepers they carve themselves from the timber of the pocket dimension's forests. If ancient prophecies are to be believed, a period of prosperity for Rare Carillongs is slated to align with the rising of the next Crescendo Moon.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Carillong.png?raw=true",
     "cost": "500 Diamonds",
+    "shantyPrice": "625 Diamonds",
     "islands": [
         "sanctum",
         "seasonal"

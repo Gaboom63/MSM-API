@@ -3,6 +3,7 @@
     "description": "You're perhaps familiar with 'cooking the books'… but have you ever heard of 'baking the books'? That's the Rare Boo'qwurm's specialty. In place of the typical stack of unapproachable Bib'leos, this Seasonal concocts layers of sugary confections that cause the most fanciful fictions to be imagined upon their delectation. Rather than using one's eyes to perceive the written word, these stories are delivered and deciphered via degustation! There are some who argue that the only way to enjoy a book is to read it the old-fashioned way, but as far as the Rare Boo'qwurm is concerned, encouraging a love of literacy by any means necessary is a recipe for success.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Boo_qwurm.png?raw=true",
     "cost": "225 Diamonds",
+    "shantyPrice": "625 Diamonds",
     "islands": [
         "psychic",
         "seasonal",

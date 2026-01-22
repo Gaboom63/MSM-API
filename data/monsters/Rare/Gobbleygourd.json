@@ -3,6 +3,7 @@
     "description": "All Gobbleygourds are aeronautically challenged - any time you might have seen one hurtling through the air, it probably just jumped from a high height and hoped for the best. That hasn't stopped one particular rafter of Gobbleygourds from trying to improve their chances by any means possible - losing their snoods, evolving white head feathers to emulate the aquiline ideal and studying textbooks on flight dynamics. It's all wishful thinking, of course - but Rare Gobbleygourds are possessed of an indomitable will that isn't easily discouraged!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Gobbleygourd.png?raw=true",
     "cost": "500 Diamonds",
+    "shantyPrice": "625 Diamonds",
     "islands": [
         "haven",
         "oasis",

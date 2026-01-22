@@ -3,6 +3,7 @@
     "description": "What happens when an individual from the flashy yet mute race of Glowbes yearns to cast off its 'honorary' Singing Monster status and find a voice of its own? A Whiz-bang, that's what! There's only so much a silent being can stand living among loud and boisterous creatures before it transforms and devises a sound of its own... and talk about a distinctive sound! Previously confined to just one hue, Whiz-bangs proudly cycle through all the colors of the spectrum as they see fit. During the longest days of the year, these Seasonals congregate and cooperate to 'paint' the sky with explosions and every color imaginable - and all of the Monster World is welcome to join the celebration!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Whiz-bang.png?raw=true",
     "cost": "225 Diamonds",
+    "shantyPrice": "500 Diamonds",
     "islands": [
         "light",
         "seasonal",

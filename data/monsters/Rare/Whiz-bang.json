@@ -3,6 +3,7 @@
     "description": "When are you gonna come down? When are you going to land? Such are the questions asked of the Rare Whiz-bang, whose aeronautical ambitions stretch higher and further than the Common Glowbe-turned-Seasonal. It combines all of the various bands of the spectrum into one, but mystifyingly, its outward appearance contradicts the laws of color theory. Typically, you'd expect all colors of light to combine into white, but the Rare Whiz-bang glows instead with an emphatic golden yellow. This phenomenon is still being researched, but in the mean time, it makes for a stunning chromatic display near the year's end, augmented by the multicolored streamers, goggles and cape the Rare Seasonal dons for the occasion.!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Whiz-bang.png?raw=true",
     "cost": "500 Diamonds",
+    "shantyPrice": "625 Diamonds",
     "islands": [
         "light",
         "seasonal",

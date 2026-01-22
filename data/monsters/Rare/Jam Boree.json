@@ -2,7 +2,8 @@
     "name": "Rare Jam Boree",
     "description": "A decade has passed, full of musical craze; We've all grown together through this Monstrous phase.  Upon the Shanty, Seasonals all sing carefree... But still were surprised to meet Rare Jam Boree!  With a Roamin' candle placed on its Chokkolitty top, Everyone knows that the music won't stop.  Sparklers for cheer, and candles burning bright, For all Singing Monsters, there's no end in sight!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Jam%20Boree%20-%20Year%2011.png?raw=true",
-    "cost": "625 Diamonds",
+    "cost": "N/A",
+    "shantyPrice": "625 Diamonds",
     "islands": [
         "gold",
         "seasonal"

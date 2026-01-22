@@ -3,6 +3,7 @@
     "description": "Rare Hoolas are what happen when these mischeivous [sic] Seasonals adhere to the diet of their PomPom cousins! True to form, however, they usually overdo it and become a garish shade of red in the process. This makes it a little more difficult to sneak up on other Monsters or to pull pranks, so the Rare Hoola compensates by adding an extra hoop to distract them using sleight of hand... or in this case, sleight of hoop.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Hoola.png?raw=true",
     "cost": "500 Diamonds",
+    "shantyPrice": "625 Diamonds",
     "islands": [
         "air",
         "earth",

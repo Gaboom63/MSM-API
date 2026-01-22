@@ -3,6 +3,7 @@
     "description": "Love, just like music, is universal. Rare Schmoochles, with their extra set of eyes, claim to be able to see love in all its forms. This enlightenment doesn't mean that the Monster is exempt from conflict - spats and misunderstandings have historically led to literal heartbreak, requiring stitching. In the end, the love you take is equal to the love you make, and the two heads know that they're ultimately destined for one another.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Schmoochle.png?raw=true",
     "cost": "500 Diamonds",
+    "shantyPrice": "625 Diamonds",
     "islands": [
         "air",
         "gold",
