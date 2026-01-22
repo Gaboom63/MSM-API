@@ -1,8 +1,9 @@
 {
-    "name": "Bowgart",
-    "description": "The Bowgart loves to stand in puddles. It sucks a muddy mixture of Earth and Water through its feet to feed rapid horn growth. When shed, a horn will be strung and tuned, then replace the Bowgart's old instrument.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Bowgart.png?raw=true",
-    "cost": "50 Diamonds",
+    "name": "Rare Bowgart",
+    "description": "Although a Bowgart's elemental affinity is usually split evenly between Plant, Water and Cold, that of the Rare Bowgart heavily favors its chilliest ingredient. Overcoming the nervous nail and lip-biting habits of its Common cousin, this Monster allows its sickled toenails and arm horns to grow to full length. Others keep encouraging it to use its claws and take up tap-dancing to complement its fine bowing skills, but for now the Rare Bowgart is sticking to what it knows best.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Bowgart.png?raw=true",
+    "cost": "65 Diamonds",
+    "starpower": "2500 Starpower",
     "islands": [
         "plant",
         "cold",
@@ -19,6 +20,6 @@
         "Furcorn + Toe Jammer"
     ],
     "breedingTime": [
-        "Breeding Time: 12 hr, Enhanced Time: 9 hr"
+        "Breeding Time: 15 hr 30 min, Enhanced Time: 11 hr 37 min 30 sec"
     ]
 }

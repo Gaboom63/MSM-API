@@ -1,7 +1,7 @@
 {
-    "name": "Incisaur",
-    "description": "With a smile only a Monster mother could love, the charming Incisaur loves to munch on cold Treats like Ice Cream and popsicles day and night - lucky! Like all Monsters, its metabolism is designed to derive maximum nutrition from foods that humans might consider junk food, but its ability to bypass Ice Cream headaches and actually improve its focus with its frigid diet seems to be unique to this species. While this Quad might have aspired to be a beatboxer at one point, the Incisaur's wiggly teeth make that difficult (but still manage to produce a whole lot of spittle in the process).",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Incisaur.png?raw=true",
+    "name": "Rare Incisaur",
+    "description": "Instead of saliva, the Rare Incisaur actually produces an unexpectedly potent venom that helps to break down its Treats before devouring them whole. Fortunately, if it's accidentally ingested by another Monster, the most severe side-effect is hiccups. Still - out of an abundance of caution, this Fire Rare flares out a hooded neck frill to warn others, especially when it wants to play fetch with a stick and its slobber invariably gets everywhere. We're glad it's not extinct!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Incisaur.png?raw=true",
     "cost": "300 Relics",
     "islands": [
         "bone",
@@ -12,6 +12,6 @@
         "Buy From Shop"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 16 hr, Enhanced Time: 1 day 6 hr"
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
     ]
 }

@@ -1,8 +1,8 @@
 {
-    "name": "Xyster",
-    "description": "Are you thinking what we're thinking? Chances are the Xyster is thinking it too - its elaborate antlers attract and retain nearby thoughts for the Magical Monster to examine at its leisure. It bears a striking resemblance to another occupant of the Pocket Dimension, and might be the descendant of ancient transplants from a neighboring isle. Recent discoveries in the Monster World may have identified the 'missing link' in its evolution... speaking of links, the Xyster absolutely loves to swat at and coddle its caudal vertebrae to produce mind-bending melodies for all to enjoy.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Xyster.png?raw=true",
-    "cost": "200 Diamonds",
+    "name": "Rare Xyster",
+    "description": "Lacking the elongate antlers of the Common Xyster, this Rare Magical nevertheless has adapted itself to collect the thoughts of nearby beings. That said, it sets its sights on a much bigger target than mere Monsters - it can listen in on the ruminations of the Enchantler itself! The Rare Xyster is able to accomplish this via various villi covering its body that maximize surface contact as it tunnels through the pores of the Titan.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Xyster.png?raw=true",
+    "cost": "300 Diamonds",
     "islands": [
         "sanctum"
     ],
@@ -10,6 +10,6 @@
         "Theremind + Clackula"
     ],
     "breedingTime": [
-        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+        "Breeding Time: 1 day 2 hr 30 min, Enhanced Time: 19 hr 52 min 30 sec"
     ]
 }

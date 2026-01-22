@@ -1,11 +1,10 @@
 {
-    "name": "Jeeode",
-    "description": "The wise Jeeode is renowned for its ability to see all sides of a situation. Harnessing the Ethereal power of Crystal, it pictures each scenario as sitting in the center of a giant prism, looking at each facet one at a time. Then, it somehow creates a solution that leaves everyone smiling. Because of this refined perspective, Jeeodes are first-rate instrumentalists, never missing a note.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Jeeode.png?raw=true",
-    "cost": "1000 Diamonds",
+    "name": "Rare Jeeode",
+    "description": "In the pursuit of pure impartiality, the Rare Jeeode has achieved near-perfection. Its commitment to resolving conflicts between fellow monsters is so strong, it even endows fragments of itself with all-seeing eyes. Perhaps this is taking the idea of 'seeing' both sides of story too literally. They can, at times, be a little creepy.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Jeeode.png?raw=true",
+    "cost": "1500 Diamonds",
     "islands": [
         "water",
-        "colossingum",
         "ethereal",
         "mirror water"
     ],
@@ -16,6 +15,6 @@
         "Shellbeat + Pummel"
     ],
     "breedingTime": [
-        "Breeding Time: Water: 1 day 12 hr, Ethereal: 10 hr, Enhanced Time: Water: 1 day 3 hr, Ethereal: 7 hr 30 min"
+        "Breeding Time: 1 day 21 hr, Enhanced Time: 1 day 10 hr 7 min 30 sec"
     ]
 }

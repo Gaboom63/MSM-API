@@ -1,8 +1,9 @@
 {
-    "name": "HippityHop",
-    "description": "HippityHops hippy to the hop, and they don't stop! The conjoined siblings Hippity and Hop act as each other's hypeMon during the day, cheering on one another's mouthy beats. During cold nights, they burrow deep underground to their subterranean home, using only echolocation and the sensory organs topping their ears and arms to navigate the pitch black tunnels. Together HippityHops symbolize the harmonious duality of vocals and percussion.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/HippityHop.png?raw=true",
-    "cost": "150 Diamonds",
+    "name": "Rare HippityHop",
+    "description": "Rare HippityHops strive to produce the purest, cleanest mouthy beats possible, without any rustling or flapping of its droopy sleeve furthers. That's why these Rare Magicals have evolved tiny serrations on the edges of their furthers that help break up the flow of air over its arms and body and reduce excess noise. They also sprout a secondary set of ears, all tipped with the same sensory organs used to navigate their underground tunnels - except these ones fold downwards, pointing at their facial discs to provide valuable acoustic feedback in performance mode.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare HippityHop.png?raw=true",
+    "cost": "250 Diamonds",
+    "transposition": "10 Diamonds",
     "islands": [
         "faerie",
         "nexus",
@@ -12,6 +13,6 @@
         "Noggin + Floot Fly"
     ],
     "breedingTime": [
-        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+        "Breeding Time: 12 hr 30 min, Enhanced Time: 9 hr 22 min 30 sec"
     ]
 }

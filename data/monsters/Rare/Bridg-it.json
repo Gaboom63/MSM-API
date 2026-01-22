@@ -1,8 +1,8 @@
 {
-    "name": "Bridg-it",
-    "description": "Ever cross a rickety old bridge and feel like something is waiting for you underneath? It was probably just a Bridg-it! This tender soul loves hosting guests for tea, served just how they like it, in a tasse balanced delicately on its length digits. Following tea, guests are invited to sit back and enjoy the Bridg-it's exquisite 'chinstrument' as their host taps a tinkling little tune that would make any visitor feel special. What a treat!",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Bridg-it.png?raw=true",
-    "cost": "300 Diamonds",
+    "name": "Rare Bridg-it",
+    "description": "You may be familiar with divergent evolution, but have you ever heard of aspirational evolution? That's what the Rare Bridg-it has undergone, a series of pre-emptive adaptions to an environment... that may never actually come to be! The Magical sub-species swapped its earth tones for greens and blues in the hope that Faerie Island would one day transform into a swampy terrain. It even transfigured its glowing, crystalline 'chinstrument' into horn-like growths to be less conspicuous in the 'swamp' - but for the time being, it stands out more than ever!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Bridg-it.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "faerie",
         "nexus",
@@ -14,6 +14,6 @@
         "Stogg + Flooy Fly"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 10 hr"
+        "Breeding Time: 1 day 1 hr 30 min Enhanced Time: 19 hr 7 min 30 sec"
     ]
 }

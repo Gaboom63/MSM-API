@@ -1,8 +1,8 @@
 {
-    "name": "Furcorn",
-    "description": "This tiny, delicate creature maintains a steady internal temperature by fluffing or flattening its silky green pelt. Furcorns are special. Protect them.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Furcorn.png?raw=true",
-    "cost": "30 Diamonds",
+    "name": "Rare Furcorn",
+    "description": "The rare fuchsia color phase of the Furcorn is truly a sight to behold. Like the more common green Plant-Cold hybrid, its silky pelt is cold to the touch, but not unpleasantly so - sort of like the cold side of a pillow! Unique to the Rare Furcorn, however, is the exotic flower that tips its headstalk - its shape evokes a lovely little bow.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Furcorn.png?raw=true",
+    "cost": "40 Diamonds",
     "islands": [
         "plant",
         "cold",
@@ -20,6 +20,6 @@
         "Potbelly + Mammott"
     ],
     "breedingTime": [
-        "Breeding Time: 8 hr, Enhanced Time: 6 hr"
+        "Breeding Time:  10 hr 30 min, Enhanced Time: 7 hr 52 min 30 sec"
     ]
 }

@@ -1,8 +1,8 @@
 {
-    "name": "G'joob",
-    "description": "Lethargic as they come, G'joobs are healthy eaters and even better sleepers. They spend most of their time drowsing under trees, using their six flippers to drag themselves around and waiting for the sun to come so they can try and get a tan. It's believed that the circular breathing prowess honed in their musical offerings is the secret to how they rest so easy.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/G_joob.png?raw=true",
-    "cost": "Plant: 225 Diamonds, Mythical: 500 Diamonds",
+    "name": "Rare G'joob",
+    "description": "Within any given gathering (or 'mersey') of G'joobs, there are always one or two Monsters that want to strike out on their own and be different. Over time, these 'solo acts' start manifesting unique traits to help them stand apart, like leopard spots and ornate horns. Most elaborate among these embellishments are no doubt the adornments on the Rare Mythical's respiratory tusks, and the wing-tipped moustache - nicknamed 'Wings' for short. Despite all these changes, some Monsters still prefer the look of the original. G'figure.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare G_joob.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "plant",
         "mythical",
@@ -12,6 +12,6 @@
         "Pummel + T-Rox"
     ],
     "breedingTime": [
-        "Breeding Time: 18 hr, Enhanced Time: 13 hr 30 min"
+        "Breeding Time: 22 hr 30 min, Enhanced Time: 16 hr 52 min 30 sec"
     ]
 }

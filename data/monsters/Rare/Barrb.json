@@ -1,8 +1,9 @@
 {
-    "name": "Barrb",
-    "description": "On a moonlit night when a Barrb has reached maturity, its elegant neck foliage, formerly chartreuse, blooms into a luscious collar in a fetching shade of magenta. This collar quickly becomes the Barrb's pride and joy, requiring frequent waterings and plenty of sunlight.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Barrb.png?raw=true",
-    "cost": "100 Relics",
+    "name": "Rare Barrb",
+    "description": "It is well-documented in tomes of Monster botany that the Common Barrb's neck foliage blooms only in the night; but what happens when a Barrb is never exposed to direct sunlight? It blooms uncontrollably! Rare Barrbs have adapted to subterranean living by undergoing umbrasynthesis: the process of converting raw darkness into valuable nutrients. Who would have guessed a life underground would produce such bright blossoms?.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Barrb.png?raw=true",
+    "cost": "5000 Diamonds",
+    "starshop": "5000 Starpower",
     "islands": [
         "haven",
         "amber"

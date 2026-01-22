@@ -1,17 +1,16 @@
 {
-    "name": "Sox",
-    "description": "According to monster lore, the ancestors of the Sox were self-conscious of the gaping holes in their tails. Over time, it was discovered that eating precious stones spurred the growth of peculiar metal pads over the holes. Quite by accident, Soxes learned they could use them, along with their tube-like snouts, to create smooth musical riffs! The age-old mystery of 'What does the Sox say' has now been solved.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Sox.png?raw=true",
-    "cost": "1250 Diamonds",
+    "name": "Rare Sox",
+    "description": "Because they belong to a naturally - or rather, Ethereally - introverted species, Soxes shy away from spontaneous musical improvisations with fellow Monsters. After all, who knows what embarrassing sound could potentially escape from their tail holes? The Rare variant, however, puts its oversized ears to good use by experimenting with new harmony lines at such a low volume that only it can hear them. This little trick boosts its confidence, but it still needs to psych itself up for full scale performances.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Sox.png?raw=true",
+    "cost": "2000 Diamonds",
     "islands": [
         "ethereal",
-        "colossingum",
         "plasma"
     ],
     "breedingCombo": [
         "Ghazt + Jeeode"
     ],
     "breedingTime": [
-        "Breeding Time: Ethereal: 1 day 18 hr, Islets: 20 hr, Enhanced Time: 1 day 7 hr 30 min"
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
     ]
 }

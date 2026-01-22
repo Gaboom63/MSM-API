@@ -1,8 +1,8 @@
 {
-    "name": "G'day",
-    "description": "Crikey! No one can argue that G'day is a supremely cool Monster, but its origin is hotly debated. Could it be that forebears of Plant Island's G'joob got swept up in an Ethereal interdimensional portal and landed in the pocket dimension? Or maybe it's the other way around, and G'day came first and somehow migrated to the main dimension at an unspecified time. So which is it? Mythical or Magical? G'day is definitively Magical... but with just a hint of Mythical for good measure!",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/G_day.png?raw=true",
-    "cost": "400 Diamonds",
+    "name": "Rare G'day",
+    "description": "With the discovery of Rare G'day, a long-standing debate regarding the Monster's origins and relationship to G'joob has been reignited... yet the Rare Magical's physical characteristics offer evidence that may change this debate forever! Thorough examination and modern Bubblerite dating techniques have revealed that the wood-like shells encasing Rare G'days are traced with intricate carvings harkening back to the very first days of Monster antiquity. The significance of these findings has shaken the scientific community to the core and could have a major impact on our current understanding of not only Monster World history, but also the confounding question of which of the G'brood came first: Mythical or Magical?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare G_day.png?raw=true",
+    "cost": "600 Diamonds",
     "islands": [
         "sanctum"
     ],
@@ -12,6 +12,6 @@
         "Xyster + Fluoress"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 6 hr, Enhanced Time: 22 hr 30 min"
+        "Breeding Time: 1 day 13 hr 30 min, Enhanced Time: 1 day 4 hr 7 min 30 sec"
     ]
 }

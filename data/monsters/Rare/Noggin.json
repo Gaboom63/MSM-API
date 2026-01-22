@@ -1,14 +1,13 @@
 {
-    "name": "Noggin",
-    "description": "Noggins are basically musical rocks. Deeply in tune with the earth, their simple rhythms echo an island's pulse. The sensation of reverberation produced by a Noggin motivates all other Monsters.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Noggin.png?raw=true",
-    "cost": "300 Coins",
+    "name": "Rare Noggin",
+    "description": "After scouring the Monster World for what felt like forever, the Rare Noggin has been unearthed. Not satisfied with a simple existence as a musical rock, this capricious creature reinvented itself as the building block of an exotic edifice. Because of their limited maneuverability, it's unclear whether a group of Rare Noggins could ever actually cooperate to build anything... perhaps a more down-to-Earth goal would be to just keep the rhythm for its fellow Monsters.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Noggin.png?raw=true",
+    "cost": "75 Diamonds",
     "islands": [
         "plant",
         "air",
         "water",
         "earth",
-        "colossingum",
         "gold",
         "haven",
         "faerie",
@@ -29,6 +28,6 @@
         "Plinkajou + Noggin"
     ],
     "breedingTime": [
-        "Breeding Time: 5 sec, Enhanced Time: 3 sec"
+        "Breeding Time: 6 hr, Enhanced Time: 4 hour 30 min"
     ]
 }

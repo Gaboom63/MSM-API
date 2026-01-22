@@ -1,8 +1,8 @@
 {
-    "name": "Punkleton",
-    "description": "A close relative of Smunkins, the Punkleton lays low for most of the year, with only its head poking above the soil. It is rumored to be the offspring of two Triple-Element Monsters. For a limited time, it will wrench itself out of the ground, and attempt to spook other Monsters with its boisterous song! It apparently works, and easily-startled neighbors would do well to give it a wide berth.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Punkleton.png?raw=true",
-    "cost": "225 Diamonds",
+    "name": "Rare Punkleton",
+    "description": "Nobody likes watching someone let themselves go, but this is a regrettable inevitability for the Rare Punkleton. Lacking the hardiness of the Common's Smunkin-like head, it is doomed to decompose faster and turn into a sloppy mess. Donning a paper bag to limit the embarrassment, it's lucky that this ghoulish Rare Seasonal is only really active during a time of dress-up - it fits right in, and no one's the wiser!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Punkleton.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "plant",
         "colossingum",
@@ -14,6 +14,6 @@
         "Bowgart + T-Rox"
     ],
     "breedingTime": [
-        "Breeding Time: 18 hr, Enhanced Time: 13 hr 30 min"
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced Time: 23 hr 48 min 45 secd"
     ]
 }

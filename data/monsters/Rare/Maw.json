@@ -1,16 +1,14 @@
 {
-    "name": "Maw",
-    "description": "The eyeless Maw is a refined combination of Cold and Water elements. Its dense fur acts as a general sensory organ, and provides efficient insulation to maintain a liquid body interior. Maws are a little mouthy. Tonguey too.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Maw.png?raw=true",
-    "cost": "30 Diamonds",
+    "name": "Rare Maw",
+    "description": "When comparing the Rare Maw to its pink Common cousin, it's tempting to classify this maroon ball of fur as... well, not a Maw at all. Sprouting spindly horns, a matted goatee and, of course, beady little eyes, this ain't your mama's Maw. It fancies itself a master hunter, tickling its quarry into submission with its horns. No one has plucked up the courage to tell the Rare Maw that Cupcakes can't run away anyhow. Please don't spoil its fun.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Maw.png?raw=true",
+    "cost": "40 Diamonds",
     "islands": [
         "plant",
         "cold",
         "air",
-        "colossingum",
         "gold",
         "oasis",
-        "tribal",
         "mirror plant",
         "mirror cold",
         "mirror air"
@@ -19,6 +17,7 @@
         "Toe Jammer + Mammott"
     ],
     "breedingTime": [
-        "Breeding Time: 30 min, Enhanced Time: 22 min 30 sec"
-    ]
+        "Breeding Time: 1 hr 7 min 30 sec, Enhanced Time: 50 min 37 sec"
+    ],
+    "starshop": ["1500 Starpower"]
 }

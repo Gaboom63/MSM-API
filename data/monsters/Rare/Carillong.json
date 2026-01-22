@@ -1,8 +1,8 @@
 {
-    "name": "Carillong",
-    "description": "At the turning of the year, Monsters of all kinds set aside time to reflect on the year that's passed and observe the renewal of the Crescendo Moon. That's when the Seasonal Carillong loves to 'chime in!' This charming Mon-drake (or Monster-dragon) seems to be magically suspended in a state of jubilant youth and never appears to age. No matter what dimension it inhabits, it is never separated from its beloved Chimekeeper, a golden instrument of musical and chronomagical power. Each different color bell of the tintinnabulum is said to have its own special significance, and the Carillong takes its duty of ushering in the new year very sincerely.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Carillong.png?raw=true",
-    "cost": "225 Diamonds",
+    "name": "Rare Carillong",
+    "description": "While the Mon-drake Seasonals recognize and respect the 5 foundational Natural Elements of the Monster World, they actually revere a different grouping of Elements they call the 5 Phases - Wood, Fire, Earth, Metal and Water. Of the Phases, Rare Carillongs are firm devotees of Wood; they prize creativity and an inquisitive mind above all else. They even carry special wooden Chimekeepers they carve themselves from the timber of the pocket dimension's forests. If ancient prophecies are to be believed, a period of prosperity for Rare Carillongs is slated to align with the rising of the next Crescendo Moon.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Carillong.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "sanctum",
         "seasonal"
@@ -12,6 +12,6 @@
         "Yool + Schmoochle"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 3 hr 9 min 32 sec, Enhanced Time: 20 hr 22 min 9 sec"
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced Time: 23 hr 48 min 45 sec"
     ]
 }

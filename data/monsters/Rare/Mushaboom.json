@@ -1,8 +1,8 @@
 {
-    "name": "Mushaboom",
-    "description": "There isn't much in terms of natural vegetation on Magical Sanctum, just some miniature antlers and skin tags... so that's where the Mushaboom comes in! Its Faerie lineage is the most prominently displayed of its constituent Elements - a mycological menagerie of pert, fungal drums that are just as impressive to listen to as they are to gaze upon. With some perhaps misplaced confidence, Mushabooms believe they'll be able to get all sorts of plants to grow on the Sanctum, namely lilacs and buttercups.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Mushaboom.png?raw=true",
-    "cost": "400 Diamonds",
+    "name": "Rare Mushaboom",
+    "description": "1, 2, 3, 4... tell me that you love a spore! Rare Mushabooms love to classify and categorize the world around them, especially by color and shape. For that reason, they are especially enamored of sugary breakfast cereals, which present the greatest diversity of color and shapes in the Monster World!... or at least in the copse of the pocket dimension. Once the Rare Magicals are done cataloguing and admiring the foodstuffs, they use a highly-developed rostronasus (combination nose and beak) to gorge themselves on their collections. This habit gives rise to its colorful, marshmallow-y appearance. It is a Rare Mushaboom's fondest wish to discover all known cereals, a sentiment captured in the species's special lullaby called My Moon, My Mon.,",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Mushaboom.png?raw=true",
+    "cost": "600 Diamonds",
     "islands": [
         "sanctum"
     ],
@@ -12,6 +12,6 @@
         "Osstax + Fluoress"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 6 hr, Enhanced time: 22 hr 30 min"
+        "Breeding Time: 1 day 13 hr, Enhanced time: 1 day 4 hr 7 min 30 sec"
     ]
 }

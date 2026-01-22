@@ -1,8 +1,9 @@
 {
-    "name": "Candelavra",
-    "description": "The strong amalgam of five precious Elements is what creates the fierce flame shining elegantly atop Candelavra's opulent frame. In particular, the blue flame signet set in the forehead of the Fire Top Boss represents the figurative 'complete combustion' of this Monster's indomitable spirit. If ever a Monster feels adrift in the vast macrocosm of the Monster World, it need only gaze upon the horizons for the warm flame of Candelavra, and let it be the shining beacon that guides them to their destination, wherever that may be.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Candelavra.png?raw=true",
-    "cost": "500 Relics",
+    "name": "Rare Candelavra",
+    "description": "When Fire Monsters first fled into the underground network of tunnels to shield themselves from the upheaval at the end of the Dawn of Fire, most were content to remain in the vicinity of the living core and establish Fire Haven. A group of Candelavras (or a mint, as it's often called) had more ambitious goals - to explore the depths and potentially return to the surface. Though they were never successful in that particular undertaking, the Fire Top Bosses did make contact with a large chthonic entity. Over time, these spelunking Candelavras began to exhibit traits better-suited to underground life, and evolved into a Rare form with a single eye to navigate the dimly-lit tunnels. Of course, the glow of their own flames can never truly be snuffed.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Candelavra.png?raw=true",
+    "cost": "N/A",
+    "starshop": "15000 Starpower",
     "islands": [
         "haven",
         "amber"
@@ -11,6 +12,6 @@
         "Buy From Shop"
     ],
     "breedingTime": [
-        "Breeding Time: 3 day 8 hr, Enhanced Time: 2 day 12 hr"
+        "Breeding Time: 3 day 23 hr 30 min, Enhanced Time: 2 day 23 hr 27 min 30 sec"
     ]
 }

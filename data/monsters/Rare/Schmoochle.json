@@ -1,11 +1,10 @@
 {
-    "name": "Schmoochle",
-    "description": "No one can agree on how the two-headed Schmoochle came to be. Some say that it began as two individual Monsters who fell so deeply in love with each other that they forfeited their own bodies and decided to live together in just one. Others insist that they are just born that way, arriving in a puff of brightly-colored feathers. In any case, a Schmoochle is always a welcome addition to the Air Island chorus.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Schmoochle.png?raw=true",
-    "cost": "225 Diamonds",
+    "name": "Rare Schmoochle",
+    "description": "Love, just like music, is universal. Rare Schmoochles, with their extra set of eyes, claim to be able to see love in all its forms. This enlightenment doesn't mean that the Monster is exempt from conflict - spats and misunderstandings have historically led to literal heartbreak, requiring stitching. In the end, the love you take is equal to the love you make, and the two heads know that they're ultimately destined for one another.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Schmoochle.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "air",
-        "colossingum",
         "gold",
         "seasonal",
         "mirror air"
@@ -14,6 +13,6 @@
         "Riff + Tweedle"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 7 hr 6 min 30 sec, Enhanced Time: 23 hr 19 min 52 sec"
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced Time: 23 hr 48 min 45 sec"
     ]
 }

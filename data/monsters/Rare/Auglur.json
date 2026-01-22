@@ -1,20 +1,20 @@
 {
-    "name": "Auglur",
-    "description": "The Auglur leans heavily into its Mech-Element parentage, and blurs the line between the real and virtual worlds by manifesting a trio of hands with digital digits. You don't need augmented reality goggles to see them; the Auglur's power makes them visible to all. From there, it's a simple matter of gesturing and swiping in mid-air at 'sonic panels' that create soundscapes drawn from nostalgic dreams. Alright, maybe it's not actually so simple for you or I [sic] - but to the Auglur, it comes naturally… er, Ethereally.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Auglur.png?raw=true",
+    "name": "Rare Auglur",
+    "description": "If dreams can be visions of the past and future, the soundscapes woven by the Rare Auglur are possessed of an awesome clarity. While the Common Auglur's calm, cool, collected attitude may cause some to perceive the Monster as distant and aloof, in truth this is nothing more than projection. Rare Auglur, on the other hand, is positively ascendant, with its downy plumage and ruffled furthers... Maybe it really is above it all. Wreathed with an ophanine crown, a piercing stare replaces the more characteristically indifferent gaze we've come to expect. What does it see that we don't? Or what does it want us to see?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Auglur.png?raw=true",
     "cost": "1900 Diamonds",
     "islands": [
         "workshop",
         "plasma",
         "mech"
     ],
-    "breedingCombo": [
-        "Plasma Meeb + Mech Meeb + Poison Meeb"
+    "breedingCombo": [  
+        "N/A"
     ],
     "breedingTime": [
-        "1 day 6 hr"
+        "1 day 11 hr"
     ],
     "synthesisTime": [
-        "Success: 1 day 6 hr, Failure: 10 hr"
+        "N/A"
     ]
 }

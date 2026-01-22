@@ -1,7 +1,7 @@
 {
-    "name": "Bulbo",
-    "description": "Don't be creeped out by the creepy-crawly Bulbo if you spy its strange glow in the dead of night! This Light hybrid produces its eye-popping shine from its posterior bulb, a stunning piece of glasswork powered by the kinetic energy of its stridulatory organs. To maximize the impact of its radiant rump, Bulbos slink about in the dark, bulging their eyes to observe the expression of its listeners in the dimness... whether that expression is one of shock or awe.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Bulbo.png?raw=true",
+    "name": "Rare Bulbo",
+    "description": "Conventional wisdom tells us not to pick at our dermatological imperfections. From skin tags to scabs, boils to warts, and ingrown hairs to zits, Rare Bulbo is unfortunately cursed with the most pickable dermis of all time. So much itching has rubbed the poor Rare raw! Now it stands before you, bare and bumpy, popping both its peepers and its pimples. And yet, there is something disarmingly beautiful in the Light hybrid's vulnerability. After all, hasn't puberty made us all feel a little like Rare Bulbo sometimes?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Bulbo.png?raw=true",
     "cost": "150 Diamonds",
     "islands": [
         "Light",
@@ -12,6 +12,6 @@
         "Mammott + Fluoress"
     ],
     "breedingTime": [
-        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+        "Breeding Time: 12 hr 30 min, Enhanced Time: 9 hr 22 min 30 sec"
     ]
 }

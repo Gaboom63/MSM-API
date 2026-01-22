@@ -1,7 +1,7 @@
 {
-    "name": "Boo'qwurm",
-    "description": "Do you have a love of reading and brain teasers, but you're nervous about trying to crack open any of those fearsomely-toothed Bib'leos lyin' around? No sweat for the clever Boo'qwurm, who has a special way with the rambunctious creatures. Exceptionally well-read and stuffed to the brim with wit and wordplay, this Seasonal simply recites a favorite passage from memory or solves a particularly challenging word puzzle, and the Bib'leos immediately become docile. So docile, in fact, that a Boo'qwurm is able to use special pads in its hands to drum upon their covers and absorb all of the knowledge contained therein. It's supposedly much faster that way - makes studying for tests a breeze.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Boo_qwurm.png?raw=true",
+    "name": "Rare Boo'qwurm",
+    "description": "You're perhaps familiar with 'cooking the books'… but have you ever heard of 'baking the books'? That's the Rare Boo'qwurm's specialty. In place of the typical stack of unapproachable Bib'leos, this Seasonal concocts layers of sugary confections that cause the most fanciful fictions to be imagined upon their delectation. Rather than using one's eyes to perceive the written word, these stories are delivered and deciphered via degustation! There are some who argue that the only way to enjoy a book is to read it the old-fashioned way, but as far as the Rare Boo'qwurm is concerned, encouraging a love of literacy by any means necessary is a recipe for success.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Boo_qwurm.png?raw=true",
     "cost": "225 Diamonds",
     "islands": [
         "psychic",
@@ -13,6 +13,6 @@
         "Schmoochle + Hoola"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 6 min 24 sec, Enhanced Time: 18 hr 4 min 48 sec"
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced Time: 23 hr 48 min 45 sec"
     ]
 }

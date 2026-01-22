@@ -1,8 +1,9 @@
 {
-    "name": "Wimmzies",
-    "description": "Wimmzies are a bubbly chorus of Monsters positively bursting at the seams with delight. It's this very overflowing of glee that is cause for the sorority of singers' patchwork appearance: their delicately-sewn casings contain the fine mist that makes up the Wimmzies' upper bodies! Little more than fluttering eyelashes and tapping toes, this squad is nonetheless erupting with joy and - of course - whimsy.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Wimmzies.png?raw=true",
-    "cost": "150 Diamonds",
+    "name": "Rare Wimmzies",
+    "description": "It's what's inside that counts, and the interior mists of the Rare Wimmzies are every bit as bubbly and vivacious as those of their Common cousins. Understandably, there's nothing saying that you can't decorate what's on the outside! Each Rare Wimmzy adorns itself to studying advanced balloon modeling techniques like twisting and gymping to customize its vibrant exteriors.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Wimmzies.png?raw=true",
+    "cost": "250 Diamonds",
+    "transposition": "10 Diamonds",
     "islands": [
         "faerie",
         "nexus",
@@ -12,9 +13,9 @@
         "Kayna + Floot Fly"
     ],
     "breedingTime": [
-        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+        "Breeding Time: 12 hr 30 min, Enhanced Time: 9 hr 22 min 30 sec"
     ],
     "orbTime": [
-        "Orb Time: 1 day 3 hr"
+        "Orb Time: 1 day 6 hr 30 min"
     ]
 }

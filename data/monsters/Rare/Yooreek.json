@@ -1,20 +1,20 @@
 {
-    "name": "Yooreek",
-    "description": "Yooreek… uh… what's the story behind this Monster? It seems to possess an organic exterior, but the sound it produces definitely evokes something more robotic. Perhaps this trait is 'inherited' from auditory residue from former residents of the Workshop. This Ethereal and Gaddzooks appear to have a lot of genetic programming in common, but the quirks of the attunement and synthesis processes have resulted in markedly different final products. It matters little to these two, who savor each other's company and really 'click' musically.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Yooreek.png?raw=true",
-    "cost": "1500 Diamonds",
+    "name": "Rare Yooreek",
+    "description": "Rare Yooreek's steadfastness and support of its friends can come off as a little single-minded at times, which can be troublesome as no one is sure where its mind is located yet. One sometimes has to wonder if Rare Yooreek is all there. Attached at the hip to its good buddy Rare Gaddzooks, this Rarethereal sure likes to go with the flow. But is that so bad? Like the old saying goes, a Mon in the hand is worth two in the Fire Bush. Whether its contrasting colors were the result of a genetic side effect or a part of its friends' elaborate schemes, Rare Yooreek is just happy to be matching.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Yooreek.png?raw=true",
+    "cost": "3000 Diamonds",
     "islands": [
         "workshop",
         "plasma",
         "mech"
     ],
     "breedingCombo": [
-        "Plasma Meeb + Shadow Meeb + Mech Meeb"
+        "N/A"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 6 hr"
+        "Breeding Time: 1 day 11 hr"
     ],
     "synthesisTime": [
-        "Success: 1 day 6 hr, Failure: 10 hr"
+        "N/A"
     ]
 }

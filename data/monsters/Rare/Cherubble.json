@@ -1,7 +1,7 @@
 {
-    "name": "Cherubble",
-    "description": "The amphibious Cherubble and its Blubberfly buddies are no strangers to the notion of dreams - the Monster itself is almost constantly asleep, lulled to rest by the playing of its agile accomplices. A common ancestor of other playbackyderms like Woolabee and Peckidna, this Mythical Monster originates from the vibrant and bustling coral reefs of the Monster World. The anatomical features of the Cherubble are diverse and highly-specialized: elongated cerata on its back that stretch out to form the Monster's instrument; rhinophores perched atop its head that can project parts of its dreams onto reality; and so-called 'charms' which are the physical byproduct of manifested dreams that have settled on its hide. Summoned to the surface by the Fire Oasis song, it has designated itself the official ambassador of the living ocean, cementing the glass-blown island as a welcome and permanent fixture among the waves.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Cherubble.png?raw=true",
+    "name": "Rare Cherubble",
+    "description": "Behold Rare Cherubble's fantastic kleptoplastic photosynthesystem! The lush cerata garden growing wild atop its back acts as a vibrant nature reserve for all manner of critters, including the affable Algaernons that flutter about its body. Rare Cherubble's verdant hues are derived from its symbolic relationship with its tiny companions: when the Algaernons has snacked on one too many sea pickles and feel green around the gills, this Rare Mythical absorbs the excess plant matter into an endless cycle of photosynthesis. Yet no matter how much energy it produces, Rare Cherubble still seems to slumber.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Cherubble.png?raw=true",
     "cost": "225 Diamonds",
     "islands": [
         "oasis",
@@ -11,6 +11,6 @@
         "Congle + Woolabee"
     ],
     "breedingTime": [
-        "Breeding Time: 18 hr, Enhanced Time: 13 hr 30 min"
+        "Breeding Time: 22 hr 30 min, Enhanced Time: 16 hr 52 min 30 sec"
     ]
 }

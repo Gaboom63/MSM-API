@@ -1,8 +1,8 @@
 {
-    "name": "Gloptic",
-    "description": "Gazing into the chromatic depths of Gloptic's eye will hypnotize suggestible Monsters in a harp-beat! Once under the mucky Monster's spell, their target begins to experience a wide range of delightful visions known as Gloptical Illoozions. While harmless, Gloptical Illoozions are infamous for causing chronic brain-itch.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Gloptic.png?raw=true",
-    "cost": "600 Diamonds",
+    "name": "Rare Gloptic",
+    "description": "Gloptical Illoozions are so powerful, not even Gloptic itself can resist! When a covetous Common Gloptic gazes too long at its reflection in a glassy Relic, admiring both the amber's beauty and its own, it is susceptible to an unintentional instance of auto-hypnosis. This trance-like state is so strong, it can convince even the cleverest Gloptic that the Relic and itself are one and the same, willing its gloopy body to transform into oozing amber. Rare Gloptic's sticky, resinous limbs are prone to picking up all manner of detritus over the course of its lengthy lifespan.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Gloptic.png?raw=true",
+    "cost": "750 Diamonds",
     "islands": [
         "psychic",
         "nexus",
@@ -18,6 +18,6 @@
         "Periscorp + Potbelly"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 8 hr, Enhanced Time: 1 day"
+        "Breeding Time: 1 day 18 hr 30 min, Enhanced Time: 1 day 7 hr 52 min 30 sec"
     ]
 }

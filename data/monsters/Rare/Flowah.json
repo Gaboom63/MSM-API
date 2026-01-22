@@ -1,8 +1,8 @@
 {
-    "name": "Flowah",
-    "description": "Every rose has its thorns, but you'll find that the Flowah tends to be a little more 'thorn' than 'rose.' This burly beast may seem like a curmudgeon, but beneath its prickly exterior lies a soul that's sweeter than honeysuckle.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Flowah.png?raw=true",
-    "cost": "Haven, Light, Psychic: 50 Relics, Amber: 10 Relics",
+    "name": "Rare Flowah",
+    "description": "Tougher than a tree trunk and sturdier than a stump, Rare Flowah can take a trimming! But don't let its scratches and scrapes fool you, this botanical bruiser isn't getting in any fights. Instead, the klutzy Monster is bumping into walls! Hopefully its new top-knot will put an end to its flouncy petals obstructing its line of sight.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Flowah.png?raw=true",
+    "cost": "250 Diamonds",
     "islands": [
         "haven",
         "light",
@@ -15,6 +15,6 @@
         "Potbelly + Kayna"
     ],
     "breedingTime": [
-        "Breeding Time: 10 hr, Enhanced Time: 7 hr 30 min"
+        "Breeding Time: 13 hr 30 min, Enhanced Time: 10 hr 7 min 30 sec"
     ]
 }

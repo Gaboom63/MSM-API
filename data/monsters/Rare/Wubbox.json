@@ -1,8 +1,9 @@
 {
-    "name": "Wubbox",
-    "description": "One day as the Monsters were tunneling underground, they stumbled upon an immense vault containing several of the mysterious objects known as the Wubbox. Very little is known of their origin or purpose, save a few observations: after being incubated in the Nursery, sample analysis of the box's exterior indicates that it shares traits with every known Natural Monster species - in fact, it even has specialized compartments with an otherworldly shrinking technology. The box is also imbued with an elemental energy unfamiliar to those on the surface - a shocking discovery, to say the least. Gather some intrepid Monster volunteers and see what happens when you 'box' them!",
+    "name": "Rare Wubbox",
+    "description": "Unlike the Common Wubbox, the Rare can be bought for a song - as long as you're singing the right tune. In this inactive state, it's hard to tell what physically differentiates the two Monsters, but the most striking contrast is the Rare Wubbox's modest bed count - it's only one! We're hoping to learn more once this cryptic creature is powered up with Monsters and awakens to share its song. Get going with the boxing! Your Common Natural Monsters just won't do - this picky customer only accepts Rares.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Wubbox.png?raw=true",
-    "cost": "75,000,000 Coins",
+    "cost": "N/A",
+    "starshop": "1 Starpower",
     "islands": [
         "plant",
         "cold",
@@ -21,10 +22,10 @@
         "mirror earth"
     ],
     "breedingCombo": [
-        "Box All Common Monsters, And Power It Up!"
+        "Box All Rare Monsters, And Power It Up!"
     ],
     "breedingTime": [
-        "Breeding Time: 2 day, Enhanced 1 day 12 hr"
+        "Breeding Time: 2 day 12 hr , Enhanced 1 day 21 hr"
     ],
     "powerUpTime": [
         "Forever, No Time Limit."

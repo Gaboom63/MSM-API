@@ -1,8 +1,8 @@
 {
-    "name": "shLep",
-    "description": "For being such a wholesome-looking Monster itself, the Oasis Mythical must surely have some unusual dreams sometimes! That's the only reasonable explanation for the shLep, drawn from an extravagant imagination and brought into being in the dreamspace. Maybe it's a warped manifestation of a Blubberfly, incited by erstwhile desires for a little personal time? Some have proposed that the shLep is inspired by a memorable but noisy encounter with a denizen of the eclectically-populated coral reefs of the living ocean. For better or worse, this listless Dreamythical is now a permanent companion on Mythical Island, so best try to get along!",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/shLep.png?raw=true",
-    "cost": "750 Diamonds",
+    "name": "Rare shLep",
+    "description": "shUgar and shPice and everything nice... that's what Rare shLeps are made of! This Rare Dreamythical would appear to be the result of the Oasis Mythical practicing lucid dreaming techniques, in which the dreamer maintains awareness of their dreaming state and can influence the dream environment. Recalling the first time that the being that inspired shLep was encountered, the Oasis Mythical has refocused and reframed that memory as a more relaxing experience, morphing the unusual Monster into a (slightly) more graceful version of itself. Curlers, bows, makeup and mouthwatering bonbons have been integrated into this visual presentation, but when the time comes to begin performing - well, that abdomen-shaking is just as clamorous and emphatic as ever.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare shLep.png?raw=true",
+    "cost": "1100 Diamonds",
     "islands": [
         "mythical"
     ],
@@ -10,6 +10,6 @@
         "Cataliszt + Cherubble"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 3 hr, Enhanced Time: 20 hr 15 min"
+        "Breeding Time: 1 day 9 hr 45 min, Enhanced Time: 1 day 1 hr 18 min 45 sec"
     ]
 }

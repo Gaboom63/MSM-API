@@ -1,7 +1,7 @@
 {
-    "name": "Gob",
-    "description": "Gob's gaping gabber leaves gandering groups gobsmacked. An unassuming figure at first blush, a withdrawn Gob might not even appear as a Monster to the untrained eye. But keener onlookers may note the subtle wiggle of its frill before suddenly, it happens: The Aperture Overture! Gob opens wide to release a moving melody that resonates from deep within its internal organs themselves... pipes, pedals, and all.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Gob.png?raw=true",
+    "name": "Rare Gob",
+    "description": "Unlike the hydrophobic exterior of its Common cousin, the Rare Gob's dermal tissue is hydrophilic and allows for dewdrops to arrange themselves into neat configurations for later consumption. Aside from their internal organs, Rare Gobs have an active interest in multi-instrumentalism and love to dabble with whatever musical objects they find around them. Given the unique anatomy of this Rare Magical, this can be challenging... and sometimes amounts to little more than loudly singing in the direction of said objects.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Gob.png?raw=true",
     "cost": "150 Diamonds",
     "islands": [
         "light",
@@ -12,6 +12,6 @@
         "Potbelly + Fluoress"
     ],
     "breedingTime": [
-        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+        "Breeding Time: 12 hr 30 min, Enhanced Time: 9 hr 22 min 30 sec"
     ]
 }

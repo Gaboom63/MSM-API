@@ -1,8 +1,8 @@
 {
-    "name": "Pladdie",
-    "description": "Gather 'round, wee laddies and lassies, and hear the distinct bellow of Pladdie: lord of the Faeries! A spinner of yarns and teller of tales, this tartan talent provides its own dramatic mood music to every storytelling experience. Whether they be legends of mysterious winged Monsters flapping in the night, or a titanic sea creature patrolling the deep, Pladdie is a pro at captivating its audience through song and speech.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Pladdie.png?raw=true",
-    "cost": "600 Diamonds",
+    "name": "Rare Pladdie",
+    "description": "Already respected leaders among their Faerie kin, Rare Pladdies are highly revered for their spiritual connection to the Magical world around them. Through their ancient tradition of kything with the spirits of auld, Rare Pladdie can spin grander, rarer yarns than have ever been heard - as evidenced by the impressive fankle of wooly locks that crown its wee head. This bonnie Boss keeps near-lost histories alive by recounting riveting epics and carrying on the memories of those who came before.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Pladdie.png?raw=true",
+    "cost": "750 Diamonds",
     "islands": [
         "faerie",
         "nexus",
@@ -18,9 +18,9 @@
         "Ziggurab + Floot Fly"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 8 hr, Enhanced Time: 1 day"
+        "Breeding Time: 1 day 18 hr 30 min, Enhanced Time: 1 day 7 hr 52 min 30s"
     ],
     "orbTime": [
-        "Orb Time: 2 day 2 hr"
+        "Orb Time: 2 day 12 hr 30 min"
     ]
 }

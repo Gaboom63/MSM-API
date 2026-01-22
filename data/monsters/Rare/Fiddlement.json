@@ -1,8 +1,9 @@
 {
-    "name": "Fiddlement",
-    "description": "Fiddlements are powered by the very Element of Light itself, releasing huge amounts of incandescent energy through the filaments of their cranial bulbs. The intense amplitude of light waves creates a unique whirring sound within the bulb, which Fiddlements use to express themselves. Serendipitously, the lampshade-like cone created by a Fiddlement's body channels its raw luminescence like a spotlight, which this bright little Monster gladly shines on solo performances, late-night walks to the fridge, and potholes in need of repair",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Fiddlement.png?raw=true",
-    "cost": "300 Diamonds",
+    "name": "Rare Fiddlement",
+    "description": "Got a petty crime that needs solving? Rare Fiddlement is on the case! This observant Rare Magical has successfully channeled the Light Element into a concentrated beam of Ultra-Spy-olet rays that illuminates telltale traces left behind by unwitting Monsters, critters, and culprits. Slobber from a drooling Gob? Check. Puffs of Wimmzy mist? Noted. Flowah petal pollen? Achoo- You get it! Whatever your preposterous case or pesky prankster, Rare Fiddlement's keen blue gaze is following the trail.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Fiddlement.png?raw=true",
+    "cost": "500 Diamonds",
+    "transposition": "20 Diamonds",
     "islands": [
         "light",
         "nexus",
@@ -14,6 +15,6 @@
         "Bulbo + Kayna"
     ],
     "breedingTime": [
-        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
-    ]
+        "Breeding Time: 1 day 1 hr 30 min, Enhanced Time: 19 hr 7 min 30 sec"
+    ],
 }

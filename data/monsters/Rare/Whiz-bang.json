@@ -1,8 +1,8 @@
 {
-    "name": "Whiz-bang",
-    "description": "What happens when an individual from the flashy yet mute race of Glowbes yearns to cast off its 'honorary' Singing Monster status and find a voice of its own? A Whiz-bang, that's what! There's only so much a silent being can stand living among loud and boisterous creatures before it transforms and devises a sound of its own... and talk about a distinctive sound! Previously confined to just one hue, Whiz-bangs proudly cycle through all the colors of the spectrum as they see fit. During the longest days of the year, these Seasonals congregate and cooperate to 'paint' the sky with explosions and every color imaginable - and all of the Monster World is welcome to join the celebration!",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Whiz-bang.png?raw=true",
-    "cost": "225 Diamonds",
+    "name": "Rare Whiz-bang",
+    "description": "When are you gonna come down? When are you going to land? Such are the questions asked of the Rare Whiz-bang, whose aeronautical ambitions stretch higher and further than the Common Glowbe-turned-Seasonal. It combines all of the various bands of the spectrum into one, but mystifyingly, its outward appearance contradicts the laws of color theory. Typically, you'd expect all colors of light to combine into white, but the Rare Whiz-bang glows instead with an emphatic golden yellow. This phenomenon is still being researched, but in the mean time, it makes for a stunning chromatic display near the year's end, augmented by the multicolored streamers, goggles and cape the Rare Seasonal dons for the occasion.!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Whiz-bang.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "light",
         "seasonal",
@@ -13,6 +13,6 @@
         "Yool + Blabbit"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 4 hr 6 min, Enhanced Time: 21 hr 4 min 30 sec"
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced Time: 23 hr 48 min 45 sec"
     ]
 }

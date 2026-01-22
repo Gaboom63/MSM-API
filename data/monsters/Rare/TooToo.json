@@ -1,8 +1,8 @@
 {
-    "name": "TooToo",
-    "description": "Pirouette! Plié! En Pointe! Pamplemousse! The graceful TooToo can perform it all with great panache from the tips of its tippy-toed toesies. Light as a further, you would not even know that this lithe Monster has landed from a splendid saute if not for the brilliant rings of light and sound that radiate out from the point of impact. Its distinctive tutu is TooToo's secret weapon in maintaining perfect balance, and has become a staple of the Bah-llay school of dance.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/TooToo.png?raw=true",
-    "cost": "300 Diamonds",
+    "name": "Rare TooToo",
+    "description": "Years of practicing hard every day have step-ball-changed this black swan into a professional Bah-llayrina. Taking center stage, the Rare TooToo executes the beautifully delicate music for which it is known with on point precision, and has so mastered the pirouette that its hairstyle has twisted around to follow suit! The Rare Magical's colorful rings perfectly complement those of its Common Cousin, but one must make sure that both are given an equal opportunity to shine, lest some unhealthy competitiveness begin to simmer. Just mention the word 'hangnail', and they'll set aside their differences to present a united front against every dancer's most nauseating nuisance...",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare TooToo.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "light",
         "nexus",
@@ -14,6 +14,6 @@
         "Flowah + Fluoress"
     ],
     "breedingTime": [
-        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+        "Breeding Time: 1 day 1 hr 30 min, Enhanced Time: 19 hr 7 min 30 sec"
     ]
 }

@@ -1,8 +1,8 @@
 {
-    "name": "Knucklehead",
-    "description": "The golem-like Knucklehead possesses a level of strength nearly unmatched in all of the Monster World. When the Monster slams its gargantuan fists together to produce its signature sound, small quantities of light emanate from the impact. This strength is seldom on display when the Knucklehead is not performing, however - instead, its favorite pastimes include delicate needlework and sculpting miniature clay models for use in role-playing tabletop gaming.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Knucklehead.png?raw=true",
-    "cost": "200 Diamonds",
+    "name": "Rare Knucklehead",
+    "description": "While its trademark fists remain unchanged, the Rare Knucklehead's exposed tissue sheds some light on the true nature of this pure Magical's morphology. What has the semblance of a wooden mask is actually the Monster's outer skeleton, or cuticle, and behind it lies its true soft-bodied appearance, antennae… and a surprising third eye, capable of limited divination. Wait a minute - this Light-Faerie hybrid has a Bony exterior and Psychic ability? Roll a perception check to try and figure out what's going on.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Knucklehead.png?raw=true",
+    "cost": "300 Diamonds",
     "islands": [
         "sanctum"
     ],
@@ -10,6 +10,6 @@
         "Floot Fly + Fluoress"
     ],
     "breedingTime": [
-        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+        "Breeding Time: 1 day 2 hr 30 min, Enhanced Time: 19 hr 52 min 30 sec"
     ]
 }

@@ -1,14 +1,11 @@
 {
-    "name": "Riff",
-    "description": "Riffs are masterful musicians. Very little is known about these complex Monsters, but they do have some distinct and unusual habits. For example, Riffs use their flexible toes to select random objects from the ground which they inspect, then eat.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Riff.png?raw=true",
-    "cost": "150 Diamonds",
+    "name": "Rare Riff",
+    "description": "Found much less frequently than the common Riff, this Rare Monster nonetheless offers great insights into the habits and behaviours of this secretive species. For instance, it's now known that all Riffs share a symbiotic relationship with their guitars, which are actually living creatures as well! Riffs exchange the foods they collect with their toes for whispered messages of affirmation about their musical performances. Go team.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Riff.png?raw=true",
+    "cost": "200 Diamonds",
     "islands": [
         "air",
-        "colossingum",
         "gold",
-        "tribal",
-        "composer",
         "mirror air"
     ],
     "breedingCombo": [
@@ -17,6 +14,6 @@
         "Pango + Fwog"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day, Enhanced Time: 18 hr"
+        "Breeding Time: 1 day 6 day 30 min, Enhanced Time: 22 hr 52 min 30 sec"
     ]
 }

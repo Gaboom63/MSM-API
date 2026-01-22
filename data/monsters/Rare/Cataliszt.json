@@ -1,8 +1,8 @@
 {
-    "name": "Cataliszt",
-    "description": "If questioned where it came from, the Cataliszt will reply that it has always existed in the reveries of other Monsters. The reclining feline Dream Elemental is the pioneer and most prominent practitioner of dreamcraft, a special branch of summoning magic that permits somnolent teleportation AND makes manifest the wildest and wackiest figments of the imagination. To accomplish this, the Cataliszt focuses its attention on the 'Cradle,' a tangle of threads strung between its stocky limbs. It will playfully strum and swat at the Cradle to accumulate enough dream energy to cough up a hairball spore, which will react opposite the eggs of the Mythicals to produce exotic 'Dreamythicals' for all to enjoy.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Cataliszt.png?raw=true",
-    "cost": "100000 Coins",
+    "name": "Rare Cataliszt",
+    "description": "When the dreamspace was first formed by its whimsical architect, Dream Crafter, it existed as a vast and empty plain [sic] waiting to be filled with energy and imagination. Beyond Dream Crafter themself, there was but one other lifeform strumming in solitude on the newly formed Mythical Island, and their loneliness could only be heard in every plucked note. Unable to bear such a sad sight, Dream Crafter hastily shaped a companion for the lone Monster - and this was Rare Cataliszt born! Rare Cataliszt's velvety skin enables it to manifest the softest and sweetest figments of the imagination, in spite of its somewhat malefic appearance.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Cataliszt.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "mythical"
     ],
@@ -10,6 +10,6 @@
         "Buy From Shop"
     ],
     "breedingTime": [
-        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+        "Breeding Time: 11 hr 15 min, Enhanced Time: 8 hr 26 min 15 sec"
     ]
 }

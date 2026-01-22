@@ -1,8 +1,9 @@
 {
-    "name": "Dwumrohl",
-    "description": "The Dwumrohl is armed to the teeth. Yet because they are so well-concealed by its feathers, it remains a mystery as to just how many arms the Dwumrohl has. This adroit percussionist has immaculate rhythm and can keep the beat alive with four, five, or even six arms behind its back.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Dwumrohl.png?raw=true",
-    "cost": "34000 Coins",
+    "name": "Rare Dwumrohl",
+    "description": "Expanding their tastes beyond music, Rare Dwumrohls are avid practitioners of the visual arts as well. With so many digits at their disposal, it's unsurprising to learn that their favorite medium is finger-painting! Adorning their drum sets with luminescent paint, they've even swapped out drumsticks for special tensible paintbrushes!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Dwumrohl.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "14 Keys",
     "islands": [
         "wublin"
     ],
@@ -10,9 +11,9 @@
         "None. Zap and power up!"
     ], 
     "polarity": [
-        "Negative from: Fleechwurm, Negative toward: Fleechwurm, Positive from: Astropod, Positive toward: Whajje"
+        "Negative from: Rare Fleechwurm, Negative toward: Rare Fleechwurm, Positive from: Rare Astropod, Positive toward: Rare Whajje"
     ],
     "powerUpTime": [
-        "14 Days"
+        "Unlimited."
     ]
 }

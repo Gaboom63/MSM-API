@@ -1,8 +1,8 @@
 {
-    "name": "Dandidoo",
-    "description": "With downy puffs shimmering in the slightest breath of wind, a Dandidoo sashays elegantly across the landscape. It is much less inclined to strut after it has gone to seed and the puffs have blown away.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Dandidoo.png?raw=true",
-    "cost": "30 Diamonds",
+    "name": "Rare Dandidoo",
+    "description": "Unlike the two minds of its distant Quibble relative, the Rare Dandidoo is only governed by a single intelligence, albeit split between two heads. If one peers closely enough, ideas and thoughts can actually be witnessed hopping between the Monster's cerulean Dandiflorets. Rare Dandidoos are said to have the most boundless imaginations in all Monsterdom... although they're particularly fixated on the idea of Ghazts in hats, for some reason.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Dandidoo.png?raw=true",
+    "cost": "40 Diamonds",
     "islands": [
         "cold",
         "water",
@@ -20,6 +20,6 @@
         "Tweedle + Potbelly"
     ],
     "breedingTime": [
-        "Breeding Time: 8 hr, Enhanced Time: 6 hr"
+        "Breeding Time: 10 hr 30 min, Enhanced Time: 7 hr 52 min 30 sec"
     ]
 }

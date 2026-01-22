@@ -1,8 +1,11 @@
 {
-    "name": "Tapricorn",
-    "description": "The tippity-tappity tones made by Tapicorn's sticks meeting its horn are believed to be a form of communication undecipherable by any known Monster. Still, this Morse-like language is surely reaching out to someone! When quizzed on the subject, these uni-horned Monsters are ever evasive - but their pithy replies indicate that their penpal likely resides on another plane of existence.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Tapricorn.png?raw=true",
-    "cost": "300 Diamonds",
+    "name": "Rare Tapricorn",
+    "description": "The Rare form of the Magical Tapricorn is not to be trifled with - it is possessed of various fantastical abilities the likes of which mere mortals may only dream. Rather than sticks, the Rare Tapricorn sources its own horns (it grows three instead of the Common's singular horn) to make its Morse-like music. These instruments have the power to remove impurities from water and cure headaches, simply by being tapped with one! These Rare Magicals feel most at home in the woodland realm... provided that the trees are composed of brain-like tissue and tentacles, of course.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Tapricorn.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": ["psychic", "nexus", "mirror psychic"],
-    "breedingCombo": ["Oaktopus + Theremind", "Poppette + Potbelly", "Bonkers + Toe Jammer"]
+    "breedingCombo": ["Oaktopus + Theremind", "Poppette + Potbelly", "Bonkers + Toe Jammer"],
+    "breedingTime": [
+        "Breeding Time: 1 day 1 hr 30 min, Enhanced Time: 19 hr 7 min 30 sec"
+    ]
 }

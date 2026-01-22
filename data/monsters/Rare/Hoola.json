@@ -1,8 +1,8 @@
 {
-    "name": "Hoola",
-    "description": "Often mistaken for a PomPom that has expanded its traditional diet of exclusively red foods, the Hoola is actually a distinct creature. This doesn't stop them from getting along famously, and they share something of a sisterly bond. The Hoola is a born troublemaker, pulling pranks on other Monsters and using its special hoop to get up to all kinds of mischief. Luckily, a PomPom is usually nearby to help set things right.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Hoola.png?raw=true",
-    "cost": "225 Diamonds",
+    "name": "Rare Hoola",
+    "description": "Rare Hoolas are what happen when these mischeivous [sic] Seasonals adhere to the diet of their PomPom cousins! True to form, however, they usually overdo it and become a garish shade of red in the process. This makes it a little more difficult to sneak up on other Monsters or to pull pranks, so the Rare Hoola compensates by adding an extra hoop to distract them using sleight of hand... or in this case, sleight of hoop.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Hoola.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "air",
         "earth",
@@ -16,6 +16,6 @@
         "PomPom + Pango"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 1 hr, Enhanced Time: 18 hr 45 min"
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced Time: 23 hr 48 min 45 sec"
     ]
 }

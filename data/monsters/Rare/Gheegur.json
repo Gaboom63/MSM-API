@@ -1,15 +1,16 @@
 {
-    "name": "Gheegur",
-    "description": "Amicable but eccentric, the interior of the Gheegur is a plexus of intricate tubes, which begin at its gaping mouth and culminate in its shoulder pipes. The meticulous movements of its many mandibles make for melodious music... but they may also be the mainspring of the mystifying glow that intermittently emanates from the junctions of this Monster's body. The sequela of this glow as of yet unknown, a fellow Wublin is usually appointed as a 'counter' to monitor how much time is spent in the Gheegur's company.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Gheegur.png?raw=true",
-    "cost": "3000 Coins",
+    "name": "Rare Gheegur",
+    "description": "The Zuffle doesn't fall far from the tree, and the Rare Gheegur's aesthetic certainly calls to mind the image of a kooky scientist bringing its creations to life. An unexpected side-effect of this Monster's evolution was the disappearance of its trademark glow that elicited apprehension in its fellow Wublins - which makes it even easier to lurk among the shadows.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Gheegur.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "7 Keys",
     "islands": [
         "wublin"
     ],
     "polairty": [
-        "Negative from: Dermit, Negative toward: Creepuscule, Positive from: Tympa, Positive toward: Zynth"
+        "Negative from: Rare Dermit, Negative toward: Rare Creepuscule, Positive from: Rare Tympa, Positive toward: Rare Zynth"
     ], 
     "powerUpTime": [
-        "7 days"
+        "Unlimited"
     ]
 }

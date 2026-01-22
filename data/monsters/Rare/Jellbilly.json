@@ -1,17 +1,16 @@
 {
-    "name": "Jellbilly",
-    "description": "This rootin'-tootin' Ethereal is something of a legend to the scavenging Cybops of the neighboring dimension. Their cycloptic vision and distinctive vocal twang are modeled after the Jellbilly's own. Even though they may never meet face-to-face, Jellbillies generously return every piece of Cybop fan mail they receive, taking advantage of their many tentacles to write several replies at once.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Jellbilly.png?raw=true",
-    "cost": "1250 Diamonds",
+    "name": "Rare Jellbilly",
+    "description": "Imagine the surprise of Cybop admirers everywhere when the Rare Jellbilly first appeared! This Monster's sensorial 'stachacles' grow above two beady eyes, instead of below just one, producing an altogether different vibe. In turn, Cybops scampered to update their own look, but the Rarethereal was quick to dissuade them, insisting that it's best to stay true to oneself. Wise words for Monsters of all Elements and Classes.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Jellbilly.png?raw=true",
+    "cost": "2000 Diamonds",
     "islands": [
         "ethereal",
-        "colossingum",
         "plasma"
     ],
     "breedingCombo": [
         "Ghazt + Humbug"
     ],
     "breedingTime": [
-        "Breeding Time: Ethereal: 1 day 18 hr, Islets: 20 hr, Enhanced Time: 1 day 7 hr 30 min"
+        "Breeding Time: 2 days 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
     ]
 }

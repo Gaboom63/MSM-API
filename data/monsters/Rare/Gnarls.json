@@ -1,8 +1,9 @@
 {
-    "name": "Gnarls",
-    "description": "Depending on how you look at it, Gnarls are both bigger and smaller than any of the other Quint-Element Monsters. Bigger in the sense that each 'being' is actually comprised of multiple organisms instead of just one; and smaller because the Gnarls themselves are actually quite minuscule! Some might say they are little more than parasitic vines that attach themselves to a tree and coordinate to hijack the plant's latent motor functions. Then it's a simple matter of working together to 'animate' the tree's trunk and branches to give it a full range of motion. Each Gnarl operates the opposite side of the tree, and synchronously conjoin their tendrils to form a 'mouth' through which wind can blow to produce sound. Mercifully, the tree doesn't perceive this transformation as troublesome - instead, it delights in the opportunity to explore the Monster World and make music! Another mercy is that the Plant Top Boss's dual intelligences are satisfied to stick to one tree - no need to 'infect' anyone else.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Gnarls.png?raw=true",
-    "cost": "500 Relics",
+    "name": "Rare Gnarls",
+    "description": "Plants and sunlight - name a more iconic duo. But what becomes of subterranean vegetation that begins its life cycle deep underground? Rare Gnarls hold the answer. Their garishly coloured leaves and tentacles stand out in the dark, making it easier to locate one another and pair off before seeking a shared host. Host trees are similarly ostentatious, having evolved amber hued foliage to remind themselves of the changing seasons aboveground. Once they have fully matured and fused with an arboreal ally, Rare Gnarls are free to explore the sunlit lands above (or stick around the cavernous depths below, if they so choose). Though the cave-dwelling host trees have developed brittle, papery lenticels encasing their silvery bark, their limbs are no less strong than those hijacked by Rare Gnarls' Common cousins. Plus, they ooze some pretty tasty sap - try it sometime as an energy drink for your workouts!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Gnarls.png?raw=true",
+    "cost": "N/A",
+    "starshop": "15000 Starpower", 
     "islands": [
         "bone",
         "amber",
@@ -12,6 +13,6 @@
         "Buy From Shop"
     ],
     "breedingTime": [
-        "Breeding Time: 3 day 8 hr, Enhanced Time: 2 day 12 hr"
+        "Breeding Time: 3 day 23 hr 30 min, Enhanced Time: 2 day 23 hr 37 min 30 sec"
     ]
 }

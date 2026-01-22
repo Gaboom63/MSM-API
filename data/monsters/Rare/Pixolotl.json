@@ -1,18 +1,19 @@
 {
-    "name": "Pixolotl",
-    "description": "The Pixolotl is a Supernatural born rascal, through and through. Its gymnastic ability and insatiable appetite for computer chips (and dip) can cause mayhem: the Monster has been observed using its tail as a paddle, climbing ice floes, getting trapped in plumbing, and more. Some Wublins believed if the Pixolotl only had a Castle to roam around in, it would settle down... but alas, no such Castle exists on Wublin Island.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Pixolotl.png?raw=true",
-    "cost": "34000",
+    "name": "Rare Pixolotl",
+    "description": "Rare Pixolotl bears a strong affinity for the Mech Element, syncing up with the month of its inaugural evolution. This neck-bearded newt loves immersing itself in the digital world, playing its favourite video games late into the night. Its console of choice is the Eksboks Series Eks, which it has tastefully customized with RGB light displays mimicking its own bioluminescence.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Pixolotl.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "14 Keys",
     "islands": [
         "wublin"
     ],
     "breedingCombo": [
-        "None. Zap The Contents, And Power Up!"
+        "N/A"
     ],
     "polarity": [
-        "Negative from: Whajje, Negative toward: Screemu, Positive from: Scargo, Positive toward: Fleechwurm"
+        "Negative from: Rare Whajje, Negative toward: Rare Screemu, Positive from: Rare Scargo, Positive toward: Rare Fleechwurm"
     ],
     "powerUpTime": [
-        "14 Days"
+        "Unlimited."
     ]
 }

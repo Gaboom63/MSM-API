@@ -1,8 +1,8 @@
 {
-    "name": "Clackula",
-    "description": "Dapper Clackula doesn't have a mouth of its own with which to chitter-chatter about its many cultured interests, so the Bone Elemental leaves all the yammering to its loquacious little hands. If only they'd behave! When the lanky gentle-Mon's appendages get too snippy with dinner guests, it delivers the quickest of pin-point pinches to each chatterbox with its dainty fangs. While not enough to cause any pain, it's certainly enough to send a message: keep it classy!",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Clackula.png?raw=true",
-    "cost": "25,000 Coins",
+    "name": "Rare Clackula",
+    "description": "The blue-blooded Rare Clackula has an aristocratic air, believing itself to be of exceptionally Rare breeding. While factually correct, this haughty Bone-Elemental is nonetheless of equal status to its peers, thanks to the equitable hierarchy present in Monster society. This does not stop Rare Clackula from making ostentatious displays such as altering its distractingly high collar to draw attention. Curious Monsters often consult this dignified Rare Magical for etiquette lessons.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Clackula.png?raw=true",
+    "cost": "150 Diamonds",
     "islands": [
         "bone",
         "sanctum",
@@ -15,6 +15,7 @@
         "Enchantling + Clackula"
     ],
     "breedingTime": [
-        "Breeding Time: 5 hr, Enhanced Time: 3 hr 45 min"
-    ]
+        "Breeding Time: 8 hr, Enhanced Time: 6 hr"
+    ],
+    "transposition": "5 Diamonds"
 }

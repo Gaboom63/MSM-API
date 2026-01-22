@@ -1,18 +1,21 @@
 {
-    "name": "Maulch",
-    "description": "Sometimes referred to as a 'Clodyawper,' the Maulch is a mound of potting soil with a pronounced underbite. Its vocalizations suggest it gargles with ballast and sandpaper for fun. Its berries - should one be so foolish as to sample them - taste like cinnamon mayonnaise mixed with ham cola and profound regret. The leaf-like appendage atop its noggin acts as a handy parasol, protecting it from inclement weather and some of the more peculiar atmospheric emissions endemic to Wublin Island. It's easily startled by hiccups and denim hats.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Maulch.png?raw=true",
-    "cost": "17000 Coins",
+    "name": "Rare Maulch",
+    "description": "For being little more than a hummock of soil, the Maulch sure is packed with personality. This inner vibrancy has a chance to manifest in an outer way when the transition into a Rare Maulch is complete, overlaying this 'late bloomer' with greenery and vivacity. The Monster is topped with an even more elaborate flower than the Common's, although the strain of keeping it sturdy and upright can lead to carpel tunnel syndrome.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Maulch.png?raw=true",
+    "cost": "N/A",
     "islands": [
         "Wublin"
     ],
     "breedingCombo": [
-        "None. Zap The Contents, And Power Up!"
+        "N/A"
     ],
     "polarity": [
-        "Negative from: Poewk, Negative toward: Scargo, Positive from: Thwok, Positive toward: Zuuker"
+        "Negative from: Rare Poewk, Negative toward: Rare Scargo, Positive from: Rare Thwok, Positive toward: Rare Zuuker"
     ],
     "powerUpTime": [
-        "7 days"
+        "Unlimited."
+    ],
+    "ascensionCost": [
+        "7 Keys"
     ]
 }

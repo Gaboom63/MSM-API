@@ -1,8 +1,8 @@
 {
-    "name": "Kayna",
-    "description": "The ancient Kayna was long thought lost to an enigmatic event in Monster antiquity. A solitary specimen encased in amber was rescued on Tribal Island. It's true, but only recently did a new generation of these beings begin to appear, beckoned by the mysterious call of Relics resonating deep within the world's volcanic core. Now this feisty Fire Elemental is ready to play its part in restoring the glory of its powerful Element in the Monster World.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Kayna.png?raw=true",
-    "cost": "10 Relics",
+    "name": "Rare Kayna",
+    "description": "Bearers of the oldest Element of all, Rare Kaynas are an ancient breed from which all their Common cousins have sprung. Their intricate, tattoo-like carvings are bestowed upon them with great honor to represent their impressive age and growing wisdom, eon after eon; you can imagine that the oldest Rare Kaynas are quite a sight! Yet no matter how old the original Fire Rare gets, the burning glow of the Fire Element never dims.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Kayna.png?raw=true",
+    "cost": "150 Diamonds",
     "islands": [
         "haven",
         "oasis",
@@ -11,7 +11,6 @@
         "faerie",
         "bone",
         "amber",
-        "tribal",
         "mirror light",
         "mirror psychic",
         "mirror faerie",
@@ -26,6 +25,6 @@
         "Plinkajou + Kayna"
     ],
     "breedingTime": [
-        "Breeding Time: 7 hr, Enhanced time: 5 hr 15 min"
+        "Breeding Time: 8 hr, Enhanced time: 6 hr"
     ]
 }

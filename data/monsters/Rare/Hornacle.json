@@ -1,8 +1,0 @@
-{
-    "name": "Hornacle",
-    "description": "The reborn Hornacle boasts two barnacle-encrusted legs, unlike its conspicuously peg-legged form of yore. Water Elementals revel in exchanging tales at sea of how the Celestial lost its leg. A tangle with an aquatic beast? An unbreakable curse? Only the deep-sea dweller itself knows the truth; not that it will ever share its story, of course. It's much too embarrassing.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Hornacle.png?raw=true",
-    "cost": "12 Keys",
-    "islands": ["celestial"],
-    "breedingCombo": ["None. Zap, And Power Up!"]
-}

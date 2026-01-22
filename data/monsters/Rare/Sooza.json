@@ -1,8 +1,9 @@
 {
-    "name": "Sooza",
-    "description": "It takes a lot of strength training to hold up Sooza's humongous horn - how else do you think it got those calves? But like any well-balanced Monster, Sooza's physical strength doesn't hold a candle to the robust heart that its friends know so well. Sooza is always prepared to drop everything (except its horn) so it can listen to a Monster in need and lift their spirits.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Sooza.png?raw=true",
-    "cost": "100 Relics",
+    "name": "Rare Sooza",
+    "description": "By tilting its flat-topped head backwards, the jazzy Rare Sooza can plug up its horn to produce a smoother, more muted sound. Just don't expect any further tonal alteration from the selection of silvery valves that adorn this Fire Rare's instrument; those bits and bobs exist purely to lend Rare Sooza a sophisticated old-school air.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Sooza.png?raw=true",
+    "cost": "500 Diamonds",
+    "starshop": "5000 Starpower",
     "islands": [
         "light",
         "amber",

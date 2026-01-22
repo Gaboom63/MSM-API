@@ -1,8 +1,8 @@
 {
-    "name": "Dragong",
-    "description": "The Dragong's lithe body belies incredible strength and resilience, which it uses to absorb the vibration of its tail- and feet-plates. In addition to the cymbal-like clashing they create, these plates allow the Dragong to skim the water's surface, and unsurprisingly, to prepare delicious dishes for its Ethereal cohorts.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Dragong.png?raw=true",
-    "cost": "1250 Diamonds",
+    "name": "Rare Dragong",
+    "description": "Very few have actually witnessed it, but it's said that the Rare Dragong has limited flight capabilities! The coloration of its plates is actually owing to the fact that they are hot to the touch. Then, it simply heats the air below it, and surfs around on the updraft. Finally, the rest of its body maintains a frigid temperature to avoid overheating. The ingenuity of Rarethereals never ceases to amaze.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Dragong.png?raw=true",
+    "cost": "2000 Diamonds",
     "islands": [
         "ethereal",
         "colossingum",
@@ -12,6 +12,6 @@
         "Reebro + Humbug"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 18 hr (Ethereal), 20 hr (Islets), Enhanced Time: 1 day 7 hr 30 min"
+        "Breeding Time: 2 day 4 hr 40 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
     ]
 }

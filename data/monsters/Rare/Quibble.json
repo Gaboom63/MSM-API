@@ -1,18 +1,16 @@
 {
-    "name": "Quibble",
-    "description": "Soaring high above, Quibbles are able to spot and collect resonant rocks with which to build their clever keyboards. This happens only occasionally of course, when the two Quibble minds are able to agree on a single purpose.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Quibble.png?raw=true",
-    "cost": "30 Diamonds",
+    "name": "Rare Quibble",
+    "description": "Some Quibbles flat out refuse to grow up – in fact, it's one of the few things the two heads can agree upon. Rare Quibbles, who naturally retain the short, stout beaks of their youth, really commit: they preen their crests into radical feather-dos and never replace the colorful keyboards they played as hatchlings. They do need to use beak extenders to reach the rocks... but whatever, man. Still totally hardcore.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Quibble.png?raw=true",
+    "cost": "40 Diamonds",
+
     "islands": [
         "cold",
         "air",
         "water",
         "shugabush",
-        "colossingum",
         "gold",
         "oasis",
-        "tribal",
-        "composer",
         "mirror cold",
         "mirror air",
         "mirror water"
@@ -22,6 +20,6 @@
         "Shugabush + Quibble"
     ],
     "breedingTime": [
-        "Breeding Time: 8 hr, Enhanced Time: 6 hr"
+        "Breeding Time: 10 hr 30 min, Enhanced Time: 7 hr 52 min 30 sec"
     ]
 }

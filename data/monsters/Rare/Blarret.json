@@ -1,19 +1,19 @@
 {
-    "name": "Blarret",
-    "description": "Right after it's synthesized, the Ethereal Blarret only has one functioning mouth: the top one attached to the rest of its face. Once it's a little older, the Monster's secondary and tertiary mouths learn to sing with preternatural speed… although a non-trivial amount of discipline and concentration is required to make sure they all sing in the right order. After a while though, the reflex becomes 'otama-tic.' Blarrets love getting their triple chins scratched by an Auglur's digital claws - although in the case of the two lower mouths, it's more like a neck scratch?",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Blarret.png?raw=true",
-    "cost": "1700 Diamonds",
+    "name": "Rare Blarret",
+    "description": "Amateur Monster World explorers often misidentify and misclassify Monsters when encountering them for the first time in the field, and few have fallen victim to this more often than the Rare Blarret. Hurried sketches and blurry images of this misty Monster have been found alongside other long-necked (and often purely fabricated) 'discoveries' in the field journals. Rather than poking its long neck out of the earth and coughing out a tune, the Rare Blarret has its head in the clouds. Drawing more on its Shadow- and Poison-Element lineage, this airy Rarethereal feels particularly ephemeral, like it can billow up out of nowhere and blow away with the breeze.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Blarret.png?raw=true",
+    "cost": "3200 Diamonds",
     "islands": [
         "workshop",
         "plasma"
     ],
     "breedingCombo": [
-        "Plasma Meeb + Shadow Meeb + Poison Meeb"
+        "N/A"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 6 hr"
+        "Breeding Time: 1 day 11 hr"
     ], 
     "synthesisTime": [
-        "Success: 1 day 6 hr, Failure: 10 hr"
+        "N/A"
     ]
 }

@@ -1,20 +1,17 @@
 {
-    "name": "Toe Jammer",
-    "description": "While Toe Jammers may appear fragile, these rubbery Water elementals are very tough. Toe Jammers sing of liquid wonders: deep sea leviathans, crashing surf, flooded basements, and bubble tea!",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Toe%20Jammer.png?raw=true",
-    "cost": "250 Coins",
+    "name": "Rare Toe Jammer",
+    "description": "To call the Rare Toe Jammer a marshmallow enthusiast would be a profound understatement. It gobbles them up at every opportunity, but thanks to a curious chemical reaction that takes place inside the Monster, they drift to its outer membrane and protrude at all angles. The Rare Toe Jammer's shifting coloration may be a product of this same internal process, but while some believe that this theory holds Water, others claim it's just a phase.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Toe%20Jammer.png?raw=true",
+    "cost": "75 Diamonds",
     "islands": [
         "plant",
         "cold",
         "air",
         "water",
-        "colossingum",
         "gold",
         "oasis",
         "psychic",
         "bone",
-        "tribal",
-        "composer",
         "mirror plant",
         "mirror cold",
         "mirror water",
@@ -31,6 +28,6 @@
         "Bone: Toe Jammer"
     ],
     "breedingTime": [
-        "Breeding Time: 1 min, Enhanced Time: 45 sec"
+        "Breeding Time: 6 hr, Enhanced Time: 4 hr 30 min"
     ]
 }

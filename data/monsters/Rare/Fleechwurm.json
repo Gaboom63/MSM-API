@@ -1,8 +1,9 @@
 {
-    "name": "Fleechwurm",
-    "description": "In addition to using them to play music, some Monsters take advantage of their unique features and body shapes, and use them for other purposes. In the case of the Fleechwurm, its resonant body cavity can generate a series of whistles that have an unusual hypnotic effect on other Wublins. They can be used to coax others into doing unglamorous chores for it, or to lovingly preen its leaf-like limbs. Some Wublins are more resistant than others, and playfully admonish the Fleechwurm so it doesn't become too mischievous.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Fleechwurm.png?raw=true",
-    "cost": "5000 Coins",
+    "name": "Rare Fleechwurm",
+    "description": "Even though the moon is seldom visible through the lightning of the perpetual storm, the red and gold Rare Fleechwurm has a preternatural instinct for knowing when it's in its new lunar phase. Especially at the beginning of the lunisolar year, it will wriggle its way over to its fellow Wublins, imitating the movements of the fantastical Lion creature of legend, and 'pluck the greens' to bring good fortune - this consists of pinching or squeezing any body part that is liable to produce a tickling sensation!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Fleechwurm.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "5 Keys",
     "islands": [
         "wublin"
     ],
@@ -10,9 +11,9 @@
         "None. Zap The Contents, And Power Up!"
     ],
     "polarity": [
-        "Negative from: Dwumrohl, Negative toward: Dwumrohl, Positive from: Pixolotl, Positive toward: Brump"
+        "Negative from: Rare Dwumrohl, Negative toward: Rare Dwumrohl, Positive from: Rare Pixolotl, Positive toward: Rare Brump"
     ],
     "powerUpTime": [
-        "5 Days"
+        "Unlimited."
     ]
 }

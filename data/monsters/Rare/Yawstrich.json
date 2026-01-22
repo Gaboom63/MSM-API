@@ -1,8 +1,8 @@
 {
-    "name": "Yawstrich",
-    "description": "The Yawstrich is a highly specialized Monster that can only inhabit the lofty perches of Air Island. Sporting four wings and one solitary leg, it has an innate mastery of balance. Despite these unique traits, the Yawstrich is most easily recognized by the shrill and unmistakable call it makes to announce its presence and communicate with other Monsters.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Yawstrich.png?raw=true",
-    "cost": "Air: 225 Diamonds, Mythical: 500 Diamonds",
+    "name": "Rare Yawstrich",
+    "description": "1 in every 55 Yawstriches is born with a specific genetic mutation that produces radically different-colored plumage and converts their avian wings into insectoid ones. Rather than feeling self-conscious about what sets it apart, this Rare Mythical celebrates its differences and leans into it - perhaps even going overboard! It styles elaborate feather-dos by burying its head in sand, and allows Yucka seedpods to take root on its body and grow a miniature ecosystem on its back. Gotta love it when Monsters embrace their weirdness.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Yawstrich.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "air",
         "mythical",
@@ -12,6 +12,6 @@
         "Scups + T-Rox"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 4 hr, Enhanced Time: 21 hr"
+        "Breeding Time: 1 day 11 hr, Enhanced Time: 1 day 2 hr 15 min"
     ]
 }

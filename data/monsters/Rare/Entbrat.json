@@ -1,8 +1,8 @@
 {
-    "name": "Entbrat",
-    "description": "The complex combination of elements that produces an Entbrat results in a truly gentle giant. This massive Monster's great bellow vibrates the particles of the world from the clouds in the sky to the stones in the ground. Entbrats are not notably intelligent.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Entbrat.png?raw=true",
-    "cost": "150 Diamonds",
+    "name": "Rare Entbrat",
+    "description": "As if Entbrats weren't impressive enough already! The Rare Entbrat sports vibrant autumnal foliage and eye-catching horn extensions. Reports suggest that this uncommon morph is at least marginally smarter than its regular counterpart, but don't hold your breath waiting for it to score well on any intelligence test.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Entbrat.png?raw=true",
+    "cost": "200 Diamonds",
     "islands": [
         "plant",
         "colossingum",
@@ -17,6 +17,6 @@
         "Furcorn + Fwog"
     ],
     "breedingTime": [
-        "Breeding Time: 24 hr, Enhanced Time: 18 hr"
+        "Breeding Time: 1 day 6 hr 30 min, Enhanced Time: 22 hr 52 min 20 sec"
     ]
 }

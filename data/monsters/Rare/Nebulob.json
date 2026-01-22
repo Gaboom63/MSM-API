@@ -1,11 +1,10 @@
 {
-    "name": "Nebulob",
-    "description": "The little-understood Nebulob is one of the few Monsters born without a predisposition to music. Instead, it is something that the Nebulob works on all its life, constantly researching new and exciting genres to learn from and experiment with. The elaborate exo-suit it dons aids in the creation of its own special style, a dulcet mix of machine and spirit. If pressed, the Nebulob will confess its favorite musical genre as 'Rhythm & Ooze.'",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Nebulob.png?raw=true",
-    "cost": "1250 Diamonds",
+    "name": "Rare Nebulob",
+    "description": "A 'Rhythm & Ooze' connoisseur, the purplish essence of the Rare Nebulob wants the fast and loose improvisational style of its preferred genre to be reflected in all aspects of its existence. However, it tends to go a bit overboard, and sprouts as many eyes as will fit in the dome of its exo-suit. It's a good thing this Rarethereal is lighter than air, otherwise it would undoubtedly wobble on its only leg. Still, this Monster's loopy lifestyle isn't hurting anybody, so its fellows on Ethereal Island are happy to let it do its thing.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Nebulob.png?raw=true",
+    "cost": "2000 Diamonds",
     "islands": [
         "ethereal",
-        "colossingum",
         "plasma",
         "mech"
     ],
@@ -13,6 +12,6 @@
         "Ghazt + Reebro"
     ],
     "breedingTime": [
-        "Breeding Time: Ethereal: 1 day 18 hr, Islets: 20 hr, Enhanced Time: 1 day 7 hr 30 min"
+        "Breeding Time: 2 days 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
     ]
 }

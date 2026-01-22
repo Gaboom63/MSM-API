@@ -1,8 +1,9 @@
 {
-    "name": "Cybop",
-    "description": "Much more than mere gizmos, Cybops are deep thinkers, and vibrantly alive. Occasionally, Cybops need reminders that attempting to scavenge the body parts of other Monsters for personal repair is not socially acceptable.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Cybop.png?raw=true",
-    "cost": "30 Diamonds",
+    "name": "Rare Cybop",
+    "description": "Common Cybops might idolize the Ethereal Jellbilly, but the Rare Cybop is no such admirer! It stalwartly marches (or hovers) to the beat of a different drum, transfiguring its mechanical body to match ancient cave drawings of early Cybops. Non-conformity comes with a price, though: the jostling of its twin engines sometimes results in motion sickness, hence its greenish complexion.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Cybop.png?raw=true",
+    "cost": "40 Diamonds",
+    "starshop": "1500 Starpower",
     "islands": [
         "air",
         "water",
@@ -20,6 +21,6 @@
         "Tweedle + Noggin"
     ],
     "breedingTime": [
-        "Breeding Time: 8 hr, Enhanced Time: 6 hr"
+        "Breeding Time: 10 hr 30 min, Enhanced Time: 7 hr 52 min 30 sec"
     ]
 }

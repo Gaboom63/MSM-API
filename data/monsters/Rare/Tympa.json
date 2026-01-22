@@ -1,18 +1,19 @@
 {
-    "name": "Tympa",
-    "description": "One might reasonably conclude that rat-tat-tapping upon its own eardrums all day would give the Tympa a headache. On the contrary, this Wublin delights in banging the drum - particularly for a good cause! While it doesn't have much in terms of material wealth, it selflessly devotes its time and energy to helping fellow Monsters however it can, making the Tympa a very good friend, indeed.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Tympa.png?raw=true",
-    "cost": "34000 Coins",
+    "name": "Rare Tympa",
+    "description": "First unveiled while the stars of Immortal Jolt shone overhead, Rare Tympa's aesthetic is a perfect match for the blue, gloomy tones of Wublin Island and its surrounding Electrical storm. But there's no arguing that that hairdo is perfect for all seasons.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Tympa.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "14 Keys",
     "islands": [
         "wublin"
     ],
     "breedingCombo": [
-        "None. Zap The Contents, And Power Up!"
+        "N/A"
     ],
     "polarity": [
-        "Negative from: Thwok, Negative toward: Blipsqueak, Positive from: Poewk, Positive toward: Gheegur"
+        "Negative from: Rare Thwok, Negative toward: Rare Blipsqueak, Positive from: Rare Poewk, Positive toward: Rare Gheegur"
     ],
     "powerUpTime": [
-        "14 Days"
+        "Unlimited."
     ]
 }

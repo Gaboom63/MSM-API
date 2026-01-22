@@ -1,8 +1,9 @@
 {
-    "name": "PongPing",
-    "description": "There's a persistent cliché that you can either be a music fan or a sports nut, but not both - and the PongPing proves otherwise! Even though its vermiform body is better suited to standing activities like table tennis, the Monster also loves embarking on cross-island marathons, no matter how long they take. To keep its spirits up on the way, the PongPing uses its paddles to practice a series of rhythmic rudiments on its inflatable cheeks. When intense weather or fatigue threaten to discourage, the Monster likes to remember the optimistic adage its forebears always used to say: 'Life is like a music box of Chokkolits... wait, why are there Chokkolits in a music box? What a mess! Oh well, let's get started on clean-up.' We know, it's kind of convoluted.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/PongPing.png?raw=true",
-    "cost": "300 Relics",
+    "name": "Rare PongPing",
+    "description": "As befits any great athlete OR musician, the Rare PongPing has absolutely phenomenal hair. Not that you should ever be distracted by something superficial like that when you're assessing a being's sportsMonship or musicality - but it never hurts. Unlike the slapdash paddles of its Common cousin, the Rare carefully crafts ornate and sturdy fans that can also double perfectly as marshalling wands that can safely guide flying visitors to taxi successfully. Since the fans are quite a bit sharper as well, extra care must also be taken when striking its inflatable cheeks - but that's no issue for the Rare PongPing who practices mindfulness and meditation.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare PongPing.png?raw=true",
+    "cost": "N/A",
+    "starshop": "10000 Starpower",
     "islands": [
         "bone",
         "amber",
@@ -12,6 +13,6 @@
         "Buy From Shop"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 16 hr, Enhanced Time: 1 day 6 hr"
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
     ]
 }

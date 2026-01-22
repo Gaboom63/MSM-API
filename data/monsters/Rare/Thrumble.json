@@ -1,8 +1,8 @@
 {
-    "name": "Thrumble",
-    "description": "Wide-mouthed and keen snackers, Thrumbles are prone to swallowing Treats whole. Their elongated gullets can squash and stretch to provide said Treats with ample time to be pulverized by the reverberations of this happy-go-lucky hummer's signature thrumming. When thrumming on an empty stomach, bubbling pockets of air can expand and prompt a sudden flurry of giggles!",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Thrumble.png?raw=true",
-    "cost": "100 Relics",
+    "name": "Rare Thrumble",
+    "description": "Countless accounts in Monster history describe sightings of strange sea creatures - no, we're not talking about Glubbers! In fact, many describe the Thrumble, often mistaken for beasts of the deep. So just what happens when a Thrumble embraces its Watery side instead of trudging about the Earth for centuries? It adapts. Rare Thrumbles are built for hydrodynamics, with sleek fins that grant it increased grace and speed. To maintain peak performance and prevent accidental snagging of Ocean-dwelling vegetation, these Rares file their horns thrice daily.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Thrumble.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "bone",
         "amber",
@@ -14,6 +14,6 @@
         "Phangler + Noggin"
     ],
     "breedingTime": [
-        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+        "Breeding Time: 1 day 2 hr 30 min, Enhanced Time: 19 hr 52 min 30 sec"
     ]
 }

@@ -1,8 +1,9 @@
 {
-    "name": "Bonkers",
-    "description": "Bonkers go bonkers for thumpin' on stumpies! Uh, we mean stumps. The understated sapling that the Bonkers thump their fuzzy heads against is no Great Tree, but hey - theyll take what they can get! It still emanates a particular magic that compels Bonkers to beat up on bark. While certainly befuddling to us, this behavior is only natural to the other inhabitants of the Bonkers percussive home dimension.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Bonkers.png?raw=true",
-    "cost": "150 Diamonds",
+    "name": "Rare Bonkers",
+    "description": "As a rule, Bonkers are typically drawn to the trunks of deciduous trees and install themselves nearby to begin their trademark bonking. One subspecies known for its shaggy coat is more prone to seek out desertic plant life, like the twisted stalks of the Dry Patch in the Thumpieverse. Because of the harsh conditions they're accustomed to, these stalks can even flourish in outer spatial ecosystems! The Rare Magical megadriles are spotted even less frequently than their Common cousins, and if it weren't for the familiar sound of their beating heads drawing your attention, you'd scarcely know they existed at all.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Bonkers.png?raw=true",
+    "cost": "250 Diamonds",
+    "transposition": "10 Diamonds",
     "islands": [
         "Psychic",
         "Nexus",

@@ -1,8 +1,9 @@
 {
-    "name": "Plinkajou",
-    "description": "The daring Plinkajou will risk life and limb in the paleontological pursuit of osseous treasures. Its play-hensile tail gives it the agility it needs to climb the tallest boulders and cling to crumbling cliff sides without fear. Not once has a Plinkajou been caught losing its footing! Instead, it descends to its ground-level den of its own accord for playtime, when it bats at its favorite fossilized findings to make tinkling little tunes.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Plinkajou.png?raw=true",
-    "cost": "600 Diamonds",
+    "name": "Rare Plinkajou",
+    "description": "Monsters will often adapt their appearance to match their surroundings, but less frequently, they will adapt themselves to another Monstrous denizen of their habitat. The Rare Plinkajou is a prime example of this - it has evolved multiple traits to resemble the Rare Gnarls that share its subterranean ecosystem. The dense white-grey fur that covers the Rare Magical's body is reminiscent of the texture of the Fire Rare's arboreal host of choice, and also recedes to a dark sooty grey as it reaches the extremities. Additionally, the many eyespots that cover its body call to mind the knots in the birch-Like texture of Rare Gnarls. Why the Rare Plinkajou evolved to appear this way remains unsolved, but some have suggested it's so that the Monster can disappear into the trees at a moment's notice should its collection of precious minerals be discovered.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Plinkajou.png?raw=true",
+    "cost": "750 Diamonds",
+    "transposition": "40 Diamonds",
     "islands": [
         "bone",
         "nexus",

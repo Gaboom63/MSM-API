@@ -1,8 +1,9 @@
 {
-    "name": "Zynth",
-    "description": "The Zynth thrives on the natural electricity emitted by Wublin Island. This Monster stores the excess energy to power its glowing abdomen and produce a wonderful harmonic buzzing sound. A word of caution - don't stand too close to the Zynth, unless you want to reek of the orange fizz and ozone smell that accompanies it wherever it goes.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Zynth.png?raw=true",
-    "cost": "3000 Coins",
+    "name": "Rare Zynth",
+    "description": "The tusked Rare Zynth is sometimes considered a pest, owing to its penchant for digging up crops and using the energy from its glowing abdomen to dissolve them into a nutritious goo for later consumption. It's not ill-intentioned - it was just designed that way. A word of advice from the Monster-Handlers: keep these creatures away from farms.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Zynth.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "3 Keys",
     "islands": [
         "wublin"
     ],
@@ -10,9 +11,9 @@
         "None. Zap The Contents, And Power Up!"
     ],
     "polarity": [
-        "Negative from: Astropod, Negative toward: Whajje, Positive from: Gheegur, Positive toward: Dermit"
+        "Negative from: Rare Astropod, Negative toward: Rare Whajje, Positive from: Rare Gheegur, Positive toward: Rare Dermit"
     ],
     "powerUpTime": [
-        "3 Days"
+        "Unlimited."
     ]
 }

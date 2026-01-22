@@ -1,8 +1,8 @@
 {
-    "name": "Drumpler",
-    "description": "One would not expect the progeny of Earth and Cold to be an elastic creature, but the Drumpler is exactly that. Its tough abdominal hide can be stretched taut to produce sound, yet the Drumpler experiences no discomfort whatsoever.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Drumpler.png?raw=true",
-    "cost": "30 Diamonds",
+    "name": "Rare Drumpler",
+    "description": "Endowed with a tall, sloping forehead, it would have been easy for the Rare Drumpler to feel insecure about its hairline, especially when compared to the full-bodied mane of the Common Monster. Unfazed, this positive percussionist instead decided to make the most of the situation and grew two extra sets of eyes! Its appetite is notorious, since its eyes are now truly bigger than its stomach.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Drumpler.png?raw=true",
+    "cost": "40 Diamonds",
     "islands": [
         "plant",
         "air",
@@ -21,6 +21,6 @@
         "Noggin + Mammott"
     ],
     "breedingTime": [
-        "Breeding Time: 30 min, Enhanced Time: 22 min 30 sec"
+        "Breeding Time: 1 hr 7 min 30 sec, Enhanced Time: 50 min 37 sec"
     ]
 }

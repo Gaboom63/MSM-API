@@ -1,8 +1,9 @@
 {
-    "name": "Creepuscule",
-    "description": "In the gloomy twilight of Wublin Island, the eerie gleam of the Creepuscule's plate can make it even harder to tell what time of day it is. This Monster takes full advantage of its unique physiology to showcase true percussive prowess. The nails that tip its long, finger-like limbs are actually tightly packed strands that are more like stiff hairs. The 'hair' on its head is probably a wig, but hey, right on - whatever makes a Creepuscule feel good, right?",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Creepuscule.png?raw=true",
-    "cost": "17000",
+    "name": "Rare Creepuscule",
+    "description": "Rare Creepuscule ups the wig game of its Common counterpart, flaunting a red yarn hairpiece that complements its green scaly skin. From a distance, one might say that this Rare Wublin resembles a juicy tropical fruit - only upon closer examination do its rows of teeth and ossified drum negate the prior observation.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Creepuscule.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "7 Keys",
     "islands": [
         "wublin"
     ],
@@ -13,6 +14,6 @@
         "Negative from: Gheegur, Negative toward: Bona-Petite, Positive form: Whajje, Positive toward: Screemu"
     ],
     "powerUpTime": [
-        "7 Days"
+        "Unlimited."
     ]
 }

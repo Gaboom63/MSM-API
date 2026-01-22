@@ -1,8 +1,8 @@
 {
-    "name": "Jam Boree",
-    "description": "To say that the Seasonal Shanty is Jam-packed with goodwill and jubilation would be accurate, and that's largely thanks to the presence of the Jam Boree! For many years, the self-styled leader of the Shanty has taken it upon itself to try to organize the Seasonal trappings that festoon every corner of the floating hideaway. It's a very patient Monster, who looks forward every year to Anniversary Month when it throws a huge party for the migratory Seasonals coming home to roost! Jam Boree appreciates when Treats other than Cake are served at such shindigs.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Jam%20Boree%20-%20Year%2011.png?raw=true",
-    "cost": "500 Diamonds",
+    "name": "Rare Jam Boree",
+    "description": "A decade has passed, full of musical craze; We've all grown together through this Monstrous phase.  Upon the Shanty, Seasonals all sing carefree... But still were surprised to meet Rare Jam Boree!  With a Roamin' candle placed on its Chokkolitty top, Everyone knows that the music won't stop.  Sparklers for cheer, and candles burning bright, For all Singing Monsters, there's no end in sight!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Jam%20Boree%20-%20Year%2011.png?raw=true",
+    "cost": "625 Diamonds",
     "islands": [
         "gold",
         "seasonal"
@@ -11,6 +11,6 @@
         "Punkleton + Hoola"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 16 hr 24 min, Enhanced Time: 1 day 6 hr 18 min"
+        "Breeding Time: 2 day 2 hr, Enhanced Time: 1 day 13 hr 30 min"
     ]
 }

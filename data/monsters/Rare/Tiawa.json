@@ -1,8 +1,9 @@
 {
-    "name": "Tiawa",
-    "description": "Proven as a keen leader, the Tiawa's very presence suggests a soothing sageness. In the face of adversity, the queenly Quad simply flourishes its crown of planks, and undertakes any situation or challenge with the help of its noble hearts (it grows a second one alongside a second eye as it ages). For many years, Monsters have followed the knowledgeable beat of Tiawa's drumming digits as it crafts subtle melodies. Even today, Tiawa continues to give priceless counsel to anyone, and will for generations to come.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Tiawa.png?raw=true",
-    "cost": "300 Relics",
+    "name": "Rare Tiawa",
+    "description": "In a world where Tiawa might be hailed as a queen, the preciously precocious Rare Tiawa subspecies is most certainly the princess. It is spoiled (but endearingly so), opting out of the optic optimization that typically comes with the species' maturation from Monsterling to Monster and only keeping the one eye. Naturally, this Fire Rare still nurtures the development of its trademark second heart, the alternating beats providing an important education in playing syncopated rhythms. And for serving up oodles of affection, of course.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Tiawa.png?raw=true",
+    "cost": "N/A",
+    "starshop": "10000 Starpower",
     "islands": [
         "light",
         "amber",
@@ -12,6 +13,6 @@
         "Buy From Shop"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 16 hr, Enhanced Time: 1 day 6 hr"
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
     ]
 }

@@ -1,8 +1,8 @@
 {
-    "name": "Ziggurab",
-    "description": "Ziggurab's pinchers aren't just snappy sound-makers. They're also multi-purpose tools perfect for chopping veggies, wood, or wrapping paper. You could say Ziggurab is quite the handyMon - literally! When it's not slicing and dicing, this not-so-crabby Monster loves to take a snooze with its head buried deep in its soundproof body chamber.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Ziggurab.png?raw=true",
-    "cost": "100 Relics",
+    "name": "Rare Ziggurab",
+    "description": "Sponge? Cake? Sponge Cake! The Rare 'tier' of the Ziggurab family is well-versed in tending the home thanks to its inherent knack for both cooking and cleaning. Whether it's scouring countertops 'til they're sparkling clean, or scouring the Monster World Wide Web for delectable new recipes (as any arachnoid worth its webbing would do), you can rest easy knowing that your abode is in good claws when there's a Rare Ziggurab around.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Ziggurab.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "faerie",
         "amber",
@@ -14,6 +14,6 @@
         "Boskus + Noggin"
     ],
     "breedingTime": [
-        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+        "Breeding Time: 1 day 2 hr 30 min, Enhanced Time: 19 hr 52 min 30 sec"
     ]
 }

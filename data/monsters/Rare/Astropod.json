@@ -1,18 +1,19 @@
 {
-    "name": "Astropod",
-    "description": "The Astropod is a bizarre amalgam of seemingly incompatible features that come together to create a truly unique Monster performer. The electricity that courses through its Wublin body manifests itself between its antlers and in the color-shifting tufts on its shell. Conversing with an Astropod is a complicated affair, as the slightest movement of its puny upper arms communicates nuanced subtexts and exposed veiled thoughts.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Astropod.png?raw=true",
-    "cost": "20000 Coins",
+    "name": "Rare Astropod",
+    "description": "Over time, routine exposure to the heavenly sights and sounds of Gold Island's higher plane have seeped into the Wubbox's design sensibilities... made abundantly apparent in the Rare Astropod! Its jade green tones of its skin and shell evoke the shimmering surfaces of the Crystal Castle, and auric highlights call to mind the lustre of Gold Island's metallic ornamentation. ",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Astropod.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "10 Keys",
     "islands": [
         "Wublin"
     ],
     "breedingCombo": [
-        "None. Zap Eggs And Power Up!"
+        "Power Up Common Form"
     ],
     "polarity": [
-        "Negative form: Brump, Negative toward: Zynth, Positive from: Bona-Petite, Positive toward: Dwumrohl"
+        "Negative form: Rare Brump, Negative toward: Rare Zynth, Positive from: Rare Bona-Petite, Positive toward: Rare Dwumrohl"
     ],
     "powerUpTime": [
-        "10 Days"
+        "Unlimited."
     ]
 }

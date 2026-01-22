@@ -1,8 +1,8 @@
 {
-    "name": "Pluckbill",
-    "description": "The Pluckbill's shimmering strings are spun by weaving the Monster's own furthers with stardust fallen from the Aurora Monstralis. It is this lustrous dust that not only lends Pluckbill strings their signature sparkle, but also their unbreakable strength. These crafty Monsters have thus inspired a popular nugget of the Monster World wisdom: 'If the bond between friends is tougher than Pluckbill string, it is worth keeping.'",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Pluckbill.png?raw=true",
-    "cost": "150 Diamonds",
+    "name": "Rare Pluckbill",
+    "description": "At one point in time, a Pluckbill sighting was quite rare, and this was especially true of the Rare Pluckbill. The migrations of the Phosphora Titan were more aimless back then, and less directed by the Aurora Monstralis, the stardust of which Pluckbills need to craft their strings. Rare Pluckbills have an additional adaptation: to give their strings a saffron color, they must mix a special residue from the Titan's nodules that is only harvestable with long-term exposure to the Aurora's ultraviolet rays. After becoming aware of this vulnerability to environmental change, Phosphora disciplined itself to follow the Aurora closely, and focused on the conservation of Light Island's native species.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Pluckbill.png?raw=true",
+    "cost": "250 Diamonds",
     "islands": [
         "light",
         "nexus",
@@ -12,9 +12,9 @@
         "Kayna + Fluoress"
     ],
     "breedingTime": [
-        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+        "Breeding Time: 12 hr 30 min, Enhanced Time: 9 hr 22 min 30 sec"
     ],
     "orbTime": [
-        "Orb Time: 1 day 3 hr"
+        "Orb Time: 1 day 6 hr 30 min"
     ]
 }

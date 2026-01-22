@@ -1,14 +1,11 @@
 {
-    "name": "Shellbeat",
-    "description": "Shellbeats are naturally shy and like to keep hidden away in their shells. When they are woken up by their neighbors' loud singing they tend to loosen up, come out of their shell, and play along as best they can with their aquatic drum set. Shellbeats have gotten pretty good at playing lately.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Shellbeat.png?raw=true",
-    "cost": "150 Diamonds",
+    "name": "Rare Shellbeat",
+    "description": "Finally - the Rare Shellbeat has been revealed! This especially bashful being only emerges once in a blue moon, so great care must be taken to make sure it feels welcome among its fellow Monsters. Once it's settled in a jam session, the Rare Shellbeat has been known to produce pearls of exceptional quality from its unique shell, which it gives away as presents! This curious Quad-Element often contemplates the nature of the Monster World, and the possibility of alternate universes. If it's learned anything, it has so far decided to keep the secrets to itself.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Shellbeat.png?raw=true",
+    "cost": "200 Diamonds",
     "islands": [
         "water",
-        "colossingum",
         "gold",
-        "tribal",
-        "composer",
         "mirror water"
     ],
     "breedingCombo": [
@@ -17,6 +14,6 @@
         "Quibble + Shrubb"
     ],
     "breedingTime": [
-        "Breeding Time: 24 hr, Enhanced Time: 18 hr"
+        "Breeding Time: 1 day 6 hr 30 min, Enhanced Time: 22 hr 52 min 30 sec"
     ]
 }

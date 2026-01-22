@@ -1,8 +1,8 @@
 {
-    "name": "Yuggler",
-    "description": "Most can only dream of being sound of mind, body, and soul as the Yuggler. The serene yogi juggles metallic orbs to create distinct dings that soothe the troubled minds in its own proprietary form of deep Med-Ding-Tation. This ritual fortifies pupils with an unshakable fortitude, undeterred by any mishap, meltdown, or misadventure!",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Yuggler.png?raw=true",
-    "cost": "150 Diamonds",
+    "name": "Rare Yuggler",
+    "description": "The Rare Yuggler has elevated the med-ding-tational teachings of its Common cousin to a whole other level... but an unforeseen consequence is a total upheaval of sensory equilibrium! Its senses of smell and touch have been all but neutralized with the removal of its nostrils and the dulling of its nails, but they've been swapped for heightened sight and hearing with an extra eye and droopy ears! The design for its metallic orbs is said to have been drawn from vivid dreams visited upon it during deep med-ding-tation... dreams of a virtual world filled with never-ending joy and entertainment...",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Yuggler.png?raw=true",
+    "cost": "250 Diamonds",
     "islands": [
         "psychic",
         "nexus",
@@ -12,9 +12,9 @@
         "Kayna + Theremind"
     ],
     "breedingTime":[
-        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+        "Breeding Time: 12 hr 30 min, Enhanced Time: 9 hr 22 min 30 min"
     ],
     "orbTime": [
-        "1 day 3 hr"
+        "1 day 6 hr 30 min"
     ]
 }

@@ -1,14 +1,11 @@
 {
-    "name": "Quarrister",
-    "description": "The first stage of the Quarrister's life cycle begins deep underground. Each head is a separate creature, feeding on crystals and fending for themselves. Eventually, groups of heads band together and harmonize their efforts until they physically fuse together. Every once in a while, one of the Quarrister's voices will go for a solo, but that kind of behavior is usually seen as big-headed.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Quarrister.png?raw=true",
-    "cost": "150 Diamonds",
+    "name": "Rare Quarrister",
+    "description": "The Rare Quarrister's body is composed of many different types of minerals and is encrusted with unusual crystals normally found all over the multiverse. Even though its individual heads all have different origins, this Earth Boss rocks just as equally as the Common Monster. The Rare Quarrister proudly celebrates diversity and inclusion, and proves that putting heads together with positive energy can achieve great harmony.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Quarrister.png?raw=true",
+    "cost": "200 Diamonds",
     "islands": [
         "earth",
-        "colossingum",
         "gold",
-        "tribal",
-        "composer",
         "mirror earth"
     ],
     "breedingCombo": [
@@ -17,6 +14,6 @@
         "Pango + Shrubb"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day, Enhanced Time: 18 hr"
+        "Breeding Time: 1 day 6 hr 30 min, Enhanced Time: 22 hr 52 min 30 sec"
     ]
 }

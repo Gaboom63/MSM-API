@@ -1,8 +1,8 @@
 {
-    "name": "Squot",
-    "description": "Squots are toadstool-like Monsters that creep about in the old dark corners of forested areas, nestling into the damp moss or lying in wait beneath a toppled log. At night, these unusual Monsters truly come alive! Using their spindly arms, Squots reach into hollow tree trunks to pluck out fluorescent Playphids and use them as instruments in their percussive pursuits. Despite knocking politely on their tiny doors, Playphids are nonetheless quite timorous when in the presence of a Squot.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Squot.png?raw=true",
-    "cost": "150 Diamonds",
+    "name": "Rare Squot",
+    "description": "If you're wondering - no, that's not a Playphid resting on the Rare Squot... it's a Slapscallion! But the general idea is practically identical. This Rare Magical and its pint-sized partner are very alliaceous in appearance, and the similarities don't end there - they give off a wonderfully oniony aroma as well! Before you ask - no, no one has had the gumption (or the foolishness) to inquire whether they taste like onions as well. As far as having 'layers' is concerned... well, this Monster would certainly like to think so, in the figurative sense. The truth is that there isn't a ton of nuance when it comes to the Rare Squot - squot you see is squot you get.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Squot.png?raw=true",
+    "cost": "250 Diamonds",
     "islands": [
         "faerie",
         "nexus",
@@ -12,6 +12,6 @@
         "Mammott + Floot Fly"
     ],
     "breedingTime": [
-        "Breeding Time: 9 hr, Enhanced Time: 6 hr 45 min"
+        "Breeding Time: 12 hr 30 sec, Enhanced Time: 9 hr 22 min 30 sec"
     ]
 }

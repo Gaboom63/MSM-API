@@ -1,15 +1,12 @@
 {
-    "name": "Scups",
-    "description": "Versatile Scups can readily adhere to most any surface when the need arises. Generally, it prefers to remain on the Earth, as its Water-filled body is quite heavy. The Scups' remarkable feet use Air to produce a call that can travel vast distances.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Scups.png?raw=true",
-    "cost": "50 Diamonds",
+    "name": "Rare Scups",
+    "description": "The Rare Scups' bioluminescent spurs are perfectly suited to its predominantly noctural [sic] lifestyle. Sure, it performs along nonchalantly during the day, but it's total mystery what it does after the sun sets. Every once in a while, a company of ambitious Monsters will resolve to stay up long enough to witness a Rare Scups in nighttime action, but the siren song of the Castle's beds always proves too much to resist.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Scups.png?raw=true",
+    "cost": "65 Diamonds",
     "islands": [
         "air",
         "water",
-        "colossingum",
         "gold",
-        "tribal",
-        "composer",
         "mirror air",
         "mirror water"
     ],
@@ -19,6 +16,6 @@
         "Cybop + Toe Jammer"
     ],
     "breedingTime": [
-        "Breeding Time: 12 hr, Enahnced Time: 9 hr"
+        "Breeding Time: 15 hr 30 min, Enahnced Time: 11 hr 37 min 30 sec"
     ]
 }

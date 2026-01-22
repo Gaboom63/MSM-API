@@ -1,8 +1,8 @@
 {
-    "name": "Spurrit",
-    "description": "Huzzah! If you're reading this, that means that you've accomplished the unimaginable and actually tracked down the Spurrit! A notoriously elusive Seasonal, it nonetheless asserts that it's native to the Monster World… but some have their doubts. When it's not excitedly joining in on an island's song, the Spurrit can be observed fastidiously scribbling in journals, carrying out bold (and sometimes inadvisable) science experiments, and generally marveling at the world around it. The secret to its tireless joie de vivre? Maintaining uninterrupted access to the waters of the living ocean, which it slurps down with a self-satisfied, if perplexing, gulp.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Spurrit.png?raw=true",
-    "cost": "225 Diamonds",
+    "name": "Rare Spurrit",
+    "description": "Research concludes that hydration with Monstroactive fluids has side effects other than longevity and edentulism - it causes duplication by fission! That's a lot of scientific jargon for: drinking the water of the living ocean can clone the Spurrit! But it's a little more complicated than that. The Perplexplore Seasonal's psyche has been subdivided - while the established Spurrit preserves the conscious part of its personality and is in touch with reality, the new Rare Spurrit is very impulsive and distracted. It shares the love of exploration and discovery, but its homemade inventions tend to be a little chaotic and its enthusiasm can be considered… 'unbridled.'",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Spurrit.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "oasis",
         "seasonal"
@@ -12,6 +12,6 @@
         "Blabbit + Hoola"
     ],
     "breedingTime": [
-        "Breeding Time: 20 hr 18 min, Enhanced Time: 15 hr 13 min 30 sec"
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced Time: 23 hr 48 min 45 sec"
     ]
 }

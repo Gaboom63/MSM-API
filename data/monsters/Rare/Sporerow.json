@@ -1,8 +1,8 @@
 {
-    "name": "Sporerow",
-    "description": "Plucked from the Air Mythical's bird-brained imagination, the Sporerow manifested from an imaginative mist into a thumping force. This Dreamythical will 'caw to arms' fungal hangers-on dubbed Shroomites to come together in an instinctive anthem that feels almost primal. As host to many other creatures and with room to spore... ahem, spare... this generous monster is the gift that keeps on giving.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Sporerow.png?raw=true",
-    "cost": "750 Diamonds",
+    "name": "Rare Sporerow",
+    "description": "Rare Sporerow is so deeply in tune with nature, its appearance reflects the state of the biomes it embodies: in fallow fields or tainted bogs, its wooded body sits cold and hollow, while in healthy forests it is aglow from the inside out! Perhaps this is a reflection of the Air Rare Mythical's own association with the miniature ecosystem it grows on its back! Lively Rare Sporerows also attract Kodamamites, tiny spirits that only appear when in vibrant and well-cared-for environments. Fortunately, Kodamamites are a fairly common sighting, given that the Monster World is so eco-friendly!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Sporerow.png?raw=true",
+    "cost": "1100 Diamonds",
     "islands": [
         "mythical"
     ],
@@ -10,6 +10,6 @@
         "Cataliszt + Yawstrich"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 13 hr, Enhanced Time: 1 day 3 hr 45 min"
+        "Breeding Time: 1 day 22 hr 15 min, Enhanced Time: 1 day 10 hr 41 min 15 sec"
     ]
 }

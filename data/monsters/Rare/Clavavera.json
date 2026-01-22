@@ -1,8 +1,8 @@
 {
-    "name": "Clavavera",
-    "description": "The statuesque Clavavera cuts a dashing figure wherever it appears, but it's best-known for the unique effects that the sound of its special, dexterous fingers can produce. When struck together, the bright, clean tone this Clackula relative makes can cause all those in the vicinity to perceive and interact with Monster ancestors from bygone eras. The spirits, who have passed on to the 'Beat Hereafter,' recount stories of glorious songs of yore and reassure their descendants that any Monster, living or departed, can tune in to the 'heartbeat of forever' if they're only listening. The Clavavera keeps the exact nature of the Beat Hereafter mostly to itself.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Clavavera.png?raw=true",
-    "cost": "225 Diamonds",
+    "name": "Rare Clavavera",
+    "description": "Passing on to the afterlife doesn't have to be a solemn affair, especially if you celebrate the Beat Hereafter! The eminently stylish Rare Clavavera shares its Common cousin's musical ability to tap into the heartbeat of forever and allow Monsters to commune with their ancestors. Unique to the Rare, however, is a special interest in writing short, witty verses that poke light-hearted fun at those same ancestors. It's believed that not taking oneself too seriously is the secret to happiness in any lifetime, and composing these 'Clavaveras literarias' (as they're known) is an important tradition to uphold!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Clavavera.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "bone",
         "seasonal",
@@ -13,6 +13,6 @@
         "Punkleton + Schmoochle"
     ],
     "breedingTime": [
-        "Breeding Time: 22 hr 11 min, Enhanced Time: 16 hr 38 min 15 sec"
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced Time: 23 hr 48 min 45 sec"
     ]
 }

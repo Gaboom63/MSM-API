@@ -1,8 +1,8 @@
 {
-    "name": "Gobbleygourd",
-    "description": "If you hear the cheerful gobbley-gobbley-goo of the gobbley Gobbleygourd, prepare your tummy: you're about to feel stuffed! This overzealous Monster was so thrilled to find new friends moving in to Fire Haven that it seized the opportunity to finally kickstart the Seasonal Event of its dreams: Feast-Ember, a time for sharing in nature's delectable bounty. From Smunkin Pie to savory Turkey, crunchy Big Salad to toasty Bread, Gobbleygourd will see to it that you sample a healthy bite of each dish. Much like an excitable relation who's always coming up with new holiday traditions, the Gobbleygourd might seem a bit... intense in its Feast-Ember celebrations - but you can't help but play along!",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Gobbleygourd.png?raw=true",
-    "cost": "225 Diamonds",
+    "name": "Rare Gobbleygourd",
+    "description": "All Gobbleygourds are aeronautically challenged - any time you might have seen one hurtling through the air, it probably just jumped from a high height and hoped for the best. That hasn't stopped one particular rafter of Gobbleygourds from trying to improve their chances by any means possible - losing their snoods, evolving white head feathers to emulate the aquiline ideal and studying textbooks on flight dynamics. It's all wishful thinking, of course - but Rare Gobbleygourds are possessed of an indomitable will that isn't easily discouraged!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Gobbleygourd.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "haven",
         "oasis",
@@ -13,6 +13,6 @@
         "Punkleton + Yool"
     ],
     "breedingTime": [
-        "Breeding Time: 21 hr, Enhanced TIme: 15 hr 45 min"
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced TIme: 23 hr 48 min 45 sec"
     ]
 }

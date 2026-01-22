@@ -1,8 +1,9 @@
 {
-    "name": "Floogull",
-    "description": "Floogull is the paragon of nosiness. This curious critter's protracted proboscis may excel at sniffing out lost items, but it also tends to find its way into other Monsters' private affairs. Remembering not to meddle is a tough lesson every Floogull learns the hard way.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Floogull.png?raw=true",
-    "cost": "100 Relics",
+    "name": "Rare Floogull",
+    "description": "Rare Floogull posits that the most mouthwatering meal is one that belongs to someone else! This renegade Rare quietly hovers in the vicinity of feasts, brunches, and midnight snackings in order to swipe a stray morsel. When scolded, the beaked bandit is quick to make amends with an apologetic honk.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Floogull.png?raw=true",
+    "cost": "N/A",
+    "starshop": "5000 Starpower",
     "islands": [
         "haven",
         "amber"
@@ -13,6 +14,6 @@
         "Glowl + Noggin"
     ],
     "breedingTime": [ 
-        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+        "Breeding Time: 1 day 2 hr 30 min, Enhanced Time: 19 hr 52 min 30 sec"
     ]
 }

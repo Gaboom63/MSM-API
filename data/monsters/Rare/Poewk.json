@@ -1,18 +1,19 @@
 {
-    "name": "Poewk",
-    "description": "Is that the Poewk's face, or is it a mask procured from parts unknown? If it is indeed a mask... Why? Is it bashful? Cold? Ghastly to behold? Or is this Wublin simply into cosplay? That would explain a lot. The Poewk's musical performance is a mesmerizing display of frantic grace and composed frenzy.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Poewk.png?raw=true",
-    "cost": "5000 Coins",
+    "name": "Rare Poewk",
+    "description": "The debate rages on as to whether Poewk's head features a mask or a face - the Rare of the species has an equally disquieting countenance. Everything about the Rare Poewk extols a return to nature: a covering of crimson feathers, the twisting, bending pipes encircled around it, the dirt-patch it insists upon for its clawed foot-stomping performance.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Poewk.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "5 Keys",
     "islands": [
         "wublin"
     ],
     "breedingCombo": [
-        "None. Zap The Contents, And Power Up!"
+        "N/A"
     ],
     "polarity": [
-        "Negative from: Bona-Petite, Negative toward: Maulch, Positive from: Brump, Positive toward: Tympa"
+        "Negative from: Rare Bona-Petite, Negative toward: Rare Maulch, Positive from: Rare Brump, Positive toward: Rare Tympa"
     ],
     "powerUpTime": [
-        "5 days"
+        "Unlimited."
     ]
 }

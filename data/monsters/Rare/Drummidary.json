@@ -1,8 +1,8 @@
 {
-    "name": "Drummidary",
-    "description": "Even from afar, the rhythmic booms of the Drummidary can be heard. The Earth Top Boss is perfectly adapted to thrive in the harshest climates imaginable, because it's able to safeguard any supplies or food it may need in its four hump-drums. Over the course of its lifetime, the Drummidary never stops growing, and some specimens in the contemporary era have grown to considerable size - even though the Quint-Element Monster can be sentimental and hold on to keepsakes of its humble upbringing, like its training wheels. Sometimes, it'll gather other percussion Monsters around, and whirl on those same wheels to perform impressive breakdance routines, all while cranking out beastly beats!",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Drummidary.png?raw=true",
-    "cost": "Light: 500 Relics, Amber: 40 Relics",
+    "name": "Rare Drummidary",
+    "description": "Spend enough time with your BFF, and their hobbies are bound to rub off on you. That's just what happened between the rocky Rare forms of the Earth Top Boss and its Single-Element pal! The Rare Earth Elemental's architectural aspirations led to the construction of a castle-like armor encasing mighty Rare Drummidary, complete with impressive parapets, sturdy brickwork, and even a drawbridge (if you know where to look.) This friendly fortified fortress would make an ideal defence in the event of a siege, but given that Monsters live in times of peace, Rare Drummidary's drums simply act as premium hide-and-go-seek spots for young Monsterlings instead.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Drummidary.png?raw=true",
+    "cost": "N/A",
     "islands": [
         "light",
         "amber",
@@ -12,6 +12,6 @@
         "Buy From Shop"
     ],
     "breedingTime": [
-        "Breeding Time: 3 day 8 hr, Enhanced Time: 2 day 12 hr"
+        "Breeding Time: 3 day 23 hr 30 min, Enhanced Time: 2 day 23 hr 37 min 30 sec"
     ]
 }

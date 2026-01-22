@@ -1,8 +1,8 @@
 {
-    "name": "Monculus",
-    "description": "Back when the Monster World was new, the Colossals pioneered a special process called Life-Formula: the imbuement of vitalizing energies into sculptures of fantastical creatures, plucked right from the giant spirits' imaginations. In this way would the nascent reality be populated, and the Monculus was among the very first prototype Singing Monsters awakened by the so-called 'spark of life.' Fashioned from Bubblerite, the versatile building material favored most by the Colossals, its moving parts are manipulated by the rare plasmic form of Krystillium, the first-ever Crystal to be created. Initially pocket-sized, it can grow to imposing heights to sputter out its hauntingly beautiful refrain.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Monculus.png?raw=true",
-    "cost": "225 Diamonds",
+    "name": "Rare Monculus",
+    "description": "During the era when all of the Colossals were using the pocket dimension as the site of their world-building experimentation, the spirits would gather the requisite materials in jars and vases. In what can now be viewed as a humorous oversight, the same Bubblerite clay that was filling the vessels was also used to craft the vessels themselves; meaning that as the prototype Monculus was receiving the spark of life, that same energy animated the jars and vases as well! And thus, the Rare Monculus was 'born.' Coincidentally, it was also the discovery of Krystillium's ability to alter its plasmic form, which opened up a world of possibility for more advanced crystalline manipulation in the future.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Monculus.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "ethereal",
         "seasonal",
@@ -14,6 +14,6 @@
         "Zap, And Power Up!"
     ],
     "breedingTime": [
-        "Breeding Time: 20 hr 4 min, Enhanced Time: 15 hr 3 min"
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced Time: 23 hr 48 min 45 sec"
     ]
 }

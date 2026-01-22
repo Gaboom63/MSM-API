@@ -1,8 +1,9 @@
 {
-    "name": "Cantorell",
-    "description": "The Cantorell may seem to be a rather small-statured Monster to the naked eye, but beneath the soil, this fungal fiend grows a far-reaching system of mycelia capable of propagating dozens of clones! As more and more like-minded Cantorell caps emerge from the earth, they often compete for space both physical and musical. It's not uncommon to spot a Cantorell choir growing in a ring-like shape, so that each cap can feel included.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Cantorell.png?raw=true",
-    "cost": "300 Diamonds",
+    "name": "Rare Cantorell",
+    "description": "The Rare Cantorell loves love! It takes its species's yearning for closeness to the next level, growing in tight-knit choirs that sap all nutrients from the soil and leave their bodies a fleshy pink hue. The Rare Magical's craving for cuddles has even caused its mycelium tendrils to grow upwards and outwards, reaching out to others in the choir for a comforting hug. Rare Cantorell choirs can even end up so intertwined that, when seen from above, their 'rings' in fact appear heart-shaped.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Cantorell.png?raw=true",
+    "cost": "500 Diamonds",
+    "transposition": "20 Diamonds",
     "islands": [
         "faerie",
         "nexus",
@@ -14,6 +15,6 @@
         "Drumpler + Floot Fly"
     ],
     "breedingTime": [
-        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+        "Breeding Time: 1 day 1 hr 30 min, Enhanced Time: 19 hr 7 min 30 sec"
     ]
 }

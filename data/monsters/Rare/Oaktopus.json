@@ -1,18 +1,16 @@
 {
-    "name": "Oaktopus",
-    "description": "This amphibious hybrid of Plant and Water is comfortable in any environment. The Monster's 'roots' are actually powerful tentacles that carry the Oaktopus rapidly across landscapes, and propel it efficiently through water.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Oaktopus.png?raw=true",
-    "cost": "30 Diamonds",
+    "name": "Rare Oaktopus",
+    "description": "Much can be said for the Common Oaktopus' powerful tentacles, but when it comes to fine motor skills, that's where the Rares have the upper hand... literally! A pair of nimble tentilla is used to explore the world around them and groom their blond silks. Rare Oaktopi are perhaps a little too wily for their own good, and experiment with various slimes and oozes to brew potent potions.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Oaktopus.png?raw=true",
+    "cost": "40 Diamonds",
     "islands": [
         "plant",
         "cold",
         "water",
         "shugabush",
-        "colossingum",
         "gold",
         "psychic",
         "tribal",
-        "composer",
         "mirror plant",
         "mirror cold",
         "mirror water",
@@ -23,6 +21,6 @@
         "Shugabush + Oaktopus"
     ],
     "breedingTime": [
-        "Breeding Time: 8 hr, Enhanced Time: 6 hr"
+        "Breeding Time: 10 hr 30 min, Enhanced Time: 7 hr 52 min 30 sec"
     ]
 }

@@ -1,16 +1,15 @@
 {
-    "name": "Kazilleon",
-    "description": "Kazilleons aren't the greatest-smelling Monsters. For one, the toxic gas they spew when they're singing has been known to singe fur and upset appetites. To boot, the noxious fumes emanating from their color-shifting skin is sometimes harvested to help strip paint off of old buildings. The thing is, they're so friendly, everyone wants them around anyhow.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Kazilleon.png?raw=true",
-    "cost": "1250 Diamonds",
+    "name": "Rare Kazilleon",
+    "description": "The winged Rare Kazilleon differs from the Common variety in that the exhaust it emits is inoffensive, non-toxic, and smells rather like Moonjube Upside-Down Cake (with a dollop of Lillypilly Cream). These colorful fumes purportedly soothe fussy babies and can curl a fellow monster's fur or tentacles into luxurious spirals within seconds of exposure. Up for anything, this intrepid Rarethereal has seen and done everything there is to see and 'doo-wop!.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Kazilleon.png?raw=true",
+    "cost": "2000 Diamonds",
     "islands": [
         "ethereal",
-        "colossingum"
     ],
     "breedingCombo": [
         "Grumpyre + Humbug"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 18 hr, Enhanced Time: 1 day 7 hr 30 min"
+        "Breeding Time: 2 days 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
     ]
 }

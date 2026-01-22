@@ -1,8 +1,8 @@
 {
-    "name": "Osstax",
-    "description": "Not unlike other species in the Monster World, Osstax begin as disparate individuals who find each other and join together to make a whole greater than the sum of its parts. This can be a tricky process, though, as it's important for the individual beings to fit together perfectly, both physically and as a kinship group. The bottom Osstak is generally understood to be the leader and most important of the three, although there have been exceptions. The bony enamel of their exteriors, matched with the intricacy of their chambered interiors, produce a haunting wheeze that is identifiable across the entire Sanctum.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Osstax.png?raw=true",
-    "cost": "200 Diamonds",
+    "name": "Rare Osstax",
+    "description": "Osstax rarely travel long distances, as their towers tend to take a tumble and topple in transit. Instead, curious ones learn about the Monster World from the writings of their idols: the great Stone Scribes who share a similarly stoney exterior. After reading Hahoo's ancient engravings, Common Osstax are known to achieve intellectual enlightenment, transforming into Rares that mimic their mentor's intricate appearance. If only they had hands with which to write legends of their own!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Osstax.png?raw=true",
+    "cost": "300 Diamonds",
     "islands": [
         "sanctum"
     ],
@@ -10,6 +10,6 @@
         "Floot Fly + Clackula"
     ],
     "breedingTime": [
-        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+        "Breeding Time: 1 day 2 hr 30 min, Enhanced Time: 19 hr 52 min 30 sec"
     ]
 }

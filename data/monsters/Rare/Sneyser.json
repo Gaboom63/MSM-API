@@ -1,8 +1,9 @@
 {
-    "name": "Sneyser",
-    "description": "The scintillating pool located on the Sneyser's hindquarters casts an enchanting glow on the walls of its crater, but it's best to appreciate this spectacle at a distance. One sneeze from a Sneyser with hay fever, and that serene puddle will burst into an explosive geyser!",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Sneyser.png?raw=true",
-    "cost": "200 Relics",
+    "name": "Rare Sneyser",
+    "description": "Rare Sneyser's feelin' hot, hot, hot! No, really - get this Rare an Ice Pack. While these sun-loving Sneyser cousins adore baking all day long in steaming heat like an endless SummerSong, all that exposure has had some chilling effects on their physiology. Charred scales like volcanic rock, crystals flickering with pure Fire, and a once-glistening geyser now brimming with broiling magma make Rare Sneyser too hot to handle - but not too hot to love!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Sneyser.png?raw=true",
+    "cost": "750 Diamonds",
+    "starshop": "7500 Starpower",
     "islands": [
         "oasis",
         "amber"
@@ -17,6 +18,6 @@
         "Wynq + Tweedle"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 16 hr, Enhanced Time: 1 day 6 hr"
+        "Breeding Time: 2 days 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
     ]
 }

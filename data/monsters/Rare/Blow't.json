@@ -1,8 +1,9 @@
 {
-    "name": "Blow't",
-    "description": "The Quad-Elemental Blow't is filled to bursting with the unbridled power of its Elements! To relieve the immense pressure built up inside its elastic anatomy, Blow't inhales a lung-expanding breath that forces the excess energy into its prickly array of quill chambers. Here, the glorious magic of the Elements is converted into only the most mesmerizing of music before expelling a dazzling prism of lightwaves as a not-so-wasteful waste product.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Blow_t.png?raw=true",
-    "cost": "600 Diamonds",
+    "name": "Rare Blow't",
+    "description": "There's an unending debate over which of the Rare Blow't's features are the most eye-catching and identifiable. Is it the Monster's many horns, whose spiraling configuration calls to mind as many writhing snakes? Or how about that one solitary eye? When one makes eye contact with the Rare Blow't, a chilling sensation is said to ripple through the observer's body - almost like the feeling of being turned to stone! However, the reality couldn't be further from the truth - it's actually just the physical response to being endowed with the Monster's unique form of apotropaic magic. A protective charm is cast upon the receiver of the Rare Blow't's gaze, warding off bad vibes, tummy aches and rotten luck alike. So when you spy this Rare Light Boss, don't avert your eyes - walk right up with a grin and say hello!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Blow_t.png?raw=true",
+    "cost": "750 Diamonds",
+    "transposition": "40 Diamonds",
     "islands": [
         "light",
         "nexus",
@@ -14,6 +15,6 @@
         "Boskus + Gob"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 8 hr, Enhanced Time: 1 day"
+        "Breeding Time: 1 day 18 hr 30 min, Enhanced Time: 1 day 7 hr 52 min 30 sec"
     ]
 }

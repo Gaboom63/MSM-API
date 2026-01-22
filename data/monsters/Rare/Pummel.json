@@ -1,15 +1,12 @@
 {
-    "name": "Pummel",
-    "description": "Aquatic Pummels are gill-breathers. They soak themselves regularly to suck in a fresh load of Water and seal their mouths with Plant membranes. Like Noggins, Pummels are closely in tune with the Earth.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Pummel.png?raw=true",
-    "cost": "50 Diamonds",
+    "name": "Rare Pummel",
+    "description": "It's amazing what some extra appendages and fins can do! You wouldn't know it to look at it, but the Rare Pummel is exceptionally aerodynamic and uses its extra arms to perform spectacular acrobatic feats. In addition to its two dorsal fins, the tiny growths that cover its body are actually small 'drag-fins' that can open and close to help it maneuver while flipping and flopping about.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Pummel.png?raw=true",
+    "cost": "65 Diamonds",
     "islands": [
         "plant",
         "water",
-        "colossingum",
         "gold",
-        "tribal",
-        "composer",
         "mirror plant",
         "mirror water"
     ],
@@ -19,6 +16,6 @@
         "Shrubb + Toe Jammer"
     ],
     "breedingTime": [
-        "Breeding Time: 12 hr, Enhanced Time: 9 hr"
+        "Breeding Time: 15 hr 30 min, Enhanced Time: 11 hr 37 min 30 sec"
     ]
 }

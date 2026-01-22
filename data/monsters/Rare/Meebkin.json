@@ -1,16 +1,16 @@
 {
-    "name": "Meebkin",
-    "description": "The Meebkin gets its name from a greater-than-average affinity for the Meeb critters essential to the specialized processes of the Workshop. Rather than being recruited for attunement, a pair is carefully chosen to perch on either end of a special baton made of woven fibers. Deftly and gymnastically twirling the baton over its head, the Meebkin is able to coax otherworldly groans and gargles out of the mouths of Meebs, but don't worry - the critters aren't uncomfortable. Rather the opposite: the Triple-Element Ethereal is a doting and responsible caretaker.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Meebkin.png?raw=true",
-    "cost": "1600 Diamonds",
+    "name": "Rare Meebkin",
+    "description": "While delving the manifold mysteries of the multiverse, the Colossal Zarroë has been known to pluck inspiration for their experimentation from novel biomes and environs. Spelunking the Aquaslime Abyss yielded one of these strokes of insight, as the slime seemingly stared back with a set of beady, albeit adorable eyes. The spined crest and wings of the Rare Meebkin are functionally vestigial as modes of transportation in the less dense environments of the Monster World. They do however add quite a bit of dramatic flair to Rare Meebkin's baton routine.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Meebkin.png?raw=true",
+    "cost": "3100 Diamonds",
     "islands": [
         "workshop",
         "plasma"
     ],
     "breedingCombo": [
-        "Plasma Meeb + Shadow Meeb + Crystal Meeb"
+        "Breeding Time: 1 day 11 hr"
     ],
     "synthesisTime": [
-        "Success: 1 day 6 hr, Failure: 10 hr"
+        "N/A"
     ]
 }

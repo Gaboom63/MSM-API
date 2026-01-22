@@ -1,8 +1,9 @@
 {
-    "name": "Glowl",
-    "description": "A Glowl would seemingly make an excellent spy, soaring high above its flightless companions, but its fire-bright tail feathers make it easy to spot. Nevertheless, this Monster maintains a bird's eye view of the world below and is always up-to-date on the latest happenings.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Glowl.png?raw=true",
-    "cost": "50 Relics",
+    "name": "Rare Glowl",
+    "description": "All Glowl nestlings are born without their tertiary tail feathers, but it is only the Rare Glowl that must develop its own alternative illumination! For generations these Rares have flown high in the endless blue sky to be nearer to the sun's rays. After innumerable journeys, they were finally enveloped from plume to pinion in the very shades of sapphire, cyan, cerulean and seafoam found in the sky above! Bathed forever in a cool-toned light, Rare Glowls are a glowing example of the union of nature and Monsterkind.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Glowl.png?raw=true",
+    "cost": "250 Diamonds",
+    "starshop": "2500 Starpower", 
     "islands": [
         "haven",
         "oasis",
@@ -12,6 +13,6 @@
         "Tweedle + Kayna"
     ],
     "breedingTime": [
-        "Breeding Time: 10 hr, Enhanced Time: 7 hr 30 min"
+        "Breeding Time: 13 hr 30 min, Enhanced Time: 10 hr 7 min 30 sec"
     ]
 }

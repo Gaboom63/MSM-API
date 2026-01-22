@@ -1,8 +1,8 @@
 {
-    "name": "Banjaw",
-    "description": "Banjaw's principle tendon is 37 times stretchier than a Stritch Skin, 42 times tougher than a Diamond, and 100 times twangier than, well - anything! Pulling back this durable tendon allows this skeletal character to slingshot anything (or any Monster) great distances. Just beware that you don't get too close to that mighty ring of chompers on your way.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Banjaw.png?raw=true",
-    "cost": "300 Diamonds",
+    "name": "Rare Banjaw",
+    "description": "Let's put some meat on those bones, said no one ever as they beheld a Common Banjaw. But here we are! In their quest to get swole, Rare Banjaws work up ravenous appetites to bulk up and develop musculature on several of their bony bits. Even after getting the gains, the Monster's long principle tendon is just as spindly as ever, drawing comparisons to a skinny nail and earning it the nickname a tack on Titan Necrull.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Banjaw.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "bone",
         "nexus",
@@ -14,6 +14,6 @@
         "Phangler + Clackula"
     ],
     "breedingTime": [
-        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+        "Breeding Time: 1 day 1 hr, 30 min Enhanced Time: 19 hr 7 min 30s"
     ]
 }

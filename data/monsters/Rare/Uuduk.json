@@ -1,8 +1,8 @@
 {
-    "name": "Uuduk",
-    "description": "For each year of life, the Uuduk gains an extra vertebra in its slinky spine. The full height of an Uuduk, however, is hidden from view deep beneath the soil: an Uuduk never reveals its age! Wear-and-tear on its impressive blowhorns may hint at the number of birthdays this coy Monster has seen, but it just as easily could indicate how itchy it was that day.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Uuduk.png?raw=true",
-    "cost": "300 Diamonds",
+    "name": "Rare Uuduk",
+    "description": "Rare Uuduk spines stretch not into the soil, but instead worm their way through underground Pyrozite deposits. The older this Rare Magical gets, the longer it grows, and the more geodes become encrusted upon its back and within its durable blowhorns. After forcing itself through years of salt crystals the size of Quarristers, Rare Uuduk now tastes a salty breeze with each note it plays.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Uuduk.png?raw=true",
+    "cost": "500 Diamonds",
     "islands": [
         "bone",
         "nexus",
@@ -14,6 +14,6 @@
         "Stogg + Clackula"
     ],
     "breedingTime": [
-        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+        "Breeding Time: 1 day 1 hr 30 min, Enhanced Time: 19 hr 7 min 30 sec"
     ]
 }

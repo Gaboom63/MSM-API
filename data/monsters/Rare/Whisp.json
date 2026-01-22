@@ -1,8 +1,8 @@
 {
-    "name": "Whisp",
-    "description": "Even though it may look like the Whisp doesn't get out too often, nothing could be further from the truth. It loves to swoop, glide and careen through the phantasmagorical terrain of Ethereal Island, entertaining other Monsters with its mellifluous voice and charming conversational skills. Whisps don't cast reflections in mirrors, which makes it difficult to preen their stylish hairdos.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Whisp.png?raw=true",
-    "cost": "1250 Diamonds",
+    "name": "Rare Whisp",
+    "description": "Most Monsters would trade an arm and a leg for a chance to improve their performance skills... the Rare Whisp seems to have done the opposite and grown some! Or maybe all Whisps have limbs tucked under their flowing, dress-like bodies and only the Rares choose to let it all hang out? Either way, these Rarethereals are convinced their elongated bodies give their singing range a boost... but in truth, their Common cousins seem just as talented.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Whisp.png?raw=true",
+    "cost": "2000 Diamonds",
     "islands": [
         "ethereal",
         "colossingum",
@@ -12,6 +12,6 @@
         "Ghazt + Grumpyre"
     ],
     "breedingTime": [
-        "Breeding Time: Ethereal: 1 day 18 hr, Islets: 20 hr, Enhanced Time: 1 day 7 hr 30 min"
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced: 1 day 15 hr 22 min 30 sec"
     ]
 }

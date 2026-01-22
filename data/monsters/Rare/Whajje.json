@@ -1,18 +1,19 @@
 {
-    "name": "Whajje",
-    "description": "For a Wublin, the Whajje is almost... dainty. Named for its distinctive 'Whajje-Whajje' cry, it can most often be found standing on tippy-toes so that its song rings out above the heads of other Monsters. Whajjes scrupulously preen their feathers to create a sort of dish to amplify the sound of their voices. Other Supernaturals are always daring it to join their capers, but the Whajje is better-behaved than most - a trait for which it cryptically credits its furry feet.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Whajje.png?raw=true",
-    "cost": "20000 Coins",
+    "name": "Rare Whajje",
+    "description": "Inspired by frequent contact with a certain bubble-blowing Seasonal, the Rare one of this Wublin has been reimagined in that Monster's partial likeness. Lagomorph ears and a white and purple striped torso evoke the pre-eminent detective who was instrumental in revealing Electricity's landmark island in the first place - Whajje think about that?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Whajje.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "10 Keys",
     "islands": [
         "wublin"
     ],
     "breedingCombo": [
-        "None. Zap The Contents, And Power Up!"
+        "N/A"
     ],
     "polarity": [
-        "Negative from: Zynth, Negative toward: Pixolotl, Positive from: Dwumrohl, Positive toward: Creepscule"
+        "Negative from: Rare Zynth, Negative toward: Rare Pixolotl, Positive from: Rare Dwumrohl, Positive toward: Rare Creepscule"
     ],
     "powerUpTime": [
-        "10 Days"
+        "Unlimited."
     ]
 }

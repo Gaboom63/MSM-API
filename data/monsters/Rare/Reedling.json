@@ -1,16 +1,13 @@
 {
-    "name": "Reedling",
-    "description": "Reedlings live and breathe music - literally. Somewhere in their evolution they forgot how to breathe through mouths and noses, so they developed flute-like breathing spines. Reedlings sometimes release the odd toot in their sleep.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Reedling.png?raw=true",
-    "cost": "50 Diamonds",
+    "name": "Rare Reedling",
+    "description": "Stubby horns and buckteeth aside, Rare Reedlings are mostly known for their impatience and not being the greatest listeners. Of course, that may have something to do with the fact that they have an extra set of breathing spines in place of ears. To communicate with it, this stubborn subspecies insists that other Monsters pipe musical messages directly into its ear-spines, believing that if something is worth saying, it's worth taking the time to translate.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Reedling.png?raw=true",
+    "cost": "65 Diamonds",
     "islands": [
         "water",
         "earth",
-        "colossingum",
         "gold",
         "haven",
-        "tribal",
-        "composer",
         "mirror water",
         "mirror earth"
     ],
@@ -20,6 +17,6 @@
         "Shrubb + Tweedle"
     ],
     "breedingTime": [
-        "Breeding Time: 12 hr, Enhanced Time: 9 hr"
+        "Breeding Time: 15 hr 30 min, Enhanced Time: 11 hr 37 min 30 sec"
     ]
 }

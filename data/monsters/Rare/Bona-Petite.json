@@ -1,8 +1,9 @@
 {
-    "name": "Bona-Petite",
-    "description": "Some musicians tickle the ivories, but the Bona-Petite prefers tickling the ribs. Or perhaps 'having its ribs tickled' is more accurate, depending on which of these two percussionists we're talking about here. Truth is, each is symbiotically connected to the other and equally responsible for delivering punchy kick patterns peppered with a little bottom-end bulk. The duo consists of two Monsters, amiably dubbed 'Bona' and 'Petite' by their Wublin pals. The smaller Petite puts the 'riff' in 'midriff,' while the larger Bona grumbles endlessly about indigestion.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Bona-Petite.png?raw=true",
-    "cost": "20000 Coins",
+    "name": "Rare Bona-Petite",
+    "description": "'Family' can be a little overwhelming at the best of times, but the duo of Bona and Petite never even get a chance at personal space! The same is true of their fluorescently colored Rare counterparts, who appear gaunt and underfed even after gorging themselves and haranguing each other at every harvest banquet... but they're wise enough never to take each other for granted, and to settle their snits promptly.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Bona-Petite.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "10 Keys",
     "islands": [
         "wublin"
     ],
@@ -10,9 +11,9 @@
         "None. Zap The Contents, And Power Up!"
     ],
     "polarity": [
-        "Negative from: Creepuscule, Negative Toward: Poewk, Positive From: Zuuker, Positive Toward: Astropod"
+        "Negative from: Rare Creepuscule, Negative Toward: Rare Poewk, Positive From: Rare Zuuker, Positive Toward: Rare Astropod"
     ],
     "powerUpTime": [
-        "10 Days"
+        "Unlimited."
     ]
 }

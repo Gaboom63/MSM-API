@@ -1,8 +1,9 @@
 {
-    "name": "Flum Ox",
-    "description": "A great deal of study has gone into understanding how the branched horns of the Flum Ox can bend and flex, seemingly at the Monster's whim. The tines at their tips are solid and sturdy to the touch, but for a moment later, can be observed forming a variety of gestures. Could it be that this Fire Quad's ability to achieve a state of rhythmic bliss is responsible for this phenomenon? Or perhaps it's its deep communion with its Elements, and which additionally allows it to levitate? The mystery endures, but no one could ever argue that being around a Flum Ox is a serene experience, indeed.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Flum%20Ox.png?raw=true",
-    "cost": "Bone: 300 Relics, Amber: 30 Relics",
+    "name": "Rare Flum Ox",
+    "description": "Venturing into colder climates than their Common cousins, Rare Flum Oxen sport striped, shaggy coats. But what happens when the Quad's normally pliant horns are exposed to extreme cold? They bend and snap! This doesn't appear to harm the Monster in any way, thankfully, but it does expose the secret to the species' ability to reshape its horns at will! A phosphorescent compound (not unlike the acid in muscles) courses through them and initiates a chemical reaction that forms the various gestures for which the Monster is known. ",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Flum%20Ox.png?raw=true",
+    "cost": "N/A",
+    "starshop": "10000 Starpower", 
     "islands": [
         "bone",
         "amber",
@@ -12,6 +13,6 @@
         "Buy From Shop"
     ],
     "breedingTime": [
-        "Breeding Time: 1 day 16 hr, Enhanced Time: 1 day 6 hr"
+        "Breeding Time: 2 day 4 hr 30 sec, Enhanced Time: 1 day 15 hr 22 min 30 sec"
     ]
 }
