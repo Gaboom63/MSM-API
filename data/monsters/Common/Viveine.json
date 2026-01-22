@@ -3,6 +3,7 @@
     "description": "The Viveine is a warm and caring soul with the ability to commune with all creatures, big and small - but it's no secret that its favorites are the critters that populate the diverse ecosystems of the Monster World. This Seasonal Monster has a particular soft spot for Wingalings, the protomorphic Mon-drakes that make their homes among the copses of Green Trees. Despite its gentle disposition, it is fiercely protective of the natural world, and will go to great lengths to preserve it. The gentle, rhythmic rustling of its branches attracts all manner of critters to settle in and keep the Viveine company - although the constant movement has a tendency to kick up pollen and activate Seasonal allergies.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Viveine.png?raw=true",
     "cost": "225 Diamonds",
+    "shugabushCost": "225 Diamonds",
     "islands": [
         "shugabush",
         "seasonal",

@@ -3,6 +3,7 @@
     "description": "Rare Deedges are so handy! They've got a knack for invention, and relish every opportunity to take something apart and put it back together again in a completely different way. Miraculously, the objects they recraft still work, even after reassembly! Such is the case with their state-of-the-art gilded amp sets, which blast out beats just as well as Common Deedges' regular ice(boom)boxes. Just goes to show that there's more than one way to skin a Stritch.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Deedge.png?raw=true",
     "cost": "200 Diamonds",
+    "shugabushCost": "875 Diamonds",
     "starshop": "5000 Starpower, Shugabush: 10000 Starpower",
     "islands": [
         "cold",

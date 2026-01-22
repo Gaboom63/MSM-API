@@ -3,6 +3,7 @@
     "description": "Potbellies are all Plant, and grow like weeds. They are welcome participants in the chorus, so long as they wear their pots and refrain from invading others' space.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Potbelly.png?raw=true",
     "cost": "250 Coins",
+    "shugabushCost": "250 Diamonds",
     "islands": [
         "plant",
         "cold",

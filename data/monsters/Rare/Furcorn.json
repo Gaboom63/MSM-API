@@ -3,6 +3,7 @@
     "description": "The rare fuchsia color phase of the Furcorn is truly a sight to behold. Like the more common green Plant-Cold hybrid, its silky pelt is cold to the touch, but not unpleasantly so - sort of like the cold side of a pillow! Unique to the Rare Furcorn, however, is the exotic flower that tips its headstalk - its shape evokes a lovely little bow.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Furcorn.png?raw=true",
     "cost": "40 Diamonds",
+    "shugabushCost": "375 Diamonds",
     "islands": [
         "plant",
         "cold",

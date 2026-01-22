@@ -3,6 +3,7 @@
     "description": "Every organism has its place in the ecosystem, but you can't deny that some of them could be classified as unlovely - the creepy-crawly, the many-legged, and the like. This doesn't make them any less worthy of care or affection, though, and that's where the Rare Viveine sidles in. Accompanied by the faithful indigo Wingaling, this Seasonal gathers all unconventionally cute critters to its side and hosts little 'show-and-tell' soirées for other Monsters to get up close and personal with them. In this way, the Rare Viveine hopes to make Monsters comfortable with all forms of life and expand their appreciation for the natural world all around them.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Viveine.png?raw=true",
     "cost": "500 Diamonds",
+    "shugabushCost": "500 Diamonds",
     "islands": [
         "shugabush",
         "seasonal",

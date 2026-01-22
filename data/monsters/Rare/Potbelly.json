@@ -3,6 +3,7 @@
     "description": "Can you spot the Rare Potbelly?... No seriously, those weights are pretty heavy, and it needs a spotter. This Monster is focused on self-improvement wherever possible, which sets it apart from the garden variety that's more than happy to remain languid and pudgy. Maintaining its six-pack and getting regular braces adjustments are of the utmost priority. Because of its fixation on fitness, the Rare Potbelly is hard-pressed to stay in one place for too long, but if you plant the idea in their multiple heads that it can exercise on your islands as much as it wants, it will stick around.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Potbelly.png?raw=true",
     "cost": "75 Diamonds",
+    "shugabushPrice": "325 Diamonds",
     "islands": [
         "plant",
         "cold",

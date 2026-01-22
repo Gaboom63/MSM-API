@@ -3,6 +3,7 @@
     "description": "This amphibious hybrid of Plant and Water is comfortable in any environment. The Monster's 'roots' are actually powerful tentacles that carry the Oaktopus rapidly across landscapes, and propel it efficiently through water.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Oaktopus.png?raw=true",
     "cost": "30 Diamonds",
+    "shugabushCost": "300 Diamonds",
     "islands": [
         "plant",
         "cold",
