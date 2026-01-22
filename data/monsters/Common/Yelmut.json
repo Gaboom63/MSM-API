@@ -3,6 +3,7 @@
     "description": "Don't let the diminutive size of the Yelmut fool you - it's a Quad-Element Monster and has the pipes to prove it. That said, the Monster often takes full advantage of its pint-sized stature and gelatinous body to squeeze through cracks and crevices you would never expect it to fit through. The only thing that Yelmut has to be mindful of is not attempting to squeeze through any space in which its decorative headgear may get stuck - don't you dare call it a hat, now! Still a touchy subject.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Yelmut.png?raw=true",
     "cost": "300 Relics",
+    "amberCost": "30 Relics",
     "islands": [
         "light",
         "amber",

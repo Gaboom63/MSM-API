@@ -3,6 +3,7 @@
     "description": "Instead of saliva, the Rare Incisaur actually produces an unexpectedly potent venom that helps to break down its Treats before devouring them whole. Fortunately, if it's accidentally ingested by another Monster, the most severe side-effect is hiccups. Still - out of an abundance of caution, this Fire Rare flares out a hooded neck frill to warn others, especially when it wants to play fetch with a stick and its slobber invariably gets everywhere. We're glad it's not extinct!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Incisaur.png?raw=true",
     "cost": "300 Relics",
+    "starshop": "10000 Starpower",
     "islands": [
         "bone",
         "amber",

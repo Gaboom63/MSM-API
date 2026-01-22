@@ -3,6 +3,7 @@
     "description": "The strong amalgam of five precious Elements is what creates the fierce flame shining elegantly atop Candelavra's opulent frame. In particular, the blue flame signet set in the forehead of the Fire Top Boss represents the figurative 'complete combustion' of this Monster's indomitable spirit. If ever a Monster feels adrift in the vast macrocosm of the Monster World, it need only gaze upon the horizons for the warm flame of Candelavra, and let it be the shining beacon that guides them to their destination, wherever that may be.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Candelavra.png?raw=true",
     "cost": "500 Relics",
+    "amberCost": "40 Relics",
     "islands": [
         "haven",
         "amber"

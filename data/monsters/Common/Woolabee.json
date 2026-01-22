@@ -3,6 +3,7 @@
     "description": "Woolabees are never alone - and that's just how they like it! This pile of fluff forms a close-knit posse with its plumed pals from its early days as a lambkin. Though they provide constant companionship, these tropical birds are also prone to leaving birdseed in the woolen tufts of their unsuspecting host.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Woolabee.png?raw=true",
     "cost": "100 Relics",
+    "amberCost": "20 Relics",
     "islands": [
         "oasis",
         "amber"

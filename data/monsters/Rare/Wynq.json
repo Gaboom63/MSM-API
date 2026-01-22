@@ -3,6 +3,7 @@
     "description": "Well I say! Rare Wynq is a dashing Monster indeed, boldly sporting its finely-groomed fluffstache and distinguished bouffante at every gala this socialite graciously graces. Its appearance befits the Rare's aristocratic status: it is universally respected and revered by its peers for its poise, sophistication, and regal refinement. It's simply good breeding!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Wynq.png?raw=true",
     "cost": "500 Diamonds",
+    "starshop": "5000 Starpower",
     "islands": [
         "oasis",
         "amber"

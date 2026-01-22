@@ -3,6 +3,7 @@
     "description": "Floogull is the paragon of nosiness. This curious critter's protracted proboscis may excel at sniffing out lost items, but it also tends to find its way into other Monsters' private affairs. Remembering not to meddle is a tough lesson every Floogull learns the hard way.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Floogull.png?raw=true",
     "cost": "100 Relics",
+    "amberCost": "20 Relics",
     "islands": [
         "haven",
         "amber"

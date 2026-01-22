@@ -2,7 +2,7 @@
     "name": "Rare Floogull",
     "description": "Rare Floogull posits that the most mouthwatering meal is one that belongs to someone else! This renegade Rare quietly hovers in the vicinity of feasts, brunches, and midnight snackings in order to swipe a stray morsel. When scolded, the beaked bandit is quick to make amends with an apologetic honk.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Floogull.png?raw=true",
-    "cost": "N/A",
+    "cost": "500 Diamonds",
     "starshop": "5000 Starpower",
     "islands": [
         "haven",

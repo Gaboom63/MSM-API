@@ -3,6 +3,7 @@
     "description": "Rootitoots are natural-born hosts, blessing many a soirée with a knack for storytelling, an enviable wit, and general zest for life. A Rootitoot's dinner party traditionally offers as many dishes as it can carry upon its tubular vents, doubled. But don't overburden this Monster... oh, great... you had to have the Biiiiig Salad!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rootitoot.png?raw=true",
     "cost": "100 Relics",
+    "amberCost": "20 Relics",
     "islands": [
         "psychic",
         "amber",

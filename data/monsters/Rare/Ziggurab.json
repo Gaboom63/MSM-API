@@ -3,6 +3,7 @@
     "description": "Sponge? Cake? Sponge Cake! The Rare 'tier' of the Ziggurab family is well-versed in tending the home thanks to its inherent knack for both cooking and cleaning. Whether it's scouring countertops 'til they're sparkling clean, or scouring the Monster World Wide Web for delectable new recipes (as any arachnoid worth its webbing would do), you can rest easy knowing that your abode is in good claws when there's a Rare Ziggurab around.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Ziggurab.png?raw=true",
     "cost": "500 Diamonds",
+    "starshop": "5000 Starpower",
     "islands": [
         "faerie",
         "amber",

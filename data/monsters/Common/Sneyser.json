@@ -3,6 +3,7 @@
     "description": "The scintillating pool located on the Sneyser's hindquarters casts an enchanting glow on the walls of its crater, but it's best to appreciate this spectacle at a distance. One sneeze from a Sneyser with hay fever, and that serene puddle will burst into an explosive geyser!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Sneyser.png?raw=true",
     "cost": "200 Relics",
+    "amberCost": "30 Relics",
     "islands": [
         "oasis",
         "amber"
