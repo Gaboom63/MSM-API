@@ -1,0 +1,19 @@
+{
+    "name": "Rare Floogull",
+    "description": "Rare Floogull posits that the most mouthwatering meal is one that belongs to someone else! This renegade Rare quietly hovers in the vicinity of feasts, brunches, and midnight snackings in order to swipe a stray morsel. When scolded, the beaked bandit is quick to make amends with an apologetic honk.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Floogull.png?raw=true",
+    "cost": "500 Diamonds",
+    "starshop": "5000 Starpower",
+    "islands": [
+        "haven",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Cybop + Kayna",
+        "Stogg + Tweedle",
+        "Glowl + Noggin"
+    ],
+    "breedingTime": [ 
+        "Breeding Time: 1 day 2 hr 30 min, Enhanced Time: 19 hr 52 min 30 sec"
+    ]
+}

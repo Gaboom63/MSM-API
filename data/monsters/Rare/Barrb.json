@@ -1,0 +1,19 @@
+{
+    "name": "Rare Barrb",
+    "description": "It is well-documented in tomes of Monster botany that the Common Barrb's neck foliage blooms only in the night; but what happens when a Barrb is never exposed to direct sunlight? It blooms uncontrollably! Rare Barrbs have adapted to subterranean living by undergoing umbrasynthesis: the process of converting raw darkness into valuable nutrients. Who would have guessed a life underground would produce such bright blossoms?.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Barrb.png?raw=true",
+    "cost": "5000 Diamonds",
+    "starshop": "5000 Starpower",
+    "islands": [
+        "haven",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Dandidoo + Kayna",
+        "Flowah + Tweedle",
+        "Glowl + Potbelly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 20 hr, Enhanced Time: 15 hr"
+    ]
+}

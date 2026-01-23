@@ -1,0 +1,19 @@
+{
+    "name": "Rare Creepuscule",
+    "description": "Rare Creepuscule ups the wig game of its Common counterpart, flaunting a red yarn hairpiece that complements its green scaly skin. From a distance, one might say that this Rare Wublin resembles a juicy tropical fruit - only upon closer examination do its rows of teeth and ossified drum negate the prior observation.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Creepuscule.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "7 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative from: Gheegur, Negative toward: Bona-Petite, Positive form: Whajje, Positive toward: Screemu"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

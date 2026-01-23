@@ -1,0 +1,33 @@
+{
+    "name": "Rare Noggin",
+    "description": "After scouring the Monster World for what felt like forever, the Rare Noggin has been unearthed. Not satisfied with a simple existence as a musical rock, this capricious creature reinvented itself as the building block of an exotic edifice. Because of their limited maneuverability, it's unclear whether a group of Rare Noggins could ever actually cooperate to build anything... perhaps a more down-to-Earth goal would be to just keep the rhythm for its fellow Monsters.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Noggin.png?raw=true",
+    "cost": "75 Diamonds",
+    "islands": [
+        "plant",
+        "air",
+        "water",
+        "earth",
+        "gold",
+        "haven",
+        "faerie",
+        "bone",
+        "composer",
+        "mirror plant",
+        "mirror air",
+        "mirror water",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Plant: Entbrat",
+        "Air: Riff + Noggin",
+        "Water: Shellbeat + Noggin",
+        "Earth: Quarrister + Noggin",
+        "Haven: Tring + Noggin",
+        "Pladdie + Noggin",
+        "Plinkajou + Noggin"
+    ],
+    "breedingTime": [
+        "Breeding Time: 6 hr, Enhanced Time: 4 hour 30 min"
+    ]
+}

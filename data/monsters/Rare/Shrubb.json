@@ -1,0 +1,22 @@
+{
+    "name": "Rare Shrubb",
+    "description": "The blue back-turf of this creature is specially-adapted to absorb energy in both sunny and low-light environments. Rare Shrubbs devote their bountiful stamina not only to their ceaseless saliva-spraying, but also to the growth of gnarly vine-dreads that drape over their faces and head.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Shrubb.png?raw=true",
+    "cost": "40 Diamonds",
+    "islands": [
+        "plant",
+        "water",
+        "earth",
+        "gold",
+        "haven",
+        "mirror plant",
+        "mirror water",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Potbelly + Noggin"
+    ],
+    "breedingTime": [
+        "Breeding Time: 10 hr 30 min, Enhanced Time: 7 hr 52 min 30 sec"
+    ]
+}

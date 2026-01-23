@@ -1,0 +1,17 @@
+{
+    "name": "Rare Jellbilly",
+    "description": "Imagine the surprise of Cybop admirers everywhere when the Rare Jellbilly first appeared! This Monster's sensorial 'stachacles' grow above two beady eyes, instead of below just one, producing an altogether different vibe. In turn, Cybops scampered to update their own look, but the Rarethereal was quick to dissuade them, insisting that it's best to stay true to oneself. Wise words for Monsters of all Elements and Classes.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Jellbilly.png?raw=true",
+    "etherealCost": "2000 Diamonds",
+    "plasmaCost": "2500 Diamonds",
+    "islands": [
+        "ethereal",
+        "plasma"
+    ],
+    "breedingCombo": [
+        "Ghazt + Humbug"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 days 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
+    ]
+}

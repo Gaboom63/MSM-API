@@ -1,0 +1,18 @@
+{
+    "name": "Rare Poppette",
+    "description": "Popp-ular...you're gonna be popp-ular! In Poppette society, the more bubbles you have, the greater social standing. Some Poppettes long so deeply for popp-ularity, they turn to desperate measures: self-experimentation! After much splicing, swabbing and sampling, Rare Poppettes have discovered a method to artificially stimulate accelerated bubble growth. This unsightly practice is generally frowned upon, particularly in the world of Competitive Bubble-Bopping, but it does not stop Rare Poppettes from being welcomed into the coveted social circles they have eyed for so long.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Poppette.png?raw=true",
+    "cost": "250 Diamonds",
+    "islands": [
+        "psychic",
+        "nexus",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Toe Jammer + Theremind"
+    ],
+    "breedingTime": [
+        "Breeding Time: 12 hr 30 min, Enhanced Time: 9 hr 22 min 30 sec"
+    ],
+    "orbTime": "1 day 6 hr 30 min",
+}

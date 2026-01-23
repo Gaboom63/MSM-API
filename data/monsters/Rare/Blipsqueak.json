@@ -1,0 +1,19 @@
+{
+    "name": "Rare Blipsqueak",
+    "description": "While the Common Blipsqueak presents a balanced offering of organic eyes and toes, and robotic ears and nose, its gold-plated Rare variant leans completely into the world of mechanical automata. While those eyes may look biological, they are in fact fully synthetic, complementing its suite of retrofuturistic body parts from the kingdom of Mait-Land's illustrious history.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Blipsqueak.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "5 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative Form: Rare Tympa, Negative Toward: Rare Brump, Positive Form: Rare Screemu, Positive Toward: Rare Scargo"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

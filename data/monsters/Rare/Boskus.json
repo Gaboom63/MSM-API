@@ -1,0 +1,21 @@
+{
+    "name": "Rare Boskus",
+    "description": "Rare Boskus has an ambitious entrepreneurial spirit and a brain always bubbling up with new ideas. This bright Rare firmly believes in putting its best hoof forward - especially during its pitches to other Monsters! To look its best, Rare Boskus regularly pampers itself with a flashy nosey-pedi. Its manicured nasal digit looks particularly striking when it's turning the pages of its jam-packed notepad, or pointing out the key features in its latest presentation.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Boskus.png?raw=true",
+    "cost": "250 diamonds",
+    "starshop": "2500 Starpower",
+    "islands": [
+        "oasis",
+        "light",
+        "faerie",
+        "amber",
+        "mirror light",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Mammott + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 13 hr 30 min, Enhanced Time: 10 hr 7 min 30 sec"
+    ]
+}

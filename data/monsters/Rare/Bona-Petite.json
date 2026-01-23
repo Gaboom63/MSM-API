@@ -1,0 +1,19 @@
+{
+    "name": "Rare Bona-Petite",
+    "description": "'Family' can be a little overwhelming at the best of times, but the duo of Bona and Petite never even get a chance at personal space! The same is true of their fluorescently colored Rare counterparts, who appear gaunt and underfed even after gorging themselves and haranguing each other at every harvest banquet... but they're wise enough never to take each other for granted, and to settle their snits promptly.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Bona-Petite.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "10 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative from: Rare Creepuscule, Negative Toward: Rare Poewk, Positive From: Rare Zuuker, Positive Toward: Rare Astropod"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

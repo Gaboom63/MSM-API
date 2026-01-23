@@ -1,0 +1,21 @@
+{
+    "name": "Rare T-Rox",
+    "description": "Hold on to your toes... the Rare T-Rox has survived. Previously believed to have disappeared ages ago, it resurfaced when a primordial goop was spilled onto a clutch of eggs. The purpose of its stubby forelimbs has been hotly debated, but clapping along can be safely ruled out. Nonetheless, this Rare is possessed of an indomitable spirit and always innovates shrewd beats with its reinforced jaws and paws. Clever Monster.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare T-Rox.png?raw=true",
+    "cost": "65 Diamonds",
+    "islands": [
+        "plant",
+        "air",
+        "gold",
+        "mirror plant",
+        "mirror air"
+    ],
+    "breedingCombo": [
+        "Maw + Noggin",
+        "Drumpler + Toe Jammer",
+        "Fwog + Mammott"
+    ],
+    "breedingTime": [
+        "Breeding Time: 10 hr 30 min, Enhanced Time: 7 hr 52 min 30 sec"
+    ]
+}

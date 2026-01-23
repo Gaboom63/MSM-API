@@ -3,6 +3,8 @@
     "description": "This tiny, delicate creature maintains a steady internal temperature by fluffing or flattening its silky green pelt. Furcorns are special. Protect them.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Furcorn.png?raw=true",
     "cost": "30 Diamonds",
+    "shugabushCost": "300 Diamonds",
+    "colossingumCost": "35 Diamonds",
     "islands": [
         "plant",
         "cold",

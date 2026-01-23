@@ -1,0 +1,19 @@
+{
+    "name": "Rare Whisp",
+    "description": "Most Monsters would trade an arm and a leg for a chance to improve their performance skills... the Rare Whisp seems to have done the opposite and grown some! Or maybe all Whisps have limbs tucked under their flowing, dress-like bodies and only the Rares choose to let it all hang out? Either way, these Rarethereals are convinced their elongated bodies give their singing range a boost... but in truth, their Common cousins seem just as talented.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Whisp.png?raw=true",
+    "etherealCost": "2000 Diamonds",
+    "plasmaCost": "2500 Diamonds",
+    "shadowCost": "2500 Diamonds",
+    "islands": [
+        "ethereal",
+        "colossingum",
+        "plasma"
+    ],
+    "breedingCombo": [
+        "Ghazt + Grumpyre"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced: 1 day 15 hr 22 min 30 sec"
+    ]
+}

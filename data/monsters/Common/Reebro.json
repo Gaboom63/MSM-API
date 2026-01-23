@@ -3,6 +3,9 @@
     "description": "Of all the creatures known in the multiverse, the Reebro is right up there with the strangest. Little more than an oversized brain to begin with, this Ethereal beast develops a mechanical body using its instinctual technological know-how. The Reebro, or simply 'Bro' as it is affectionately called by its fellow Monsters, is a laid-back character who lives for fun and has the scoop on all the latest trends. It's always willing to assist others with their 'Mech'-nical difficulties - even if its go-to solution is to 'turn it off and then turn it on again.'",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Reebro.png?raw=true",
     "cost": "1000 Diamonds",
+    "etherealCost": "1500 Diamonds",
+    "mechCost": "1000 Diamonds",
+    "colossingumCost": "1050 Diamonds",
     "islands": [
         "air",
         "colossingum",

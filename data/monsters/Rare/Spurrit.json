@@ -1,0 +1,18 @@
+{
+    "name": "Rare Spurrit",
+    "description": "Research concludes that hydration with Monstroactive fluids has side effects other than longevity and edentulism - it causes duplication by fission! That's a lot of scientific jargon for: drinking the water of the living ocean can clone the Spurrit! But it's a little more complicated than that. The Perplexplore Seasonal's psyche has been subdivided - while the established Spurrit preserves the conscious part of its personality and is in touch with reality, the new Rare Spurrit is very impulsive and distracted. It shares the love of exploration and discovery, but its homemade inventions tend to be a little chaotic and its enthusiasm can be considered… 'unbridled.'",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Spurrit.png?raw=true",
+    "cost": "500 Diamonds",
+    "shantyPrice": "625 Diamonds",
+    "islands": [
+        "oasis",
+        "seasonal"
+    ],
+    "breedingCombo": [
+        "Wynq + Maw",
+        "Blabbit + Hoola"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced Time: 23 hr 48 min 45 sec"
+    ]
+}

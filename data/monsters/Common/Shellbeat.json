@@ -3,6 +3,7 @@
     "description": "Shellbeats are naturally shy and like to keep hidden away in their shells. When they are woken up by their neighbors' loud singing they tend to loosen up, come out of their shell, and play along as best they can with their aquatic drum set. Shellbeats have gotten pretty good at playing lately.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Shellbeat.png?raw=true",
     "cost": "150 Diamonds",
+    "colossingumCost": "165 Diamonds",
     "islands": [
         "water",
         "colossingum",

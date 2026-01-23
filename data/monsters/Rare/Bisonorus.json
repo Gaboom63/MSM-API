@@ -1,0 +1,18 @@
+{
+    "name": "Rare Bisonorus",
+    "description": "Some nasty rumors persist that the Rare Bisonorus (both its Standard and Emperor forms) is the product of genetic experimentation, instead of progressive evolution... but not so! It's true that this Fire Rare is abnormally strong and virtually indestructible, but those are traits that have been selected for over the course of many generations. The 'further'-ed Standard sports a hefty tail that aids its balance as it rocks the antlered Emperor on its head - their one true place is with each other, and they ardently believe in the concept of family.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Bisonorus.png?raw=true",
+    "cost": "N/A",
+    "starshop": "10000 Starpower",
+    "islands": [
+        "psychic",
+        "amber",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Buy From Starshop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
+    ]
+}

@@ -3,6 +3,7 @@
     "description": "Noggins are basically musical rocks. Deeply in tune with the earth, their simple rhythms echo an island's pulse. The sensation of reverberation produced by a Noggin motivates all other Monsters.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Noggin.png?raw=true",
     "cost": "300 Coins",
+    "colossingumCost": "25 Diamonds",
     "islands": [
         "plant",
         "air",

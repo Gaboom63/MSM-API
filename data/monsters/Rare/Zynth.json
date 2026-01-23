@@ -1,0 +1,19 @@
+{
+    "name": "Rare Zynth",
+    "description": "The tusked Rare Zynth is sometimes considered a pest, owing to its penchant for digging up crops and using the energy from its glowing abdomen to dissolve them into a nutritious goo for later consumption. It's not ill-intentioned - it was just designed that way. A word of advice from the Monster-Handlers: keep these creatures away from farms.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Zynth.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "3 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative from: Rare Astropod, Negative toward: Rare Whajje, Positive from: Rare Gheegur, Positive toward: Rare Dermit"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

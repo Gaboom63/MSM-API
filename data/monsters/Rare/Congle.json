@@ -1,0 +1,25 @@
+{
+    "name": "Rare Congle",
+    "description": "More so than any other Rare discovered to date, the Rare Congle is stupefyingly different from its Common counterpart. Though this Monster is hatched from the same egg, gone are the familiar eye-stalks, substituted for a great pompadour of fur and horned brows. And it's still unknown whether those are wings or just enormous ears.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Congle.png?raw=true",
+    "cost": "50 Diamonds",
+    "islands": [
+        "cold",
+        "air",
+        "colossingum",
+        "gold",
+        "oasis",
+        "tribal",
+        "composer",
+        "mirror cold",
+        "mirror air"
+    ],
+    "breedingCombo": [
+        "Maw + Tweedle",
+        "Pango + Toe Jammer",
+        "Quibble + Mammott"
+    ],
+    "breedingTime": [
+        "Breeding Time: 15 hr 30 min, Enhanced Time: 11 hr 37 min 30 sec"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Rare Cataliszt",
+    "description": "When the dreamspace was first formed by its whimsical architect, Dream Crafter, it existed as a vast and empty plain [sic] waiting to be filled with energy and imagination. Beyond Dream Crafter themself, there was but one other lifeform strumming in solitude on the newly formed Mythical Island, and their loneliness could only be heard in every plucked note. Unable to bear such a sad sight, Dream Crafter hastily shaped a companion for the lone Monster - and this was Rare Cataliszt born! Rare Cataliszt's velvety skin enables it to manifest the softest and sweetest figments of the imagination, in spite of its somewhat malefic appearance.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Cataliszt.png?raw=true",
+    "mythicalCost": "500 Diamonds",
+    "islands": [
+        "mythical"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 11 hr 15 min, Enhanced Time: 8 hr 26 min 15 sec"
+    ]
+}

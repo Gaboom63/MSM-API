@@ -1,0 +1,21 @@
+{
+    "name": "Rare Phangler",
+    "description": "Long ago, when Phanglers were too fearful to venture to the surface of the living ocean, a small school would gaze longingly up at the glimmering sunset each evening as it sparkled on the waves. These Phanglers yearned for the warm embrace of sunshine on their scales so dearly that they grew hand-like fins to reach up to the sun itself! These sunkissed sea creatures became known as Rare Phanglers and today can be distinguished by their warm hue and lanky arms.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Phangler.png?raw=true",
+    "cost": "250 Diamonds",
+    "starshop": "2500 Starpower",
+    "islands": [
+        "oasis",
+        "psychic",
+        "bone",
+        "amber",
+        "mirror psychic",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Toe Jammer + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 10 hr, Enhanced Time: 7 hr 30 min"
+    ]
+}

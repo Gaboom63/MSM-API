@@ -3,6 +3,7 @@
     "description": "The Bowgart loves to stand in puddles. It sucks a muddy mixture of Earth and Water through its feet to feed rapid horn growth. When shed, a horn will be strung and tuned, then replace the Bowgart's old instrument.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Bowgart.png?raw=true",
     "cost": "50 Diamonds",
+    "colossingumCost": "60 Diamonds",
     "islands": [
         "plant",
         "cold",

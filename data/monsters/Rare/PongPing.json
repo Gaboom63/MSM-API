@@ -1,0 +1,18 @@
+{
+    "name": "Rare PongPing",
+    "description": "As befits any great athlete OR musician, the Rare PongPing has absolutely phenomenal hair. Not that you should ever be distracted by something superficial like that when you're assessing a being's sportsMonship or musicality - but it never hurts. Unlike the slapdash paddles of its Common cousin, the Rare carefully crafts ornate and sturdy fans that can also double perfectly as marshalling wands that can safely guide flying visitors to taxi successfully. Since the fans are quite a bit sharper as well, extra care must also be taken when striking its inflatable cheeks - but that's no issue for the Rare PongPing who practices mindfulness and meditation.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare PongPing.png?raw=true",
+    "cost": "N/A",
+    "starshop": "10000 Starpower",
+    "islands": [
+        "bone",
+        "amber",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
+    ]
+}

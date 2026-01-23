@@ -2,7 +2,7 @@
     "name": "Shugitar",
     "description": "To date, no one knows what gives the Shugitar its distinctive ruddy coat. Some have suggested that it came about as a camouflage mechanism to blend in with its guitar... to that theory, others quip, 'When have you ever heard of a guitarist who didn't want to be noticed or recognized?' Whatever the reason, its musical ability is undisputed.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Shugitar.png?raw=true",
-    "cost": "700 Diamonds",
+    "shugabushCost": "700 Diamonds",
     "islands": [
         "shugabush"
     ],

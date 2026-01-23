@@ -1,0 +1,18 @@
+{
+    "name": "Rare Edamimi",
+    "description": "Rare Edamimis represent such a radical departure in terms of both appearance and disposition from their Common relatives that Monsters more often refer to them as 'Gloomy Blooms.' A verdurous veneer? Replaced by atramentous armature. A bright, sunny attitude? Replaced by snide cynicism. Like other Rares in the Plant family, these Fire Monsters process the darkness through umbrasynthesis... and it appears that the side-effects are more than skin-deep. They're stupendous dancers though - even if they're full of woe.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Edamimi.png?raw=true",
+    "cost": "N/A",
+    "starshop": "10000 Starpower",
+    "islands": [
+        "psychic",
+        "amber",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
+    ]
+}

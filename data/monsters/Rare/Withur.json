@@ -1,0 +1,12 @@
+{
+    "name": "Rare Withur",
+    "description": "It's common knowledge that the Common Withur plucks the fins of the Lyrodocus Rex to produce its Magical music, and rare knowledge that the Rare Withur prefers to utilize the bones of the creature's close kin, the Lyrodocus Regina. But if both of these specimens amount to mere fiberglass models, are we sure that the real things ever truly existed? Rare Withur assures us that they did, based on special 'soul residue' that the Monster can detect with its ultra-sensitive fingernails.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Withur.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": ["bone", "nexus", "mirror bone"],
+    "breedingCombo": ["Denchuhs + Noggin", "Peckidna + Toe Jammer", "Fwog + Clackula"],
+    "breedingTime": [
+        "Breeding Time: 1 day 1 hr 30 min, Enhanced Time: 19 hr 7 min 30 sec"
+    ],
+    "orbTime": "1 day 19 hr 30 min",
+}

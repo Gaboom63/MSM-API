@@ -1,0 +1,22 @@
+{
+    "name": "Rare Clackula",
+    "description": "The blue-blooded Rare Clackula has an aristocratic air, believing itself to be of exceptionally Rare breeding. While factually correct, this haughty Bone-Elemental is nonetheless of equal status to its peers, thanks to the equitable hierarchy present in Monster society. This does not stop Rare Clackula from making ostentatious displays such as altering its distractingly high collar to draw attention. Curious Monsters often consult this dignified Rare Magical for etiquette lessons.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Clackula.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "bone",
+        "sanctum",
+        "nexus",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Buy From Shop",
+        "Plinkajou + Clackula",
+        "Enchantling + Clackula"
+    ],
+    "breedingTime": [
+        "Breeding Time: 8 hr, Enhanced Time: 6 hr"
+    ],
+    "transposition": "5 Diamonds",
+    "orbTime": "1 days 2 hr",
+}

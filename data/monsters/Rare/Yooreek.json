@@ -1,0 +1,26 @@
+{
+    "name": "Rare Yooreek",
+    "description": "Rare Yooreek's steadfastness and support of its friends can come off as a little single-minded at times, which can be troublesome as no one is sure where its mind is located yet. One sometimes has to wonder if Rare Yooreek is all there. Attached at the hip to its good buddy Rare Gaddzooks, this Rarethereal sure likes to go with the flow. But is that so bad? Like the old saying goes, a Mon in the hand is worth two in the Fire Bush. Whether its contrasting colors were the result of a genetic side effect or a part of its friends' elaborate schemes, Rare Yooreek is just happy to be matching.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Yooreek.png?raw=true",
+    "cost": "3500 Diamonds",
+    "plasmaCost": "3000 Diamonds",
+    "mechCost": "3500 Diamonds",
+    "shadowCost": "3500 Diamonds",
+    "islands": [
+        "workshop",
+        "plasma",
+        "mech"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 11 hr"
+    ],
+    "synthesisTime": [
+        "N/A"
+    ],
+    "tuningUpCost": [
+        "Rare Plasma Meeb + Rare Shadow Meeb + Rare Mech Meeb"
+    ]
+}

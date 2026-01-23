@@ -1,0 +1,16 @@
+{
+    "name": "Rare Gheegur",
+    "description": "The Zuffle doesn't fall far from the tree, and the Rare Gheegur's aesthetic certainly calls to mind the image of a kooky scientist bringing its creations to life. An unexpected side-effect of this Monster's evolution was the disappearance of its trademark glow that elicited apprehension in its fellow Wublins - which makes it even easier to lurk among the shadows.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Gheegur.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "7 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "polairty": [
+        "Negative from: Rare Dermit, Negative toward: Rare Creepuscule, Positive from: Rare Tympa, Positive toward: Rare Zynth"
+    ], 
+    "powerUpTime": [
+        "Unlimited"
+    ]
+}

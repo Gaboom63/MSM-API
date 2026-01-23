@@ -2,7 +2,7 @@
     "name": "Shugavox",
     "description": "Even more so than its mandolin-toting cousin, the Shugavox loves to wail out a wild tune in the company of its Monster brethren. It and the Shugabush enjoy a friendly rivalry for pretty much everything, including their tastes in phay-door-uhs. To make itself stand out more, the Shugavox regularly mists itself with essence of Deedge earwax to color itself blue.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Shugavox.png?raw=true",
-    "cost": "700 Diamonds",
+    "shugabushCost": "700 Diamonds",
     "islands": [
         "shugabush"
     ],

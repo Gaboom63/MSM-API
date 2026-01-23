@@ -1,0 +1,16 @@
+{
+    "name": "Rare Screemu",
+    "description": "It's not often that a full-grown Gigacheep soars overhead... but when it happens, it's an experience not easily forgotten. That must've been what happened to inspire the design of the Rare Screemu; the Monster would like to think that it was a spitting image of the fledgling form of the avian Titan... but in truth, it's a bird-brained notion that it could ever pass for anything other than a Rare Wublin.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Screemu.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "5 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative from: Rare Pixolotl, Positive From: Rare Creepuscule, Negative toward: Rare Zuuker, Positive toward: Rare Blipsqueak"
+    ]
+}

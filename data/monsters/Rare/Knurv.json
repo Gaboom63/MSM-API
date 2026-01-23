@@ -1,0 +1,15 @@
+{
+    "name": "Rare Knurv",
+    "description": "What is more frightening - imagining the unknowable face behind a bogeyMon's mask, or bearing witness to the true face itself? Rare Knurv need not don a disguisement to maintain its enigmatic air. One look at this Rare Dreamythical will tell you that its haunting eyes and piercing gaze are captivating enough on their own! An urban legend states that the unnerving Rare Knurv pops its eyeballs into the snug slots in its antlers to catch some Z's after a sleepless night spent see-sawing its optic nerves. Thank goodness it doesn't sleep with one eye open.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Knurv.png?raw=true",
+    "mythicalCost": "1100 Diamonds",
+    "islands": [
+        "mythical"
+    ],
+    "breedingCombo": [
+        "Cataliszt + Buzzinga"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 16 hr, Enhanced: 1 day 6 hr"
+    ]
+}

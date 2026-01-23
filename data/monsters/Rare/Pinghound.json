@@ -1,0 +1,15 @@
+{
+    "name": "Rare Pinghound",
+    "description": "On the Water Mythical's home planet in the Beyond, Pinghounds occupy diverse roles in the civilization's society. As such, several breeds of Pinghound emerged through selective breeding, each with their own special attributes and personality. This Rare Dreamythical is specifically inspired by the 'bootle' breed of Pinghound, which itself has a long and storied history. Folklore states that the very first exemplar of the breed was dyed key-lime green in order to make it visually distinct (although this inadvertently led to some targeted fur loss). Over time, this shade of green faded in intensity, and an additional pair of legs sprouted out, distinguishing the breed further. The bootle was known to be highly intelligent and greatly prized as a 'show animal,' although it was imperative to give it lots of attention and keep it stimulated; neglected bootles tended to be quite destructive and had a marvelous time ruining everything if not properly cared for.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Pinghound.png?raw=true",
+    "mythicalCost": "1100 Diamonds",
+    "islands": [
+        "mythical"
+    ],
+    "breedingCombo": [
+        "Cataliszt + Anglow"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Rare Clavi Gnat",
+    "description": "Rare Clavi Gnats bat at the spiny fruits of the Clavi Cactus to tenderize their fleshy pulp. Once sufficiently softened, these tasty morsels emit a gentle glow signaling that they are ready for consumption. The fruits are then digested by the Rare Magical's highly specialized gastrointestinal system, skin and all! The Monster's own spiky exterior recalls the age-old expression, you are what you beat. Fruit punch, anyone?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Clavi Gnat.png?raw=true",
+    "cost": "300 Diamonds",
+    "islands": [
+        "faerie",
+        "nexus",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Mammott + Wimmzies",
+        "Kayna + Squot",
+        "Floot Fly + Boskus"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 1 hr 30 min, Enhanced Time: 19 hr 7 min 30 sec"
+    ],
+    "orbTime": "1 day 19 hr 30 min",
+}

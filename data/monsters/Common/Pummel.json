@@ -3,6 +3,7 @@
     "description": "Aquatic Pummels are gill-breathers. They soak themselves regularly to suck in a fresh load of Water and seal their mouths with Plant membranes. Like Noggins, Pummels are closely in tune with the Earth.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Pummel.png?raw=true",
     "cost": "50 Diamonds",
+    "colossingumCost": "60 Diamonds",
     "islands": [
         "plant",
         "water",

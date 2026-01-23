@@ -1,0 +1,19 @@
+{
+    "name": "Rare Pixolotl",
+    "description": "Rare Pixolotl bears a strong affinity for the Mech Element, syncing up with the month of its inaugural evolution. This neck-bearded newt loves immersing itself in the digital world, playing its favourite video games late into the night. Its console of choice is the Eksboks Series Eks, which it has tastefully customized with RGB light displays mimicking its own bioluminescence.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Pixolotl.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "14 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "polarity": [
+        "Negative from: Rare Whajje, Negative toward: Rare Screemu, Positive from: Rare Scargo, Positive toward: Rare Fleechwurm"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

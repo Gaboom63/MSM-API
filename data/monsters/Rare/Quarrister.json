@@ -1,0 +1,19 @@
+{
+    "name": "Rare Quarrister",
+    "description": "The Rare Quarrister's body is composed of many different types of minerals and is encrusted with unusual crystals normally found all over the multiverse. Even though its individual heads all have different origins, this Earth Boss rocks just as equally as the Common Monster. The Rare Quarrister proudly celebrates diversity and inclusion, and proves that putting heads together with positive energy can achieve great harmony.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Quarrister.png?raw=true",
+    "cost": "200 Diamonds",
+    "islands": [
+        "earth",
+        "gold",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Dandidoo + Drumpler",
+        "Cybop + Furcorn",
+        "Pango + Shrubb"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 6 hr 30 min, Enhanced Time: 22 hr 52 min 30 sec"
+    ]
+}

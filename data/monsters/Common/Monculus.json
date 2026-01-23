@@ -2,7 +2,9 @@
     "name": "Monculus",
     "description": "Back when the Monster World was new, the Colossals pioneered a special process called Life-Formula: the imbuement of vitalizing energies into sculptures of fantastical creatures, plucked right from the giant spirits' imaginations. In this way would the nascent reality be populated, and the Monculus was among the very first prototype Singing Monsters awakened by the so-called 'spark of life.' Fashioned from Bubblerite, the versatile building material favored most by the Colossals, its moving parts are manipulated by the rare plasmic form of Krystillium, the first-ever Crystal to be created. Initially pocket-sized, it can grow to imposing heights to sputter out its hauntingly beautiful refrain.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Monculus.png?raw=true",
-    "cost": "225 Diamonds",
+    "wublinCost": "225000 Diamonds",
+    "etherealCost": "225 Diamonds",
+    "shantyPrice": "500 Diamonds",
     "islands": [
         "ethereal",
         "seasonal",

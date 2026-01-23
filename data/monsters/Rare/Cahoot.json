@@ -1,0 +1,15 @@
+{
+    "name": "Rare Cahoot",
+    "description": "Who can fathom what the future of the Monster World may bring? According to the Rare Cahoot, it can! This Rare Magical styles itself as the Oooracle, blessed (or cursed) with the cosmic power of premonition to predict what has not yet come to pass. Monsters from across the Sanctum seek out the Rare Cahoot to hear their fortunes read out to them in the species's recognizable hooting tones. These fortunes are divined by interpreting the mysterious symbols that adorn the Oooracle's wingscape, specifically through the lens of its one cloudy eye. Before anyone gets too excited, the scope of this forecasting isn't extreme - what you'll be having for lunch tomorrow, or when you'll finally find that cherished belonging you misplaced, that kind of thing - but hey, still counts.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Cahoot.png?raw=true",
+    "cost": "300 Diamonds",
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Theremind + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 2 hr 30 min, Enhanced Time: 19 hr 52 min 30 sec"
+    ]
+}

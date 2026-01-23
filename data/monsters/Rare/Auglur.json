@@ -1,0 +1,25 @@
+{
+    "name": "Rare Auglur",
+    "description": "If dreams can be visions of the past and future, the soundscapes woven by the Rare Auglur are possessed of an awesome clarity. While the Common Auglur's calm, cool, collected attitude may cause some to perceive the Monster as distant and aloof, in truth this is nothing more than projection. Rare Auglur, on the other hand, is positively ascendant, with its downy plumage and ruffled furthers... Maybe it really is above it all. Wreathed with an ophanine crown, a piercing stare replaces the more characteristically indifferent gaze we've come to expect. What does it see that we don't? Or what does it want us to see?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Auglur.png?raw=true",
+    "cost": "1900 Diamonds",
+    "plasmaCost": "3500 Diamonds",
+    "mechCost": "2500 Diamonds",
+    "islands": [
+        "workshop",
+        "plasma",
+        "mech"
+    ],
+    "breedingCombo": [  
+        "N/A"
+    ],
+    "breedingTime": [
+        "1 day 11 hr"
+    ],
+    "synthesisTime": [
+        "N/A"
+    ],
+    "tuningUpCost": [
+        "Rare Plasma Meeb + Rare Mech Meeb + Rare Poison Meeb"
+    ]
+}

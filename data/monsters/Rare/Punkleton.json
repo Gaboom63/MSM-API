@@ -1,0 +1,20 @@
+{
+    "name": "Rare Punkleton",
+    "description": "Nobody likes watching someone let themselves go, but this is a regrettable inevitability for the Rare Punkleton. Lacking the hardiness of the Common's Smunkin-like head, it is doomed to decompose faster and turn into a sloppy mess. Donning a paper bag to limit the embarrassment, it's lucky that this ghoulish Rare Seasonal is only really active during a time of dress-up - it fits right in, and no one's the wiser!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Punkleton.png?raw=true",
+    "cost": "500 Diamonds",
+    "shantyPrice": "625 Diamonds",
+    "islands": [
+        "plant",
+        "colossingum",
+        "gold",
+        "seasonal",
+        "mirror plant"
+    ],
+    "breedingCombo": [
+        "Bowgart + T-Rox"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced Time: 23 hr 48 min 45 secd"
+    ]
+}

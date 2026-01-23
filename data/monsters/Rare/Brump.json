@@ -1,0 +1,19 @@
+{
+    "name": "Rare Brump",
+    "description": "As if Brump could get any grosser... presenting the Rare Brump! As before, its Zapped egg parentage is evident in its physical manifestation, but additional quirks have developed as well. The skin of the Rare Brump is coated in a noxious venom, and it's believed that this meant to be an aposematic warning, a form of advertising that an animal is not worth eating. Trust us, Rare Brump, no one is trying to eat you.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Brump.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "2 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "polarity": [
+        "Negative from: Rare Blipsqueak, Negative toward: Rare Astropod, Positive from: Rare Fleechwurm, Positive toward: Rare Poewk"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

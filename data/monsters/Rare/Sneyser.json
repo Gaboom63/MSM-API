@@ -1,0 +1,23 @@
+{
+    "name": "Rare Sneyser",
+    "description": "Rare Sneyser's feelin' hot, hot, hot! No, really - get this Rare an Ice Pack. While these sun-loving Sneyser cousins adore baking all day long in steaming heat like an endless SummerSong, all that exposure has had some chilling effects on their physiology. Charred scales like volcanic rock, crystals flickering with pure Fire, and a once-glistening geyser now brimming with broiling magma make Rare Sneyser too hot to handle - but not too hot to love!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Sneyser.png?raw=true",
+    "cost": "750 Diamonds",
+    "starshop": "7500 Starpower",
+    "islands": [
+        "oasis",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Quibble + Boskus",
+        "Pango + Phangler",
+        "Glowl + Maw",
+        "Congle + Kayna",
+        "Whaddle + Mammott",
+        "Woolabee + Toe Jammer",
+        "Wynq + Tweedle"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 days 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
+    ]
+}

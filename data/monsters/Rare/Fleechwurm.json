@@ -1,0 +1,19 @@
+{
+    "name": "Rare Fleechwurm",
+    "description": "Even though the moon is seldom visible through the lightning of the perpetual storm, the red and gold Rare Fleechwurm has a preternatural instinct for knowing when it's in its new lunar phase. Especially at the beginning of the lunisolar year, it will wriggle its way over to its fellow Wublins, imitating the movements of the fantastical Lion creature of legend, and 'pluck the greens' to bring good fortune - this consists of pinching or squeezing any body part that is liable to produce a tickling sensation!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Fleechwurm.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "5 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative from: Rare Dwumrohl, Negative toward: Rare Dwumrohl, Positive from: Rare Pixolotl, Positive toward: Rare Brump"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Rare Whaddle",
+    "description": "You may know that the crooning of a Whaddle sounds sweeter and softer than marshmallow. But did you know that the Rare Whaddle, in pale marshmallow-white, actually has spongy spots that squish just like the sweet treat? Shockingly, these poke-a-dots are not named for Rare Whaddle's talent for dancing the polka, but rather for their velvety texture. This dancing Rare IS a polka master, though, using its pronged ears to dance with two partners at once.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Whaddle.png?raw=true",
+    "cost": "500 Diamonds",
+    "starshop": "5000 Starpower",
+    "islands": [
+        "oasis",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Quibble + Kayna",
+        "Phangler + Tweedle",
+        "Glowl + Toe Jammer"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 dayh 2 hr 30 min, Enhanced Time: 19 hr 52 min 30 sec"
+    ]
+}

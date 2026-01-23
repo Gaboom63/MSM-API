@@ -1,0 +1,17 @@
+{
+    "name": "Rare Mushaboom",
+    "description": "1, 2, 3, 4... tell me that you love a spore! Rare Mushabooms love to classify and categorize the world around them, especially by color and shape. For that reason, they are especially enamored of sugary breakfast cereals, which present the greatest diversity of color and shapes in the Monster World!... or at least in the copse of the pocket dimension. Once the Rare Magicals are done cataloguing and admiring the foodstuffs, they use a highly-developed rostronasus (combination nose and beak) to gorge themselves on their collections. This habit gives rise to its colorful, marshmallow-y appearance. It is a Rare Mushaboom's fondest wish to discover all known cereals, a sentiment captured in the species's special lullaby called My Moon, My Mon.,",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Mushaboom.png?raw=true",
+    "cost": "600 Diamonds",
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Roarick + Floot Fly",
+        "Knucklehead + Clackula",
+        "Osstax + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 13 hr, Enhanced time: 1 day 4 hr 7 min 30 sec"
+    ]
+}

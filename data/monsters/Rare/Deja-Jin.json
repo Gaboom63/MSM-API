@@ -1,0 +1,15 @@
+{
+    "name": "Rare Déjà-Jin",
+    "description": "There's no shortage of Crystal Elemental resonance in the pocket dimension, and the Rare Déjà-Jin's piezoelectric potential is just as potent. You may observe that the crystals on this Rare Magical's array are less clear-cut than the Common's; their growth pattern is more chaotic, as if they're overtaking the Monster bit by bit. In fact, the Monster must file down these crystals with its claws (themselves infested), lest they grow unchecked and form an impenetrable cocoon encasing it. For some reason, the Rare Déjà-Jin contends that were it to be trapped in this way, it would be forced to grant wishes in exchange for its freedom - maybe it's the mysterious third eye coming up with these ideas?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Déjà-Jin.png?raw=true",
+    "cost": "300 Diamonds",
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Theremind + Floot Fly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 2 hr 30 min, Enhanced Time: 19 hr 52 min 30 sec"
+    ]
+}

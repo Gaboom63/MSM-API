@@ -1,0 +1,21 @@
+{
+    "name": "Rare Flowah",
+    "description": "Tougher than a tree trunk and sturdier than a stump, Rare Flowah can take a trimming! But don't let its scratches and scrapes fool you, this botanical bruiser isn't getting in any fights. Instead, the klutzy Monster is bumping into walls! Hopefully its new top-knot will put an end to its flouncy petals obstructing its line of sight.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Flowah.png?raw=true",
+    "cost": "250 Diamonds",
+    "starshop": "2500 Starpower",
+    "islands": [
+        "haven",
+        "light",
+        "psychic",
+        "amber",
+        "mirror light",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Potbelly + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 13 hr 30 min, Enhanced Time: 10 hr 7 min 30 sec"
+    ]
+}

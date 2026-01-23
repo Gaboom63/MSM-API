@@ -1,0 +1,26 @@
+{
+    "name": "Rare Cybop",
+    "description": "Common Cybops might idolize the Ethereal Jellbilly, but the Rare Cybop is no such admirer! It stalwartly marches (or hovers) to the beat of a different drum, transfiguring its mechanical body to match ancient cave drawings of early Cybops. Non-conformity comes with a price, though: the jostling of its twin engines sometimes results in motion sickness, hence its greenish complexion.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Cybop.png?raw=true",
+    "cost": "40 Diamonds",
+    "starshop": "1500 Starpower",
+    "islands": [
+        "air",
+        "water",
+        "earth",
+        "colossingum",
+        "gold",
+        "haven",
+        "tribal",
+        "composer",
+        "mirror air",
+        "mirror water",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Tweedle + Noggin"
+    ],
+    "breedingTime": [
+        "Breeding Time: 10 hr 30 min, Enhanced Time: 7 hr 52 min 30 sec"
+    ]
+}

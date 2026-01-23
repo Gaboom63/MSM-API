@@ -2,7 +2,7 @@
     "name": "Wheezel",
     "description": "Pop! goes the Wheezel… or maybe it's more like a plop. Of course the Earth Mythical would dream up some bizarre, sibilating automaton like this. Of course it would be based on a classic prank like a jack-in-the-box. Of course the Dreamythical's outer shell would be adorned with the same unusual symbols that cover its creator's pelt. Long before its creation in the dreamspace, toys just like it would find their way into the possession of beings across the Monster World, and would subject the unsuspecting to a startling surprise - undoubtedly the handiwork of its progenitor. A Monster of this style calls to mind the unusual life-forms of Wublin Island; it just goes to show that if you can dream it, the power of dreamcraft will make it a reality!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Wheezel.png?raw=true",
-    "cost": "750 Diamonds",
+    "mythicalCost": "750 Diamonds",
     "islands": [
         "mythical"
     ],

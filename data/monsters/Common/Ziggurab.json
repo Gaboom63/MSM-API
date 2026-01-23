@@ -3,6 +3,7 @@
     "description": "Ziggurab's pinchers aren't just snappy sound-makers. They're also multi-purpose tools perfect for chopping veggies, wood, or wrapping paper. You could say Ziggurab is quite the handyMon - literally! When it's not slicing and dicing, this not-so-crabby Monster loves to take a snooze with its head buried deep in its soundproof body chamber.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Ziggurab.png?raw=true",
     "cost": "100 Relics",
+    "amberCost": "20 Relics",
     "islands": [
         "faerie",
         "amber",

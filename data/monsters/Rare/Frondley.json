@@ -1,0 +1,17 @@
+{
+    "name": "Rare Frondley",
+    "description": "If you were creating something, you wouldn't want your creativity interfered with by some unknown variable, would you? As such, the pocket dimension has a fairly neutral climate - unsurprising, when one recalls that it historically functioned as a test site for all manner of creative experimentation. The downside of that is that there isn't much seasonal variety to speak of - so Monsters have to come up with ingenious solutions! That's what Rare Frondleys do - when the summer months arrive and all anyone wants to do is doze in the shade of a swaying palm tree - you must become the palm tree! It's believed that this whole charade started out as an aspirational Costume - but over time, these Rare Magicals began to come by it naturally. Best of all, it means that for the Monsters of Magical Sanctum, that it can feel like summer all year long!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Frondley.png?raw=true",
+    "cost": "600 Diamonds",
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Knucklehead + Theremind",
+        "Cahoot + Floot Fly",
+        "Deja-Jin + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 13 hr 30 min, Enhanced Time: 1 day 4 hr 7 min 30 sec"
+    ]
+}

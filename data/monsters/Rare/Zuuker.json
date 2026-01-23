@@ -1,0 +1,19 @@
+{
+    "name": "Rare Zuuker",
+    "description": "Reinventing the wheel (or the Wublin, in this case) can be a source of fatigue for the Wubbox when designing Rares. Sometimes, it's nice to take a break and admire the scenery of the Monster World; one such sight to behold is the luster of the sunset as seen from Fire Oasis. Golden tones blending into the blues and purples of oncoming night were so inspiring that they ended up being the color palette for the Rare Zuuker, combined with some of the timber of Wublin Island.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Zuuker.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "10 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "polarity": [
+        "Negative from: Rare Screemu, Negative toward: Rare Thwok, Positive from: Rare Maulch, Positive toward: Rare Bona-Petite"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

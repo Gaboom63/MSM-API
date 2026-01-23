@@ -3,6 +3,8 @@
     "description": "The Hairionette's existence is defined by cruel irony: despite its status as the Control Elemental, this Paironormal is convinced that its destiny is not its own to choose. Hairionette firmly believes that its every move is predetermined, pulled along its life path by the skeins of fate. It is driven by its overwhelming need to find just who is pulling the strings, never pausing to wonder whether it is in fact the mastermind behind its own designs. So just who is the true puppetmaster: a mysterious manipulator, or the hapless Hairionette itself? This Paironormal's Major and Minor forms reflect both existential options.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Hairionette%20(Minor).png?raw=true",
     "cost": "700 Diamonds",
+    "paironormalCost": "3500 Diamonds",
+    "fuguingTime": "100 Starpower",
     "islands": [
         "mirror psychic",
         "paironormal"

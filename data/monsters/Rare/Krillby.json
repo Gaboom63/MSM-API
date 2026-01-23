@@ -1,0 +1,19 @@
+{
+    "name": "Rare Krillby",
+    "description": "It's beneficial, in bustling ecosystems, to carve out a niche for oneself - and that's exactly what the Rare Krillby has done. The Monster takes full advantage of its sylvian coloration to do the exact opposite of its speedster Common cousin: move at an achingly slow pace and blend it with its surroundings. Its feet are designed not for velocity or dexterity, but for maximum noise dampening of its footfalls. Passerby will report hearing the Rare Krillby's flute-like call... but being utterly unable to spot it!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Krillby.png?raw=true",
+    "cost": "300 Relics",
+    "starshop": "10000 Starpower",
+    "islands": [
+        "faerie",
+        "amber",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "starshop": ["10000 Starpower"],
+    "breedingTime": [
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
+    ]
+}

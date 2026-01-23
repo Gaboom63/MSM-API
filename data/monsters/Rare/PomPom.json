@@ -1,0 +1,23 @@
+{
+    "name": "Rare PomPom",
+    "description": "There's no greater living proof that 'You are what you eat' than the Rare PomPom. Although sometimes confused for a separate Monster entirely, like the Hoola, this Rare is actually just a Common PomPom on a diet consisting entirely of indigo foods! The change isn't just reflected in its appearance, though - Rare PomPoms develop a heightened fashion sense, and coif their plumes in radical styles - with some blue highlights for good measure.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare PomPom.png?raw=true",
+    "cost": "65 Diamonds",
+    "shugabushCost": "625 Diamonds",
+    "islands": [
+        "air",
+        "earth",
+        "shugabush",
+        "gold",
+        "mirror air",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Drumpler + Tweedle",
+        "Pango + Noggin",
+        "Cybop + Mammott"
+    ],
+    "breedingTime": [
+        "Breeding Time: 15 hr 30 min, Enhanced Time: 11 hr 37 min 30 sec"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Rare Bellowfish",
+    "description": "Despite its flamboyant red pigmentation, the Rare Bellowfish's mechanized suit is typically powered by an inferior crystal. As such, it is far more subdued than its Common brethren and much less socially inclined... until it is challenged to a dance-off. Putting its three legs to good use, this Ethereal cuts a rug like no one's business, busting a move it calls Bellowfishing this up.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Bellowfish.png?raw=true",
+    "etherealCost": "2000 Diamonds",
+    "mechCost": "2500 Diamonds",
+    "islands": [
+        "ethereal",
+        "colossingum",
+        "mech"
+    ],
+    "breedingCombo": [
+        "Reebro + Jeeode"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec, Islet Breeding Time: 1 day 1 hr"
+    ]
+}

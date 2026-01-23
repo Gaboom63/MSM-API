@@ -1,0 +1,27 @@
+{
+    "name": "Rare Oaktopus",
+    "description": "Much can be said for the Common Oaktopus' powerful tentacles, but when it comes to fine motor skills, that's where the Rares have the upper hand... literally! A pair of nimble tentilla is used to explore the world around them and groom their blond silks. Rare Oaktopi are perhaps a little too wily for their own good, and experiment with various slimes and oozes to brew potent potions.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Oaktopus.png?raw=true",
+    "cost": "40 Diamonds",
+    "shugabushCost": "375 Diamonds",
+    "islands": [
+        "plant",
+        "cold",
+        "water",
+        "shugabush",
+        "gold",
+        "psychic",
+        "tribal",
+        "mirror plant",
+        "mirror cold",
+        "mirror water",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Potbelly + Toe Jammer",
+        "Shugabush + Oaktopus"
+    ],
+    "breedingTime": [
+        "Breeding Time: 10 hr 30 min, Enhanced Time: 7 hr 52 min 30 sec"
+    ]
+}

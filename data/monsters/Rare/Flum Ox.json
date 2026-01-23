@@ -1,0 +1,18 @@
+{
+    "name": "Rare Flum Ox",
+    "description": "Venturing into colder climates than their Common cousins, Rare Flum Oxen sport striped, shaggy coats. But what happens when the Quad's normally pliant horns are exposed to extreme cold? They bend and snap! This doesn't appear to harm the Monster in any way, thankfully, but it does expose the secret to the species' ability to reshape its horns at will! A phosphorescent compound (not unlike the acid in muscles) courses through them and initiates a chemical reaction that forms the various gestures for which the Monster is known. ",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Flum%20Ox.png?raw=true",
+    "cost": "N/A",
+    "starshop": "10000 Starpower", 
+    "islands": [
+        "bone",
+        "amber",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 4 hr 30 sec, Enhanced Time: 1 day 15 hr 22 min 30 sec"
+    ]
+}

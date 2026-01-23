@@ -1,0 +1,18 @@
+{
+    "name": "Rare Dragong",
+    "description": "Very few have actually witnessed it, but it's said that the Rare Dragong has limited flight capabilities! The coloration of its plates is actually owing to the fact that they are hot to the touch. Then, it simply heats the air below it, and surfs around on the updraft. Finally, the rest of its body maintains a frigid temperature to avoid overheating. The ingenuity of Rarethereals never ceases to amaze.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Dragong.png?raw=true",
+    "etherealCost": "2000 Diamonds",
+    "mechCost": "2500 Diamonds",
+    "islands": [
+        "ethereal",
+        "colossingum",
+        "mech"
+    ],
+    "breedingCombo": [
+        "Reebro + Humbug"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 4 hr 40 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
+    ]
+}

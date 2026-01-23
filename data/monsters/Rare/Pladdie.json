@@ -1,0 +1,26 @@
+{
+    "name": "Rare Pladdie",
+    "description": "Already respected leaders among their Faerie kin, Rare Pladdies are highly revered for their spiritual connection to the Magical world around them. Through their ancient tradition of kything with the spirits of auld, Rare Pladdie can spin grander, rarer yarns than have ever been heard - as evidenced by the impressive fankle of wooly locks that crown its wee head. This bonnie Boss keeps near-lost histories alive by recounting riveting epics and carrying on the memories of those who came before.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Pladdie.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "faerie",
+        "nexus",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Drumpler + Wimmzies",
+        "Stogg + Squot",
+        "Boskus + HippityHop",
+        "Clavi Gnat + Noggin",
+        "Bridg-it + Mammott",
+        "Cantorell + Kayna",
+        "Ziggurab + Floot Fly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 18 hr 30 min, Enhanced Time: 1 day 7 hr 52 min 30s"
+    ],
+    "orbTime": [
+        "Orb Time: 2 day 12 hr 30 min"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Rare Dwumrohl",
+    "description": "Expanding their tastes beyond music, Rare Dwumrohls are avid practitioners of the visual arts as well. With so many digits at their disposal, it's unsurprising to learn that their favorite medium is finger-painting! Adorning their drum sets with luminescent paint, they've even swapped out drumsticks for special tensible paintbrushes!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Dwumrohl.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "14 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap and power up!"
+    ], 
+    "polarity": [
+        "Negative from: Rare Fleechwurm, Negative toward: Rare Fleechwurm, Positive from: Rare Astropod, Positive toward: Rare Whajje"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

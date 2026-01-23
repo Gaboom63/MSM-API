@@ -1,0 +1,22 @@
+{
+    "name": "Rare Entbrat",
+    "description": "As if Entbrats weren't impressive enough already! The Rare Entbrat sports vibrant autumnal foliage and eye-catching horn extensions. Reports suggest that this uncommon morph is at least marginally smarter than its regular counterpart, but don't hold your breath waiting for it to score well on any intelligence test.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Entbrat.png?raw=true",
+    "cost": "200 Diamonds",
+    "islands": [
+        "plant",
+        "colossingum",
+        "gold",
+        "tribal",
+        "composer",
+        "mirror plant"
+    ],
+    "breedingCombo": [
+        "Shrubb + Maw",
+        "Oaktopus + Drumpler",
+        "Furcorn + Fwog"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 6 hr 30 min, Enhanced Time: 22 hr 52 min 20 sec"
+    ]
+}

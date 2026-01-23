@@ -1,0 +1,35 @@
+{
+    "name": "Rare Potbelly",
+    "description": "Can you spot the Rare Potbelly?... No seriously, those weights are pretty heavy, and it needs a spotter. This Monster is focused on self-improvement wherever possible, which sets it apart from the garden variety that's more than happy to remain languid and pudgy. Maintaining its six-pack and getting regular braces adjustments are of the utmost priority. Because of its fixation on fitness, the Rare Potbelly is hard-pressed to stay in one place for too long, but if you plant the idea in their multiple heads that it can exercise on your islands as much as it wants, it will stick around.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Potbelly.png?raw=true",
+    "cost": "75 Diamonds",
+    "shugabushPrice": "325 Diamonds",
+    "islands": [
+        "plant",
+        "cold",
+        "water",
+        "earth",
+        "shugabush",
+        "gold",
+        "haven",
+        "light",
+        "psychic",
+        "mirror plant",
+        "mirror cold",
+        "mirror water",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Plant: Entbrat + Potbelly",
+        "Cold: Deedge + Potbelly",
+        "Water: Shellbeat + Potbelly",
+        "Earth: Quarrister + Potbelly",
+        "Haven: Tring + Potbelly",
+        "Light: Blow't + Potbelly",
+        "Gloptic + Potbelly",
+        "Shugabush: Shugabush + Potbelly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 6 hr, Enhanced Time: 4 hr 30 min"
+    ]
+}

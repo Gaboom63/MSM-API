@@ -1,0 +1,17 @@
+{
+    "name": "Rare Larvaluss",
+    "description": "The nose knows... but with the Rare Larvaluss, nobody knows its nose! As with the Common Magical, it's nestled underneath a patch of 'furthers' on the back of its head, and only its silken nostril hairs protrude. What really sets the Rare form of this Monster apart is its unique anatomy, drawing heavily from its Bone-Element genealogy. The majority of Rare Larvaluss's body is hollow - so how does it move around or flex its dorsal finger without any significant musculature? Apparently, it's a combination of hydraulic pressure and sheer willpower that accomplishes these feats.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Larvaluss.png?raw=true",
+    "cost": "600 Diamonds",
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Osstax + Theremind",
+        "Xyster + Floot Fly",
+        "Deja-Jin + Claackula"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 13 hr 30 min, Enhanced Time: 1 day 4 hr 7 min 30 sec"
+    ]
+}

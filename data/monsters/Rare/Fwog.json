@@ -1,0 +1,26 @@
+{
+    "name": "Rare Fwog",
+    "description": "Rotten luck for a Fwog if a Rare specimen surfaces in its territory. Whereas the Common Fwog aspires to attract a mate by song alone, the Rare invariably gets all the attention, with its spiraling horns and resplendently-colored head growths. The absence of the middle eye proves to be quite the hindrance, however; it must compensate with a heightened sense of smell (hence its nose), and of touch (via its hollow, prehensile toes).",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Fwog.png?raw=true",
+    "cost": "40 Diamonds",
+    "islands": [
+        "plant",
+        "air",
+        "water",
+        "colossingum",
+        "gold",
+        "bone",
+        "tribal",
+        "composer",
+        "mirror plant",
+        "mirror air",
+        "mirror water",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Noggin + Toe Jammer"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 hr 15 min, Enhanced Time: 56 min 15 sec"
+    ]
+}

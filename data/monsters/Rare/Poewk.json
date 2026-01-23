@@ -1,0 +1,19 @@
+{
+    "name": "Rare Poewk",
+    "description": "The debate rages on as to whether Poewk's head features a mask or a face - the Rare of the species has an equally disquieting countenance. Everything about the Rare Poewk extols a return to nature: a covering of crimson feathers, the twisting, bending pipes encircled around it, the dirt-patch it insists upon for its clawed foot-stomping performance.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Poewk.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "5 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "polarity": [
+        "Negative from: Rare Bona-Petite, Negative toward: Rare Maulch, Positive from: Rare Brump, Positive toward: Rare Tympa"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

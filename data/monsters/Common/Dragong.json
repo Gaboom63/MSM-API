@@ -2,7 +2,9 @@
     "name": "Dragong",
     "description": "The Dragong's lithe body belies incredible strength and resilience, which it uses to absorb the vibration of its tail- and feet-plates. In addition to the cymbal-like clashing they create, these plates allow the Dragong to skim the water's surface, and unsurprisingly, to prepare delicious dishes for its Ethereal cohorts.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Dragong.png?raw=true",
-    "cost": "1250 Diamonds",
+    "etherealCost": "1250 Diamonds",
+    "mechCost": "2000 Diamonds",
+    "colossingumCost": "1350 Diamonds",
     "islands": [
         "ethereal",
         "colossingum",

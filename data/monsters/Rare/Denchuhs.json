@@ -1,0 +1,18 @@
+{
+    "name": "Rare Denchuhs",
+    "description": "It's the Dawn of the Denchuhs! Rare Denchuhs love Treats just as much as they despise oral hygiene. After all, brushing away the crumbs means they won't have leftovers to snack on later. No matter how many warnings their beleaguered dentist gives, this gluttonous pair simply will not listen. It is a tragedy that their ears aren't as big as their decaying mega-mouths! It has been repeatedly observed that the sweeter of the Denchuhs tends to suffer from more accelerated tooth decay than its sourpuss companion, suggesting that it eats the Kazilleon's share of the Treats. Could the so-called grumpy twin be more generous than it looks, or did its sweet tooth simply rot away too soon?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Denchuhs.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "bone",
+        "nexus",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Toe Jammer + Clackula"
+    ], 
+    "breedingTime": [
+        "Breeding Time: 12 hr 30 min, Enhanced Time: 9 hr 22 min 30 sec"
+    ],
+    "orbTime": "1 day 6 hr 30 min",
+}

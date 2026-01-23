@@ -1,0 +1,21 @@
+{
+    "name": "Rare Enchantling",
+    "description": "It's hard to put one's nosy little finger on why exactly, but something about the Rare Enchantling leads Monster World experts to surmise that this is actually the 'original' form of the Magical Quad. The arms tugging on the Monster's antlers, the brown coat dotted with spots, the cloven feet - all of these characteristics evoke distant, early memories of what came before... or what might have been. There are those who object to that conclusion, of course; it can't be denied that the Common Enchantling is a closer visual match for the Enchantler Titan whose landscape they both call home. The closest example we have of a comparable relationship is that of the Magical Titans and their respective Titansouls... but the Enchantling species was discovered long before they flourished in the main dimension. So what exactly is going on here? No one's sure, but what's known is that the Rare Enchantling's skill in Monstromancy is just as strong as its cousin's. Drawing energy from the unrefined crystals that dangle to and fro, screaming forth its captivating cry: a must-see in any tour of the pocket dimension.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Enchantling.png?raw=true",
+    "cost": "1750 Diamonds",
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Deja-Jin + Roarick",
+        "Xyster + Kunklehead",
+        "Cahoot + Osstax",
+        "Mushaboom + Theremind",
+        "G'day + Floot Fly",
+        "Frondley + Clackula",
+        "Larvaluss + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 14 hr 30 min, Enhanced Time: 1 day 22 hr 52 min 30 sec"
+    ]
+}

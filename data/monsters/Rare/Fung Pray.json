@@ -1,0 +1,16 @@
+{
+    "name": "Rare Fung Pray",
+    "description": "Rares of this species have embraced balance so much so that their headcaps shrivel away to reveal plant-like growth climbing skyward. This growth eventually extends all over their bodies, even prompting extra stridulatory limbs to sprout! They believe this represents an unfettering of the imagination, and a powerful connection to the Natural world - even though they're Ethereal!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Fung%20Pray.png?raw=true",
+    "etherealCost": "2000 Diamonds",
+    "islands": [
+        "ethereal",
+        "colossingum"
+    ],
+    "breedingCombo": [
+        "Jeeode + Humbug"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 5 hr, Enhanced Time: 1 day 15 hr 45 min"
+    ]
+}

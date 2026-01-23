@@ -1,0 +1,17 @@
+{
+    "name": "Rare Buzzinga",
+    "description": "Ever wondered why the Colossal Dulcettéa's eye can be seen rapidly rolling about beneath its lid? You have Rare Buzzinga to thank! This multiversal Mythical's strings resonate at the ideal frequency to act as white noise for Dulcettéa, inducing Rare Rapid Eye Movement (R.R.E.M.) sleep. During their slumber, the Fiery Queen Colossal experiences vivid and whimsical dreams filled with shiny, happy Monsters. This heightened neural activity while at rest is what gives Dulcettéa its unique ability to expand its conscious into far-flung planes of existence.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Buzzinga.png?raw=true",
+    "cost": "500 Diamonds",
+    "mythicalCost": "625 Diamonds",
+    "islands": [
+        "haven",
+        "mythical"
+    ],
+    "breedingCombo": [
+        "Reedling + Barrb"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 4 hr 45 min, Enhanced Time: 21 hr 33 min 45 sec"
+    ]
+}

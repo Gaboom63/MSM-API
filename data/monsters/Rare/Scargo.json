@@ -1,0 +1,19 @@
+{
+    "name": "Rare Scargo",
+    "description": "Around the gift-giving time of year, the Rare Scargo really comes into its own, and piles its creativity into fashioning imaginative toys and trinkets for its fellow Wublins. Its crowning achievements is the great big electro-Mon-cardio-snooks, an elaborate musical contraption that can be operated by several Monsters at once; but even at full strength, it can't compete with the decibel levels attainable by the Rare Scargo alone… oh, the noise, noise, noise, noise!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Scargo.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "3 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ],
+    "polarity": [
+        "Negative from: Rare Maulch, Negative toward: Rare Dermit, Positive from: Rare Blipsqueak, Positive toward: Rare Pixolotl"
+    ]
+}

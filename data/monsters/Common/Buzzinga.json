@@ -3,6 +3,7 @@
     "description": "All Mythicals have something in common - their very existence has been questioned and doubted throughout Monster World history. The Buzzinga is one such example, whose constant flitting about the various dimensions of the multiverse make it feel like little more than myth. However, it has a pretty good excuse: this Monster acts as a pollinator for the flowers of the Stablo Mjehurica World Tree! Tapping into its family's ability to open supersonic interdimensional highways, it collects the tree's nectar and contributes to the formation of whole new realities. When it's interested in settling down for a while, the Buzzinga finds respite in the scorching heat of the remains of the living core where this universe has its beginning all those eons ago.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Buzzinga.png?raw=true",
     "cost": "225 Diamonds",
+    "mythicalCost": "500 Diamonds",
     "islands": [
         "haven",
         "mythical"

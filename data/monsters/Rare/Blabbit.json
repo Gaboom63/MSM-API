@@ -1,0 +1,20 @@
+{
+    "name": "Rare Blabbit",
+    "description": "What do you do when you have the urge to steal - ahem, borrow - Monster eggs and paint them, but your fellow Monsters are wise to your hijinks? Do as the Rare Blabbit does: get organized. It's not unusual for this mustard-colored creature to be the mastermind behind fearless and inventive egg raids. It's also an expert at covering its tracks; its serpentine form leaves none to speak of! The Rare Blabbit's antics take some getting used to, but it assures us we'll soon learn to appreciate it.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Blabbit.png?raw=true",
+    "cost": "500 Diamonds",
+    "shantyPrice": "625 Diamonds",
+    "islands": [
+        "water",
+        "colossingum",
+        "gold",
+        "seasonal",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "Spunge + Scups"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced Time: 23 hr 48 min 45 sec"
+    ]
+}

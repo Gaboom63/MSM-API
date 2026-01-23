@@ -2,7 +2,7 @@
     "name": "Jerm (Major)",
     "description": "Each morning, the Jerm reflects on the passage of time… when perfectly on cue, something flits by its ear to remind it that it's not alone. It's never alone, in fact. Ever. The Cycle Paironormal exists in a state of constant genesis, effluxion, consumption, and regenesis. The fruiting bodies pocking the abdomen of Jerm gradually sap vitality from the main body, enervating the Monster, before expelling themselves in a flourish of whirlygigs. This process, while quite unusual, is a natural part of Jerm's lifecycle - and it's a delightful sonic experience to witness! These bodily expulsions germinate, grow, and eventually re-incorporate, or subsume the original Jerm body, forming the Monster anew. Jerm's auto-cultivation serves to harmonize the Monster's form, spirit, fortune and misfortune. Eventually, an ambitious excrescence will latch onto the Jerm's body, robbing it of the control it once had to fly freely. Cycles this Paironormal must continue to undergo in its Minor form lead to its despondent expression, probably due to the fairly uncomfortable process of pushing out soggier fruiting bodies in an ever-hardening abdomen and all over its underside where the 'tree' is attached. The circle of life can be beautiful, and sometimes very, very gloopy.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Jerm%20(Major).png?raw=true",
-    "cost": "4000 Diamonds",
+    "paironormalCost": "4000 Diamonds",
     "islands": [
         "paironormal"
     ],

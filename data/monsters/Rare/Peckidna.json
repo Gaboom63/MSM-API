@@ -1,0 +1,18 @@
+{
+    "name": "Rare Peckidna",
+    "description": "Most Monsters can be relied upon to reside in their habitat year-round, but this is not true of the Rare Peckidna. This Rare Magical's selective appearance is tied to the periodical life cycle of exceptionally uncommon insectoid critters. Instead of tiny birds perched on its dorsal spines, it is linked to the Cicadence, a term for the collective population of these bugs that perform a similar role in producing the Monster's music (thus preserving its position in the Playbackyderm family). Within a given brood, there's always a decent amount of diversity - different sizes and colors - but what the members of the Cicadence all have in common is that they'll bury themselves in the earth for extended periods of time. The Rare Peckidna will patiently synchronize its appearances with their emergence, and perform the delightful song that makes this species so instantly recognizable.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Peckidna.png?raw=true",
+    "cost": "250 Diamonds",
+    "islands": [
+        "bone",
+        "nexus",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Noggin + Clackula"
+    ],
+    "breedingTime": [
+        "Breeding Time: 12 hr 30 min, Enhanced Time: 9 hr 22 min 30 sec"
+    ],
+    "orbTime": "1 day 6 hr 30 min",
+}

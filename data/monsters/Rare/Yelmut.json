@@ -1,0 +1,18 @@
+{
+    "name": "Rare Yelmut",
+    "description": "Maybe it's a result of having spent too much time since being able to 'touch grass', but a certain group of bubblegum-pink Yelmuts are convinced that the Colossals have been awake this whole time and are actively reading their thoughts. That's why they've ditched their typical headgear and swapped them with tin foil hats (these ones are DEFINITELY hats), to protect their precious brainwaves. This unusual (some might say unhinged) belief traces its way back to the founder of the movement, a Rare Yelmut named Pocklebell famous for its unbridled imagination and alternate version of reality called Pocklebell's canon.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Yelmut.png?raw=true",
+    "cost": "N/A",
+    "starshop": "10000 Starpower",
+    "islands": [
+        "light",
+        "amber",
+        "mirror light"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
+    ]
+}

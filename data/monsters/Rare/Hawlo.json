@@ -1,0 +1,19 @@
+{
+    "name": "Rare Hawlo",
+    "description": "Living so far underground has its downsides, and one of those is seldom (if ever) seeing the sky. The striped subspecies of Hawlo, seeking to make the dimly-lit ambience of Bone Island more comfortable for all Monsters, crafts its disguise from the Azurewood tree. Staring at the grain of the wood produces a mesmerizing effect that mimics the actual blue sky far above, but staring too long induces a suggestible, hypnotic state in some. Best enjoyed in moderation.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Hawlo.png?raw=true",
+    "cost": "250 Diamonds",
+    "transposition": "10 Diamonds",
+    "islands": [
+        "bone",
+        "nexus",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Kayna + Clackula"
+    ],
+    "breedingTime": [
+        "Breeding Time: 12 hr 30 min, Enhanced Time: 9 hr 22 min 30 sec"
+    ],
+    "orbTime": "1 day 6 hr 30 min",
+}

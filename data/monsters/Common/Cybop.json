@@ -3,6 +3,7 @@
     "description": "Much more than mere gizmos, Cybops are deep thinkers, and vibrantly alive. Occasionally, Cybops need reminders that attempting to scavenge the body parts of other Monsters for personal repair is not socially acceptable.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Cybop.png?raw=true",
     "cost": "30 Diamonds",
+    "colossingumCost": "35 Diamonds",
     "islands": [
         "air",
         "water",

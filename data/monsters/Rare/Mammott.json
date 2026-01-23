@@ -1,0 +1,32 @@
+{
+    "name": "Rare Mammott",
+    "description": "Given the Mammott's range across several habitats, one can expect to catch the Common Cold Elemental many times. The Rare Mammott is a Monster of a different color; it is a master of hide-and-seek and uses its stripes to camouflage seamlessly with its surroundings. It's even been known to taunt other Monsters by using its talent to throw its rumbly voice halfway across an island. The most resourceful will learn that the Rare Mammott can be caught when given the Cold shoulder.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Mammott.png?raw=true",
+    "cost": "300 Coins",
+    "shugabushCost": "325 Diamonds",
+    "islands": [
+        "plant",
+        "cold",
+        "air",
+        "earth",
+        "gold",
+        "tribal",
+        "mirror plant",
+        "mirror cold",
+        "mirror air",
+        "mirror earth",
+        "shugabush",
+        "oasis",
+        "light",
+        "mirror light",
+        "faerie",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Any Three Element bred together."
+    ],
+    "breedingTime": [
+        "Breeding Time: 6 hr, Enhanced Time: 4 hr 30 min"
+    ],
+    "starshop": ["1000 Starpower"]
+}

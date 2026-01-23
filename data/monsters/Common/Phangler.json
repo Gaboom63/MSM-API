@@ -3,6 +3,7 @@
     "description": "Phanglers are destined for a life in the limelight! These Natural-born crooners live to perform, and their dulcet tones are frequently employees at all manner of shindigs. Don't get caught without live entertainment at your Anniversary Month party: book Phangler today!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Phangler.png?raw=true",
     "cost": "50 Relics",
+    "amberCost": "10 Relics",
     "islands": [
         "oasis",
         "psychic",

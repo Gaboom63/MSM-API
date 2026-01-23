@@ -1,0 +1,18 @@
+{
+    "name": "Rare Tuskski",
+    "description": "Back when the world was whole, a group of dauntless Tuskskis embarked on a voyage over the perilous mountains of the Cold Lands. They were seeking the optimal grove of conifers to engage in some ten-pine bowling, but ended up getting cut off from the rest of the Monster World for countless generations. Only recently in the contemporary era have they renewed contact, and it's obvious that the long-term exposure to the chilling cold of the mountains made these Cold Top Bosses even colder (if that's even possible). Now covered in a veritable forest of firs and their four ski-toenails replaced by two board-like plates, might they now more accurately be called Tusksnurfers? That'll take some getting used to.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Tuskski.png?raw=true",
+    "cost": "N/A",
+    "starshop": "15000 Starpower",
+    "islands": [
+        "faerie",
+        "amber",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 3 day 23 hr 30 min, Enhanced Time: 2 day 23 hr 37 min 30 sec"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Rare Repatillo",
+    "description": "Rare Repatillo sports a notably spikier silhouette than its Common cousin, though the use of these peculiar protrusions may surprise you! Embodying the Elements of both Plant and Earth, this Fiery Rare rolls into a compact little ball and tumbles across farmlands far and wide, tilling soil and aerating earth as it goes. Rare Repatillo's efforts help prepare the ground for new seeds to be planted each harvest season, at the relatively small cost of a brief dizzy spell.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Repatillo.png?raw=true",
+    "cost": "500 Diamonds",
+    "strarshop": "5000 Starpower",
+    "islands": [
+        "haven",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Shrubb + Kayna",
+        "Stogg + Potbelly",
+        "Flowah + Noggin"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 2 hr 30 min, Enhanced Time: 19 hr 52 min 30 sec"
+    ]
+}

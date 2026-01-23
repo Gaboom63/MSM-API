@@ -1,0 +1,9 @@
+{
+    "name": "eRmA gUrDy",
+    "description": "Each sentient being has its own 'inner world' - a place where it can retreat from the pressures of daily life. In the case of eRmA gUrDy - yes, that's its full name - no, the mixed case spelling is not negotiable - uh, where were we? Right - in the case of eRmA gUrDy, the Mutual Paironormal, 'inner world' takes on a completely different meaning. The Monster's entire body is made up of a viscous, organic substance that occurs naturally in the deepest parts of the Beyond, and which serves as a vivarium for other lifeforms from even deeper parts. In its Major 'eRmA' form, the five-limbed body shelters the smaller lifeforms, and in exchange, they facilitate the performance of delightful music by swirling around in the substance. A perfect example of sefless[sic] mutualism, with neither side in control of the other… but things aren't quite as rosy in its 'gUrDy' form. The environmental quirks of the Minor Carnival cause the substance to undergo a chemical transformation that dissolves its eyes, and suddenly the Monster decides to commandeer the living arrangement. In response, the lifeforms mount a defense and secrete hard 'teeth' that they use to try and burrow out of the substance. Ultimately, gUrDy gathers up the 'teeth' and strives to continue its musical performance, and the lifeforms begrudgingly act as the Monster's 'eyes' to navigate the walkways of the Carnival.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/eRmA gUrDy%20(Major).png?raw=true",
+    "paironormalCost": "3000 Diamonds",
+    "fuguingPrice": "250 Starpower",
+    "islands": ["paironormal"],
+    "breedingCombo": ["Hairionette + Shhimmer"]
+}

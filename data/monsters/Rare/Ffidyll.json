@@ -1,0 +1,19 @@
+{
+    "name": "Rare Ffidyll",
+    "description": "Monsters are naturally superstitious creatures, and perhaps none moreso than the Rare Ffidyll. In a departure from the carefree, fun-loving disposition of its Common cousin, this Monster is on the skittish side, and constantly on the lookout for any bad luck that may befall it. It's also a believer in the power of 'opposites' holding sway over one's fortunes - so while it can be coaxed out of hiding during Cloverspell, the Rare Ffidyll is actually most at ease at the opposite end of the calendar around the autumnal equinox.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Ffidyll.png?raw=true",
+    "cost": "225 Diamonds",
+    "shantyPrice": "625 Diamonds",
+    "islands": [
+        "faerie",
+        "seasonal",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Pladdie + Floot Fly",
+        "Schmoochle + Blabbit"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 7 hr 45 min, Enhanced Time: 23 hr 48 min 45 sec"
+    ]
+}

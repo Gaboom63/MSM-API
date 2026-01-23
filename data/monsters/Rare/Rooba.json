@@ -1,0 +1,22 @@
+{
+    "name": "Rare Rooba",
+    "description": "Living near a wide-open starscape has its advantages, specifically when it comes to tuning in to signals that broadcast across the Monster World. The eyeball critters that surround Psychic Island are remarkably effective relayers of DJ Epic's 'satellite channel,' which suits fellow Pomily member Rare Rooba just fine! This Magical Monster is a major 'Picsie (the DJ's fan club) and wishes it could attend every concert held in Club Box. Alas, Cruv'laapht's position in the upper atmosphere makes that a challenge, so the Rare Rooba has to settle for spacing out with homemade tie-dye, and playing along to the greatest hits with its trusty bow.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Rooba.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": [
+        "psychic",
+        "nexus",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Flowah + Theremind",
+        "Bonkers + Kayna",
+        "Yuggler + Potbelly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 1 hr 30 min, Enhanced Time: 19 hr 7 min 30 sec"
+    ],
+    "orbTime": [
+        "Orb Time: 1 day 19 hr 30 min"
+    ]
+}

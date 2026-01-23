@@ -2,7 +2,7 @@
     "name": "Sporerow",
     "description": "Plucked from the Air Mythical's bird-brained imagination, the Sporerow manifested from an imaginative mist into a thumping force. This Dreamythical will 'caw to arms' fungal hangers-on dubbed Shroomites to come together in an instinctive anthem that feels almost primal. As host to many other creatures and with room to spore... ahem, spare... this generous monster is the gift that keeps on giving.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Sporerow.png?raw=true",
-    "cost": "750 Diamonds",
+    "mythicalCost": "750 Diamonds",
     "islands": [
         "mythical"
     ],

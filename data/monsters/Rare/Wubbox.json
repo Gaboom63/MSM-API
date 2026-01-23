@@ -1,0 +1,33 @@
+{
+    "name": "Rare Wubbox",
+    "description": "Unlike the Common Wubbox, the Rare can be bought for a song - as long as you're singing the right tune. In this inactive state, it's hard to tell what physically differentiates the two Monsters, but the most striking contrast is the Rare Wubbox's modest bed count - it's only one! We're hoping to learn more once this cryptic creature is powered up with Monsters and awakens to share its song. Get going with the boxing! Your Common Natural Monsters just won't do - this picky customer only accepts Rares.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Wubbox.png?raw=true",
+    "cost": "N/A",
+    "starshop": "1 Starpower",
+    "islands": [
+        "plant",
+        "cold",
+        "air",
+        "water",
+        "earth",
+        "gold",
+        "ethereal",
+        "haven",
+        "oasis",
+        "wublin",
+        "mirror plant",
+        "mirror cold",
+        "mirror air",
+        "mirror water",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Box All Rare Monsters, And Power It Up!"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 12 hr , Enhanced 1 day 21 hr"
+    ],
+    "powerUpTime": [
+        "Forever, No Time Limit."
+    ]
+}

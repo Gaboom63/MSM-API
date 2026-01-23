@@ -1,0 +1,21 @@
+{
+    "name": "Rare Maulch",
+    "description": "For being little more than a hummock of soil, the Maulch sure is packed with personality. This inner vibrancy has a chance to manifest in an outer way when the transition into a Rare Maulch is complete, overlaying this 'late bloomer' with greenery and vivacity. The Monster is topped with an even more elaborate flower than the Common's, although the strain of keeping it sturdy and upright can lead to carpel tunnel syndrome.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Maulch.png?raw=true",
+    "cost": "N/A",
+    "islands": [
+        "Wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "polarity": [
+        "Negative from: Rare Poewk, Negative toward: Rare Scargo, Positive from: Rare Thwok, Positive toward: Rare Zuuker"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ],
+    "ascensionCost": [
+        "7 Keys"
+    ]
+}

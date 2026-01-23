@@ -1,0 +1,21 @@
+{
+    "name": "Rare Thumpies",
+    "description": "While these varieties of Thumpies can be found in some abundance in their home dimension, they very rarely cross over into the Monster World. The more familiar FurFacE and NoObiE subspecies are instead replaced by RawT and ReeCEsS, but all share a love for music and mischief!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Thumpies.png?raw=true",
+    "cost": "65 Diamonds",
+    "islands": [
+        "cold",
+        "earth",
+        "gold",
+        "mirror cold",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Dandidoo + Mammott",
+        "Pango + Potbelly",
+        "Furcorn + Tweedle"
+    ],
+    "breedingTime": [
+        "Breeding Time: 15 hr 30 min, Enhanced Time: 11 hr 37 min 30 sec"
+    ]
+}

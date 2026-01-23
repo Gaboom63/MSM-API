@@ -1,0 +1,22 @@
+{
+    "name": "Rare Humbug",
+    "description": "If the Element of Poison has a bit of a questionable reputation, this could be traced back to Rare Humbugs. Eschewing the typically amicable attitude of the Common Ethereal, they seem to delight in injecting their venom into poor Torchle Trees. The joke's on them, though - the trees actually lap it up and grow stronger as a result!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Humbug.png?raw=true",
+    "cost": "1500 Diamonds",
+    "etherealCost": "1900 Diamonds",
+    "islands": [
+        "earth",
+        "colossingum",
+        "ethereal",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Quarrister + Reedling",
+        "Quarrister + Thumpies",
+        "Quarrister + PomPom",
+        "Quarrister + Clamble"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 21 hr 30 min, Enahnced Time: 1 day 10 hr 7 min 30 sec"
+    ]
+}

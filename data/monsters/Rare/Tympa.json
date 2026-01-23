@@ -1,0 +1,19 @@
+{
+    "name": "Rare Tympa",
+    "description": "First unveiled while the stars of Immortal Jolt shone overhead, Rare Tympa's aesthetic is a perfect match for the blue, gloomy tones of Wublin Island and its surrounding Electrical storm. But there's no arguing that that hairdo is perfect for all seasons.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Tympa.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "14 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "polarity": [
+        "Negative from: Rare Thwok, Negative toward: Rare Blipsqueak, Positive from: Rare Poewk, Positive toward: Rare Gheegur"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

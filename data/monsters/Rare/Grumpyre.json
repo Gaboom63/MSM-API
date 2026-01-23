@@ -1,0 +1,23 @@
+{
+    "name": "Rare Grumpyre",
+    "description": "How does this Monster remain airborne with so many holes in its wings? Are those perforations the result of repeated run-ins with its own head spikes? Many questions swirl about this volitant being and the Rare Grumpyre finds it all very amusing. Or does it? Like the Common variety, this Monster's mood is difficult to interpret given its furrowed brow and fierce snarl. Oh, well - Shadow is as shadow does.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Grumpyre.png?raw=true",
+    "cost": "1500 Diamonds",
+    "etherealCost": "1900 Diamonds",
+    "shadowCost": "1500 Diamonds",
+    "islands": [
+        "cold",
+        "colossingum",
+        "ethereal",
+        "mirror cold"
+    ],
+    "breedingCombo": [
+        "Deedge + Spunge",
+        "Deedge + Thumpies",
+        "Deedge + Congle",
+        "Deedge + Bowgart"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 21 hr 30 min, Enhanced Time: 1 day 10 hr 7 min 30 sec"
+    ]
+}

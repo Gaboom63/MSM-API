@@ -1,0 +1,18 @@
+{
+    "name": "Rare Bowhead",
+    "description": "Ask anyone in the living ocean for their impression of Rare Bowhead, and they will all tell you the same thing: the Rare Water Top Boss is pure eye candy! Rare Bowhead is not shy about its vanity; to the Monster, a well-groomed appearance is an essential part of the unforgettable shows it performs for its adoring audiences. The Rare Quint's beauty ritual begins with a 7-step haircare routine to ensure its mane is marshmallowy soft; then it pampers itself with a fetching manicure, baleen whitening treatments and a final powdering of its bulbous melon. Showtime!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Bowhead.png?raw=true",
+    "cost": "N/A",
+    "starpower": "15000 Starpower",
+    "islands": [
+        "psychic",
+        "amber",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 3 day 23 hr 30 min Enhanced Time: 2 day 23 hr 37 min 30 sec"
+    ]
+}

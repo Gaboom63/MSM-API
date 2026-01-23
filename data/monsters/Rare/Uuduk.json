@@ -1,0 +1,20 @@
+{
+    "name": "Rare Uuduk",
+    "description": "Rare Uuduk spines stretch not into the soil, but instead worm their way through underground Pyrozite deposits. The older this Rare Magical gets, the longer it grows, and the more geodes become encrusted upon its back and within its durable blowhorns. After forcing itself through years of salt crystals the size of Quarristers, Rare Uuduk now tastes a salty breeze with each note it plays.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Uuduk.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": [
+        "bone",
+        "nexus",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Hawlo + Noggin",
+        "Peckidna + Kayna",
+        "Stogg + Clackula"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 1 hr 30 min, Enhanced Time: 19 hr 7 min 30 sec"
+    ],
+    "orbTime": "1 day 19 hr 30 min",
+}

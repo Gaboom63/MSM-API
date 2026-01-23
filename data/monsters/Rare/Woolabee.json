@@ -1,0 +1,19 @@
+{
+    "name": "Rare Woolabee",
+    "description": "Baa, baa, Rare Woolabee, have you any wool? Yes sir, yes sir, 3 Elements full! The dark-as-night Rare Woolabee considers itself the black sheep of its flock thanks to its preference for spiky over soft and punk over puff. But like all Woolabees, even this Rare cousin is never truly alone! Rare Woolabee attracts a special bird that, like its host Monster, enjoy interests that are off the beaten path.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Woolabee.png?raw=true",
+    "cost": "500 Diamonds",
+    "starshop": "5000 Starpower",
+    "islands": [
+        "oasis",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Pango + Kayna",
+        "Boskus + Tweedle",
+        "Glowl + Mammott"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 2 hr 30 min, Enhanced Time: 19 hr 52 min 30 sec"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Rare Stogg",
+    "description": "What does the all-seeing Rare Stogg perceive with those glorious peepers, you may ask? A shining symphony of sound waves and light, more beautiful than anything its Common cousins could imagine. In an effort to share its experience, Rare Stoggs have taken to creating abstract illustrations using bioluminescent paints.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Stogg.png?raw=true",
+    "cost": "250 Diamonds",
+    "starshop": "2500 Starpower",
+    "islands": [
+        "haven",
+        "faerie",
+        "bone",
+        "amber",
+        "mirror faerie",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Noggin + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 13 hr 30 min, Enhanced Time: 10 hr 7 min 30 sec"
+    ]
+}

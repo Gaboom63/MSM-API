@@ -3,6 +3,8 @@
     "description": "Mammotts luxurious fur ensures that these Cold elementals are never chilly. Tangles, however, are an ongoing issue. Their resonant anthem celebrates blizzards and frosted windows. Mammotts do not shovel snow.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Mammott.png?raw=true",
     "cost": "300 Coins",
+    "shugabushCost": "250 Diamonds",
+    "colossingumCost": "25 Diamonds",
     "islands": [
         "plant",
         "cold",

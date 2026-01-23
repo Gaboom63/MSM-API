@@ -4,5 +4,9 @@
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Tapricorn.png?raw=true",
     "cost": "300 Diamonds",
     "islands": ["psychic", "nexus", "mirror psychic"],
-    "breedingCombo": ["Oaktopus + Theremind", "Poppette + Potbelly", "Bonkers + Toe Jammer"]
+    "breedingCombo": ["Oaktopus + Theremind", "Poppette + Potbelly", "Bonkers + Toe Jammer"],
+    "breedingTime": [
+        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+    ],
+    "orbTime": "1 day 10 hr",
 }

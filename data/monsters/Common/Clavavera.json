@@ -3,6 +3,7 @@
     "description": "The statuesque Clavavera cuts a dashing figure wherever it appears, but it's best-known for the unique effects that the sound of its special, dexterous fingers can produce. When struck together, the bright, clean tone this Clackula relative makes can cause all those in the vicinity to perceive and interact with Monster ancestors from bygone eras. The spirits, who have passed on to the 'Beat Hereafter,' recount stories of glorious songs of yore and reassure their descendants that any Monster, living or departed, can tune in to the 'heartbeat of forever' if they're only listening. The Clavavera keeps the exact nature of the Beat Hereafter mostly to itself.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Clavavera.png?raw=true",
     "cost": "225 Diamonds",
+    "shantyPrice": "500 Diamonds",
     "islands": [
         "bone",
         "seasonal",

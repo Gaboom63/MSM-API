@@ -1,0 +1,11 @@
+{
+    "name": "Rare Tweedle",
+    "description": "Like their Common cousins, Rare Tweedles circulate gossip and rumors with much gusto. As they flit from tree to tree, sap, leaves and other debris become wound around their antlers and coalesce. Never ones to miss an opportunity, they then harvest the malleable material and use it for craft-making (macrame is a popular medium). It's still up in the Air whether these artworks actually carry secret messages that only a fellow Rare Tweedle can understand.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Tweedle.png?raw=true",
+    "cost": "75 Diamonds",
+    "islands": ["cold", "air", "water", "earth", "colossingum", "gold", "haven", "oasis", "tribal", "composer", "mirror cold", "mirror air", "mirror water", "mirror earth"],
+    "breedingCombo": ["Cold: Deedge + Tweedle", "Air: Riff + Tweedle", "Water: Shellbeat + Tweedle", "Earth: Quarrister + Tweedle", "Haven: Tring + Tweedle", "Oasis: Sneyser + Tweedle"],
+    "breedingTime": [
+        "Breeding Time: 6 hr, Enhanced Time: 4 hr 30 min"
+    ]
+}

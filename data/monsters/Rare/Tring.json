@@ -1,0 +1,23 @@
+{
+    "name": "Rare Tring",
+    "description": "The colorful crystals encrusted in the canary-yellow body of Rare Tring reveal visions of the future to all who gaze within. Its bulbous head is swimming with ominous omens and precious prophecies, which the fortune teller will happily reveal... for the small fee of one serving of Yum Yum taffy.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Tring.png?raw=true",
+    "cost": "750 Diamonds",
+    "starshop": "7500 Starpower",
+    "islands": [
+        "haven",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Stogg + Dandidoo",
+        "Shrubb + Glowl",
+        "Flowah + Cybop",
+        "Reedling + Kayna",
+        "Floogull + Potbelly",
+        "Barrb + Noggin",
+        "Repatillo + Tweedle"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 4 hr 30 min, Enhanced Time: 1 day 15 hr 22 min 30 sec"
+    ]
+}

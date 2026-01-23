@@ -1,0 +1,21 @@
+{
+    "name": "Rare Fiddlement",
+    "description": "Got a petty crime that needs solving? Rare Fiddlement is on the case! This observant Rare Magical has successfully channeled the Light Element into a concentrated beam of Ultra-Spy-olet rays that illuminates telltale traces left behind by unwitting Monsters, critters, and culprits. Slobber from a drooling Gob? Check. Puffs of Wimmzy mist? Noted. Flowah petal pollen? Achoo- You get it! Whatever your preposterous case or pesky prankster, Rare Fiddlement's keen blue gaze is following the trail.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Fiddlement.png?raw=true",
+    "cost": "500 Diamonds",
+    "transposition": "20 Diamonds",
+    "islands": [
+        "light",
+        "nexus",
+        "mirror light"
+    ],
+    "breedingCombo": [
+        "Pluckbill + Mammott",
+        "Boskus + Fluoress",
+        "Bulbo + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 1 hr 30 min, Enhanced Time: 19 hr 7 min 30 sec"
+    ],
+    "orbTime": "1 day 19 hr 30 min",
+}

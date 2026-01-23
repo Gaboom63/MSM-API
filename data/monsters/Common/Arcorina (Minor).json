@@ -3,6 +3,8 @@
     "description": "Arcorina is representative of the Ruin Element... but just like the Paironormal class itself, there is a duality and ambiguity to the interpretation of this Element's name. You see, most Monster scholars take it at face value and believe that 'Ruin' refers to a slow-moving process - namely, the pristine perfection of Arcorina's Major form gradually falling victim to erosion and the inexorable march of time, ultimately dilapidating into the Minor. A much smaller group of academics contends that this is a case of linguistic homophony; that 'Rune' is the superior discernment of Arcorina's Element, given the cryptic markings that flash across the bodies of both forms as they play. What do they, in turn, represent? Those same academics admit they haven't the foggiest. For now, the Ruin/Rune debate skews to the former, which is at least supported by Arcorina's own architectural resonance - it's quite often mistaken for a Structure, even as its many hands perform their hypnotic dance.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Arcorina%20(Minor).png?raw=true",
     "cost": "1100 Diamonds",
+    "paironormalCost": "3500 Diamonds",
+    "fuguingTime": "100 Starpower",
     "islands": [
         "mirror bone",
         "paironormal"

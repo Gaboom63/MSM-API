@@ -1,0 +1,24 @@
+{
+    "name": "Rare Clamble",
+    "description": "The feathered Rare Clambles perceive themselves as the destined protectors of the Monster realm (although what the Monster realm needs protection from, no one is sure). They forge and fortify their cast-off plates into pieces of armor they don to appear more formidable. In truth, their bark is worse than their bite, and it could be that these Monsters just enjoy dressing up.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Clamble.png?raw=true",
+    "cost": "65 Diamonds",
+    "islands": [
+        "plant",
+        "earth",
+        "colossingum",
+        "gold",
+        "tribal",
+        "composer",
+        "mirror plant",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Drumpler + Potbelly",
+        "Furcorn + Noggin",
+        "Shrubb + Mammott"
+    ],
+    "breedingTime": [
+        "Breeding Time: 15 hr 30 min, Enhanced Time: 11 hr 37 min 30 sec"
+    ]
+}

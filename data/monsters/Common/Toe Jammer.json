@@ -3,6 +3,7 @@
     "description": "While Toe Jammers may appear fragile, these rubbery Water elementals are very tough. Toe Jammers sing of liquid wonders: deep sea leviathans, crashing surf, flooded basements, and bubble tea!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Toe%20Jammer.png?raw=true",
     "cost": "250 Coins",
+    "colossingumCost": "25 Diamonds",
     "islands": [
         "plant",
         "cold",

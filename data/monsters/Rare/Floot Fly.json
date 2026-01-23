@@ -1,0 +1,21 @@
+{
+    "name": "Rare Floot Fly",
+    "description": "This winged Monster is rarely seen, but often heard, as it glides swiftly across the evening sky and flutes its fanciful tune on nights that host a full moon. The Rare Floot Fly's compositions nimbly whirl through the beak of its precious porcelain mask, tranquilizing even the most frenzied creatures of the night. Decorated to the nines with magnificent golden cuffs, the triple-horned Monster may have the appearance of a well-to-do guest at a fancy masquerade ball, but looks can be deceiving.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Floot Fly.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "faerie",
+        "sanctum",
+        "nexus",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Buy From Shop",
+        "Pladdie + Floot Fly",
+        "Enchantling + Floot Fly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 8 hr, Enhanced Time: 6 hr"
+    ],
+    "orbTime": "1 days 2 hr",
+}

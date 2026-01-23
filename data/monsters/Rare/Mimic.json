@@ -1,0 +1,16 @@
+{
+    "name": "Rare Mimic",
+    "description": "Previously believed to have gone extinct, the Rare Mimic has made a miraculous return to the modern Monster World! Or has it? It's perplexing at best to attempt to classify the Air Quint's subspecies and variant forms, because of the Monster's ability to shapeshift to impersonate (imMonsterate?) others. Adding to the bafflement are recently-published scientific studies that purport that certain Monsters that have long been understood to be distinct species are actually just Mimics in disguise? Or maybe they decided to settle into a new form (and Class!) and stay that way forever? Even that part of the theory is convoluted. Rare Mimics are, at minimum, still identifiable as Mimics, even if some attributes have been tweaked.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Mimic.png?raw=true",
+    "cost": "N/A",
+    "starshop": ["15000 Starpower"],
+    "islands": [
+        "oasis"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 3 day 8 hr, Enhanced Time: 2 day 12 hr"
+    ]
+}

@@ -3,6 +3,8 @@
     "description": "The wise Jeeode is renowned for its ability to see all sides of a situation. Harnessing the Ethereal power of Crystal, it pictures each scenario as sitting in the center of a giant prism, looking at each facet one at a time. Then, it somehow creates a solution that leaves everyone smiling. Because of this refined perspective, Jeeodes are first-rate instrumentalists, never missing a note.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Jeeode.png?raw=true",
     "cost": "1000 Diamonds",
+    "etherealCost": "1500 Diamonds",
+    "colossingumCost": "1050 Diamonds",
     "islands": [
         "water",
         "colossingum",

@@ -1,0 +1,19 @@
+{
+    "name": "Rare Shellbeat",
+    "description": "Finally - the Rare Shellbeat has been revealed! This especially bashful being only emerges once in a blue moon, so great care must be taken to make sure it feels welcome among its fellow Monsters. Once it's settled in a jam session, the Rare Shellbeat has been known to produce pearls of exceptional quality from its unique shell, which it gives away as presents! This curious Quad-Element often contemplates the nature of the Monster World, and the possibility of alternate universes. If it's learned anything, it has so far decided to keep the secrets to itself.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Shellbeat.png?raw=true",
+    "cost": "200 Diamonds",
+    "islands": [
+        "water",
+        "gold",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "Dandidoo + Fwog",
+        "Cybop + Oaktopus",
+        "Quibble + Shrubb"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 6 hr 30 min, Enhanced Time: 22 hr 52 min 30 sec"
+    ]
+}

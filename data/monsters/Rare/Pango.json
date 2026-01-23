@@ -1,0 +1,22 @@
+{
+    "name": "Rare Pango",
+    "description": "While still flightless and prone to cold, the Rare Pango is, at the very least, a bit more resourceful than its Common cousin. Using its elongated talons, it carves and shapes blocks of ice to create igloos to take refuge in during snowstorms. Its ornate crest and patterned plumage are eye-catching, but they do little to improve the low self-esteem shared by all Pangos.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Pango.png?raw=true",
+    "cost": "40 Diamonds",
+    "islands": [
+        "cold",
+        "air",
+        "earth",
+        "gold",
+        "oasis",
+        "mirror cold",
+        "mirror air",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Tweedle + Nogging"
+    ],
+    "breedingTime": [
+        "Breeding Time: 10 hr 30 min, Enhanced Time: 7 hr 52 min 30 sec"
+    ]
+}

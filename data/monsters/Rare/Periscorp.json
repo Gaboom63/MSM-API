@@ -1,0 +1,20 @@
+{
+    "name": "Rare Periscorp",
+    "description": "While the Rare Periscorp still shares a connection with Psychic Island's eyeball critters, you wouldn't immediately know it to look at it. Yellow orbs have evolved into dark beady eyes, obscuring the true intent and focus of this Rare Magical. It still relays audio soundbites from critter footage - but now, for the first time, there are names associated with the various vibrations the Monster produces! Rumble-rumps is the term to describe the sound of the stingers striking the dorsal sacs; crunch rolls refer to the rattling of its quadruple specialized limbs (two more than the Common possesses); and finally, the grind-revs are a catch-all for anytime the Monster jumps or skids across the surface of its home island. Where could this information come in handy? Well, it might just come up in a trivia quiz - you never know!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Periscorp.png?raw=true",
+    "cost": "300 Diamonds",
+    "islands": [
+        "psychic",
+        "nexus",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Phangler + Theremind",
+        "Poppette + Kayna",
+        "Yuggler + Toe Jammer"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 1 hr 30 min, Enhanced Time: 19 hr 7 min 30 sec"
+    ],
+    "orbTime": "1 day 19 hr 30 min",
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Rare HippityHop",
+    "description": "Rare HippityHops strive to produce the purest, cleanest mouthy beats possible, without any rustling or flapping of its droopy sleeve furthers. That's why these Rare Magicals have evolved tiny serrations on the edges of their furthers that help break up the flow of air over its arms and body and reduce excess noise. They also sprout a secondary set of ears, all tipped with the same sensory organs used to navigate their underground tunnels - except these ones fold downwards, pointing at their facial discs to provide valuable acoustic feedback in performance mode.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare HippityHop.png?raw=true",
+    "cost": "250 Diamonds",
+    "transposition": "10 Diamonds",
+    "islands": [
+        "faerie",
+        "nexus",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Noggin + Floot Fly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 12 hr 30 min, Enhanced Time: 9 hr 22 min 30 sec"
+    ],
+    "orbTime": "1 day 6 hr 30 min",
+}

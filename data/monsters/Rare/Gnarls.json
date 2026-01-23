@@ -1,0 +1,18 @@
+{
+    "name": "Rare Gnarls",
+    "description": "Plants and sunlight - name a more iconic duo. But what becomes of subterranean vegetation that begins its life cycle deep underground? Rare Gnarls hold the answer. Their garishly coloured leaves and tentacles stand out in the dark, making it easier to locate one another and pair off before seeking a shared host. Host trees are similarly ostentatious, having evolved amber hued foliage to remind themselves of the changing seasons aboveground. Once they have fully matured and fused with an arboreal ally, Rare Gnarls are free to explore the sunlit lands above (or stick around the cavernous depths below, if they so choose). Though the cave-dwelling host trees have developed brittle, papery lenticels encasing their silvery bark, their limbs are no less strong than those hijacked by Rare Gnarls' Common cousins. Plus, they ooze some pretty tasty sap - try it sometime as an energy drink for your workouts!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Gnarls.png?raw=true",
+    "cost": "N/A",
+    "starshop": "15000 Starpower", 
+    "islands": [
+        "bone",
+        "amber",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Buy From Shop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 3 day 23 hr 30 min, Enhanced Time: 2 day 23 hr 37 min 30 sec"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Rare Dermit",
+    "description": "For the creation of Rare Dermit, the Wubbox decided to spice things up and incorporate an existing organic material into its genetic makeup - the parasitic pathogen RitRawt. The extent to which the fungus has completely overwhelmed the physiology of this Wublin was perhaps unforeseen... but thankfully the mushroom-laden Monster seems unfazed, and is as willing as ever to boogie down: or is that the influence of the RitRawt?!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Dermit.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "3 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "polarity": [
+        "Negative from: Rare Scargo, Negative toward: Rare Gheegur, Positive from: Rare Zynth, Positive toward: Rare Thwok"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

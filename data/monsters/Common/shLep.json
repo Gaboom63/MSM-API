@@ -2,7 +2,7 @@
     "name": "shLep",
     "description": "For being such a wholesome-looking Monster itself, the Oasis Mythical must surely have some unusual dreams sometimes! That's the only reasonable explanation for the shLep, drawn from an extravagant imagination and brought into being in the dreamspace. Maybe it's a warped manifestation of a Blubberfly, incited by erstwhile desires for a little personal time? Some have proposed that the shLep is inspired by a memorable but noisy encounter with a denizen of the eclectically-populated coral reefs of the living ocean. For better or worse, this listless Dreamythical is now a permanent companion on Mythical Island, so best try to get along!",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/shLep.png?raw=true",
-    "cost": "750 Diamonds",
+    "mythicalCost": "750 Diamonds",
     "islands": [
         "mythical"
     ],

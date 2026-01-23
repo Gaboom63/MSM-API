@@ -1,0 +1,14 @@
+{
+    "name": "Fandhul",
+    "description": "The following is an excerpt retrieved from the Monster development journals of an unidentified Colossal, chronicling some of their earliest recorded efforts in the pocket dimension: Acts of 'Fandhul'-ism (what we're calling work on the Core Cold Elemental) have been put on ice (couldn't resist). The team agrees that the final design is within reach - attributes like a furry body and oversized hands/feet are popular - but we've reached an impasse when it comes to stabilizing those very hands. Mammoth mitts are needed for optimal snowball fight prowess, but their heftiness necessitates outfitting the Monster's arms with robotic sleeves. Z has no objection (they love all that), but it doesn't match the greater vision. Although Z still insists that a hexapedal body plan for a Cold Elemental would be, and I quote, Epic, proposed direction is to simplify greatly and pare back the number of limbs. Seemingly added much later, another Colossal's notes have been scribbled in the margin: Perusing the initial notes, the expression 'within reach' was the inspiration for Fandhul's reimagined form. Why struggle with reinforcing arms to support hands when you can rework the hands entirely? Replicating the Colossal ability to project parts of consciousness into hand form, the updated Fandhul eschews arms entirely and simply crafts cryokinetic extensions of itself that can clap and rub to make its music! When the Cold Primordial needs to bulk up its snowy paws, it need only emit frozen breath. The Fandhul's innate craftiness has only been augmented now that it has no fingerprints, but fortunately, it seems less fixated on underhanded deeds and more on… fantasy sports?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Fandhul.png?raw=true",
+    "cost": "N/A",
+    "shadowCost": "5000 Diamonds",
+    "islands": [
+        "shadow"
+    ],
+    "breedingCombo": ["N/A"],
+    "synthesisTime": [
+        "Success: 2 day 2 hr"
+    ]
+}

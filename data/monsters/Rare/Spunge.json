@@ -1,0 +1,22 @@
+{
+    "name": "Rare Spunge",
+    "description": "TThere's more to the Rare Spunge than meets the eye: it is a full-scale mutation of the regular Monster, recognizable by its superfluous eye, limbs and leaf sprig. In lieu of fresh clean Water, it emits a viscous ooze at passersby which, if they're unlucky enough to get some in their mouth, is absolutely revolting in flavor. In an unusual twist of fate, the Rare Spunge suffers from dry eyes, and must hydrate them by being especially blinky.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Spunge.png?raw=true",
+    "cost": "65 Diamonds",
+    "starshop": "2500 Starpower",
+    "islands": [
+        "cold",
+        "water",
+        "gold",
+        "mirror cold",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "Dandidoo + Toe Jammer",
+        "Quibble + Potbelly",
+        "Oaktopus + Tweedle"
+    ],
+    "breedingTime": [
+        "Breeding Time: 15 hr 30 min, Enhanced Time: 11 hr 37 min 30 sec"
+    ]
+}

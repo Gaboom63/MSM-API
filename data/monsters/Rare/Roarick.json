@@ -1,0 +1,15 @@
+{
+    "name": "Rare Roarick",
+    "description": "When shall these Elements meet again? With Bone and Light, or in vain? When the Sanctum song is done, when the music's power has won. That will be ere the time for fun! Where the place? Within the Pocket. Safe within its silent socket. I come, Grayskullkin. Sporadic calls. A yawn. Rare is foul, and foul is Rare; check out this weird sister's hair!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Roarick.png?raw=true",
+    "cost": "300 Diamonds",
+    "islands": [
+        "sanctum"
+    ],
+    "breedingCombo": [
+        "Clackula + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 2 hr 30 min, Enhanced Time: 19 hr 52 min 30 sec"
+    ]
+}

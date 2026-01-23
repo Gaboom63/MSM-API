@@ -1,0 +1,19 @@
+{
+    "name": "Rare Astropod",
+    "description": "Over time, routine exposure to the heavenly sights and sounds of Gold Island's higher plane have seeped into the Wubbox's design sensibilities... made abundantly apparent in the Rare Astropod! Its jade green tones of its skin and shell evoke the shimmering surfaces of the Crystal Castle, and auric highlights call to mind the lustre of Gold Island's metallic ornamentation. ",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Astropod.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "10 Keys",
+    "islands": [
+        "Wublin"
+    ],
+    "breedingCombo": [
+        "Power Up Common Form"
+    ],
+    "polarity": [
+        "Negative form: Rare Brump, Negative toward: Rare Zynth, Positive from: Rare Bona-Petite, Positive toward: Rare Dwumrohl"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

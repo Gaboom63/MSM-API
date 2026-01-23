@@ -1,0 +1,18 @@
+{
+    "name": "Rare Gob",
+    "description": "Unlike the hydrophobic exterior of its Common cousin, the Rare Gob's dermal tissue is hydrophilic and allows for dewdrops to arrange themselves into neat configurations for later consumption. Aside from their internal organs, Rare Gobs have an active interest in multi-instrumentalism and love to dabble with whatever musical objects they find around them. Given the unique anatomy of this Rare Magical, this can be challenging... and sometimes amounts to little more than loudly singing in the direction of said objects.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Gob.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "light",
+        "nexus",
+        "mirror light"
+    ],
+    "breedingCombo": [
+        "Potbelly + Fluoress"
+    ],
+    "breedingTime": [
+        "Breeding Time: 12 hr 30 min, Enhanced Time: 9 hr 22 min 30 sec"
+    ],
+    "orbTime": "1 day 6 hr 30 min",
+}

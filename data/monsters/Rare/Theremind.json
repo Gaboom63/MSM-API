@@ -1,0 +1,22 @@
+{
+    "name": "Rare Theremind",
+    "description": "Science tells us that one day, we might be able to shed our physical forms and exist solely in our minds... but Rare Theremind may have gotten a little 'ahead' of itself. The well-intentioned but overly-ambitious Rare of this species attempted to speed up its evolution, outgrow its body, and live via astral projection. This endeavor was only half-successful, and the Monster was forced to resume occupancy of its former body with a little help from some Magical reanimation. A lesson to us all to exercise both our minds and our bodies.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Theremind.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "psychic",
+        "sanctum",
+        "nexus",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Gloptic + Theremind",
+        "Enchantling + Theremind"
+    ],
+    "breedingTime": [
+        "Breeding Time: 8 hr, Enhanced Time: 6 hr"
+    ],
+    "orbTime": [
+        "Orb Time: 1 day 2 hr"
+    ]
+}

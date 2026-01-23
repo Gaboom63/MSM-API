@@ -4,5 +4,9 @@
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Withur.png?raw=true",
     "cost": "300 Diamonds",
     "islands": ["bone", "nexus", "mirror bone"],
-    "breedingCombo": ["Denchuhs + Noggin", "Peckidna + Toe Jammer", "Fwog + Clackula"]
+    "breedingCombo": ["Denchuhs + Noggin", "Peckidna + Toe Jammer", "Fwog + Clackula"],
+    "breedingTime": [
+        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+    ],
+    "orbTime": "1 day 10 hr",
 }
