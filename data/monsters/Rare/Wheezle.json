@@ -1,0 +1,15 @@
+{
+    "name": "Rare Wheezle",
+    "description": "Because the Earth Mythical can rip through the fabric of reality just as easily as it can stitch up its own plush pelt, it had run into all manner of Thumpies (themselves dimensional travelers) long before reuniting on Earth Island. Admired for their own brand of mischief, the Thumpies made a lasting impression, even working their way into the dreams of the Earth Mythical over time. Of course, dreams have a tendency to distort details, and this is definitely what happened with the Rare Wheezel. A variation on the 'odd-ball' spherical form of Thumpies, the Monster's rubbery limbs dangle at odd angles, breaking up the silhouette. This Rare Dreamythical is imagined to originate from a 'swampy bog that time forgot' and is so wild that it requires incarceration within a wooden crate at all times. Not even a crowbar, thrust headlong through the center of the crate, can subdue it - although this could be one of those 'magic tricks' for which the Earth Mythical is famous.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Wheezle.png?raw=true",
+    "mythicalCost": "1100 Diamonds",
+    "islands": [
+        "mythical",
+    ],
+    "breedingCombo": [
+        "Cataliszt + Hyehehe"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 22 hr 15 min, Enhanced Time: 1 day 10 hr 41 min 15 sec"
+    ]
+}
