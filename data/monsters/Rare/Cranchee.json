@@ -2,7 +2,7 @@
     "name": "Rare Cranchee",
     "description": "Frilly and flouncy, Rare Cranchee is the hoity toitiest Rare Dreamythical around! Whereas the Common Cranchee's crankitude comes from its standoffish nature, Rare Cranchee's haughty demeanor is pure snobbery. If you cannot match its sophisticated taste in the arts, it will not even lift an eyelid to gaze upon you! The quickest way to thaw its frosty nature is to discuss its precious collection of ceramics. Why does it so prize these porcelain pieces, you ask? Why, because they resemble its own elegant coloring, of course! ",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Cranchee.png?raw=true",
-    "cost": "1100 Diamonds",
+    "mythicalCost": "1100 Diamonds",
     "islands": [
         "mythical"
     ],

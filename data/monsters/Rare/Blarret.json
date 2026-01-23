@@ -3,6 +3,8 @@
     "description": "Amateur Monster World explorers often misidentify and misclassify Monsters when encountering them for the first time in the field, and few have fallen victim to this more often than the Rare Blarret. Hurried sketches and blurry images of this misty Monster have been found alongside other long-necked (and often purely fabricated) 'discoveries' in the field journals. Rather than poking its long neck out of the earth and coughing out a tune, the Rare Blarret has its head in the clouds. Drawing more on its Shadow- and Poison-Element lineage, this airy Rarethereal feels particularly ephemeral, like it can billow up out of nowhere and blow away with the breeze.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Blarret.png?raw=true",
     "cost": "3200 Diamonds",
+    "plasmaCost": "3500 Diamonds",
+    "shadowCost": "3500 Diamonds",
     "islands": [
         "workshop",
         "plasma"
@@ -15,5 +17,8 @@
     ], 
     "synthesisTime": [
         "N/A"
+    ],
+        "tuningUpCost": [
+        "Rare Plasma Meeb + Rare Shadow Meeb + Rare Poison Meeb"
     ]
 }

@@ -3,6 +3,7 @@
     "description": "Versatile Scups can readily adhere to most any surface when the need arises. Generally, it prefers to remain on the Earth, as its Water-filled body is quite heavy. The Scups' remarkable feet use Air to produce a call that can travel vast distances.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Scups.png?raw=true",
     "cost": "50 Diamonds",
+    "colossingumCost": "60 Diamonds",
     "islands": [
         "air",
         "water",

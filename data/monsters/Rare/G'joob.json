@@ -3,6 +3,7 @@
     "description": "Within any given gathering (or 'mersey') of G'joobs, there are always one or two Monsters that want to strike out on their own and be different. Over time, these 'solo acts' start manifesting unique traits to help them stand apart, like leopard spots and ornate horns. Most elaborate among these embellishments are no doubt the adornments on the Rare Mythical's respiratory tusks, and the wing-tipped moustache - nicknamed 'Wings' for short. Despite all these changes, some Monsters still prefer the look of the original. G'figure.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare G_joob.png?raw=true",
     "cost": "500 Diamonds",
+    "mythicalCost": "625 Diamonds",
     "islands": [
         "plant",
         "mythical",

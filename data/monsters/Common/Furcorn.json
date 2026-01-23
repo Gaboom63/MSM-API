@@ -4,6 +4,7 @@
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Furcorn.png?raw=true",
     "cost": "30 Diamonds",
     "shugabushCost": "300 Diamonds",
+    "colossingumCost": "35 Diamonds",
     "islands": [
         "plant",
         "cold",

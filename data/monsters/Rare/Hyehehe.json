@@ -3,6 +3,7 @@
     "description": "More timid than its Common cousin, Rare Hyehehe leans on slapstick to break the ice! Its arsenal of props includes its extra-slippery Slip-ons on its feet, guaranteed to make you 'peel' over in laughter. This rascally Rare will do anything to have you (and itself!) in stitches, even if it means tearing the very fabric of reality. Prone to losing its special stuffing, this Mythical has become an unexpectedly talented tailor, and even offers to patch up Costumes or beloved stuffed toys for its fellow Monsters. You won't want to miss Rare Hyehehe's clumsy clownery, though some of its more experimental jokes are a little...underripe.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Hyehehe.png?raw=true",
     "cost": "500 Diamonds",
+    "mythicalCost": "625 Diamonds",
     "islands": [
         "earth",
         "mythical",

@@ -3,6 +3,7 @@
     "description": "Emerging from its muddy birthplace, the Fwog sings passionately in the hope of attracting a companion. Its hypnotic call fills the air, stirring the most primal feelings of excitement in all Monsters.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Fwog.png?raw=true",
     "cost": "30 Diamonds",
+    "colossingumCost": "35 Diamonds",
     "islands": [
         "plant",
         "air",

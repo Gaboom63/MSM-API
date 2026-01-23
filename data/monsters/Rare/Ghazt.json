@@ -3,6 +3,8 @@
     "description": "Trying to get a Ghazt is akin to catching smoke with your hands. So you can imagine that trying to get your hands on a Rare Ghazt is like trying to catch a particular puff of smoke that floats by once in a blue moon, with your hands... while blindfolded. This centaurine 'Rarethereal' is the crowning jewel of any Monster collection.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Ghazt.png?raw=true",
     "cost": "1500 Diamonds",
+    "etherealCost": "1900 Diamonds",
+    "plasmaCost": "1500 Diamonds",
     "islands": [
         "plant",
         "colossingum",

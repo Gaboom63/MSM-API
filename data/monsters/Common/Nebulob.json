@@ -2,7 +2,10 @@
     "name": "Nebulob",
     "description": "The little-understood Nebulob is one of the few Monsters born without a predisposition to music. Instead, it is something that the Nebulob works on all its life, constantly researching new and exciting genres to learn from and experiment with. The elaborate exo-suit it dons aids in the creation of its own special style, a dulcet mix of machine and spirit. If pressed, the Nebulob will confess its favorite musical genre as 'Rhythm & Ooze.'",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Nebulob.png?raw=true",
-    "cost": "1250 Diamonds",
+    "etherealCost": "1250 Diamonds",
+    "plasmaCost": "2000 Diamonds",
+    "mechCost": "2000 Diamonds",
+    "colossingumCost": "1350 Diamonds",
     "islands": [
         "ethereal",
         "colossingum",

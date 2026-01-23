@@ -3,6 +3,8 @@
     "description": "Rare Gaddzooks are plucky ones, to be sure. This precocious Monster is seen as a mischievous meddler by those around it, always getting into other Mons' business. With their meticulous movements, and perfect synchronicity, the Rare Gaddzooks are always at the ready with a freshly-hatched scheme. It's all a misunderstanding, of course; spending time and singing along with its best friend is what Rare Gaddzooks love the most. This matchmaking Monster wants nothing more than to help everyMon find their special someone, just like it did with Rare Yooreek.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Gaddzooks.png?raw=true",
     "cost": "3300 Diamonds",
+    "plasmaCost": "3500 Diamonds",
+    "mechCost": "3500 Diamonds",
     "islands": [
         "workshop",
         "plasma",
@@ -16,5 +18,8 @@
     ],
     "synthesisTime": [
         "N/A"
+    ],
+    "tuningUpCost": [
+        "Rare Plasma Meeb + Rare Mech Meeb + Rare Crystal Meeb"
     ]
 }

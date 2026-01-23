@@ -3,6 +3,7 @@
     "description": "Reedlings live and breathe music - literally. Somewhere in their evolution they forgot how to breathe through mouths and noses, so they developed flute-like breathing spines. Reedlings sometimes release the odd toot in their sleep.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Reedling.png?raw=true",
     "cost": "50 Diamonds",
+    "colossingumCost": "60 Diamonds",
     "islands": [
         "water",
         "earth",

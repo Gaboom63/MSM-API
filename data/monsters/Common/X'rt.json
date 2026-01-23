@@ -3,6 +3,7 @@
     "description": "Whenever Zarroë is struggling to articulate a thought, or the Colossal is having trouble remembering something, suspicion mounts that there's an X'rt about. Put bluntly (and literally), this is the Monster equivalent of a brain fart: its home is a gargantuan brain and it communicates by spewing gas from its... mouth? Gut? We're not sure how to classify it. The biggest surprise, especially because of the presence of the Poison Element, is that the X'rt's gaseous emissions are totally odorless. Instead, they buildup over time and incite confusion and fogginess in the thought processes of its neighbors - so make sure you're not planning on doing anything mentally taxing when an X'rt is nearby.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/X_rt.png?raw=true",
     "cost": "2300 Diamonds",
+    "shadowCost": "3000 Diamonds",
     "islands": [
         "workshop"
     ],

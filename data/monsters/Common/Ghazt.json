@@ -3,6 +3,9 @@
     "description": "The extraordinary Ghazt only manifests itself when conditions are absolutely perfect. Imbued with the Ethereal power of Plasma, its sleek frame and ability to become intangible are ideal for slipping in and out of places unnoticed. However, these traits also make it vulnerable to accidental interdimensional travel. It plays well with the other Monsters, but just like a cat, it sometimes prefers to be alone... or in the company of others of its kind.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Ghazt.png?raw=true",
     "cost": "1000 Diamonds",
+    "etherealCost": "1500 Diamonds",
+    "plasmaCost": "1000 Diamonds",
+    "colossingumCost": "1050 Diamonds",
     "islands": [
         "plant",
         "colossingum",

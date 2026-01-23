@@ -3,6 +3,8 @@
     "description": "Hello, hello? Hello! Behind the laughter and mirth of the majority of the Workshop's inhabitants lurks the Nitebear. A mishmash of multiple ideas, the leading theory is that it's secretly powered by quirky animatronics (hence the cables sticking out of its head). To avoid going purple in the face (and so that its servos don't lock up), the Monster must routinely express itself via a string of groans and moans. It's important for the Nitebear to socialize, even though its melancholic disposition often dampens the party atmosphere. The Ethereal asserts that it's going to stop killing the mood with the others and isolate itself... but it always comes back.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Nitebear.png?raw=true",
     "cost": "3600 Diamonds",
+    "mechCost": "3500 Diamonds",
+    "shadowCost": "3500 Diamonds",
     "islands": [
         "workshop",
         "mech"
@@ -15,5 +17,8 @@
     ],
     "synthesisTime": [
         "N/A"
+    ],
+    "tuningUpCost": [
+        "Rare Shadow Meeb + Rare Mech Meeb + Rare Crystal Meeb"
     ]
 }

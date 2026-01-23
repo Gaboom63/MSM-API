@@ -4,6 +4,7 @@
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Potbelly.png?raw=true",
     "cost": "250 Coins",
     "shugabushCost": "250 Diamonds",
+    "colossingumCost": "25 Diamonds",
     "islands": [
         "plant",
         "cold",

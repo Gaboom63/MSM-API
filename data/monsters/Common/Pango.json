@@ -3,6 +3,7 @@
     "description": "One would not expect a Monster born of Air and Cold to be flightless and perpetually chilly, however, this is the Pango's reality. The Pango must content itself with remaining on the ground and chattering, playing its part in the endless chorus.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Pango.png?raw=true",
     "cost": "30 Diamonds",
+    "colossingumCost": "35 Diamonds",
     "islands": [
         "cold",
         "air",

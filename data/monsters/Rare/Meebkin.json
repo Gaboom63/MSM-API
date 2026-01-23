@@ -3,6 +3,8 @@
     "description": "While delving the manifold mysteries of the multiverse, the Colossal Zarroë has been known to pluck inspiration for their experimentation from novel biomes and environs. Spelunking the Aquaslime Abyss yielded one of these strokes of insight, as the slime seemingly stared back with a set of beady, albeit adorable eyes. The spined crest and wings of the Rare Meebkin are functionally vestigial as modes of transportation in the less dense environments of the Monster World. They do however add quite a bit of dramatic flair to Rare Meebkin's baton routine.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Meebkin.png?raw=true",
     "cost": "3100 Diamonds",
+    "plasmaCost": "3500 Diamonds",
+    "shadowCost": "3500 Diamonds",
     "islands": [
         "workshop",
         "plasma"
@@ -12,5 +14,8 @@
     ],
     "synthesisTime": [
         "N/A"
+    ],
+        "tuningUpCost": [
+        "Rare Plasma Meeb + Rare Shadow Meeb + Rare Crystal Meeb"
     ]
 }

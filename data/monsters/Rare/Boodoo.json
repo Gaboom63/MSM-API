@@ -2,7 +2,8 @@
     "name": "Rare Boodoo",
     "description": "Boodoos in general are weird, but the Rares of this species exceptionally so. It's not clear whether the third eye revealed by their tusked masks is unique to these Rarethereals, or secretly shared by all Boodoos. They turn everything they find into so-called 'Boodoo dolls,' which they delight in gifting to their reluctant cohorts. Despite their wild, flailing dance, these Monsters manage to frighten absolutely no one - except each other.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Boodoo.png?raw=true",
-    "cost": "2000 Diamonds",
+    "etherealCost": "2000 Diamonds",
+    "shadowCost": "2500 Diamonds",
     "islands": [
         "ethereal",
         "colossingum"

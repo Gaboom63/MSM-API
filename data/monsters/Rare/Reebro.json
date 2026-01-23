@@ -3,6 +3,8 @@
     "description": "Rare Reebros make up the most gifted part of this Ethereal's population. As such, they are concerned - nay, obssessed - with protecting their intellect, using fortified helmets and stronger-than-average mech suits. These 'Bros' are particularly interested in journeying beyond the confines of the Monster World and exploring the multiverse... especially to investigate legends of a cosmic island from ancient times.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Reebro.png?raw=true",
     "cost": "1500 Diamonds",
+    "etherealCost": "1900 Diamonds",
+    "mechCost": "1500 Diamonds",
     "islands": [
         "air",
         "ethereal",

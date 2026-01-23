@@ -2,7 +2,9 @@
     "name": "Rare Arackulele",
     "description": "What do you get when the soul of a gastronome goes knap-sacking in an arthropod's body? Why, none other than the Rare Arackulele! Upon discovering that its instrument could double as a whisk, this musical epicurean saw fit to whip up such treats as scrumptious saffron syllabubs - all in about the time it takes to strum along to the Ethereal song! In its spare time, it enjoys crocheting toupees for the hairless neighbors of its island home.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Arackulele.png?raw=true",
-    "cost": "2000 Diamonds",
+    "etherealCost": "2000 Diamonds",
+    "mechCost": "2500 Diamonds",
+    "shadowCost": "2500 Diamonds",
     "islands": [
         "ethereal",
         "colossingum",

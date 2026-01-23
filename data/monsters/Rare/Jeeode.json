@@ -3,6 +3,7 @@
     "description": "In the pursuit of pure impartiality, the Rare Jeeode has achieved near-perfection. Its commitment to resolving conflicts between fellow monsters is so strong, it even endows fragments of itself with all-seeing eyes. Perhaps this is taking the idea of 'seeing' both sides of story too literally. They can, at times, be a little creepy.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Jeeode.png?raw=true",
     "cost": "1500 Diamonds",
+    "etherealCost": "1900 Diamonds",
     "islands": [
         "water",
         "ethereal",

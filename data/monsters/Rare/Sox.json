@@ -2,7 +2,8 @@
     "name": "Rare Sox",
     "description": "Because they belong to a naturally - or rather, Ethereally - introverted species, Soxes shy away from spontaneous musical improvisations with fellow Monsters. After all, who knows what embarrassing sound could potentially escape from their tail holes? The Rare variant, however, puts its oversized ears to good use by experimenting with new harmony lines at such a low volume that only it can hear them. This little trick boosts its confidence, but it still needs to psych itself up for full scale performances.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Sox.png?raw=true",
-    "cost": "2000 Diamonds",
+    "etherealCost": "2000 Diamonds",
+    "plasmaCost": "2500 Diamonds",
     "islands": [
         "ethereal",
         "plasma"

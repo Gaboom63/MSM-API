@@ -2,7 +2,7 @@
     "name": "Rare Monculus",
     "description": "During the era when all of the Colossals were using the pocket dimension as the site of their world-building experimentation, the spirits would gather the requisite materials in jars and vases. In what can now be viewed as a humorous oversight, the same Bubblerite clay that was filling the vessels was also used to craft the vessels themselves; meaning that as the prototype Monculus was receiving the spark of life, that same energy animated the jars and vases as well! And thus, the Rare Monculus was 'born.' Coincidentally, it was also the discovery of Krystillium's ability to alter its plasmic form, which opened up a world of possibility for more advanced crystalline manipulation in the future.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Monculus.png?raw=true",
-    "cost": "500 Diamonds",
+    "etherealCost": "500 Diamonds",
     "shantyPrice": "625 Diamonds",
     "islands": [
         "ethereal",

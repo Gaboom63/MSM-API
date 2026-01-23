@@ -3,6 +3,8 @@
     "description": "There is a commonly held misconception that the depths of the Beyond are unfathomably dark. The great, uncharted abyss beyond the Monster World may yet contain vast expanses of undiscovered cosmic mysteries to the likes of Monster and human alike, but as with all scientific endeavours, the truth is limited to our perception and understanding. The Depths are in fact alight with gleaming radiance, though nigh imperceptible across the astronomical distances. Gleaming in the darkness is the furtive Shhimmer, a Paironormal whose Major and Minor forms evoke the dark, unknowable void of space and the impenetrable profundity of deep water respectively. Its prominently inquisitive eye peers back across the expanse, employing a rotating series of hexagonal waveforms to pierce the boundary between worlds. The Shhimmer's incredibly complex eye boasts a novel form of polarization, granting it the ability to perceive not just light beyond the normal visible spectrum, but to flip between dimensional perspectives. Ironically, its monocular vision means that it lacks Depth perception.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Shhimmer%20(Minor).png?raw=true",
     "cost": "500 Diamonds",
+    "paironormalCost": "3500 Diamonds",
+    "fuguingTime": "100 Starpower",
     "islands": [
         "mirror light",
         "paironormal"
