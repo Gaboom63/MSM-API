@@ -9,7 +9,7 @@
     let folder = "Common";
     let baseName = rawName;
 
-    // Detect Rarity and strip it from the base name for the JSON path
+    // Detect Rarity
     if (words[0].toLowerCase() === "rare") {
       folder = "Rare";
       baseName = words.slice(1).join(" ");
@@ -33,8 +33,6 @@
     }
 
     const { folder, file } = resolveMonsterPath(name);
-    
-    // JSON is inside the rarity folder: e.g., "Rare/Mammott.json"
     const url = `${BASE_URL}${folder}/${file}.json`;
 
     try {
@@ -43,21 +41,29 @@
       
       const data = await res.json();
       
-      // --- THE FIX ---
-      // 1. Start with the file name (e.g., "Mammott" or "eRmA gUrDy (Major)")
-      let imageFile = file;
+      // --- FIX FOR MIXED IMAGE FORMATS ---
+      // 1. Get the raw string from JSON, or fallback to the filename
+      let rawImage = data.image || file;
+      let finalImageUrl;
 
-      // 2. If it is Rare or Epic, we MUST add that prefix back for the image
-      //    (Because images are in a flat folder: "Rare Mammott.png")
-      if (folder !== "Common") {
-        imageFile = `${folder} ${file}`;
+      // 2. Check if the JSON provided a full URL (starts with http/https)
+      if (rawImage.startsWith("http")) {
+          // Use the URL exactly as provided by the API
+          finalImageUrl = rawImage;
+      } else {
+          // It is just a filename (e.g. "Rare Mammott"), so we must build the URL.
+          // Ensure it ends in .png
+          if (!rawImage.toLowerCase().endsWith('.png')) {
+             rawImage += '.png';
+          }
+          // Combine with our base image path
+          finalImageUrl = `${IMAGE_BASE_URL}${encodeURIComponent(rawImage)}`;
       }
 
       return {
         ...data,
         rarity: folder,
-        // encodeURIComponent ensures spaces become %20
-        imageUrl: `${IMAGE_BASE_URL}${encodeURIComponent(imageFile)}.png`,
+        imageUrl: finalImageUrl,
         
         getImageURL() {
           return this.imageUrl;
