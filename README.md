@@ -1,4 +1,4 @@
-## I AM BACK WORKING ON THIS! I took a break for the holidays, but this is fully back in development and should be completed / pushed soon! 
+## AT LAST THE API IS ALMOST DONE! IT SHOULD BE FINISHED IN THE NEXT DAY OR TWO! (1/24/26)
 
 This Is Not Completed Yet! But I am working hard on finishing it! :) 
 
