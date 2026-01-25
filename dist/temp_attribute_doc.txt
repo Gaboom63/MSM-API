@@ -1,0 +1,36 @@
+-- List of Attributes For Docs -- 
+
+name ~ Name of Monster
+description ~ Description of Monster
+image ~ Image path for Monster (From API's Github)
+cost ~ Market Price for Monsters 
+|-> Island Specific Costs do exist! 
+
+> mythicalCost
+> shugabushCost
+> colossingumCost
+> etherealCost
+> plasmaCost
+> mechCost
+> shadowCost
+> amberCost
+> shantyPrice - NOTE: Fix this to be shantyCost for consistancy 
+> ascensionCost 
+
+islands ~ Islands that said Monster is on
+breedingCombo ~ The breeding Combinations for a monster
+breedingTime ~ Breeding Time (Currently Only Breeding Time & Enhanced Time)
+|-> Island Specific Times do exist! Here are the ones available (More can/will be introduced if I realise I missed a group!):
+
+> etherealBreedingTime
+
+fuguingTime ~ For PC Monsters 
+synthesisTime - For EW Monsters
+orbTime ~ Time For Orb Hatching (Nexus)
+transpositionCost ~ Cost for teleporting Monsters to Nexus or Paironormal Carnival
+polarity ~ For Wublin Monsters 
+powerUpTime ~ Shows the amount of time you have to fill a Wublin
+
+
+-----------
+The main goal of this is for the future docs that will be created to document this API :)  
