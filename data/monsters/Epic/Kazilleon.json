@@ -1,0 +1,15 @@
+{
+    "name": "Epic Kazilleon",
+    "description": "Epic Kazilleons can color-shift at many times the speed of their Common cousins, even shifting their scales into color spectrums invisible to the human eye. This ability causes such a powerful buildup of noxious fumes that the Monster simply must release it! Thus, Epic Kazilleon has evolved a multitude of crater-like vents, and forces all color out of its body in chromatic puffs of gas. This leaves the Monster's skin so dull and brittle, it is even known to lose its tail! Worry not, as this species is known for its rapid regeneration.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Kazilleon.png?raw=true",
+    "etherealCost": "3500 Diamonds",
+    "islands": [
+        "ethereal",
+    ],
+    "breedingCombo": [
+        "Sox + Arackulele"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 14 hr, Enhanced Time: 1 day 4 hr 30 min"
+    ]
+}

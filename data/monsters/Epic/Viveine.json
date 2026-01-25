@@ -1,0 +1,19 @@
+{
+    "name": "Epic Viveine",
+    "description": "The exquisite Epic Viveine's blossoming foliage is anticipated all-year round, and all who witness it firsthand are moved to tears by its beauty. The most elaborate trees of Greatfruit Grove cannot begin to rival its splendor, its ardent supporters claim. There's even a specific tradition of viewing the Monster swaying and performing called 'Hanami', during which we are reminded of the beauty of the natural world and emboldened in our duty to conserve it. Like its Common and Rare cousins, the Seasonal acts as a caretaker of fellow living things, like Earth Island's visitor Wickman and Fire Haven's flapping critter (among others). Instead of a Wingaling, however, the Epic Viveine experiences a stronger kinship with a tiny fox-like creature called a Soona-Kit. Alas, the Soona-Kit is beset by the same Seasonal allergies as the Wingaling, so it seems the more things change, the more they stay the same!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Viveine.png?raw=true",
+    "shugabushCost": "1000 Diamonds",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "shugabush",
+        "seasonal",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Shugabush + PomPom",
+        "Ffidyll + Monculus"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 8 hr 10 min, Enhanced Time: 1 day 7 min 30 sec"
+    ]
+}

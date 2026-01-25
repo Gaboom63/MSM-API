@@ -1,0 +1,22 @@
+{
+    "name": "Epic Grumpyre",
+    "description": "There are two things that an Epic Grumpyre dislikes more than waking up early – bright lights and garlic bread. Unlike its Common and Rare counterparts, its body is not covered by a protective, soot-like shroud; so it’s both a blessing and a curse that its skin has developed accelerated regeneration, causing an endless cycle of bursting blisters and rapid healing. Another feature it lacks are horns, leaving it unsure of where it should grab life. Its main advantage, though are its well-trained ears – the Shadow Elemental can hear even the most hushed lip-smacking of any Monster enjoying Treats, and particularly loves to mutter the catchphrase 'It’s Grumpin’ time' as it enjoys a late night snack of its own.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Grumpyre.png?raw=true",
+    "cost": "2250 Diamonds",
+    "etherealCost": "2550 Diamonds",
+    "islands": [
+        "cold",
+        "ethereal",
+        "mirror cold"
+    ],
+    "breedingCombo": [
+        "Bowgart + Dandidoo",
+        "Nebulob + Fung Pray"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 4 hr, Enhanced Time: 21 hr"
+    ],
+    "etherealBreedingTime": [
+        "Breeding Time: 7 hr 46 min, Enhanced Time: 5 hr 50 min"
+    ]
+}

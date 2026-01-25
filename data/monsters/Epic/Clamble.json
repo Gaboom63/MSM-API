@@ -1,0 +1,20 @@
+{
+    "name": "Epic Clamble",
+    "description": "Epic Clambles have the sinister countenance of a fearsome villain, all spikes and wrought iron, locked in a perpetual battle with a virtuous knight. In truth, this feudal roleplaying is just that: a play! When not engaged in theatrical LARP-ing, Epic Clambles enjoy quiet time in the garden - though pruning the withering foliage on the scorching Earth Island has cursed this Epic with a blistering bouquet of claw boils.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Clamble.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": [
+        "plant",
+        "earth",
+        "gold",
+        "mirror plant",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Pummel + Maw",
+        "PomPom + Furcorn"
+    ],
+    "breedingTime": [
+        "Breeding Time: 21 hr, Enhanced Time: 15 hr 45 min"
+    ]
+}

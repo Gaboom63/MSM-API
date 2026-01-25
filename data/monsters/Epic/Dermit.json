@@ -1,0 +1,19 @@
+{
+    "name": "Epic Dermit",
+    "description": "Acting upon a resolution to finally clear up its problem skin (or at least as much of it as Monstrously possible), the Rare Dermit's evolution into an Epic is accompanied by a strict juice cleanse diet and staying super-hydrated. An extra set of hands also helps to apply skin care creams and ointments. Strangely, there seems to be some kind of connection between water and sprouting thick, lustrous locks of hair?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Dermit.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "3 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "polarity": [
+        "Negative from: Epic Scargo, Negative toward: Epic Gheegur, Positive from: Epic Zynth, Positive toward: Epic Thwok"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

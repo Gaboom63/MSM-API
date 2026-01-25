@@ -1,0 +1,19 @@
+{
+    "name": "Epic Zynth",
+    "description": "Is that a rock? Or a rock lobster? Neither, it's the Epic Zynth! Some have purported that this Epic Wublin and a certain Poison Quad from Zarroë's Workshop share a few too many traits for it to be a coincidence: the multiple eyes and distinctive 'raptor arms' posture, to name a few. The allegation of creative plagiarism alone is enough to scandalize - but it's just a happy accident, the Wubbox assures you!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Zynth.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "3 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative from: Epic Astropod, Negative toward: Epic Whajje, Positive from: Epic Gheegur, Positive toward: Epic Dermit"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

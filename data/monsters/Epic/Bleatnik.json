@@ -1,0 +1,15 @@
+{
+    "name": "Epic Bleatnik",
+    "description": "Isn't it nice when someone tells you It's alright? This refrain rings clear to the Plant Mythical with every sunrise, and each time the sun breaks through the clouds. Basking in its warmth, and soaking up the rays, it sometimes feels like it's been years since it's been clear. Listlessly enjoying the luminosity, the liminal vibes may very well have led to the resulting Epic Dreamythical's kinship with the sun. Epic Bleatnik's intricately carved form, and ornate adornments harken back to ancient depictions of Monstrous companions and the sun itself. Hummatite carvings of figurines and friezes tell the tale of early Monster mythologies, of vast golden fields, and galloping herds, bleating out to benevolent fiery deity. Do all Mythicals dream of long forgotten times, of grander tales, or are they simply waiting for someone to tell them it's alright and for the sun to rise?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Bleatnik.png?raw=true",
+    "mythicalCost": "1600 Diamonds",
+    "islands": [
+        "mythical"
+    ],
+    "breedingCombo": [
+        "Cataliszt + Cherubble"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 days 1 hr 13 min, Enhanced Time: 1 day 12 hr 54 min 45 sec"
+    ]
+}

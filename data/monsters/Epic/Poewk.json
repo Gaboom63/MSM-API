@@ -1,0 +1,19 @@
+{
+    "name": "Epic Poewk",
+    "description": "SpoOoOoky. The ominous Epic Poewk prefers to operate by flickering candlelight, instead of the bright, lurid displays of Electrical illumination on its native island. The Fire Element's guiding presence is certainly felt in the manifestation of this Epic Wublin, even though the very sight of it is enough to send chills down your spine.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Poewk.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "5 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "polarity": [
+        "Negative from: Epic Bona-Petite, Negative toward: Epic Maulch, Positive from: Epic Brump, Positive toward: Epic Tympa"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

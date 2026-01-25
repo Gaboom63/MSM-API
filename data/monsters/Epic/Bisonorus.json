@@ -1,0 +1,17 @@
+{
+    "name": "Epic Bisonorus",
+    "description": "'Musicosystem' is a term often heard in discussions about a particular region's Monster population. It refers to the community of musical organisms interacting with each other and their environment to create an island's song. Monsters that contribute similarly are said to occupy the same 'musicological niche.' That's, at least, what we think is going on with the Epic Bisonorus, a pair of beings that bear such little resemblance to the archetypical Fire Monster that even calling it by that name feels wrong somehow. We're legitimately not sure if they're related at all. They meet the minimum criteria of sounding the same, but leading theories propose two distinct species cooperating instead of two forms of the same - one, a portly, toad-like life-form with clumps of thick hair and an ocular surprise; and the other, a furry, digitate animal clinging on for dear life. The Monster World is always full of surprises, but this discovery is even more staggering than normal.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Bisonorus.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": [
+        "psychic",
+        "amber",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Gloptic + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 3 hr, Enhanced Time: 1 day 14 hr 15 min"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Epic Clavavera",
+    "description": "Amidst the joy and liveliness of the Beat Hereafter, it can be easy to overlook the fact that sadness and loss have their own parts to play in processing the parting of a loved one. The purple hues of the Epic Clavavera are said to convey feelings of grief and mourning; a counterpoise to the celebratory significance of the pink cempasuchil atop its head. As far as the Epic Clavavera is concerned, there's no 'proper' way to tap into the heartbeat of forever, so long as it is done sincerely. A local legend attests that the brightly-colored feathered serpent draped around the Seasonal's neck is an alebrije form of the spectral critter that glides around Bone Island.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Clavavera.png?raw=true",
+    "cost": "1000 Diamonds",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "bone",
+        "seasonal",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Plinkajou + Hawlo",
+        "Viveine + Whiz-bang"
+    ],
+    "breedingTime": [
+        "Breeding Time: 23 hr 11 min, Enhanced Time: 17 hr 23 min 15 sec"
+    ]
+}

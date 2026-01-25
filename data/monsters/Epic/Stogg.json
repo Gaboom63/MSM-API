@@ -1,0 +1,22 @@
+{
+    "name": "Epic Stogg",
+    "description": "Epic Stoggs are practitioners of an arcane self-reinvention technique known only as 'stegosynth.' It's said to be an instinctual knowledge embedded deep within the lineage of all Stoggs, but that only certain individuals of the species can retrieve it. The outcome of embracing the stegosynth is a transformation that shepherds in great physical changes, most notably to the familiar waveform that runs along the flank and tail of the Monster. Even though they may not look it, their puffy toes are perfect for digging up terrain and helping plant seeds in the ground, inviting the designation of 'Best-in-Sow.' Their only downside is that they keep trying to make 'fetch' happen.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Stogg.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": [
+        "haven",
+        "faerie",
+        "bone",
+        "amber",
+        "mirror faerie",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Repatillo + Glowl",
+        "Bridg-it + Squot",
+        "Withur + Phangler"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 15 hr, Enhanced Time: 21 hr 45 min"
+    ]
+}

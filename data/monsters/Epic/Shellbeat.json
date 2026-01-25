@@ -1,0 +1,17 @@
+{
+    "name": "Epic Shellbeat",
+    "description": "Creatures from the deep are oft met by seafaring Monsters with apprehension, but the Epic Shellbeat swims against the current. This beat-keeping Epic is the sonic equivalent of a lighthouse in the dark, playing a reliable rhythm that guides disoriented vessels to the safety of the shore. When the living ocean beckons for a lifeguard, Epic Shellbeat is there!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Shellbeat.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "water",
+        "gold",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "Spunge + Cybop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 19 hr, Enhanced Time: 1 day 8 hr 15 min"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Epic Boo'qwurm",
+    "description": "Who doesn't love the nostalgic, musty scent of aging incunabula hidden away in a dusty old attic? To the Epic Boo'qwurm, such a cozy hideaway makes for the ideal boo'q noo'q. The Epic Seasonal whiles away the hours by voraciously reading tattered tomes and sharing the ancient wisdom contained therein with its brainy little companions: an eclipse of moth-like stowaways indigenous to Seasonal Shanty. In fact, it is through this passionate consumption of literature that Epic Boo'qwurm and its tiny pals gained their wings - after mistaking the acclaimed collection of essays 'The Lost Habits' for a motivational novel, the once-wormy Seasonal experienced a self-actualizing epiphany so powerful, it sprouted a pair of fuzzy wings. Never would this bibliophilic Monster throw away an old book, even if its yellowed pages have decayed beyond legibility. After all, it doesn't need to see the words to absorb their knowledge! And besides, old books have the best acoustics.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Boo_qwurm.png?raw=true",
+    "cost": "1000 Diamonds",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "psychic",
+        "seasonal",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Gloptic + Bonkers",
+        "Gobbleygourd + Clavavera"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 days 4 hr 10 min, Enhanced Time: 1 day 15 hr 7 min 30 sec"
+    ]
+}

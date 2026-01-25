@@ -1,0 +1,25 @@
+{
+    "name": "Epic Shrubb",
+    "description": "Who conjures illusions and casts enchantments? Who can summon the bellow of a Boss from the wee gullet of a Dipster? The wickedly whimsical, magically mystical Epic Shrubb! These Monsters are imbued with a substantial spellcasting capacity ideal for bewitching unwitting beings. The Epic Shrubb must wear wooly socks to prevent its power from leaking through its spindly feet in its sleep. If only it could lie on its back!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Shrubb.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "plant",
+        "water",
+        "earth",
+        "gold",
+        "haven",
+        "mirror plant",
+        "mirror water",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "T-Rox + Oaktopus",
+        "Reedling + Quibble",
+        "PomPom + Dandidoo",
+        "Barrb + Cybop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 19 hr, Enhanced Time: 14 hr 15 min"
+    ]
+}

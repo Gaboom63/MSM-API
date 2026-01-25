@@ -1,0 +1,19 @@
+{
+    "name": "Epic Zuuker",
+    "description": "Born to be wild... a Wild Bagpipe! The Epic Zuuker draws air in through the various spiracles found all over its body, just as the Wubbox drew inspiration from the musical life-form that flourishes in high-altitude environment. It's basically a living instrument... but then, aren't all Singing Monsters living instruments, if you really think about it?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Zuuker.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "10 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "polarity": [
+        "Negative from: Epic Screemu, Negative toward: Epic Thwok, Positive from: Epic Maulch, Positive toward: Epic Bona-Petite"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

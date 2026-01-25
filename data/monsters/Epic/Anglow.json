@@ -1,0 +1,19 @@
+{
+    "name": "Epic Anglow",
+    "description": "The Epic Anglow is a product of mutation, just like its Rare counterpart; instead of being caused by the mysterious Monstronium, however, this Epic Mythical came to be when the Rift portal in its abdomen became unstable and generated multiple spontaneous corruptions. The dome that previously enclosed its eyes and 'soft parts' has shattered, its tentacles were replaced by carcinized limbs, and the Rift portal has morphed into what is now referred to as the Mega Rift. The near-impossible physics of Anglow have been taken to the extreme in the Mega Rift, flashing unusual symbols against an endless void of stars and darkness. Another dramatic difference is the skeletal arms holding the Anglow's lures now grasp at nothingness, and it is now the Epic Mythical's eyes that radiate with sound and light. This pulsing illumination is essential to navigate the darkness of the Monstriana Trench, but does little to deter the onset of Riftstalk growths over the Monster's body. An extra-torustrial fungus invasive to the Monster World, Riftstalk has nevertheless integrated into the ecosystem of the deep-sea ditch, and even became a food source for Glimmerglaws, bringing about its crustacean's unique coloration.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Anglow.png?raw=true",
+    "cost": "1000 Diamonds",
+    "mythicalCost": "1225 Diamonds",
+    "islands": [
+        "water",
+        "mythical",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "Shellbeat + Cybop", 
+        "Cataliszt + Cherubble"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 17 hr 13 min, Enhanced Time: 1 day 6 hr 54 min 45 sec"
+    ]
+}

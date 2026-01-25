@@ -1,0 +1,18 @@
+{
+    "name": "Epic Carillong",
+    "description": "Observed in what human reckoning describing as the Year of the Dragon, the Epic Carillong is the most eye-catching of the Crescendo Moon Seasonal subspecies. It wields a special instrument known as the Hou kongfan, which not only courses with the chronomagical power of all Chimekeepers, but which was also responsible for introducing a unique form of writing in the Monster World. Encrusted with precious gems and inlaid with priceless jade, it's challenging to consider the aura of this Monster as anything less than imperial. In fact, it's thanks to the Epic Carillong that a golden yellow color is so often associated with the third and highest tier of the Monster rarity.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Carillong.png?raw=true",
+    "cost": "1000 Diamonds",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "sanctum",
+        "seasonal"
+    ],
+    "breedingCombo": [
+        "Enchantling + Roarick",
+        "Monculus + Whiz-bang"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 12 hr 12 min, Enahnced Time: 1 day 3 hr 9 min"
+    ]
+}

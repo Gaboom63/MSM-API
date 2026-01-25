@@ -1,0 +1,17 @@
+{
+    "name": "Epic Jam Boree",
+    "description": "You know who loves cheese? This Epic Jam Boree. So much so that this Seasonal Monster parades around with its very own mac and cheese integument, drizzled over its goblin-green body. In lieu of a candle, it proudly waves around a traditional tarp daubed with the number of the current celebration year in Monstrous numerals. Like its Rare cousin, the Epic Jam Boree is a wanderer by nature, but always sets aside time at the beginning and end of Anniversary Month to return to the Shanty. It contends that the only thing better than cheddar is visiting with its Seasonal family and hearing stories of their adventure across the Monster World from the last year. Alright, we admit - that's a little cheesy.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Jam%20Boree%20-%20Year%2011.png?raw=true",
+    "cost": "N/A",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "gold",
+        "seasonal"
+    ],
+    "breedingCombo": [
+        "Gobbleygourd + Boo'qwurm"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 16 hr 23 min, Enhanced Time: 1 day 6 hr 17 min 15 sec"
+    ]
+}

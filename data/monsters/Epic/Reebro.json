@@ -1,0 +1,22 @@
+{
+    "name": "Epic Reebro",
+    "description": "What is the ultimate aim of artificial intelligence, if not for a 'Mech' contraption to blend in seamlessly with the world of 'orga' lifeforms? That's the lofty aspirational goal that Epic Reebros, a hyper-intelligent, 'Monsa' Select think tank of the cranial Ethereals, have set for their mech suits. Leveraging teachings from the dawn of the Monster World that only recently re-entered the cultural consciousness, their plan was to reverse-engineer the technique and invert it to lend a more organic air to their mechanical bodies. Was the experiment a success? Yes and no, which only made the scientific curiosity of these Epic Ethereals pique to new heights!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Reebro.png?raw=true",
+    "cost": "2250 Diamonds",
+    "etherealCost": "2550 Diamonds",
+    "islands": [
+        "air",
+        "ethereal",
+        "mirror air"
+    ],
+    "breedingCombo": [
+        "T-Rox + Pango",
+        "Sox + Kazilleon"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 10 hr, Enhanced Time: 1 day 1 hr 30 min"
+    ],
+    "etherealBreedingTime": [
+        "Breeding Time: 9 hr 26 min, Enhanced Time: 7 hr 5 min"
+    ]
+}

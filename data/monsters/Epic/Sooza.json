@@ -1,0 +1,17 @@
+{
+    "name": "Epic Sooza",
+    "description": "Epic Sooza may sport a different number of limbs than its cousins, but that doesn't stop it from being a star! It finds its confidence through stylish self expression: from its fabulous 'do to its bedazzled tetra-horn, this Fire Epic has no interest in blending in. Epic Sooza warmly encourages every Monster it meets to be themselves and march to the beat of their own drum (or horn, as it were).",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Sooza.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "light",
+        "amber",
+        "mirror light"
+    ],
+    "breedingCombo": [
+        "TooToo + Boskus"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 3 hr, Enhanced Time: 20 hr 15 min"
+    ]
+}

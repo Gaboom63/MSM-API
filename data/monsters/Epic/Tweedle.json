@@ -1,0 +1,18 @@
+{
+    "name": "Epic Tweedle",
+    "description": "Some say that the Epic Tweedle got a little mixed up in the breeding process. Feet for horns (or horns for feet?), a missing beak, too many eyes, plumeless wings - it all comes together to create an unsettling Epic that lacks the feathery charm of its Common cousin. However, once this avian anomaly hits you with its gummy smile, your heart is sure to be won over in an instant.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Tweedle.png?raw=true",
+    "cost": "250 Diamonds",
+    "islands": ["cold", "air", "water", "earth", "colossingum", "gold", "haven", "oasis", "tribal", "composer", "mirror cold", "mirror air", "mirror water", "mirror earth"],
+    "breedingCombo": [
+        "Deedge + Dandidoo",
+        "Riff + Cybop",
+        "Shellbeat + Quibble", 
+        "Quarrister + Pango",
+        "Tring + Shrubb",
+        "Sneyser + Maw"
+    ],
+    "breedingTime": [
+        "Breeding Time: 11 hr, Enhanced Time: 8 hr 15 min"
+    ]
+}

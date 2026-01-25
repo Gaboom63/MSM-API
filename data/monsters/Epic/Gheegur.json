@@ -1,0 +1,16 @@
+{
+    "name": "Epic Gheegur",
+    "description": "The custom of crafting and gifting stuffed animals is a timed-honored tradition, dating back to the days of the Dawn of Fire. Those ones usually weren't possessed by a rambunctious Wublin spirit, however - this Epic attempt to cutesify the Gheegur can be considered successful IF and only if you subscribe to Supernatural design sensibilities. Then, it's head and shoulders above the others.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Gheegur.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "7 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "polairty": [
+        "Negative from: Epic Dermit, Negative toward: Epic Creepuscule, Positive from: Epic Tympa, Positive toward: Epic Zynth"
+    ], 
+    "powerUpTime": [
+        "Unlimited"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Epic Dragong",
+    "description": "It is a well-established fact that Dragongs use their metallic plates to glide across the surface of bodies of water big and small. For Epic Dragongs, there is simply no greater thrill than turning this leisurely pastime into a full-blown extreme sport! Reinforced plates fitted with outer flotation devices ensure reliable handling and back-up buoyancy, while the Monster's intimidating cranial hood flares out like a sail to manage speed and allow for precise directional control. Finally, the serpentine Epic Ethereal's scale pattern acts as a reflective safety vest, visible even at great distances - one can never take water safety too seriously when you're shredding waves atop the aquaslime canals!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Dragong.png?raw=true",
+    "etherealCost": "3500 Diamonds",
+    "islands": [
+        "ethereal",
+        "mech"
+    ],
+    "breedingCombo": [
+        "Whisp + Fung Pray"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 12 hr, Enhanced Time: 1 day 3 hr"
+    ]
+}

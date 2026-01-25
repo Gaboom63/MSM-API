@@ -1,0 +1,15 @@
+{
+    "name": "Epic Whisp",
+    "description": "The Epic Whisp straddles the line between macabre and lovely, morose and bewitching - no doubt due to its dual parentage of Plasma and Shadow. It harbors a secret that very few in the Monster World know about, and will only reveal it to those who have been completely hypnotized by its 'potion eyes'. The Epic Ethereal tends to behave like a wallflower at social gatherings, but when the party's over, it's been known to participate in playful impishness. But the Epic Whisp is not a bad guy; when given the chance to lead, you should see it in a crown.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Whisp.png?raw=true",
+    "etherealCost": "3500 Diamonds",
+    "islands": [
+        "ethereal",
+    ],
+    "breedingCombo": [
+        "Ghazt + Grumpyre"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 16 hr, Enhanced: 1 day 6 hr"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Epic Cherubble",
+    "description": "Looking like it was plucked right out of a pool of lava, the Epic Cherubble takes the notion of 'knowing my nightmares' to the literal level. Rather than spiny cerata, it sports a cavernous Snayle-like shell upon its back which resembles an eerie, yawning face and hosts the creepy nightmare creatures made manifest. No, these are neither Blubberflies nor Algaernons - they are the product of this paranoid Epic Mythical's overactive imagination, brought to life accidentally via a surfeit of dreamcraft. Our best guess is that the Epic Cherubble sought to imagine itself a shell to protect itself from these frightful friends, but it proved to be a suitable home for them instead! Nevertheless, a constant state of being on edge is what has helped this unlikely combination of misfits to survive near the volatile hydrothermal vents where the living ocean and core meet. This fascinating specimen has also helped to untangle some of the knots in the multi-Class Playbackyderm family by highlighting a phenomenon exclusive to the Monster World - inspirational evolution. Woolabee and Peckidna are 'derivative drafts' of this ancient Monster, whose respective creators sought to match the charm and imaginativeness of the original with their own concepts.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Cherubble.png?raw=true",
+    "cost": "1000 Diamonds",
+    "mythicalCost": "1225 Diamonds",
+    "islands": [
+        "oasis",
+        "mythical"
+    ],
+    "breedingCombo": [
+        "Congle + Woolabee"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 17 hr 13 min, Enhanced Time: 1 day 6 hr 54 min 45 sec"
+    ]
+}

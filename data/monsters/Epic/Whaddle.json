@@ -1,0 +1,16 @@
+{
+    "name": "Epic Whaddle",
+    "description": "Maybe there's something in the humid, maritime air around Fire Oasis that promotes diversification... because Epic Whaddle has fallen for it hook, line and sinker! The Fire Monster, already perfectly suited for aquatic activity, has sprouted new features to support longer stretches of time in the water: sensory antennae for closer inspection of nearby coral reefs; cycloid scales to reduce drag; and most noticeably scuba-like flippers replacing its characteristic palmiped feet. It's said that the four ears of Epic Whaddle have even developed a form of sonar, which can be used both above and below the water to track down the tastiest Treats.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Whaddle.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "oasis",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Congle + Phangler"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 1 hr, Enhanced Time: 18 hr 45 min"
+    ]
+}

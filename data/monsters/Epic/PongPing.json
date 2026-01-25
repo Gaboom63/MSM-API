@@ -1,0 +1,17 @@
+{
+    "name": "Epic PongPing",
+    "description": "Epic PongPing is a renowned sorcerer feared by many for its proficiency in the 'dark arts.' If only other Monsters understood that this particular school of spellcasting is only useful for turning the lights off when you leave a room! The Epic channels its magical power through its two paddles made of its excess brain matter. The spell resonates into existence upon striking the Monster's inflatable cheeks, snuffing out nearby candles and blacking out all light in an instant. Once the lights are off, Epic PongPing can finally feel at home and reminisce about the cool, dark caves where it learned its first spell from a mysterious mentor. In the privacy of the dark, it is free to practice its twin hobbies of physical fitness and song in peace.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic PongPing.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": [
+        "bone",
+        "amber",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Pladdie + Floot Fly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 23 hr, Enhanced Time: 1 day 11 hr 15 min"
+    ]
+}

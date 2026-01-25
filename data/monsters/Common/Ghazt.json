@@ -21,6 +21,9 @@
         "Entbrat + T-Rox"
     ],
     "breedingTime": [
-        "Breeding Time: Plant: 1 day 12 hr, Ethereal/Plasma: 10 hr, Enhanced Time: Plant: 1 day 3 hr, Ethereal: 7 hr 30 min"
+        "Breeding Time: 1 day 12 hr, Enahnced Time: 1 day 3 hr"
+    ],
+    "etherealBreedingTime": [
+        "Breeding Time: 10 hr, Enhanced Time: 7 hr 30 min"
     ]
 }

@@ -1,0 +1,23 @@
+{
+    "name": "Epic PomPom",
+    "description": "PomPoms eat red food, Rare PomPoms eat indigo food, and Epic PomPoms eat... EVERYTHING! When a group of Commons discovered a shared passion for the culinary arts, their varied and vibrant new diet produced a long list of enviable features. Increased vitamin intake has made the pelt of the Epic PomPom luxuriously fluffy and reverted it to its original white hue. Unexpected side effects include incredible cranial growths and blindingly bright stripes in every shade.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic PomPom.png?raw=true",
+    "cost": "500 Diamonds",
+    "shugabushCost": "750 Diamonds",
+    "islands": [
+        "air",
+        "earth",
+        "shugabush",
+        "gold",
+        "mirror air",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "T-Rox + Cybop",
+        "Reedling + Drumpler",
+        "Shugabush + Mammott"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 3 hr, Enhanced Time: 20 hr 15 min"
+    ]
+}

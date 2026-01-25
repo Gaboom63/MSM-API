@@ -1,0 +1,19 @@
+{
+    "name": "Epic Dwumrohl",
+    "description": "Everything's a drum! Everything's a drum! Epic Dwumrohl is the proof you didn't know you needed for the old adage: one Mon's trash is another Mon's treasure. With a drum kit assembled from the kind of doodads and doodlebugs you'd find strewn in a garden, even the insectoid Epic Wublin itself seems perfectly at home down at ground level.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Dwumrohl.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "14 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap and power up!"
+    ], 
+    "polarity": [
+        "Negative from: Epic Fleechwurm, Negative toward: Epic Fleechwurm, Positive from: Epic Astropod, Positive toward: Epic Whajje"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

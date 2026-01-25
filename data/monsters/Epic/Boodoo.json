@@ -1,0 +1,15 @@
+{
+    "name": "Epic Boodoo",
+    "description": "Remember how we said that a Boodoo's uncanny appearance is actually at odds with its gentle disposition? Well, forget all that as far as the Epic Boodoo is concerned - it's every bit as frightening as its exterior would suggest. This Monster is able to gaze at the starscape and be granted visions of deep space horrors, and which in turn lead to mutations of its own attributes. One of the most distressing aspects of this Epic Ethereal is its 'spacesuit' - it's not actually a suit at all, but a form of mimetic camouflage that is meant to disorient and disguise its true form.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Boodoo.png?raw=true",
+    "etherealCost": "3500 Diamonds",
+    "islands": [
+        "ethereal"
+    ],
+    "breedingCombo": [
+        "Kazilleon + Bellowfish"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 18 hr, Enhanced Time: 1 day 7 hr 30 min"
+    ]
+}

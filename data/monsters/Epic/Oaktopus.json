@@ -1,0 +1,29 @@
+{
+    "name": "Epic Oaktopus",
+    "description": "The unsightly Epic Oaktopus has been infected with a parasitic pathogen known as the RitRawt. This foul fronded fungus burrows into the trunks of unsuspecting Oaktopi and slowly gains control of their mind and body, causing unusual growths and a smell like moldy fruit. Monsters infected by the RitRawt are known to exhibit an increased need to boogie down.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Oaktopus.png?raw=true",
+    "cost": "150 Diamonds",
+    "shugabushCost": "600 Diamonds",
+    "islands": [
+        "plant",
+        "cold",
+        "water",
+        "shugabush",
+        "gold",
+        "psychic",
+        "mirror plant",
+        "mirror cold",
+        "mirror water",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Bowgart + Shrubb",
+        "Spunge + Pango",
+        "Reedling + Fwog",
+        "Shugabush + Quibble",
+        "Rootitoot + Bonkers"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 7 hr, Enhanced Time: 23 hr 15 min"
+    ]
+}

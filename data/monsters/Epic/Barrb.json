@@ -1,0 +1,16 @@
+{
+    "name": "Epic Barrb",
+    "description": "Look no further than the Epic forms of Barrb and Flowah for irrefutable evidence of the two Monsters' genetic connection. Building upon the efflorescence of its Rare cousin, the Epic Barrb is practically one big flower. Externally, the Monster is overall less pointy, but the 'sharpness' of this species is still intact - it just attacks the sense of smell, instead of touch. A pungent odor that calls to mind the worst cooking you've ever had is released from its forehead and elbows, and even if you plug your nose, you'll still be affected. Sensing an opportunity, the Epic Barrb holds occasional raffles where the prize is a specialized noseguard that blocks out the odor (that only this Fire Monster knows how to craft). That way, Monsters still have the opportunity to socialize with it... Justice for Barrb!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Barrb.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "haven",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Floogull + Shrubb"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 15 hr, Enhanced Time: 1 day 5 hr 15 min"
+    ]
+}

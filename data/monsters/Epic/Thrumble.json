@@ -1,0 +1,19 @@
+{
+    "name": "Epic Thrumble",
+    "description": "Stories of sea creatures swirling in the ocean's unfathomable depths are as old as the Monster World itself. The Epic Thrumble, however, is a subspecies with a younger lineage, having only evolved since the formation of the Monstriana Trench. Possessing the Fire Element is a welcome advantage in a habitat that can be inhospitably toasty, especially where the Trench abuts the region of the former living core. Research still under review posits that this Epic is actually spliced with Glubber genetics, but it seems to borrow characteristics from other denizens of the deep as well, like Anemonons or Jlelljiggles.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Thrumble.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "bone",
+        "amber",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Fwog + Kayna",
+        "Stogg + Toe Jammer",
+        "Phangler + Noggin"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 7 hr, Enhanced Time: 23 hr 15 min"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Epic Thumpies",
+    "description": "You know FurFacE and NoObiE, RawT and ReeCEsS... but do you recall the bounciest Thumpies of all? RhooTz and iziT the Epic Thumpies are more feisty furballs from the Thumpies clan that have drifted from their home dimension into the Monster World. The horned and horticultural pair share a misshapen eye for design and aesthetics, decorating their percussive stump with an ornate tarp that the nearby wildlife find uniquely inviting.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Thumpies.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": [
+        "cold",
+        "earth",
+        "gold",
+        "mirror cold",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Congle + Oaktopus",
+        "Reedling + Pango"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 9 hr, Enhanced Time: 1 day 45 min"
+    ]
+}

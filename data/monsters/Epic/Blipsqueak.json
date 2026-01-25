@@ -1,0 +1,19 @@
+{
+    "name": "Epic Blipsqueak",
+    "description": "They say that happiness is living in a neat mess, and the Epic Blipsqueak is nothing if not neat when it comes to organizing its various eyes, ears, nose and toes (albeit in unexpected locations). With a body made out of exquisite wood and fine metal ornamentation, this Epic Wublin's knowledge of natural remedies like poultices, tinctures and ointments is unmatched - all thanks to the apothecary diaries it routinely drafts and publishes.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Blipsqueak.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "5 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "None. Zap The Contents, And Power Up!"
+    ],
+    "polarity": [
+        "Negative Form: Epic Tympa, Negative Toward: Epic Brump, Positive Form: Epic Screemu, Positive Toward: Epic Scargo"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

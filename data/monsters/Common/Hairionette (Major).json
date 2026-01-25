@@ -16,5 +16,6 @@
     ],
     "breedingTime": [
         "Breeding Time: 1 day 8 hr, Enhanced Time: 1 day"
-    ]
+    ],
+    "transpositionCost": "100000 Coins"
 }

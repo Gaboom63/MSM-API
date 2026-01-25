@@ -1,0 +1,31 @@
+{
+    "name": "Epic Kayna",
+    "description": "Of all Fire Monsters, the Epic Kayna burns with the strongest, purest energy. So powerful is its connection with the living core of the Monster World, its physical appearance has evolved to reflect the wellspring of shadow and flame - cloven hooves and sharpened claws, substantial horns and deep-set eyes, and an intense purplish-blue glow radiating from between its ashen plates. Wings that once allowed the Fire Epic to drift on thermal updrafts have hardened and fallen out of use, but they are no less impressive when beholding the Epic Kayna across the diverse habitats of its new home on the surface.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Kayna.png?raw=true",
+    "cost": "300 Diamonds",
+    "islands": [
+        "haven",
+        "oasis",
+        "light",
+        "psychic",
+        "faerie",
+        "bone",
+        "amber",
+        "mirror light",
+        "mirror psychic",
+        "mirror faerie",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Tring + Stogg",
+        "Sneyser + Phangler",
+        "Blow't + Furcorn",
+        "Gloptic + Oaktopus",
+        "Pladdie + Drumpler",
+        "Plinkajou + Fwog"
+
+    ],
+    "breedingTime": [
+        "Breeding Time: 15 hr, Enhanced time: 11 hr 15 min"
+    ]
+}

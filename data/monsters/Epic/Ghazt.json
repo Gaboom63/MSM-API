@@ -1,0 +1,22 @@
+{
+    "name": "Epic Ghazt",
+    "description": "If Ghazts are known for their ability to slide inconspicuously between dimensions, then the fearsome-looking Epic Ghazts are known for their difficulty in living up to that reputation. The Epic Ethereal possesses several traits that make interdimensional travel a bother: a bad-to-the-bone skeleton that seldom attains full intangibility, dual-ended horns that catch on the edge of dimensional portals, and optical Plasmic orbs that get easily distracted. When it finally settles in to a habitat it finds comfortable, you'd be hard-pressed to flush out this hardheaded Monster!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Ghazt.png?raw=true",
+    "cost": "2250 Diamonds",
+    "etherealCost": "2550",
+    "islands": [
+        "plant",
+        "ethereal",
+        "mirror plant",
+    ],
+    "breedingCombo": [
+        "T-Rox + Furcorn",
+        "Boodoo + Dragong"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 6 hr, Enhanced Time: 22 hr 30 min"
+    ],
+    "etherealBreedingTime": [
+        "Breeding Time: 8 hr 20 min, Enhanced Time: 6 hr 15 min"
+    ]
+}

@@ -20,5 +20,6 @@
     ],
     "fuguingTime": [
         "Success: 1 day 10 hr, Failure: 22 hr"
-    ]
+    ],
+    "transpositionCost": "100000 Coins"
 }

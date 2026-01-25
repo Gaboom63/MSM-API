@@ -1,0 +1,25 @@
+{
+    "name": "Epic Maw",
+    "description": "Maws are sensory creatures that always have an ear to the ground (so to speak), from the pronounced tastebuds and sensitive fur of Common Maw, to the keen eyesight of its Rare cousin. Similarly, Epic Maw is gifted with another valuable sense: smell! With every Epic nose comes the constant threat of sinus infections, but also the savory scent of freshly baked Treats.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Maw.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "plant",
+        "cold",
+        "air",
+        "gold",
+        "oasis",
+        "mirror plant",
+        "mirror cold",
+        "mirror air"
+    ],
+    "breedingCombo": [
+        "Bowgart + Drumpler",
+        "Spunge + Furcorn",
+        "T-Rox + Quibble",
+        "Whaddle + Pango"
+    ],
+    "breedingTime": [
+        "Breeding Time: 13 hr, Enhanced Time: 9 hr 45 min"
+    ]
+}

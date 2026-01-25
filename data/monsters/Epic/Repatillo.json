@@ -1,0 +1,16 @@
+{
+    "name": "Epic Repatillo",
+    "description": "Nosey ninnies who love to eavesdrop, Epic Repatillos have eschewed their scutes for vegetal green furthers so as to camouflage themselves in the brush and judge others from a safe distance. Tragically, it is clear to any Monster with eyes that the warm tones of its Fire homelands are in stark contrast to this Epic's ineffective disguise. Its friends can't bear to tell it the truth, so they carry on pretending not to see this foolish Fire Monster ducking conspicuously behind nearby Rocks and Trees.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Repatillo.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "haven",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Floogull + Flowah",
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 9 hr, Enhanced Time: 1 day 45 min"
+    ]
+}

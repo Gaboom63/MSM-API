@@ -1,0 +1,17 @@
+{
+    "name": "Epic Riff",
+    "description": "Epic Riff's ability to shred on its symbiotic instrument is so impressive, its instrument needs two necks! But wait - is this instrument even alive? Of course it is! The eyeless, noseless, mouthless, and otherwise faceless instrument may have sacrificed its expressive visage for an extra neck, but it is still capable of communicating with its winged pal via forceful strums and playful twangs.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Riff.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "air",
+        "gold",
+        "mirror air"
+    ],
+    "breedingCombo": [
+        "PomPom + Quibble"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 15 day, Enhanced Time: 1 day 5 hr 15 min"
+    ]
+}

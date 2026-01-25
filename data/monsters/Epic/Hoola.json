@@ -1,0 +1,23 @@
+{
+    "name": "Epic Hoola",
+    "description": "Everyone's raving about this tie-dye raver! Epic Hoola is a world-renowned DJ that hosts the raddest parties this side of the Seam - especially at its usual stomping ground, Club Box. Only the hippest Monsters with an ear to the ground (or sky!) turn up at Epic Hoola's legendary secret shows. Whether it's your first time at Club Box or your fiftieth, one thing's for sure: any shindig with this Epic Seasonal is bound to be the best. Night. EVER!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Hoola.png?raw=true",
+    "cost": "1000 Diamonds",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "air",
+        "earth",
+        "gold",
+        "seasonal",
+        "mirror air",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Riff + Fwog",
+        "Quarrister + Dandidoo",
+        "Schmoochle + Yool"
+    ],
+    "breedingTime": [
+        "Breeding Time: 21 hr 20 min, Enhanced Time: 16 hr"
+    ]
+}

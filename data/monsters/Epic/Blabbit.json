@@ -1,0 +1,21 @@
+{
+    "name": "Epic Blabbit",
+    "description": "For many years, the Epic Blabbit was nothing more than a tall tale whispered conspiratorially between young Monsters. Many claimed to have spotted the blurry silhouette of this horned creature as it dashed across their path, or heard the faraway clip-clop of its hooves while it hopped down its trail. Tired of the gossip and unflattering photography, Epic Blabbit has finally come out of hiding to prove its existence once and for all!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Blabbit.png?raw=true",
+    "cost": "1000 Diamonds",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "water",
+        "colossingum",
+        "gold",
+        "seasonal",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "Shellbeat + Oaktopus",
+        "Punkleton + Yool"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 1 hr 22 min, Enhanced Time: 19 hr 1 min 30 sec"
+    ]
+}

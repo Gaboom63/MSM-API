@@ -1,0 +1,22 @@
+{
+    "name": "Epic Jeeode",
+    "description": "In order to become the ultimate muse, Epic Jeeode leaves no gems uncut, allowing the all-seeing eyes of its Rare cousins to merge into its body. Then, the Epic Ethereal uses its flawless powers of perception to picture every possible scenario, not only to resolve conflicts but also to create inspiration among other monsters. Refining its skills by playing beautiful crystalized melodies, which has in turn prompted some to refer to it as an 'intellectual wizard', this Monster has fulfilled its destiny of becoming a being of pure impartiality.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Jeeode.png?raw=true",
+    "cost": "2250 Diamonds",
+    "etherealCost": "2550 Diamonds",
+    "islands": [
+        "water",
+        "ethereal",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "Pummel + Quibble",
+        "Jellbilly + Arackulele"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 2 hr, Enchanced Time: 19 hr 30 min"
+    ],
+    "etherealBreedingTime": [
+        "Breeding Time: 7 hr 13 min 20 sec, Enhanced Time: 5 hr 25 min"
+    ]
+}

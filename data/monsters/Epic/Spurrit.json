@@ -1,0 +1,18 @@
+{
+    "name": "Epic Spurrit",
+    "description": "Everyone pictures something different when they're asked to visualize the 'idealized form'... but for a Spurrit, it's this. Rounding out the trio of psyche-sudivided Seasonals, the Epic Spurrit is practically perfect in every way: calm and collected in a crisis, always knowing the right thing to say (Huzzah), the paragon of Monstrous virtue and scientific insight... the list goes on. If we HAD to identify one shortcoming, it's that the Monster seems a tad braggadocious when showing off its chiseled physique, BUT we were corrected on this - apparently, its flexing and showboating is meant to serve as an aspirational model for others' fitness journeys. How generous, our mistake.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Spurrit.png?raw=true",
+    "cost": "1000 Diamonds",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "oasis",
+        "seasonal"
+    ],
+    "breedingCombo": [
+        "Sneyser + Glowl",
+        "Jam Boree + Carillong"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 3 hr 20 min, Enhanced Time: 20 hr 30 min"
+    ]
+}

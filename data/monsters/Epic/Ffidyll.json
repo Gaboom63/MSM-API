@@ -1,0 +1,19 @@
+{
+    "name": "Epic Ffidyll",
+    "description": "If ever there was any doubt that Ffidyll belonged on Faerie Island, one needn't look any further than the form its Epic takes when it manifests on that Magical Island. Between those gossamer wings, miraculous white locks and fiddlehead antennae, it has all the markings of a true Fae: the Tou'a-day of local legend! The fable recounts that the Titan Faesodd once dwelled among crystal clear skies, but this all changed with the arrival of dark clouds and heavy mist. These clouds blotted out the sun and it was during this time of uncertainity that the Tou'a-day first manifested. The debate of whether or not this storied figure and Epic Ffidyll are one and the same continues to this day.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Ffidyll.png?raw=true",
+    "cost": "1000 Diamonds",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "faerie",
+        "seasonal",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Pladdie + HippityHop",
+        "Vineine + Spurrit"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 6 hr 17 min, Enhanced Time: 22 hr 42 min 45 sec"
+    ]
+}

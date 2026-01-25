@@ -1,0 +1,19 @@
+{
+    "name": "Epic Monculus",
+    "description": "The Epic Monculus is forged from materials ancient and atavistic: the burning bright Pyrozite, hewn by the Fire Colossal Dulcettéa, lends this Seasonal its formidable strength; while the shimmering primordial dust left behind by the Big Clangor brings this archaic Monster to life. Epic Monculus's resonance with the Fire Element in its rawest form has imbued in with a quirkier, more quizzical disposition than its Common and Rare counterparts. In hot pursuit of knowledge, its soul burns with a yearning to unearth the ancestral origins of the Monster World.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Monculus.png?raw=true",
+    "etherealCost": "1000 Diamonds",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "ethereal",
+        "seasonal",
+        "wublin"
+    ],
+    "breedingCombo": [
+        "Whisp + Humbug",
+        "Carillong + Ffidyll"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 9 hr 31 min, Enhanced Time: 1 day 19 hr 8 min 15 sec"
+    ]
+}

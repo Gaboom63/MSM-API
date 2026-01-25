@@ -1,0 +1,26 @@
+{
+    "name": "Epic Drumpler",
+    "description": "It's not just a Spooktacle story keeping little Monsters up at night: Epic Drumpler is fang-tastically real! Drumplers incubated beneath the haunting glow of a full moon undergo a fur-ocious change: the chosen Monsters sprout coarse fur, all-hearing ears, and a superb sniffer! This canine Epic's feral instincts make it particularly partial to gnawing on the fiberglass bones of the Fossil-osaurus.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Drumpler.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "plant",
+        "air",
+        "earth",
+        "gold",
+        "faerie",
+        "mirror plant",
+        "mirror air",
+        "mirror earth",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Clamble + Maw",
+        "PomPom + Fwog",
+        "Thumpies + Cybop",
+        "Ziggurab + HippityHop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 15 hr, Enhanced Time: 11 hr 15 min"
+    ]
+}

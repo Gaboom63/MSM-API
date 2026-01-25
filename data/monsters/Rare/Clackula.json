@@ -17,6 +17,6 @@
     "breedingTime": [
         "Breeding Time: 8 hr, Enhanced Time: 6 hr"
     ],
-    "transposition": "5 Diamonds",
+    "transpositionCost": "5 Diamonds",
     "orbTime": "1 days 2 hr",
 }

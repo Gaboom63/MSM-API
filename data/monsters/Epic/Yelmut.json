@@ -1,0 +1,17 @@
+{
+    "name": "Epic Yelmut",
+    "description": "Epic Yelmuts and their Rare cousins may not look like they may have much in common, yet they share one persistent delusion: that their minds are being probed by nosy Colossals! While Rare Yelmuts cower at the thought of this less-than-likely prospect, Epic Yelmuts revel in it, wholly convinced they have been chosen by the Colossals for their superior intellect, strong leadership skills, and dashing good looks. Delusions of grandeur have led the Epic Fire Monster to sport ostentatious headgear befitting a being of great importance, which it wears in exaltation of its mindreading masters.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Yelmut.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": [
+        "light",
+        "amber",
+        "mirror light"
+    ],
+    "breedingCombo": [
+        "Blow't + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 15 min, Enhanced Time: 1 day 5 hr 15 min"
+    ]
+}

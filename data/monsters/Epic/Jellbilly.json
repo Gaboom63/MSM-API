@@ -1,0 +1,15 @@
+{
+    "name": "Epic Jellbilly",
+    "description": "Even though very little of them have been explored, there are in fact substantial bodies of water in the pocket dimension, and that's where the Epic Jellbilly resides. Its straight and pointed orthocone shell is distinct from the soft gelatinous bodies of other subspecies of Jellbilly family. In a classic case of rarity oneupMonship, the Epic Ethereal has 3 eyes instead of 1 or 2... but they are all in the physiological position where the brain should be, so this Monster is understood to actually be more primitive than the others. Some have disputed that this Monster is misclassified and only has a superficial resemblance to other Jellbillies is coincidental [sic], but calling out the presence of sensorial stachacles quickly refutes such claims.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Jellbilly.png?raw=true",
+    "etherealCost": "3500 Diamonds",
+    "islands": [
+        "ethereal"
+    ],
+    "breedingCombo": [
+        "Arackulele  + Fung Pray"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 14 hr, Enhanced Time: 1 day 4 hr 30 min"
+    ]
+}
