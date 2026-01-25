@@ -1,0 +1,17 @@
+{
+    "name": "Epic Flum Ox",
+    "description": "The longer a Flum Ox lives, the deeper its communion with the Elements grows, and for an exceedingly rare number, this mystical union pushes the Monster to some natural extremes. Venturing into isolation, Epic Flum Oxen establish a hermitage where the indigenous overgrowth is allowed to completely encroach and grow wild. In this bony, brambly hideaway the Monster meditates, ruminates, and facultates amongst its cohabitants, taking on their nascent characteristics. Its branched horns become a knotted, tangled mess, hooking and twisting together. Its body wrapped in a cocoon turns mossy and brackish, and the untamed growth promoted within its body triggers bony eruptions forming osseous tines. The wild and unkempt nature of Epic Flum Ox belie their eremitic ways. Having achieved the apex of enlightenment, these long secluded Monsters return to broader Monster communities, bringing with them an unmatched sense of balance and harmony. Though, some have been known to return a bit early, needing a bit of help getting their horns untangled.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Flum%20Ox.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": [
+        "bone",
+        "amber",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Plinkajou + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 13 hr, Enhanced Time: 1 day 3 hr 45 min"
+    ]
+}

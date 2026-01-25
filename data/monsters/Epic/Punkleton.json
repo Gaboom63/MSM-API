@@ -1,0 +1,20 @@
+{
+    "name": "Epic Punkleton",
+    "description": "It may be the most Epic branch in a spidery family tree of scare-masters, but Epic Punkleton just wants to be loved by the masses! This Monster thespian longs to give a performance that elicits a standing ovation from its adoring audience - not screams of terror. It is no stranger to Plant Island's wardrobe department, where it tests out various costume pieces and facial carvings in an effort to appear more relatable to its fellow Monsters.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Punkleton.png?raw=true",
+    "cost": "1000 Diamonds",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "plant",
+        "gold",
+        "seasonal",
+        "mirror plant"
+    ],
+    "breedingCombo": [
+        "Entbrat + Drumpler",
+        "Schmoochle + Blabbit"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 7 hr 10 min, Enhanced Time: 23 hr 22 min 30 sec"
+    ]
+}

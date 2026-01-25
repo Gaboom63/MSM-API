@@ -1,0 +1,16 @@
+{
+    "name": "Epic Candelavra",
+    "description": "Rest here, weary traveller, for the journey is long and full of wonders. Take succor and repose by the terrible glow of the Arcane Fire, and let the flitting embers guide thy path. In the creeping dark, may its light give you purpose. In the depths of the world, may its warmth keep you hale. Among communion and friendship, may its gentle crackle bring your spirit song. - Ode to the Arcane Fire  Generation upon generation of Monsters pass down tales, songs, and refrains from ages long past, and among the more comforting would be the wish of a weary traveller, also known as the Ode to the Arcane Fire. In the long journey to the depths of the living core, the Fire Monsters would rest and recuperate at outcroppings, conveniently marked with glowing pits of ember. These perpetual flames warmed their spirits and encouraged them onward in their journey with a softly intense blue glow. Ever a guide for lost and wandering Monsters, Epic Candelavra embodies the primal nature of its forebears, manifesting the crackling blue flame from its ancient roots. Gracefully weaving its Natural affinities into an ever-burning hearth, the Epic Monster smolders as it serenades.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Candelavra.png?raw=true",
+    "cost": "1750 Diamonds",
+    "islands": [
+        "haven",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Repatillo + Dandidoo"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 days 5 hr, Enhanced Time: 1 day 15 hr 45 min"
+    ]
+}

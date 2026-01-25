@@ -20,6 +20,9 @@
         "Riff + T-Rox"
     ],
     "breedingTime": [
-        "Breeding Time: Air: 1 day 12 hr, Ethereal: 10 hr, Enhanced Time: Air: 1 day 3 hr, Ethereal: 7 hr 30 min"
+        "Breeding Time: Air: 1 day 12 hr, Enhanced Time: 1 day 3 hr"
+    ],
+    "etherealBreedingTime": [
+        "Breeding Time: 10 hr, Enhanced Time: 7 hr 30 min"
     ]
 }

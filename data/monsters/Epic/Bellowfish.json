@@ -1,0 +1,15 @@
+{
+    "name": "Epic Bellowfish",
+    "description": "Even though it's cracked like that of its Rare counterpart, the crystal of the Epic Bellowfish's suit is chemically pure and stable (with no adulerants [sic] like Monsterling formula or chili powder). However, contrary to the mechanized suit of its Common cousin, the Epic's is actually made of rubber and extends beyond its torso and 'arms' to include its legs as well. The Epic Ethereal asserts that it's to defend against foreign contaminants, like the buzzing dragonflies of the pocket dimension - but the embarrassing truth is that it has a sensitivity to aquaslime and must be shielded at all times. This is an open secret among the other Ethereals, but they pretend not to know to safeguard the Epic Bellowfish's dignity - s'all good, Monster.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Bellowfish.png?raw=true",
+    "etherealCost": "3500 Diamonds",
+    "islands": [
+        "ethereal",
+    ],
+    "breedingCombo": [
+        "Whisp + Dragong"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 22 hr, Enhanced Time: 1 day 10 hr 30 min"
+    ]
+}

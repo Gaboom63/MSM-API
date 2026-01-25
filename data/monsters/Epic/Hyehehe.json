@@ -1,0 +1,19 @@
+{
+    "name": "Epic Hyehehe",
+    "description": "Hyehehes of all rarities are known for their mischief and mayhem, but the Epic Hyehehe has a novel approach to pulling pranks and subverting expectations. The Monster retains the Mythical species's ability to flex strong inner ear muscles and pump air directly up from its lungs to produce its sound. And there's that trademark cackle… or… wait - where's that sound coming from? Vigilant observation reveals that the Monster's jaws never open wider than a subtle smirk. So just what the 'henge is going on?! The answer is revealed in a special talent unique to the Epic Hyehehe - it's a master ventriloquist! Without barely opening its mouth at all, the Epic Hyehehe is able to 'throw' its voice so that it appears to be coming from its puppet partner-in-mime, nicknamed Qwerty. This arrangement serves the duo well, and together they get up to all sorts of shenanigans misdirecting and bamboozling their fellow Monsters. But… is Qwerty a living thing in its own right? Both of them are plush-based organisms, so is it actually Qwerty's voice that we hear? It's mind-bending questions like these that lead to an unintended consequence: the physical reality that surrounds the pair can sometimes be… well, glitchy. At times, it's almost as if the Epic Hyehehe is confined within an invisible box, breaking free of gravity, or flickering between disparate states. How does the Monster feel about this fate? We may never know, but some might call it unspeakable.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Hyehehe.png?raw=true",
+    "cost": "1000 Diamonds",
+    "mythicalCost": "1225 Diamonds",
+    "islands": [
+        "earth",
+        "mythical",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Quarrister + Shrubb",
+        "Cataliszt + Buzzinga"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 9 hr 28 min, Enhanced Time: 1 day 1 hr 6 min"
+    ]
+}

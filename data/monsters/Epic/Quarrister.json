@@ -1,0 +1,17 @@
+{
+    "name": "Epic Quarrister",
+    "description": "Some Monsters age gracefully, while others age... like this. The seasoned Epic Quarrister has been one with the Earth for so long that vegetation has begun to take root within its weathered form, changing the landscape of this once-formidable golem forever. Ever the optimists, Epic Quarrister's heads can't help but smile at its new buttercup-yellow blooms and dignified Bawnzi Tree. Well, MOST of its heads.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Quarrister.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "earth",
+        "gold",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Clamble + Dandidoo"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 11 hr, Enhanced Time: 1 day 2 hr 15 min"
+    ]
+}

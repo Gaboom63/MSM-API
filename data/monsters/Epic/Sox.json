@@ -1,0 +1,15 @@
+{
+    "name": "Epic Sox",
+    "description": "Epic Soxes are reputed to be able to shapeshift into ghost-like apparitions, but this is a misconception - the truth is far more unusual. These vulpine Epic Ethereals actually straddle parallel realities, and have multiple traits to reflect this: they possess two tails, one from each continuity; the horned outgrowth that covers their heads and arms never occurs symmetrically; and their coloration calls forth imagery of suspicious spirits. In one of Epic Soxes' timelines, there's a thriving tourism industry in the Monster World (for some reason), and the 'soup of the day' is the most popular subject for small talk. The Monsters won't provide any further context for these cryptic clues, but they often perform soulful ditties that guess at what might have been, if that reality had ever merged with the main one.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Sox.png?raw=true",
+    "etherealCost": "3500 Diamonds",
+    "islands": [
+        "ethereal"
+    ],
+    "breedingCombo": [
+        "Jellbilly + Bellowfish"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 12 hr, Enhanced Time: 1 day 3 hr"
+    ]
+}

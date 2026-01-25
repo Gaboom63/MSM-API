@@ -1,0 +1,23 @@
+{
+    "name": "Epic Rooba",
+    "description": "Just as every musical note played with its bow has its own meaning, each of Epic Rooba's plush braids tells the story of past (or future) concerts. Other Monsters often refer to this Epic Magical as the 'Multidimensional Orchestrator' due to its ability to schedule multiple, sometimes simultaneous concerts across the Monster World. This leads some to suspect Epic Rooba might be weaving the Psychic Island critters into its braids to infuse itself with mysterious powers. When Epic Rooba isn't creating its own mellifluous melodies, it can be found relaxing listening to its second favorite musical artist, BlitherPhish.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Rooba.png?raw=true",
+    "cost": "1000 Diamonds",
+    "islands": [
+        "psychic",
+        "nexus",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Periscorp + Flowah"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 1 hr 30 min, Enhanced Time: 19 hr 7 min 30 sec"
+    ],
+    "transpositionCost": [
+        "40 Diamonds"  
+    ],
+    "orbTime": [
+        "Orb Time: 1 day 19 hr 30 min"
+    ]
+}

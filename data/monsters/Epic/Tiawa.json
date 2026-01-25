@@ -1,0 +1,17 @@
+{
+    "name": "Epic Tiawa",
+    "description": "So we've established that the Common Tiawa is a 'queen', the Rare Tiawa is a 'princess'... what is the Epic Tiawa, then? This multi-limbed Fire Epic styles itself as a 'mistress of the dark', an admittedly unusual choice for a Monster whose habitat range includes an island known for its luminescent displays. While a distant relation may have carved out a niche for itself as half of an episodic auditory experience on said island, the Epic Tiawa instead favors the visual medium and hosts a weekly 'show' where it performs shadow puppetry of macabre tales. Endowed with more legs and eyes than either of its cousins, it harnesses them to exceedingly eerie effect during its performances. Curiously, it only has the one heart (unlike the two of other Tiawas), but it's more than enough to provide the haunting soundtrack for scary stories.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Tiawa.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": [
+        "light",
+        "amber",
+        "mirror light"
+    ],
+    "breedingCombo": [
+        "Blow't + Potbelly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 day 1 hr, Enhanced Time: 1 day 12 hr 45 min"
+    ]
+}

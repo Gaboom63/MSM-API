@@ -1,0 +1,16 @@
+{
+    "name": "Epic Wynq",
+    "description": "The old adage that a Wynq's eye is larger than its brain has a basis in fact... but that doesn't mean that this Monster isn't self-conscious about it. To overcome this perceived genetic shortcoming, some Wynqs are able to activate latent traits and grow additional eyes and brains, transforming them into Epic Wynqs! Regrettably, Wynq's mathematical proficiency leaves a bit to be desired, and the eye to brain ratio is exactly the same as before. However, having multiple brains leads to some interesting side-effects; namely the consistency and quantity of the Monsters' 'furthers' undergo radical change, and it must constantly trim, bind and style them so they don't overwhelm its whole body.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Wynq.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "oasis",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Congle + Boskus"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 5 hr, Enhanced Time: 21 hr 45 min"
+    ]
+}

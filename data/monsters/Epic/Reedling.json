@@ -1,0 +1,22 @@
+{
+    "name": "Epic Reedling",
+    "description": "Reedlings have a hard time controlling their body temperature. So what's a Monster to do when it inhabits both stifling heat and chilly depths? In true Reedling fashion, you evolve special organs, of course! Epic Reedlings harness the air expelled from their rogue toots with special chitinous carapaces and cable-like tubing that channel it into hot or cool air that circulates across its body.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Reedling.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": [
+        "water",
+        "earth",
+        "gold",
+        "haven",
+        "mirror water",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Spunge + Fwog",
+        "Thumpies + Shrubb",
+        "Repatillo + Cybop"
+    ],
+    "breedingTime": [
+        "Breeding Time: 17 hr, Enhanced Time: 12 hr 45 min"
+    ]
+}

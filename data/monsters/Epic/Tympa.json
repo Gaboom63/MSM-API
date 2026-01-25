@@ -1,0 +1,19 @@
+{
+    "name": "Epic Tympa",
+    "description": "The concept of a 'mind palace' is familiar to those in need of a mnemonic device for recalling specific information. For better or worse, the Epic Tympa takes the expression literally and was designed to construct an actual physical palace. Unclear if this helps with memory recall in any substantial way, but the Epic Wublin continues to rat-tat-tap away, nevertheless.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Tympa.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "14 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "polarity": [
+        "Negative from: Epic Thwok, Negative toward: Epic Blipsqueak, Positive from: Epic Poewk, Positive toward: Epic Gheegur"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

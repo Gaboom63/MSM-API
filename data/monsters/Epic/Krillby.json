@@ -1,0 +1,17 @@
+{
+    "name": "Epic Krillby",
+    "description": "The Epic Krillby roams across wide open plains, delighting in the freedom to stretch its mighty legs and move as it pleases. Its strikingly large ears can detect the faintest of sounds across its vast territory, including deep below the soil, where it finds rhythmic root vegetables like the rat-tat-tater. Once its vegetal quarry is heard, the Epic Fire Quad will sprint to its location and use its claws to burrow into the dirt. Its long muzzle creates the perfect straw to vacuum up tasty subterranean treats. Given that it may go miles and miles without spotting a stream or pond, Epic Krillby has evolved past the need for water and instead draws all of its hydration from the morsels it digs out of the ground. While the lands that Epic Krillbies patrol are far from one another, they still feel each other's presence through the distant sound of every footfall and claw clack - you might even say they are all apart together.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Krillby.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": [
+        "faerie",
+        "amber",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Pladdie + Kayna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 19 hr, Enhanced Time: 1 day 8 hr 15 min"
+    ]
+}

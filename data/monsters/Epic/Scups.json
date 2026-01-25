@@ -1,0 +1,20 @@
+{
+    "name": "Epic Scups",
+    "description": "After emerging from its amber encasement, Flutter the Freed Thing laid eyes on a Common Scups and immediately felt a suction-cupped kinship. Flutter led a handful of chosen Scups on a journey into its native realm of Thingia, home of all Things. Immersed in a whimsical world of stickiness, these Scups soon morphed into Flutter-like Epics - a testament to their second home!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Scups.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": [
+        "air",
+        "water",
+        "gold",
+        "mirror air",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "PomPom + Maw",
+        "Pummel + Dandidoo"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 13 hr, Enahnced Time: 1 day 3 hr 45 min"
+    ]
+}

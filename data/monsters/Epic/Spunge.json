@@ -1,0 +1,20 @@
+{
+    "name": "Epic Spunge",
+    "description": "Sweeter (and more stylish) than your run-of-the-mill sea cucumber is the sea spineapple, an aquatic plant emulated by the Epic Spunge. This clever Monster's camouflage extends beyond its dual spineapple stems to its gelatinous body itself, which can morph into a translucent state. The effectiveness of the survival tactic is debatable at best, as Epic Spunge's stout skeleton remains visible within.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Spunge.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": [
+        "cold",
+        "water",
+        "gold",
+        "mirror cold",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "Thumpies + Quibble",
+        "Scups + Oaktopus"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 1 hr, Enhanced Time: 18 hr 45 min"
+    ]
+}

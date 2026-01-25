@@ -1,0 +1,22 @@
+{
+    "name": "Epic Humbug",
+    "description": "If Rare Humbugs are givers (roguishly delivering their venom into Torchle Trees), then Epic Humbugs are most certainly takers! Their elongated mouthparts are used to drain tropical fruits of their nectar… wait, what did you think they were for? In the Humbug family, the Epics are the most adept at navigating the supersonic dimensional highways their wings can open, thanks to special organs on their bodies called halteres. Much more than simply providing information about the Monsters' position in real space, they can detect weaknesses in the fabric of reality and form wormholes to even the most inaccessible dimensions.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Humbug.png?raw=true",
+    "cost": "2250 Diamonds",
+    "etherealCost": "2550 Diamonds",
+    "islands": [
+        "earth",
+        "ethereal",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Clamble + Cybop",
+        "Whisp + Bellowfish"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 8 hr, Enhanced Time: 1 day"
+    ],
+    "etherealBreedingTime": [
+        "Breeding Time: 8 hr 53 min 20 sec, Enhanced Time: 6 hr 40 min"
+    ]
+}

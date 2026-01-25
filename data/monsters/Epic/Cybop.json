@@ -1,0 +1,25 @@
+{
+    "name": "Epic Cybop",
+    "description": "Epic Cybops are the lords of laziness, the sovereigns of sloth, and the masters of the uni-... uh, the masters of immobility. This idle Epic is exhausted by the mere thought of powering a propeller, and instead favors ziplining place to place. By simply threading steel wire through the loop of its helmet, it can let its body go limp while gravity does the work.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Cybop.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "air",
+        "water",
+        "earth",
+        "gold",
+        "haven",
+        "mirror air",
+        "mirror water",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Congle + Drumpler",
+        "Scups + Dandidoo",
+        "PomPom + Shrubb", 
+        "Reedling + Stogg"
+    ],
+    "breedingTime": [
+        "Breeding Time: 23 hr, Enhanced Time: 17 hr 15 min"
+    ]
+}

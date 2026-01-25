@@ -3,7 +3,7 @@
     "description": "Monsters will often adapt their appearance to match their surroundings, but less frequently, they will adapt themselves to another Monstrous denizen of their habitat. The Rare Plinkajou is a prime example of this - it has evolved multiple traits to resemble the Rare Gnarls that share its subterranean ecosystem. The dense white-grey fur that covers the Rare Magical's body is reminiscent of the texture of the Fire Rare's arboreal host of choice, and also recedes to a dark sooty grey as it reaches the extremities. Additionally, the many eyespots that cover its body call to mind the knots in the birch-Like texture of Rare Gnarls. Why the Rare Plinkajou evolved to appear this way remains unsolved, but some have suggested it's so that the Monster can disappear into the trees at a moment's notice should its collection of precious minerals be discovered.",
     "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Plinkajou.png?raw=true",
     "cost": "750 Diamonds",
-    "transposition": "40 Diamonds",
+    "transpositionCost": "40 Diamonds",
     "islands": [
         "bone",
         "nexus",
@@ -21,5 +21,5 @@
     "breedingTime": [
         "Breeding Time: 1 day 8 hr, Enhanced Time: 1 day"
     ],
-    "orbTime": "2 day 12 hr 30 min"
+    "orbTime": "2 day 12 hr 30 min",
 }

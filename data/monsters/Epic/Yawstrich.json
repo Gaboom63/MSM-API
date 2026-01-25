@@ -1,0 +1,19 @@
+{
+    "name": "Epic Yawstrich",
+    "description": "Finally, a breed of Yawstrich whose seraphic appearance matches its equally angelic voice! Epic Yawstrich is the envy of all its furthered friends, revered for its subtle beauty and elegance. Its pillowy pink plumage evokes the whisper soft quality of its song. And that rosy hue! A product of its rigorourous [sic] Yaw-Yaw Fruit diet, its romantic coloring is nearly as delicate as its tender yodels. So graceful, so exquisite, so... so heavenly! What's that? You disagree? Well, I suppose there's no accounting for taste.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Yawstrich.png?raw=true",
+    "cost": "1000 Diamonds",
+    "mythicalCost": "1225 Diamonds",
+    "islands": [
+        "air",
+        "mythical",
+        "mirror air"
+    ],
+    "breedingCombo": [
+        "Riff + Fwog",
+        "Cataliszt + Strombonin"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 14 hr 23 min, Enhanced Time: 1 day 4 hr 47 min 15 sec"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Epic Rootitoot",
+    "description": "After learning that certain starchy tubers could electrochemically power a light bulb, the knowledge 'galvanized' a sharp-toothed and sprout-footed variety of Rootitoot into coming up with a way to utilize all the extra energy within. After the Fire Monster balanced all the positives and negatives, it constructed some bionic appendages worthy of the Epic designation. Now it can better serve all the other Monsters at its next soirée; let them eat Cake, as they say… Come again? You want another Big Salad or two?! Well, at least the Monster has the arm room now.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Rootitoot.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "psychic",
+        "amber",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Rooba + Oaktopus"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 11 hr, Enhanced Time: 1 day 2 hr 15 min"
+    ]
+}

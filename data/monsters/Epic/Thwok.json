@@ -1,0 +1,19 @@
+{
+    "name": "Epic Thwok",
+    "description": "What happened to Epic Thwok's face?! Swapping a furry form for a volcanic exterior, the Epic Wublin's features have melted down into molten nothingness - oh wait, scratch that, we have a confirmed 'sighting' of something traveling up and down the length of the Monster's tongue - although can it really be considered a tongue when it's the dissolved contents of your former face?",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Thwok.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "7 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "polarity": [
+        "Negative from: Epic Zuuker, Negative toward: Epic Tympa, Positive from: Epic Dermit, Positive toward: Epic Maulch"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

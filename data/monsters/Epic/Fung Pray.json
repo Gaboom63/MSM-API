@@ -1,0 +1,15 @@
+{
+    "name": "Epic Fung Pray",
+    "description": "Fung Prays are known to seek balance in all things - but should a Fung Pray challenge the status quo and embrace total chaos? Epic Fung Pray is born from this desire for total imbalance. Rest assured that this Epic Ethereal doesn't wish harm or dissonance upon the Monster World, but rather it encourages the acceptance that not everything is within our control, and we cannot predict our own destinies. This liberating notion has freed the Epic Fung Pray's mind and body, resulting in a unique technicolor form that defies explanation or logic. Its four bright eyes can see four different possible outcomes to any situation, but suffer from near-sightedness.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Fung%20Pray.png?raw=true",
+    "etherealCost": "3500 Diamonds",
+    "islands": [
+        "ethereal"
+    ],
+    "breedingCombo": [
+        "Nebulob + Boodoo"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 20 hr, Enhanced Time: 1 day 9 hr"
+    ]
+}

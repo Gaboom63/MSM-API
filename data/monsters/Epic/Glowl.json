@@ -1,0 +1,18 @@
+{
+    "name": "Epic Glowl",
+    "description": "Sporting bright, complex colors, the Common Glowl is mostly diurnal and prefers to fly by the light of the sun. By contrast, the Epic Glowl (known in some circles by its other name, the Glorvid) fully embraces the darkness. Though this raven-like Monster has muted colors and fearsome features on the outside, Epic Glowl's personality still shines brightly on the inside. Perhaps its hybrid bird and bat wings help it to sympathize with the Epic Tweedle? Soaring through the night sky, this Fire Epic is guaranteed to come gently rapping at your chamber door, causing your foot to start gently tapping on your chamber floor… all to make sure that it doesn't miss out on any of the bountiful harvest! Quoth the Epic Glowl, Gimme more!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Glowl.png?raw=true",
+    "cost": "500 Diamonds", 
+    "islands": [
+        "haven",
+        "oasis",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Floogull1 + Dandidoo", 
+        "Wynq + Quibble"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 1 hr, Enhanced Time: 18 hr 45 min"
+    ]
+}

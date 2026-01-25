@@ -1,0 +1,20 @@
+{
+    "name": "Epic Yool",
+    "description": "No matter how it may adorn itself with baubles and bows, Epic Yool always makes a chilling first impression. Thus, the first-known Epic Seasonal prefers a behind-the-scenes role in the Festival of Yay festivities: making lists, checking them thrice, yada yada yada. If Common and Rare Yool are the face of the Yay operation, the busy Epic Yool is the mastermind!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Yool.png?raw=true",
+    "cost": "1000 Diamonds",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "cold",
+        "gold",
+        "seasonal",
+        "mirror cold"
+    ],
+    "breedingCombo": [
+        "Deedge + Pango",
+        "Blabbit + Hoola"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 1 hr 12 min, Enhanced Time: 18 hr 54 min"
+    ]
+}

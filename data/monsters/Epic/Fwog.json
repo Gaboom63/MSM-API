@@ -1,0 +1,26 @@
+{
+    "name": "Epic Fwog",
+    "description": "Some Monsters love to be held, others just long to hold. Epic Fwog enjoys both! A diehard romantic just like its Common and Rare cousins, the Epic Fwog hopes to impress potential mates with the strength of its snuggles. It can also deliver a mean high-four!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Fwog.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "plant",
+        "air",
+        "water",
+        "gold",
+        "bone",
+        "mirror plant",
+        "mirror air",
+        "mirror water",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Pummel + Furcorn", 
+        "Scups + Pango",
+        "Reedling + Oaktopus",
+        "Thrumble + Denchuhs"
+    ],
+    "breedingTime": [
+        "Breeding Time: 7 hr, Enhanced Time: 5 hr 15 min"
+    ]
+}

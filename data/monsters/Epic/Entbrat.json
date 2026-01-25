@@ -1,0 +1,17 @@
+{
+    "name": "Epic Entbrat",
+    "description": "Yikes! The Epic Entbrat is a truly terrifying sight for anyone familiar with its hearty Common cousin. No need for alarm, however - we can assure you that this Epic is in a perfectly healthy state. It may be pale, frail, and honestly a little creepy, but this is simply the appearance of a Monster that prefers the comforting darkness of a Cozee Cabin to the shining rays of the great outdoors.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Entbrat.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "plant",
+        "gold",
+        "mirror plant"
+    ],
+    "breedingCombo": [
+        "T-Rox + Shrubb",
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 21 hr, Enhanced Time: 1 day 9 hr 45 min"
+    ]
+}

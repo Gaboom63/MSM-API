@@ -1,0 +1,16 @@
+{
+    "name": "Epic Sneyser",
+    "description": "Generations of Sneysers have strived to diminish the discomfort associated with the molten effluvium for which the species is known. So what's better than hot snot? Sublime slime! The Epic Sneyser generates and secretes highly acidic mucus all over its body to protect itself both from the rays of the sun, and its own sneezes. Its third eye sometimes helps to keep watch over its reserve of Sneysosudoric acid, while its additional forelimbs allow it to achieve land speeds faster than you would expect of a Monster its shape.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Sneyser.png?raw=true",
+    "cost": "1000 Diamonds",
+    "islands": [
+        "oasis",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Woolabee + Phangler"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 17 hr, Enhanced Time: 1 day 6 hr 45 min"
+    ]
+}

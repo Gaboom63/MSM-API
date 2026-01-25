@@ -1,0 +1,25 @@
+{
+    "name": "Epic Quibble",
+    "description": "(This? THIS is Epic Quibble? You're sure? Okay...)  AHEM! The Epic Quibble is a mystifying creature that... that... UGH! We give up. If you want to research this thing, be our guest.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Quibble.png?raw=true",
+    "cost": "150 Diamonds",
+    "shugabushCost": "600 Diamonds",
+    "islands": [
+        "cold",
+        "air",
+        "water",
+        "shugabush",
+        "gold",
+        "oasis",
+        "mirror cold",
+        "mirror air",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "Congle + Dandidoo",
+        "Shrubb + Maw"
+    ],
+    "breedingTime": [
+        "Breeding Time: 21 hr, Enhanced Time: 15 hr 45 min"
+    ]
+}

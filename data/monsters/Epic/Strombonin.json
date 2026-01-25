@@ -1,0 +1,19 @@
+{
+    "name": "Epic Strombonin",
+    "description": "Epic Strombonins ride upon ice drifts that float so far from shore, the bellowing cries of their molluscan Strombones can no longer be heard. Instead, the Epic opts for a roomier instrument and slightly stranger (but no less vocal) companion: the Fleech! Creepy crawly Fleeches bore tunnels through the glaciers of Cold Island using their round maws and ice pick-like fangs. The only way to catch a Fleech is to plug its tunnel with a perfectly shaped horn - and Epic Strombonin just so happens to have two atop its head! Once the Epic Mythical reaches old age, it sheds its gargantuan horns, donating them to younger apprentices to house their very first Fleech and echo its vocalization across vasty distances.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Strombonin.png?raw=true",
+    "cost": "1000 Diamonds",
+    "mythicalCost": "1225 Diamonds",
+    "islands": [
+        "cold",
+        "mythical",
+        "mirror cold"
+    ],
+    "breedingCombo": [
+        "Deedge + Furcorn",
+        "Cataliszt + G'joob"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 10 hr 30 min, Enhanced Time: 1 day 1 hr 52 min 30 sec"
+    ]
+}

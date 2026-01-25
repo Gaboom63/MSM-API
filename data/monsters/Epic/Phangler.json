@@ -1,0 +1,22 @@
+{
+    "name": "Epic Phangler",
+    "description": "The Epic Phangler is one big exercise in contradictions. It has a predilection for elocution (no, not electrocution, ELOCUTION, they're different), and has converted one of its escae into a pop filter-like organ. That would be helpful... if Phanglers ever uttered plosives as part of their performance, but they only ever use nasal syllables! The Double-Element Fire Monster has all the makings of a benthic beast, lurking deep near the bottom of the living ocean - but like its sun-worshipping Rare cousin, it prefers to stay near the water's surface in the epipelagic zone. Finally, you'd think the Monster's eye placement and number would correlate with advanced eyesight - but they are actually a limiting factor in its ability to see, confirming the Epic Phangler to only be able to perceive violet light (so they can identify each other). Such an odd Monster!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Phangler.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": [
+        "oasis",
+        "psychic",
+        "bone",
+        "amber",
+        "mirror psychic",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Congle + Glowl",
+        "Tapricorn + Yuggler",
+        "Banjaw + Peckidna"
+    ],
+    "breedingTime": [
+        "Breeding Time: 23 hr, Enhanced Time: 17 hr 15 min"
+    ]
+}

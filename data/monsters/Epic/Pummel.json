@@ -1,0 +1,20 @@
+{
+    "name": "Epic Pummel",
+    "description": "Epic Pummel's wide set eyes are each able to focus on separate pages of its favorite book, allowing this bookworm to read in record time! Tragically, the information they take in is rarely retained thanks to their broad heads carrying more water than brains. How do you even wear bonnets with that kind of head, anyway!? Nonetheless, their well-read nature does grant them with an impressive vocabulary.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Pummel.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": [
+        "plant",
+        "water",
+        "gold",
+        "mirror plant",
+        "mirror water"
+    ],
+    "breedingCombo": [
+        "Bowgart + Fwog",
+        "Scups + Shrubb"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 7 hr, Enhanced Time: 23 hr 15 min"
+    ]
+}

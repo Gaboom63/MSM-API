@@ -1,0 +1,15 @@
+{
+    "name": "Epic Arackulele",
+    "description": "Once hatched, Epic Arackuleles are overtaken by a primal instinct to skitter beneath the rocks of Ethereal Island and begin chipping away at the obstacle's Crystalline exterior. The glassy chunks are hewn into a jagged chordophone it will carry all its life, each one unique to the Epic Ethereal that crafted it. Epic Arackulele's acid-green abdomen contains a toxic venom that leeches from its glowing spines, warding off any threats creeping below the rocks. While we cannot confirm exactly why this hybrid of Shadow and Mech gravitates so strongly to the Elements of Poison and Crystal, it can be hypothesized that its Epic nature has led it to investigate all that the Ethereal class has to offer.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Arackulele.png?raw=true",
+    "etherealCost": "3500 Diamonds",
+    "islands": [
+        "ethereal",
+    ],
+    "breedingCombo": [
+        "Sox + Dragong"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 16 hr, Enhanced Time: 1 day 16 hr"
+    ]
+}

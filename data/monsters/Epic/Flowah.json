@@ -1,0 +1,22 @@
+{
+    "name": "Epic Flowah",
+    "description": "There's no stronger evidence of Flowah's and Barrb's family ties than their respective Epic forms. The already thistly Double-Element Fire Monster's arms and torso are covered in assorted succulents reminiscent of the Triple-Elemental's body morph. Besides the considerable weight and bulkiness they add to the Epic Flowah's physique, the spiky growths also pose a risk for poking others (and itself) in the eye as it contorts and flexes. What's more, they're incredibly prickly to the touch, so it's not uncommon to, at any given moment, see an Epic Flowah with bandages on its hands and a covered eye while it heals (although the Monster doesn't mind these being confused for it being tough and intimidating).",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Flowah.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": [
+        "haven",
+        "light",
+        "psychic",
+        "amber",
+        "mirror light",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Barrb + Shrubb",
+        "Fiddlement + Gob",
+        "Rooba + Poppette"
+    ],
+    "breedingTime": [
+        "Breeding Time: 17 hr, Enhanced Time: 17 hr 45 min"
+    ]
+}

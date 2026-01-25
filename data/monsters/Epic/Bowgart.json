@@ -1,0 +1,20 @@
+{
+    "name": "Epic Bowgart",
+    "description": "When a Common Bowgart favors standing in melted Ice Cream puddles over mud, the resulting sugar rush twists the instrumental Monster into an Epic! The composition of Epic Bowgart's horns is altered at a chemical level, growing into gnarled spires until they break off like peanut brittle. The ramifications of this Epic's sweet tooth (or should we say sweet teeth?) have even transformed its fur into a warm caramel hue, reminiscent of a pecan-butterscotch swirl.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Bowgart.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": [
+        "plant",
+        "cold",
+        "gold",
+        "mirror plant",
+        "mirror cold"
+    ],
+    "breedingCombo": [
+        "Clamble + Oaktopus",
+        "Congle + Furcorn"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 5 hr, Enhanced Time: 21 hr 45 min"
+    ]
+}

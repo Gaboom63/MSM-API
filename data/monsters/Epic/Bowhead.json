@@ -1,0 +1,17 @@
+{
+    "name": "Epic Bowhead",
+    "description": "The eldest inhabitants of the living ocean, who through flight or fancy have settled in distant lands, all inevitably become affected by a condition called the Disquiet of Hyddryd. The crash of the waves upon the shore, the chirping of sea birds in the sky, a briny scent carried by the breeze; the tiniest of triggers give rise to an inescapable longing for the sea in the heart of a Monster. For Epic Bowheads, the call of the ocean left them with but two choices: depart their newfound homes on the surface of the Monster World and return to a purely aquatic lifestyle... or... bring the living ocean with them! The depth of the longing that the Disquiet embodies is match with a fullness and affection for the sea - so strong, in fact, that the Epic Bowhead has very nearly become the living ocean it so endears. The ever-flowing body of the Epic Water Top Boss ripples and crashes with force and grace, acting as a resonance chamber for its majestic oceanic tones.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Bowhead.png?raw=true",
+    "cost": "1750 Diamonds",
+    "islands": [
+        "psychic",
+        "amber",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Gloptic + Poppette"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 days 3 hr, Enhanced Time: 1 day 14 hr 15 min"
+    ]
+}

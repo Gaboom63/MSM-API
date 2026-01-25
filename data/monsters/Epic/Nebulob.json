@@ -1,0 +1,15 @@
+{
+    "name": "Epic Nebulob",
+    "description": "Epic Nebulob is the answer to a dangerous question: Just how much is too much? Containing an essence volume equivalent to seventy times seventy Commons, this Epic Ethereal's exo-suit is a miracle of 'Mech-nical' engineering. Even one tiny imperfection could lead to an explosive result rivalling the legendary Big Clangor! Thankfully, its impressive craftsMonship and sedentary lifestyle keep this possibility to a minimum... but never say never. ",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Nebulob.png?raw=true",
+    "etherealCost": "3500 Diamonds",
+    "islands": [
+        "ethereal"
+    ],
+    "breedingCombo": [
+        "Jellbilly + Boodoo"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 20 hr, Enhanced Time: 1 day 9 hr"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Epic Toe Jammer",
+    "description": "Epic Toe Jammers are descendants of a small stubbing of Commons that preferred to dwell in the unexplored sea floor of the living ocean. Slowly these bottomfeeders adapted to the murky depths, growing long claws to anchor themselves to the sand below. The surrounding darkness has made the Epic Toe Jammer less reliant on its vision - Instead, it has grown a crown of anemone to camouflage itself from unwanted guests that lurk out of sight.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Toe%20Jammer.png?raw=true",
+    "cost": "250 Diamonds",
+    "islands": [
+        "plant",
+        "cold",
+        "air",
+        "water",
+        "gold",
+        "oasis",
+        "psychic",
+        "bone",
+        "mirror plant",
+        "mirror cold",
+        "mirror water",
+        "mirror psychic",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Entbrat + Oaktopus",
+        "Deedge + Quibble",
+        "Riff + Maw",
+        "Shellbeat + Fwog",
+        "Sneyser + Pango",
+        "Gloptic + Flowah",
+        "Plinkajou + Stogg"
+    ],
+    "breedingTime": [
+        "Breeding Time: 3 hr, Enhanced Time: 2 hr 15 min"
+    ]
+}

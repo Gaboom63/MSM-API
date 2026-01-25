@@ -1,0 +1,19 @@
+{
+    "name": "Epic Brump",
+    "description": "Epic Brump knows a good thing when it sees one: just like the Common and Rare iterations before it, this Epic Wublin combines signature styles from its two original source eggs. Don't mess with success, they always say... Wake up the Wublins! Brumps always say!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Brump.png?raw=true",
+    "cost": "N/A",
+    "ascensionCost": "2 Keys",
+    "islands": [
+        "wublin"
+    ],
+    "breedingCombo": [
+        "N/A"
+    ],
+    "polarity": [
+        "Negative from: Epic Blipsqueak, Negative toward: Epic Astropod, Positive from: Epic Fleechwurm, Positive toward: Epic Poewk"
+    ],
+    "powerUpTime": [
+        "Unlimited."
+    ]
+}

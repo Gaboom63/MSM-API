@@ -1,0 +1,17 @@
+{
+    "name": "Epic Ziggurab",
+    "description": "'Step' right up and witness the audacious architectural anatomy of the Epic Ziggurab! In this case of rapid-fire evolution, a cast of these carcinised Fire Monsters acclimated to the puckish rock formations of Faerie Island and it kickstarted a magical transformation! Boasting more tiers and right angles than ever before, they now feel more at home than ever before standing proudly in the mists and vapours of Faesodd's isolated idyll.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Ziggurab.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "faerie",
+        "amber",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Bridg-it + Drumpler"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 11 hr, Enhanced Time: 1 day 2 hr 15 min"
+    ]
+}

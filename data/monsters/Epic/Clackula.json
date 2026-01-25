@@ -1,0 +1,22 @@
+{
+    "name": "Epic Clackula",
+    "description": "True nobility comes with the most popped of collars. Epic Clackula sometimes makes outrageous claims, like how it invented the Excla-monster mark or how the hexagon is the best shape. Because it has such good manners, the other monsters are happy to let it slide, since Epic Clackula's mollusk-like appendages grow only the finest of pearlescent bobbles that it gifts to Monsters who play along with its claims. Its osseous eye-stalks allow it to keep a 360 degree view of its surroundings to make sure it's always aware of surrounding fanciness!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Clackula.png?raw=true",
+    "cost": "300 Diamonds",
+    "sanctumCost": "425 Diamonds",
+    "islands": [
+        "bone",
+        "sanctum",
+        "nexus",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Plinkajou + Denchuhs",
+        "Enchantling + Osstax"
+    ],
+    "breedingTime": [
+        "Breeding Time: 20 hr 6 min, Enhanced Time: 15 hr 4 min 30 sec"
+    ],
+    "transpositionCost": "10 Diamonds",
+    "orbTime": "1 days 14 hr 6 min",
+}

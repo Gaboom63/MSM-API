@@ -1,0 +1,17 @@
+{
+    "name": "Epic Edamimi",
+    "description": "That which we call a rose by any other name would smell as sweet; in this case, that name is Epic Edamimi! A sublime fragrance nearly unrivaled in the Monster World emanates from every petal on the Epic Fire Monster's body. But every rose has its thorns - its body is replete with prickly brier points and its facial features have been referred to as fearsome. It's the contrast between smell and sight that makes the Epic Edamimi such an intriguing academic specimen, and much research has been devoted to better understanding its idiosyncrasies. Something on which we can all agree: this Monster is out of this world!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Edamimi.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": [
+        "psychic",
+        "amber",
+        "mirror psychic"
+    ],
+    "breedingCombo": [
+        "Gloptic + Potbelly"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 21 hr, Enhanced Time: 1 day 9 hr 45 min"
+    ]
+}

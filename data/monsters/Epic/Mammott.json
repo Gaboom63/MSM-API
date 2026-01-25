@@ -1,0 +1,37 @@
+{
+    "name": "Epic Mammott",
+    "description": "Mammotts may not shovel snow, but Epic Mammotts sure do! This many-limbed Monster has evolved to become the ultimate snow shoveling machine. Four furry arms for maximum snow removal, pointed claws and horns to crack stubborn ice, and floppy ears to protect its delicate eyes from rogue snowballs make Epic Mammott the ideal neighbor.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Mammott.png?raw=true",
+    "cost": "250 Diamonds",
+    "shugabushCost": "500 Diamonds",
+    "islands": [
+        "plant",
+        "cold",
+        "air",
+        "earth",
+        "gold",
+        "mirror plant",
+        "mirror cold",
+        "mirror air",
+        "mirror earth",
+        "shugabush",
+        "oasis",
+        "light",
+        "mirror light",
+        "faerie",
+        "mirror faerie"
+    ],
+    "breedingCombo": [
+        "Entbrat + Furcorn",
+        "Deedge + Maw",
+        "Riff + Pango",
+        "Quarrister + Drumpler",
+        "Shugabush + Oaktopus",
+        "Sneyser + Quibble",
+        "Blow't + Flowah",
+        "Pladdie + Stogg"
+    ],
+    "breedingTime": [
+        "Breeding Time: 5 hr, Enhanced Time: 3 hr 45 min"
+    ],
+}

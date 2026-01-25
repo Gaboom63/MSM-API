@@ -1,0 +1,17 @@
+{
+    "name": "Epic Incisaur",
+    "description": "Life finds a way, but sometimes it's not supposed to. The basic template for the Incisaur's saurian body plan has been tweaked in its Epic form, but all evidence suggests that this is not a product of evolution. It's not even a freak mutation! The Epic Incisaur is strongly suspected to be the product of deliberate genetic tampering - and recently, to boot! Grafting pterosaur wings onto a raptor-like body could only be considered the work of a madMon, but the identity of this tamperer remains unknown. An ingenious Colossal with aspirations to harness chaos theory? A Titan so preoccupied with whether or not it could that it didn't stop to think if it should? And extra-torustrial interloper looking to make their mark in the Monster World? No one's sure, but at the very least, this crested and furthered Fire Epic has its manners intact: it always remembers to say the magic word!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Incisaur.png?raw=true",
+    "cost": "1250 Diamonds",
+    "islands": [
+        "bone",
+        "amber",
+        "mirror bone"
+    ],
+    "breedingCombo": [
+        "Plinkajou + Clackula"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 17 hr, Enhanced Time: 1 day 6 hr 45 min"
+    ]
+}

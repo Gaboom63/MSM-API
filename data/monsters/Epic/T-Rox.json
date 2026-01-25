@@ -1,0 +1,20 @@
+{
+    "name": "Epic T-Rox",
+    "description": "Inspired by their Ethereal neighbors' impressive mech suits, a collection of clever Air Island T-Roxes put their heads together to build upon their own mechanical aspects. After much tinkering and occasional consultations with their brainy mentors, these tech-savvy T-Roxes crafted exoskeletons so advanced, they bonded with their organic components. The resulting cyborg is packed with exciting features: a scratch-resistant dome, built-in nightlights, and even a pair of foot-vacuums for tidying up after lunchtime.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic T-Rox.png?raw=true",
+    "cost": "500 Diamonds",
+    "islands": [
+        "plant",
+        "air",
+        "gold",
+        "mirror plant",
+        "mirror air"
+    ],
+    "breedingCombo": [
+        "Pummel + Drumpler",
+        "Congle + Fwog"
+    ],
+    "breedingTime": [
+        "Breeding Time: 19 hr, Enhanced Time: 14 hr 15 min"
+    ]
+}

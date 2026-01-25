@@ -1,0 +1,20 @@
+{
+    "name": "Epic Schmoochle",
+    "description": "Epic Schmoochle is dripping with sickly-sweet feelings of love and adoration - it's a wonder it doesn't get toothaches! This pair unabashedly indulges in PDA, whispering sweet nothings to one another and stealing quick smooches wherever it goes. Other Monsters may find it a bit nauseating, but nothing can come between these saccharine sweethearts!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Schmoochle.png?raw=true",
+    "cost": "1000 Diamonds",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "air",
+        "gold",
+        "seasonal",
+        "mirror air"
+    ],
+    "breedingCombo": [
+        "Riff + Quibble",
+        "Punkleton + Hoola"
+    ],
+    "breedingTime": [
+        "Breeding Time: 22 hr, Enhanced Time: 16 hr 40 min 30 sec"
+    ]
+}

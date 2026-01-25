@@ -1,0 +1,20 @@
+{
+    "name": "Epic Gobbleygourd",
+    "description": "For as long as anyone can remember, the prideful Epic Gobbleygourd has been complaining about special 'passengers' that ride around in the gourd shaped like a miniature carriage on its back. Are they wayward Crumplings? A product of the Epic Seasonal's overactive imagination? No one's totally sure. The Epic Gobbleygourd insists that the passengers are traveling to a fancy shindig, and that they refer to their host as the 'fairy Gobbmonster' tasked with protecting them from the outside world. Don't ever let it know, but some contend that the Monster secretly cares for the tiny creatures - even sprouting eyes on its tail to keep a watch on their well-being.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Gobbleygourd.png?raw=true",
+    "cost": "1000 Diamonds",
+    "shantyPrice": "1225 Diamonds",
+    "islands": [
+        "haven",
+        "oasis",
+        "seasonal"
+    ],
+    "breedingCombo": [
+        "Tring + Flowah",
+        "Sneyser + Boskus",
+        "Jam Boree + Clavavera"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 3 hr 11 min, Enhanced Time: 20 hr 23 min 15 sec"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Epic Noggin",
+    "description": "The lineage of Epic Noggin can be traced to the first Common settlers of Earth Island, the species' Elemental home. While many Noggins migrated to other islands, a select few stayed, preferring the volcanic rumblings and charcoal caverns of Earth Island to any other. Over time, this group's appearance began to mirror its surroundings, transforming into fierce and fiery Epics that now roam free.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Noggin.png?raw=true",
+    "cost": "250 Diamonds",
+    "islands": [
+        "plant",
+        "air",
+        "water",
+        "earth",
+        "gold",
+        "haven",
+        "faerie",
+        "bone",
+        "mirror plant",
+        "mirror air",
+        "mirror water",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Entbrat + Fwog",
+        "Riff + Drumpler",
+        "Shellbeat + Shrubb",
+        "Quarrister + Cybop",
+        "Tring + Dandidoo",
+        "Pladdie + Boskus",
+        "Plinkajou + Phangler"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 hr, Enhanced Time: 45 min"
+    ]
+}

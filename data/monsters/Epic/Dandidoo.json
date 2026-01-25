@@ -1,0 +1,25 @@
+{
+    "name": "Epic Dandidoo",
+    "description": "Do you do your 'do like Dandidoo? Well, Epic Dandidoo would like to have a word with you! This spectacularly showy subspecies loves to be a little bit extra, teasing its famous puffs to nigh unimaginable heights - even for its Rare cousin! The result is a mane of truly Epic proportions, which the endlessly self-confident Monster is exceptionally proud of. Work it!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Dandidoo.png?raw=true",
+    "cost": "150 Diamonds",
+    "islands": [
+        "cold",
+        "water",
+        "earth",
+        "gold",
+        "haven",
+        "mirror cold",
+        "mirror water",
+        "mirror earth"
+    ],
+    "breedingCombo": [
+        "Bowgart + Quibble",
+        "Pummel + Cybop",
+        "Clamble + Pango",
+        "Reedling + Flowah"
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 5 hr, Enhanced Time: 21 hr 45 min"
+    ]
+}

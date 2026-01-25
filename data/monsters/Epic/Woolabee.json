@@ -1,0 +1,16 @@
+{
+    "name": "Epic Woolabee",
+    "description": "When Monsters are having trouble getting to sleep, they're frequently invited to picture a flick of Woolabees leaping over a fence, and counting them as they pass. Imagine the Monster World's collective surprise, then, to discover an extra special Woolabee invading their waking thoughts... and pastures! This empyrean Fire Epic looks as if it belongs among the orbs of the firmament, and its dreamy string-plucking birds have the plumage to match. If one locks eyes with an Epic Woolabee, it's said you can glimpse visions of an outlandish domain set against an impossible starscape, and reachable only by walking the steps of the special stair.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Woolabee.png?raw=true",
+    "cost": "750 Diamonds",
+    "islands": [
+        "oasis",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Whaddle + Boskus",
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 19 hr, Enhanced Time: 1 day 8 hr 15 min"
+    ]
+}
