@@ -1,18 +1,7 @@
-/**
- * @typedef {Object} Monster
- * @property {string} name
- * @property {string} description
- * @property {string} image
- * @property {string} cost
- * @property {string[]} islands
- * @property {function(string): string} islands
- * @property {function(): string} like
- * @property {function(): string} info
- * @property {function(): {name:string, islands:number, cost:string, description:string}} statistics
- */
-
 (function (global) {
   const BASE_URL = "https://raw.githubusercontent.com/gaboom63/MSM-API/master/data/monsters/";
+  const IMAGE_BASE_URL = "https://raw.githubusercontent.com/gaboom63/MSM-API/master/images/bm/";
+  
   const cache = {};
 
   function resolveMonsterPath(rawName) {
@@ -20,6 +9,7 @@
     let folder = "Common";
     let baseName = rawName;
 
+    // Detect Rarity and strip it from the base name for the JSON path
     if (words[0].toLowerCase() === "rare") {
       folder = "Rare";
       baseName = words.slice(1).join(" ");
@@ -28,127 +18,119 @@
       baseName = words.slice(1).join(" ");
     }
 
-    const fileName = baseName.replace(/\b\w/g, (c) => c.toUpperCase());
+    // Preserve exact casing if the user types uppercase letters
+    const hasCaps = /[A-Z]/.test(baseName);
+    const fileName = hasCaps 
+      ? baseName 
+      : baseName.replace(/\b\w/g, (c) => c.toUpperCase());
+
     return { folder, file: fileName };
   }
 
   async function getMonster(name) {
+    if (cache[name] && !cache[name]._loaded) {
+        return cache[name];
+    }
+
     const { folder, file } = resolveMonsterPath(name);
+    
+    // JSON is inside the rarity folder: e.g., "Rare/Mammott.json"
     const url = `${BASE_URL}${folder}/${file}.json`;
 
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`Monster ${name} not found at ${url}`);
-    const data = await res.json();
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`Monster "${name}" not found at ${url}`);
+      
+      const data = await res.json();
+      
+      // --- THE FIX ---
+      // 1. Start with the file name (e.g., "Mammott" or "eRmA gUrDy (Major)")
+      let imageFile = file;
 
-    let newName = name
-      .split(" ")
-      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(" ");
+      // 2. If it is Rare or Epic, we MUST add that prefix back for the image
+      //    (Because images are in a flat folder: "Rare Mammott.png")
+      if (folder !== "Common") {
+        imageFile = `${folder} ${file}`;
+      }
 
-    data.image = `https://raw.githubusercontent.com/gaboom63/MSM-API/master/images/bm/${encodeURIComponent(newName)}.png`;
-    const monsterImageCache = {};
+      return {
+        ...data,
+        rarity: folder,
+        // encodeURIComponent ensures spaces become %20
+        imageUrl: `${IMAGE_BASE_URL}${encodeURIComponent(imageFile)}.png`,
+        
+        getImageURL() {
+          return this.imageUrl;
+        },
 
-    return {
-      ...data,
-      async loadImage(imgElement) {
-        // Try to find by ID first
-        let img = document.getElementById(imgElement);
-
-        // If not found, try by class name (use first matching element)
-        if (!img) {
-          const elements = document.getElementsByClassName(imgElement);
-          if (elements.length > 0) {
-            img = elements[0];
+        async loadImage(selector) {
+          let img = document.getElementById(selector) || document.querySelector(`.${selector}`);
+          if (!img) {
+            console.warn(`Element "${selector}" not found.`);
+            return;
           }
-        }
+          img.src = this.imageUrl;
+        },
 
-        // If still not found, fail like before
-        if (!img) {
-          console.error(`Image element with ID or class "${imgElement}" not found`);
-          return;
-        }
+        isOnIsland(islandName) {
+          const search = islandName.toLowerCase();
+          const list = (data.islands || []).map(i => i.toLowerCase());
+          return list.includes(search)
+            ? `${data.name} is on ${islandName}!`
+            : `${data.name} is not on ${islandName}.`;
+        },
 
-        const monsterName = data.name.toLowerCase(); // for cache
-        const monsterImageCache = getMonster.cache || (getMonster.cache = {});
+        getInfo() {
+          return `${data.name} (${folder}) costs ${data.cost || 'N/A'} and inhabits ${data.islands?.length || 0} islands.`;
+        },
 
-        // If cached, use it
-        if (monsterImageCache[monsterName]) {
-          img.src = monsterImageCache[monsterName];
-          return;
+        getStatistics() {
+          return {
+            name: data.name,
+            rarity: folder,
+            elements: data.elements || [],
+            islands: data.islands || [],
+            cost: data.cost || "Unknown",
+            description: data.description || "No description available.",
+          };
         }
-
-        try {
-          // data.image is already a URL string
-          const src = data.image;
-          monsterImageCache[monsterName] = src;
-          img.src = src;
-        } catch (err) {
-          console.error(`Error loading ${monsterName}:`, err);
-          img.src = "";
-        }
-      },
-      islands(islandName) {
-        const firstWord = islandName.split(" ")[0].toLowerCase();
-        return data.islands.includes(firstWord)
-          ? `${data.name} is on ${islandName}!`
-          : `${data.name} is not on ${islandName}.`;
-      },
-      island() {
-        return data.islands
-      },
-      description() {
-        return `${data.name}'s Description: ${data.description || "No description available."}`;
-      },
-      like() {
-        return `You liked ${data.name}!`;
-      },
-      info() {
-        return `${data.name} costs ${data.cost} and appears on ${data.islands.length} islands.`;
-      },
-      statistics() {
-        return {
-          name: data.name,
-          islands: data.islands?.length || 0,
-          cost: data.cost || "Unknown",
-          description: data.description || "No description available.",
-        };
-      },
-    };
+      };
+    } catch (err) {
+      console.error(`MSM-API Error:`, err);
+      return null;
+    }
   }
 
   const MSM = new Proxy({}, {
     get(target, prop) {
-      // Always normalize the property name
-      const normalized = String(prop).toLowerCase();
+      const key = String(prop); 
 
-      if (normalized === "monster" || normalized === "getmonster") return getMonster;
-      if (cache[normalized]) return cache[normalized];
+      if (key.toLowerCase() === "get" || key.toLowerCase() === "monster") return getMonster;
+      if (cache[key]) return cache[key];
 
-      const placeholder = {};
-      Object.defineProperty(placeholder, "_loaded", {
-        value: (async () => {
-          const monster = await getMonster(normalized);
-          cache[normalized] = monster;
+      const placeholder = {
+        _loaded: getMonster(key).then(monster => {
+          cache[key] = monster;
           return monster;
-        })(),
-        enumerable: false,
-      });
+        })
+      };
 
-      const proxy = new Proxy(placeholder, {
+      const asyncProxy = new Proxy(placeholder, {
         get(_, subProp) {
           return async (...args) => {
-            const real = await placeholder._loaded;
-            const value = real[subProp];
-            return typeof value === "function" ? value(...args) : value;
+            const realMonster = await placeholder._loaded;
+            if (!realMonster) return null;
+            
+            const val = realMonster[subProp];
+            return typeof val === "function" ? val.apply(realMonster, args) : val;
           };
-        },
+        }
       });
 
-      cache[normalized] = proxy;
-      return proxy;
+      cache[key] = asyncProxy;
+      return asyncProxy;
     },
   });
-
 
   if (typeof module !== "undefined" && module.exports) {
     module.exports = MSM;
