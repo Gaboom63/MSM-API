@@ -189,13 +189,12 @@
           } catch (err) {
             console.warn(`Sound not available for ${data.name}`);
           }
-      };
+      }};
     } catch (err) {
       console.error(`MSM-API Error:`, err);
       return null;
     }
   }
-
   // --- PROXY HANDLER (The Fix) ---
   const MSM = new Proxy({}, {
     get(target, prop) {
