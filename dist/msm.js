@@ -1,16 +1,68 @@
 (function (global) {
   const BASE_URL = "https://raw.githubusercontent.com/gaboom63/MSM-API/master/data/monsters/";
   const IMAGE_BASE_URL = "https://raw.githubusercontent.com/gaboom63/MSM-API/master/images/bm/";
-  const SOUND_BASE_URL = "https://raw.githubusercontent.com/gaboom63/MSM-API/master/data/sounds/";
-
+  const BREEDING_FILE_PATH = "https://raw.githubusercontent.com/Gaboom63/MSM-API/refs/heads/main/data/monsters/Extras/breedingCombos.json";
+  
   const cache = {};
+  let breedingCache = null;
 
+  // --- HELPER: Fetch and Normalize Breeding Data ---
+  async function getBreedingDatabase() {
+    if (breedingCache) return breedingCache;
+
+    try {
+      const res = await fetch(BREEDING_FILE_PATH);
+      if (!res.ok) throw new Error(`Could not load breeding file from ${BREEDING_FILE_PATH}`);
+      const rawData = await res.json();
+
+      const processed = {};
+      
+      Object.keys(rawData).forEach(key => {
+        if (key.includes("+")) {
+          const parts = key.split("+").map(s => s.trim().toLowerCase());
+          const sortedKey = parts.sort().join(" + ");
+          
+          if (processed[sortedKey]) {
+             processed[sortedKey] = [...new Set([...processed[sortedKey], ...rawData[key]])];
+          } else {
+             processed[sortedKey] = rawData[key];
+          }
+        } else {
+          processed[key.toLowerCase()] = rawData[key];
+        }
+      });
+
+      breedingCache = processed;
+      return processed;
+    } catch (err) {
+      console.error("MSM-API: Error loading breeding combos", err);
+      return {};
+    }
+  }
+
+  // --- THE FUNCTION YOU WANT ---
+  async function calculateBreeding(comboString) {
+    const db = await getBreedingDatabase();
+    
+    if (!comboString || !comboString.includes("+")) {
+      return ["Invalid format. Please use 'Monster A + Monster B'"];
+    }
+
+    const searchKey = comboString
+      .split("+")
+      .map(s => s.trim().toLowerCase())
+      .sort()
+      .join(" + ");
+
+    return db[searchKey] || ["No combination found."];
+  }
+
+  // --- Monster Logic ---
   function resolveMonsterPath(rawName) {
     const words = rawName.trim().split(/\s+/);
     let folder = "Common";
     let baseName = rawName;
 
-    // Detect Rarity
     if (words[0].toLowerCase() === "rare") {
       folder = "Rare";
       baseName = words.slice(1).join(" ");
@@ -19,7 +71,6 @@
       baseName = words.slice(1).join(" ");
     }
 
-    // Preserve exact casing if the user types uppercase letters
     const hasCaps = /[A-Z]/.test(baseName);
     const fileName = hasCaps 
       ? baseName 
@@ -27,20 +78,6 @@
 
     return { folder, file: fileName };
   }
-
-  function resolveMonsterSoundName(rawName) {
-    // Remove rarity
-    let name = rawName.replace(/^(rare|epic)\s+/i, "").trim();
-  
-    // Normalize casing: Title Case per word, keep symbols
-    name = name.replace(/\b\w/g, c => c.toUpperCase());
-  
-    // Replace spaces with underscores
-    name = name.replace(/\s+/g, "_");
-  
-    return `${name}_Memory_Sample.mp3.mpeg`;
-  }
-
 
   async function getMonster(name) {
     if (cache[name] && !cache[name]._loaded) {
@@ -56,22 +93,15 @@
       
       const data = await res.json();
       
-      // --- FIX FOR MIXED IMAGE FORMATS ---
-      // 1. Get the raw string from JSON, or fallback to the filename
       let rawImage = data.image || file;
       let finalImageUrl;
 
-      // 2. Check if the JSON provided a full URL (starts with http/https)
       if (rawImage.startsWith("http")) {
-          // Use the URL exactly as provided by the API
           finalImageUrl = rawImage;
       } else {
-          // It is just a filename (e.g. "Rare Mammott"), so we must build the URL.
-          // Ensure it ends in .png
           if (!rawImage.toLowerCase().endsWith('.png')) {
              rawImage += '.png';
           }
-          // Combine with our base image path
           finalImageUrl = `${IMAGE_BASE_URL}${encodeURIComponent(rawImage)}`;
       }
 
@@ -105,6 +135,22 @@
           return `${data.name} (${folder}) costs ${data.cost || 'N/A'} and inhabits ${data.islands?.length || 0} islands.`;
         },
 
+        async getBreedingTime() {
+          if (!data.breedingTime || data.breedingTime.length === 0) {
+             return { breedingTime: "Unknown", enhancedTime: "Unknown" };
+          }
+          const time = data.breedingTime[0];
+          const [breeding, enhanced] = time.includes(", ") ? time.split(", ") : [time, "Unknown"];
+
+          return {
+              breedingTime: breeding.replace("Breeding Time: ", ""),
+              enhancedTime: enhanced.replace("Enhanced Time: ", "")
+          }
+        },
+        async getBreedingCombos() {
+          return data.breedingCombo;
+        },
+        
         getStatistics() {
           return {
             name: data.name,
@@ -114,23 +160,6 @@
             cost: data.cost || "Unknown",
             description: data.description || "No description available.",
           };
-        },
-        soundFile: resolveMonsterSoundName(data.name),
-        soundUrl: `${SOUND_BASE_URL}${encodeURIComponent(
-          resolveMonsterSoundName(data.name)
-        )}`,
-
-        getSoundURL() {
-          return this.soundUrl;
-        },
-
-        async playSound() {
-          try {
-            const audio = new Audio(this.soundUrl);
-            await audio.play();
-          } catch (err) {
-            console.warn(`Sound not available for ${data.name}`);
-          }
         }
       };
     } catch (err) {
@@ -139,10 +168,15 @@
     }
   }
 
+  // --- PROXY HANDLER (The Fix) ---
   const MSM = new Proxy({}, {
     get(target, prop) {
       const key = String(prop); 
 
+      // 1. Check if the user is asking for the breeding function directly
+      if (key === "twoMonsterCombo") return calculateBreeding;
+
+      // 2. Otherwise, treat it as a request for a Monster object
       if (key.toLowerCase() === "get" || key.toLowerCase() === "monster") return getMonster;
       if (cache[key]) return cache[key];
 
