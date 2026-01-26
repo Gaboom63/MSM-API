@@ -1,7 +1,8 @@
 (function (global) {
   const BASE_URL = "https://raw.githubusercontent.com/gaboom63/MSM-API/master/data/monsters/";
   const IMAGE_BASE_URL = "https://raw.githubusercontent.com/gaboom63/MSM-API/master/images/bm/";
-  
+  const SOUND_BASE_URL = "https://raw.githubusercontent.com/gaboom63/MSM-API/master/data/sounds/";
+
   const cache = {};
 
   function resolveMonsterPath(rawName) {
@@ -26,6 +27,20 @@
 
     return { folder, file: fileName };
   }
+
+  function resolveMonsterSoundName(rawName) {
+    // Remove rarity
+    let name = rawName.replace(/^(rare|epic)\s+/i, "").trim();
+  
+    // Normalize casing: Title Case per word, keep symbols
+    name = name.replace(/\b\w/g, c => c.toUpperCase());
+  
+    // Replace spaces with underscores
+    name = name.replace(/\s+/g, "_");
+  
+    return `${name}_Memory_Sample.mp3.mpeg`;
+  }
+
 
   async function getMonster(name) {
     if (cache[name] && !cache[name]._loaded) {
@@ -99,6 +114,23 @@
             cost: data.cost || "Unknown",
             description: data.description || "No description available.",
           };
+        },
+        soundFile: resolveMonsterSoundName(data.name),
+        soundUrl: `${SOUND_BASE_URL}${encodeURIComponent(
+          resolveMonsterSoundName(data.name)
+        )}`,
+
+        getSoundURL() {
+          return this.soundUrl;
+        },
+
+        async playSound() {
+          try {
+            const audio = new Audio(this.soundUrl);
+            await audio.play();
+          } catch (err) {
+            console.warn(`Sound not available for ${data.name}`);
+          }
         }
       };
     } catch (err) {
