@@ -1,5 +1,5 @@
-## AT LAST THE API IS ALMOST DONE! IT SHOULD BE FINISHED IN THE NEXT DAY OR TWO! (1/24/26)
+## AT LAST THE API IS DONE! (1/28/26)
 
-This Is Not Completed Yet! But I am working hard on finishing it! :) 
+This project is now finished! It will be consistantly worked on and updated frequently! Enjoy using it now, and expect more and more features to come out soon! 
 
-Stay Tunned!
+(**Slight Warning**: IF A monster is not loading or gives you an error it is most likely a bug on my end, IF this occurs please submit an issue! Unlikely, but could happen!)
