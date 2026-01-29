@@ -515,7 +515,6 @@
   "Hairionette + Owlesque": ["Scallyrags (Major)"],
   "Owlesque + Arcorina": ["Dakktyl (Major)"],
   "Scallyrags + Arcorina": ["Jerm (Major)"],
-  "Dakktyl + Hairionette": ["Jerm (Major)"],
   "Bowgart + T Rox": ["Punkleton", "Rare Mammott"],
   "Congle + T Rox": ["Rare Mammott"],
   "Congle + Wynq": ["Rare Mammott"],
@@ -554,6 +553,6 @@
   "Get From Dish-Harmonizer": ["Fandhul"],
   "Gloptic + Poppette": ["Epic Bowhead"],
   "Hairionette + Shhimmer": ["eRmA gUrDy (Major)"],
-  "Dakktyl + Hairionette": ["Illoost (Major)"],
+  "Dakktyl + Hairionette": ["Illoost (Major)", "Jerm (Major)"],
   "Rare Plasma Meeb + Rare Mech Meeb + Rare Crystal Meeb + Rare Poison Meeb": ["Rare Whaill"],
 }
