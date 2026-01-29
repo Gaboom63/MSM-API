@@ -1,0 +1,18 @@
+{
+    "name": "Illoost (Major)",
+    "description": "The Mesmer Paironormal Illoost is a Monster out of time. Its attitude and outlook being somewhat of an anachronism, this Triple-Element Paironormal lives out its days with an as if attitude. Rather than seeing its hodge-podge of parts as a mismatched amalgamation, this carnival resident considers every peculiar bit removed, every colorful motif embellished, and every gangly doohickey added as steps towards becoming who it really wants to be, as if it always destined to turn out this way. When the Illoost was first spotted on the Carnival, conflicting reports of its initial appearance gave pause. Descriptions varied wildly, leading different Paironormal researchers to form diverse conclusions. Some depicted an inviting figure replete with fanciful patterns, sounds, colors, and impossible optical perceptions to dazzle and enlighten. Others, by contrast, painted the picture of a discombobulated creature straining for attention, sputtering its song and daring its fellow Carnival revelers to behold its mystifying optical tricks. Did the Illoost not always look like this? Do these descriptions simply illustrate the dual Major and Minor quality of its Paironormal class? Or is it possible that every being that looks upon the Monster sees something unique? To the Illoost, there are no illusions in its abstractions, and the chaos of its form reveals its true nature. Identity is change, and a mask can become truth... as if!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Illoost%20(Major).png?raw=true",
+    "paironormalCost": "4000 Diamonds",
+    "islands": [
+        "paironormal"
+    ],
+    "breedingCombo": [
+        "Dakktyl + Haironette"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 days 8 hr, Enhanced Time: 1 day 18 hr"
+    ],
+    "fuguingTime": [
+        "Success: 2 days 8 hr, Failure: 22 hr"
+    ],
+}
