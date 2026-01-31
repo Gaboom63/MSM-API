@@ -6,6 +6,7 @@
   
   const cache = {};
   let breedingCache = null;
+  let nameRegistry = {}; // NEW: Stores lowercase -> RealName mapping
 
   // --- HELPER: Fetch and Normalize Breeding Data ---
   async function getBreedingDatabase() {
@@ -19,6 +20,13 @@
       const processed = {};
       
       Object.keys(rawData).forEach(key => {
+        // 1. POPULATE REGISTRY (The Fix)
+        // Store the exact casing of the keys for later lookup
+        if (!key.includes("+")) {
+             nameRegistry[key.toLowerCase()] = key;
+        }
+
+        // 2. Process Breeding Data
         if (key.includes("+")) {
           const parts = key.split("+").map(s => s.trim().toLowerCase());
           const sortedKey = parts.sort().join(" + ");
@@ -28,6 +36,14 @@
           } else {
              processed[sortedKey] = rawData[key];
           }
+
+          // Also add the children (results) to the registry
+          if (Array.isArray(rawData[key])) {
+              rawData[key].forEach(child => {
+                  nameRegistry[child.toLowerCase()] = child;
+              });
+          }
+
         } else {
           processed[key.toLowerCase()] = rawData[key];
         }
@@ -60,41 +76,49 @@
 
   // --- Monster Logic ---
   function resolveMonsterPath(rawName) {
-    const words = rawName.trim().split(/\s+/);
+    // 1. Identify Rarity Folder
+    const lowerName = rawName.trim().toLowerCase();
     let folder = "Common";
-    let baseName = rawName;
+    let baseNameClean = rawName.trim();
 
-    if (words[0].toLowerCase() === "rare") {
+    if (lowerName.startsWith("rare ")) {
       folder = "Rare";
-      baseName = words.slice(1).join(" ");
-    } else if (words[0].toLowerCase() === "epic") {
+      baseNameClean = rawName.trim().substring(5); // Remove "Rare "
+    } else if (lowerName.startsWith("epic ")) {
       folder = "Epic";
-      baseName = words.slice(1).join(" ");
+      baseNameClean = rawName.trim().substring(5); // Remove "Epic "
     }
 
-    const hasCaps = /[A-Z]/.test(baseName);
+    // 2. CHECK REGISTRY FOR EXACT FILENAME (The Fix)
+    // If we have seen this monster in the breeding file, use that EXACT spelling.
+    const registryKey = baseNameClean.toLowerCase();
+    if (nameRegistry[registryKey]) {
+        return { folder, file: nameRegistry[registryKey] };
+    }
+
+    // 3. Fallback (Regex) 
+    // Only runs if the monster isn't in the registry.
+    // Improved Regex: Only capitalizes first letter of string to avoid breaking "Bbli$zard"
+    const hasCaps = /[A-Z]/.test(baseNameClean);
     const fileName = hasCaps 
-      ? baseName 
-      : baseName.replace(/\b\w/g, (c) => c.toUpperCase());
+      ? baseNameClean 
+      : baseNameClean.charAt(0).toUpperCase() + baseNameClean.slice(1);
 
     return { folder, file: fileName };
   }
   
   function resolveMonsterSoundName(rawName) {
-    // Remove rarity
     let name = rawName.replace(/^(rare|epic)\s+/i, "").trim();
-  
-    // Normalize casing: Title Case per word, keep symbols
     name = name.replace(/\b\w/g, c => c.toUpperCase());
-  
-    // Replace spaces with underscores
     name = name.replace(/\s+/g, "_");
-  
     return `${name}_Memory_Sample.mp3.mpeg`;
   }
   
   async function getMonster(name) {
     if (cache[name] && !cache[name]._loaded) return cache[name];
+
+    // NEW: Ensure DB is loaded so we have the Name Registry ready
+    await getBreedingDatabase();
 
     const { folder, file } = resolveMonsterPath(name);
     const url = `${BASE_URL}${folder}/${file}.json`;
@@ -195,15 +219,14 @@
       return null;
     }
   }
-  // --- PROXY HANDLER (The Fix) ---
+
+  // --- PROXY HANDLER ---
   const MSM = new Proxy({}, {
     get(target, prop) {
       const key = String(prop); 
 
-      // 1. Check if the user is asking for the breeding function directly
       if (key === "twoMonsterCombo") return calculateBreeding;
 
-      // 2. Otherwise, treat it as a request for a Monster object
       if (key.toLowerCase() === "get" || key.toLowerCase() === "monster") return getMonster;
       if (cache[key]) return cache[key];
 
