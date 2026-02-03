@@ -76,12 +76,14 @@
     const files = entry[rarity];
     if (!Array.isArray(files)) return [];
 
-    const basePath = rarity === "Common"
-      ? `${COSTUME_INDEX_URL}${encodeURIComponent(monsterName)}/`
-      : `${COSTUME_INDEX_URL}${encodeURIComponent(monsterName)}/${rarity}/`;
+    // Base path always uses monster name folder
+    const basePath = (() => {
+        if (rarity === "Common") return `https://raw.githubusercontent.com/Gaboom63/MSM-API/main/data/costumes/${encodeURIComponent(monsterName)}/`;
+        return `https://raw.githubusercontent.com/Gaboom63/MSM-API/main/data/costumes/${encodeURIComponent(monsterName)}/${rarity}/`;
+    })();
 
     return files.map(file => `${basePath}${encodeURIComponent(file)}`);
-  }
+}
 
   /* ---------------- MONSTER ---------------- */
   function resolveMonsterPath(rawName) {
@@ -131,7 +133,6 @@
         ? rawImage
         : `${IMAGE_BASE_URL}${encodeURIComponent(rawImage)}`;
 
-      // ✅ Get costumes immediately (async but stored on monster)
       const { rarity, name: baseName } = { rarity: folder, name: data.name };
       const costumes = await resolveCostumes(baseName, folder);
 
@@ -144,9 +145,21 @@
 
         getImageURL() { return this.imageUrl; },
         getCostumes() { return this.costumes; },
-        getCostume(index = 0) { return this.costumes[index % this.costumes.length]; },
-        nextCostume() { this._costumeIndex++; return this.getCostume(this._costumeIndex); },
-        resetCostumes() { this._costumeIndex = 0; return this.getCostume(0); },
+          getCostume(index = 0) { 
+              if (!this.costumes || this.costumes.length === 0) return null; 
+              return this.costumes[index % this.costumes.length]; 
+          },
+
+          nextCostume() { 
+              if (!this.costumes || this.costumes.length === 0) return null;
+              this._costumeIndex = (this._costumeIndex + 1) % this.costumes.length; 
+              return this.getCostume(this._costumeIndex); 
+          },
+
+          resetCostumes() { 
+              this._costumeIndex = 0; 
+              return this.getCostume(0); 
+          },
 
         async loadImage(selector) {
           const el = document.getElementById(selector) || document.querySelector(`.${selector}`);
