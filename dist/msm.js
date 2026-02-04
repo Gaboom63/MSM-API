@@ -70,20 +70,24 @@
 
   async function resolveCostumes(monsterName, rarity) {
     const db = await getCostumeDatabase();
-    const entry = db?.[monsterName];
+    
+    // Normalize the name: remove "Rare " or "Epic " to find the root species folder
+    const cleanName = monsterName.replace(/^(rare|epic)\s+/i, "").trim();
+
+    const entry = db?.[cleanName];
     if (!entry) return [];
 
     const files = entry[rarity];
     if (!Array.isArray(files)) return [];
 
-    // Base path always uses monster name folder
+    // Base path uses the cleaned species name, then appends rarity folder if not Common
     const basePath = (() => {
-        if (rarity === "Common") return `https://raw.githubusercontent.com/Gaboom63/MSM-API/main/data/costumes/${encodeURIComponent(monsterName)}/`;
-        return `https://raw.githubusercontent.com/Gaboom63/MSM-API/main/data/costumes/${encodeURIComponent(monsterName)}/${rarity}/`;
+        if (rarity === "Common") return `https://raw.githubusercontent.com/Gaboom63/MSM-API/main/data/costumes/${encodeURIComponent(cleanName)}/`;
+        return `https://raw.githubusercontent.com/Gaboom63/MSM-API/main/data/costumes/${encodeURIComponent(cleanName)}/${rarity}/`;
     })();
 
     return files.map(file => `${basePath}${encodeURIComponent(file)}`);
-}
+  }
 
   /* ---------------- MONSTER ---------------- */
   function resolveMonsterPath(rawName) {
@@ -141,25 +145,43 @@
         rarity: folder,
         imageUrl: finalImageUrl,
         costumes,
-        _costumeIndex: 0,
+        // Start at the "Base Image" position (which corresponds to index = length)
+        _costumeIndex: costumes.length,
 
         getImageURL() { return this.imageUrl; },
         getCostumes() { return this.costumes; },
-          getCostume(index = 0) { 
-              if (!this.costumes || this.costumes.length === 0) return null; 
-              return this.costumes[index % this.costumes.length]; 
-          },
+        
+        getCostume(index) { 
+          if (!this.costumes || this.costumes.length === 0) return null;
+          // If no index is passed, return current state
+          const targetIndex = index !== undefined ? index : this._costumeIndex;
+          
+          // If index matches the length, it means "Base Image"
+          if (targetIndex === this.costumes.length) return this.imageUrl;
+          
+          return this.costumes[targetIndex % this.costumes.length]; 
+        },
 
-          nextCostume() { 
-              if (!this.costumes || this.costumes.length === 0) return null;
-              this._costumeIndex = (this._costumeIndex + 1) % this.costumes.length; 
-              return this.getCostume(this._costumeIndex); 
-          },
+        nextCostume() { 
+          if (!this.costumes || this.costumes.length === 0) return this.imageUrl;
+          
+          // Cycle through 0 -> ... -> Length-1 -> Length (Base) -> 0
+          const cycleSize = this.costumes.length + 1;
+          this._costumeIndex = (this._costumeIndex + 1) % cycleSize; 
+          
+          // If we hit the length, return base image
+          if (this._costumeIndex === this.costumes.length) {
+              return this.imageUrl;
+          }
+          
+          return this.costumes[this._costumeIndex]; 
+        },
 
-          resetCostumes() { 
-              this._costumeIndex = 0; 
-              return this.getCostume(0); 
-          },
+        resetCostumes() { 
+          // Reset to Base Image state
+          this._costumeIndex = this.costumes.length; 
+          return this.imageUrl; 
+        },
 
         async loadImage(selector) {
           const el = document.getElementById(selector) || document.querySelector(`.${selector}`);
