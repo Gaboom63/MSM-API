@@ -1,0 +1,17 @@
+{
+    "name": "Whaill",
+    "description": "Among the ever-evolving experiments in the Ethereal Workshop, several unintended consequences have emerged. The Colossal Zarroë had certainly not planned to submit Monsters to long-term exposure to the Rift, but once a Whaill starts to wail, there's really not much to be done! The Rare Whaill seems to be the result of over-exposure to the nether energies released when the barrier between the Monster World and the Rift is breached. These mutations, almost polychromatic in nature, have taken the distinct tone and timbre from each appendage and tuned them to some otherwordly frequencies. This change, while delightful to the experimenting Colossal, has been quite an adjustment for the Rare Plasma Boss itself. The Ethereal's established harmonizing is now refactored by its newfound individuality, competing for ownership of its singular body. Snack time is now a much more complicated affair, having to satisfy six preferences instead of one. It's not all bad though; at least the Monster can better see where it's going now, rather than rely on plasmolocation.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Rare Whaill.png?raw=true",
+    "cost": "4000 Diamonds",
+    "plasmaCost": "4500 Diamonds",
+    "islands": [
+        "workshop",
+        "plasma"
+    ],
+    "breedingCombo": [
+        "Rare Plasma Meeb + Rare Shadow Meeb + Rare Mech Meeb Rare + Crystal Meeb",
+    ],
+    "breedingTime": [
+        "Breeding Time: 1 day 21 hr"
+    ]
+}
