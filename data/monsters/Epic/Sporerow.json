@@ -1,0 +1,15 @@
+{
+    "name": "Epic Sporerow",
+    "description": "Burds of a further flock togurther - all of the avian Monsters share certain characteristics and enjoy spending time in each other's company. This is especially true of the bond that exists between the Air Mythical and its Dreamythical scion, the Sporerow. But something's afoot with the Epic Sporerow that sets it a little further apart. The familiar mycological influence is present throughout the Monster's body, but in lieu of Shroomites or Kodamamites taking up residence, it's an assembly of Imples! The point of origin of these creatures seems to be the 'swampy bog that time forgot' connected to another Dreamythical. This imposition upon the Epic Sporerow's design has resulted in a unpredictable temperament; one minute the Monster is calm, the next it's hatching a plan to play tricks on other Mythicals. When it's in this latter state, the Epic Sporerow's behaviour is said to be Imple-sive, and it claims to serve the high Monster overlord of all realms of the multiverse. We swear we're telling the truth. No (mushroom) cap.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Sporerow.png?raw=true",
+    "mythicalCost": "1600 Diamonds",
+    "islands": [
+        "mythical"
+    ],
+    "breedingCombo": [
+        "Cataliszt + Hyehehe"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 days 13 hr 28 min, Enhanced Time: 1 day 22 hr 6 min"
+    ]
+}
