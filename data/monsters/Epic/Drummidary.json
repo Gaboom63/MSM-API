@@ -1,0 +1,19 @@
+{
+    "name": "Epic Drummidary",
+    "description": "Don't be shocked by the tone of its voice, er... drums. It's just Epic Drummidary's new instrument of choice. Earth Elementals from all corners of the Monster World revere it, likening it to the legendary figure Muud'deep, second in prominence only to the Earth Celestial Torrt itself. With craggy outcroppings jutting out of bodies of ever-flowing quicksand, ancient exemplars of the Epic Earth Top Boss had at times been passed over as simple mountain ranges surrounded by dunes, the driving thump of their hump-drums and clack of their claws being mistaken for geological instability! Finally outgrowing its Common and Rare countparts' iconic wheel, Epic Drummidary has instead elected to move without rhythm, flowing inconspicuously with the sands. Don't let its efforts to not provoke fool you though, because without a doubt, Epic Drummidary can break it down, down, down!",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic Drummidary.png?raw=true",
+    "cost": "1750 Diamonds",
+    "islands": [
+        "oasis",
+        "amber"
+    ],
+    "breedingCombo": [
+        "Blow't + Pluckbill",
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 days 1 hr, Enhanced Time: 1 day 12 hr 45 min"
+    ],
+   "ascensionCost": [
+      "10 Keys, 24 Relics"
+   ]
+}
