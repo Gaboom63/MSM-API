@@ -207,7 +207,7 @@
   "Cataliszt + Strombonin": ["Cranchee", "Rare Cranchee", "Epic Yawstrich"],
   "Cataliszt + Yawstrich": ["Sporerow", "Rare Sporerow", "Epic G'joob"],
   "Cataliszt + Anglow": ["Pinghound", "Rare Pinghound", "Epic Buzzinga", "Epic Cranchee"],
-  "Cataliszt + Hyehehe": ["Wheezel", "Rare Wheezel", "Epic Cherubble"],
+  "Cataliszt + Hyehehe": ["Wheezel", "Rare Wheezel", "Epic Cherubble", "Epic Sporerow"],
   "Cataliszt + Buzzinga": ["Knurv", "Rare Knurv", "Epic Hyehehe"],
   "Cataliszt + Cherubble": ["shLep", "Rare shLep","Epic Anglow", "Epic Bleatnik"],
   "Gloptic + Rootitoot": ["Hairionette (Major)"],
@@ -410,5 +410,6 @@
   "Deedge + Furcorn": ["Epic Strombonin"],
   "Shellbeat + Cybop": ["Epic Anglow"],
   "Quarrister + Shrubb": ["Epic Hyehehe"],
-  "Tring + Glowl": ["Epic Buzzinga"]
+  "Tring + Glowl": ["Epic Buzzinga"],
+  "Blow't + Pluckbill": ["Epic Drummidary"]
 }
