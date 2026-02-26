@@ -1,0 +1,19 @@
+{
+    "name": "Epic TooToo",
+    "description": "What good is sitting alone in your room? Come hear the music play! Classically-trained at the Bah-llay school of dance in its youth, the Epic TooToo opts for a saucier performance style in adulthood. In fact, this Epic Magical is responsible for starting its very own dance academy, which holds Cah-bah-ray classes that challenge norms and innovate new techniques. It should come as no surprise that this Monster gets along famously with another Epic denizen of its habitat, and one can always be spotted in the audience supporting the artistic endeavors of the other. They even match from a color scheme standpoint! If the Epic TooToo wasn't already the adoptive member of another Monster family, it could be suggested that these two form a new one! But you don't know the life of a showMon, and you're never ever gonna.",
+    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Epic TooToo.png?raw=true",
+    "cost": "1000 Diamonds",
+    "islands": [
+        "light",
+        "nexus",
+        "mirror light"
+    ],
+    "breedingCombo": [
+        "Spytrap + Flowah"
+    ],
+    "breedingTime": [
+        "Breeding Time: 2 days 5 hr 5 min, Enhanced Time: 1 day 15 hr 48 min 45 sec"
+    ],
+    "orbTime": "2 days 23 hr 5 min",
+    "transpositionCost": "40 Diamonds"
+}
