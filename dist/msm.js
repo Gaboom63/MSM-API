@@ -1,9 +1,10 @@
 (function (global) {
-  const BASE_URL = "https://raw.githubusercontent.com/gaboom63/MSM-API/master/data/monsters/";
-  const IMAGE_BASE_URL = "https://raw.githubusercontent.com/gaboom63/MSM-API/master/images/bm/";
-  const BREEDING_FILE_PATH = "https://raw.githubusercontent.com/Gaboom63/MSM-API/refs/heads/main/data/monsters/Extras/breedingCombos.json";
-  const SOUND_BASE_URL = "https://raw.githubusercontent.com/gaboom63/MSM-API/master/data/sounds/";
-  const COSTUME_INDEX_URL = "https://raw.githubusercontent.com/Gaboom63/MSM-API/main/data/costumes.json";
+  // --- UPDATED TO JSDELIVR CDN FOR SPEED ---
+  const BASE_URL = "https://cdn.jsdelivr.net/gh/gaboom63/MSM-API@master/data/monsters/";
+  const IMAGE_BASE_URL = "https://cdn.jsdelivr.net/gh/gaboom63/MSM-API@master/images/bm/";
+  const BREEDING_FILE_PATH = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/monsters/Extras/breedingCombos.json";
+  const SOUND_BASE_URL = "https://cdn.jsdelivr.net/gh/gaboom63/MSM-API@master/data/sounds/";
+  const COSTUME_INDEX_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/costumes.json";
 
   const cache = {};
   let breedingCache = null;
@@ -81,9 +82,10 @@
     if (!Array.isArray(files)) return [];
 
     // Base path uses the cleaned species name, then appends rarity folder if not Common
+    // --- UPDATED TO JSDELIVR CDN ---
     const basePath = (() => {
-        if (rarity === "Common") return `https://raw.githubusercontent.com/Gaboom63/MSM-API/main/data/costumes/${encodeURIComponent(cleanName)}/`;
-        return `https://raw.githubusercontent.com/Gaboom63/MSM-API/main/data/costumes/${encodeURIComponent(cleanName)}/${rarity}/`;
+        if (rarity === "Common") return `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/costumes/${encodeURIComponent(cleanName)}/`;
+        return `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/costumes/${encodeURIComponent(cleanName)}/${rarity}/`;
     })();
 
     return files.map(file => `${basePath}${encodeURIComponent(file)}`);
