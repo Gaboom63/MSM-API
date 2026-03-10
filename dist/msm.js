@@ -1,11 +1,13 @@
 (function (global) {
   // --- UPDATED TO JSDELIVR CDN FOR SPEED ---
-  const BASE_URL = "https://cdn.jsdelivr.net/gh/gaboom63/MSM-API@master/data/monsters/";
-  const IMAGE_BASE_URL = "https://cdn.jsdelivr.net/gh/gaboom63/MSM-API@master/images/bm/";
+// --- FIXED BRANCH NAMES ---
+  const BASE_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/monsters/";
+  const IMAGE_BASE_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/images/bm/";
+  const SOUND_BASE_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/sounds/";
+  
   const BREEDING_FILE_PATH = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/monsters/Extras/breedingCombos.json";
-  const SOUND_BASE_URL = "https://cdn.jsdelivr.net/gh/gaboom63/MSM-API@master/data/sounds/";
   const COSTUME_INDEX_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/costumes.json";
-
+  
   const cache = {};
   let breedingCache = null;
   let costumeCache = null;
