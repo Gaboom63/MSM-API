@@ -1,25 +1,24 @@
 {
-    "name": "Maw",
-    "description": "The eyeless Maw is a refined combination of Cold and Water elements. Its dense fur acts as a general sensory organ, and provides efficient insulation to maintain a liquid body interior. Maws are a little mouthy. Tonguey too.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Maw.png?raw=true",
-    "cost": "30 Diamonds",
-    "colossingumCost": "35 Diamonds",
-    "islands": [
-        "plant",
-        "cold",
-        "air",
-        "colossingum",
-        "gold",
-        "oasis",
-        "tribal",
-        "mirror plant",
-        "mirror cold",
-        "mirror air"
-    ],
-    "breedingCombo": [
-        "Toe Jammer + Mammott"
-    ],
-    "breedingTime": [
-        "Breeding Time: 30 min, Enhanced Time: 22 min 30 sec"
-    ]
+  "name": "Maw",
+  "description": "The eyeless Maw is a refined combination of Cold and Water elements. Its dense fur acts as a general sensory organ, and provides efficient insulation to maintain a liquid body interior. Maws are a little mouthy. Tonguey too.",
+  "cost": "30 Diamonds",
+  "colossingumCost": "35 Diamonds",
+  "islands": [
+    "plant",
+    "cold",
+    "air",
+    "colossingum",
+    "gold",
+    "oasis",
+    "tribal",
+    "mirror plant",
+    "mirror cold",
+    "mirror air"
+  ],
+  "breedingCombo": [
+    "Toe Jammer + Mammott"
+  ],
+  "breedingTime": [
+    "Breeding Time: 30 min, Enhanced Time: 22 min 30 sec"
+  ]
 }

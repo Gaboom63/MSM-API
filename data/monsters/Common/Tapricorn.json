@@ -1,13 +1,20 @@
 {
-    "name": "Tapricorn",
-    "description": "The tippity-tappity tones made by Tapicorn's sticks meeting its horn are believed to be a form of communication undecipherable by any known Monster. Still, this Morse-like language is surely reaching out to someone! When quizzed on the subject, these uni-horned Monsters are ever evasive - but their pithy replies indicate that their penpal likely resides on another plane of existence.",
-    "image": "https://github.com/Gaboom63/MSM-API/blob/main/images/bm/Tapricorn.png?raw=true",
-    "cost": "300 Diamonds",
-    "islands": ["psychic", "nexus", "mirror psychic"],
-    "breedingCombo": ["Oaktopus + Theremind", "Poppette + Potbelly", "Bonkers + Toe Jammer"],
-    "breedingTime": [
-        "Breeding Time: 16 hr, Enhanced Time: 12 hr"
-    ],
-    "orbTime": "1 day 10 hr",
-    "transpositionCost": "4000000 Coins"
+  "name": "Tapricorn",
+  "description": "The tippity-tappity tones made by Tapicorn's sticks meeting its horn are believed to be a form of communication undecipherable by any known Monster. Still, this Morse-like language is surely reaching out to someone! When quizzed on the subject, these uni-horned Monsters are ever evasive - but their pithy replies indicate that their penpal likely resides on another plane of existence.",
+  "cost": "300 Diamonds",
+  "islands": [
+    "psychic",
+    "nexus",
+    "mirror psychic"
+  ],
+  "breedingCombo": [
+    "Oaktopus + Theremind",
+    "Poppette + Potbelly",
+    "Bonkers + Toe Jammer"
+  ],
+  "breedingTime": [
+    "Breeding Time: 16 hr, Enhanced Time: 12 hr"
+  ],
+  "orbTime": "1 day 10 hr",
+  "transpositionCost": "4000000 Coins"
 }
