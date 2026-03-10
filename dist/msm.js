@@ -138,7 +138,7 @@
       if (!res.ok) throw new Error(`Monster "${name}" not found at ${url}`);
       const data = await res.json();
 
-      let rawImage = data.image || file;
+      let rawImage = data.image || data.name;
       if (!rawImage.toLowerCase().endsWith(".png")) rawImage += ".png";
       const finalImageUrl = rawImage.startsWith("http")
         ? rawImage
