@@ -15,7 +15,8 @@
   async function getBreedingDatabase() {
     if (breedingCache) return breedingCache;
     try {
-      const res = await fetch(BREEDING_FILE_PATH);
+      // NEW: Added credentials: 'omit' to block cross-site cookie warnings
+      const res = await fetch(BREEDING_FILE_PATH, { credentials: 'omit' });
       if (!res.ok) throw new Error(`Could not load breeding file from ${BREEDING_FILE_PATH}`);
       const rawData = await res.json();
       const processed = {};
@@ -59,7 +60,8 @@
   async function getCostumeDatabase() {
     if (costumeCache) return costumeCache;
     try {
-      const res = await fetch(COSTUME_INDEX_URL);
+      // NEW: Added credentials: 'omit' to block cross-site cookie warnings
+      const res = await fetch(COSTUME_INDEX_URL, { credentials: 'omit' });
       if (!res.ok) throw new Error("Failed to load costumes.json");
       costumeCache = await res.json();
       return costumeCache;
@@ -129,7 +131,8 @@
     const url = `${BASE_URL}${folder}/${file}.json`;
 
     try {
-      const res = await fetch(url);
+      // NEW: Added credentials: 'omit' to block cross-site cookie warnings
+      const res = await fetch(url, { credentials: 'omit' });
       if (!res.ok) throw new Error(`Monster "${name}" not found at ${url}`);
       const data = await res.json();
 
@@ -229,7 +232,13 @@
         soundUrl: `${SOUND_BASE_URL}${encodeURIComponent(resolveMonsterSoundName(data.name))}`,
         getSoundURL() { return this.soundUrl; },
         async playSound() {
-          try { const audio = new Audio(this.soundUrl); await audio.play(); } 
+          try { 
+            // NEW: Added anonymous crossOrigin to block audio cookie warnings
+            const audio = new Audio();
+            audio.crossOrigin = "anonymous";
+            audio.src = this.soundUrl;
+            await audio.play(); 
+          } 
           catch { console.warn(`Sound not available for ${data.name}`); }
         }
       };
