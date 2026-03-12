@@ -416,5 +416,7 @@
   "Pladdie + Squot": ["Epic Floot Fly"],
   "Enchantling + Knucklehead": ["Epic Floot Fly"],
   "Pladdie + Wimmzies": ["Epic Tuskski"],
+  "Clamble + Oaktopus": ["Epic Bowgart"],
+  "Congle + Furcorn": ["Epic Bowgart"],
   "Any Amber Island Monster": ["Bisonorus", "Rare Bisonorus", "Yelmut", "Rare Yelmut", "Flum Ox", "Rare Flum Ox", "Krillby", "Rare Krillby", "Edamimi", "Rare Edamimi", "PongPing", "Rare PongPing", "Incisaur", "Rare Incisaur", "Tiawa", "Rare Tiawa", "Candelavra", "Rare Candelavra", "Drummidary", "Rare Drummidary", "Bowhead", "Rare Bowhead", "Tuskski", "Rare Tuskski", "Gnarls", "Rare Gnarls"] // This is ONLY here because of how the API handles displaying monsters. 
 }
