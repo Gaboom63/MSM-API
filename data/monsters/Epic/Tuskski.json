@@ -1,0 +1,16 @@
+{
+  "name": "Epic Anglow",
+  "description": "Somewhere in the frozen reaches of the northern Monster World rests a giant. Deep beneath the snow-capped peaks of its coldest regions, a layer of Permacold kept record of ages past. As the world changed, erosion set in and great tracts of land were hewn away from one another, exposing layers of history to the world. Gargantuan layers of pure ice tumbled from newly formed cliff faces, hurtling into the churning ocean below. These icebergs left adrift would finally find their homes as they crash ashore the islands of the contemporary era. Finally exposed to more moderate climates, the Permacold would melt, and from its near eternal slumber, a relic lost to time returned. A veritable living fossil, the Epic Tuskski has both internalized and externalized the power of Cold, preserving its skeleton within and cladding its body in a permanent layer of crystalline ice. Its Diamond-strength exterior has not changed the Monster's characteristic chill disposition, however. Moments after emerging from an epochal slumber, the self-introduced 'El Tuskerino' was already scouting for bowling partners.",
+  "cost": "1750 Diamonds",
+  "islands": [
+    "faerie",
+    "amber",
+    "mirror faerie"
+  ],
+  "breedingCombo": [
+    "Pladdie + Wimmzies"
+  ],
+  "breedingTime": [
+    "Breeding Time: 2 days 7 hr, Enhanced Time: 1 day 17 hr 15 min"
+  ]
+}

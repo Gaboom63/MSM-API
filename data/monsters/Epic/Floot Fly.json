@@ -1,0 +1,21 @@
+{
+  "name": "Epic Floot Fly",
+  "description": "'I'm green' Just kidding! Like so much of what makes the Faerie Element Magical, the Epic Floot Fly is full of surprises - one of which is that this Monster has no mask! The Epic Magical instead applies pressure to different sections of its warty snout, changing the size and shape of the resonating chamber, and in turn, the pitch produced. This relevation calls into question past contentions of what-inspired-what in terms of similar snouts of fellow Faerie Island residents. Another surprise: the Epic Floot Fly's wings, but perhaps not for the reason one might suspect. Sure, its tetranterous body plan is unique among Floot Fly subspecies, but it's more to do with the close resemblance to the Faesodd Titan's own mottled hide. Were these evolved to blend in to its surroundings, or to clamorously try and steal the spotlight from the Island's Titansoul? It seems to have kickstarted a local trend of trying to emulate Faesodd...",
+  "cost": "300 Diamonds",
+  "sanctumCost": "425 Diamonds",
+  "islands": [
+    "faerie",
+    "sanctum",
+    "nexus",
+    "mirror faerie"
+  ],
+  "breedingCombo": [
+    "Pladdie + Squot",
+    "Enchantling + Knucklehead"
+  ],
+  "breedingTime": [
+    "Breeding Time: 19 hr 56 min, Enhanced Time: 14 hr 57 min"
+  ],
+  "orbTime": "1 day 13 hr 56 min",
+  "transpositionCost": "10 Diamonds"
+}

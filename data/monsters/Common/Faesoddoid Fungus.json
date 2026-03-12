@@ -1,0 +1,15 @@
+{
+  "name": "Faesoddiod Fungus",
+  "description": "Stirred by the Monster denizens of Faerie Island, the Faesoddoid Fungus has arisen! We know what you're thinking - aren't Titansouls meant to evoke flower-like forms? That's what leading researchers believed as well, until the arrival of the Fungus expanded understanding of these classification-defying organisms and redefined them as more generalized 'fruiting bodies.' Since the Faesodd Titan is so strongly connected to mushrooms, it should come as no surprise that its 'flower' more closely resembles a Fungus! This gentle being rises above Faesodd's self-consciousness and reveals the Titan's inner beauty and sensitivity through its fluid movements and confident conducting. The Titansoul's magic is present across the landscape, inspiring the diminutive spirit critters to bound around the Faerie ring and prompting Faesodd to spout fantastical, rainbow-colored steam from its ears. Even the Titan's mask responds to the Faesoddoid Fungus's fan flourishes, emitting light and sound from the tips of its gleaming bulbs. Creative self-expression is essential in a balanced existence, and the music Faesodd is able to achieve through its Titansoul cements the Titan's place in the Monster World.",
+  "cost": "10,000,000 Coins",
+  "islands": [
+    "faerie",
+    "mirror faerie"
+  ],
+  "breedingCombo": [
+    "Buy From Shop"
+  ],
+  "breedingTime": [
+    "Breeding Time: 12 hr, Enhanced Time: 9 hr"
+  ]
+}

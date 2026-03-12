@@ -1,0 +1,17 @@
+{
+  "name": "Epic Fleechwurm",
+  "description": "Steptanium is the construction material of choice for both the Wubbox and Clubbox, due to its ability to easily conduct Electricity, as well as its unique metaphysical quality of containing vast, almost inconceivably-sized spaces within. When it came time to design the Epic Fleechwurm, the Wubbox chose to utilize a rare Steptanium alloy to bring to life an ornate work of art, with tinted glass highlights for good measure.",
+  "ascensionCost": "5 Keys",
+  "islands": [
+    "wublin"
+  ],
+  "breedingCombo": [
+    "None. Zap The Contents, And Power Up!"
+  ],
+  "polarity": [
+    "Negative from: Epic Dwumrohl, Negative toward: Epic Dwumrohl, Positive from: Epic Pixolotl, Positive toward: Epic Brump"
+  ],
+  "powerUpTime": [
+    "Unlimited."
+  ]
+}
