@@ -13,5 +13,8 @@
   ],
   "powerUpTime": [
     "5 Days"
+  ],
+  "element": [
+    ["electricity"]
   ]
 }

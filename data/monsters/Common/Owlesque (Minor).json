@@ -19,5 +19,8 @@
   "breedingTime": [
     "Enhanced Time: 1 day 10 hr, Enhanced Time: 1 day 1 hr 30 min"
   ],
-  "transpositionCost": "100000 Coins"
+  "transpositionCost": "100000 Coins",
+  "element": [
+    ["hoax"]
+  ]
 }

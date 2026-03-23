@@ -15,5 +15,8 @@
   ],
   "synthesisTime": [
     "Success: 1 day 6 hr, Failure: 10 hr"
+  ],
+  "element": [
+    ["mech", "crystal", "poison"]
   ]
 }

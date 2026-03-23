@@ -14,5 +14,8 @@
   ],
   "fuguingTime": [
     "Success: 1 day 21 hr, Failure: 22 hr"
+  ],
+  "element": [
+    ["control", "hoax"]
   ]
 }

@@ -11,5 +11,8 @@
   ],
   "breedingTime": [
     "Breeding Time: 2 day 8 hr, Enhanced Time: 1 day 18 hr"
+  ],
+  "element": [
+    ["control", "hoax", "ruin"]
   ]
 }

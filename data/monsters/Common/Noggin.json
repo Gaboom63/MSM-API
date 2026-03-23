@@ -30,5 +30,8 @@
   ],
   "breedingTime": [
     "Breeding Time: 5 sec, Enhanced Time: 3 sec"
+  ],
+  "element": [
+    ["earth"]
   ]
 }

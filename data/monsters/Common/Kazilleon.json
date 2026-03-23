@@ -13,5 +13,8 @@
   ],
   "breedingTime": [
     "Breeding Time: 1 day 18 hr, Enhanced Time: 1 day 7 hr 30 min"
+  ],
+  "element": [
+    ["shadow", "poison"]
   ]
 }

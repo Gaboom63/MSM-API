@@ -28,5 +28,8 @@
   ],
   "powerUpTime": [
     "Forever, No Time Limit."
+  ],
+  "element": [
+    ["electricity"]
   ]
 }

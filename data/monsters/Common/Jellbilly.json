@@ -14,5 +14,8 @@
   ],
   "breedingTime": [
     "Breeding Time: Ethereal: 1 day 18 hr, Islets: 20 hr, Enhanced Time: 1 day 7 hr 30 min"
+  ],
+  "element": [
+    ["plasma", "mech"]
   ]
 }

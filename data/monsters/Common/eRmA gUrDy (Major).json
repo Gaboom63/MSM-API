@@ -8,5 +8,8 @@
   ],
   "breedingCombo": [
     "Hairionette + Shhimmer"
+  ],
+  "element": [
+    ["control", "depths"]
   ]
 }

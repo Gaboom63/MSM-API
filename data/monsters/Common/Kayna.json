@@ -27,5 +27,8 @@
   ],
   "breedingTime": [
     "Breeding Time: 7 hr, Enhanced time: 5 hr 15 min"
+  ],
+  "element": [
+    ["fire"]
   ]
 }

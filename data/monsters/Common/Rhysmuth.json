@@ -13,5 +13,8 @@
   ],
   "synthesisTime": [
     "Success: 1 day 18 hr, Faliure: 17 hr"
+  ],
+  "element": [
+    ["plasma", "mech", "crystal", "poison"]
   ]
 }

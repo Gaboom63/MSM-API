@@ -19,5 +19,8 @@
   "orbTime": [
     "Orb Time: 21 hr"
   ],
-  "transpositionCost": "1000000 Coins"
+  "transpositionCost": "1000000 Coins",
+  "element": [
+    ["psychic"]
+  ]
 }

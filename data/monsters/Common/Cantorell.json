@@ -16,5 +16,8 @@
     "Breeding Time: 16 hr, Enhanced Time: 12 hr"
   ],
   "orbTime": "1 day 10 hr",
-  "transpositionCost": "4000000 Coins"
+  "transpositionCost": "4000000 Coins",
+  "element": [
+    ["earth", "cold", "faerie"]
+  ]
 }

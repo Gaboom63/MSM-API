@@ -14,5 +14,8 @@
   ],
   "synthesisTime": [
     "Success: 1 day 18 hr, Enhanced Time: 17 hr"
+  ],
+  "element": [
+    ["plasma", "shadow", "crystal", "poison"]
   ]
 }

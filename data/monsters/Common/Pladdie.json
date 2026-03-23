@@ -22,5 +22,8 @@
   "orbTime": [
     "Orb Time: 2 day 2 hr"
   ],
-  "transpositionCost": "8000000 Coins"
+  "transpositionCost": "8000000 Coins",
+  "element": [
+    ["earth", "cold", "fire", "faerie"]
+  ]
 }

@@ -3,9 +3,12 @@
   "description": "Even the mightiest of Celestials has to start somewhere! The revived Galvana enjoys its new found freedom from age-old responsibilities, blissfully unaware that its very own creations roam the Monster World. Unshackled from the burdens of guardianship, Galvana instead releases its raw Electrical energy through play, even toying with the very orb that contains its power.",
   "cost": "28 Keys",
   "islands": [
-    "celestials"
+    "celestial"
   ],
   "breedingCombo": [
     "None. Zap, And Power Up!"
+  ],
+  "element": [
+    ["celestial"]
   ]
 }

@@ -16,5 +16,8 @@
   ],
   "breedingTime": [
     "Breeding Time: 20 hr 4 min, Enhanced Time: 15 hr 3 min"
+  ],
+  "element": [
+    ["life-formula"]
   ]
 }

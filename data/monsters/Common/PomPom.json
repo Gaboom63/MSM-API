@@ -22,5 +22,8 @@
   ],
   "breedingTime": [
     "Breeding Time: 12 hr, Enhanced Time: 9 hr"
+  ],
+  "element": [
+    ["air", "earth", "cold"]
   ]
 }

@@ -12,5 +12,8 @@
   ],
   "breedingTime": [
     "Breeding Time: 1 day 6 hr, Enhanced Time: 22 hr 30 min"
+  ],
+  "element": [
+    ["psychic", "bone", "light"]
   ]
 }

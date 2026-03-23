@@ -16,5 +16,8 @@
     "Breeding Time: 1 day 8 hr, Enhanced Time: 1 day"
   ],
   "orbTime": "2 days 2 hr",
-  "transpositionCost": "8000000 Coins"
+  "transpositionCost": "8000000 Coins",
+  "element": [
+    ["plant", "cold", "fire", "light"]
+  ]
 }
