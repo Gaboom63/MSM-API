@@ -18,6 +18,6 @@
   "orbTime": "1 day 10 hr",
   "transpositionCost": "4000000 Coins",
   "element": [
-    ["rock", "fire", "faerie"]
+    ["earth", "fire", "faerie"]
   ]
 }
