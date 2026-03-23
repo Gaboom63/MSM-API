@@ -73,6 +73,8 @@
   }
 
   /* ---------------- ELEMENTS ---------------- */
+
+
   async function getElementDatabase() {
     await syncPromise;
     if (elementCache) return elementCache;
@@ -140,13 +142,34 @@
 
   /* ---------------- PATHS ---------------- */
   function resolveMonsterPath(rawName) {
-    const lowerName = rawName.trim().toLowerCase();
-    let folder = "Common", baseNameClean = rawName.trim();
-    if (lowerName.startsWith("rare ")) { folder = "Rare"; baseNameClean = rawName.substring(5).trim(); }
-    else if (lowerName.startsWith("epic ")) { folder = "Epic"; baseNameClean = rawName.substring(5).trim(); }
-    const registryKey = baseNameClean.toLowerCase();
-    const fileName = nameRegistry[registryKey] || (baseNameClean.charAt(0).toUpperCase() + baseNameClean.slice(1));
-    return { folder, file: fileName, baseNameClean };
+      const lowerName = rawName.trim().toLowerCase();
+      let folder = "Common", baseNameClean = rawName.trim();
+
+      if (lowerName.startsWith("rare ")) { 
+          folder = "Rare"; baseNameClean = rawName.substring(5).trim(); 
+      } else if (lowerName.startsWith("epic ")) { 
+          folder = "Epic"; baseNameClean = rawName.substring(5).trim(); 
+      }
+
+      const registryKey = baseNameClean.toLowerCase();
+      let fileName = nameRegistry[registryKey];
+
+      // If not in registry, find the fuzzy closest version in the registry
+      if (!fileName) {
+          let bestScore = 0;
+          Object.values(nameRegistry).forEach(regName => {
+              const score = getStringSimilarity(baseNameClean, regName);
+              if (score > bestScore) {
+                  bestScore = score;
+                  fileName = regName;
+              }
+          });
+      }
+
+      // Fallback to the original input if fuzzy match is too low
+      fileName = fileName || (baseNameClean.charAt(0).toUpperCase() + baseNameClean.slice(1));
+
+      return { folder, file: fileName, baseNameClean };
   }
 
   function resolveMonsterSoundName(rawName) {
