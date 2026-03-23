@@ -1,255 +1,233 @@
 (function (global) {
-  // --- UPDATED TO JSDELIVR CDN FOR SPEED ---
-// --- FIXED BRANCH NAMES ---
-  const BASE_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/monsters/";
-  const IMAGE_BASE_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/images/bm/";
-  const SOUND_BASE_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/sounds/";
-  const ELEMENTS_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/images/elements/" 
-  
-  const BREEDING_FILE_PATH = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/monsters/Extras/breedingCombos.json";
-  const COSTUME_INDEX_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/costumes.json";
-  
-  const cache = {};
+  /* ---------------- CONFIG & PERSISTENT CACHE ---------------- */
+  let COMMIT_HASH = localStorage.getItem('msm_api_hash') || 'main'; 
+  let BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, COSTUME_INDEX_URL, ELEMENT_INDEX_URL;
+
+  function updateUrls() {
+    BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/monsters/`;
+    IMAGE_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/images/bm/`;
+    SOUND_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/sounds/`;
+    ELEMENTS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/images/elements/`;
+    BREEDING_FILE_PATH = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/monsters/Extras/breedingCombos.json`;
+    COSTUME_INDEX_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes.json`;
+    ELEMENT_INDEX_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/elements.json`;
+  }
+
+  // AUTO-SYNC WITH SMART COOLDOWN (Checks GitHub once every 10 mins)
+  async function syncToLatestCommit() {
+    const lastCheck = localStorage.getItem('msm_hash_last_check') || 0;
+    const now = Date.now();
+    
+    // If we checked in the last 10 minutes, skip the network request!
+    if (now - lastCheck < 600000 && COMMIT_HASH !== 'main') {
+        updateUrls();
+        return;
+    }
+
+    try {
+      const res = await fetch('https://api.github.com/repos/Gaboom63/MSM-API/commits/main', { credentials: 'omit' });
+      if (!res.ok) throw new Error();
+      const data = await res.json();
+      
+      if (COMMIT_HASH !== data.sha) {
+          COMMIT_HASH = data.sha;
+          localStorage.setItem('msm_api_hash', COMMIT_HASH);
+          // If the hash changed, we clear the monster cache to prevent bugs
+          Object.keys(localStorage).forEach(key => { if(key.startsWith('msm_data_')) localStorage.removeItem(key); });
+      }
+      localStorage.setItem('msm_hash_last_check', now);
+    } catch (err) { console.warn("Sync failed, using cached hash."); }
+    finally { updateUrls(); }
+  }
+
+  updateUrls();
+  const syncPromise = syncToLatestCommit();
+
+  const cache = {}; // Memory cache for the current session
   let breedingCache = null;
   let costumeCache = null;
+  let elementCache = null;
   let nameRegistry = {};
+
+  /* ---------------- HELPERS ---------------- */
+  async function fetchWithCache(storageKey, url) {
+    // 1. Check Memory
+    if (cache[storageKey]) return cache[storageKey];
+    
+    // 2. Check LocalStorage
+    const saved = localStorage.getItem(`msm_data_${storageKey}`);
+    if (saved) {
+        const parsed = JSON.parse(saved);
+        cache[storageKey] = parsed;
+        return parsed;
+    }
+
+    // 3. Network Fetch
+    try {
+        const res = await fetch(url, { credentials: 'omit' });
+        const data = await res.json();
+        localStorage.setItem(`msm_data_${storageKey}`, JSON.stringify(data));
+        cache[storageKey] = data;
+        return data;
+    } catch (e) { return null; }
+  }
+
+  /* ---------------- ELEMENTS ---------------- */
+  async function getElementDatabase() {
+    await syncPromise;
+    if (elementCache) return elementCache;
+    elementCache = await fetchWithCache('elements_db', ELEMENT_INDEX_URL);
+    return elementCache || {};
+  }
+
+  function normalizeElementName(name) { return name.toLowerCase().replace(/\s+/g, "-"); }
+
+  async function resolveElementImage(elementName) {
+    if (!elementName) return null;
+    const name = typeof elementName === 'object' ? (elementName.name || elementName.id) : elementName;
+    const db = await getElementDatabase();
+    const normalized = normalizeElementName(name);
+    let file = db[name] || db[name.toLowerCase()] || db[normalized] || db[`${normalized}-element`];
+    return file ? `${ELEMENTS_URL}${encodeURIComponent(file)}` : null;
+  }
 
   /* ---------------- BREEDING ---------------- */
   async function getBreedingDatabase() {
+    await syncPromise;
     if (breedingCache) return breedingCache;
-    try {
-      // NEW: Added credentials: 'omit' to block cross-site cookie warnings
-      const res = await fetch(BREEDING_FILE_PATH, { credentials: 'omit' });
-      if (!res.ok) throw new Error(`Could not load breeding file from ${BREEDING_FILE_PATH}`);
-      const rawData = await res.json();
-      const processed = {};
+    const rawData = await fetchWithCache('breeding_db', BREEDING_FILE_PATH);
+    if (!rawData) return {};
 
-      Object.keys(rawData).forEach(key => {
+    const processed = {};
+    Object.keys(rawData).forEach(key => {
         if (!key.includes("+")) nameRegistry[key.toLowerCase()] = key;
-
         if (key.includes("+")) {
-          const parts = key.split("+").map(s => s.trim().toLowerCase());
-          const sortedKey = parts.sort().join(" + ");
-          processed[sortedKey] = processed[sortedKey]
-            ? [...new Set([...processed[sortedKey], ...rawData[key]])]
-            : rawData[key];
-
-          if (Array.isArray(rawData[key])) {
-            rawData[key].forEach(child => nameRegistry[child.toLowerCase()] = child);
-          }
-        } else {
-          processed[key.toLowerCase()] = rawData[key];
-        }
-      });
-
-      breedingCache = processed;
-      return processed;
-    } catch (err) {
-      console.error("MSM-API: Error loading breeding combos", err);
-      return {};
-    }
+            const parts = key.split("+").map(s => s.trim().toLowerCase());
+            const sortedKey = parts.sort().join(" + ");
+            processed[sortedKey] = processed[sortedKey] ? [...new Set([...processed[sortedKey], ...rawData[key]])] : rawData[key];
+            if (Array.isArray(rawData[key])) rawData[key].forEach(child => nameRegistry[child.toLowerCase()] = child);
+        } else { processed[key.toLowerCase()] = rawData[key]; }
+    });
+    breedingCache = processed;
+    return processed;
   }
 
   async function calculateBreeding(comboString) {
     const db = await getBreedingDatabase();
-    if (!comboString || !comboString.includes("+")) {
-      return ["Invalid format. Please use 'Monster A + Monster B'"];
-    }
+    if (!comboString || !comboString.includes("+")) return ["Invalid format"];
     const searchKey = comboString.split("+").map(s => s.trim().toLowerCase()).sort().join(" + ");
     return db[searchKey] || ["No combination found."];
   }
 
   /* ---------------- COSTUMES ---------------- */
   async function getCostumeDatabase() {
+    await syncPromise;
     if (costumeCache) return costumeCache;
-    try {
-      // NEW: Added credentials: 'omit' to block cross-site cookie warnings
-      const res = await fetch(COSTUME_INDEX_URL, { credentials: 'omit' });
-      if (!res.ok) throw new Error("Failed to load costumes.json");
-      costumeCache = await res.json();
-      return costumeCache;
-    } catch (err) {
-      console.error("MSM-API: Costume load error", err);
-      return {};
-    }
+    costumeCache = await fetchWithCache('costumes_db', COSTUME_INDEX_URL);
+    return costumeCache || {};
   }
 
   async function resolveCostumes(monsterName, rarity) {
     const db = await getCostumeDatabase();
-    
-    // Normalize the name: remove "Rare " or "Epic " to find the root species folder
     const cleanName = monsterName.replace(/^(rare|epic)\s+/i, "").trim();
-
     const entry = db?.[cleanName];
-    if (!entry) return [];
-
-    const files = entry[rarity];
-    if (!Array.isArray(files)) return [];
-
-    // Base path uses the cleaned species name, then appends rarity folder if not Common
-    // --- UPDATED TO JSDELIVR CDN ---
-    const basePath = (() => {
-        if (rarity === "Common") return `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/costumes/${encodeURIComponent(cleanName)}/`;
-        return `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/costumes/${encodeURIComponent(cleanName)}/${rarity}/`;
-    })();
-
-    return files.map(file => `${basePath}${encodeURIComponent(file)}`);
+    if (!entry || !Array.isArray(entry[rarity])) return [];
+    const basePath = rarity === "Common"
+      ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${encodeURIComponent(cleanName)}/`
+      : `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${encodeURIComponent(cleanName)}/${rarity}/`;
+    return entry[rarity].map(file => `${basePath}${encodeURIComponent(file)}`);
   }
 
-  /* ---------------- MONSTER ---------------- */
+  /* ---------------- PATHS ---------------- */
   function resolveMonsterPath(rawName) {
     const lowerName = rawName.trim().toLowerCase();
-    let folder = "Common";
-    let baseNameClean = rawName.trim();
-
-    if (lowerName.startsWith("rare ")) {
-      folder = "Rare";
-      baseNameClean = rawName.trim().substring(5);
-    } else if (lowerName.startsWith("epic ")) {
-      folder = "Epic";
-      baseNameClean = rawName.trim().substring(5);
-    }
-
+    let folder = "Common", baseNameClean = rawName.trim();
+    if (lowerName.startsWith("rare ")) { folder = "Rare"; baseNameClean = rawName.substring(5).trim(); }
+    else if (lowerName.startsWith("epic ")) { folder = "Epic"; baseNameClean = rawName.substring(5).trim(); }
     const registryKey = baseNameClean.toLowerCase();
-    if (nameRegistry[registryKey]) {
-      return { folder, file: nameRegistry[registryKey] };
-    }
-
-    const hasCaps = /[A-Z]/.test(baseNameClean);
-    const fileName = hasCaps ? baseNameClean : baseNameClean.charAt(0).toUpperCase() + baseNameClean.slice(1);
-    return { folder, file: fileName };
+    const fileName = nameRegistry[registryKey] || (baseNameClean.charAt(0).toUpperCase() + baseNameClean.slice(1));
+    return { folder, file: fileName, baseNameClean };
   }
 
   function resolveMonsterSoundName(rawName) {
     let name = rawName.replace(/^(rare|epic)\s+/i, "").trim();
-    name = name.replace(/\b\w/g, c => c.toUpperCase()).replace(/\s+/g, "_");
-    return `${name}_Memory_Sample.mp3.mpeg`;
+    return `${name.replace(/\s+/g, "_")}_Memory_Sample.mp3.mpeg`;
   }
 
+  /* ---------------- MAIN FETCH ---------------- */
   async function getMonster(name) {
-    if (cache[name] && !cache[name]._loaded) return cache[name];
-    await getBreedingDatabase();
+    await syncPromise;
+    const { folder, file, baseNameClean } = resolveMonsterPath(name);
+    const storageKey = `monster_${folder}_${file}`;
+    const url = `${BASE_URL}${folder}/${encodeURIComponent(file)}.json`;
 
-    const { folder, file } = resolveMonsterPath(name);
-    const url = `${BASE_URL}${folder}/${file}.json`;
+    // Try to get data from persistent cache
+    const data = await fetchWithCache(storageKey, url);
+    if (!data) return null;
 
     try {
-      // NEW: Added credentials: 'omit' to block cross-site cookie warnings
-      const res = await fetch(url, { credentials: 'omit' });
-      if (!res.ok) throw new Error(`Monster "${name}" not found at ${url}`);
-      const data = await res.json();
-
-      let safeName = data.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      let rawImage = data.image || safeName;
+      let rawImage = data.image || data.name;
       if (!rawImage.toLowerCase().endsWith(".png")) rawImage += ".png";
-      const finalImageUrl = rawImage.startsWith("http")
-        ? rawImage
-        : `${IMAGE_BASE_URL}${encodeURIComponent(rawImage)}`;
-
-      const { rarity, name: baseName } = { rarity: folder, name: data.name };
-      const costumes = await resolveCostumes(baseName, folder);
+      const finalImageUrl = rawImage.startsWith("http") ? rawImage : `${IMAGE_BASE_URL}${encodeURIComponent(rawImage.trim())}`;
+      
+      // Parallelize costume resolution
+      const costumes = await resolveCostumes(data.name, folder);
 
       return {
-        ...data,
-        rarity: folder,
-        imageUrl: finalImageUrl,
-        costumes,
-        // Start at the "Base Image" position (which corresponds to index = length)
-        _costumeIndex: costumes.length,
+        ...data, rarity: folder, imageUrl: finalImageUrl, costumes, _costumeIndex: costumes.length,
+
+        async getElementImages() {
+          const rawEls = data.element || data.elements || [];
+          let elements = Array.isArray(rawEls) ? rawEls.flat() : [];
+          if (elements.length === 0 && (folder === "Rare" || folder === "Epic")) {
+            const common = await getMonster(baseNameClean);
+            if (common) {
+              const commonRaw = common.element || common.elements || [];
+              elements = Array.isArray(commonRaw) ? commonRaw.flat() : [];
+            }
+          }
+          return Promise.all(elements.map(async el => ({ name: el, image: await resolveElementImage(el) })));
+        },
 
         getImageURL() { return this.imageUrl; },
         getCostumes() { return this.costumes; },
-        
-        getCostume(index) { 
-          if (!this.costumes || this.costumes.length === 0) return null;
-          // If no index is passed, return current state
-          const targetIndex = index !== undefined ? index : this._costumeIndex;
-          
-          // If index matches the length, it means "Base Image"
-          if (targetIndex === this.costumes.length) return this.imageUrl;
-          
-          return this.costumes[targetIndex % this.costumes.length]; 
+        getCostume(index) {
+          if (!this.costumes.length) return this.imageUrl;
+          const i = index ?? this._costumeIndex;
+          return i === this.costumes.length ? this.imageUrl : this.costumes[i % this.costumes.length];
         },
-
-        nextCostume() { 
-          if (!this.costumes || this.costumes.length === 0) return this.imageUrl;
-          
-          // Cycle through 0 -> ... -> Length-1 -> Length (Base) -> 0
-          const cycleSize = this.costumes.length + 1;
-          this._costumeIndex = (this._costumeIndex + 1) % cycleSize; 
-          
-          // If we hit the length, return base image
-          if (this._costumeIndex === this.costumes.length) {
-              return this.imageUrl;
-          }
-          
-          return this.costumes[this._costumeIndex]; 
+        nextCostume() {
+          if (!this.costumes.length) return this.imageUrl;
+          this._costumeIndex = (this._costumeIndex + 1) % (this.costumes.length + 1);
+          return this.getCostume(this._costumeIndex);
         },
-
-        resetCostumes() { 
-          // Reset to Base Image state
-          this._costumeIndex = this.costumes.length; 
-          return this.imageUrl; 
-        },
-
+        resetCostumes() { this._costumeIndex = this.costumes.length; return this.imageUrl; },
         async loadImage(selector) {
           const el = document.getElementById(selector) || document.querySelector(`.${selector}`);
           if (el) el.src = this.imageUrl;
         },
-
         isOnIsland(islandName) {
-          const search = islandName.toLowerCase();
           const list = (data.islands || []).map(i => i.toLowerCase());
-          return list.includes(search)
-            ? `${data.name} is on ${islandName}!`
-            : `${data.name} is not on ${islandName}.`;
+          return list.includes(islandName.toLowerCase()) ? `${data.name} is on ${islandName}!` : `${data.name} is not on ${islandName}.`;
         },
-
-        getInfo() {
-          return `${data.name} (${folder}) costs ${data.cost || 'N/A'} and inhabits ${data.islands?.length || 0} islands.`;
-        },
-
+        getInfo() { return `${data.name} (${folder}) costs ${data.cost || 'N/A'}.`; },
         async getBreedingTime() {
           if (!data.breedingTime || data.breedingTime.length === 0) return { breedingTime: "Unknown", enhancedTime: "Unknown" };
-          const time = data.breedingTime[0];
-          const [breeding, enhanced] = time.includes(", ") ? time.split(", ") : [time, "Unknown"];
-          return {
-            breedingTime: breeding.replace("Breeding Time: ", ""),
-            enhancedTime: enhanced.replace("Enhanced Time: ", "")
-          };
+          const [breeding, enhanced] = data.breedingTime[0].includes(", ") ? data.breedingTime[0].split(", ") : [data.breedingTime[0], "Unknown"];
+          return { breedingTime: breeding.replace("Breeding Time: ", ""), enhancedTime: enhanced.replace("Enhanced Time: ", "") };
         },
-
         async getBreedingCombos() { return data.breedingCombo; },
-
-        getStatistics() {
-          return {
-            name: data.name,
-            rarity: folder,
-            elements: data.elements || [],
-            islands: data.islands || [],
-            cost: data.cost || "Unknown",
-            description: data.description || "No description available.",
-          };
-        },
-
-        soundFile: resolveMonsterSoundName(data.name),
+        getStatistics() { return { ...data, rarity: folder }; },
         soundUrl: `${SOUND_BASE_URL}${encodeURIComponent(resolveMonsterSoundName(data.name))}`,
-        getSoundURL() { return this.soundUrl; },
         async playSound() {
-          try { 
-            // NEW: Added anonymous crossOrigin to block audio cookie warnings
-            const audio = new Audio();
+          try {
+            const audio = new Audio(this.soundUrl);
             audio.crossOrigin = "anonymous";
-            audio.src = this.soundUrl;
-            await audio.play(); 
-          } 
-          catch { console.warn(`Sound not available for ${data.name}`); }
+            await audio.play();
+          } catch { console.warn(`Sound missing for ${data.name}`); }
         }
       };
-    } catch (err) {
-      console.error(`MSM-API Error:`, err);
-      return null;
-    }
+    } catch (err) { return null; }
   }
 
   /* ---------------- PROXY ---------------- */
@@ -259,28 +237,21 @@
       if (key === "twoMonsterCombo") return calculateBreeding;
       if (key.toLowerCase() === "get" || key.toLowerCase() === "monster") return getMonster;
       if (cache[key]) return cache[key];
-
-      const placeholder = {
-        _loaded: getMonster(key).then(monster => { cache[key] = monster; return monster; })
-      };
-
-      const asyncProxy = new Proxy(placeholder, {
-        get(_, subProp) {
+      const placeholder = { _loaded: getMonster(key).then(m => (cache[key] = m)) };
+      return new Proxy(placeholder, {
+        get(_, sub) {
           return async (...args) => {
-            const realMonster = await placeholder._loaded;
-            if (!realMonster) return null;
-            const val = realMonster[subProp];
-            return typeof val === "function" ? val.apply(realMonster, args) : val;
+            const real = await placeholder._loaded;
+            if (!real) return null;
+            const val = real[sub];
+            return typeof val === "function" ? val.apply(real, args) : val;
           };
         }
       });
-
-      cache[key] = asyncProxy;
-      return asyncProxy;
     }
   });
 
   if (typeof module !== "undefined" && module.exports) module.exports = MSM;
   else global.MSM = MSM;
 
-})(this);
+})(this); 
