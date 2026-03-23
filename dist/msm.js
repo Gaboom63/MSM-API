@@ -4,6 +4,7 @@
   const BASE_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/monsters/";
   const IMAGE_BASE_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/images/bm/";
   const SOUND_BASE_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/sounds/";
+  const ELEMENTS_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/images/elements/" 
   
   const BREEDING_FILE_PATH = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/monsters/Extras/breedingCombos.json";
   const COSTUME_INDEX_URL = "https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@main/data/costumes.json";
