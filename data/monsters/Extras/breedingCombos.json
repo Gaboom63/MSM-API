@@ -204,7 +204,7 @@
   "Reedling + Barrb": ["Buzzinga", "Rare Buzzinga"],
   "Congle + Woolabee": ["Cherubble", "Rare Cherubble"],
   "Cataliszt + G'joob": ["Bleatnik", "Rare Bleatnik", "Epic Strombonin", "Epic Knurv"],
-  "Cataliszt + Strombonin": ["Cranchee", "Rare Cranchee", "Epic Yawstrich"],
+  "Cataliszt + Strombonin": ["Cranchee", "Rare Cranchee", "Epic Yawstrich", "Epic Pinghound"],
   "Cataliszt + Yawstrich": ["Sporerow", "Rare Sporerow", "Epic G'joob"],
   "Cataliszt + Anglow": ["Pinghound", "Rare Pinghound", "Epic Buzzinga", "Epic Cranchee"],
   "Cataliszt + Hyehehe": ["Wheezel", "Rare Wheezel", "Epic Cherubble", "Epic Sporerow"],
@@ -418,5 +418,6 @@
   "Pladdie + Wimmzies": ["Epic Tuskski"],
   "Clamble + Oaktopus": ["Epic Bowgart"],
   "Congle + Furcorn": ["Epic Bowgart"],
-  "Any Amber Island Monster": ["Bisonorus", "Rare Bisonorus", "Yelmut", "Rare Yelmut", "Flum Ox", "Rare Flum Ox", "Krillby", "Rare Krillby", "Edamimi", "Rare Edamimi", "PongPing", "Rare PongPing", "Incisaur", "Rare Incisaur", "Tiawa", "Rare Tiawa", "Candelavra", "Rare Candelavra", "Drummidary", "Rare Drummidary", "Bowhead", "Rare Bowhead", "Tuskski", "Rare Tuskski", "Gnarls", "Rare Gnarls"]
+  "Any Amber Island Monster": ["Bisonorus", "Rare Bisonorus", "Yelmut", "Rare Yelmut", "Flum Ox", "Rare Flum Ox", "Krillby", "Rare Krillby", "Edamimi", "Rare Edamimi", "PongPing", "Rare PongPing", "Incisaur", "Rare Incisaur", "Tiawa", "Rare Tiawa", "Candelavra", "Rare Candelavra", "Drummidary", "Rare Drummidary", "Bowhead", "Rare Bowhead", "Tuskski", "Rare Tuskski", "Gnarls", "Rare Gnarls"],
+  "Scallyrags (Major) + Shhimmer (Major)": ["Galymph (Major)"]
 }

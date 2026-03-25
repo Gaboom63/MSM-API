@@ -1,0 +1,17 @@
+{
+  "name": "Epic Pinghound",
+  "description": "A humorous phenomenon that is common to all worlds of the multiverse is that pets tend to resemble their owners. Natives of a planet in the outer reaches of the Beyond, Anglows and Pinghounds share that same special companionship. Each species has similar features adapted to the aquatic life of their homeworld; one such similiarity, of course, is the ability to create dazzling light shows with their long-limbed appendages! In the case of the Epic Pinghound, plucked from the deepest-dreaming projections of the Water Mythical, that resemblance is taken to a whole other level. Now sporting a familiar barreleye visage, it also possesses dark and drab coloration to match the low-light habitat of its imaginer's benthic home. There might also be another reason for the Epic Pinghound's color scheme - additional dream inspiration from a different Mythical (who finally gets a chance to inspire a Dreamythical of its own!). For this design contributor, the black-and-white stylized films of Angkira Kuroglowa represent the pinnacle of cinematic achievement.",
+  "mythicalCost": "1600 Diamonds",
+  "islands": [
+    "mythical"
+  ],
+  "breedingCombo": [
+    "Cataliszt + Strombonin"
+  ],
+  "breedingTime": [
+    "Breeding Time: 2 days 19 hr 30 min, Enhanced Time: 2 days 2 hr 37 min 30 sec"
+  ],
+  "element": [
+    ["dream", "mythical"]
+  ]
+}

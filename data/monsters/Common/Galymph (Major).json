@@ -1,0 +1,22 @@
+{
+  "name": "Galymph (Major)",
+  "description": "Monstrological taxonomy has been forced to reimagine many well-established methods of classification, thanks in large part to the often confounding nature of the Paironormals. Pareidolia is at play when beholding the Galymph, whose Major form presents as a pair of Monsters, or... a pair of a pair. A pair of Paironormals. With its obscuring frills, calcified cladding and matted aetherfronds, the Ambiguity Paironormal obfuscates its true form with a subtle deftness. The sound of its voices singing in unison suggests a cooperation between two beings - with the 'rider' mindfully controlling the 'steed' - but one must be cautious they aren't being taken for a ride. When revealed in its Minor form, the dorsal cladding has ablated, revealing a body packed with plasmonodules. Its aetherfronds, now more sparse, have lost their lushness, exposing that the 'steed and rider' combo is, in fact, a single connected Monster. Observers of both Major and Minor Galymphs share a preternatural understanding of a mysterious truth: that this Paironormal is actually the micro-organism dwelling in the fluid-filled vessels of a gargantuan creature, under the sway of this mysterious force from beyond the Carnival.",
+  "cost": "4000 Diamonds",
+  "paironormalCost": "4000 Diamonds",
+  "islands": [
+    "paironormal"
+  ],
+  "breedingCombo": [
+    "Scallyrags + Shhimmer",
+    "eRmA gUrDy + Owlesque"
+  ],
+  "breedingTime": [
+    "Breeding Time: 2 days 8 hr, Enhanced Time: 1 day 18 hr"
+  ],
+  "fuguingTime": [
+    "Success: 2 day 8 hr, Failure: 22 hr"
+  ],
+  "element": [
+    ["control", "hoax", "depths"]
+  ]
+}
