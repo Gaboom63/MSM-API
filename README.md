@@ -1,4 +1,4 @@
-## LAST UPDATED: 3/12/26 (Added All Cloverspell Updates)
+## LAST UPDATED: 3/25/26 (Added All Eggstravaganza Updates)
 
 ## AT LAST THE API IS DONE! (1/28/26)
 
