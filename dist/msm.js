@@ -13,6 +13,25 @@
     ELEMENT_INDEX_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/elements.json`;
   }
 
+  function getStringSimilarity(str1, str2) {
+    const s1 = str1.toLowerCase();
+    const s2 = str2.toLowerCase();
+    if (s1 === s2) return 1.0;
+    
+    const track = Array(s2.length + 1).fill(null).map(() => Array(s1.length + 1).fill(null));
+    for (let i = 0; i <= s1.length; i++) track[0][i] = i;
+    for (let j = 0; j <= s2.length; j++) track[j][0] = j;
+    
+    for (let j = 1; j <= s2.length; j++) {
+        for (let i = 1; i <= s1.length; i++) {
+            const indicator = s1[i - 1] === s2[j - 1] ? 0 : 1;
+            track[j][i] = Math.min(track[j][i - 1] + 1, track[j - 1][i] + 1, track[j - 1][i - 1] + indicator);
+        }
+    }
+    const distance = track[s2.length][s1.length];
+    return 1.0 - (distance / Math.max(s1.length, s2.length));
+}
+  
   // AUTO-SYNC WITH SMART COOLDOWN (Checks GitHub once every 10 mins)
   async function syncToLatestCommit() {
     const lastCheck = localStorage.getItem('msm_hash_last_check') || 0;
