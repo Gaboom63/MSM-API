@@ -105,12 +105,22 @@ async function fetchWithCache(storageKey, url) {
 }
 
   /* ---------------- ELEMENTS (OPTIMIZED) ---------------- */
-  async function getElementDatabase() {
+
+  let elementDbPromise = null;
+  
+async function getElementDatabase() {
     await syncPromise;
     if (elementCache) return elementCache;
-    elementCache = await fetchWithCache('elements_db', ELEMENT_INDEX_URL);
-    return elementCache || {};
-  }
+
+    // If a fetch is already in progress, return the existing promise
+    if (!elementDbPromise) {
+        elementDbPromise = fetchWithCache('elements_db', ELEMENT_INDEX_URL).then(data => {
+            elementCache = data || {};
+            return elementCache;
+        });
+    }
+    return elementDbPromise;
+}
 
   function normalizeElementName(name) { return name.toLowerCase().replace(/\s+/g, "-"); }
 
@@ -118,16 +128,13 @@ async function fetchWithCache(storageKey, url) {
     if (!elementName) return null;
     const name = typeof elementName === 'object' ? (elementName.name || elementName.id) : elementName;
     
-    // FIX: Check cache synchronously to avoid micro-task lag
-    const db = elementCache; 
-    if (!db) {
-        return getElementDatabase().then(() => resolveElementImage(elementName));
-    }
+    // Ensure the DB is loaded before looking up the file
+    const db = await getElementDatabase(); 
 
     const normalized = normalizeElementName(name);
     let file = db[name] || db[name.toLowerCase()] || db[normalized] || db[`${normalized}-element`];
     return file ? `${ELEMENTS_URL}${encodeURIComponent(file)}` : null;
-  }
+}
 
   /* ---------------- BREEDING ---------------- */
   async function getBreedingDatabase() {
