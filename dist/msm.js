@@ -30,14 +30,12 @@
     }
     const distance = track[s2.length][s1.length];
     return 1.0 - (distance / Math.max(s1.length, s2.length));
-}
+  }
   
-  // AUTO-SYNC WITH SMART COOLDOWN (Checks GitHub once every 10 mins)
   async function syncToLatestCommit() {
     const lastCheck = localStorage.getItem('msm_hash_last_check') || 0;
     const now = Date.now();
     
-    // If we checked in the last 10 minutes, skip the network request!
     if (now - lastCheck < 600000 && COMMIT_HASH !== 'main') {
         updateUrls();
         return;
@@ -49,10 +47,19 @@
       const data = await res.json();
       
       if (COMMIT_HASH !== data.sha) {
+          const oldHash = COMMIT_HASH;
           COMMIT_HASH = data.sha;
           localStorage.setItem('msm_api_hash', COMMIT_HASH);
-          // If the hash changed, we clear the monster cache to prevent bugs
-          Object.keys(localStorage).forEach(key => { if(key.startsWith('msm_data_')) localStorage.removeItem(key); });
+          
+          // NEW: Cleanup routine to delete old versioned data
+          // This keeps localStorage clean while allowing the new data to load!
+          Object.keys(localStorage).forEach(key => {
+              if (key.startsWith('msm_') && key.includes(oldHash)) {
+                  localStorage.removeItem(key);
+              }
+          });
+          
+          console.log(`Update detected! Switched from ${oldHash} to ${COMMIT_HASH}`);
       }
       localStorage.setItem('msm_hash_last_check', now);
     } catch (err) { console.warn("Sync failed, using cached hash."); }
@@ -62,38 +69,42 @@
   updateUrls();
   const syncPromise = syncToLatestCommit();
 
-  const cache = {}; // Memory cache for the current session
+  const cache = {}; 
   let breedingCache = null;
   let costumeCache = null;
   let elementCache = null;
   let nameRegistry = {};
 
   /* ---------------- HELPERS ---------------- */
-  async function fetchWithCache(storageKey, url) {
-    // 1. Check Memory
-    if (cache[storageKey]) return cache[storageKey];
-    
-    // 2. Check LocalStorage
-    const saved = localStorage.getItem(`msm_data_${storageKey}`);
-    if (saved) {
-        const parsed = JSON.parse(saved);
-        cache[storageKey] = parsed;
-        return parsed;
-    }
-
-    // 3. Network Fetch
-    try {
-        const res = await fetch(url, { credentials: 'omit' });
-        const data = await res.json();
-        localStorage.setItem(`msm_data_${storageKey}`, JSON.stringify(data));
-        cache[storageKey] = data;
-        return data;
-    } catch (e) { return null; }
+/* ---------------- UPDATED HELPERS ---------------- */
+async function fetchWithCache(storageKey, url) {
+  // 1. Check Memory (Session-based)
+  if (cache[storageKey]) return cache[storageKey];
+  
+  // 2. Version the LocalStorage key using the current COMMIT_HASH
+  // This ensures that if the hash changes, the old cache is ignored!
+  const versionedKey = `msm_${COMMIT_HASH}_${storageKey}`;
+  const saved = localStorage.getItem(versionedKey);
+  
+  if (saved) {
+      const parsed = JSON.parse(saved);
+      cache[storageKey] = parsed;
+      return parsed;
   }
 
-  /* ---------------- ELEMENTS ---------------- */
+  // 3. Network Fetch
+  try {
+      const res = await fetch(url, { credentials: 'omit' });
+      const data = await res.json();
+      
+      // Save using the versioned key
+      localStorage.setItem(versionedKey, JSON.stringify(data));
+      cache[storageKey] = data;
+      return data;
+  } catch (e) { return null; }
+}
 
-
+  /* ---------------- ELEMENTS (OPTIMIZED) ---------------- */
   async function getElementDatabase() {
     await syncPromise;
     if (elementCache) return elementCache;
@@ -106,7 +117,13 @@
   async function resolveElementImage(elementName) {
     if (!elementName) return null;
     const name = typeof elementName === 'object' ? (elementName.name || elementName.id) : elementName;
-    const db = await getElementDatabase();
+    
+    // FIX: Check cache synchronously to avoid micro-task lag
+    const db = elementCache; 
+    if (!db) {
+        return getElementDatabase().then(() => resolveElementImage(elementName));
+    }
+
     const normalized = normalizeElementName(name);
     let file = db[name] || db[name.toLowerCase()] || db[normalized] || db[`${normalized}-element`];
     return file ? `${ELEMENTS_URL}${encodeURIComponent(file)}` : null;
@@ -159,7 +176,7 @@
     return entry[rarity].map(file => `${basePath}${encodeURIComponent(file)}`);
   }
 
-  /* ---------------- PATHS ---------------- */
+  /* ---------------- PATHS (FAST PATH ADDED) ---------------- */
   function resolveMonsterPath(rawName) {
       const lowerName = rawName.trim().toLowerCase();
       let folder = "Common", baseNameClean = rawName.trim();
@@ -171,23 +188,23 @@
       }
 
       const registryKey = baseNameClean.toLowerCase();
-      let fileName = nameRegistry[registryKey];
-
-      // If not in registry, find the fuzzy closest version in the registry
-      if (!fileName) {
-          let bestScore = 0;
-          Object.values(nameRegistry).forEach(regName => {
-              const score = getStringSimilarity(baseNameClean, regName);
-              if (score > bestScore) {
-                  bestScore = score;
-                  fileName = regName;
-              }
-          });
+      
+      // FAST PATH: If perfect match exists in registry, skip similarity logic
+      if (nameRegistry[registryKey]) {
+          return { folder, file: nameRegistry[registryKey], baseNameClean };
       }
 
-      // Fallback to the original input if fuzzy match is too low
-      fileName = fileName || (baseNameClean.charAt(0).toUpperCase() + baseNameClean.slice(1));
+      let fileName = null;
+      let bestScore = 0;
+      Object.values(nameRegistry).forEach(regName => {
+          const score = getStringSimilarity(baseNameClean, regName);
+          if (score > bestScore) {
+              bestScore = score;
+              fileName = regName;
+          }
+      });
 
+      fileName = fileName || (baseNameClean.charAt(0).toUpperCase() + baseNameClean.slice(1));
       return { folder, file: fileName, baseNameClean };
   }
 
@@ -203,7 +220,6 @@
     const storageKey = `monster_${folder}_${file}`;
     const url = `${BASE_URL}${folder}/${encodeURIComponent(file)}.json`;
 
-    // Try to get data from persistent cache
     const data = await fetchWithCache(storageKey, url);
     if (!data) return null;
 
@@ -212,7 +228,6 @@
       if (!rawImage.toLowerCase().endsWith(".png")) rawImage += ".png";
       const finalImageUrl = rawImage.startsWith("http") ? rawImage : `${IMAGE_BASE_URL}${encodeURIComponent(rawImage.trim())}`;
       
-      // Parallelize costume resolution
       const costumes = await resolveCostumes(data.name, folder);
 
       return {
@@ -272,23 +287,30 @@
     } catch (err) { return null; }
   }
 
-  /* ---------------- PROXY ---------------- */
+  /* ---------------- PROXY (STRENGTHENED) ---------------- */
   const MSM = new Proxy({}, {
     get(target, prop) {
       const key = String(prop);
       if (key === "twoMonsterCombo") return calculateBreeding;
-      if (key.toLowerCase() === "get" || key.toLowerCase() === "monster") return getMonster;
+      if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
+      
       if (cache[key]) return cache[key];
-      const placeholder = { _loaded: getMonster(key).then(m => (cache[key] = m)) };
-      return new Proxy(placeholder, {
-        get(_, sub) {
-          return async (...args) => {
-            const real = await placeholder._loaded;
-            if (!real) return null;
-            const val = real[sub];
-            return typeof val === "function" ? val.apply(real, args) : val;
-          };
-        }
+
+      // Async loading logic for any other property access
+      const loader = getMonster(key).then(m => {
+          cache[key] = m;
+          return m;
+      });
+
+      return new Proxy({ _loader: loader }, {
+          get(target, sub) {
+              return async (...args) => {
+                  const real = await target._loader;
+                  if (!real) return null;
+                  const val = real[sub];
+                  return typeof val === "function" ? val.apply(real, args) : val;
+              };
+          }
       });
     }
   });
@@ -296,4 +318,4 @@
   if (typeof module !== "undefined" && module.exports) module.exports = MSM;
   else global.MSM = MSM;
 
-})(this); 
+})(this);
