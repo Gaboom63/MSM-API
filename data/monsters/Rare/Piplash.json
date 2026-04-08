@@ -1,0 +1,20 @@
+{
+  "name": "Rare Piplash",
+  "description": "This is by no means just a tribute. The Rare Piplash may in fact be the most tenacious Monster in the world. Once, a Piplash took a trek through the depths of the Workshop and was set upon by a wild and wonky Meeb-cluster. And the cluster challenged, Headbang the hardest anyMon ever has, or no Piplash you'll be! And so it did. Piplash thrashed and moshed more than any Monster before and it was the sickest throwdown the Meebs had ever seen... Or so the Rare Piplash tells it. After being Tuned Up, this Ethereal's imagination is rivaled only by its survivalist adaptations. Because of the environmental stresses of the Workshop, Rare Piplash is beyond durable. By all accounts nigh-invulnerable, and impervious to the heightened Etheric radiation of its home, it nonetheless has a soft spot for... sugar-water? Perhaps Rare Piplash's tough tales are also a form of preservation, since the ultimate form of preservation is self-preservation... and if you don't sing your own praises, who will?",
+  "cost": "3700 Diamonds",
+  "mechCost": "3500 Diamonds",
+  "shadowCost": "3500 Diamonds",
+  "islands": [
+    "workshop",
+    "mech"
+  ],
+  "breedingCombo": [
+    "Rare Shadow Meeb + Rare Mech Meeb + Rare Poison Meeb"
+  ],
+  "synthesisTime": [
+    "Success: 1 day 11 hr"
+  ],
+  "tuningUpCost": [
+    "Rare Shadow Meeb + Rare Mech Meeb + Rare Poison Meeb"
+  ]
+}

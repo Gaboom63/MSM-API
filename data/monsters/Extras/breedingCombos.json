@@ -418,7 +418,12 @@
   "Pladdie + Wimmzies": ["Epic Tuskski"],
   "Clamble + Oaktopus": ["Epic Bowgart"],
   "Congle + Furcorn": ["Epic Bowgart"],
-  "Any Other Non 'Breedable' Monster": ["Bisonorus", "Rare Bisonorus", "Yelmut", "Rare Yelmut", "Flum Ox", "Rare Flum Ox", "Krillby", "Rare Krillby", "Edamimi", "Rare Edamimi", "PongPing", "Rare PongPing", "Incisaur", "Rare Incisaur", "Tiawa", "Rare Tiawa", "Candelavra", "Rare Candelavra", "Drummidary", "Rare Drummidary", "Bowhead", "Rare Bowhead", "Tuskski", "Rare Tuskski", "Gnarls", "Rare Gnarls", "Galymph (Major)"],
+  "Any Other Non 'Breedable Monster": ["Bisonorus", "Rare Bisonorus", "Yelmut", "Rare Yelmut", "Flum Ox", "Rare Flum Ox", "Krillby", "Rare Krillby", "Edamimi", "Rare Edamimi", "PongPing", "Rare PongPing", "Incisaur", "Rare Incisaur", "Tiawa", "Rare Tiawa", "Candelavra", "Rare Candelavra", "Drummidary", "Rare Drummidary", "Bowhead", "Rare Bowhead", "Tuskski", "Rare Tuskski", "Gnarls", "Rare Gnarls", "Galymph (Major)"],
   "Scallyrags (Major) + Shhimmer (Major)": ["Galymph (Major)"],
-  "ERmA gUrDy (Major) + Owlesque (Major)": ["Galymph (Minor)"]
+  "ERmA gUrDy (Major) + Owlesque (Major)": ["Galymph (Minor)"],
+  "Plinkajou + Peckinda": ["Epic Gnarl"], 
+  "Any Workshop": ["Yooreek", "Meebkin", "Blarret", "Gaddzooks", "Auglur", "Flasque", "Nitebear", "Piplash", "X'rt", "Teeter-Tauter", "Whaill", "Vhenshun", "Pentumbra", "Rhysmuth", "Oogiddy", "BeMeebEth", "Rare Yooreek", "Rare Meebkin", "Rare Blarret", "Rare Gaddzooks", "Rare Auglur", "Rare Nitebear", "Rare Piplash", "Rare Whaill"], 
+  "Any Wublin": ["Brump", "Rare Brump", "Epic Brump", "Zynth", "Rare Zynth", "Epic Zynth", "Poewk", "Rare Poewk", "Epic Poewk", "Thwok", "Rare Thwok", "Epic Thwok", "Dwumrohl", "Rare Dwumrohl", "Epic Dwumrohl", "Zuuker", "Rare Zuuker", "Epic Zuuker", "Screemu", "Rare Screemu", "Tympa", "Rare Tympa", "Epic Tympa", "Dermit", "Rare Dermit", "Epic Dermit", "Gheegur", "Rare Gheegur", "Epic Gheegur", "Whajje", "Rare Whajje", "Creepuscule", "Rare Creepuscule", "Blipsqueak", "Rare Blipsqueak", "Epic Blipsqueak", "Scargo", "Rare Scargo", "Astropod", "Rare Astropod", "Pixolotl", "Rare Pixolotl", "Bona-Petite", "Rare Bona-Petite", "Maulch", "Rare Maulch", "Fleechwurm", "Rare Fleechwurm", "Epic Fleechwurm"],
+  "Any Celestial": ["Hornacle", "Furnoss", "Glaishur", "Blasoom", "Syncopite", "Vhamp", "Galvana", "Scaratar", "Loodvigg", "Torrt", "Plixe", "Attmoz", "Adult Hornacle", "Adult Furnoss", "Adult Glaishur", "Adult Blasoom", "Adult Syncopite", "Adult Vhamp", "Adult Galvana", "Adult Scaratar", "Adult Loodvigg", "Adult Torrt", "Adult Plixe", "Adult Attmoz"],
+  "Any Dipsters": ["Do", "Re", "Mi", "Fa", "Sol", "La", "Ti"]
 }

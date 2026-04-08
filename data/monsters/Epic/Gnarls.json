@@ -1,0 +1,19 @@
+{
+  "name": "Epic Gnarls",
+  "description": "Epic... Gnarl? Gnarl, singular? That's right! Rather than being a distinct subspecies of the Plant Top Boss, this Monster is the outcome of a one-in-a-million chance that an individual from the Common Quint species never seeks a partner and instead strikes out on its own. This life-path diverges from the typical Gnarls experience like a branch from a great trunk. As it draws more nutrients from its environment, its two eyes merge into a single oculus, although it unsettlingly retains dual irises. Since the solo Gnarl doesn't need to share resources with a partner, it's able to convert some of the vine-like parts of its body to become sturdy arms and legs. Eventually, these 'barkly' bits also climb upwards and picturesquely frame the Gnarl's corolla, creating a silhouette that gives this Monster its second name - the Heartwood Tree. Does this solitary existence mean that the Epic Gnarl is lonely? It has no shortage of fellow Plant-Elementals to socialize with, but as it beholds other Gnarls in its habitat, the feeling must be just a smidge bittersweet.",
+  "cost": "1750 Diamonds",
+  "islands": [
+    "bone",
+    "amber",
+    "mirror bone"
+  ],
+  "breedingCombo": [
+    "Plinkajou + Peckinda"
+  ],
+  "breedingTime": [
+    "Breeding Time: 1 day 23 hr, Enhanced Time: 1 day 11 hr 15 min"
+  ],
+  "element": [
+    ["plant", "earth", "water", "cold", "fire"]
+  ]
+}
