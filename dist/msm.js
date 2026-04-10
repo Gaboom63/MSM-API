@@ -172,17 +172,18 @@ async function getElementDatabase() {
     return costumeCache || {};
   }
 
-  async function resolveCostumes(monsterName, rarity) {
-    const db = await getCostumeDatabase();
-    const cleanName = monsterName.replace(/^(rare|epic)\s+/i, "").trim();
-    const entry = db?.[cleanName];
-    if (!entry || !Array.isArray(entry[rarity])) return [];
-    const basePath = rarity === "Common"
-      ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${encodeURIComponent(cleanName)}/`
-      : `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${encodeURIComponent(cleanName)}/${rarity}/`;
-    return entry[rarity].map(file => `${basePath}${encodeURIComponent(file)}`);
-  }
-
+async function resolveCostumes(monsterName, rarity) {
+  const db = await getCostumeDatabase();
+  const cleanName = monsterName.replace(/^(rare|epic)\s+/i, "").trim();
+  const entry = db?.[cleanName];
+  
+  if (!entry || !Array.isArray(entry[rarity])) return [];
+  
+  // The new, simplified base path matches our exact folder structure: costumes/Rarity/CleanName/
+  const basePath = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${rarity}/${encodeURIComponent(cleanName)}/`;
+  
+  return entry[rarity].map(file => `${basePath}${encodeURIComponent(file)}`);
+}
   /* ---------------- PATHS (FAST PATH ADDED) ---------------- */
   function resolveMonsterPath(rawName) {
       const lowerName = rawName.trim().toLowerCase();
