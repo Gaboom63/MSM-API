@@ -172,18 +172,26 @@ async function getElementDatabase() {
     return costumeCache || {};
   }
 
-async function resolveCostumes(monsterName, rarity) {
+async function resolveCostumes(monsterName, rarity = "Common") {
   const db = await getCostumeDatabase();
+  
+  // 1. Force the rarity to be capitalized correctly, and default to "Common" if it's missing
+  const safeRarity = rarity 
+    ? rarity.charAt(0).toUpperCase() + rarity.slice(1).toLowerCase() 
+    : "Common";
+
   const cleanName = monsterName.replace(/^(rare|epic)\s+/i, "").trim();
   const entry = db?.[cleanName];
   
-  if (!entry || !Array.isArray(entry[rarity])) return [];
+  // 2. Use safeRarity to check the database
+  if (!entry || !Array.isArray(entry[safeRarity])) return [];
   
-  // The new, simplified base path matches our exact folder structure: costumes/Rarity/CleanName/
-  const basePath = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${rarity}/${encodeURIComponent(cleanName)}/`;
+  // 3. Inject safeRarity directly into the URL path
+  const basePath = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${safeRarity}/${encodeURIComponent(cleanName)}/`;
   
-  return entry[rarity].map(file => `${basePath}${encodeURIComponent(file)}`);
+  return entry[safeRarity].map(file => `${basePath}${encodeURIComponent(file)}`);
 }
+
   /* ---------------- PATHS (FAST PATH ADDED) ---------------- */
   function resolveMonsterPath(rawName) {
       const lowerName = rawName.trim().toLowerCase();
