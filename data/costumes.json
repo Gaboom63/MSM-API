@@ -13,6 +13,17 @@
       "Arackulele_(Pollinator_Poise).png"
     ]
   },
+  "Arcorina": {
+    "Common": [
+      "Arcorina_(Altared_State).png"
+    ]
+  },
+  "Attmoz": {
+    "Common": [
+      "Attmoz_(Mecha_Trooper).png",
+      "Attmoz_(Punk_Leather).png"
+    ]
+  },
   "Barrb": {
     "Common": [
       "Barrb_(Gourdness_Gracious).png"
@@ -38,7 +49,14 @@
   },
   "Blabbit": {
     "Common": [
-      "Blabbit_(Big_Shell-Out).png"
+      "Blabbit_(Big_Shell-Out).png",
+      "Blabbit_(Pastoral_Pounce).png"
+    ],
+    "Epic": [
+      "Epic_Blabbit_(Velvety_Bunnyhug).png"
+    ],
+    "Rare": [
+      "Rare_Blabbit_(Convincing_Fake).png"
     ]
   },
   "Blow't": {
@@ -53,6 +71,7 @@
   },
   "Boodoo": {
     "Common": [
+      "Boodoo_(Chande-leer).png",
       "Boodoo_(Private_Eyes).png",
       "Boodoo_(We_All_Scream).png"
     ],
@@ -75,15 +94,16 @@
       "Bowgart_(Wood_You_Mind).png",
       "Bowgart_Spooktacle_2012.png",
       "Bowgart_Spooktacle_2015.png",
-      "Bowgart_Spooktacle_2018.png"
+      "Bowgart_Spooktacle_2018.png",
+      "Bowgart_Yay_2015.png"
+    ],
+    "Epic": [
+      "Epic_Bowgart_(Pure_Polkagris).png"
     ],
     "Rare": [
       "Rare_Bowgart_(Bolt-gart).png",
       "Rare_Bowgart_Spooktacle_2015.png",
-      "Rare_Bowgart_Xmas_2015.png"
-    ],
-    "Epic": [
-      "Rare_Bowgart_(Bolt-gart).png"
+      "Rare_Bowgart_Yay_2015.png"
     ]
   },
   "Bowhead": {
@@ -111,6 +131,11 @@
       "Cantorell_(Buckled_Caps).png"
     ]
   },
+  "Charrkoll": {
+    "Common": [
+      "Charrkoll_(Signature_Bow_Tie).png"
+    ]
+  },
   "Cherubble": {
     "Common": [
       "Cherubble_(Shape_of_Umm).png"
@@ -126,15 +151,16 @@
       "Clamble_(Bough_Down).png",
       "Clamble_(Merch_Mogul).png",
       "Clamble_(Nevernoot).png",
+      "Clamble_(Tasteful_Noods).png",
       "Clamble_(Veggie_Burger).png",
       "Clamble_(Working_in_the_Lab).png",
       "Clamble_(You've_Got_Mail).png"
     ],
-    "Rare": [
-      "Rare_Clamble_(On_a_LARP).png"
-    ],
     "Epic": [
       "Epic_Clamble_(D.I.Y.-zard).png"
+    ],
+    "Rare": [
+      "Rare_Clamble_(On_a_LARP).png"
     ]
   },
   "Congle": {
@@ -144,13 +170,15 @@
       "Congle_(Chick_'n'_Chokk).png",
       "Congle_(Giddy_Giftwrap).png",
       "Congle_(Monster_Mothma).png",
+      "Congle_(Monster_Mothma)_unused.png",
       "Congle_(Playground_Calico).png",
       "Congle_(Playground_Snow_Crab).png",
       "Congle_(Ten_Gallon_Hat).png",
       "Congle_(Water-shellon).png"
     ],
     "Rare": [
-      "Rare_Congle_(Gaudy_Giftwrap).png"
+      "Rare_Congle_(Gaudy_Giftwrap).png",
+      "Rare_Congle_Yay_2016.png"
     ]
   },
   "Cybop": {
@@ -159,7 +187,8 @@
       "Cybop_(Parasol-ing).png",
       "Cybop_(Petal_Propeller).png",
       "Cybop_(Rag_Mop).png",
-      "Cybop_(Talent_in_Spades).png"
+      "Cybop_(Talent_in_Spades).png",
+      "Cybop_(You_Spin_Me_Round).png"
     ],
     "Epic": [
       "Epic_Cybop_(Thruster_Thorns).png"
@@ -175,12 +204,12 @@
       "Dandidoo_(Punk_Apparel).png",
       "Dandidoo_(Stocking_Cap).png"
     ],
-    "Rare": [
-      "Rare_Dandidoo_(Onesie_Twosie).png",
-      "Rare_Dandidoo_Xmas_2015.png"
-    ],
     "Epic": [
       "Epic_Dandidoo_(Major_Egghead).png"
+    ],
+    "Rare": [
+      "Rare_Dandidoo_(Onesie_Twosie).png",
+      "Rare_Dandidoo_Yay_2015.png"
     ]
   },
   "Deedge": {
@@ -192,14 +221,9 @@
       "Deedge_(Vintage_Speakers).png"
     ]
   },
-  "Deja-Jin": {
-    "Common": [
-      "D├йj├а-Jin_(Lucky_Mask).png"
-    ]
-  },
   "Denchuhs": {
     "Common": [
-      "Denchuhs_Best_Cuspuds.png"
+      "Denchuhs_(Best_Cuspuds).png"
     ]
   },
   "Do": {
@@ -226,6 +250,7 @@
   },
   "Drumpler": {
     "Common": [
+      "Drumpler_(1derland_Frog).png",
       "Drumpler_(Bionic_Braces).png",
       "Drumpler_(Cherubic_Cheer).png",
       "Drumpler_(Foot_of_Furcorn_Helm).png",
@@ -237,26 +262,43 @@
       "Drumpler_(Tune_Up_Mechanic).png"
     ]
   },
+  "D\u00e9j\u00e0-Jin": {
+    "Common": [
+      "D\u00e9j\u00e0-Jin_(Lucky_Mask).png"
+    ]
+  },
   "Edamimi": {
     "Common": [
       "Edamimi_(Fruit_Salad_Style).png"
     ]
   },
+  "Enchantling": {
+    "Common": [
+      "Enchantling_(Lion_Dancer).png"
+    ]
+  },
   "Entbrat": {
     "Common": [
+      "Entbrat_(1derland_Cat).png",
       "Entbrat_(Brat-wurst).png",
       "Entbrat_(Gigacheep_Chic).png",
       "Entbrat_(He-Brat_Harness).png",
       "Entbrat_(Horn_Warmers).png",
       "Entbrat_(Playground_Hydrangea).png",
       "Entbrat_(Playground_Peony).png",
-      "Entbrat_(Spiral_Engravings).png"
-    ],
-    "Rare": [
-      "Rare_Entbrat_Halloween_2016.png"
+      "Entbrat_(Spiral_Engravings).png",
+      "Entbrat_Spooktacle_2014.png"
     ],
     "Epic": [
       "Epic_Entbrat_(Zombie-ie-ie).png"
+    ],
+    "Rare": [
+      "Rare_Entbrat_Spooktacle_2016.png"
+    ]
+  },
+  "Entbrat 2019": {
+    "Rare": [
+      "Rare_Entbrat_2019_Spooktacle.png"
     ]
   },
   "Fa": {
@@ -266,6 +308,12 @@
       "Fa_(Love_Letter_Topper).png",
       "Fa_(Snow_Cone_Topper).png",
       "Fa_(Tiki_Mask_Topper).png"
+    ]
+  },
+  "Fleechwurm": {
+    "Common": [
+      "Fleechwurm_(Mecha_Drone).png",
+      "Fleechwurm_(Punk_Stud).png"
     ]
   },
   "Floogull": {
@@ -323,19 +371,22 @@
       "Furcorn_(Playground_Strawberry).png",
       "Furcorn_(Spritely_Sheet).png",
       "Furcorn_(Voidcorn).png",
+      "Furcorn_Spooktacle_2012.png",
       "Furcorn_Spooktacle_2015.png",
       "Furcorn_Spooktacle_2018.png",
       "Furcorn_Spooktacle_2019.png"
     ],
-    "Rare": [
-      "Rare_Furcorn_(Furcorn_the_13th).png",
-      "Rare_Furcorn_(What's_the_Ti).png",
-      "Rare_Furcorn_Halloween_2015.png",
-      "Rare_Furcorn_Yay_2014.png"
-    ],
     "Epic": [
       "Epic_Furcorn_(Big_Blue_Bauble).png",
       "Epic_Furcorn_Spooktacle_2019.png"
+    ],
+    "Rare": [
+      "Rare_Furcorn_(Furcorn_the_13th).png",
+      "Rare_Furcorn_(What's_the_Ti).png",
+      "Rare_Furcorn_Spooktacle_2015.png",
+      "Rare_Furcorn_Spooktacle_2016.png",
+      "Rare_Furcorn_Spooktacle_2018.png",
+      "Rare_Furcorn_Yay_2014.png"
     ]
   },
   "Fwog": {
@@ -346,13 +397,13 @@
       "Fwog_(Ironclad_Claws).png",
       "Fwog_(Lovestruck).png",
       "Fwog_(Mer-Meridian).png",
-      "Fwog_(Narwhaaa_).png"
+      "Fwog_(Narwhaaa?).png"
+    ],
+    "Epic": [
+      "Epic_Fwog_(See?_No_Bite).png"
     ],
     "Rare": [
       "Rare_Fwog_Spooktacle_2018.png"
-    ],
-    "Epic": [
-      "Epic_Fwog_(See__No_Bite).png"
     ]
   },
   "G'joob": {
@@ -362,10 +413,12 @@
   },
   "Ghazt": {
     "Common": [
+      "Ghazt_(1derland_Lemonade).png",
       "Ghazt_(Blinded_with_Science).png",
       "Ghazt_(GKO).png",
       "Ghazt_(Kinda_Sketchy).png",
       "Ghazt_(Med-Hiss-inal).png",
+      "Ghazt_(Orbiting_Ova).png",
       "Ghazt_(Seus-spicious).png"
     ]
   },
@@ -382,12 +435,14 @@
   },
   "Gnarls": {
     "Common": [
-      "Gnarls_(Teddiberry_Trim).png"
+      "Gnarls_(Teddiberry_Trim).png",
+      "Gnarls_(Tree_of_Life).png"
     ]
   },
   "Gob": {
     "Common": [
-      "Gob_(Blinky_Buddy).png"
+      "Gob_(Blinky_Buddy).png",
+      "Gob_(Blinky_Buddy)_(Mouth_Open).png"
     ]
   },
   "Grumpyre": {
@@ -409,12 +464,16 @@
   },
   "Hoola": {
     "Common": [
-      "Hoola_(DJ_Epic_Drip).png"
+      "Hoola_(Bubblegum_Citrus).png",
+      "Hoola_(DJ_Epic_Drip).png",
+      "Hoola_(Flower_Earth_Child).png",
+      "Hoola_(M-Pop_Vocalist).png"
     ]
   },
   "Humbug": {
     "Common": [
       "Humbug_(Big_Fungus).png",
+      "Humbug_(Kissing_Booth).png",
       "Humbug_(MailMon_Mike).png",
       "Humbug_(Straw_Hat_Disguise).png"
     ]
@@ -431,13 +490,16 @@
   },
   "Jam Boree": {
     "Common": [
-      "Jam_Boree_(Say_Cherry_Cheese).png"
-    ],
-    "Rare": [
-      "Rare_Jam_Boree_(Corporate_Cake).png"
+      "Jam_Boree_(Say_Cherry_Cheese).png",
+      "Jam_Boree_(Say_Cherry_Cheese_Year_13).png"
     ],
     "Epic": [
-      "Epic_Jam_Boree_(Almighty_Ambrosia).png"
+      "Epic_Jam_Boree_(Almighty_Ambrosia).png",
+      "Epic_Jam_Boree_(Almighty_Ambrosia_Year_13).png"
+    ],
+    "Rare": [
+      "Rare_Jam_Boree_(Corporate_Cake_Year_13).png",
+      "Rare_Jam_Boree_(Corporate_Cake).png"
     ]
   },
   "Jeeode": {
@@ -476,7 +538,8 @@
   },
   "Knurv": {
     "Common": [
-      "Knurv_(Cadaverous_Cryptid).png"
+      "Knurv_(Cadaverous_Cryptid).png",
+      "Knurv_Playing_(Cadaverous_Cryptid).png"
     ]
   },
   "La": {
@@ -496,7 +559,8 @@
   },
   "Mammott": {
     "Common": [
-      "Halloween_Mammott.png",
+      "Mammott_(\"Bill\").png",
+      "Mammott_(1derland_Cotton_Candy).png",
       "Mammott_(Automammotton).png",
       "Mammott_(Belt_of_Belting).png",
       "Mammott_(Bunce_Cap).png",
@@ -509,20 +573,20 @@
       "Mammott_(Sea_Sharp).png",
       "Mammott_(Stentorian_Skeleton).png",
       "Mammott_(Water_Buff-a-low).png",
-      "Mammott_(_Bill_).png",
-      "Mammott_Pirate.png"
+      "Mammott_Spooktacle_2012.png",
+      "Mammott_Spooktacle_2014.png"
+    ],
+    "Epic": [
+      "Epic_Mammott_Yay_2018.png"
     ],
     "Rare": [
       "Rare_Mammott_(Kramp_My_Style).png",
-      "Rare_Mammott_Halloween_2015.png"
-    ],
-    "Epic": [
-      "Epic_Mammott_Yay_2018.png",
-      "Spooktacle_Epic_Mammott.png"
+      "Rare_Mammott_Spooktacle_2015.png"
     ]
   },
   "Maw": {
     "Common": [
+      "Maw_(1derland_Corn).png",
       "Maw_(Antique_Antennae).png",
       "Maw_(Groucho_Slouch).png",
       "Maw_(Heart_Bopper).png",
@@ -532,12 +596,12 @@
       "Maw_(Sensory_Furphones).png",
       "Maw_(Wreck_the_Halls).png"
     ],
-    "Rare": [
-      "Rare_Maw_(Smitten_Stritch).png"
-    ],
     "Epic": [
       "Epic_Maw_(Guided_Mistletoe).png",
       "Epic_Maw_Spooktacle_2019.png"
+    ],
+    "Rare": [
+      "Rare_Maw_(Smitten_Stritch).png"
     ]
   },
   "Mi": {
@@ -569,24 +633,28 @@
   },
   "Noggin": {
     "Common": [
+      "Noggin_(1derland_Ice).png",
       "Noggin_(Ball_Bearing).png",
       "Noggin_(Chalk-full).png",
       "Noggin_(HELPful_Rings).png",
       "Noggin_(Kinetic_Kicks).png",
+      "Noggin_(Playground_Gamemaker).gif",
       "Noggin_(Rock_Candy).png",
       "Noggin_(Slideshow_Intern).png",
-      "Noggin_(Two_to_Tango).png"
+      "Noggin_(Two_to_Tango).png",
+      "Noggin_Spooktacle_2016.png"
+    ],
+    "Epic": [
+      "Epic_Noggin_(Burning_Love).png"
     ],
     "Rare": [
       "Rare_Noggin_(Rock_and_Dice_Roll).png",
       "Rare_Noggin_Spooktacle_2015.png"
-    ],
-    "Epic": [
-      "Epic_Noggin_Burning_Love.png"
     ]
   },
   "Oaktopus": {
     "Common": [
+      "Oaktopus_(1derland_Bok_Choy).png",
       "Oaktopus_(Bred_Delicious).png",
       "Oaktopus_(Cotton_Dandy).png",
       "Oaktopus_(Cushy_Curlers).png",
@@ -605,8 +673,14 @@
       "Osstax_(Golden_Ginkgos).png"
     ]
   },
+  "Owlesque": {
+    "Common": [
+      "Owlesque_(Great_Pretender).png"
+    ]
+  },
   "Pango": {
     "Common": [
+      "Pango_(1derland_Crystal).png",
       "Pango_(Cozy_Winter_Wear).png",
       "Pango_(Downhome_Puffin).png",
       "Pango_(Dynamic_Dome).png",
@@ -618,12 +692,12 @@
       "Pango_(Rainbow_Raiment).png",
       "Pango_(Serving_of_Just_Ice).png"
     ],
-    "Rare": [
-      "Rare_Pango_Christmas.PNG.png"
-    ],
     "Epic": [
-      "Epic_Pango_Yay_2020.png",
-      "Pango_(Rainbow_Raiment).png"
+      "Epic_Pango_(Cozy_Heart).png",
+      "Epic_Pango_Yay_2020.png"
+    ],
+    "Rare": [
+      "Rare_Pango_Yay_2014.png"
     ]
   },
   "Parlsona": {
@@ -643,9 +717,18 @@
       "Periscorp_(Other_Monster).png"
     ]
   },
+  "Perplexplore Series Costumes": {
+    "Common": [
+      "Perplexplore_Series_Costumes.png"
+    ]
+  },
   "Phangler": {
     "Common": [
       "Phangler_(Sumpter_Net).png"
+    ],
+    "Epic": [
+      "Epic_Phangler_(Mecha_Scout).png",
+      "Epic_Phangler_(Punk_Rebel).png"
     ]
   },
   "Pladdie": {
@@ -661,10 +744,13 @@
   "PomPom": {
     "Common": [
       "PomPom_('Borg_Booties).png",
+      "PomPom_(Bubblegum_Lollipop).png",
       "PomPom_(Drop-Dead_Gorg).png",
       "PomPom_(Fandemonium_Uniform).png",
       "PomPom_(Fantasy_Wings).png",
+      "PomPom_(Flower_Tie-dye).png",
       "PomPom_(Homecoming_Queen).png",
+      "PomPom_(M-Pop_Leader).png",
       "PomPom_(Not_So_Mid_Summer).png",
       "PomPom_(Offworld_Outfit).png",
       "PomPom_(On_the_Bleachers).png",
@@ -673,7 +759,7 @@
       "PomPom_(Pom-Mohawk).png"
     ],
     "Rare": [
-      "Rare_PomPom_Halloween_2015.png"
+      "Rare_PomPom_Spooktacle_2015.png"
     ]
   },
   "PongPing": {
@@ -690,10 +776,13 @@
       "Potbelly_(Mean_Green).png",
       "Potbelly_(Shopping_Spurge).png",
       "Potbelly_(Soils_of_Spore).png",
-      "Rare_Potbelly_Xmas_2015.png"
+      "Potbelly_Yay_2014.png"
     ],
     "Epic": [
       "Epic_Potbelly_(Drake_the_Halls).png"
+    ],
+    "Rare": [
+      "Rare_Potbelly_Yay_2015.png"
     ]
   },
   "Pummel": {
@@ -706,12 +795,12 @@
       "Pummel_(Toque-n_Togs).png",
       "Pummel_(Trickster_Trappings).png"
     ],
-    "Rare": [
-      "Rare_Pummel_Yay_2016.png",
-      "Rare_Pummell_Halloween_2015.png"
-    ],
     "Epic": [
       "Epic_Pummel_(Bonnethead).png"
+    ],
+    "Rare": [
+      "Rare_Pummel_Spooktacle_2015.png",
+      "Rare_Pummel_Yay_2016.png"
     ]
   },
   "Punkleton": {
@@ -721,6 +810,7 @@
   },
   "Quarrister": {
     "Common": [
+      "Quarrister_(1derland_Tiger_Troupe).png",
       "Quarrister_(Rock_Pile_Rags).png",
       "Quarrister_(Sparring_Pads).png",
       "Quarrister_(Sweatbands).png",
@@ -736,7 +826,8 @@
       "Quibble_(Miner_Key).png",
       "Quibble_(Sakura_Corsage).png",
       "Quibble_(Torrtle_Doves).png",
-      "Quibble_(Valiant_Visors).png"
+      "Quibble_(Valiant_Visors).png",
+      "Quibble_(Valiant_Visors)_(Glitched).png"
     ],
     "Rare": [
       "Rare_Quibble_(Sunday_Best).png"
@@ -773,12 +864,12 @@
       "Reedling_(Smunkin_Mask).png",
       "Reedling_Spooktacle_2018.png"
     ],
-    "Rare": [
-      "Halloween_Rare_Reedling.png",
-      "Rare_Reedling_Spooktacle_2018.png"
-    ],
     "Epic": [
       "Epic_Reedling_(Can't_Stand_the_Heat).png"
+    ],
+    "Rare": [
+      "Rare_Reedling_Spooktacle_2016.png",
+      "Rare_Reedling_Spooktacle_2018.png"
     ]
   },
   "Repatillo": {
@@ -788,25 +879,47 @@
   },
   "Riff": {
     "Common": [
+      "Riff_(1derland_Post_Officer).png",
       "Riff_(Heavymetal_Helmet).png",
       "Riff_(Power_of_Luff).png",
       "Riff_(Rockin'_Around_the_Yay_Tree).png",
       "Riff_(Seaweed_Wraps).png",
       "Riff_(Spiny_Six-String).png"
+    ],
+    "Epic": [
+      "Epic_Riff_(will_U_B_MINE).png"
     ]
   },
   "Rooba": {
+    "Common": [
+      "Rooba_(Bubblegum_Floss).png",
+      "Rooba_(Flower_Boho_Chic).png",
+      "Rooba_(M-Pop_Visual).png"
+    ],
     "Rare": [
       "Rare_Rooba_('Picsie_Perfect).png"
     ]
   },
+  "Rootitoot": {
+    "Common": [
+      "Rootitoot_(Jigsaw_Spud).png"
+    ]
+  },
   "Schmoochle": {
     "Common": [
-      "Schmoochle_(Dashing_Suitor).png"
+      "Schmoochle_(Dashing_Suitor).png",
+      "Schmoochle_(Gonna_be_Golden).png"
+    ],
+    "Epic": [
+      "Epic_Schmoochle_(Best_Friend_Bedecked).png"
+    ],
+    "Rare": [
+      "Rare_Schmoochle_(Lover_AND_Fighter).png"
     ]
   },
   "Scups": {
     "Common": [
+      "Scups_(1derland_Chirper).png",
       "Scups_(Aloof_Leaf).png",
       "Scups_(Nest_Egg).png",
       "Scups_(Plans_for_Nigel).png",
@@ -815,11 +928,16 @@
       "Scups_(Shape_of_You).png",
       "Scups_(Space_Ploddity).png"
     ],
-    "Rare": [
-      "Rare_Scups_Yay_2015.png"
-    ],
     "Epic": [
       "Epic_Scups_(Dongle_the_Thing).png"
+    ],
+    "Rare": [
+      "Rare_Scups_Yay_2015.png"
+    ]
+  },
+  "ShLep": {
+    "Common": [
+      "ShLep_(Surprisingly_Kind).png"
     ]
   },
   "Shellbeat": {
@@ -830,6 +948,13 @@
       "Shellbeat_(Dirty_Work).png",
       "Shellbeat_(Driftwood_Drum).png",
       "Shellbeat_(Gene_Krabba).png"
+    ],
+    "Epic": [
+      "Epic_Shellbeat_(Splash_Zone).png"
+    ],
+    "Rare": [
+      "Rare_Shellbeat_(Mecha_Smith).png",
+      "Rare_Shellbeat_(Punk_Subculture).png"
     ]
   },
   "Shrubb": {
@@ -838,16 +963,17 @@
       "Shrubb_(Drool_Noodles).png",
       "Shrubb_(Ire_Hydrant).png",
       "Shrubb_(Shrubbles_the_Clown).png",
+      "Shrubb_(Spring_in_Your_Step).png",
       "Shrubb_(Thumpiebait_Cap).png",
       "Shrubb_Yay_2015.png"
-    ],
-    "Rare": [
-      "Rare_Shrubb_Halloween_2016.png",
-      "Rare_Shrubb_Yay_2015.png"
     ],
     "Epic": [
       "Epic_Shrubb_(Mage's_Cackleberry).png",
       "Epic_Shrubb_Yay_2020.png"
+    ],
+    "Rare": [
+      "Rare_Shrubb_Spooktacle_2016.png",
+      "Rare_Shrubb_Yay_2015.png"
     ]
   },
   "Sneyser": {
@@ -866,6 +992,9 @@
   },
   "Sooza": {
     "Common": [
+      "Sooza_(Bubblegum_Sprinkles).png",
+      "Sooza_(Flower_Free_Spirit).png",
+      "Sooza_(M-Pop_All-Rounder).png",
       "Sooza_(Parade_Prepped).png"
     ]
   },
@@ -875,6 +1004,11 @@
       "Sox_(Careless_Kit).png",
       "Sox_(Forest_Cloak).png",
       "Sox_(What_Big_Eyes).png"
+    ]
+  },
+  "Spooktacle": {
+    "Common": [
+      "Spooktacle_Epic_Mammott.png"
     ]
   },
   "Spunge": {
@@ -887,11 +1021,11 @@
       "Spunge_(Vampiric_Veneer).png",
       "Spunge_(Wetsuit_Whimsy).png"
     ],
-    "Rare": [
-      "Rare_Spunge_Halloween_2015.png"
-    ],
     "Epic": [
       "Epic_Spunge_(O_Spungy_Tree).png"
+    ],
+    "Rare": [
+      "Rare_Spunge_Spooktacle_2015.png"
     ]
   },
   "Spurrit": {
@@ -902,6 +1036,11 @@
   "Spytrap": {
     "Common": [
       "Spytrap_(Prismatica_Ball).png"
+    ]
+  },
+  "Squot": {
+    "Common": [
+      "Squot_(I_Knew_You_Were_Truffle).png"
     ]
   },
   "Stogg": {
@@ -923,13 +1062,15 @@
   },
   "T-Rox": {
     "Common": [
+      "T-Rox_(1derland_Bamboo).png",
       "T-Rox_(Chain_Reaction).png",
+      "T-Rox_(Chain_Reaction)_(Glowing).png",
       "T-Rox_(Cinderfella).png",
       "T-Rox_(Construction,_a_Head).png",
       "T-Rox_(Fossil_Faucet).png",
       "T-Rox_(Gamma_Guise).png",
       "T-Rox_(Gilded_Pauldrons).png",
-      "T-Rox_(Pi├▒ata_T-Rox).png",
+      "T-Rox_(Pi\u00f1ata_T-Rox).png",
       "T-Rox_(Summer_Blockbuster).png"
     ],
     "Epic": [
@@ -945,13 +1086,14 @@
     "Common": [
       "Tawkerr_(Detective_SherTawk).png",
       "Tawkerr_(I_Want_My_Mummy).png",
-      "Tawkerr_(Stark_Raving).png"
+      "Tawkerr_(Stark_Raving).png",
+      "Tawkerr_(Stark_Raving)_(Old_Design).png"
     ]
   },
   "Theremind": {
     "Common": [
       "Theremind_(Believe_in_Magic).png",
-      "Theremind_(Rhymes_with_Orange_).png"
+      "Theremind_(Rhymes_with_Orange?).png"
     ]
   },
   "Thrumble": {
@@ -968,19 +1110,21 @@
       "Thumpies_(FwoOT_and_BuTter).png",
       "Thumpies_(KaL_and_Gooie).png",
       "Thumpies_(Odd-ball_Flavor).png",
+      "Thumpies_(sKetcHY_and_BeehAw).png",
+      "Thumpies_(sKetcHY_and_BeehAw)_(Alternate_sKetcHY).png",
       "Thumpies_(Take_Me_to_Thumpie_Town).png",
-      "Thumpies_(Thump_and_Chase).png",
-      "Thumpies_(sKetcHY_and_BeehAw).png"
-    ],
-    "Rare": [
-      "Rare_Thumpies_(FLipPy_and_TawooO).png",
-      "Rare_Thumpies_(Gahwg_and_Anyanka).png",
-      "Rare_Thumpies_(SkwEE_and_ChesH).png",
-      "Rare_Thumpies_Halloween_2015.png"
+      "Thumpies_(Thump_and_Chase).png"
     ],
     "Epic": [
       "Epic_Thumpies_(BoOoo_and_YucKLeS).png",
       "Epic_Thumpies_(MacE_and_KarrTooF).png"
+    ],
+    "Rare": [
+      "Rare_Thumpies_(FLipPy_and_TawooO).png",
+      "Rare_Thumpies_(FLipPy_and_TawooO)_Orange.png",
+      "Rare_Thumpies_(Gahwg_and_Anyanka).png",
+      "Rare_Thumpies_(SkwEE_and_ChesH).png",
+      "Rare_Thumpies_Spooktacle_2015.png"
     ]
   },
   "Ti": {
@@ -1008,16 +1152,21 @@
       "Toe_Jammer_(Slippery_when_Iced).png",
       "Toe_Jammer_(Socks_of_Splendor).png"
     ],
-    "Rare": [
-      "Rare_Toe_Jammer_(Bunny_Ears).png"
-    ],
     "Epic": [
       "Epic_Toe_Jammer_(Medusa_Doozy).png"
+    ],
+    "Rare": [
+      "Rare_Toe_Jammer_(Bunny_Ears).png",
+      "Rare_Toe_Jammer_(Bunny_Ears)_(Purple_Form).png",
+      "Rare_Toe_Jammer_(Bunny_Ears)_(Yellow_Form).png"
     ]
   },
   "TooToo": {
     "Common": [
-      "TooToo_(CMYK_Cutie).png"
+      "TooToo_(Bubblegum_Gummy).png",
+      "TooToo_(CMYK_Cutie).png",
+      "TooToo_(Flower_Groovy_Gal).png",
+      "TooToo_(M-Pop_Maknae).png"
     ]
   },
   "Tring": {
@@ -1025,8 +1174,14 @@
       "Tring_(Harvest_Basket).png"
     ]
   },
+  "Tuskski": {
+    "Common": [
+      "Tuskski_(Green_Jumbo).png"
+    ]
+  },
   "Tweedle": {
     "Common": [
+      "Tweedle_(1derland_Chick).png",
       "Tweedle_(All-Seeing_Belly).png",
       "Tweedle_(Be_Like_the_Bluebird).png",
       "Tweedle_(Club_Box_Necklace).png",
@@ -1035,6 +1190,9 @@
       "Tweedle_(Plaster_of_Power).png",
       "Tweedle_(Rose-Colored_Glasses).png",
       "Tweedle_(Tuxtweedo_Mask).png"
+    ],
+    "Epic": [
+      "Epic_Tweedle_(Quadruple_Clawing).png"
     ]
   },
   "Uuduk": {
@@ -1055,23 +1213,28 @@
       "Whisp_(Fractal_Crown).png"
     ],
     "Rare": [
-      "Rare_Whisp_Spooktacle_2018 (1).png"
+      "Rare_Whisp_Spooktacle_2018.png"
     ]
   },
-  "Wimmizies": {
+  "Wimmzies": {
     "Common": [
       "Wimmzies_(The_Jig_is_Up).png"
     ]
   },
   "Woolabee": {
     "Common": [
+      "Woolabee_(Best_of_All_Possible_Birds).png",
       "Woolabee_(Cartographer_Cud).png"
     ]
   },
   "Wubbox": {
     "Common": [
-      "Wubbox (Boomerkrang).png",
-      "Wubbox_(In_Da_Club).png"
+      "Wubbox_(1derland_Prime).png",
+      "Wubbox_(Boomerkrang).png",
+      "Wubbox_(En-Ginger-eering).png",
+      "Wubbox_(Hey_Wubberboy).png",
+      "Wubbox_(In_Da_Club).png",
+      "Wubbox_(Mmmetallized).png"
     ]
   },
   "Wynq": {
@@ -1082,7 +1245,8 @@
   },
   "X'rt": {
     "Common": [
-      "X'rt_(X'rt_Likes_Soup).png"
+      "X'rt_(X'rt_Likes_Soup).png",
+      "X'rt_Playing_(X'rt_Likes_Soup).png"
     ]
   },
   "Xyster": {
@@ -1102,7 +1266,14 @@
   },
   "Yool": {
     "Common": [
-      "Yool_(Fir_Suit).png"
+      "Yool_(Fir_Suit).png",
+      "Yool_(Reindeer_Games).png"
+    ],
+    "Epic": [
+      "Epic_Yool_(Incognito_Snowed).png"
+    ],
+    "Rare": [
+      "Rare_Yool_(Know_Me_Better).png"
     ]
   },
   "Yuggler": {

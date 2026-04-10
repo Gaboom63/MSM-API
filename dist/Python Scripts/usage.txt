@@ -1,0 +1,6 @@
+Place All Three of these files inside of the data/ directory, and run them in terminal.
+
+Run in this order:
+*  scrape_costumes.py
+*  organise_costumes.py
+* finalize_costumes.py
