@@ -10,6 +10,6 @@
     "Hairionette + Shhimmer"
   ],
   "element": [
-    ["control", "depth"]
+    ["control", "depths"]
   ]
 }
