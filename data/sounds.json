@@ -1,0 +1,1509 @@
+{
+  "Anglow": {
+    "Common": [
+      "Anglow_DoF_Audio.mp3",
+      "Anglow_Memory_Sample.mp3",
+      "Anglow_Water.mp3"
+    ]
+  },
+  "Arackulele": {
+    "Common": [
+      "Arackulele_Composer_Sample.mp3",
+      "Arackulele_Memory_Sample.mp3"
+    ]
+  },
+  "Arcorina": {
+    "Common": [
+      "Arcorina_(Major)_Memory_Sample.mp3",
+      "Arcorina_(Minor)_Memory_Sample.mp3"
+    ]
+  },
+  "Astropod": {
+    "Common": [
+      "Astropod_Memory_Sample.mp3"
+    ]
+  },
+  "Attmoz": {
+    "Common": [
+      "Attmoz_DoF_Audio_Sample.mp3",
+      "Attmoz_Memory_Sample.mp3"
+    ]
+  },
+  "Auglur": {
+    "Common": [
+      "Auglur_Memory_Sample.mp3"
+    ]
+  },
+  "Banjaw": {
+    "Common": [
+      "Banjaw_Memory_Sample.mp3"
+    ]
+  },
+  "Barrb": {
+    "Common": [
+      "Barrb_Amber.mp3",
+      "Barrb_DoF_Audio_Sample.mp3",
+      "Barrb_Memory_Sample.mp3"
+    ]
+  },
+  "Bbli$zard": {
+    "Common": [
+      "Bbli$zard_Memory_Sample.mp3"
+    ]
+  },
+  "BeMeebEth": {
+    "Common": [
+      "BeMeebEth_Memory_Sample.mp3"
+    ]
+  },
+  "Bellowfish": {
+    "Common": [
+      "Bellowfish_Composer_Sample.mp3",
+      "Bellowfish_Memory_Sample.mp3",
+      "Bellowfish_Tango_Accordion.mp3"
+    ]
+  },
+  "Bisonorus": {
+    "Common": [
+      "Bisonorus_DoF_Audio_Sample.mp3",
+      "Bisonorus_Memory_Sample.mp3"
+    ]
+  },
+  "Blabbit": {
+    "Common": [
+      "Blabbit_Composer_Sample.mp3",
+      "Blabbit_DoF_Audio_Sample.mp3",
+      "Blabbit_Memory_Sample.mp3"
+    ]
+  },
+  "Blarret": {
+    "Common": [
+      "Blarret_Memory_Sample.mp3"
+    ]
+  },
+  "Blasoom": {
+    "Common": [
+      "Blasoom_DoF_Audio_Sample.mp3",
+      "Blasoom_Memory_Sample.mp3"
+    ]
+  },
+  "Bleatnik": {
+    "Common": [
+      "Bleatnik_Memory_Sample.mp3"
+    ]
+  },
+  "Blipsqueak": {
+    "Common": [
+      "Blipsqueak_Memory_Sample.mp3"
+    ]
+  },
+  "Blow't": {
+    "Common": [
+      "Blow't_Memory_Sample.mp3"
+    ]
+  },
+  "Bogle": {
+    "Common": [
+      "Bogle_Memory_Sample.mp3"
+    ]
+  },
+  "Bona-Petite": {
+    "Common": [
+      "Bona-Petite_Memory_Sample.mp3"
+    ]
+  },
+  "Bonkers": {
+    "Common": [
+      "Bonkers_Memory_Sample.mp3"
+    ]
+  },
+  "Boo'qwurm": {
+    "Common": [
+      "Boo'qwurm_Memory_Sample.mp3"
+    ]
+  },
+  "Boodoo": {
+    "Common": [
+      "Boodoo_Composer_Sample.mp3",
+      "Boodoo_Memory_Sample.mp3"
+    ]
+  },
+  "Boskus": {
+    "Common": [
+      "Boskus_DoF_Audio_Sample.mp3",
+      "Boskus_Memory_Sample.mp3"
+    ]
+  },
+  "Bowgart": {
+    "Common": [
+      "Bowgart_Composer_Sample.mp3",
+      "Bowgart_DoF_Audio_Sample.mp3",
+      "Bowgart_Legato.mp3",
+      "Bowgart_Memory_Sample.mp3"
+    ],
+    "Rare": [
+      "Rare_Bowgart_Composer_Sample.mp3"
+    ]
+  },
+  "Bowhead": {
+    "Common": [
+      "Bowhead_DoF_Audio_Sample.mp3",
+      "Bowhead_Memory_Sample.mp3"
+    ]
+  },
+  "Bridg-it": {
+    "Common": [
+      "Bridg-it_Memory_Sample.mp3"
+    ]
+  },
+  "Brump": {
+    "Common": [
+      "Brump_Memory_Sample.mp3"
+    ]
+  },
+  "Bulbo": {
+    "Common": [
+      "Bulbo_Memory_Sample.mp3"
+    ]
+  },
+  "Buzzinga": {
+    "Common": [
+      "Buzzinga_DoF_Audio.mp3",
+      "Buzzinga_Memory_Sample.mp3"
+    ]
+  },
+  "Cahoot": {
+    "Common": [
+      "Cahoot_Memory_Sample.mp3"
+    ]
+  },
+  "Candelavra": {
+    "Common": [
+      "Candelavra_DoF_Audio_Sample.mp3",
+      "Candelavra_Memory_Sample.mp3"
+    ]
+  },
+  "Cantorell": {
+    "Common": [
+      "Cantorell_Memory_Sample.mp3",
+      "Cantorell_Small_Head.mp3"
+    ]
+  },
+  "Carillong": {
+    "Common": [
+      "Carillong_Memory_Sample.mp3"
+    ]
+  },
+  "Castles": {
+    "Common": [
+      "Castle_(Air).mp3",
+      "Castle_(Bone).mp3",
+      "Castle_(Cold).mp3",
+      "Castle_(Earth).mp3",
+      "Castle_(Haven).mp3",
+      "Castle_(Light).mp3",
+      "Castle_(Magical).mp3",
+      "Castle_(Mythical).mp3",
+      "Castle_(Oasis).mp3",
+      "Castle_(Psychic).mp3",
+      "Castle_(Seasonal).mp3",
+      "Castle_(Water).mp3",
+      "Castle_(Workshop).mp3",
+      "Castle_(Ethereal).mp3",
+      "Castle_(Faerie).mp3",
+      "Castle_(Plant).mp3"
+    ]
+  },
+  "Cataliszt": {
+    "Common": [
+      "Cataliszt_Memory_Sample.mp3"
+    ]
+  },
+  "Charrkoll": {
+    "Common": [
+      "Charrkoll_Memory_Sample.mp3"
+    ]
+  },
+  "Cherubble": {
+    "Common": [
+      "Cherubble_DoF_Audio.mp3",
+      "Cherubble_Memory_Sample.mp3"
+    ]
+  },
+  "Clackula": {
+    "Common": [
+      "Clackula_Memory_Sample.mp3"
+    ]
+  },
+  "Clamble": {
+    "Common": [
+      "Clamble_Composer_Sample.mp3",
+      "Clamble_Crash_Earth.mp3",
+      "Clamble_DoF_Audio_Sample.mp3",
+      "Clamble_Memory_Sample.mp3",
+      "Clamble_Open_Hi-Hat.mp3",
+      "Clamble_Suspend.mp3"
+    ],
+    "Rare": [
+      "Rare_Clamble_Composer_Sample.mp3"
+    ]
+  },
+  "Clavavera": {
+    "Common": [
+      "Clavavera_Low_Bone.mp3",
+      "Clavavera_Memory_Sample.mp3"
+    ]
+  },
+  "Clavi Gnat": {
+    "Common": [
+      "Clavi_Gnat_Memory_Sample.mp3"
+    ]
+  },
+  "Congle": {
+    "Common": [
+      "Congle_Composer_Sample.mp3",
+      "Congle_DoF_Audio_Sample.mp3",
+      "Congle_Memory_Sample.mp3",
+      "Congle_Voice_Tribal.mp3"
+    ],
+    "Rare": [
+      "Rare_Congle_Composer_Sample.mp3"
+    ]
+  },
+  "Cranchee": {
+    "Common": [
+      "Cranchee_Memory_Sample.mp3",
+      "Cranchee_Old_Memory_Sample.mp3"
+    ]
+  },
+  "Creepuscule": {
+    "Common": [
+      "Creepuscule_Hi-Hat.mp3",
+      "Creepuscule_Memory_Sample.mp3",
+      "Creepuscule_Ride.mp3"
+    ]
+  },
+  "Cruv'laaphtian Crocus": {
+    "Common": [
+      "Crocus_Drum&Guitar.mp3",
+      "Crocus_EYEPOPPING.mp3",
+      "Cruv'laaphtian_Crocus_Memory_Sample.wav"
+    ]
+  },
+  "Cybop": {
+    "Common": [
+      "Cybop_Composer_Sample.mp3",
+      "Cybop_DoF_Audio_Sample.mp3",
+      "Cybop_Less_Robotic_Water.mp3",
+      "Cybop_Memory_Sample.mp3"
+    ]
+  },
+  "DJ Epic Tracks": {
+    "Common": [
+      "DJ_Epic_Track_1_Sample.mp3",
+      "DJ_Epic_Track_2_Sample.mp3",
+      "DJ_Epic_Track_3_Sample.mp3",
+      "DJ_Epic_Track_4_Sample.mp3",
+      "DJ_Epic_Track_5_Sample.mp3"
+    ]
+  },
+  "Dakktyl": {
+    "Common": [
+      "Dakktyl_(Major)_Memory_Sample.mp3",
+      "Dakktyl_(Minor)_Memory_Sample.mp3"
+    ]
+  },
+  "Dandidoo": {
+    "Common": [
+      "Dandidoo_Composer_Sample.mp3",
+      "Dandidoo_DoF_Audio_Sample.mp3",
+      "Dandidoo_Memory_Sample.mp3"
+    ]
+  },
+  "Deedge": {
+    "Common": [
+      "Deedge_Composer_Sample.mp3",
+      "Deedge_DoF_Audio_Sample.mp3",
+      "Deedge_Memory_Sample.mp3",
+      "Deedge_Synth_Gold.mp3"
+    ],
+    "Rare": [
+      "Rare_Deedge_Composer_Sample.mp3"
+    ]
+  },
+  "Deja-Jin": {
+    "Common": [
+      "Deja-Jin_Memory_Sample.mp3"
+    ]
+  },
+  "Denchuhs": {
+    "Common": [
+      "Denchuhs_Memory_Sample.mp3"
+    ]
+  },
+  "Dermit": {
+    "Common": [
+      "Dermit_Memory_Sample.mp3"
+    ]
+  },
+  "Dipsters Generic": {
+    "Common": [
+      "Dipsters.ogg"
+    ]
+  },
+  "Do": {
+    "Common": [
+      "Do_Memory_Sample.mp3"
+    ]
+  },
+  "Dragong": {
+    "Common": [
+      "Dragong_Composer_Sample.mp3",
+      "Dragong_Memory_Sample.mp3"
+    ]
+  },
+  "Drummidary": {
+    "Common": [
+      "Drummidary_DoF_Audio_Sample.mp3",
+      "Drummidary_Memory_Sample.mp3"
+    ]
+  },
+  "Drumpler": {
+    "Common": [
+      "Drumpler_Composer_Sample.mp3",
+      "Drumpler_DoF_Audio_Sample.mp3",
+      "Drumpler_Memory_Sample.mp3"
+    ],
+    "Rare": [
+      "Rare_Drumpler_Composer_Sample.mp3"
+    ]
+  },
+  "Dwumrohl": {
+    "Common": [
+      "Dwumrohl_Memory_Sample.mp3"
+    ]
+  },
+  "ERmA gUrDy": {
+    "Common": [
+      "ERmA_gUrDy_(Major)_Memory_Sample.mp3",
+      "ERmA_gUrDy_(Minor)_Memory_Sample.mp3"
+    ]
+  },
+  "Edamimi": {
+    "Common": [
+      "Edamimi_DoF_Audio_Sample.mp3",
+      "Edamimi_Memory_Sample.mp3"
+    ]
+  },
+  "Enchantling": {
+    "Common": [
+      "Enchantling_Memory_Sample.mp3"
+    ]
+  },
+  "Entbrat": {
+    "Common": [
+      "Entbrat_Composer_Sample.mp3",
+      "Entbrat_DoF_Audio_Sample.mp3",
+      "Entbrat_Memory_Sample.mp3",
+      "Entbrat_Tribal.mp3"
+    ]
+  },
+  "Fa": {
+    "Common": [
+      "Fa_Memory_Sample.mp3"
+    ]
+  },
+  "Faesoddoid Fungus": {
+    "Common": [
+      "Faesoddoid_Fungus_Memory_Sample.mp3",
+      "Fungus_Synthesized_Bells.mp3",
+      "Fungus_Synth_Pad_+_Synth_Lead.mp3",
+      "Fungus_Viking_Horn.mp3"
+    ]
+  },
+  "Fandhul": {
+    "Common": [
+      "Fandhul_Memory_Sample.mp3"
+    ]
+  },
+  "Ffidyll": {
+    "Common": [
+      "Ffidyll_Memory_Sample.mp3"
+    ]
+  },
+  "Fiddlement": {
+    "Common": [
+      "Fiddlement_Memory_Sample.mp3"
+    ]
+  },
+  "Flasque": {
+    "Common": [
+      "Flasque_Memory_Sample.mp3"
+    ]
+  },
+  "Fleechwurm": {
+    "Common": [
+      "Fleechwurm_Memory_Sample.mp3"
+    ]
+  },
+  "Floogull": {
+    "Common": [
+      "Floogull_DoF_Audio_Sample.mp3",
+      "Floogull_Memory_Sample.mp3"
+    ]
+  },
+  "Floot Fly": {
+    "Common": [
+      "Floot_Fly_Memory_Sample.mp3"
+    ]
+  },
+  "Flowah": {
+    "Common": [
+      "Flowah_DoF_Audio_Sample.mp3",
+      "Flowah_Memory_Sample.mp3",
+      "Flowah_Singing.mp3"
+    ]
+  },
+  "Flum Ox": {
+    "Common": [
+      "Flum_Ox_DoF_Audio_Sample.mp3",
+      "Flum_Ox_Memory_Sample.mp3"
+    ]
+  },
+  "Fluoress": {
+    "Common": [
+      "Fluoress_Choir.mp3",
+      "Fluoress_Memory_Sample.mp3"
+    ]
+  },
+  "Frondley": {
+    "Common": [
+      "Frondley_Memory_Sample.mp3"
+    ]
+  },
+  "Fung Pray": {
+    "Common": [
+      "Fung_Pray_Composer_Sample.mp3",
+      "Fung_Pray_Memory_Sample.mp3"
+    ]
+  },
+  "Furcorn": {
+    "Common": [
+      "Furcorn_Composer_Sample.mp3",
+      "Furcorn_DoF_Audio_Sample.mp3",
+      "Furcorn_Memory_Sample.mp3"
+    ]
+  },
+  "Furnoss": {
+    "Common": [
+      "Furnoss_DoF_Audio_Sample.mp3",
+      "Furnoss_Memory_Sample.mp3"
+    ]
+  },
+  "Fwog": {
+    "Common": [
+      "Fwog_Composer_Sample.mp3",
+      "Fwog_DoF_Audio_Sample.mp3",
+      "Fwog_Memory_Sample.mp3"
+    ]
+  },
+  "G'day": {
+    "Common": [
+      "G'day_Memory_Sample.mp3"
+    ]
+  },
+  "G'joob": {
+    "Common": [
+      "G'joob_DoF_Audio_Sample.mp3",
+      "G'joob_Memory_Sample.mp3"
+    ]
+  },
+  "Gaddzooks": {
+    "Common": [
+      "Gaddzooks_Memory_Sample.mp3"
+    ]
+  },
+  "Galvana": {
+    "Common": [
+      "Galvana_DoF_Audio_Sample.mp3",
+      "Galvana_Memory_Sample.mp3"
+    ]
+  },
+  "Galymph": {
+    "Common": [
+      "Galymph_(Major)_Memory_Sample.mp3",
+      "Galymph_(Minor)_Memory_Sample.mp3"
+    ]
+  },
+  "Ghazt": {
+    "Common": [
+      "Ghazt_Composer_Sample.mp3",
+      "Ghazt_Memory_Sample.mp3",
+      "Ghazt_Pad.mp3"
+    ]
+  },
+  "Gheegur": {
+    "Common": [
+      "Gheegur_Memory_Sample.mp3",
+      "Gheegur_Tenor.mp3"
+    ]
+  },
+  "Glaishur": {
+    "Common": [
+      "Glaishur-DoF_Audio_Sample.mp3",
+      "Glaishur-DoF_Audio_Sample_(Vocal).mp3",
+      "Glaishur_Memory_Sample.mp3"
+    ]
+  },
+  "Gloptic": {
+    "Common": [
+      "Gloptic_Memory_Sample.mp3"
+    ]
+  },
+  "Glowl": {
+    "Common": [
+      "Glowl_DoF_Audio_Sample.mp3",
+      "Glowl_Haah.mp3",
+      "Glowl_Layy.mp3",
+      "Glowl_Memory_Sample.mp3"
+    ]
+  },
+  "Gnarls": {
+    "Common": [
+      "Gnarls_DoF_Audio_Sample.mp3",
+      "Gnarls_Memory_Sample.mp3"
+    ]
+  },
+  "Gob": {
+    "Common": [
+      "Gob_Memory_Sample.mp3"
+    ]
+  },
+  "Gobbleygourd": {
+    "Common": [
+      "Gobbleygourd_Melodic.mp3",
+      "Gobbleygourd_Memory_Sample.mp3"
+    ]
+  },
+  "Grumpyre": {
+    "Common": [
+      "Grumpyre_Composer_Sample.mp3",
+      "Grumpyre_Memory_Sample.mp3"
+    ]
+  },
+  "Hairionette": {
+    "Common": [
+      "Hairionette_(Major)_Memory_Sample.mp3",
+      "Hairionette_(Minor)_Memory_Sample.mp3"
+    ]
+  },
+  "Hawlo": {
+    "Common": [
+      "Hawlo_Memory_Sample.mp3"
+    ]
+  },
+  "HippityHop": {
+    "Common": [
+      "HippityHop_Memory_Sample.mp3"
+    ]
+  },
+  "Hoola": {
+    "Common": [
+      "Hoola_Composer_Sample.mp3",
+      "Hoola_DoF_Audio_Sample.mp3",
+      "Hoola_Memory_Sample.mp3"
+    ]
+  },
+  "Hornacle": {
+    "Common": [
+      "Hornacle_DoF_Audio_Sample.mp3",
+      "Hornacle_Memory_Sample.mp3"
+    ]
+  },
+  "Humbug": {
+    "Common": [
+      "Humbug_Composer_Sample.mp3",
+      "Humbug_Memory_Sample.mp3"
+    ]
+  },
+  "Hyehehe": {
+    "Common": [
+      "Hyehehe_DoF_Audio.mp3",
+      "Hyehehe_Memory_Sample.mp3",
+      "Hyehehe_Organ_Earth.mp3"
+    ]
+  },
+  "Illoost": {
+    "Common": [
+      "Illoost_(Major)_Memory_Sample.mp3",
+      "Illoost_(Minor)_Memory_Sample.mp3",
+      "Illoost_Minor_Memory_Sound_Fixed.mp3"
+    ]
+  },
+  "Incisaur": {
+    "Common": [
+      "Incisaur_DoF_Audio_Sample.mp3",
+      "Incisaur_Memory_Sample.mp3"
+    ]
+  },
+  "Jam Boree": {
+    "Common": [
+      "Jam_Boree_Memory_Sample.mp3"
+    ]
+  },
+  "Jeeode": {
+    "Common": [
+      "Jeeode_Composer_Sample.mp3",
+      "Jeeode_Memory_Sample.mp3"
+    ]
+  },
+  "Jellbilly": {
+    "Common": [
+      "Jellbilly_Composer_Sample.mp3",
+      "Jellbilly_Memory_Sample.mp3"
+    ]
+  },
+  "Jerm": {
+    "Common": [
+      "Jerm_(Major)_Memory_Sample.mp3",
+      "Jerm_(Minor)_Memory_Sample.mp3"
+    ]
+  },
+  "Kayna": {
+    "Common": [
+      "Kayna_DoF_Audio_Sample.mp3",
+      "Kayna_Memory_Sample.mp3"
+    ]
+  },
+  "Kazilleon": {
+    "Common": [
+      "Kazilleon_Composer_Sample.mp3",
+      "Kazilleon_Memory_Sample.mp3"
+    ]
+  },
+  "Knucklehead": {
+    "Common": [
+      "Knucklehead_Memory_Sample.mp3"
+    ]
+  },
+  "Knurv": {
+    "Common": [
+      "Knurv_Memory_Sample.mp3"
+    ]
+  },
+  "Krillby": {
+    "Common": [
+      "Krillby_DoF_Audio_Sample.mp3",
+      "Krillby_Memory_Sample.mp3"
+    ]
+  },
+  "La": {
+    "Common": [
+      "La_Memory_Sample.mp3"
+    ]
+  },
+  "Larvaluss": {
+    "Common": [
+      "Larvaluss_Memory_Sample.mp3"
+    ]
+  },
+  "Loodvigg": {
+    "Common": [
+      "Loodvigg_DoF_Audio_Sample.mp3",
+      "Loodvigg_Memory_Sample.mp3"
+    ]
+  },
+  "Lowb": {
+    "Common": [
+      "Lowb_Headsnap_and_Bounce.mp3",
+      "Lowb_Memory_Sample.mp3"
+    ]
+  },
+  "Maggpi": {
+    "Common": [
+      "Maggpi_Memory_Sample.mp3",
+      "Maggpi_Water_Sample.mp3"
+    ]
+  },
+  "Mammott": {
+    "Common": [
+      "Mammott_Air.mp3",
+      "Mammott_Composer_Sample.mp3",
+      "Mammott_DoF_Audio_Sample.mp3",
+      "Mammott_Memory_Sample.mp3"
+    ]
+  },
+  "Maulch": {
+    "Common": [
+      "Maulch_Memory_Sample.mp3"
+    ]
+  },
+  "Maw": {
+    "Common": [
+      "Maw_Composer_Sample.mp3",
+      "Maw_DoF_Audio_Sample.mp3",
+      "Maw_Memory_Sample.mp3"
+    ]
+  },
+  "Meebkin": {
+    "Common": [
+      "Meebkin_Memory_Sample.mp3"
+    ]
+  },
+  "Mi": {
+    "Common": [
+      "Mi_Memory_Sample.mp3"
+    ]
+  },
+  "Mimic": {
+    "Common": [
+      "Mimic_DoF_Audio_Sample.mp3",
+      "Mimic_Memory_Sample.mp3"
+    ]
+  },
+  "Monculus": {
+    "Common": [
+      "Monculus_Memory_Sample.mp3"
+    ]
+  },
+  "Mushaboom": {
+    "Common": [
+      "Mushaboom_Gong.mp3",
+      "Mushaboom_Memory_Sample.mp3"
+    ]
+  },
+  "Nebulob": {
+    "Common": [
+      "Nebulob_Composer_Sample.mp3",
+      "Nebulob_Memory_Sample.mp3"
+    ]
+  },
+  "Nitebear": {
+    "Common": [
+      "Nitebear_Memory_Sample.mp3"
+    ]
+  },
+  "Noggin": {
+    "Common": [
+      "Faerie_Bone_Noggin_Demo.mp3",
+      "Noggin_Composer_Sample.mp3",
+      "Noggin_DoF_Audio_Sample.mp3",
+      "Noggin_Memory_Sample.mp3",
+      "Noggin_Tribal.mp3",
+      "NogEarth.wav"
+    ],
+    "Rare": [
+      "Rare_Noggin_Composer_Sample.mp3"
+    ]
+  },
+  "Oaktopus": {
+    "Common": [
+      "Oaktopus_Composer_Sample.mp3",
+      "Oaktopus_DoF_Audio_Sample.mp3",
+      "Oaktopus_Memory_Sample.mp3"
+    ]
+  },
+  "Oogiddy": {
+    "Common": [
+      "Oogiddy_Memory_Sample.mp3"
+    ]
+  },
+  "Osstax": {
+    "Common": [
+      "Osstax_Memory_Sample.mp3"
+    ]
+  },
+  "Owlesque": {
+    "Common": [
+      "Owlesque_Percusion.mp3",
+      "Owlesque_(Major)_Memory_Sample.mp3",
+      "Owlesque_(Minor)_Memory_Sample.mp3"
+    ]
+  },
+  "Pango": {
+    "Common": [
+      "Pango_Composer_Sample.mp3",
+      "Pango_DoF_Audio_Sample.mp3",
+      "Pango_Memory_Sample.mp3"
+    ],
+    "Rare": [
+      "Rare_Pango_Composer_Sample.mp3"
+    ]
+  },
+  "Parlsona": {
+    "Common": [
+      "Parlsona_Memory_Sample.mp3"
+    ]
+  },
+  "Peckidna": {
+    "Common": [
+      "Peckidna_Marimba.mp3",
+      "Peckidna_Memory_Sample.mp3"
+    ]
+  },
+  "Pentumbra": {
+    "Common": [
+      "Pentumbra_Filter.mp3",
+      "Pentumbra_Memory_Sample_Fixed.mp3",
+      "Pentumbra_Memory_Sample.mp3"
+    ]
+  },
+  "Periscorp": {
+    "Common": [
+      "Periscorp_Cymbal_and_Snare.mp3",
+      "Periscorp_Memory_Sample.mp3"
+    ]
+  },
+  "Phangler": {
+    "Common": [
+      "Phangler_DoF_Audio_Sample.mp3",
+      "Phangler_Memory_Sample.mp3"
+    ]
+  },
+  "Phosphoran Phlox": {
+    "Common": [
+      "Phosphoran_Phlox_Aurora.mp3",
+      "Phosphoran_Phlox_Synth.mp3",
+      "Phosphoran_Phlox_Glockenspeil.wav",
+      "Phosphoran_Phlox_Memory_Sample.wav"
+    ]
+  },
+  "Pinghound": {
+    "Common": [
+      "Pinghound_Memory_Sample.mp3"
+    ]
+  },
+  "Piplash": {
+    "Common": [
+      "Piplash_Memory_Sample.mp3"
+    ]
+  },
+  "Pixolotl": {
+    "Common": [
+      "Pixolotl_Memory_Sample.mp3"
+    ]
+  },
+  "Pladdie": {
+    "Common": [
+      "Pladdie_Memory_Sample.mp3"
+    ]
+  },
+  "Plinkajou": {
+    "Common": [
+      "Plinkajou_Memory_Sample.mp3"
+    ]
+  },
+  "Plixie": {
+    "Common": [
+      "Plixie_DoF_Audio_Sample.mp3",
+      "Plixie_Memory_Sample.mp3"
+    ]
+  },
+  "Pluckbill": {
+    "Common": [
+      "Pluckbill_Memory_Sample.mp3"
+    ]
+  },
+  "Poewk": {
+    "Common": [
+      "Poewk_Memory_Sample.mp3"
+    ]
+  },
+  "PomPom": {
+    "Common": [
+      "PomPom_Composer_Sample.mp3",
+      "PomPom_DoF_Audio_Sample.mp3",
+      "PomPom_Memory_Sample.mp3"
+    ]
+  },
+  "PongPing": {
+    "Common": [
+      "PongPing_DoF_Audio_Sample.mp3",
+      "PongPing_Memory_Sample.mp3"
+    ]
+  },
+  "Poppette": {
+    "Common": [
+      "Poppette_Memory_Sample.mp3"
+    ]
+  },
+  "Potbelly": {
+    "Common": [
+      "Potbelly_Composer_Sample.mp3",
+      "Potbelly_DoF_Audio_Sample.mp3",
+      "Potbelly_Memory_Sample.mp3"
+    ]
+  },
+  "Pummel": {
+    "Common": [
+      "Pummel_Composer_Sample.mp3",
+      "Pummel_DoF_Audio_Sample.mp3",
+      "Pummel_Memory_Sample.mp3",
+      "Pummel_Toms_Water.mp3"
+    ],
+    "Rare": [
+      "Rare_Pummel_Composer_Sample.mp3"
+    ]
+  },
+  "Punkleton": {
+    "Common": [
+      "Punkleton_Composer_Sample.mp3",
+      "Punkleton_DoF_Audio_Sample.mp3",
+      "Punkleton_Memory_Sample.mp3",
+      "Punkleton_Whispy_Shanty.mp3"
+    ]
+  },
+  "Quarrister": {
+    "Common": [
+      "Quarrister_Composer_Sample.mp3",
+      "Quarrister_DoF_Audio_Sample.mp3",
+      "Quarrister_Memory_Sample.mp3",
+      "Quarrister_Tribal.mp3"
+    ]
+  },
+  "Quibble": {
+    "Common": [
+      "Quibble_Composer_Sample.mp3",
+      "Quibble_DoF_Audio_Sample.mp3",
+      "Quibble_Memory_Sample.mp3"
+    ],
+    "Rare": [
+      "Rare_Quibble_Composer_Sample.mp3"
+    ]
+  },
+  "Re": {
+    "Common": [
+      "Re_Memory_Sample.mp3"
+    ]
+  },
+  "Reebro": {
+    "Common": [
+      "Reebro_Acoustic.mp3",
+      "Reebro_Composer_Sample.mp3",
+      "Reebro_Hi-Hat.mp3",
+      "Reebro_Memory_Sample.mp3"
+    ]
+  },
+  "Reedling": {
+    "Common": [
+      "Reedling_Composer_Sample.mp3",
+      "Reedling_DoF_Audio_Sample.mp3",
+      "Reedling_Memory_Sample.mp3"
+    ],
+    "Rare": [
+      "Rare_Reedling_Composer_Sample.mp3"
+    ]
+  },
+  "Repatillo": {
+    "Common": [
+      "Repatillo_Amber.mp3",
+      "Repatillo_DoF_Audio_Sample.mp3",
+      "Repatillo_Memory_Sample.mp3"
+    ]
+  },
+  "Rhysmuth": {
+    "Common": [
+      "Rhysmuth_Memory_Sample.mp3"
+    ]
+  },
+  "Riff": {
+    "Common": [
+      "Riff_Composer_Sample.mp3",
+      "Riff_DoF_Audio_Sample.mp3",
+      "Riff_Memory_Sample.mp3"
+    ],
+    "Rare": [
+      "Rare_Riff_Composer_Sample.mp3"
+    ]
+  },
+  "Roarick": {
+    "Common": [
+      "Roarick_Memory_Sample.mp3"
+    ]
+  },
+  "Rooba": {
+    "Common": [
+      "Rooba_Memory_Sample.mp3"
+    ]
+  },
+  "Rootitoot": {
+    "Common": [
+      "Rootitoot_DoF_Audio_Sample.mp3",
+      "Rootitoot_Memory_Sample.mp3"
+    ]
+  },
+  "Scallyrags": {
+    "Common": [
+      "Scallyrags_(Major)_Memory_Sample.mp3",
+      "Scallyrags_(Minor)_Memory_Sample.mp3"
+    ]
+  },
+  "Scaratar": {
+    "Common": [
+      "Scaratar_DoF_Audio_Sample.mp3",
+      "Scaratar_Memory_Sample.mp3"
+    ]
+  },
+  "Scargo": {
+    "Common": [
+      "Scargo_Memory_Sample.mp3"
+    ]
+  },
+  "Schmoochle": {
+    "Common": [
+      "Schmoochle_Composer_Sample.mp3",
+      "Schmoochle_DoF_Audio_Sample.mp3",
+      "Schmoochle_Memory_Sample.mp3"
+    ]
+  },
+  "Screemu": {
+    "Common": [
+      "Screemu_Memory_Sample.mp3"
+    ]
+  },
+  "Scups": {
+    "Common": [
+      "Scups_Composer_Sample.mp3",
+      "Scups_DoF_Audio_Sample.mp3",
+      "Scups_Memory_Sample.mp3"
+    ],
+    "Rare": [
+      "Rare_Scups_Composer_Sample.mp3"
+    ]
+  },
+  "ShLep": {
+    "Common": [
+      "ShLep_Memory_Sample.mp3"
+    ]
+  },
+  "Shellbeat": {
+    "Common": [
+      "Shellbeat_Composer_Sample.mp3",
+      "Shellbeat_DoF_Audio_Sample.mp3",
+      "Shellbeat_Memory_Sample.mp3"
+    ],
+    "Rare": [
+      "Rare_Shellbeat_Composer_Sample.mp3"
+    ]
+  },
+  "Shhimmer": {
+    "Common": [
+      "Shhimmer_(Major)_Memory_Sample.mp3",
+      "Shhimmer_(Minor)_Memory_Sample.mp3"
+    ]
+  },
+  "Shrubb": {
+    "Common": [
+      "Shrubb_Composer_Sample.mp3",
+      "Shrubb_DoF_Audio_Sample.mp3",
+      "Shrubb_Memory_Sample.mp3"
+    ],
+    "Rare": [
+      "Rare_Shrubb_Composer_Sample.mp3"
+    ]
+  },
+  "Shugabass": {
+    "Common": [
+      "Shugabass_Memory_Sample.mp3"
+    ]
+  },
+  "Shugabeats": {
+    "Common": [
+      "Shugabeats_Memory_Sample.mp3"
+    ]
+  },
+  "Shugabush": {
+    "Common": [
+      "Shugabush_Mandolin_Plant.mp3",
+      "Shugabush_Memory_Sample.mp3",
+      "Viveine_Shugabush.mp3"
+    ]
+  },
+  "Shugabuzz": {
+    "Common": [
+      "Shugabuzz_Ambient.mp3",
+      "Shugabuzz_Memory_Sample.mp3"
+    ]
+  },
+  "Shugajo": {
+    "Common": [
+      "Shugajo_Memory_Sample.mp3"
+    ]
+  },
+  "Shugarock": {
+    "Common": [
+      "Shugarock_Memory_Sample.mp3",
+      "Shugarock_Wah.mp3"
+    ]
+  },
+  "Shugavox": {
+    "Common": [
+      "Shugavox_Memory_Sample.mp3"
+    ]
+  },
+  "Shugitar": {
+    "Common": [
+      "Shugitar_Memory_Sample.mp3"
+    ]
+  },
+  "Sneyser": {
+    "Common": [
+      "Sneyser_Amber.mp3",
+      "Sneyser_DoF_Audio_Sample.mp3",
+      "Sneyser_Memory_Sample.mp3"
+    ]
+  },
+  "Sol": {
+    "Common": [
+      "Sol_Memory_Sample.mp3"
+    ]
+  },
+  "Sooza": {
+    "Common": [
+      "Sooza_Amber.mp3",
+      "Sooza_DoF_Audio_Sample.mp3",
+      "Sooza_Memory_Sample.mp3"
+    ]
+  },
+  "Sox": {
+    "Common": [
+      "Sox_Composer_Sample.mp3",
+      "Sox_Live.mp3",
+      "Sox_Memory_Sample.mp3"
+    ]
+  },
+  "Sporerow": {
+    "Common": [
+      "Sporerow_Memory_Sample.mp3",
+      "Sporerow_Slam.mp3"
+    ]
+  },
+  "Spunge": {
+    "Common": [
+      "Spunge_Composer_Sample.mp3",
+      "Spunge_DoF_Audio_Sample.mp3",
+      "Spunge_Memory_Sample.mp3"
+    ]
+  },
+  "Spurrit": {
+    "Common": [
+      "Spurrit_Bah.mp3",
+      "Spurrit_Memory_Sample.mp3"
+    ]
+  },
+  "Spytrap": {
+    "Common": [
+      "Spytrap_Memory_Sample.mp3"
+    ]
+  },
+  "Squot": {
+    "Common": [
+      "Squot_Memory_Sample.mp3"
+    ]
+  },
+  "Stogg": {
+    "Common": [
+      "Stogg_DoF_Audio_Sample.mp3",
+      "Stogg_Memory_Sample.mp3"
+    ]
+  },
+  "Stoowarb": {
+    "Common": [
+      "Stoowarb_Memory_Sample_Earth.mp3",
+      "Stoowarb_Memory_Sample.mp3"
+    ]
+  },
+  "Strombonin": {
+    "Common": [
+      "Strombonin_DoF_Audio.mp3",
+      "Strombonin_Memory_Sample.mp3"
+    ]
+  },
+  "Syncopite": {
+    "Common": [
+      "Syncopite_DoF_Audio_Sample.mp3",
+      "Syncopite_Memory_Sample.mp3"
+    ]
+  },
+  "T-Rox": {
+    "Common": [
+      "T-Rox_Air.mp3",
+      "T-Rox_Composer_Sample.mp3",
+      "T-Rox_Gold.mp3",
+      "T-Rox_Memory_Sample.mp3",
+      "T-Rox_Tribal.mp3",
+      "T-Rox_DoF_Audio_Sample.mp3"
+    ],
+    "Rare": [
+      "Rare_T-Rox_Composer_Sample.mp3"
+    ]
+  },
+  "Tapricorn": {
+    "Common": [
+      "Tapricorn_Memory_Sample.mp3"
+    ]
+  },
+  "Tawkerr": {
+    "Common": [
+      "Tawkerr_Memory_Sample.mp3"
+    ]
+  },
+  "Teeter-Tauter": {
+    "Common": [
+      "Teeter-Tauter_Memory_Sample.mp3",
+      "Teeter-Tauter_Fizzle.wav"
+    ]
+  },
+  "Theremind": {
+    "Common": [
+      "Theremind_Memory_Sample.mp3"
+    ]
+  },
+  "Thrumble": {
+    "Common": [
+      "Thrumble_DoF_Audio_Sample.mp3",
+      "Thrumble_Memory_Sample.mp3"
+    ]
+  },
+  "Thumpies": {
+    "Common": [
+      "Thumpies_Composer_Sample.mp3",
+      "Thumpies_DoF_Audio_Sample.mp3",
+      "Thumpies_Memory_Sample.mp3",
+      "Thumpies_Quiet.mp3"
+    ],
+    "Rare": [
+      "Rare_Thumpies_Composer_Sample.mp3"
+    ]
+  },
+  "Thwok": {
+    "Common": [
+      "Thwok_Memory_Sample.mp3"
+    ]
+  },
+  "Ti": {
+    "Common": [
+      "Ti_Memory_Sample.mp3"
+    ]
+  },
+  "Tiawa": {
+    "Common": [
+      "Tiawa_DoF_Audio_Sample.mp3",
+      "Tiawa_Memory_Sample.mp3"
+    ]
+  },
+  "Toe Jammer": {
+    "Common": [
+      "Toe_Jammer_Composer_Sample.mp3",
+      "Toe_Jammer_DoF_Audio_Sample.mp3",
+      "Toe_Jammer_Memory_Sample.mp3"
+    ]
+  },
+  "TooToo": {
+    "Common": [
+      "TooToo_Memory_Sample.mp3"
+    ]
+  },
+  "Torrt": {
+    "Common": [
+      "Torrt_DoF_Audio_Sample.mp3",
+      "Torrt_Memory_Sample.mp3"
+    ]
+  },
+  "Tring": {
+    "Common": [
+      "Tring_DoF_Audio_Sample.mp3",
+      "Tring_Memory_Sample.mp3",
+      "Tring_Roll_Amber.mp3"
+    ]
+  },
+  "Tuskski": {
+    "Common": [
+      "Tuskski_DoF_Audio_Sample.mp3",
+      "Tuskski_Memory_Sample.mp3"
+    ]
+  },
+  "Tweedle": {
+    "Common": [
+      "Tweedle_Composer_Sample.mp3",
+      "Tweedle_DoF_Audio_Sample.mp3",
+      "Tweedle_Memory_Sample.mp3"
+    ]
+  },
+  "Tympa": {
+    "Common": [
+      "Tympa_Memory_Sample.mp3",
+      "Tympa_Rimshot.mp3"
+    ]
+  },
+  "Uncategorized": {
+    "Common": [
+      "Pepper_Shaker.mp3",
+      "Dish-Harmonizer_(Plasma).mp3"
+    ]
+  },
+  "Uuduk": {
+    "Common": [
+      "Uuduk_Memory_Sample.mp3"
+    ]
+  },
+  "Vhamp": {
+    "Common": [
+      "Vhamp-DoF_Audio_Sample.mp3",
+      "Vhamp_Memory_Sample.mp3"
+    ]
+  },
+  "Vhenshun": {
+    "Common": [
+      "Vhenshun_Memory_Sample.mp3"
+    ]
+  },
+  "Viveine": {
+    "Common": [
+      "Viveine_Memory_Sample.mp3"
+    ]
+  },
+  "Whaddle": {
+    "Common": [
+      "Whaddle_Amber.mp3",
+      "Whaddle_DoF_Audio_Sample.mp3",
+      "Whaddle_Memory_Sample.mp3"
+    ]
+  },
+  "Whaill": {
+    "Common": [
+      "Whaill_Memory_Sample.mp3"
+    ]
+  },
+  "Whajje": {
+    "Common": [
+      "Whajje_Memory_Sample.mp3"
+    ]
+  },
+  "Wheezel": {
+    "Common": [
+      "Wheezel_Memory_Sample.mp3"
+    ]
+  },
+  "Whisp": {
+    "Common": [
+      "Whisp_Composer_Sample.mp3",
+      "Whisp_Memory_Sample.mp3"
+    ]
+  },
+  "Whiz-bang": {
+    "Common": [
+      "Whiz-bang_Memory_Sample.mp3"
+    ]
+  },
+  "Wimmzies": {
+    "Common": [
+      "Wimmzies_Memory_Sample.mp3"
+    ]
+  },
+  "Withur": {
+    "Common": [
+      "Withur_Memory_Sample.mp3"
+    ]
+  },
+  "Woolabee": {
+    "Common": [
+      "Woolabee_DoF_Audio_Sample.mp3",
+      "Woolabee_Dulcimer.mp3",
+      "Woolabee_Memory_Sample.mp3"
+    ]
+  },
+  "Wubbox": {
+    "Common": [
+      "Unused_Rare_Wubbox.mp3",
+      "Wubbox_Cold.mp3",
+      "Wubbox_Gold_Wink.mp3",
+      "Wubbox_Haven.mp3",
+      "Wubbox_Idle.mp3",
+      "Wubbox_Memory_Sample.mp3",
+      "Wubbox_Wublin.mp3"
+    ],
+    "Epic": [
+      "Epic_Wubbox_(Air)_Memory_Sample.mp3",
+      "Epic_Wubbox_(Cold)_Memory_Sample.mp3",
+      "Epic_Wubbox_(Earth)_Memory_Sample.mp3",
+      "Epic_Wubbox_(Ethereal)_Memory_Sample.mp3",
+      "Epic_Wubbox_(Gold-Air)_Sample.mp3",
+      "Epic_Wubbox_(Gold-Cold)_Sample.mp3",
+      "Epic_Wubbox_(Gold-Earth)_Sample.mp3",
+      "Epic_Wubbox_(Gold-Plant)_Sample.mp3",
+      "Epic_Wubbox_(Gold-Water)_Sample.mp3",
+      "Epic_Wubbox_(Haven)_Memory_Sample.mp3",
+      "Epic_Wubbox_(Oasis)_Memory_Sample.mp3",
+      "Epic_Wubbox_(Plant)_Memory_Sample.mp3",
+      "Epic_Wubbox_(Water)_Memory_Sample.mp3"
+    ],
+    "Rare": [
+      "Rare_Wubbox_Memory_Sample.mp3"
+    ]
+  },
+  "Wynq": {
+    "Common": [
+      "Wynq_DoF_Audio_Sample.mp3",
+      "Wynq_Memory_Sample.mp3"
+    ]
+  },
+  "X'rt": {
+    "Common": [
+      "X'rt_Memory_Sample.mp3"
+    ]
+  },
+  "Xyster": {
+    "Common": [
+      "Xyster_Memory_Sample.mp3"
+    ]
+  },
+  "Yawstrich": {
+    "Common": [
+      "Yawstrich_DoF_Audio_Sample.mp3",
+      "Yawstrich_Memory_Sample.mp3"
+    ]
+  },
+  "Yelmut": {
+    "Common": [
+      "Yelmut_DoF_Audio_Sample.mp3",
+      "Yelmut_Memory_Sample.mp3"
+    ]
+  },
+  "Yool": {
+    "Common": [
+      "Yool_Composer_Sample.mp3",
+      "Yool_DoF_Audio_Sample.mp3",
+      "Yool_Jingle_Cold.mp3",
+      "Yool_Memory_Sample.mp3"
+    ]
+  },
+  "Yooreek": {
+    "Common": [
+      "Yooreek_Deep_Sound.mp3",
+      "Yooreek_Memory_Sample.mp3"
+    ]
+  },
+  "Yuggler": {
+    "Common": [
+      "Yuggler_Memory_Sample.mp3"
+    ]
+  },
+  "Ziggurab": {
+    "Common": [
+      "Ziggurab_Amber.mp3",
+      "Ziggurab_DoF_Audio_Sample.mp3",
+      "Ziggurab_Memory_Sample.mp3"
+    ]
+  },
+  "Zuuker": {
+    "Common": [
+      "Zuuker_Memory_Sample.mp3"
+    ]
+  },
+  "Zynth": {
+    "Common": [
+      "Zynth_Memory_Sample.mp3"
+    ]
+  }
+}
