@@ -76,29 +76,64 @@
   let elementCache = null;
   let soundCache = null;
   let nameRegistry = {};
+  const fetchPromises = {}; // Prevents overlapping duplicate network requests
 
   /* ---------------- HELPERS ---------------- */
   async function fetchWithCache(storageKey, url) {
+    // 1. Check in-memory cache first
     if (cache[storageKey]) return cache[storageKey];
     
+    // 2. If a request for this URL is already in progress, wait for it instead of firing a new one
+    if (fetchPromises[storageKey]) return fetchPromises[storageKey];
+
     const versionedKey = `msm_${COMMIT_HASH}_${storageKey}`;
-    const saved = localStorage.getItem(versionedKey);
     
-    if (saved) {
-        const parsed = JSON.parse(saved);
-        cache[storageKey] = parsed;
-        return parsed;
+    // 3. Check LocalStorage (wrapped safely)
+    try {
+        const saved = localStorage.getItem(versionedKey);
+        if (saved) {
+            const parsed = JSON.parse(saved);
+            cache[storageKey] = parsed;
+            return parsed;
+        }
+    } catch (e) {
+        console.warn(`Failed to read from LocalStorage for ${storageKey}`, e);
     }
 
-    try {
-        const res = await fetch(url, { credentials: 'omit' });
-        const data = await res.json();
-        localStorage.setItem(versionedKey, JSON.stringify(data));
-        cache[storageKey] = data;
-        return data;
-    } catch (e) { return null; }
-  }
+    // 4. Create and store the fetch promise
+    const fetchPromise = (async () => {
+        try {
+            const res = await fetch(url, { credentials: 'omit' });
+            
+            // CRITICAL: Ensure the response is actually valid before parsing JSON
+            if (!res.ok) {
+                throw new Error(`HTTP Error: ${res.status} ${res.statusText}`);
+            }
+            
+            const data = await res.json();
+            cache[storageKey] = data; // Save to in-memory cache
 
+            // CRITICAL: Isolate LocalStorage writing. If it fails (Quota Exceeded), 
+            // the app keeps working using the in-memory cache instead of breaking.
+            try {
+                localStorage.setItem(versionedKey, JSON.stringify(data));
+            } catch (storageErr) {
+                console.warn("LocalStorage is full! Proceeding with in-memory cache.", storageErr);
+            }
+
+            return data;
+        } catch (e) { 
+            console.error(`Fetch failed for ${url}:`, e);
+            return null; 
+        } finally {
+            // Cleanup the promise from the tracker once finished
+            delete fetchPromises[storageKey];
+        }
+    })();
+
+    fetchPromises[storageKey] = fetchPromise;
+    return fetchPromise;
+  }
   /* ---------------- ELEMENTS ---------------- */
   let elementDbPromise = null;
   
