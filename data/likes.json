@@ -1,0 +1,4040 @@
+{
+  "Adult Galvana": {
+    "Common": [
+      "Adult Scaratar"
+    ]
+  },
+  "Adult Hornacle": {
+    "Common": [
+      "Adult Furnoss"
+    ]
+  },
+  "Anglow": {
+    "Common": [
+      "Shellbeat",
+      "Pinghound",
+      "Jarhead",
+      "Optiglowbe",
+      "Englobulated F.U.M.",
+      "Hyehehe"
+    ],
+    "Epic": [
+      "Fa",
+      "ShLep",
+      "Harmonorb Holder",
+      "Orb of Aklino",
+      "Shrini"
+    ],
+    "Rare": [
+      "Anglow",
+      "Kab's Wax",
+      "Odd-o-Mobile",
+      "Spatial Sapling",
+      "Rare Hyehehe"
+    ]
+  },
+  "Arackulele": {
+    "Common": [
+      "Ghazt",
+      "Piplash",
+      "Nitebear",
+      "Auglur",
+      "Vhenshun",
+      "Pentumbra",
+      "Fandhul",
+      "Harpsitree",
+      "Guitree",
+      "Zuffle Tree"
+    ],
+    "Epic": [
+      "Fa",
+      "Wubbox Stockpile",
+      "Shrini",
+      "Elmenco Stump"
+    ],
+    "Rare": [
+      "Arackulele",
+      "Rare Nitebear",
+      "Rare Auglur",
+      "Directions to Nowhere",
+      "Toob",
+      "Dragoon Statue"
+    ]
+  },
+  "Arcorina": {
+    "Common": [
+      "Withur",
+      "Jarhead",
+      "Harmonorb Holder",
+      "Star Rocks"
+    ]
+  },
+  "Astropod": {
+    "Common": [
+      "Pixolotl"
+    ],
+    "Rare": [
+      "Rare Pixolotl"
+    ]
+  },
+  "Auglur": {
+    "Common": [
+      "Blarret",
+      "Ghazt",
+      "Reebro",
+      "Nebulob",
+      "Jellbilly",
+      "Dragong",
+      "Bogle",
+      "Flappy Flag",
+      "Squeed Statue",
+      "Optiglowbe"
+    ],
+    "Rare": [
+      "Auglur",
+      "Rare Blarret",
+      "Rare Ghazt",
+      "Rare Nebulob",
+      "Rare Reebro",
+      "Rare Dragong",
+      "Razzli Tree",
+      "Smunkin Patch",
+      "Castanevine"
+    ]
+  },
+  "Banjaw": {
+    "Common": [
+      "Fwog",
+      "Meldablend",
+      "Harpsitree",
+      "Inverdigus Fern"
+    ],
+    "Rare": [
+      "Banjaw",
+      "Dragon Tower",
+      "Spatial Sapling",
+      "Striking Bulbs"
+    ]
+  },
+  "Barrb": {
+    "Common": [
+      "Flowah",
+      "Boskus",
+      "Sneyser",
+      "Gnarls",
+      "Barbloo Statue",
+      "Puffle Tree",
+      "Crumpler Tree",
+      "Floogull"
+    ],
+    "Epic": [
+      "Re",
+      "Phangler",
+      "Rootitoot",
+      "Sneyser",
+      "Whaddle",
+      "Freed Thing",
+      "Kab's Wax",
+      "Striking Bulbs",
+      "Epic Floogull"
+    ],
+    "Rare": [
+      "Barrb",
+      "Phangler",
+      "Edamimi",
+      "Whaddle",
+      "Directions to Nowhere",
+      "Hollow Log",
+      "Bottomless Pit",
+      "Rare Floogull"
+    ]
+  },
+  "Bbli$zard": {
+    "Common": [
+      "La",
+      "Macho Monument",
+      "Flappy Flag",
+      "Odd-o-Mobile"
+    ]
+  },
+  "BeMeebEth": {
+    "Common": [
+      "Cozee Cabin",
+      "Spurrit Statue",
+      "Dragon Tower",
+      "Jarhead"
+    ]
+  },
+  "Bellowfish": {
+    "Common": [
+      "Ghazt",
+      "Auglur",
+      "Teeter-Tauter",
+      "Piplash",
+      "Yooreek",
+      "Meldablend",
+      "Tree Hut",
+      "Zuffle Tree"
+    ],
+    "Epic": [
+      "Wubbox",
+      "PU System",
+      "Boss Monument",
+      "Piney Tree"
+    ],
+    "Rare": [
+      "Bellowfish",
+      "Rare Auglur",
+      "Rare Yooreek",
+      "Wild Bagpipe",
+      "Razzli Tree",
+      "Tree Forte Tower"
+    ]
+  },
+  "Bisonorus": {
+    "Common": [
+      "Tapricorn",
+      "Sooza",
+      "Thrumble",
+      "Krillby",
+      "Gnarls",
+      "Givutawai Tree",
+      "Star Rocks",
+      "Innertuba"
+    ],
+    "Epic": [
+      "Phangler",
+      "Tring",
+      "Repatillo",
+      "Woolabee",
+      "Miniature Island Complex",
+      "Kab's Wax",
+      "Mountain Morsel"
+    ],
+    "Rare": [
+      "Bisonorus",
+      "Ziggurab",
+      "Sneyser",
+      "Drummidary",
+      "Hammock",
+      "PU System",
+      "Mount Knottshurr"
+    ]
+  },
+  "Blabbit": {
+    "Common": [
+      "Pummel",
+      "Schmoochle",
+      "Toob",
+      "Tree Forte Tower",
+      "Floofy Nest"
+    ],
+    "Epic": [
+      "Rotten Egg",
+      "Floofy Basket",
+      "Multiversal Phabberjay",
+      "Ginormous Carrot"
+    ],
+    "Rare": [
+      "Blabbit",
+      "Guitree",
+      "Directions to Nowhere",
+      "Babayag Tower"
+    ]
+  },
+  "Blarret": {
+    "Common": [
+      "Auglur",
+      "Ghazt",
+      "Grumpyre",
+      "Whisp",
+      "Jellbilly",
+      "Kazilleon",
+      "Boodoo",
+      "Toob",
+      "Thumpies Totem",
+      "Directions to Nowhere"
+    ],
+    "Rare": [
+      "Blarret",
+      "Rare Auglur",
+      "Rare Ghazt",
+      "Rare Whisp",
+      "Trumplite",
+      "Harpsitree",
+      "Tub Fountain"
+    ]
+  },
+  "Bleatnik": {
+    "Common": [
+      "G'joob",
+      "Macho Monument",
+      "Harmonorb Holder",
+      "Wubbox Stockpile",
+      "Cranchee"
+    ],
+    "Epic": [
+      "Buzzinga",
+      "Bingo Bango Bongos",
+      "Givutawai Tree",
+      "Ambered Thing",
+      "Epic Cranchee"
+    ],
+    "Rare": [
+      "Bleatnik",
+      "The Thunker",
+      "Star Rocks",
+      "Swurlee Tree",
+      "Rare Cranchee"
+    ]
+  },
+  "Blow't": {
+    "Common": [
+      "Gob",
+      "Barbloo Statue",
+      "Cozee Cabin",
+      "Wubbox Stockpile"
+    ],
+    "Rare": [
+      "Blow't",
+      "Flappy Flag",
+      "Squeed Statue",
+      "Odd-o-Mobile"
+    ]
+  },
+  "Bogle": {
+    "Common": [
+      "Gaddzooks",
+      "Nitebear",
+      "Teeter-Tauter",
+      "Bellowfish"
+    ]
+  },
+  "Bonkers": {
+    "Common": [
+      "Yuggler",
+      "Hollow Log",
+      "Thumpies Totem",
+      "Ambered Thing",
+      "Gob"
+    ],
+    "Rare": [
+      "Bonkers",
+      "Bingo Bango Bongos",
+      "Smunkit",
+      "Cave Crystal Teleporter",
+      "Rare Gob"
+    ]
+  },
+  "Boo'qwurm": {
+    "Common": [
+      "Poppette",
+      "Ffidyll",
+      "Zuffle Tree",
+      "Fossil-osaurus",
+      "Toob"
+    ],
+    "Epic": [
+      "Confounding Cryptex",
+      "Bib'leo-Theque",
+      "Brain Teaser Tome",
+      "Floating Library"
+    ],
+    "Rare": [
+      "Boo'qwurm",
+      "Bloofi Tree",
+      "Yum Yum Tree",
+      "Eerie Remains"
+    ]
+  },
+  "Boodoo": {
+    "Common": [
+      "Jeeode",
+      "Meebkin",
+      "Blarret",
+      "X'rt",
+      "Pentumbra",
+      "Stritch Skin",
+      "Fossil-osaurus",
+      "Castanevine",
+      "Kazilleon"
+    ],
+    "Epic": [
+      "Fung Pray",
+      "The Thunker",
+      "Floofy Nest",
+      "Bingo Bango Bongos",
+      "Epic Kazilleon"
+    ],
+    "Rare": [
+      "Boodoo",
+      "Rare Meebkin",
+      "Pipes of Cicado",
+      "Eerie Remains",
+      "Tree Hut",
+      "Rare Kazilleon"
+    ]
+  },
+  "Boskus": {
+    "Common": [
+      "Furcorn",
+      "Phangler",
+      "Bridg-it",
+      "Edamimi",
+      "Incisaur",
+      "Drummidary",
+      "Flappy Flag",
+      "Puffle Tree",
+      "Digger"
+    ],
+    "Epic": [
+      "Phangler",
+      "Spytrap",
+      "Floot Fly",
+      "Barrb",
+      "PongPing",
+      "Rootitoot",
+      "Bisonorus",
+      "PU System",
+      "Eerie Remains",
+      "Innertuba"
+    ],
+    "Rare": [
+      "Boskus",
+      "PongPing",
+      "Tiawa",
+      "Bowhead",
+      "Trumplite",
+      "Spurrit Statue",
+      "Dragon Tower"
+    ]
+  },
+  "Bowgart": {
+    "Common": [
+      "Tweedle",
+      "Shrubb",
+      "Travelers' Sign",
+      "Toob",
+      "Eerie Remains"
+    ],
+    "Epic": [
+      "Maw",
+      "Swurlee Tree",
+      "Piney Tree",
+      "Spatial Sapling"
+    ],
+    "Rare": [
+      "Bowgart",
+      "Squeed Statue",
+      "Tree Hut",
+      "Castanevine"
+    ]
+  },
+  "Bowhead": {
+    "Common": [
+      "Gloptic",
+      "Flum Ox",
+      "Stogg",
+      "Woolabee",
+      "Drummidary",
+      "Thumpies Totem, Too",
+      "Spatial Sapling",
+      "Cold Globe"
+    ],
+    "Epic": [
+      "Mi",
+      "Yelmut",
+      "Whaddle",
+      "Barrb",
+      "Tuskski",
+      "Leafy Sea Dragon",
+      "Tub Fountain",
+      "Bass String Bridge"
+    ],
+    "Rare": [
+      "Bowhead",
+      "Thrumble",
+      "Krillby",
+      "Gnarls",
+      "Reflecting Pool",
+      "Givutawai Tree",
+      "Macho Monument"
+    ]
+  },
+  "Breeding": {
+    "Common": [
+      "Breeding Combinations"
+    ]
+  },
+  "Bridg-it": {
+    "Common": [
+      "Boskus",
+      "Mountain Morsel",
+      "Harpsitree",
+      "Ambered Thing"
+    ],
+    "Rare": [
+      "Bridg-it",
+      "Freed Thing",
+      "Barbloo Statue",
+      "Sweetstreamz Tree"
+    ]
+  },
+  "Bulbo": {
+    "Common": [
+      "Kayna",
+      "Thumpies Totem",
+      "Crumpler Tree",
+      "Zuffle Tree",
+      "Squot"
+    ],
+    "Rare": [
+      "Bulbo",
+      "Optiglowbe",
+      "Stritch Skin",
+      "Babayag Tower",
+      "Rare Squot"
+    ]
+  },
+  "Buzzinga": {
+    "Common": [
+      "Flowah",
+      "Knurv",
+      "Miniature Island Complex",
+      "Orb of Aklino",
+      "Harmonorb Holder"
+    ],
+    "Epic": [
+      "La",
+      "Pinghound",
+      "Wubbox Stockpile",
+      "Thumpies Totem, Too",
+      "Cave Crystal Teleporter"
+    ],
+    "Rare": [
+      "Buzzinga",
+      "Elmenco Stump",
+      "Thumpies Totem",
+      "Cold Globe"
+    ]
+  },
+  "Cahoot": {
+    "Common": [
+      "Mushaboom",
+      "Thumpies Totem",
+      "Digger",
+      "Spurrit Statue"
+    ],
+    "Rare": [
+      "Cahoot",
+      "Meldablend",
+      "Hammock",
+      "Ockulo Tree"
+    ]
+  },
+  "Candelavra": {
+    "Common": [
+      "Boskus",
+      "Repatillo",
+      "Wynq",
+      "Bowhead",
+      "Smunkit",
+      "Freed Thing",
+      "The Thunker",
+      "Drummidary"
+    ],
+    "Epic": [
+      "Glowl",
+      "Thrumble",
+      "PongPing",
+      "Drummidary",
+      "Boss Monument",
+      "Shrini",
+      "Jarhead",
+      "Epic Drummidary"
+    ],
+    "Rare": [
+      "Candelavra",
+      "Rootitoot",
+      "Whaddle",
+      "Tuskski",
+      "Star Rocks",
+      "Sweetstreamz Tree",
+      "Ockulo Tree",
+      "Rare Drummidary"
+    ]
+  },
+  "Cantorell": {
+    "Common": [
+      "Squot",
+      "Beeyoot Tree",
+      "Tree Hut",
+      "Inverdigus Fern"
+    ],
+    "Rare": [
+      "Cantorell",
+      "Yum Yum Tree",
+      "Mountain Morsel",
+      "Miniature Island Complex"
+    ]
+  },
+  "Carillong": {
+    "Common": [
+      "Xyster",
+      "Viveine",
+      "Travelers' Sign",
+      "Trumplite",
+      "Fire Bush"
+    ],
+    "Epic": [
+      "Peony Wheel",
+      "Magic Envelope",
+      "Jade Lion",
+      "Floating Lanterns"
+    ],
+    "Rare": [
+      "Carillong",
+      "Leafy Sea Dragon",
+      "Babayag Tower",
+      "Hollow Log"
+    ]
+  },
+  "Cataliszt": {
+    "Common": [
+      "Strombonin",
+      "Odd-o-Mobile",
+      "Miniature Island Complex",
+      "Harmonorb Holder",
+      "G'joob"
+    ],
+    "Rare": [
+      "Cataliszt",
+      "Tree Forte Tower",
+      "Elmenco Stump",
+      "Thumpies Totem",
+      "Rare G'joob"
+    ]
+  },
+  "Charrkoll": {
+    "Common": [
+      "Floofy Nest",
+      "Tree Hut",
+      "Mountain Morsel"
+    ]
+  },
+  "Cherubble": {
+    "Common": [
+      "Woolabee",
+      "Hyehehe",
+      "Odd-o-Mobile",
+      "Miniature Island Complex",
+      "Macho Monument"
+    ],
+    "Epic": [
+      "Ti",
+      "Wheezel",
+      "Fossil-osaurus",
+      "Englobulated F.U.M.",
+      "Mount Knottshurr"
+    ],
+    "Rare": [
+      "Cherubble",
+      "Sweetstreamz Tree",
+      "Jarhead",
+      "Hammock"
+    ]
+  },
+  "Clackula": {
+    "Common": [
+      "Denchuhs",
+      "Xyster",
+      "Castanevine",
+      "Cozee Cabin",
+      "Wubbox Stockpile"
+    ],
+    "Epic": [
+      "Phangler",
+      "G'day",
+      "Leafy Sea Dragon",
+      "Striking Bulbs",
+      "Cave Crystal Teleporter",
+      "Epic Floot Fly"
+    ],
+    "Rare": [
+      "Clackula",
+      "Macho Monument",
+      "Sweetstreamz Tree",
+      "Yum Yum Tree"
+    ]
+  },
+  "Clamble": {
+    "Common": [
+      "Pango",
+      "Oaktopus",
+      "Toob",
+      "Barbloo Statue",
+      "Digger"
+    ],
+    "Epic": [
+      "Do",
+      "Ockulo Tree",
+      "Travelers' Sign",
+      "Cold Globe"
+    ],
+    "Rare": [
+      "Clamble",
+      "Piney Tree",
+      "Harpsitree",
+      "Crumpler Tree"
+    ]
+  },
+  "Clavavera": {
+    "Common": [
+      "Uuduk",
+      "Whiz-bang",
+      "Bloofi Tree",
+      "Tub Fountain",
+      "Bottomless Pit"
+    ],
+    "Epic": [
+      "Makeshift Altar",
+      "Heartstrings Stirring",
+      "Lady Calaca",
+      "Little Drummer"
+    ],
+    "Rare": [
+      "Clavavera",
+      "Castanevine",
+      "Ambered Thing",
+      "Fossil-osaurus"
+    ]
+  },
+  "Clavi Gnat": {
+    "Common": [
+      "Floot Fly",
+      "Pipes of Cicado",
+      "Dragon Tower",
+      "Inverdigus Fern"
+    ],
+    "Rare": [
+      "Clavi Gnat",
+      "Reflecting Pool",
+      "Kab's Wax",
+      "Beeyoot Tree"
+    ]
+  },
+  "Congle": {
+    "Common": [
+      "Potbelly",
+      "T-Rox",
+      "Boskus",
+      "Meldablend",
+      "Guitree",
+      "Fossil-osaurus",
+      "Pummel"
+    ],
+    "Epic": [
+      "Pango",
+      "Reflecting Pool",
+      "Bingo Bango Bongos",
+      "Elmenco Stump",
+      "Epic Pummel"
+    ],
+    "Rare": [
+      "Congle",
+      "Pipes of Cicado",
+      "Cozee Cabin",
+      "Tub Fountain",
+      "Rare Pummel"
+    ]
+  },
+  "Cranchee": {
+    "Common": [
+      "Strombonin",
+      "Orb of Aklino",
+      "Cave Crystal Teleporter",
+      "Miniature Island Complex"
+    ],
+    "Epic": [
+      "Bleatnik",
+      "Fire Bush",
+      "Fuzzle Tree",
+      "Innertuba"
+    ],
+    "Rare": [
+      "Cranchee",
+      "Squeed Statue",
+      "Cold Globe",
+      "Leafy Sea Dragon"
+    ]
+  },
+  "Cybop": {
+    "Common": [
+      "Tweedle",
+      "Toob",
+      "Razzli Tree",
+      "Cozee Cabin"
+    ],
+    "Epic": [
+      "Wubbox",
+      "Glowl",
+      "Digger",
+      "Smunkit",
+      "The Thunker"
+    ],
+    "Rare": [
+      "Cybop",
+      "Meldablend",
+      "Flappy Flag",
+      "Babayag Tower"
+    ]
+  },
+  "Dandidoo": {
+    "Common": [
+      "PomPom",
+      "Spunge",
+      "Glowl",
+      "Hollow Log",
+      "Spurrit Statue",
+      "Yum Yum Tree",
+      "Cybop"
+    ],
+    "Epic": [
+      "Mount Knottshurr",
+      "Fossil-osaurus",
+      "Sweetstreamz Tree",
+      "Squeed Statue",
+      "Epic Cybop"
+    ],
+    "Rare": [
+      "Dandidoo",
+      "Fire Bush",
+      "Piney Tree",
+      "Ambered Thing",
+      "Rare Cybop"
+    ]
+  },
+  "Deedge": {
+    "Common": [
+      "Shugabuzz",
+      "Piney Tree",
+      "Squeed Statue",
+      "Leafy Sea Dragon",
+      "Zuffle Tree"
+    ],
+    "Epic": [
+      "Quibble",
+      "Barbloo Statue",
+      "Boss Monument",
+      "Innertuba"
+    ],
+    "Rare": [
+      "Deedge",
+      "Stritch Skin",
+      "Flappy Flag",
+      "Dragon Tower"
+    ]
+  },
+  "Denchuhs": {
+    "Common": [
+      "Plinkajou",
+      "Saggle Tree",
+      "Fuzzle Tree",
+      "Jarhead"
+    ],
+    "Rare": [
+      "Denchuhs",
+      "Digger",
+      "Odd-o-Mobile",
+      "Kab's Wax"
+    ]
+  },
+  "Do": {
+    "Common": [
+      "Barbloo Statue",
+      "Puffle Tree",
+      "Spurrit Statue",
+      "Leafy Sea Dragon",
+      "Re"
+    ]
+  },
+  "Dragong": {
+    "Common": [
+      "Jeeode",
+      "Piplash",
+      "Auglur",
+      "Yooreek",
+      "Vhenshun",
+      "Beeyoot Tree",
+      "Dragoon Statue",
+      "Dragon Tower"
+    ],
+    "Epic": [
+      "Ti",
+      "Inverdigus Fern",
+      "Thumpies Totem",
+      "Odd-o-Mobile"
+    ],
+    "Rare": [
+      "Dragong",
+      "Rare Auglur",
+      "Rare Yooreek",
+      "Fire Bush",
+      "Eerie Remains",
+      "Castanevine"
+    ]
+  },
+  "Drummidary": {
+    "Common": [
+      "Blow't",
+      "Phangler",
+      "Ziggurab",
+      "Thrumble",
+      "Tuskski",
+      "Bingo Bango Bongos",
+      "Smunkit",
+      "Sweetstreamz Tree"
+    ],
+    "Epic": [
+      "Sol",
+      "Edamimi",
+      "Sneyser",
+      "Repatillo",
+      "Flum Ox",
+      "Thumpies Totem",
+      "Harmonorb Holder",
+      "Fossil-osaurus"
+    ],
+    "Rare": [
+      "Drummidary",
+      "Wynq",
+      "Barrb",
+      "Incisaur",
+      "Piney Tree",
+      "Digger",
+      "Miniature Island Complex"
+    ]
+  },
+  "Drumpler": {
+    "Common": [
+      "Noggin",
+      "Stritch Skin",
+      "Smunkin Patch",
+      "Eerie Remains"
+    ],
+    "Epic": [
+      "Fa",
+      "Elmenco Stump",
+      "Directions to Nowhere",
+      "Fossil-osaurus"
+    ],
+    "Rare": [
+      "Drumpler",
+      "Bloofi Tree",
+      "Puffle Tree",
+      "Floofy Nest"
+    ]
+  },
+  "Dwumrohl": {
+    "Common": [
+      "Zuuker"
+    ],
+    "Epic": [
+      "Epic Zuuker"
+    ],
+    "Rare": [
+      "Rare Zuuker"
+    ]
+  },
+  "D\u00e9j\u00e0-Jin": {
+    "Common": [
+      "Larvaluss",
+      "Reflecting Pool",
+      "Mountain Morsel",
+      "Bottomless Pit"
+    ],
+    "Rare": [
+      "D\u00e9j\u00e0-Jin",
+      "Ambered Thing",
+      "Innertuba",
+      "Optiglowbe"
+    ]
+  },
+  "Edamimi": {
+    "Common": [
+      "Periscorp",
+      "Glowl",
+      "Whaddle",
+      "Tiawa",
+      "Tuskski",
+      "Mount Knottshurr",
+      "Ockulo Tree",
+      "Swurlee Tree"
+    ],
+    "Epic": [
+      "Flowah",
+      "Boskus",
+      "Barrb",
+      "Tiawa",
+      "Leafy Sea Dragon",
+      "Odd-o-Mobile",
+      "Fire Bush"
+    ],
+    "Rare": [
+      "Edamimi",
+      "Flowah",
+      "Woolabee",
+      "Candelavra",
+      "Boss Monument",
+      "Innertuba",
+      "Striking Bulbs"
+    ]
+  },
+  "Enchantling": {
+    "Common": [
+      "Roarick",
+      "Mountain Morsel",
+      "Dragon Tower",
+      "Ambered Thing"
+    ],
+    "Rare": [
+      "Enchantling",
+      "Boss Monument",
+      "Tub Fountain",
+      "Englobulated F.U.M."
+    ]
+  },
+  "Entbrat": {
+    "Common": [
+      "Mammott",
+      "Flappy Flag",
+      "Babayag Tower",
+      "Guitree"
+    ],
+    "Epic": [
+      "Boss Monument",
+      "Cozee Cabin",
+      "Spatial Sapling",
+      "The Thunker"
+    ],
+    "Rare": [
+      "Entbrat",
+      "Meldablend",
+      "Castanevine",
+      "Dragon Tower"
+    ]
+  },
+  "Fa": {
+    "Common": [
+      "Yum Yum Tree",
+      "Harpsitree",
+      "Tub Fountain",
+      "Bass String Bridge"
+    ]
+  },
+  "Fandhul": {
+    "Common": [
+      "Piplash",
+      "Nitebear",
+      "Meebkin",
+      "Blarret"
+    ]
+  },
+  "Ffidyll": {
+    "Common": [
+      "Pladdie",
+      "Clavavera",
+      "Babayag Tower",
+      "Fuzzle Tree",
+      "Guitree"
+    ],
+    "Epic": [
+      "Clover Contraption",
+      "Pot of Enchanted Coins",
+      "Gigantic Metal Shoe",
+      "Green Cupcakes"
+    ],
+    "Rare": [
+      "Ffidyll",
+      "Squeed Statue",
+      "Tub Fountain",
+      "Wild Bagpipe"
+    ]
+  },
+  "Fiddlement": {
+    "Common": [
+      "Sooza",
+      "Travelers' Sign",
+      "Piney Tree",
+      "Jarhead"
+    ],
+    "Rare": [
+      "Fiddlement",
+      "Harmonorb Holder",
+      "Cold Globe",
+      "Fossil-osaurus"
+    ]
+  },
+  "Flasque": {
+    "Common": [
+      "Nitebear",
+      "Ghazt",
+      "Sox",
+      "Jellbilly",
+      "Lowb",
+      "Englobulated F.U.M.",
+      "Trumplite",
+      "Babayag Tower"
+    ]
+  },
+  "Floogull": {
+    "Common": [
+      "Repatillo",
+      "Thrumble",
+      "Yelmut",
+      "Incisaur",
+      "Bloofi Tree",
+      "Tree Forte Tower",
+      "Fossil-osaurus"
+    ],
+    "Epic": [
+      "Glowl",
+      "Whaddle",
+      "Bisonorus",
+      "Sooza",
+      "Hammock",
+      "Englobulated F.U.M.",
+      "Swurlee Tree"
+    ],
+    "Rare": [
+      "Floogull",
+      "Ziggurab",
+      "Rootitoot",
+      "Flum Ox",
+      "Pipes of Cicado",
+      "Trumplite",
+      "Zuffle Tree"
+    ]
+  },
+  "Floot Fly": {
+    "Common": [
+      "Clavi Gnat",
+      "Knucklehead",
+      "Tree Hut",
+      "Bass String Bridge",
+      "Zuffle Tree"
+    ],
+    "Epic": [
+      "Mi",
+      "Freed Thing",
+      "Boss Monument",
+      "Orb of Aklino"
+    ],
+    "Rare": [
+      "Floot Fly",
+      "Spatial Sapling",
+      "Saggle Tree",
+      "Striking Bulbs"
+    ]
+  },
+  "Flowah": {
+    "Common": [
+      "Toe Jammer",
+      "Barrb",
+      "Fluoress",
+      "Yelmut",
+      "PongPing",
+      "Bowhead",
+      "Bottomless Pit",
+      "Bass String Bridge",
+      "Tub Fountain"
+    ],
+    "Epic": [
+      "Epic Dandidoo",
+      "Bulbo",
+      "Periscorp",
+      "Ziggurab",
+      "Woolabee",
+      "Krillby",
+      "Gnarls",
+      "Macho Monument",
+      "The Thunker",
+      "PU System"
+    ],
+    "Rare": [
+      "Flowah",
+      "Flum Ox",
+      "Incisaur",
+      "Tuskski",
+      "Beeyoot Tree",
+      "Meldablend",
+      "Squeed Statue"
+    ]
+  },
+  "Flum Ox": {
+    "Common": [
+      "Kayna",
+      "Whaddle",
+      "Sneyser",
+      "Wynq",
+      "PU System",
+      "Freed Thing",
+      "Givutawai Tree"
+    ],
+    "Epic": [
+      "Incisaur",
+      "Rootitoot",
+      "Drummidary",
+      "Candelavra",
+      "Beeyoot Tree",
+      "Cozee Cabin",
+      "Miniature Island Complex"
+    ],
+    "Rare": [
+      "Flum Ox",
+      "Boskus",
+      "Edamimi",
+      "Barrb",
+      "Innertuba",
+      "Elmenco Stump",
+      "Bingo Bango Bongos"
+    ]
+  },
+  "Fluoress": {
+    "Common": [
+      "Flowah",
+      "Frondley",
+      "Fuzzle Tree",
+      "Tree Forte Tower",
+      "Inverdigus Fern"
+    ],
+    "Rare": [
+      "Fluoress",
+      "Mount Knottshurr",
+      "Barbloo Statue",
+      "PU System"
+    ]
+  },
+  "Frondley": {
+    "Common": [
+      "Theremind",
+      "Beeyoot Tree",
+      "Saggle Tree",
+      "Mountain Morsel"
+    ],
+    "Rare": [
+      "Frondley",
+      "Razzli Tree",
+      "Bingo Bango Bongos",
+      "Cold Globe"
+    ]
+  },
+  "Fung Pray": {
+    "Common": [
+      "Bellowfish",
+      "Directions to Nowhere",
+      "Bottomless Pit",
+      "Cozee Cabin"
+    ],
+    "Epic": [
+      "La",
+      "Cave Crystal Teleporter",
+      "Spatial Sapling",
+      "Ockulo Tree"
+    ],
+    "Rare": [
+      "Fung Pray",
+      "Pipes of Cicado",
+      "Smunkin Patch",
+      "Hollow Log"
+    ]
+  },
+  "Furcorn": {
+    "Common": [
+      "Toe Jammer",
+      "Thumpies",
+      "Boskus",
+      "Shugavox",
+      "Smunkin Patch",
+      "Eerie Remains",
+      "Leafy Sea Dragon"
+    ],
+    "Epic": [
+      "Fa",
+      "TooToo",
+      "Shugitar",
+      "Hammock",
+      "Givutawai Tree",
+      "Freed Thing"
+    ],
+    "Rare": [
+      "Furcorn",
+      "Harpsitree",
+      "Yum Yum Tree",
+      "Floofy Nest"
+    ]
+  },
+  "Fwog": {
+    "Common": [
+      "Mammott",
+      "PomPom",
+      "Oaktopus",
+      "Banjaw",
+      "Fire Bush",
+      "Reflecting Pool",
+      "Spurrit Statue"
+    ],
+    "Epic": [
+      "Mi",
+      "Mount Knottshurr",
+      "PU System",
+      "Swurlee Tree"
+    ],
+    "Rare": [
+      "Fwog",
+      "Squeed Statue",
+      "Zuffle Tree",
+      "Ambered Thing"
+    ]
+  },
+  "G'day": {
+    "Common": [
+      "Osstax",
+      "Mountain Morsel",
+      "Thumpies Totem",
+      "Inverdigus Fern",
+      "Larvaluss"
+    ],
+    "Rare": [
+      "G'day",
+      "Shrini",
+      "Pipes of Cicado",
+      "Bingo Bango Bongos",
+      "Rare Larvaluss"
+    ]
+  },
+  "G'joob": {
+    "Common": [
+      "Bowgart",
+      "Yawstrich",
+      "Mountain Morsel",
+      "Thumpies Totem",
+      "Inverdigus Fern"
+    ],
+    "Epic": [
+      "Do",
+      "Sporerow",
+      "Ockulo Tree",
+      "Floofy Nest",
+      "Trumplite",
+      "Epic Strombonin"
+    ],
+    "Rare": [
+      "G'joob",
+      "Shrini",
+      "Harpsitree",
+      "Mountain Morsel"
+    ]
+  },
+  "Gaddzooks": {
+    "Common": [
+      "Meebkin",
+      "Ghazt",
+      "Reebro",
+      "Nebulob",
+      "Sox",
+      "Bellowfish",
+      "Bogle",
+      "Jarhead",
+      "Leafy Sea Dragon",
+      "Bottomless Pit"
+    ],
+    "Rare": [
+      "Gaddzooks",
+      "Rare Meebkin",
+      "Rare Ghazt",
+      "Rare Nebulob",
+      "Rare Reebro",
+      "Rare Bellowfish",
+      "Reflecting Pool",
+      "Toob",
+      "Tree Forte Tower"
+    ]
+  },
+  "Galvana": {
+    "Common": [
+      "Scaratar"
+    ]
+  },
+  "Ghazt": {
+    "Common": [
+      "Entbrat",
+      "Whisp",
+      "Blarret",
+      "Auglur",
+      "Flasque",
+      "Babayag Tower",
+      "Squeed Statue",
+      "Crumpler Tree",
+      "Grumpyre"
+    ],
+    "Epic": [
+      "Mi",
+      "Spatial Sapling",
+      "Cozee Cabin",
+      "Thumpies Totem, Too",
+      "Epic Grumpyre"
+    ],
+    "Rare": [
+      "Ghazt",
+      "Rare Whisp",
+      "Rare Blarret",
+      "Rare Auglur",
+      "Hollow Log",
+      "Razzli Tree",
+      "Bass String Bridge",
+      "Rare Grumpyre"
+    ]
+  },
+  "Gheegur": {
+    "Common": [
+      "Whajje"
+    ],
+    "Rare": [
+      "Rare Whajje"
+    ]
+  },
+  "Gloptic": {
+    "Common": [
+      "Tapricorn",
+      "Travelers' Sign",
+      "Harpsitree",
+      "Jarhead",
+      "Blow't"
+    ],
+    "Rare": [
+      "Gloptic",
+      "Ambered Thing",
+      "Eerie Remains",
+      "Englobulated F.U.M.",
+      "Rare Blow't"
+    ]
+  },
+  "Glowl": {
+    "Common": [
+      "Dandidoo",
+      "Sneyser",
+      "Ziggurab",
+      "Rootitoot",
+      "Drummidary",
+      "Smunkin Patch",
+      "Tree Hut",
+      "Dragon Tower",
+      "Flowah"
+    ],
+    "Epic": [
+      "Epic Tweedle",
+      "Flum Ox",
+      "Thrumble",
+      "Tiawa",
+      "Tuskski",
+      "Tree Forte Tower",
+      "Stritch Skin",
+      "Monster Scareglowls",
+      "Epic Flowah"
+    ],
+    "Rare": [
+      "Glowl",
+      "Sooza",
+      "Edamimi",
+      "Bowhead",
+      "Saggle Tree",
+      "Barbloo Statue",
+      "Tub Fountain",
+      "Rare Flowah"
+    ]
+  },
+  "Gnarl": {
+    "Epic": [
+      "Flum Ox",
+      "Ziggurab",
+      "Rootitoot",
+      "Edamimi",
+      "Kab's Wax",
+      "Innertuba",
+      "Macho Monument"
+    ]
+  },
+  "Gnarls": {
+    "Common": [
+      "Kayna",
+      "Glowl",
+      "Tiawa",
+      "Tring",
+      "Ockulo Tree",
+      "Hammock",
+      "Striking Bulbs"
+    ],
+    "Rare": [
+      "Gnarls",
+      "Repatillo",
+      "Sooza",
+      "Bisonorus",
+      "Englobulated F.U.M.",
+      "Floofy Nest",
+      "Miniature Island Complex"
+    ]
+  },
+  "Gob": {
+    "Common": [
+      "Blow't",
+      "Mountain Morsel",
+      "Fossil-osaurus",
+      "Ambered Thing"
+    ],
+    "Rare": [
+      "Gob",
+      "Guitree",
+      "Innertuba",
+      "The Thunker"
+    ]
+  },
+  "Gobbleygourd": {
+    "Common": [
+      "Barrb",
+      "Whaddle",
+      "Monculus",
+      "Smunkin Patch",
+      "Dragoon Statue",
+      "Ambered Thing",
+      "Clavavera"
+    ],
+    "Epic": [
+      "Gobbley Inflatable",
+      "Monster Scareglowls",
+      "Carnivorous Cornucopia",
+      "Oversized Pies",
+      "Epic Clavavera"
+    ],
+    "Rare": [
+      "Gobbleygourd",
+      "Piney Tree",
+      "Castanevine",
+      "Tub Fountain",
+      "Rare Clavavera"
+    ]
+  },
+  "Grumpyre": {
+    "Common": [
+      "Maw",
+      "Arackulele",
+      "Yooreek",
+      "Nitebear",
+      "Piplash",
+      "Saggle Tree",
+      "Bass String Bridge",
+      "Dragon Tower"
+    ],
+    "Epic": [
+      "Ti",
+      "Innertuba",
+      "Razzli Tree",
+      "Smunkit"
+    ],
+    "Rare": [
+      "Grumpyre",
+      "Puffle Tree",
+      "Harpsitree",
+      "Babayag Tower"
+    ]
+  },
+  "Hairionette": {
+    "Common": [
+      "Theremind",
+      "Babayag Tower",
+      "Bottomless Pit",
+      "Star Rocks",
+      "Owlesque"
+    ]
+  },
+  "Hawlo": {
+    "Common": [
+      "Noggin",
+      "Flappy Flag",
+      "Piney Tree",
+      "Thumpies Totem"
+    ],
+    "Rare": [
+      "Hawlo",
+      "Mount Knottshurr",
+      "Reflecting Pool",
+      "Cold Globe"
+    ]
+  },
+  "HippityHop": {
+    "Common": [
+      "Ziggurab",
+      "Bottomless Pit",
+      "Fossil-osaurus",
+      "Jarhead"
+    ],
+    "Rare": [
+      "HippityHop",
+      "Shrini",
+      "Mount Knottshurr",
+      "Ambered Thing"
+    ]
+  },
+  "Hoola": {
+    "Common": [
+      "Tweedle",
+      "Punkleton",
+      "Tree Hut",
+      "Tree Forte Tower",
+      "Castanevine"
+    ],
+    "Epic": [
+      "Beach Chair",
+      "Hot Tub",
+      "Granular Castle",
+      "Hut of a Thousand Perfumes"
+    ],
+    "Rare": [
+      "Hoola",
+      "Flappy Flag",
+      "Squeed Statue",
+      "Leafy Sea Dragon"
+    ]
+  },
+  "Hornacle": {
+    "Common": [
+      "Furnoss"
+    ]
+  },
+  "Humbug": {
+    "Common": [
+      "Thumpies",
+      "Kazilleon",
+      "Flappy Flag",
+      "Piney Tree",
+      "Floofy Nest"
+    ],
+    "Epic": [
+      "Re",
+      "Striking Bulbs",
+      "Dragoon Statue",
+      "Bloofi Tree"
+    ],
+    "Rare": [
+      "Humbug",
+      "Pipes of Cicado",
+      "Trumplite",
+      "Yum Yum Tree"
+    ]
+  },
+  "Hyehehe": {
+    "Common": [
+      "Epic Drumpler",
+      "Cherubble",
+      "Englobulated F.U.M.",
+      "Optiglowbe",
+      "Thumpies Totem"
+    ],
+    "Epic": [
+      "Sol",
+      "Knurv",
+      "Wubbox Stockpile",
+      "Ambered Thing",
+      "Odd-o-Mobile"
+    ],
+    "Rare": [
+      "Hyehehe",
+      "Miniature Island Complex",
+      "Mountain Morsel",
+      "Reflecting Pool"
+    ]
+  },
+  "Incisaur": {
+    "Common": [
+      "Clackula",
+      "Floogull",
+      "Boskus",
+      "Edamimi",
+      "PongPing",
+      "Cold Globe",
+      "Thumpies Totem, Too",
+      "Star Rocks"
+    ],
+    "Epic": [
+      "Peckidna",
+      "Yelmut",
+      "Sneyser",
+      "Woolabee",
+      "Tring",
+      "Inverdigus Fern",
+      "Bloofi Tree",
+      "Shrini"
+    ],
+    "Rare": [
+      "Incisaur",
+      "Glowl",
+      "Whaddle",
+      "Tiawa",
+      "Smunkit",
+      "Swurlee Tree",
+      "The Thunker"
+    ]
+  },
+  "Jam Boree": {
+    "Common": [
+      "Spurrit",
+      "Thumpies Totem",
+      "Dragon Tower",
+      "Ambered Thing"
+    ],
+    "Epic": [
+      "1st Anniversary Monument",
+      "2nd Anniversary Monument",
+      "3rd Anniversary Monument",
+      "4th Anniversary Monument",
+      "5th Anniversary Monument",
+      "6th Anniversary Monument",
+      "7th Anniversary Monument",
+      "8th Anniversary Monument",
+      "9th Anniversary Monument",
+      "10th Anniversary Monument",
+      "11th Anniversary Monument",
+      "12th Anniversary Monument",
+      "13th Anniversary Monument"
+    ],
+    "Rare": [
+      "Jam Boree",
+      "Bass String Bridge",
+      "Saggle Tree",
+      "Eerie Remains"
+    ]
+  },
+  "Jeeode": {
+    "Common": [
+      "Tweedle",
+      "Boodoo",
+      "Reflecting Pool",
+      "Digger",
+      "Tub Fountain"
+    ],
+    "Epic": [
+      "La",
+      "Elmenco Stump",
+      "Crumpler Tree",
+      "Hammock"
+    ],
+    "Rare": [
+      "Jeeode",
+      "Wild Bagpipe",
+      "Babayag Tower",
+      "Bottomless Pit"
+    ]
+  },
+  "Jellbilly": {
+    "Common": [
+      "Sox",
+      "Auglur",
+      "Flasque",
+      "Whaill",
+      "Flappy Flag",
+      "Squeed Statue",
+      "Leafy Sea Dragon"
+    ],
+    "Epic": [
+      "Mi",
+      "Optiglowbe",
+      "Swurlee Tree",
+      "Jarhead"
+    ],
+    "Rare": [
+      "Jellbilly",
+      "Rare Sox",
+      "Rare Auglur",
+      "Hollow Log",
+      "Bottomless Pit",
+      "Tub Fountain"
+    ]
+  },
+  "Jerm": {
+    "Common": [
+      "Galymph"
+    ]
+  },
+  "Kayna": {
+    "Common": [
+      "Oaktopus",
+      "Floogull",
+      "Woolabee",
+      "TooToo",
+      "Pladdie",
+      "Peckidna",
+      "Flum Ox",
+      "Edamimi",
+      "Directions to Nowhere",
+      "Dragoon Statue",
+      "Floofy Nest"
+    ],
+    "Epic": [
+      "Repatillo",
+      "Wynq",
+      "Sooza",
+      "Rootitoot",
+      "Ziggurab",
+      "Thrumble",
+      "Razzli Tree",
+      "Freed Thing",
+      "Thumpies Totem, Too"
+    ],
+    "Rare": [
+      "Noggin",
+      "Mammott",
+      "Toe Jammer",
+      "Tweedle",
+      "Potbelly",
+      "Kayna",
+      "Fluoress",
+      "Theremind",
+      "Floot Fly",
+      "Clackula",
+      "Yelmut",
+      "PongPing",
+      "Candelavra"
+    ]
+  },
+  "Kazilleon": {
+    "Common": [
+      "Humbug",
+      "Blarret",
+      "X'rt",
+      "Pentumbra",
+      "Fandhul",
+      "Eerie Remains",
+      "Yum Yum Tree",
+      "Leafy Sea Dragon"
+    ],
+    "Epic": [
+      "Do",
+      "Miniature Island Complex",
+      "Star Rocks",
+      "Fuzzle Tree"
+    ],
+    "Rare": [
+      "Kazilleon",
+      "Squeed Statue",
+      "Fossil-osaurus",
+      "Zuffle Tree"
+    ]
+  },
+  "Knucklehead": {
+    "Common": [
+      "Floot Fly",
+      "Piney Tree",
+      "Thumpies Totem",
+      "Dragoon Statue"
+    ],
+    "Rare": [
+      "Knucklehead",
+      "Star Rocks",
+      "Directions to Nowhere",
+      "Macho Monument"
+    ]
+  },
+  "Knurv": {
+    "Common": [
+      "Buzzinga",
+      "Optiglowbe",
+      "Babayag Tower",
+      "Cave Crystal Teleporter"
+    ],
+    "Epic": [
+      "Cranchee",
+      "Tree Hut",
+      "Puffle Tree",
+      "Boss Monument"
+    ],
+    "Rare": [
+      "Knurv",
+      "Crumpler Tree",
+      "Stritch Skin",
+      "Tub Fountain"
+    ]
+  },
+  "Krillby": {
+    "Common": [
+      "Phangler",
+      "Ziggurab",
+      "Thrumble",
+      "Bisonorus",
+      "Striking Bulbs",
+      "Hammock",
+      "Boss Monument"
+    ],
+    "Epic": [
+      "Sol",
+      "Edamimi",
+      "Tiawa",
+      "Phangler",
+      "Flowah",
+      "Reflecting Pool",
+      "Englobulated F.U.M.",
+      "PU System"
+    ],
+    "Rare": [
+      "Krillby",
+      "Glowl",
+      "Floogull",
+      "Yelmut",
+      "The Thunker",
+      "Smunkit",
+      "Ockulo Tree"
+    ]
+  },
+  "La": {
+    "Common": [
+      "Pipes of Cicado",
+      "Wild Bagpipe",
+      "Tree Hut",
+      "Directions to Nowhere"
+    ]
+  },
+  "Larvaluss": {
+    "Common": [
+      "D\u00e9j\u00e0-Jin",
+      "Barbloo Statue",
+      "Harpsitree",
+      "Jarhead"
+    ],
+    "Rare": [
+      "Larvaluss",
+      "Toob",
+      "Elmenco Stump",
+      "Kab's Wax"
+    ]
+  },
+  "Lowb": {
+    "Common": [
+      "Blarret",
+      "Auglur",
+      "Flasque",
+      "Jellbilly",
+      "Fandhul"
+    ]
+  },
+  "Maggpi": {
+    "Common": [
+      "Tawkerr",
+      "Parlsona",
+      "Floofy Nest",
+      "Tub Fountain",
+      "Cozee Cabin"
+    ]
+  },
+  "Mammott": {
+    "Common": [
+      "Fwog",
+      "Quibble",
+      "Entbrat",
+      "Quarrister",
+      "Stogg",
+      "Pluckbill",
+      "Meldablend",
+      "Stritch Skin",
+      "Bottomless Pit"
+    ],
+    "Epic": [
+      "Wubbox",
+      "Sneyser",
+      "Gob",
+      "HippityHop",
+      "Shugabush",
+      "Smunkit",
+      "Cold Globe",
+      "Star Rocks"
+    ],
+    "Rare": [
+      "Noggin",
+      "Mammott",
+      "Toe Jammer",
+      "Tweedle",
+      "Potbelly",
+      "PomPom",
+      "Deedge",
+      "Kayna",
+      "Fluoress",
+      "Floot Fly"
+    ]
+  },
+  "Maw": {
+    "Common": [
+      "Pango",
+      "Pummel",
+      "Wild Bagpipe",
+      "Pipes of Cicado",
+      "Dragoon Statue"
+    ],
+    "Epic": [
+      "Do",
+      "Striking Bulbs",
+      "Tub Fountain",
+      "The Thunker"
+    ],
+    "Rare": [
+      "Maw",
+      "Beeyoot Tree",
+      "Guitree",
+      "Zuffle Tree"
+    ]
+  },
+  "Meebkin": {
+    "Common": [
+      "Yooreek",
+      "Ghazt",
+      "Whisp",
+      "Sox",
+      "Boodoo",
+      "Kazilleon",
+      "Miniature Island Complex",
+      "Floofy Nest",
+      "Barbloo Statue"
+    ],
+    "Rare": [
+      "Meebkin",
+      "Rare Yooreek",
+      "Rare Ghazt",
+      "Rare Whisp",
+      "Fossil-osaurus",
+      "Hollow Log",
+      "Stritch Skin"
+    ]
+  },
+  "Mi": {
+    "Common": [
+      "Fuzzle Tree",
+      "Guitree",
+      "Tree Forte Tower",
+      "Babayag Tower"
+    ]
+  },
+  "Mimic": {
+    "Common": [
+      "Gobbleygourd",
+      "Smunkit",
+      "Spurrit Statue",
+      "Mountain Morsel"
+    ],
+    "Rare": [
+      "Mimic",
+      "Eerie Remains",
+      "Freed Thing",
+      "Shrini"
+    ]
+  },
+  "Monculus": {
+    "Common": [
+      "Dragong",
+      "Gobbleygourd",
+      "Barbloo Statue",
+      "Meldablend",
+      "Mountain Morsel"
+    ],
+    "Epic": [
+      "Graven Ghazt",
+      "Teleportal",
+      "Versegazing Telescope",
+      "Blueprint Workshop"
+    ],
+    "Rare": [
+      "Monculus",
+      "Floofy Nest",
+      "Kab's Wax",
+      "Crumpler Tree"
+    ]
+  },
+  "Monsters": {
+    "Common": [
+      "Tweedle"
+    ]
+  },
+  "Mushaboom": {
+    "Common": [
+      "Cahoot",
+      "Smunkin Patch",
+      "Crumpler Tree",
+      "Inverdigus Fern"
+    ],
+    "Rare": [
+      "Mushaboom",
+      "Givutawai Tree",
+      "Floofy Nest",
+      "Cave Crystal Teleporter"
+    ]
+  },
+  "Nebulob": {
+    "Common": [
+      "Grumpyre",
+      "Yooreek",
+      "Gaddzooks",
+      "Auglur",
+      "Whaill",
+      "Vhenshun",
+      "Lowb",
+      "Toob",
+      "Fossil-osaurus",
+      "Tree Forte Tower"
+    ],
+    "Epic": [
+      "Bellowfish",
+      "Freed Thing",
+      "Harmonorb Holder",
+      "Englobulated F.U.M."
+    ],
+    "Rare": [
+      "Nebulob",
+      "Rare Yooreek",
+      "Rare Gaddzooks",
+      "Rare Auglur",
+      "Directions to Nowhere",
+      "Bottomless Pit",
+      "Tub Fountain"
+    ]
+  },
+  "Nitebear": {
+    "Common": [
+      "Flasque",
+      "Grumpyre",
+      "Reebro",
+      "Arackulele",
+      "Boodoo",
+      "Bellowfish",
+      "Fandhul",
+      "Bogle",
+      "Meldablend",
+      "Wubbox Stockpile",
+      "Reflecting Pool"
+    ],
+    "Rare": [
+      "Nitebear",
+      "Rare Arackulele",
+      "Rare Reebro",
+      "Rare Bellowfish",
+      "Englobulated F.U.M.",
+      "Eerie Remains",
+      "Bloofi Tree"
+    ]
+  },
+  "Noggin": {
+    "Common": [
+      "Drumpler",
+      "Shellbeat",
+      "Kayna",
+      "Fire Bush",
+      "Travelers' Sign",
+      "Trumplite"
+    ],
+    "Epic": [
+      "Rare Wubbox",
+      "Kayna",
+      "Givutawai Tree",
+      "Bingo Bango Bongos",
+      "Innertuba"
+    ],
+    "Rare": [
+      "Noggin",
+      "Mammott",
+      "Toe Jammer",
+      "Tweedle",
+      "Potbelly",
+      "Kayna",
+      "Floot Fly",
+      "Clackula"
+    ]
+  },
+  "Oaktopus": {
+    "Common": [
+      "Fwog",
+      "Thumpies",
+      "Clamble",
+      "Rootitoot",
+      "Shugabass",
+      "Reflecting Pool",
+      "Trumplite",
+      "Spurrit Statue",
+      "Furcorn"
+    ],
+    "Epic": [
+      "Re",
+      "Deedge",
+      "Gloptic",
+      "Hammock",
+      "Beeyoot Tree",
+      "Sweetstreamz Tree",
+      "Epic Furcorn"
+    ],
+    "Rare": [
+      "Oaktopus",
+      "Dragoon Statue",
+      "Tree Forte Tower",
+      "Cozee Cabin",
+      "Rare Furcorn"
+    ]
+  },
+  "Oogiddy": {
+    "Common": [
+      "Whaill",
+      "Kab's Wax",
+      "Zuffle Tree",
+      "Bass String Bridge"
+    ]
+  },
+  "Osstax": {
+    "Common": [
+      "G'day",
+      "Wild Bagpipe",
+      "Hollow Log",
+      "Thumpies Totem"
+    ],
+    "Rare": [
+      "Osstax",
+      "Orb of Aklino",
+      "Miniature Island Complex",
+      "Thumpies Totem, Too"
+    ]
+  },
+  "Owlesque": {
+    "Common": [
+      "Squot",
+      "Odd-o-Mobile",
+      "Optiglowbe",
+      "Star Rocks"
+    ]
+  },
+  "Pango": {
+    "Common": [
+      "Maw",
+      "Clamble",
+      "Hollow Log",
+      "Digger",
+      "Babayag Tower"
+    ],
+    "Epic": [
+      "Wubbox",
+      "Boskus",
+      "PU System",
+      "Castanevine",
+      "Swurlee Tree"
+    ],
+    "Rare": [
+      "Pango",
+      "Saggle Tree",
+      "Tree Forte Tower",
+      "Crumpler Tree"
+    ]
+  },
+  "Parlsona": {
+    "Common": [
+      "Tawkerr",
+      "Stoowarb",
+      "Maggpi",
+      "Floofy Nest",
+      "Zuffle Tree",
+      "Bass String Bridge"
+    ]
+  },
+  "Peckidna": {
+    "Common": [
+      "Hawlo",
+      "Toob",
+      "Mountain Morsel",
+      "Barbloo Statue"
+    ],
+    "Rare": [
+      "Peckidna",
+      "Thumpies Totem",
+      "Orb of Aklino",
+      "Shrini"
+    ]
+  },
+  "Pentumbra": {
+    "Common": [
+      "X'rt",
+      "Grumpyre",
+      "Boodoo",
+      "Fandhul",
+      "Cave Crystal Teleporter",
+      "Eerie Remains",
+      "Harmonorb Holder"
+    ]
+  },
+  "Periscorp": {
+    "Common": [
+      "Poppette",
+      "Pipes of Cicado",
+      "Dragon Tower",
+      "Inverdigus Fern",
+      "Banjaw"
+    ],
+    "Rare": [
+      "Periscorp",
+      "Digger",
+      "Flappy Flag",
+      "Shrini",
+      "Rare Banjaw"
+    ]
+  },
+  "Phangler": {
+    "Common": [
+      "Congle",
+      "Potbelly",
+      "Thrumble",
+      "Ziggurab",
+      "Sooza",
+      "Krillby",
+      "Candelavra",
+      "Squeed Statue",
+      "Bass String Bridge",
+      "Leafy Sea Dragon"
+    ],
+    "Epic": [
+      "Quibble",
+      "Poppette",
+      "Stogg",
+      "Repatillo",
+      "Candelavra",
+      "Bowhead",
+      "Givutawai Tree",
+      "Harmonorb Holder",
+      "Spatial Sapling"
+    ],
+    "Rare": [
+      "Phangler",
+      "Edamimi",
+      "Tring",
+      "Drummidary",
+      "Fire Bush",
+      "Smunkin Patch",
+      "Tree Forte Tower"
+    ]
+  },
+  "Phosphoran Phlox": {
+    "Common": [
+      "Cruv'laaphtian Crocus"
+    ]
+  },
+  "Pinghound": {
+    "Common": [
+      "Anglow",
+      "Orb of Aklino",
+      "Macho Monument",
+      "Cave Crystal Teleporter"
+    ],
+    "Epic": [
+      "Sporerow",
+      "Toob",
+      "Striking Bulbs",
+      "Star Rocks"
+    ],
+    "Rare": [
+      "Pinghound",
+      "Cozee Cabin",
+      "Freed Thing",
+      "Dragon Tower"
+    ]
+  },
+  "Piplash": {
+    "Common": [
+      "Vhenshun",
+      "Grumpyre",
+      "Reebro",
+      "Dragong",
+      "Arackulele",
+      "Kazilleon",
+      "Boodoo",
+      "Puffle Tree",
+      "Odd-o-Mobile",
+      "Fuzzle Tree"
+    ],
+    "Rare": [
+      "Piplash",
+      "Rare Grumpyre",
+      "Rare Arackulele",
+      "Rare Reebro",
+      "Rare Dragong",
+      "Guitree",
+      "Tree Hut",
+      "Leafy Sea Dragon"
+    ]
+  },
+  "Pladdie": {
+    "Common": [
+      "Wimmzies",
+      "Wild Bagpipe",
+      "Pipes of Cicado",
+      "Wubbox Stockpile"
+    ],
+    "Rare": [
+      "Pladdie",
+      "Bingo Bango Bongos",
+      "Castanevine",
+      "Macho Monument"
+    ]
+  },
+  "Plinkajou": {
+    "Common": [
+      "Clackula",
+      "Bloofi Tree",
+      "Tree Hut",
+      "Jarhead"
+    ],
+    "Rare": [
+      "Plinkajou",
+      "Piney Tree",
+      "Stritch Skin",
+      "Harmonorb Holder"
+    ]
+  },
+  "Pluckbill": {
+    "Common": [
+      "Mammott",
+      "Saggle Tree",
+      "Mountain Morsel",
+      "Harpsitree"
+    ],
+    "Rare": [
+      "Pluckbill",
+      "Englobulated F.U.M.",
+      "Elmenco Stump",
+      "Orb of Aklino"
+    ]
+  },
+  "PomPom": {
+    "Common": [
+      "Fwog",
+      "Dandidoo",
+      "Shugarock",
+      "Directions to Nowhere",
+      "Toob",
+      "Bottomless Pit"
+    ],
+    "Epic": [
+      "Rare Cybop",
+      "Shugabass",
+      "Sweetstreamz Tree",
+      "PU System",
+      "Hammock"
+    ],
+    "Rare": [
+      "PomPom",
+      "Beeyoot Tree",
+      "Guitree",
+      "Dragon Tower"
+    ]
+  },
+  "PongPing": {
+    "Common": [
+      "Boskus",
+      "Repatillo",
+      "Woolabee",
+      "Gnarls",
+      "Sweetstreamz Tree",
+      "Elmenco Stump",
+      "Bingo Bango Bongos"
+    ],
+    "Epic": [
+      "Stogg",
+      "Bisonorus",
+      "Floogull",
+      "Incisaur",
+      "Miniature Island Complex",
+      "Piney Tree",
+      "The Thunker"
+    ],
+    "Rare": [
+      "PongPing",
+      "Kayna",
+      "Rootitoot",
+      "Krillby",
+      "Givutawai Tree",
+      "Thumpies Totem, Too",
+      "Spatial Sapling"
+    ]
+  },
+  "Poppette": {
+    "Common": [
+      "Periscorp",
+      "Mountain Morsel",
+      "Barbloo Statue",
+      "Yum Yum Tree"
+    ],
+    "Rare": [
+      "Poppette",
+      "Jarhead",
+      "Orb of Aklino",
+      "Optiglowbe"
+    ]
+  },
+  "Potbelly": {
+    "Common": [
+      "T-Rox",
+      "Congle",
+      "Reedling",
+      "Phangler",
+      "Spytrap",
+      "Shugarock",
+      "Wild Bagpipe",
+      "Bloofi Tree",
+      "Eerie Remains"
+    ],
+    "Epic": [
+      "Star Rocks",
+      "Elmenco Stump",
+      "Striking Bulbs",
+      "Castanevine"
+    ],
+    "Rare": [
+      "Noggin",
+      "Mammott",
+      "Toe Jammer",
+      "Tweedle",
+      "Potbelly",
+      "Kayna",
+      "Oaktopus",
+      "Furcorn",
+      "Fluoress",
+      "Theremind"
+    ]
+  },
+  "Pummel": {
+    "Common": [
+      "Toe Jammer",
+      "Maw",
+      "Flappy Flag",
+      "Fuzzle Tree",
+      "Fossil-osaurus"
+    ],
+    "Epic": [
+      "La",
+      "Bingo Bango Bongos",
+      "Digger",
+      "Thumpies Totem, Too"
+    ],
+    "Rare": [
+      "Pummel",
+      "Pipes of Cicado",
+      "Barbloo Statue",
+      "Bass String Bridge"
+    ]
+  },
+  "Punkleton": {
+    "Common": [
+      "Shrubb",
+      "Hoola",
+      "Beeyoot Tree",
+      "Smunkin Patch",
+      "Tree Forte Tower",
+      "Yool"
+    ],
+    "Epic": [
+      "Inverdigus Cemetery",
+      "Creepy Cauldron",
+      "Smunk-o-Lantern Patch",
+      "Frightful Fripperies",
+      "Epic Yool"
+    ],
+    "Rare": [
+      "Punkleton",
+      "Stritch Skin",
+      "Reflecting Pool",
+      "Castanevine",
+      "Rare Yool"
+    ]
+  },
+  "Quarrister": {
+    "Common": [
+      "Mammott",
+      "Tree Hut",
+      "Bass String Bridge",
+      "Zuffle Tree"
+    ],
+    "Epic": [
+      "Fossil-osaurus",
+      "Boss Monument",
+      "Bottomless Pit",
+      "Mount Knottshurr"
+    ],
+    "Rare": [
+      "Quarrister",
+      "Squeed Statue",
+      "Castanevine",
+      "Tub Fountain"
+    ]
+  },
+  "Quibble": {
+    "Common": [
+      "Mammott",
+      "Scups",
+      "Trumplite",
+      "Fossil-osaurus",
+      "Castanevine"
+    ],
+    "Epic": [
+      "Bowgart",
+      "T-Rox",
+      "Reedling",
+      "Woolabee",
+      "Shugajo",
+      "Bloofi Tree",
+      "Striking Bulbs",
+      "Givutawai Tree"
+    ],
+    "Rare": [
+      "Quibble",
+      "Travelers' Sign",
+      "Bottomless Pit",
+      "Floofy Nest"
+    ]
+  },
+  "Re": {
+    "Common": [
+      "Crumpler Tree",
+      "Dragoon Statue",
+      "Meldablend",
+      "Cozee Cabin"
+    ]
+  },
+  "Reebro": {
+    "Common": [
+      "Cybop",
+      "Nebulob",
+      "Nitebear",
+      "Teeter-Tauter",
+      "Yooreek",
+      "Barbloo Statue",
+      "Fuzzle Tree",
+      "Bottomless Pit"
+    ],
+    "Epic": [
+      "Sol",
+      "Star Rocks",
+      "Fire Bush",
+      "Cold Globe"
+    ],
+    "Rare": [
+      "Reebro",
+      "Rare Nebulob",
+      "Rare Yooreek",
+      "Rare Nitebear",
+      "Flappy Flag",
+      "Squeed Statue",
+      "Leafy Sea Dragon"
+    ]
+  },
+  "Reedling": {
+    "Common": [
+      "Potbelly",
+      "Shrubb",
+      "Beeyoot Tree",
+      "Pipes of Cicado",
+      "Squeed Statue",
+      "Spunge"
+    ],
+    "Epic": [
+      "Mi",
+      "Innertuba",
+      "Reflecting Pool",
+      "Spatial Sapling",
+      "Epic Spunge"
+    ],
+    "Rare": [
+      "Reedling",
+      "Guitree",
+      "Fossil-osaurus",
+      "Zuffle Tree",
+      "Rare Spunge"
+    ]
+  },
+  "Repatillo": {
+    "Common": [
+      "Kayna",
+      "Thrumble",
+      "PongPing",
+      "Tiawa",
+      "Castanevine",
+      "Dragon Tower",
+      "Leafy Sea Dragon"
+    ],
+    "Epic": [
+      "Fa",
+      "Boskus",
+      "Krillby",
+      "Flum Ox",
+      "Gnarls",
+      "Inverdigus Fern",
+      "Bingo Bango Bongos",
+      "Optiglowbe"
+    ],
+    "Rare": [
+      "Repatillo",
+      "Ziggurab",
+      "Bisonorus",
+      "Incisaur",
+      "Wild Bagpipe",
+      "Digger",
+      "Bass String Bridge"
+    ]
+  },
+  "Rhysmuth": {
+    "Common": [
+      "Teeter-Tauter",
+      "Cave Crystal Teleporter",
+      "Digger",
+      "Tub Fountain"
+    ]
+  },
+  "Riff": {
+    "Common": [
+      "Toe Jammer",
+      "Crumpler Tree",
+      "Bass String Bridge",
+      "Leafy Sea Dragon"
+    ],
+    "Epic": [
+      "La",
+      "Boss Monument",
+      "Ambered Thing",
+      "Hammock"
+    ],
+    "Rare": [
+      "Riff",
+      "Smunkin Patch",
+      "Fuzzle Tree",
+      "Piney Tree"
+    ]
+  },
+  "Roarick": {
+    "Common": [
+      "Enchantling",
+      "Puffle Tree",
+      "Wubbox Stockpile",
+      "Leafy Sea Dragon"
+    ],
+    "Rare": [
+      "Roarick",
+      "Squeed Statue",
+      "Smunkit",
+      "Harmonorb Holder"
+    ]
+  },
+  "Rooba": {
+    "Common": [
+      "Gloptic",
+      "Puffle Tree",
+      "Crumpler Tree",
+      "Inverdigus Fern"
+    ],
+    "Epic": [
+      "Edamimi",
+      "Floofy Nest",
+      "Jarhead",
+      "Harmonorb Holder",
+      "Epic TooToo"
+    ],
+    "Rare": [
+      "Rooba",
+      "Sweetstreamz Tree",
+      "Beeyoot Tree",
+      "Elmenco Stump"
+    ]
+  },
+  "Rootitoot": {
+    "Common": [
+      "Kayna",
+      "Floogull",
+      "Ziggurab",
+      "Krillby",
+      "Toob",
+      "Piney Tree",
+      "Babayag Tower",
+      "Sooza"
+    ],
+    "Epic": [
+      "Bonkers",
+      "Floogull",
+      "Flowah",
+      "Candelavra",
+      "Tring",
+      "Spatial Sapling",
+      "Saggle Tree",
+      "Smunkit",
+      "Epic Sooza"
+    ],
+    "Rare": [
+      "Rootitoot",
+      "Whaddle",
+      "Sneyser",
+      "Wynq",
+      "Stritch Skin",
+      "Pipes of Cicado",
+      "Fuzzle Tree",
+      "Rare Sooza"
+    ]
+  },
+  "Scallyrags": {
+    "Common": [
+      "ERmA gUrDy"
+    ]
+  },
+  "Schmoochle": {
+    "Common": [
+      "PomPom",
+      "Yool",
+      "Barbloo Statue",
+      "Puffle Tree",
+      "Yum Yum Tree"
+    ],
+    "Epic": [
+      "Chokkolit Fountain",
+      "Luff-Balloons",
+      "Gargle-oyle",
+      "Curious Cultivar"
+    ],
+    "Rare": [
+      "Schmoochle",
+      "Flappy Flag",
+      "Spurrit Statue",
+      "Leafy Sea Dragon"
+    ]
+  },
+  "Scups": {
+    "Common": [
+      "Quibble",
+      "Harpsitree",
+      "Castanevine",
+      "Dragon Tower"
+    ],
+    "Epic": [
+      "Ti",
+      "Freed Thing",
+      "Stritch Skin",
+      "Thumpies Totem, Too"
+    ],
+    "Rare": [
+      "Scups",
+      "Eerie Remains",
+      "Tree Hut",
+      "Bass String Bridge"
+    ]
+  },
+  "ShLep": {
+    "Common": [
+      "Cherubble",
+      "Englobulated F.U.M.",
+      "Thumpies Totem",
+      "Shrini"
+    ]
+  },
+  "Shellbeat": {
+    "Common": [
+      "Noggin",
+      "Puffle Tree",
+      "Yum Yum Tree",
+      "Dragon Tower",
+      "Quarrister"
+    ],
+    "Epic": [
+      "Do",
+      "Boss Monument",
+      "Piney Tree",
+      "Star Rocks",
+      "Epic Quarrister"
+    ],
+    "Rare": [
+      "Shellbeat",
+      "Stritch Skin",
+      "Crumpler Tree",
+      "Leafy Sea Dragon",
+      "Rare Quarrister"
+    ]
+  },
+  "Shhimmer": {
+    "Common": [
+      "Gob",
+      "Shrini",
+      "Cave Crystal Teleporter",
+      "Star Rocks"
+    ]
+  },
+  "Shrubb": {
+    "Common": [
+      "Bowgart",
+      "Reedling",
+      "Fire Bush",
+      "Saggle Tree",
+      "Razzli Tree"
+    ],
+    "Epic": [
+      "Ti",
+      "PU System",
+      "Flappy Flag",
+      "Bottomless Pit"
+    ],
+    "Rare": [
+      "Shrubb",
+      "Fuzzle Tree",
+      "Puffle Tree",
+      "Leafy Sea Dragon"
+    ]
+  },
+  "Shugabass": {
+    "Common": [
+      "Shugabuzz",
+      "Oaktopus",
+      "Hollow Log",
+      "Bass String Bridge"
+    ]
+  },
+  "Shugabeats": {
+    "Common": [
+      "Travelers' Sign",
+      "Shugitar",
+      "Harpsitree",
+      "Ambered Thing"
+    ]
+  },
+  "Shugabush": {
+    "Common": [
+      "Furcorn",
+      "Razzli Tree",
+      "Babayag Tower",
+      "Tree Hut",
+      "Bottomless Pit",
+      "Shugabass"
+    ]
+  },
+  "Shugabuzz": {
+    "Common": [
+      "PomPom",
+      "Saggle Tree",
+      "Digger",
+      "Yum Yum Tree"
+    ]
+  },
+  "Shugajo": {
+    "Common": [
+      "Quibble",
+      "Pipes of Cicado",
+      "Fuzzle Tree",
+      "Dragon Tower"
+    ]
+  },
+  "Shugarock": {
+    "Common": [
+      "Beeyoot Tree",
+      "Shugabeats",
+      "Guitree",
+      "Cozee Cabin",
+      "Shugabuzz"
+    ]
+  },
+  "Shugavox": {
+    "Common": [
+      "Mammott",
+      "Flappy Flag",
+      "Puffle Tree",
+      "Floofy Nest"
+    ]
+  },
+  "Shugitar": {
+    "Common": [
+      "Fire Bush",
+      "Furcorn",
+      "Dragoon Statue",
+      "Crumpler Tree"
+    ]
+  },
+  "Sneyser": {
+    "Common": [
+      "Glowl",
+      "Sooza",
+      "Barrb",
+      "Tuskski",
+      "Fire Bush",
+      "Toob",
+      "Tub Fountain",
+      "Edamimi"
+    ],
+    "Epic": [
+      "Phangler",
+      "Flum Ox",
+      "Tiawa",
+      "Drummidary",
+      "Bloofi Tree",
+      "Boss Monument",
+      "Mount Knottshurr",
+      "Epic Edamimi"
+    ],
+    "Rare": [
+      "Sneyser",
+      "Flowah",
+      "PongPing",
+      "Tring",
+      "Fuzzle Tree",
+      "Tree Hut",
+      "Bass String Bridge",
+      "Rare Edamimi"
+    ]
+  },
+  "Sol": {
+    "Common": [
+      "Smunkin Patch",
+      "Travelers' Sign",
+      "Dragon Tower",
+      "Razzli Tree"
+    ]
+  },
+  "Sooza": {
+    "Common": [
+      "Fiddlement",
+      "Flum Ox",
+      "Krillby",
+      "Rootitoot",
+      "Tuskski",
+      "Reflecting Pool",
+      "Toob",
+      "Trumplite"
+    ],
+    "Epic": [
+      "Sol",
+      "Stogg",
+      "Tring",
+      "PongPing",
+      "Tuskski",
+      "Star Rocks",
+      "Shrini",
+      "Givutawai Tree"
+    ],
+    "Rare": [
+      "Sooza",
+      "Glowl",
+      "Repatillo",
+      "Sneyser",
+      "Pipes of Cicado",
+      "Tree Hut",
+      "Crumpler Tree"
+    ]
+  },
+  "Sox": {
+    "Common": [
+      "Grumpyre",
+      "Meebkin",
+      "Gaddzooks",
+      "Whaill",
+      "Lowb",
+      "Bloofi Tree",
+      "Spurrit Statue",
+      "Cozee Cabin"
+    ],
+    "Epic": [
+      "Dragong",
+      "Givutawai Tree",
+      "Castanevine",
+      "Mount Knottshurr"
+    ],
+    "Rare": [
+      "Sox",
+      "Rare Meebkin",
+      "Rare Gaddzooks",
+      "Smunkin Patch",
+      "Yum Yum Tree",
+      "Crumpler Tree"
+    ]
+  },
+  "Sporerow": {
+    "Common": [
+      "Yawstrich",
+      "Inverdigus Fern",
+      "Orb of Aklino",
+      "Optiglowbe"
+    ],
+    "Epic": [
+      "Anglow",
+      "Zuffle Tree",
+      "Pipes of Cicado",
+      "The Thunker"
+    ],
+    "Rare": [
+      "Sporerow",
+      "Thumpies Totem",
+      "Eerie Remains",
+      "Guitree"
+    ]
+  },
+  "Spunge": {
+    "Common": [
+      "Dandidoo",
+      "Stritch Skin",
+      "Bloofi Tree",
+      "Barbloo Statue"
+    ],
+    "Epic": [
+      "Sol",
+      "PU System",
+      "Dragoon Statue",
+      "Cold Globe"
+    ],
+    "Rare": [
+      "Spunge",
+      "Beeyoot Tree",
+      "Smunkin Patch",
+      "Tree Hut"
+    ]
+  },
+  "Spurrit": {
+    "Common": [
+      "Kayna",
+      "Jam Boree",
+      "Spurrit Statue",
+      "Travelers' Sign",
+      "Zuffle Tree"
+    ],
+    "Epic": [
+      "Armillary Sphere",
+      "Helmet Rack",
+      "Campfire",
+      "Expedition Tent"
+    ],
+    "Rare": [
+      "Spurrit",
+      "Bottomless Pit",
+      "Digger",
+      "Flappy Flag"
+    ]
+  },
+  "Spytrap": {
+    "Common": [
+      "Potbelly",
+      "Squeed Statue",
+      "Castanevine",
+      "Inverdigus Fern"
+    ],
+    "Rare": [
+      "Spytrap",
+      "Kab's Wax",
+      "Bloofi Tree",
+      "Englobulated F.U.M."
+    ]
+  },
+  "Squot": {
+    "Common": [
+      "Cantorell",
+      "Reflecting Pool",
+      "Thumpies Totem",
+      "Squeed Statue"
+    ],
+    "Rare": [
+      "Squot",
+      "Bloofi Tree",
+      "Ockulo Tree",
+      "Striking Bulbs"
+    ]
+  },
+  "Stogg": {
+    "Common": [
+      "Mammott",
+      "Tring",
+      "Yelmut",
+      "Withur",
+      "Drummidary",
+      "Gnarls",
+      "Stritch Skin",
+      "Eerie Remains",
+      "Digger"
+    ],
+    "Epic": [
+      "Floogull",
+      "Clavi Gnat",
+      "Peckidna",
+      "Yelmut",
+      "Edamimi",
+      "Whaddle",
+      "Drummidary",
+      "Hammock",
+      "Toob",
+      "Mount Knottshurr"
+    ],
+    "Rare": [
+      "Stogg",
+      "Flum Ox",
+      "Sneyser",
+      "Bisonorus",
+      "Travelers' Sign",
+      "Spurrit Statue",
+      "Crumpler Tree"
+    ]
+  },
+  "Stoowarb": {
+    "Common": [
+      "Parlsona",
+      "Tawkerr",
+      "Freed Thing",
+      "Star Rocks",
+      "Spurrit Statue"
+    ]
+  },
+  "Strombonin": {
+    "Common": [
+      "Spunge",
+      "Cataliszt",
+      "Kab's Wax",
+      "Shrini",
+      "Cave Crystal Teleporter"
+    ],
+    "Epic": [
+      "Re",
+      "Bleatnik",
+      "Bottomless Pit",
+      "Inverdigus Fern",
+      "PU System"
+    ],
+    "Rare": [
+      "Strombonin",
+      "Wubbox Stockpile",
+      "Harmonorb Holder",
+      "Piney Tree"
+    ]
+  },
+  "T-Rox": {
+    "Common": [
+      "Potbelly",
+      "Congle",
+      "Bloofi Tree",
+      "Piney Tree",
+      "Dragoon Statue"
+    ],
+    "Epic": [
+      "Reebro",
+      "Punkleton",
+      "Innertuba",
+      "Smunkit",
+      "Elmenco Stump"
+    ],
+    "Rare": [
+      "T-Rox",
+      "Saggle Tree",
+      "Fossil-osaurus",
+      "Yum Yum Tree"
+    ]
+  },
+  "Tapricorn": {
+    "Common": [
+      "Theremind",
+      "Thumpies Totem",
+      "Guitree",
+      "Castanevine",
+      "Spytrap"
+    ],
+    "Rare": [
+      "Tapricorn",
+      "Piney Tree",
+      "Dragon Tower",
+      "Harmonorb Holder",
+      "Rare Spytrap"
+    ]
+  },
+  "Tawkerr": {
+    "Common": [
+      "Parlsona",
+      "Maggpi",
+      "Stoowarb",
+      "Dragon Tower",
+      "Ambered Thing",
+      "Leafy Sea Dragon"
+    ]
+  },
+  "Teeter-Tauter": {
+    "Common": [
+      "Rhysmuth",
+      "Reebro",
+      "Bellowfish",
+      "Dragong",
+      "Bogle",
+      "Shrini",
+      "Wild Bagpipe",
+      "Beeyoot Tree"
+    ]
+  },
+  "Theremind": {
+    "Common": [
+      "Rooba",
+      "Fluoress",
+      "Flappy Flag",
+      "Fossil-osaurus",
+      "Wubbox Stockpile",
+      "Clackula"
+    ],
+    "Rare": [
+      "Theremind",
+      "Stritch Skin",
+      "Freed Thing",
+      "The Thunker",
+      "Rare Clackula"
+    ]
+  },
+  "Thrumble": {
+    "Common": [
+      "Phangler",
+      "Sooza",
+      "Bisonorus",
+      "Gnarls",
+      "Bottomless Pit",
+      "Dragon Tower",
+      "Tub Fountain"
+    ],
+    "Epic": [
+      "Denchuhs",
+      "Flowah",
+      "Wynq",
+      "Yelmut",
+      "Bowhead",
+      "Elmenco Stump",
+      "Flappy Flag",
+      "Spatial Sapling"
+    ],
+    "Rare": [
+      "Thrumble",
+      "Boskus",
+      "Woolabee",
+      "Tiawa",
+      "Guitree",
+      "Yum Yum Tree",
+      "Bass String Bridge"
+    ]
+  },
+  "Thumpies": {
+    "Common": [
+      "Oaktopus",
+      "Furcorn",
+      "Fuzzle Tree",
+      "Dragoon Statue",
+      "Cozee Cabin"
+    ],
+    "Epic": [
+      "La",
+      "Bingo Bango Bongos",
+      "Thumpies Totem, Too",
+      "Fire Bush"
+    ],
+    "Rare": [
+      "Thumpies",
+      "Directions to Nowhere",
+      "Puffle Tree",
+      "Bass String Bridge"
+    ]
+  },
+  "Ti": {
+    "Common": [
+      "Saggle Tree",
+      "Zuffle Tree",
+      "Hollow Log",
+      "Trumplite"
+    ]
+  },
+  "Tiawa": {
+    "Common": [
+      "Flowah",
+      "Woolabee",
+      "Whaddle",
+      "Gnarls",
+      "Cold Globe",
+      "Swurlee Tree",
+      "Spatial Sapling"
+    ],
+    "Epic": [
+      "Boskus",
+      "Wynq",
+      "Thrumble",
+      "Incisaur",
+      "Reflecting Pool",
+      "Ockulo Tree",
+      "Optiglowbe"
+    ],
+    "Rare": [
+      "Tiawa",
+      "Thrumble",
+      "Repatillo",
+      "Candelavra",
+      "Hammock",
+      "Striking Bulbs",
+      "Boss Monument"
+    ]
+  },
+  "Toe Jammer": {
+    "Common": [
+      "Riff",
+      "Furcorn",
+      "Pummel",
+      "Flowah",
+      "Whaddle",
+      "Uuduk",
+      "Wild Bagpipe",
+      "Directions to Nowhere",
+      "Hollow Log"
+    ],
+    "Epic": [
+      "Do",
+      "Ockulo Tree",
+      "The Thunker",
+      "Sweetstreamz Tree"
+    ],
+    "Rare": [
+      "Noggin",
+      "Mammott",
+      "Toe Jammer",
+      "Tweedle",
+      "Potbelly",
+      "Kayna",
+      "Theremind",
+      "Clackula"
+    ]
+  },
+  "TooToo": {
+    "Common": [
+      "Bulbo",
+      "Fire Bush",
+      "Babayag Tower",
+      "Wubbox Stockpile"
+    ],
+    "Epic": [
+      "Epic Tiawa",
+      "Swurlee Tree",
+      "Harpsitree",
+      "Orb of Aklino"
+    ],
+    "Rare": [
+      "TooToo",
+      "Ockulo Tree",
+      "Barbloo Statue",
+      "Spatial Sapling"
+    ]
+  },
+  "Tring": {
+    "Common": [
+      "Stogg",
+      "Sneyser",
+      "Incisaur",
+      "Drummidary",
+      "Flappy Flag",
+      "Babayag Tower",
+      "Ambered Thing",
+      "Bisonorus"
+    ],
+    "Epic": [
+      "Sol",
+      "Sooza",
+      "Boskus",
+      "Krillby",
+      "Bowhead",
+      "Boss Monument",
+      "Dragon Tower",
+      "Cold Globe",
+      "Epic Bisonorus"
+    ],
+    "Rare": [
+      "Tring",
+      "Phangler",
+      "Edamimi",
+      "Tiawa",
+      "Harpsitree",
+      "Yum Yum Tree",
+      "Cozee Cabin",
+      "Rare Bisonorus"
+    ]
+  },
+  "Tuskski": {
+    "Common": [
+      "Krillby",
+      "Flowah",
+      "Candelavra",
+      "Incisaur",
+      "Star Rocks",
+      "Cold Globe",
+      "Swurlee Tree"
+    ],
+    "Epic": [
+      "PongPing",
+      "Floogull",
+      "Bowhead",
+      "Gnarls",
+      "Ambered Thing",
+      "Eerie Remains",
+      "Wubbox Stockpile"
+    ],
+    "Rare": [
+      "Tuskski",
+      "Stogg",
+      "Yelmut",
+      "Wynq",
+      "Piney Tree",
+      "Mount Knottshurr",
+      "Thumpies Totem, Too"
+    ]
+  },
+  "Tweedle": {
+    "Common": [
+      "Cybop",
+      "Bowgart",
+      "Wynq",
+      "Reflecting Pool",
+      "Razzli Tree",
+      "Harpsitree",
+      "Potbelly"
+    ],
+    "Epic": [
+      "Swurlee Tree",
+      "Spatial Sapling",
+      "Mi",
+      "Ockulo Tree",
+      "Epic Potbelly"
+    ],
+    "Rare": [
+      "Noggin",
+      "Mammott",
+      "Toe Jammer",
+      "Tweedle",
+      "Potbelly",
+      "Kayna",
+      "Rare Potbelly"
+    ]
+  },
+  "Uuduk": {
+    "Common": [
+      "Toe Jammer",
+      "Pipes of Cicado",
+      "Babayag Tower",
+      "Wubbox Stockpile"
+    ],
+    "Rare": [
+      "Uuduk",
+      "Optiglowbe",
+      "Ockulo Tree",
+      "Cave Crystal Teleporter"
+    ]
+  },
+  "Vhenshun": {
+    "Common": [
+      "Piplash",
+      "Reebro",
+      "Dragong",
+      "Bogle",
+      "Orb of Aklino",
+      "Ambered Thing",
+      "Guitree"
+    ]
+  },
+  "Viveine": {
+    "Common": [
+      "Shugavox",
+      "Boo'qwurm",
+      "Flowah",
+      "Barrb",
+      "Edamimi",
+      "Gnarls",
+      "Zuffle Tree",
+      "Pipes of Cicado",
+      "Razzli Tree"
+    ],
+    "Epic": [
+      "Quaint Outhouse",
+      "Greatfruit Tree",
+      "Plentiful Planter",
+      "Golden Simian"
+    ],
+    "Rare": [
+      "Viveine",
+      "Digger",
+      "Tree Hut",
+      "Reflecting Pool"
+    ]
+  },
+  "Whaddle": {
+    "Common": [
+      "Kayna",
+      "Barrb",
+      "Sooza",
+      "Bowhead",
+      "Beeyoot Tree",
+      "Yum Yum Tree",
+      "Cozee Cabin"
+    ],
+    "Epic": [
+      "Ti",
+      "Kayna",
+      "Stogg",
+      "Krillby",
+      "Incisaur",
+      "PU System",
+      "Puffle Tree",
+      "Sweetstreamz Tree"
+    ],
+    "Rare": [
+      "Whaddle",
+      "Floogull",
+      "Thrumble",
+      "Tuskski",
+      "Toob",
+      "Bloofi Tree",
+      "Harpsitree"
+    ]
+  },
+  "Whaill": {
+    "Common": [
+      "Oogiddy",
+      "Ghazt",
+      "Jellbilly",
+      "Blarret",
+      "Lowb",
+      "Dragoon Statue",
+      "Stritch Skin",
+      "Inverdigus Fern",
+      "Vhenshun"
+    ],
+    "Rare": [
+      "Whaill",
+      "Rare Ghazt",
+      "Rare Jellbilly",
+      "Rare Blarret",
+      "Saggle Tree",
+      "Floofy Nest",
+      "Optiglowbe"
+    ]
+  },
+  "Wheezel": {
+    "Common": [
+      "Hyehehe",
+      "Kab's Wax",
+      "Mountain Morsel",
+      "Wubbox Stockpile"
+    ],
+    "Rare": [
+      "Wheezel",
+      "Castanevine",
+      "Travelers' Sign",
+      "Smunkit"
+    ]
+  },
+  "Whisp": {
+    "Common": [
+      "Reebro",
+      "Yooreek",
+      "Meebkin",
+      "Whaill",
+      "Pentumbra",
+      "Lowb",
+      "Fandhul",
+      "Beeyoot Tree",
+      "Puffle Tree",
+      "Ambered Thing",
+      "Nebulob"
+    ],
+    "Epic": [
+      "Jellbilly",
+      "Sweetstreamz Tree",
+      "Stritch Skin",
+      "Ockulo Tree",
+      "Epic Nebulob"
+    ],
+    "Rare": [
+      "Whisp",
+      "Rare Yooreek",
+      "Rare Meebkin",
+      "Reflecting Pool",
+      "Travelers' Sign",
+      "Toob",
+      "Rare Nebulob"
+    ]
+  },
+  "Whiz-bang": {
+    "Common": [
+      "Fluoress",
+      "Carillong",
+      "Cozee Cabin",
+      "Fire Bush",
+      "Wild Bagpipe",
+      "Monculus"
+    ],
+    "Epic": [
+      "Fireworks Stand",
+      "Prism Gate Replica",
+      "Glowbe Guise",
+      "Kaleidoscope",
+      "Epic Monculus"
+    ],
+    "Rare": [
+      "Whiz-bang",
+      "Beeyoot Tree",
+      "Ambered Thing",
+      "Toob",
+      "Rare Monculus"
+    ]
+  },
+  "Wimmzies": {
+    "Common": [
+      "Kayna",
+      "Cozee Cabin",
+      "Leafy Sea Dragon",
+      "Jarhead"
+    ],
+    "Rare": [
+      "Wimmzies",
+      "Toob",
+      "Swurlee Tree",
+      "PU System"
+    ]
+  },
+  "Withur": {
+    "Common": [
+      "Stogg",
+      "Mountain Morsel",
+      "Eerie Remains",
+      "Fossil-osaurus",
+      "Cantorell"
+    ],
+    "Rare": [
+      "Withur",
+      "Smunkit",
+      "Puffle Tree",
+      "Star Rocks",
+      "Rare Cantorell"
+    ]
+  },
+  "Woolabee": {
+    "Common": [
+      "Toe Jammer",
+      "Stogg",
+      "Rootitoot",
+      "Bisonorus",
+      "Gnarls",
+      "Fuzzle Tree",
+      "Eerie Remains",
+      "Spurrit Statue"
+    ],
+    "Epic": [
+      "Glowl",
+      "Floogull",
+      "Incisaur",
+      "Drummidary",
+      "Cold Globe",
+      "Reflecting Pool",
+      "Swurlee Tree"
+    ],
+    "Rare": [
+      "Woolabee",
+      "Yelmut",
+      "Sooza",
+      "Candelavra",
+      "Stritch Skin",
+      "Babayag Tower",
+      "Leafy Sea Dragon"
+    ]
+  },
+  "Wubbox": {
+    "Common": [
+      "Toob",
+      "Digger",
+      "Ambered Thing",
+      "Tub Fountain",
+      "Brump"
+    ],
+    "Epic": [
+      "Epic Brump"
+    ],
+    "Rare": [
+      "Thumpies Totem, Too",
+      "Mount Knottshurr",
+      "Freed Thing",
+      "Boss Monument",
+      "Rare Brump"
+    ]
+  },
+  "Wubbox (Air Island)": {
+    "Epic": [
+      "Yawstrich",
+      "Star Rocks",
+      "Dragon Tower",
+      "Innertuba"
+    ]
+  },
+  "Wubbox (Cold Island)": {
+    "Epic": [
+      "Strombonin",
+      "Star Rocks",
+      "Flappy Flag",
+      "Cold Globe"
+    ]
+  },
+  "Wubbox (Earth Island)": {
+    "Epic": [
+      "Hyehehe",
+      "Star Rocks",
+      "Barbloo Statue",
+      "Ockulo Tree"
+    ]
+  },
+  "Wubbox (Ethereal Island)": {
+    "Epic": [
+      "Monculus",
+      "Star Rocks",
+      "Orb of Aklino",
+      "Wubbox Stockpile"
+    ]
+  },
+  "Wubbox (Fire Haven)": {
+    "Epic": [
+      "Buzzinga",
+      "Star Rocks",
+      "Babayag Tower",
+      "Givutawai Tree"
+    ]
+  },
+  "Wubbox (Fire Oasis)": {
+    "Epic": [
+      "Cherubble",
+      "Star Rocks",
+      "Ambered Thing",
+      "Fire Bush"
+    ]
+  },
+  "Wubbox (Plant Island)": {
+    "Epic": [
+      "G'joob",
+      "Star Rocks",
+      "Tree Forte Tower",
+      "Ockulo Tree"
+    ]
+  },
+  "Wubbox (Water Island)": {
+    "Epic": [
+      "Anglow",
+      "Star Rocks",
+      "Floofy Nest",
+      "Swurlee Tree"
+    ]
+  },
+  "Wynq": {
+    "Common": [
+      "Tweedle",
+      "Krillby",
+      "Barrb",
+      "Candelavra",
+      "Rootitoot",
+      "Bloofi Tree",
+      "Piney Tree",
+      "Ambered Thing"
+    ],
+    "Epic": [
+      "Sol",
+      "Repatillo",
+      "Edamimi",
+      "PongPing",
+      "Tuskski",
+      "Beeyoot Tree",
+      "Hammock",
+      "Squeed Statue"
+    ],
+    "Rare": [
+      "Wynq",
+      "Floogull",
+      "Tring",
+      "Drummidary",
+      "Flappy Flag",
+      "Barbloo Statue",
+      "Yum Yum Tree"
+    ]
+  },
+  "X'rt": {
+    "Common": [
+      "Pentumbra",
+      "Boodoo",
+      "Kazilleon",
+      "Whisp",
+      "Pipes of Cicado",
+      "Fire Bush",
+      "Mountain Morsel"
+    ]
+  },
+  "Xyster": {
+    "Common": [
+      "Clackula",
+      "Eerie Remains",
+      "Guitree",
+      "Jarhead",
+      "Cahoot"
+    ],
+    "Rare": [
+      "Xyster",
+      "Digger",
+      "Odd-o-Mobile",
+      "Swurlee Tree",
+      "Rare Cahoot"
+    ]
+  },
+  "Yawstrich": {
+    "Common": [
+      "Scups",
+      "G'joob",
+      "Mountain Morsel",
+      "Wubbox Stockpile",
+      "Jarhead"
+    ],
+    "Epic": [
+      "Mi",
+      "Cranchee",
+      "Spatial Sapling",
+      "Beeyoot Tree",
+      "Bass String Bridge"
+    ],
+    "Rare": [
+      "Yawstrich",
+      "Inverdigus Fern",
+      "Macho Monument",
+      "Shrini"
+    ]
+  },
+  "Yelmut": {
+    "Common": [
+      "Phangler",
+      "Stogg",
+      "Flowah",
+      "Tring",
+      "Mount Knottshurr",
+      "Bingo Bango Bongos",
+      "The Thunker"
+    ],
+    "Epic": [
+      "Fiddlement",
+      "Candelavra",
+      "Sneyser",
+      "Wynq",
+      "Ziggurab",
+      "Cave Crystal Teleporter",
+      "Kab's Wax",
+      "Sweetstreamz Tree"
+    ],
+    "Rare": [
+      "Yelmut",
+      "Glowl",
+      "Woolabee",
+      "Bisonorus",
+      "Ockulo Tree",
+      "Swurlee Tree",
+      "Thumpies Totem, Too"
+    ]
+  },
+  "Yool": {
+    "Common": [
+      "Thumpies",
+      "Deedge",
+      "Blabbit",
+      "Piney Tree",
+      "Fuzzle Tree",
+      "Crumpler Tree"
+    ],
+    "Epic": [
+      "Coldman Colloquy",
+      "Lamppost",
+      "Gingerbread Bluff",
+      "Yaytide Trimmings"
+    ],
+    "Rare": [
+      "Yool",
+      "Flappy Flag",
+      "Harpsitree",
+      "Tree Forte Tower"
+    ]
+  },
+  "Yooreek": {
+    "Common": [
+      "Gaddzooks",
+      "Ghazt",
+      "Grumpyre",
+      "Reebro",
+      "Whisp",
+      "Nebulob",
+      "Arackulele",
+      "Fandhul",
+      "Crumpler Tree",
+      "Macho Monument",
+      "Yum Yum Tree",
+      "Meebkin"
+    ],
+    "Rare": [
+      "Yooreek",
+      "Rare Gaddzooks",
+      "Rare Ghazt",
+      "Rare Whisp",
+      "Rare Reebro",
+      "Rare Nebulob",
+      "Fuzzle Tree",
+      "Travelers' Sign",
+      "Odd-o-Mobile",
+      "Rare Meebkin"
+    ]
+  },
+  "Yuggler": {
+    "Common": [
+      "Bonkers",
+      "Digger",
+      "Wubbox Stockpile",
+      "Floofy Nest"
+    ],
+    "Rare": [
+      "Yuggler",
+      "Bingo Bango Bongos",
+      "Travelers' Sign",
+      "PU System"
+    ]
+  },
+  "Ziggurab": {
+    "Common": [
+      "HippityHop",
+      "Glowl",
+      "Candelavra",
+      "Wynq",
+      "Bisonorus",
+      "Hollow Log",
+      "Tree Forte Tower",
+      "Yum Yum Tree"
+    ],
+    "Epic": [
+      "Squot",
+      "Glowl",
+      "Sneyser",
+      "Woolabee",
+      "Gnarls",
+      "Ockulo Tree",
+      "Tub Fountain",
+      "The Thunker"
+    ],
+    "Rare": [
+      "Ziggurab",
+      "Yelmut",
+      "Flowah",
+      "Barrb",
+      "Razzli Tree",
+      "Piney Tree",
+      "Castanevine"
+    ]
+  },
+  "shLep": {
+    "Rare": [
+      "ShLep",
+      "Hollow Log",
+      "Striking Bulbs",
+      "Yum Yum Tree"
+    ]
+  }
+}

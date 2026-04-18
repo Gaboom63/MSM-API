@@ -1,8 +1,7 @@
 (function (global) {
   /* ---------------- CONFIG & PERSISTENT CACHE ---------------- */
   let COMMIT_HASH = localStorage.getItem('msm_api_hash') || 'main'; 
-  let BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, COSTUME_INDEX_URL, ELEMENT_INDEX_URL, SOUND_INDEX_URL;
-
+  let BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, COSTUME_INDEX_URL, ELEMENT_INDEX_URL, SOUND_INDEX_URL, LIKES_INDEX_URL;
   function updateUrls() {
     BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/monsters/`;
     IMAGE_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/images/bm/`;
@@ -12,6 +11,7 @@
     COSTUME_INDEX_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes.json`;
     ELEMENT_INDEX_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/elements.json`;
     SOUND_INDEX_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/sounds.json`;
+    LIKES_INDEX_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/likes.json`;
   }
 
   function getStringSimilarity(str1, str2) {
@@ -75,6 +75,7 @@
   let costumeCache = null;
   let elementCache = null;
   let soundCache = null;
+  let likesCache = null;
   let nameRegistry = {};
   const fetchPromises = {}; // Prevents overlapping duplicate network requests
 
@@ -220,6 +221,26 @@
     return entry[safeRarity].map(file => `${basePath}${encodeURIComponent(file)}`);
   }
 
+  /* ---------------- LIKES ---------------- */
+  async function getLikesDatabase() {
+    await syncPromise;
+    if (likesCache) return likesCache;
+    likesCache = await fetchWithCache('likes_db', LIKES_INDEX_URL);
+    return likesCache || {};
+  }
+
+  async function resolveLikes(monsterName, rarity = "Common") {
+    const db = await getLikesDatabase();
+    const safeRarity = rarity ? rarity.charAt(0).toUpperCase() + rarity.slice(1).toLowerCase() : "Common";
+    
+    // Strips "Adult" and "Rare/Epic" prefixes to match the clean JSON keys
+    const cleanName = monsterName.replace(/^(rare|epic)\s+/i, "").trim().replace(/^Adult\s+/i, "");
+    
+    const entry = db?.[cleanName];
+    // Since likes are just text strings, we don't need to append a URL base path!
+    return (entry && Array.isArray(entry[safeRarity])) ? entry[safeRarity] : [];
+  }
+
   /* ---------------- PATH RESOLVER ---------------- */
   function resolveMonsterPath(rawName) {
       const lowerName = rawName.trim().toLowerCase();
@@ -270,6 +291,7 @@
 
       const costumes = await resolveCostumes(data.name, folder);
       const sounds = await resolveSounds(data.name, folder);
+      const likes = await resolveLikes(data.name, folder);
 
       /* --- PRELOAD ELEMENTS --- */
       const elementDb = await getElementDatabase();
@@ -304,6 +326,7 @@
         ...data,
         rarity: folder,
         imageUrl: finalImageUrl,
+        likes,
         costumes,
         _costumeIndex: costumes.length,
         elementsResolved,
