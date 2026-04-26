@@ -1,0 +1,3176 @@
+{
+  "Anglow": {
+    "Common": {
+      "Enhanced": "1d 45m",
+      "Enhanced_Skin": "21h 27m",
+      "Standard": "1d 9h",
+      "Standard_Skin": "1d 5h 42m"
+    },
+    "Epic": {
+      "Enhanced": "1d 6h 54m 45s",
+      "Enhanced_Skin": "1d 2h 47m 27s",
+      "Standard": "1d 17h 13m",
+      "Standard_Skin": "1d 13h 5m 42s"
+    },
+    "Rare": {
+      "Enhanced": "1d 6h 56m 15s",
+      "Enhanced_Skin": "1d 2h 48m 45s",
+      "Standard": "1d 17h 15m",
+      "Standard_Skin": "1d 13h 7m 30s"
+    }
+  },
+  "Arackulele": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Arcorina": {
+    "Common": {
+      "Enhanced": "1d 3h",
+      "Enhanced_Skin": "23h 24m",
+      "Standard": "1d 12h",
+      "Standard_Skin": "1d 8h 24m"
+    }
+  },
+  "Auglur": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    },
+    "Rare": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Banjaw": {
+    "Common": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    },
+    "Rare": {
+      "Enhanced": "1d 8h 37m 30s",
+      "Enhanced_Skin": "1d 4h 16m 30s",
+      "Standard": "1d 19h 30m",
+      "Standard_Skin": "1d 15h 9m"
+    }
+  },
+  "Barrb": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Epic": {
+      "Enhanced": "1d 5h 15m",
+      "Enhanced_Skin": "1d 1h 21m",
+      "Standard": "1d 15h",
+      "Standard_Skin": "1d 11h 6m"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "Bbli$zard": {
+    "Common": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "BeMeebEth": {
+    "Common": {
+      "Enhanced": "1d 17h 15m",
+      "Enhanced_Skin": "1d 11h 45m",
+      "Standard": "2d 7h",
+      "Standard_Skin": "2d 1h 30m"
+    }
+  },
+  "Bellowfish": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 10h 30m",
+      "Enhanced_Skin": "1d 5h 54m",
+      "Standard": "1d 22h",
+      "Standard_Skin": "1d 17h 24m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Bisonorus": {
+    "Common": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    },
+    "Epic": {
+      "Enhanced": "1d 14h 15m",
+      "Enhanced_Skin": "1d 9h 9m",
+      "Standard": "2d 3h",
+      "Standard_Skin": "1d 21h 54m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Blabbit": {
+    "Common": {
+      "Enhanced": "14h 15m",
+      "Enhanced_Skin": "12h 21m",
+      "Standard": "19h",
+      "Standard_Skin": "17h 6m"
+    },
+    "Epic": {
+      "Enhanced": "19h 1m 30s",
+      "Enhanced_Skin": "16h 29m 18s",
+      "Standard": "1d 1h 22m",
+      "Standard_Skin": "22h 49m 48s"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Blarret": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    },
+    "Rare": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Bleatnik": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Epic": {
+      "Enhanced": "1d 12h 54m 45s",
+      "Enhanced_Skin": "1d 7h 59m 27s",
+      "Standard": "2d 1h 13m",
+      "Standard_Skin": "1d 20h 17m 42s"
+    },
+    "Rare": {
+      "Enhanced": "1d 1h 18m 45s",
+      "Enhanced_Skin": "21h 56m 15s",
+      "Standard": "1d 9h 45m",
+      "Standard_Skin": "1d 6h 22m 30s"
+    }
+  },
+  "Blow't": {
+    "Common": {
+      "Enhanced": "1d 13h 30m",
+      "Enhanced_Skin": "1d 8h 30m",
+      "Standard": "2d 2h",
+      "Standard_Skin": "1d 21h"
+    },
+    "Rare": {
+      "Enhanced": "1d 21h 22m 30s",
+      "Enhanced_Skin": "1d 15h 19m 30s",
+      "Standard": "2d 12h 30m",
+      "Standard_Skin": "2d 6h 27m"
+    }
+  },
+  "Bogle": {
+    "Common": {
+      "Enhanced": "1d 13h 30m",
+      "Enhanced_Skin": "1d 8h 30m",
+      "Standard": "2d 2h",
+      "Standard_Skin": "1d 21h"
+    }
+  },
+  "Bonkers": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Boo'qwurm": {
+    "Common": {
+      "Enhanced": "18h 4m 48s",
+      "Enhanced_Skin": "15h 40m 9s",
+      "Standard": "1d 6m 24s",
+      "Standard_Skin": "21h 41m 45s"
+    },
+    "Epic": {
+      "Enhanced": "1d 15h 7m 30s",
+      "Enhanced_Skin": "1d 9h 54m 30s",
+      "Standard": "2d 4h 10m",
+      "Standard_Skin": "1d 22h 57m"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Boodoo": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Boskus": {
+    "Common": {
+      "Enhanced": "7h 30m",
+      "Enhanced_Skin": "6h 30m",
+      "Standard": "10h",
+      "Standard_Skin": "9h"
+    },
+    "Epic": {
+      "Enhanced": "14h 15m",
+      "Enhanced_Skin": "12h 21m",
+      "Standard": "19h",
+      "Standard_Skin": "17h 6m"
+    },
+    "Rare": {
+      "Enhanced": "10h 7m 30s",
+      "Enhanced_Skin": "8h 46m 30s",
+      "Standard": "13h 30m",
+      "Standard_Skin": "12h 9m"
+    }
+  },
+  "Bowgart": {
+    "Common": {
+      "Enhanced": "9h",
+      "Enhanced_Skin": "7h 48m",
+      "Standard": "12h",
+      "Standard_Skin": "10h 48m"
+    },
+    "Epic": {
+      "Enhanced": "21h 45m",
+      "Enhanced_Skin": "18h 51m",
+      "Standard": "1d 5h",
+      "Standard_Skin": "1d 2h 6m"
+    },
+    "Rare": {
+      "Enhanced": "11h 37m 30s",
+      "Enhanced_Skin": "10h 4m 30s",
+      "Standard": "15h 30m",
+      "Standard_Skin": "13h 57m"
+    }
+  },
+  "Bowhead": {
+    "Common": {
+      "Enhanced": "2d 12h",
+      "Enhanced_Skin": "2d 4h",
+      "Standard": "3d 8h",
+      "Standard_Skin": "3d"
+    },
+    "Epic": {
+      "Enhanced": "1d 14h 15m",
+      "Enhanced_Skin": "1d 9h 9m",
+      "Standard": "2d 3h",
+      "Standard_Skin": "1d 21h 54m"
+    },
+    "Rare": {
+      "Enhanced": "2d 23h 37m 30s",
+      "Enhanced_Skin": "2d 14h 4m 30s",
+      "Standard": "3d 23h 30m",
+      "Standard_Skin": "3d 13h 57m"
+    }
+  },
+  "Bridg-it": {
+    "Common": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    },
+    "Rare": {
+      "Enhanced": "1d 8h 37m 30s",
+      "Enhanced_Skin": "1d 4h 16m 30s",
+      "Standard": "1d 19h 30m",
+      "Standard_Skin": "1d 15h 9m"
+    }
+  },
+  "Bulbo": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Buzzinga": {
+    "Common": {
+      "Enhanced": "17h 15m",
+      "Enhanced_Skin": "14h 57m",
+      "Standard": "23h",
+      "Standard_Skin": "20h 42m"
+    },
+    "Epic": {
+      "Enhanced": "22h 55m 30s",
+      "Enhanced_Skin": "19h 52m 6s",
+      "Standard": "1d 6h 34m",
+      "Standard_Skin": "1d 3h 30m 36s"
+    },
+    "Rare": {
+      "Enhanced": "21h 33m 45s",
+      "Enhanced_Skin": "18h 41m 15s",
+      "Standard": "1d 4h 45m",
+      "Standard_Skin": "1d 1h 52m 30s"
+    }
+  },
+  "Cahoot": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "Candelavra": {
+    "Common": {
+      "Enhanced": "2d 12h",
+      "Enhanced_Skin": "2d 4h",
+      "Standard": "3d 8h",
+      "Standard_Skin": "3d"
+    },
+    "Epic": {
+      "Enhanced": "1d 15h 45m",
+      "Enhanced_Skin": "1d 10h 27m",
+      "Standard": "2d 5h",
+      "Standard_Skin": "1d 23h 42m"
+    },
+    "Rare": {
+      "Enhanced": "2d 23h 37m 30s",
+      "Enhanced_Skin": "2d 14h 4m 30s",
+      "Standard": "3d 23h 30m",
+      "Standard_Skin": "3d 13h 57m"
+    }
+  },
+  "Cantorell": {
+    "Common": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    },
+    "Rare": {
+      "Enhanced": "1d 8h 37m 30s",
+      "Enhanced_Skin": "1d 4h 16m 30s",
+      "Standard": "1d 19h 30m",
+      "Standard_Skin": "1d 15h 9m"
+    }
+  },
+  "Carillong": {
+    "Common": {
+      "Enhanced": "20h 22m 9s",
+      "Enhanced_Skin": "17h 39m 11s",
+      "Standard": "1d 3h 9m 32s",
+      "Standard_Skin": "1d 26m 34s"
+    },
+    "Epic": {
+      "Enhanced": "1d 3h 9m",
+      "Enhanced_Skin": "23h 31m 48s",
+      "Standard": "1d 12h 12m",
+      "Standard_Skin": "1d 8h 34m 48s"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Cataliszt": {
+    "Common": {
+      "Enhanced": "6h 45m",
+      "Enhanced_Skin": "5h 51m",
+      "Standard": "9h",
+      "Standard_Skin": "8h 6m"
+    },
+    "Rare": {
+      "Enhanced": "8h 26m 15s",
+      "Enhanced_Skin": "7h 18m 45s",
+      "Standard": "11h 15m",
+      "Standard_Skin": "10h 7m 30s"
+    }
+  },
+  "Charrkoll": {
+    "Common": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    }
+  },
+  "Cherubble": {
+    "Common": {
+      "Enhanced": "13h 30m",
+      "Enhanced_Skin": "11h 42m",
+      "Standard": "18h",
+      "Standard_Skin": "16h 12m"
+    },
+    "Epic": {
+      "Enhanced": "1d 6h 54m 45s",
+      "Enhanced_Skin": "1d 2h 47m 27s",
+      "Standard": "1d 17h 13m",
+      "Standard_Skin": "1d 13h 5m 42s"
+    },
+    "Rare": {
+      "Enhanced": "16h 52m 30s",
+      "Enhanced_Skin": "14h 37m 30s",
+      "Standard": "22h 30m",
+      "Standard_Skin": "20h 15m"
+    }
+  },
+  "Clackula": {
+    "Common": {
+      "Enhanced": "17h 15m",
+      "Enhanced_Skin": "14h 57m",
+      "Standard": "23h",
+      "Standard_Skin": "20h 42m"
+    },
+    "Epic": {
+      "Enhanced": "1d 4h 34m 30s",
+      "Enhanced_Skin": "1d 45m 54s",
+      "Standard": "1d 14h 6m",
+      "Standard_Skin": "1d 10h 17m 24s"
+    },
+    "Rare": {
+      "Enhanced": "19h 30m",
+      "Enhanced_Skin": "16h 54m",
+      "Standard": "1d 2h",
+      "Standard_Skin": "23h 24m"
+    }
+  },
+  "Clamble": {
+    "Common": {
+      "Enhanced": "9h",
+      "Enhanced_Skin": "7h 48m",
+      "Standard": "12h",
+      "Standard_Skin": "10h 48m"
+    },
+    "Epic": {
+      "Enhanced": "15h 45m",
+      "Enhanced_Skin": "13h 39m",
+      "Standard": "21h",
+      "Standard_Skin": "18h 54m"
+    },
+    "Rare": {
+      "Enhanced": "11h 37m 30s",
+      "Enhanced_Skin": "10h 4m 30s",
+      "Standard": "15h 30m",
+      "Standard_Skin": "13h 57m"
+    }
+  },
+  "Clavavera": {
+    "Common": {
+      "Enhanced": "16h 38m 15s",
+      "Enhanced_Skin": "14h 25m 9s",
+      "Standard": "22h 11m",
+      "Standard_Skin": "19h 57m 54s"
+    },
+    "Epic": {
+      "Enhanced": "17h 23m 15s",
+      "Enhanced_Skin": "15h 4m 9s",
+      "Standard": "23h 11m",
+      "Standard_Skin": "20h 51m 54s"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Clavi Gnat": {
+    "Common": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    },
+    "Rare": {
+      "Enhanced": "1d 8h 37m 30s",
+      "Enhanced_Skin": "1d 4h 16m 30s",
+      "Standard": "1d 19h 30m",
+      "Standard_Skin": "1d 15h 9m"
+    }
+  },
+  "Congle": {
+    "Common": {
+      "Enhanced": "9h",
+      "Enhanced_Skin": "7h 48m",
+      "Standard": "12h",
+      "Standard_Skin": "10h 48m"
+    },
+    "Epic": {
+      "Enhanced": "17h 15m",
+      "Enhanced_Skin": "14h 57m",
+      "Standard": "23h",
+      "Standard_Skin": "20h 42m"
+    },
+    "Rare": {
+      "Enhanced": "11h 37m 30s",
+      "Enhanced_Skin": "10h 4m 30s",
+      "Standard": "15h 30m",
+      "Standard_Skin": "13h 57m"
+    }
+  },
+  "Cranchee": {
+    "Common": {
+      "Enhanced": "1d",
+      "Enhanced_Skin": "20h 48m",
+      "Standard": "1d 8h",
+      "Standard_Skin": "1d 4h 48m"
+    },
+    "Epic": {
+      "Enhanced": "2d 9m 45s",
+      "Enhanced_Skin": "1d 17h 44m 27s",
+      "Standard": "2d 16h 13m",
+      "Standard_Skin": "2d 9h 47m 42s"
+    },
+    "Rare": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    }
+  },
+  "Cruv'laaphtian Crocus": {
+    "Common": {
+      "Enhanced": "9h",
+      "Enhanced_Skin": "7h 48m",
+      "Standard": "12h",
+      "Standard_Skin": "10h 48m"
+    }
+  },
+  "Cybop": {
+    "Common": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    },
+    "Epic": {
+      "Enhanced": "17h 15m",
+      "Enhanced_Skin": "14h 57m",
+      "Standard": "23h",
+      "Standard_Skin": "20h 42m"
+    },
+    "Rare": {
+      "Enhanced": "7h 52m 30s",
+      "Enhanced_Skin": "6h 49m 30s",
+      "Standard": "10h 30m",
+      "Standard_Skin": "9h 27m"
+    }
+  },
+  "Dakktyl": {
+    "Common": {
+      "Enhanced": "1d 9h 45m",
+      "Enhanced_Skin": "1d 5h 15m",
+      "Standard": "1d 21h",
+      "Standard_Skin": "1d 16h 30m"
+    }
+  },
+  "Dandidoo": {
+    "Common": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    },
+    "Epic": {
+      "Enhanced": "21h 45m",
+      "Enhanced_Skin": "18h 51m",
+      "Standard": "1d 5h",
+      "Standard_Skin": "1d 2h 6m"
+    },
+    "Rare": {
+      "Enhanced": "7h 52m 30s",
+      "Enhanced_Skin": "6h 49m 30s",
+      "Standard": "10h 30m",
+      "Standard_Skin": "9h 27m"
+    }
+  },
+  "Deedge": {
+    "Common": {
+      "Enhanced": "18h",
+      "Enhanced_Skin": "15h 36m",
+      "Standard": "1d",
+      "Standard_Skin": "21h 36m"
+    },
+    "Epic": {
+      "Enhanced": "1d 6h 45m",
+      "Enhanced_Skin": "1d 2h 39m",
+      "Standard": "1d 17h",
+      "Standard_Skin": "1d 12h 54m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Denchuhs": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Dragong": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 3h",
+      "Enhanced_Skin": "23h 24m",
+      "Standard": "1d 12h",
+      "Standard_Skin": "1d 8h 24m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Drummidary": {
+    "Common": {
+      "Enhanced": "2d 12h",
+      "Enhanced_Skin": "2d 4h",
+      "Standard": "3d 8h",
+      "Standard_Skin": "3d"
+    },
+    "Epic": {
+      "Enhanced": "1d 12h 45m",
+      "Enhanced_Skin": "1d 7h 51m",
+      "Standard": "2d 1h",
+      "Standard_Skin": "1d 20h 6m"
+    },
+    "Rare": {
+      "Enhanced": "2d 23h 37m 30s",
+      "Enhanced_Skin": "2d 14h 4m 30s",
+      "Standard": "3d 23h 30m",
+      "Standard_Skin": "3d 13h 57m"
+    }
+  },
+  "Drumpler": {
+    "Common": {
+      "Enhanced": "22m 30s",
+      "Enhanced_Skin": "19m 30s",
+      "Standard": "30m",
+      "Standard_Skin": "27m"
+    },
+    "Epic": {
+      "Enhanced": "11h 15m",
+      "Enhanced_Skin": "9h 45m",
+      "Standard": "15h",
+      "Standard_Skin": "13h 30m"
+    },
+    "Rare": {
+      "Enhanced": "50m 37s",
+      "Enhanced_Skin": "43m 52s",
+      "Standard": "1h 7m 30s",
+      "Standard_Skin": "1h 45s"
+    }
+  },
+  "D\u00e9j\u00e0-Jin": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "ERmA gUrDy": {
+    "Common": {
+      "Enhanced": "1d 9h 45m",
+      "Enhanced_Skin": "1d 5h 15m",
+      "Standard": "1d 21h",
+      "Standard_Skin": "1d 16h 30m"
+    }
+  },
+  "Edamimi": {
+    "Common": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    },
+    "Epic": {
+      "Enhanced": "1d 9h 45m",
+      "Enhanced_Skin": "1d 5h 15m",
+      "Standard": "1d 21h",
+      "Standard_Skin": "1d 16h 30m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Enchantling": {
+    "Common": {
+      "Enhanced": "1d 13h 30m",
+      "Enhanced_Skin": "1d 8h 30m",
+      "Standard": "2d 2h",
+      "Standard_Skin": "1d 21h"
+    },
+    "Rare": {
+      "Enhanced": "1d 22h 52m 30s",
+      "Enhanced_Skin": "1d 16h 37m 30s",
+      "Standard": "2d 14h 30m",
+      "Standard_Skin": "2d 8h 15m"
+    }
+  },
+  "Entbrat": {
+    "Common": {
+      "Enhanced": "18h",
+      "Enhanced_Skin": "15h 36m",
+      "Standard": "1d",
+      "Standard_Skin": "21h 36m"
+    },
+    "Epic": {
+      "Enhanced": "1d 9h 45m",
+      "Enhanced_Skin": "1d 5h 15m",
+      "Standard": "1d 21h",
+      "Standard_Skin": "1d 16h 30m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Faesoddoid Fungus": {
+    "Common": {
+      "Enhanced": "9h",
+      "Enhanced_Skin": "7h 48m",
+      "Standard": "12h",
+      "Standard_Skin": "10h 48m"
+    }
+  },
+  "Fandhul": {
+    "Common": {
+      "Enhanced": "1d 13h 30m",
+      "Enhanced_Skin": "1d 8h 30m",
+      "Standard": "2d 2h",
+      "Standard_Skin": "1d 21h"
+    }
+  },
+  "Ffidyll": {
+    "Common": {
+      "Enhanced": "17h 3m",
+      "Enhanced_Skin": "14h 46m 36s",
+      "Standard": "22h 44m",
+      "Standard_Skin": "20h 27m 36s"
+    },
+    "Epic": {
+      "Enhanced": "22h 42m 45s",
+      "Enhanced_Skin": "19h 41m 3s",
+      "Standard": "1d 6h 17m",
+      "Standard_Skin": "1d 3h 15m 18s"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Fiddlement": {
+    "Common": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    },
+    "Rare": {
+      "Enhanced": "1d 8h 37m 30s",
+      "Enhanced_Skin": "1d 4h 16m 30s",
+      "Standard": "1d 19h 30m",
+      "Standard_Skin": "1d 15h 9m"
+    }
+  },
+  "Flasque": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    }
+  },
+  "Floogull": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Epic": {
+      "Enhanced": "1d 3h 45m",
+      "Enhanced_Skin": "1d 3m",
+      "Standard": "1d 13h",
+      "Standard_Skin": "1d 9h 18m"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "Floot Fly": {
+    "Common": {
+      "Enhanced": "16h 30m",
+      "Enhanced_Skin": "14h 18m",
+      "Standard": "22h",
+      "Standard_Skin": "19h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 4h 27m",
+      "Enhanced_Skin": "1d 39m 24s",
+      "Standard": "1d 13h 56m",
+      "Standard_Skin": "1d 10h 8m 24s"
+    },
+    "Rare": {
+      "Enhanced": "19h 30m",
+      "Enhanced_Skin": "16h 54m",
+      "Standard": "1d 2h",
+      "Standard_Skin": "23h 24m"
+    }
+  },
+  "Flowah": {
+    "Common": {
+      "Enhanced": "7h 30m",
+      "Enhanced_Skin": "6h 30m",
+      "Standard": "10h",
+      "Standard_Skin": "9h"
+    },
+    "Epic": {
+      "Enhanced": "12h 45m",
+      "Enhanced_Skin": "11h 3m",
+      "Standard": "17h",
+      "Standard_Skin": "15h 18m"
+    },
+    "Rare": {
+      "Enhanced": "10h 7m 30s",
+      "Enhanced_Skin": "8h 46m 30s",
+      "Standard": "13h 30m",
+      "Standard_Skin": "12h 9m"
+    }
+  },
+  "Flum Ox": {
+    "Common": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    },
+    "Epic": {
+      "Enhanced": "1d 3h 45m",
+      "Enhanced_Skin": "1d 3m",
+      "Standard": "1d 13h",
+      "Standard_Skin": "1d 9h 18m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Fluoress": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Rare": {
+      "Enhanced": "19h 30m",
+      "Enhanced_Skin": "16h 54m",
+      "Standard": "1d 2h",
+      "Standard_Skin": "23h 24m"
+    }
+  },
+  "Frondley": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    },
+    "Rare": {
+      "Enhanced": "1d 4h 7m 30s",
+      "Enhanced_Skin": "1d 22m 30s",
+      "Standard": "1d 13h 30m",
+      "Standard_Skin": "1d 9h 45m"
+    }
+  },
+  "Fung Pray": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 9h",
+      "Enhanced_Skin": "1d 4h 36m",
+      "Standard": "1d 20h",
+      "Standard_Skin": "1d 15h 36m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 45m",
+      "Enhanced_Skin": "1d 10h 27m",
+      "Standard": "2d 5h",
+      "Standard_Skin": "1d 23h 42m"
+    }
+  },
+  "Furcorn": {
+    "Common": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    },
+    "Epic": {
+      "Enhanced": "12h 45m",
+      "Enhanced_Skin": "11h 3m",
+      "Standard": "17h",
+      "Standard_Skin": "15h 18m"
+    },
+    "Rare": {
+      "Enhanced": "7h 52m 30s",
+      "Enhanced_Skin": "6h 49m 30s",
+      "Standard": "10h 30m",
+      "Standard_Skin": "9h 27m"
+    }
+  },
+  "Fwog": {
+    "Common": {
+      "Enhanced": "22m 30s",
+      "Enhanced_Skin": "19m 30s",
+      "Standard": "30m",
+      "Standard_Skin": "27m"
+    },
+    "Epic": {
+      "Enhanced": "5h 15m",
+      "Enhanced_Skin": "4h 33m",
+      "Standard": "7h",
+      "Standard_Skin": "6h 18m"
+    },
+    "Rare": {
+      "Enhanced": "56m 15s",
+      "Enhanced_Skin": "48m 45s",
+      "Standard": "1h 15m",
+      "Standard_Skin": "1h 7m 30s"
+    }
+  },
+  "G'day": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    },
+    "Rare": {
+      "Enhanced": "1d 4h 7m 30s",
+      "Enhanced_Skin": "1d 22m 30s",
+      "Standard": "1d 13h 30m",
+      "Standard_Skin": "1d 9h 45m"
+    }
+  },
+  "G'joob": {
+    "Common": {
+      "Enhanced": "13h 30m",
+      "Enhanced_Skin": "11h 42m",
+      "Standard": "18h",
+      "Standard_Skin": "16h 12m"
+    },
+    "Epic": {
+      "Enhanced": "1d 52m 30s",
+      "Enhanced_Skin": "21h 33m 30s",
+      "Standard": "1d 9h 10m",
+      "Standard_Skin": "1d 5h 51m"
+    },
+    "Rare": {
+      "Enhanced": "16h 52m 30s",
+      "Enhanced_Skin": "14h 37m 30s",
+      "Standard": "22h 30m",
+      "Standard_Skin": "20h 15m"
+    }
+  },
+  "Gaddzooks": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    },
+    "Rare": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Galymph": {
+    "Common": {
+      "Enhanced": "1d 18h",
+      "Enhanced_Skin": "1d 12h 24m",
+      "Standard": "2d 8h",
+      "Standard_Skin": "2d 2h 24m"
+    }
+  },
+  "Ghazt": {
+    "Common": {
+      "Enhanced": "1d 3h",
+      "Enhanced_Skin": "23h 24m",
+      "Standard": "1d 12h",
+      "Standard_Skin": "1d 8h 24m"
+    },
+    "Epic": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    },
+    "Rare": {
+      "Enhanced": "1d 10h 7m 30s",
+      "Enhanced_Skin": "1d 5h 34m 30s",
+      "Standard": "1d 21h 30m",
+      "Standard_Skin": "1d 16h 57m"
+    }
+  },
+  "Gloptic": {
+    "Common": {
+      "Enhanced": "1d 13h 30m",
+      "Enhanced_Skin": "1d 8h 30m",
+      "Standard": "2d 2h",
+      "Standard_Skin": "1d 21h"
+    },
+    "Rare": {
+      "Enhanced": "1d 21h 22m 30s",
+      "Enhanced_Skin": "1d 15h 19m 30s",
+      "Standard": "2d 12h 30m",
+      "Standard_Skin": "2d 6h 27m"
+    }
+  },
+  "Glowl": {
+    "Common": {
+      "Enhanced": "7h 30m",
+      "Enhanced_Skin": "6h 30m",
+      "Standard": "10h",
+      "Standard_Skin": "9h"
+    },
+    "Epic": {
+      "Enhanced": "18h 45m",
+      "Enhanced_Skin": "16h 15m",
+      "Standard": "1d 1h",
+      "Standard_Skin": "22h 30m"
+    },
+    "Rare": {
+      "Enhanced": "10h 7m 30s",
+      "Enhanced_Skin": "8h 46m 30s",
+      "Standard": "13h 30m",
+      "Standard_Skin": "12h 9m"
+    }
+  },
+  "Gnarl": {
+    "Epic": {
+      "Enhanced": "1d 11h 15m",
+      "Enhanced_Skin": "1d 6h 33m",
+      "Standard": "1d 23h",
+      "Standard_Skin": "1d 18h 18m"
+    }
+  },
+  "Gnarls": {
+    "Common": {
+      "Enhanced": "2d 12h",
+      "Enhanced_Skin": "2d 4h",
+      "Standard": "3d 8h",
+      "Standard_Skin": "3d"
+    },
+    "Rare": {
+      "Enhanced": "2d 23h 37m 30s",
+      "Enhanced_Skin": "2d 14h 4m 30s",
+      "Standard": "3d 23h 30m",
+      "Standard_Skin": "3d 13h 57m"
+    }
+  },
+  "Gob": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Gobbleygourd": {
+    "Common": {
+      "Enhanced": "15h 45m",
+      "Enhanced_Skin": "13h 39m",
+      "Standard": "21h",
+      "Standard_Skin": "18h 54m"
+    },
+    "Epic": {
+      "Enhanced": "20h 23m 15s",
+      "Enhanced_Skin": "17h 40m 9s",
+      "Standard": "1d 3h 11m",
+      "Standard_Skin": "1d 27m 54s"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Grumpyre": {
+    "Common": {
+      "Enhanced": "1d 3h",
+      "Enhanced_Skin": "23h 24m",
+      "Standard": "1d 12h",
+      "Standard_Skin": "1d 8h 24m"
+    },
+    "Epic": {
+      "Enhanced": "21h",
+      "Enhanced_Skin": "18h 12m",
+      "Standard": "1d 4h",
+      "Standard_Skin": "1d 1h 12m"
+    },
+    "Rare": {
+      "Enhanced": "1d 10h 7m 30s",
+      "Enhanced_Skin": "1d 5h 34m 30s",
+      "Standard": "1d 21h 30m",
+      "Standard_Skin": "1d 16h 57m"
+    }
+  },
+  "Hairionette": {
+    "Common": {
+      "Enhanced": "1d",
+      "Enhanced_Skin": "20h 48m",
+      "Standard": "1d 8h",
+      "Standard_Skin": "1d 4h 48m"
+    }
+  },
+  "Hawlo": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "HippityHop": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Hoola": {
+    "Common": {
+      "Enhanced": "18h 45m",
+      "Enhanced_Skin": "16h 15m",
+      "Standard": "1d 1h",
+      "Standard_Skin": "22h 30m"
+    },
+    "Epic": {
+      "Enhanced": "16h",
+      "Enhanced_Skin": "13h 52m",
+      "Standard": "21h 20m",
+      "Standard_Skin": "19h 12m"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Humbug": {
+    "Common": {
+      "Enhanced": "1d 3h",
+      "Enhanced_Skin": "23h 24m",
+      "Standard": "1d 12h",
+      "Standard_Skin": "1d 8h 24m"
+    },
+    "Epic": {
+      "Enhanced": "1d",
+      "Enhanced_Skin": "20h 48m",
+      "Standard": "1d 8h",
+      "Standard_Skin": "1d 4h 48m"
+    },
+    "Rare": {
+      "Enhanced": "1d 10h 7m 30s",
+      "Enhanced_Skin": "1d 5h 34m 30s",
+      "Standard": "1d 21h 30m",
+      "Standard_Skin": "1d 16h 57m"
+    }
+  },
+  "Hyehehe": {
+    "Common": {
+      "Enhanced": "21h",
+      "Enhanced_Skin": "18h 12m",
+      "Standard": "1d 4h",
+      "Standard_Skin": "1d 1h 12m"
+    },
+    "Epic": {
+      "Enhanced": "1d 1h 6m",
+      "Enhanced_Skin": "21h 45m 12s",
+      "Standard": "1d 9h 28m",
+      "Standard_Skin": "1d 6h 7m 12s"
+    },
+    "Rare": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Illoost": {
+    "Common": {
+      "Enhanced": "1d 18h",
+      "Enhanced_Skin": "1d 12h 24m",
+      "Standard": "2d 8h",
+      "Standard_Skin": "2d 2h 24m"
+    }
+  },
+  "Incisaur": {
+    "Common": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    },
+    "Epic": {
+      "Enhanced": "1d 6h 45m",
+      "Enhanced_Skin": "1d 2h 39m",
+      "Standard": "1d 17h",
+      "Standard_Skin": "1d 12h 54m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Jam Boree": {
+    "Common": {
+      "Enhanced": "1d 6h 18m",
+      "Enhanced_Skin": "1d 2h 15m 36s",
+      "Standard": "1d 16h 24m",
+      "Standard_Skin": "1d 12h 21m 36s"
+    },
+    "Epic": {
+      "Enhanced": "1d 6h 17m 15s",
+      "Enhanced_Skin": "1d 2h 14m 57s",
+      "Standard": "1d 16h 23m",
+      "Standard_Skin": "1d 12h 20m 42s"
+    },
+    "Rare": {
+      "Enhanced": "1d 13h 30m",
+      "Enhanced_Skin": "1d 8h 30m",
+      "Standard": "2d 2h",
+      "Standard_Skin": "1d 21h"
+    }
+  },
+  "Jeeode": {
+    "Common": {
+      "Enhanced": "1d 3h",
+      "Enhanced_Skin": "23h 24m",
+      "Standard": "1d 12h",
+      "Standard_Skin": "1d 8h 24m"
+    },
+    "Epic": {
+      "Enhanced": "19h 30m",
+      "Enhanced_Skin": "16h 54m",
+      "Standard": "1d 2h",
+      "Standard_Skin": "23h 24m"
+    },
+    "Rare": {
+      "Enhanced": "1d 10h 7m 30s",
+      "Enhanced_Skin": "1d 5h 34m 30s",
+      "Standard": "1d 21h 30m",
+      "Standard_Skin": "1d 16h 57m"
+    }
+  },
+  "Jellbilly": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 4h 30m",
+      "Enhanced_Skin": "1d 42m",
+      "Standard": "1d 14h",
+      "Standard_Skin": "1d 10h 12m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Jerm": {
+    "Common": {
+      "Enhanced": "1d 18h",
+      "Enhanced_Skin": "1d 12h 24m",
+      "Standard": "2d 8h",
+      "Standard_Skin": "2d 2h 24m"
+    }
+  },
+  "Kayna": {
+    "Common": {
+      "Enhanced": "5h 15m",
+      "Enhanced_Skin": "4h 33m",
+      "Standard": "7h",
+      "Standard_Skin": "6h 18m"
+    },
+    "Epic": {
+      "Enhanced": "11h 15m",
+      "Enhanced_Skin": "9h 45m",
+      "Standard": "15h",
+      "Standard_Skin": "13h 30m"
+    },
+    "Rare": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    }
+  },
+  "Kazilleon": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 4h 30m",
+      "Enhanced_Skin": "1d 42m",
+      "Standard": "1d 14h",
+      "Standard_Skin": "1d 10h 12m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Knucklehead": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "Knurv": {
+    "Common": {
+      "Enhanced": "1d",
+      "Enhanced_Skin": "20h 48m",
+      "Standard": "1d 8h",
+      "Standard_Skin": "1d 4h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 18h 7m 30s",
+      "Enhanced_Skin": "1d 12h 30m 30s",
+      "Standard": "2d 8h 10m",
+      "Standard_Skin": "2d 2h 33m"
+    },
+    "Rare": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    }
+  },
+  "Krillby": {
+    "Common": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    },
+    "Epic": {
+      "Enhanced": "1d 8h 15m",
+      "Enhanced_Skin": "1d 3h 57m",
+      "Standard": "1d 19h",
+      "Standard_Skin": "1d 14h 42m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Larvaluss": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    },
+    "Rare": {
+      "Enhanced": "1d 4h 7m 30s",
+      "Enhanced_Skin": "1d 22m 30s",
+      "Standard": "1d 13h 30m",
+      "Standard_Skin": "1d 9h 45m"
+    }
+  },
+  "Lowb": {
+    "Common": {
+      "Enhanced": "1d 13h 30m",
+      "Enhanced_Skin": "1d 8h 30m",
+      "Standard": "2d 2h",
+      "Standard_Skin": "1d 21h"
+    }
+  },
+  "Maggpi": {
+    "Common": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    }
+  },
+  "Mammott": {
+    "Common": {
+      "Enhanced": "1m 30s",
+      "Enhanced_Skin": "1m 18s",
+      "Standard": "2m",
+      "Standard_Skin": "1m 48s"
+    },
+    "Epic": {
+      "Enhanced": "3h 45m",
+      "Enhanced_Skin": "3h 15m",
+      "Standard": "5h",
+      "Standard_Skin": "4h 30m"
+    },
+    "Rare": {
+      "Enhanced": "4h 30m",
+      "Enhanced_Skin": "3h 54m",
+      "Standard": "6h",
+      "Standard_Skin": "5h 24m"
+    }
+  },
+  "Maw": {
+    "Common": {
+      "Enhanced": "22m 30s",
+      "Enhanced_Skin": "19m 30s",
+      "Standard": "30m",
+      "Standard_Skin": "27m"
+    },
+    "Epic": {
+      "Enhanced": "9h 45m",
+      "Enhanced_Skin": "8h 27m",
+      "Standard": "13h",
+      "Standard_Skin": "11h 42m"
+    },
+    "Rare": {
+      "Enhanced": "50m 37s",
+      "Enhanced_Skin": "43m 52s",
+      "Standard": "1h 7m 30s",
+      "Standard_Skin": "1h 45s"
+    }
+  },
+  "Meebkin": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    },
+    "Rare": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Mimic": {
+    "Common": {
+      "Enhanced": "2d 12h",
+      "Enhanced_Skin": "2d 4h",
+      "Standard": "3d 8h",
+      "Standard_Skin": "3d"
+    },
+    "Rare": {
+      "Enhanced": "2d 23h 37m 30s",
+      "Enhanced_Skin": "2d 14h 4m 30s",
+      "Standard": "3d 23h 30m",
+      "Standard_Skin": "3d 13h 57m"
+    }
+  },
+  "Monculus": {
+    "Common": {
+      "Enhanced": "15h 3m",
+      "Enhanced_Skin": "13h 2m 36s",
+      "Standard": "20h 4m",
+      "Standard_Skin": "18h 3m 36s"
+    },
+    "Epic": {
+      "Enhanced": "1d 19h 8m 15s",
+      "Enhanced_Skin": "1d 13h 23m 9s",
+      "Standard": "2d 9h 31m",
+      "Standard_Skin": "2d 3h 45m 54s"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Mushaboom": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    },
+    "Rare": {
+      "Enhanced": "1d 4h 7m 30s",
+      "Enhanced_Skin": "1d 22m 30s",
+      "Standard": "1d 13h 30m",
+      "Standard_Skin": "1d 9h 45m"
+    }
+  },
+  "Nebulob": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 9h",
+      "Enhanced_Skin": "1d 4h 36m",
+      "Standard": "1d 20h",
+      "Standard_Skin": "1d 15h 36m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Nitebear": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    },
+    "Rare": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Noggin": {
+    "Common": {
+      "Enhanced": "3s",
+      "Enhanced_Skin": "3s",
+      "Standard": "5s",
+      "Standard_Skin": "4s"
+    },
+    "Epic": {
+      "Enhanced": "45m",
+      "Enhanced_Skin": "39m",
+      "Standard": "1h",
+      "Standard_Skin": "54m"
+    },
+    "Rare": {
+      "Enhanced": "4h 30m",
+      "Enhanced_Skin": "3h 54m",
+      "Standard": "6h",
+      "Standard_Skin": "5h 24m"
+    }
+  },
+  "Oaktopus": {
+    "Common": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    },
+    "Epic": {
+      "Enhanced": "23h 15m",
+      "Enhanced_Skin": "20h 9m",
+      "Standard": "1d 7h",
+      "Standard_Skin": "1d 3h 54m"
+    },
+    "Rare": {
+      "Enhanced": "7h 52m 30s",
+      "Enhanced_Skin": "6h 49m 30s",
+      "Standard": "10h 30m",
+      "Standard_Skin": "9h 27m"
+    }
+  },
+  "Oogiddy": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    }
+  },
+  "Osstax": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "Owlesque": {
+    "Common": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    }
+  },
+  "Pango": {
+    "Common": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    },
+    "Epic": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "7h 52m 30s",
+      "Enhanced_Skin": "6h 49m 30s",
+      "Standard": "10h 30m",
+      "Standard_Skin": "9h 27m"
+    }
+  },
+  "Parlsona": {
+    "Common": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    }
+  },
+  "Peckidna": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Pentumbra": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    }
+  },
+  "Periscorp": {
+    "Common": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    },
+    "Rare": {
+      "Enhanced": "1d 8h 37m 30s",
+      "Enhanced_Skin": "1d 4h 16m 30s",
+      "Standard": "1d 19h 30m",
+      "Standard_Skin": "1d 15h 9m"
+    }
+  },
+  "Phangler": {
+    "Common": {
+      "Enhanced": "7h 30m",
+      "Enhanced_Skin": "6h 30m",
+      "Standard": "10h",
+      "Standard_Skin": "9h"
+    },
+    "Epic": {
+      "Enhanced": "17h 15m",
+      "Enhanced_Skin": "14h 57m",
+      "Standard": "23h",
+      "Standard_Skin": "20h 42m"
+    },
+    "Rare": {
+      "Enhanced": "10h 7m 30s",
+      "Enhanced_Skin": "8h 46m 30s",
+      "Standard": "13h 30m",
+      "Standard_Skin": "12h 9m"
+    }
+  },
+  "Phosphoran Phlox": {
+    "Common": {
+      "Enhanced": "9h",
+      "Enhanced_Skin": "7h 48m",
+      "Standard": "12h",
+      "Standard_Skin": "10h 48m"
+    }
+  },
+  "Pinghound": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    },
+    "Epic": {
+      "Enhanced": "2d 2h 37m 30s",
+      "Enhanced_Skin": "1d 19h 52m 30s",
+      "Standard": "2d 19h 30m",
+      "Standard_Skin": "2d 12h 45m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Piplash": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    },
+    "Rare": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Pladdie": {
+    "Common": {
+      "Enhanced": "1d 13h 30m",
+      "Enhanced_Skin": "1d 8h 30m",
+      "Standard": "2d 2h",
+      "Standard_Skin": "1d 21h"
+    },
+    "Rare": {
+      "Enhanced": "1d 21h 22m 30s",
+      "Enhanced_Skin": "1d 15h 19m 30s",
+      "Standard": "2d 12h 30m",
+      "Standard_Skin": "2d 6h 27m"
+    }
+  },
+  "Plinkajou": {
+    "Common": {
+      "Enhanced": "1d 13h 30m",
+      "Enhanced_Skin": "1d 8h 30m",
+      "Standard": "2d 2h",
+      "Standard_Skin": "1d 21h"
+    },
+    "Rare": {
+      "Enhanced": "1d 21h 22m 30s",
+      "Enhanced_Skin": "1d 15h 19m 30s",
+      "Standard": "2d 12h 30m",
+      "Standard_Skin": "2d 6h 27m"
+    }
+  },
+  "Pluckbill": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "PomPom": {
+    "Common": {
+      "Enhanced": "9h",
+      "Enhanced_Skin": "7h 48m",
+      "Standard": "12h",
+      "Standard_Skin": "10h 48m"
+    },
+    "Epic": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "11h 37m 30s",
+      "Enhanced_Skin": "10h 4m 30s",
+      "Standard": "15h 30m",
+      "Standard_Skin": "13h 57m"
+    }
+  },
+  "PongPing": {
+    "Common": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    },
+    "Epic": {
+      "Enhanced": "1d 11h 15m",
+      "Enhanced_Skin": "1d 6h 33m",
+      "Standard": "1d 23h",
+      "Standard_Skin": "1d 18h 18m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Poppette": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Potbelly": {
+    "Common": {
+      "Enhanced": "1h 30m",
+      "Enhanced_Skin": "1h 18m",
+      "Standard": "2h",
+      "Standard_Skin": "1h 48m"
+    },
+    "Epic": {
+      "Enhanced": "6h 45m",
+      "Enhanced_Skin": "5h 51m",
+      "Standard": "9h",
+      "Standard_Skin": "8h 6m"
+    },
+    "Rare": {
+      "Enhanced": "4h 30m",
+      "Enhanced_Skin": "3h 54m",
+      "Standard": "6h",
+      "Standard_Skin": "5h 24m"
+    }
+  },
+  "Pummel": {
+    "Common": {
+      "Enhanced": "9h",
+      "Enhanced_Skin": "7h 48m",
+      "Standard": "12h",
+      "Standard_Skin": "10h 48m"
+    },
+    "Epic": {
+      "Enhanced": "23h 15m",
+      "Enhanced_Skin": "20h 9m",
+      "Standard": "1d 7h",
+      "Standard_Skin": "1d 3h 54m"
+    },
+    "Rare": {
+      "Enhanced": "11h 37m 30s",
+      "Enhanced_Skin": "10h 4m 30s",
+      "Standard": "15h 30m",
+      "Standard_Skin": "13h 57m"
+    }
+  },
+  "Punkleton": {
+    "Common": {
+      "Enhanced": "13h 30m",
+      "Enhanced_Skin": "11h 42m",
+      "Standard": "18h",
+      "Standard_Skin": "16h 12m"
+    },
+    "Epic": {
+      "Enhanced": "23h 22m 30s",
+      "Enhanced_Skin": "20h 15m 30s",
+      "Standard": "1d 7h 10m",
+      "Standard_Skin": "1d 4h 3m"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Quarrister": {
+    "Common": {
+      "Enhanced": "18h",
+      "Enhanced_Skin": "15h 36m",
+      "Standard": "1d",
+      "Standard_Skin": "21h 36m"
+    },
+    "Epic": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Quibble": {
+    "Common": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    },
+    "Epic": {
+      "Enhanced": "15h 45m",
+      "Enhanced_Skin": "13h 39m",
+      "Standard": "21h",
+      "Standard_Skin": "18h 54m"
+    },
+    "Rare": {
+      "Enhanced": "7h 52m 30s",
+      "Enhanced_Skin": "6h 49m 30s",
+      "Standard": "10h 30m",
+      "Standard_Skin": "9h 27m"
+    }
+  },
+  "Reebro": {
+    "Common": {
+      "Enhanced": "1d 3h",
+      "Enhanced_Skin": "23h 24m",
+      "Standard": "1d 12h",
+      "Standard_Skin": "1d 8h 24m"
+    },
+    "Epic": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    },
+    "Rare": {
+      "Enhanced": "1d 10h 7m 30s",
+      "Enhanced_Skin": "1d 5h 34m 30s",
+      "Standard": "1d 21h 30m",
+      "Standard_Skin": "1d 16h 57m"
+    }
+  },
+  "Reedling": {
+    "Common": {
+      "Enhanced": "9h",
+      "Enhanced_Skin": "7h 48m",
+      "Standard": "12h",
+      "Standard_Skin": "10h 48m"
+    },
+    "Epic": {
+      "Enhanced": "12h 45m",
+      "Enhanced_Skin": "11h 3m",
+      "Standard": "17h",
+      "Standard_Skin": "15h 18m"
+    },
+    "Rare": {
+      "Enhanced": "11h 37m 30s",
+      "Enhanced_Skin": "10h 4m 30s",
+      "Standard": "15h 30m",
+      "Standard_Skin": "13h 57m"
+    }
+  },
+  "Repatillo": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Epic": {
+      "Enhanced": "1d 45m",
+      "Enhanced_Skin": "21h 27m",
+      "Standard": "1d 9h",
+      "Standard_Skin": "1d 5h 42m"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "Rhysmuth": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    }
+  },
+  "Riff": {
+    "Common": {
+      "Enhanced": "18h",
+      "Enhanced_Skin": "15h 36m",
+      "Standard": "1d",
+      "Standard_Skin": "21h 36m"
+    },
+    "Epic": {
+      "Enhanced": "1d 5h 15m",
+      "Enhanced_Skin": "1d 1h 21m",
+      "Standard": "1d 15h",
+      "Standard_Skin": "1d 11h 6m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Roarick": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "Rooba": {
+    "Common": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    },
+    "Epic": {
+      "Enhanced": "2d 10h 33m 45s",
+      "Enhanced_Skin": "2d 2h 45m 15s",
+      "Standard": "3d 6h 5m",
+      "Standard_Skin": "2d 22h 16m 30s"
+    },
+    "Rare": {
+      "Enhanced": "1d 8h 37m 30s",
+      "Enhanced_Skin": "1d 4h 16m 30s",
+      "Standard": "1d 19h 30m",
+      "Standard_Skin": "1d 15h 9m"
+    }
+  },
+  "Rootitoot": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Epic": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "Scallyrags": {
+    "Common": {
+      "Enhanced": "1d 9h 45m",
+      "Enhanced_Skin": "1d 5h 15m",
+      "Standard": "1d 21h",
+      "Standard_Skin": "1d 16h 30m"
+    }
+  },
+  "Schmoochle": {
+    "Common": {
+      "Enhanced": "23h 19m 52s",
+      "Enhanced_Skin": "20h 13m 13s",
+      "Standard": "1d 7h 6m 30s",
+      "Standard_Skin": "1d 3h 59m 51s"
+    },
+    "Epic": {
+      "Enhanced": "16h 40m 30s",
+      "Enhanced_Skin": "14h 27m 6s",
+      "Standard": "22h 14m",
+      "Standard_Skin": "20h 36s"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Scups": {
+    "Common": {
+      "Enhanced": "9h",
+      "Enhanced_Skin": "7h 48m",
+      "Standard": "12h",
+      "Standard_Skin": "10h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 3h 45m",
+      "Enhanced_Skin": "1d 3m",
+      "Standard": "1d 13h",
+      "Standard_Skin": "1d 9h 18m"
+    },
+    "Rare": {
+      "Enhanced": "11h 37m 30s",
+      "Enhanced_Skin": "10h 4m 30s",
+      "Standard": "15h 30m",
+      "Standard_Skin": "13h 57m"
+    }
+  },
+  "ShLep": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "1d 1h 18m 45s",
+      "Enhanced_Skin": "21h 56m 15s",
+      "Standard": "1d 9h 45m",
+      "Standard_Skin": "1d 6h 22m 30s"
+    }
+  },
+  "Shellbeat": {
+    "Common": {
+      "Enhanced": "18h",
+      "Enhanced_Skin": "15h 36m",
+      "Standard": "1d",
+      "Standard_Skin": "21h 36m"
+    },
+    "Epic": {
+      "Enhanced": "1d 8h 15m",
+      "Enhanced_Skin": "1d 3h 57m",
+      "Standard": "1d 19h",
+      "Standard_Skin": "1d 14h 42m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Shhimmer": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    }
+  },
+  "Shrubb": {
+    "Common": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    },
+    "Epic": {
+      "Enhanced": "14h 15m",
+      "Enhanced_Skin": "12h 21m",
+      "Standard": "19h",
+      "Standard_Skin": "17h 6m"
+    },
+    "Rare": {
+      "Enhanced": "7h 52m 30s",
+      "Enhanced_Skin": "6h 49m 30s",
+      "Standard": "10h 30m",
+      "Standard_Skin": "9h 27m"
+    }
+  },
+  "Shugabass": {
+    "Common": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Shugabeats": {
+    "Common": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Shugabush": {
+    "Common": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Shugabuzz": {
+    "Common": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Shugajo": {
+    "Common": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Shugarock": {
+    "Common": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Shugavox": {
+    "Common": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Shugitar": {
+    "Common": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Sneyser": {
+    "Common": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    },
+    "Epic": {
+      "Enhanced": "1d 6h 45m",
+      "Enhanced_Skin": "1d 2h 39m",
+      "Standard": "1d 17h",
+      "Standard_Skin": "1d 12h 54m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Sooza": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Epic": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "Sox": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 3h",
+      "Enhanced_Skin": "23h 24m",
+      "Standard": "1d 12h",
+      "Standard_Skin": "1d 8h 24m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Sporerow": {
+    "Common": {
+      "Enhanced": "1d 3h 45m",
+      "Enhanced_Skin": "1d 3m",
+      "Standard": "1d 13h",
+      "Standard_Skin": "1d 9h 18m"
+    },
+    "Epic": {
+      "Enhanced": "1d 22h 6m",
+      "Enhanced_Skin": "1d 15h 57m 12s",
+      "Standard": "2d 13h 28m",
+      "Standard_Skin": "2d 7h 19m 12s"
+    },
+    "Rare": {
+      "Enhanced": "1d 10h 41m 15s",
+      "Enhanced_Skin": "1d 6h 3m 45s",
+      "Standard": "1d 22h 15m",
+      "Standard_Skin": "1d 17h 37m 30s"
+    }
+  },
+  "Spunge": {
+    "Common": {
+      "Enhanced": "9h",
+      "Enhanced_Skin": "7h 48m",
+      "Standard": "12h",
+      "Standard_Skin": "10h 48m"
+    },
+    "Epic": {
+      "Enhanced": "18h 45m",
+      "Enhanced_Skin": "16h 15m",
+      "Standard": "1d 1h",
+      "Standard_Skin": "22h 30m"
+    },
+    "Rare": {
+      "Enhanced": "11h 37m 30s",
+      "Enhanced_Skin": "10h 4m 30s",
+      "Standard": "15h 30m",
+      "Standard_Skin": "13h 57m"
+    }
+  },
+  "Spurrit": {
+    "Common": {
+      "Enhanced": "15h 13m 30s",
+      "Enhanced_Skin": "13h 11m 42s",
+      "Standard": "20h 18m",
+      "Standard_Skin": "18h 16m 12s"
+    },
+    "Epic": {
+      "Enhanced": "20h 30m",
+      "Enhanced_Skin": "17h 46m",
+      "Standard": "1d 3h 20m",
+      "Standard_Skin": "1d 36m"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Spytrap": {
+    "Common": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    },
+    "Rare": {
+      "Enhanced": "1d 8h 37m 30s",
+      "Enhanced_Skin": "1d 4h 16m 30s",
+      "Standard": "1d 19h 30m",
+      "Standard_Skin": "1d 15h 9m"
+    }
+  },
+  "Squot": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Stogg": {
+    "Common": {
+      "Enhanced": "7h 30m",
+      "Enhanced_Skin": "6h 30m",
+      "Standard": "10h",
+      "Standard_Skin": "9h"
+    },
+    "Epic": {
+      "Enhanced": "21h 45m",
+      "Enhanced_Skin": "18h 51m",
+      "Standard": "1d 5h",
+      "Standard_Skin": "1d 2h 6m"
+    },
+    "Rare": {
+      "Enhanced": "10h 7m 30s",
+      "Enhanced_Skin": "8h 46m 30s",
+      "Standard": "13h 30m",
+      "Standard_Skin": "12h 9m"
+    }
+  },
+  "Stoowarb": {
+    "Common": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    }
+  },
+  "Strombonin": {
+    "Common": {
+      "Enhanced": "17h 15m",
+      "Enhanced_Skin": "14h 57m",
+      "Standard": "23h",
+      "Standard_Skin": "20h 42m"
+    },
+    "Epic": {
+      "Enhanced": "1d 1h 52m 30s",
+      "Enhanced_Skin": "22h 25m 30s",
+      "Standard": "1d 10h 30m",
+      "Standard_Skin": "1d 7h 3m"
+    },
+    "Rare": {
+      "Enhanced": "21h 33m 45s",
+      "Enhanced_Skin": "18h 41m 15s",
+      "Standard": "1d 4h 45m",
+      "Standard_Skin": "1d 1h 52m 30s"
+    }
+  },
+  "T-Rox": {
+    "Common": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    },
+    "Epic": {
+      "Enhanced": "14h 15m",
+      "Enhanced_Skin": "12h 21m",
+      "Standard": "19h",
+      "Standard_Skin": "17h 6m"
+    },
+    "Rare": {
+      "Enhanced": "7h 52m 30s",
+      "Enhanced_Skin": "6h 49m 30s",
+      "Standard": "10h 30m",
+      "Standard_Skin": "9h 27m"
+    }
+  },
+  "Tapricorn": {
+    "Common": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    },
+    "Rare": {
+      "Enhanced": "1d 8h 37m 30s",
+      "Enhanced_Skin": "1d 4h 16m 30s",
+      "Standard": "1d 19h 30m",
+      "Standard_Skin": "1d 15h 9m"
+    }
+  },
+  "Tawkerr": {
+    "Common": {
+      "Enhanced": "6h",
+      "Enhanced_Skin": "5h 12m",
+      "Standard": "8h",
+      "Standard_Skin": "7h 12m"
+    }
+  },
+  "Teeter-Tauter": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    }
+  },
+  "Theremind": {
+    "Common": {
+      "Enhanced": "15h 45m",
+      "Enhanced_Skin": "13h 39m",
+      "Standard": "21h",
+      "Standard_Skin": "18h 54m"
+    },
+    "Rare": {
+      "Enhanced": "19h 30m",
+      "Enhanced_Skin": "16h 54m",
+      "Standard": "1d 2h",
+      "Standard_Skin": "23h 24m"
+    }
+  },
+  "Thrumble": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Epic": {
+      "Enhanced": "23h 15m",
+      "Enhanced_Skin": "20h 9m",
+      "Standard": "1d 7h",
+      "Standard_Skin": "1d 3h 54m"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "Thumpies": {
+    "Common": {
+      "Enhanced": "9h",
+      "Enhanced_Skin": "7h 48m",
+      "Standard": "12h",
+      "Standard_Skin": "10h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 45m",
+      "Enhanced_Skin": "21h 27m",
+      "Standard": "1d 9h",
+      "Standard_Skin": "1d 5h 42m"
+    },
+    "Rare": {
+      "Enhanced": "11h 37m 30s",
+      "Enhanced_Skin": "10h 4m 30s",
+      "Standard": "15h 30m",
+      "Standard_Skin": "13h 57m"
+    }
+  },
+  "Tiawa": {
+    "Common": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    },
+    "Epic": {
+      "Enhanced": "1d 12h 45m",
+      "Enhanced_Skin": "1d 7h 51m",
+      "Standard": "2d 1h",
+      "Standard_Skin": "1d 20h 6m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Toe Jammer": {
+    "Common": {
+      "Enhanced": "45s",
+      "Enhanced_Skin": "39s",
+      "Standard": "1m",
+      "Standard_Skin": "54s"
+    },
+    "Epic": {
+      "Enhanced": "2h 15m",
+      "Enhanced_Skin": "1h 57m",
+      "Standard": "3h",
+      "Standard_Skin": "2h 42m"
+    },
+    "Rare": {
+      "Enhanced": "4h 30m",
+      "Enhanced_Skin": "3h 54m",
+      "Standard": "6h",
+      "Standard_Skin": "5h 24m"
+    }
+  },
+  "TooToo": {
+    "Common": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    },
+    "Epic": {
+      "Enhanced": "2d 5h 18m 45s",
+      "Enhanced_Skin": "1d 22h 12m 15s",
+      "Standard": "2d 23h 5m",
+      "Standard_Skin": "2d 15h 58m 30s"
+    },
+    "Rare": {
+      "Enhanced": "1d 8h 37m 30s",
+      "Enhanced_Skin": "1d 4h 16m 30s",
+      "Standard": "1d 19h 30m",
+      "Standard_Skin": "1d 15h 9m"
+    }
+  },
+  "Tring": {
+    "Common": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    },
+    "Epic": {
+      "Enhanced": "1d 9h 45m",
+      "Enhanced_Skin": "1d 5h 15m",
+      "Standard": "1d 21h",
+      "Standard_Skin": "1d 16h 30m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Tuskski": {
+    "Common": {
+      "Enhanced": "2d 12h",
+      "Enhanced_Skin": "2d 4h",
+      "Standard": "3d 8h",
+      "Standard_Skin": "3d"
+    },
+    "Epic": {
+      "Enhanced": "1d 17h 15m",
+      "Enhanced_Skin": "1d 11h 45m",
+      "Standard": "2d 7h",
+      "Standard_Skin": "2d 1h 30m"
+    },
+    "Rare": {
+      "Enhanced": "2d 23h 37m 30s",
+      "Enhanced_Skin": "2d 14h 4m 30s",
+      "Standard": "3d 23h 30m",
+      "Standard_Skin": "3d 13h 57m"
+    }
+  },
+  "Tweedle": {
+    "Common": {
+      "Enhanced": "3h",
+      "Enhanced_Skin": "2h 36m",
+      "Standard": "4h",
+      "Standard_Skin": "3h 36m"
+    },
+    "Epic": {
+      "Enhanced": "8h 15m",
+      "Enhanced_Skin": "7h 9m",
+      "Standard": "11h",
+      "Standard_Skin": "9h 54m"
+    },
+    "Rare": {
+      "Enhanced": "4h 30m",
+      "Enhanced_Skin": "3h 54m",
+      "Standard": "6h",
+      "Standard_Skin": "5h 24m"
+    }
+  },
+  "Uuduk": {
+    "Common": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    },
+    "Rare": {
+      "Enhanced": "1d 8h 37m 30s",
+      "Enhanced_Skin": "1d 4h 16m 30s",
+      "Standard": "1d 19h 30m",
+      "Standard_Skin": "1d 15h 9m"
+    }
+  },
+  "Vhenshun": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    }
+  },
+  "Viveine": {
+    "Common": {
+      "Enhanced": "19h 34m",
+      "Enhanced_Skin": "16h 57m 28s",
+      "Standard": "1d 2h 5m 20s",
+      "Standard_Skin": "23h 28m 48s"
+    },
+    "Epic": {
+      "Enhanced": "1d 7m 30s",
+      "Enhanced_Skin": "20h 54m 30s",
+      "Standard": "1d 8h 10m",
+      "Standard_Skin": "1d 4h 57m"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Whaddle": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Epic": {
+      "Enhanced": "18h 45m",
+      "Enhanced_Skin": "16h 15m",
+      "Standard": "1d 1h",
+      "Standard_Skin": "22h 30m"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "Whaill": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    },
+    "Rare": {
+      "Enhanced": "1d 9h 45m",
+      "Enhanced_Skin": "1d 5h 15m",
+      "Standard": "1d 21h",
+      "Standard_Skin": "1d 16h 30m"
+    }
+  },
+  "Wheezel": {
+    "Common": {
+      "Enhanced": "1d 3h 45m",
+      "Enhanced_Skin": "1d 3m",
+      "Standard": "1d 13h",
+      "Standard_Skin": "1d 9h 18m"
+    },
+    "Rare": {
+      "Enhanced": "1d 10h 41m 15s",
+      "Enhanced_Skin": "1d 6h 3m 45s",
+      "Standard": "1d 22h 15m",
+      "Standard_Skin": "1d 17h 37m 30s"
+    }
+  },
+  "Whisp": {
+    "Common": {
+      "Enhanced": "1d 7h 30m",
+      "Enhanced_Skin": "1d 3h 18m",
+      "Standard": "1d 18h",
+      "Standard_Skin": "1d 13h 48m"
+    },
+    "Epic": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Whiz-bang": {
+    "Common": {
+      "Enhanced": "21h 4m 30s",
+      "Enhanced_Skin": "18h 15m 54s",
+      "Standard": "1d 4h 6m",
+      "Standard_Skin": "1d 1h 17m 24s"
+    },
+    "Epic": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Wimmzies": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Withur": {
+    "Common": {
+      "Enhanced": "1d 1h 30m",
+      "Enhanced_Skin": "22h 6m",
+      "Standard": "1d 10h",
+      "Standard_Skin": "1d 6h 36m"
+    },
+    "Rare": {
+      "Enhanced": "1d 8h 37m 30s",
+      "Enhanced_Skin": "1d 4h 16m 30s",
+      "Standard": "1d 19h 30m",
+      "Standard_Skin": "1d 15h 9m"
+    }
+  },
+  "Woolabee": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Epic": {
+      "Enhanced": "1d 8h 15m",
+      "Enhanced_Skin": "1d 3h 57m",
+      "Standard": "1d 19h",
+      "Standard_Skin": "1d 14h 42m"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "Wubbox": {
+    "Common": {
+      "Enhanced": "1d 12h",
+      "Enhanced_Skin": "1d 7h 12m",
+      "Standard": "2d",
+      "Standard_Skin": "1d 19h 12m"
+    },
+    "Rare": {
+      "Enhanced": "1d 21h",
+      "Enhanced_Skin": "1d 15h",
+      "Standard": "2d 12h",
+      "Standard_Skin": "2d 6h"
+    }
+  },
+  "Wynq": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Epic": {
+      "Enhanced": "21h 45m",
+      "Enhanced_Skin": "18h 51m",
+      "Standard": "1d 5h",
+      "Standard_Skin": "1d 2h 6m"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "X'rt": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    }
+  },
+  "Xyster": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  },
+  "Yawstrich": {
+    "Common": {
+      "Enhanced": "21h",
+      "Enhanced_Skin": "18h 12m",
+      "Standard": "1d 4h",
+      "Standard_Skin": "1d 1h 12m"
+    },
+    "Epic": {
+      "Enhanced": "1d 4h 47m 15s",
+      "Enhanced_Skin": "1d 56m 57s",
+      "Standard": "1d 14h 23m",
+      "Standard_Skin": "1d 10h 32m 42s"
+    },
+    "Rare": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Yelmut": {
+    "Common": {
+      "Enhanced": "1d 6h",
+      "Enhanced_Skin": "1d 2h",
+      "Standard": "1d 16h",
+      "Standard_Skin": "1d 12h"
+    },
+    "Epic": {
+      "Enhanced": "1d 5h 15m",
+      "Enhanced_Skin": "1d 1h 21m",
+      "Standard": "1d 15h",
+      "Standard_Skin": "1d 11h 6m"
+    },
+    "Rare": {
+      "Enhanced": "1d 15h 22m 30s",
+      "Enhanced_Skin": "1d 10h 7m 30s",
+      "Standard": "2d 4h 30m",
+      "Standard_Skin": "1d 23h 15m"
+    }
+  },
+  "Yool": {
+    "Common": {
+      "Enhanced": "1d 3h",
+      "Enhanced_Skin": "23h 24m",
+      "Standard": "1d 12h",
+      "Standard_Skin": "1d 8h 24m"
+    },
+    "Epic": {
+      "Enhanced": "18h 54m",
+      "Enhanced_Skin": "16h 22m 48s",
+      "Standard": "1d 1h 12m",
+      "Standard_Skin": "22h 40m 48s"
+    },
+    "Rare": {
+      "Enhanced": "23h 48m 45s",
+      "Enhanced_Skin": "20h 38m 15s",
+      "Standard": "1d 7h 45m",
+      "Standard_Skin": "1d 4h 34m 30s"
+    }
+  },
+  "Yooreek": {
+    "Common": {
+      "Enhanced": "22h 30m",
+      "Enhanced_Skin": "19h 30m",
+      "Standard": "1d 6h",
+      "Standard_Skin": "1d 3h"
+    },
+    "Rare": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    }
+  },
+  "Yuggler": {
+    "Common": {
+      "Enhanced": "20h 15m",
+      "Enhanced_Skin": "17h 33m",
+      "Standard": "1d 3h",
+      "Standard_Skin": "1d 18m"
+    },
+    "Rare": {
+      "Enhanced": "22h 52m 30s",
+      "Enhanced_Skin": "19h 49m 30s",
+      "Standard": "1d 6h 30m",
+      "Standard_Skin": "1d 3h 27m"
+    }
+  },
+  "Ziggurab": {
+    "Common": {
+      "Enhanced": "15h",
+      "Enhanced_Skin": "13h",
+      "Standard": "20h",
+      "Standard_Skin": "18h"
+    },
+    "Epic": {
+      "Enhanced": "1d 2h 15m",
+      "Enhanced_Skin": "22h 45m",
+      "Standard": "1d 11h",
+      "Standard_Skin": "1d 7h 30m"
+    },
+    "Rare": {
+      "Enhanced": "19h 52m 30s",
+      "Enhanced_Skin": "17h 13m 30s",
+      "Standard": "1d 2h 30m",
+      "Standard_Skin": "23h 51m"
+    }
+  }
+}

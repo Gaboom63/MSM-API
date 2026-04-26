@@ -1,6 +1,7 @@
 import os
 import json
 import shutil
+import re
 from pathlib import Path
 
 def finalize_organization():
@@ -8,80 +9,88 @@ def finalize_organization():
     target_dir = Path("costumes")
     json_path = Path("costumes.json")
     
-    # The structure for our JSON
+    # 1. Load the existing JSON so we append to it
     costume_data = {}
+    if json_path.exists():
+        with open(json_path, 'r', encoding='utf-8') as f:
+            try:
+                costume_data = json.load(f)
+            except json.JSONDecodeError:
+                print("Warning: Existing JSON was invalid or empty. Starting fresh.")
 
     if not source_dir.exists():
-        print(f"Error: {source_dir} not found.")
+        print(f"Error: {source_dir} not found. Nothing to finalize.")
         return
 
-    # List of known rarities to check for at the start of filenames
-    rarity_types = ["Rare", "Epic"]
-
-    print("Sorting costumes and generating JSON...")
+    print("Sorting costumes and updating JSON...")
+    moved_count = 0
 
     for file_path in source_dir.iterdir():
-        if file_path.suffix.lower() not in ['.png', '.jpg', '.jpeg', '.gif']:
+        if file_path.suffix.lower() not in ['.png', '.jpg', '.jpeg', '.gif', '.webp']:
             continue
 
         original_name = file_path.name
-        # Clean name for parsing (remove extension)
-        clean_name = file_path.stem
         
-        # 1. Determine Rarity
+        # 2. Normalize: Swap underscores for spaces so we always have clean text to read
+        clean_name = file_path.stem.replace("_", " ")
+        
+        # 3. Safely Extract Rarity using Regex
         rarity = "Common"
-        name_parts = clean_name.split()
+        rarity_match = re.match(r'^(Rare|Epic)\s+(.*)', clean_name, re.IGNORECASE)
         
-        if name_parts[0] in rarity_types:
-            rarity = name_parts[0]
-            # Remove the rarity prefix from the name parts for monster identification
-            monster_parts = name_parts[1:]
-        else:
-            monster_parts = name_parts
-
-        # 2. Extract Monster Name
-        # We look for the first part of the name before any "(" or special keywords
-        monster_name = ""
-        actual_name_parts = []
-        for part in monster_parts:
-            if "(" in part or part.lower() in ["spooktacle", "yay", "playing"]:
-                break
-            actual_name_parts.append(part)
+        if rarity_match:
+            rarity = rarity_match.group(1).capitalize() # Capitalizes "rare" to "Rare"
+            clean_name = rarity_match.group(2) # The rest of the filename
+            
+        # 4. Extract Monster Name using Regex Split
+        # FIXED: Moved (?i) to the very start of the string!
+        split_pattern = r'(?i)\(|\b(costumes?|spooktacle|yay|playing)\b| - '
         
-        monster_name = " ".join(actual_name_parts).strip()
+        # Take the first chunk (everything before the parenthesis/keyword)
+        monster_name_raw = re.split(split_pattern, clean_name)[0]
+        
+        # Clean up trailing whitespace and any random quotes Fandom uses
+        monster_name = monster_name_raw.strip().replace('"', '')
 
-        # Fallback: if somehow monster_name is empty, use the first word
+        # Fallback just in case
         if not monster_name:
-            monster_name = monster_parts[0]
+            monster_name = "Unknown"
 
-        # 3. Create Folder Structure: costumes/Rarity/MonsterName/
+        # 5. Create Folders & Move
         dest_folder = target_dir / rarity / monster_name
         dest_folder.mkdir(parents=True, exist_ok=True)
 
-        # 4. Move the file
-        # We rename the file to use underscores as per your JSON example
         json_filename = original_name.replace(" ", "_")
         dest_file_path = dest_folder / json_filename
         
-        shutil.move(str(file_path), str(dest_file_path))
+        if not dest_file_path.exists():
+            shutil.move(str(file_path), str(dest_file_path))
+            moved_count += 1
+        else:
+            # File is already safely organized, delete the loose duplicate
+            file_path.unlink()
 
-        # 5. Update JSON Data
+        # 6. Update JSON Data incrementally
         if monster_name not in costume_data:
             costume_data[monster_name] = {"Common": [], "Rare": [], "Epic": []}
         
-        # Add to the list (using the underscore version for the JSON)
+        if rarity not in costume_data[monster_name]:
+            costume_data[monster_name][rarity] = []
+            
         if json_filename not in costume_data[monster_name][rarity]:
             costume_data[monster_name][rarity].append(json_filename)
 
-    # Clean up empty rarity keys in the JSON to keep it tidy
-    for monster in costume_data:
+    # Clean up empty keys in the JSON to keep it tidy
+    for monster in list(costume_data.keys()):
         costume_data[monster] = {k: v for k, v in costume_data[monster].items() if v}
+        if not costume_data[monster]: 
+            del costume_data[monster]
 
-    # Write the JSON file
+    # Write out the final JSON
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(costume_data, f, indent=2, sort_keys=True)
 
-    print(f"\nDone! Sorted files into '{target_dir}/' and created '{json_path}'.")
+    print(f"\nDone! Moved {moved_count} files into '{target_dir}/' and updated '{json_path}'.")
 
 if __name__ == "__main__":
     finalize_organization()

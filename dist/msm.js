@@ -1,17 +1,14 @@
 (function (global) {
-  /* ---------------- CONFIG & PERSISTENT CACHE ---------------- */
   let COMMIT_HASH = localStorage.getItem('msm_api_hash') || 'main'; 
-  let BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, COSTUME_INDEX_URL, ELEMENT_INDEX_URL, SOUND_INDEX_URL, LIKES_INDEX_URL;
+  let BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, MASTER_DB_URL;
+
   function updateUrls() {
-    BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/monsters/`;
+    BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/`;
+    MASTER_DB_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/master_database.json`;
     IMAGE_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/images/bm/`;
     SOUND_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/sounds/`;
     ELEMENTS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/images/elements/`;
-    BREEDING_FILE_PATH = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/monsters/Extras/breedingCombos.json`;
-    COSTUME_INDEX_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes.json`;
-    ELEMENT_INDEX_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/elements.json`;
-    SOUND_INDEX_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/sounds.json`;
-    LIKES_INDEX_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/likes.json`;
+    BREEDING_FILE_PATH = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/JSONS/breedingCombos.json`;
   }
 
   function getStringSimilarity(str1, str2) {
@@ -37,7 +34,6 @@
     const lastCheck = localStorage.getItem('msm_hash_last_check') || 0;
     const now = Date.now();
     
-    // Only check GitHub API once every 10 minutes to prevent rate limiting
     if (now - lastCheck < 600000 && COMMIT_HASH !== 'main') {
         updateUrls();
         return;
@@ -53,7 +49,6 @@
           COMMIT_HASH = data.sha;
           localStorage.setItem('msm_api_hash', COMMIT_HASH);
           
-          // Cleanup routine to delete old versioned data from LocalStorage
           Object.keys(localStorage).forEach(key => {
               if (key.startsWith('msm_') && key.includes(oldHash)) {
                   localStorage.removeItem(key);
@@ -70,26 +65,17 @@
   updateUrls();
   const syncPromise = syncToLatestCommit();
 
+  // Unified Database Cache System
   const cache = {}; 
-  let breedingCache = null;
-  let costumeCache = null;
-  let elementCache = null;
-  let soundCache = null;
-  let likesCache = null;
-  let nameRegistry = {};
-  const fetchPromises = {}; // Prevents overlapping duplicate network requests
+  const fetchPromises = {};
+  let dbCache = null;
 
-  /* ---------------- HELPERS ---------------- */
   async function fetchWithCache(storageKey, url) {
-    // 1. Check in-memory cache first
     if (cache[storageKey]) return cache[storageKey];
-    
-    // 2. If a request for this URL is already in progress, wait for it instead of firing a new one
     if (fetchPromises[storageKey]) return fetchPromises[storageKey];
 
     const versionedKey = `msm_${COMMIT_HASH}_${storageKey}`;
     
-    // 3. Check LocalStorage (wrapped safely)
     try {
         const saved = localStorage.getItem(versionedKey);
         if (saved) {
@@ -98,36 +84,24 @@
             return parsed;
         }
     } catch (e) {
-        console.warn(`Failed to read from LocalStorage for ${storageKey}`, e);
+        console.warn(`Failed to read from LocalStorage for ${storageKey}`);
     }
 
-    // 4. Create and store the fetch promise
     const fetchPromise = (async () => {
         try {
             const res = await fetch(url, { credentials: 'omit' });
-            
-            // CRITICAL: Ensure the response is actually valid before parsing JSON
-            if (!res.ok) {
-                throw new Error(`HTTP Error: ${res.status} ${res.statusText}`);
-            }
-            
+            if (!res.ok) throw new Error(`HTTP Error: ${res.status}`);
             const data = await res.json();
-            cache[storageKey] = data; // Save to in-memory cache
-
-            // CRITICAL: Isolate LocalStorage writing. If it fails (Quota Exceeded), 
-            // the app keeps working using the in-memory cache instead of breaking.
+            cache[storageKey] = data; 
             try {
                 localStorage.setItem(versionedKey, JSON.stringify(data));
             } catch (storageErr) {
-                console.warn("LocalStorage is full! Proceeding with in-memory cache.", storageErr);
+                console.warn("LocalStorage is full! Proceeding with in-memory cache.");
             }
-
             return data;
         } catch (e) { 
-            console.error(`Fetch failed for ${url}:`, e);
             return null; 
         } finally {
-            // Cleanup the promise from the tracker once finished
             delete fetchPromises[storageKey];
         }
     })();
@@ -135,29 +109,26 @@
     fetchPromises[storageKey] = fetchPromise;
     return fetchPromise;
   }
-  /* ---------------- ELEMENTS ---------------- */
-  let elementDbPromise = null;
-  
-  async function getElementDatabase() {
-    await syncPromise;
-    if (elementCache) return elementCache;
 
-    if (!elementDbPromise) {
-        elementDbPromise = fetchWithCache('elements_db', ELEMENT_INDEX_URL).then(data => {
-            elementCache = data || {};
-            return elementCache;
-        });
-    }
-    return elementDbPromise;
+  // Fetch the single optimized master database
+  async function initDatabases() {
+    await syncPromise;
+    if (dbCache) return dbCache;
+
+    dbCache = await fetchWithCache('master_db', MASTER_DB_URL);
+    return dbCache || {};
   }
 
-  function normalizeElementName(name) { return name.toLowerCase().replace(/\s+/g, "-"); }
-
-  /* ---------------- BREEDING ---------------- */
+  // Breeding combo calculator logic
+  let breedingCache = null;
+  let nameRegistry = {};
+  
   async function getBreedingDatabase() {
-    await syncPromise;
+    await initDatabases();
     if (breedingCache) return breedingCache;
-    const rawData = await fetchWithCache('breeding_db', BREEDING_FILE_PATH);
+    
+    // Check if the master database included breedingCombos. If not, fetch it separately.
+    const rawData = dbCache['breedingCombos'] || await fetchWithCache('breeding_db', BREEDING_FILE_PATH);
     if (!rawData) return {};
 
     const processed = {};
@@ -181,67 +152,6 @@
     return db[searchKey] || ["No combination found."];
   }
 
-  /* ---------------- COSTUMES ---------------- */
-  async function getCostumeDatabase() {
-    await syncPromise;
-    if (costumeCache) return costumeCache;
-    costumeCache = await fetchWithCache('costumes_db', COSTUME_INDEX_URL);
-    return costumeCache || {};
-  }
-
-  async function resolveCostumes(monsterName, rarity = "Common") {
-    const db = await getCostumeDatabase();
-    const safeRarity = rarity ? rarity.charAt(0).toUpperCase() + rarity.slice(1).toLowerCase() : "Common";
-    const cleanName = monsterName.replace(/^(rare|epic)\s+/i, "").trim().replace(/^Adult\s+/i, "");
-    
-    const entry = db?.[cleanName];
-    if (!entry || !Array.isArray(entry[safeRarity])) return [];
-    
-    const basePath = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${safeRarity}/${encodeURIComponent(cleanName)}/`;
-    return entry[safeRarity].map(file => `${basePath}${encodeURIComponent(file)}`);
-  }
-
-  /* ---------------- SOUNDS ---------------- */
-  async function getSoundDatabase() {
-    await syncPromise;
-    if (soundCache) return soundCache;
-    soundCache = await fetchWithCache('sounds_db', SOUND_INDEX_URL);
-    return soundCache || {};
-  }
-
-  async function resolveSounds(monsterName, rarity = "Common") {
-    const db = await getSoundDatabase();
-    const safeRarity = rarity ? rarity.charAt(0).toUpperCase() + rarity.slice(1).toLowerCase() : "Common";
-    const cleanName = monsterName.replace(/^(rare|epic)\s+/i, "").trim().replace(/^Adult\s+/i, "");
-    
-    const entry = db?.[cleanName];
-    if (!entry || !Array.isArray(entry[safeRarity])) return [];
-    
-    const basePath = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/sounds/${safeRarity}/${encodeURIComponent(cleanName)}/`;
-    return entry[safeRarity].map(file => `${basePath}${encodeURIComponent(file)}`);
-  }
-
-  /* ---------------- LIKES ---------------- */
-  async function getLikesDatabase() {
-    await syncPromise;
-    if (likesCache) return likesCache;
-    likesCache = await fetchWithCache('likes_db', LIKES_INDEX_URL);
-    return likesCache || {};
-  }
-
-  async function resolveLikes(monsterName, rarity = "Common") {
-    const db = await getLikesDatabase();
-    const safeRarity = rarity ? rarity.charAt(0).toUpperCase() + rarity.slice(1).toLowerCase() : "Common";
-    
-    // Strips "Adult" and "Rare/Epic" prefixes to match the clean JSON keys
-    const cleanName = monsterName.replace(/^(rare|epic)\s+/i, "").trim().replace(/^Adult\s+/i, "");
-    
-    const entry = db?.[cleanName];
-    // Since likes are just text strings, we don't need to append a URL base path!
-    return (entry && Array.isArray(entry[safeRarity])) ? entry[safeRarity] : [];
-  }
-
-  /* ---------------- PATH RESOLVER ---------------- */
   function resolveMonsterPath(rawName) {
       const lowerName = rawName.trim().toLowerCase();
       let folder = "Common", baseNameClean = rawName.trim();
@@ -252,85 +162,84 @@
           folder = "Epic"; baseNameClean = rawName.substring(5).trim(); 
       }
 
-      const registryKey = baseNameClean.toLowerCase();
-      if (nameRegistry[registryKey]) {
-          return { folder, file: nameRegistry[registryKey], baseNameClean };
-      }
+      const aliases = { "gnarl": "gnarls" };
+      const lookupKey = baseNameClean.toLowerCase();
+      if (aliases[lookupKey]) baseNameClean = aliases[lookupKey];
 
-      let fileName = null;
-      let bestScore = 0;
-      Object.values(nameRegistry).forEach(regName => {
-          const score = getStringSimilarity(baseNameClean, regName);
-          if (score > bestScore) {
-              bestScore = score;
-              fileName = regName;
-          }
-      });
-
-      fileName = fileName || (baseNameClean.charAt(0).toUpperCase() + baseNameClean.slice(1));
+      const fileName = (baseNameClean.charAt(0).toUpperCase() + baseNameClean.slice(1));
       return { folder, file: fileName, baseNameClean };
   }
 
-  /* ---------------- MAIN FETCH ---------------- */
+  // The fully optimized getMonster function
   async function getMonster(name) {
-    await syncPromise;
-    const { folder, file, baseNameClean } = resolveMonsterPath(name);
-    const storageKey = `monster_${folder}_${file}`;
-    const url = `${BASE_URL}${folder}/${encodeURIComponent(file)}.json`;
+    await initDatabases();
+    
+    const { folder: rarity, file, baseNameClean } = resolveMonsterPath(name);
+    const fullName = rarity === "Common" ? baseNameClean : `${rarity} ${baseNameClean}`;
 
-    const data = await fetchWithCache(storageKey, url);
-    if (!data) return null;
+    // 1. Text & Stats Lookups (O(1) Instant Object lookups mapping by Name)
+    const descObj = dbCache['Descriptions']?.[fullName] || dbCache['Descriptions']?.[baseNameClean];
+    const description = descObj ? descObj.description : "Description unavailable.";
 
-    try {
-      let rawImage = data.image || data.name;
-      if (!rawImage.toLowerCase().endsWith(".png")) rawImage += ".png";
+    const costObj = dbCache['Costs']?.[fullName] || dbCache['Costs']?.[baseNameClean] || {};
+    const primaryCost = costObj.coin_cost || costObj.diamond_cost || costObj.relic_cost || "N/A";
 
-      const finalImageUrl = rawImage.startsWith("http")
-        ? rawImage
-        : `${IMAGE_BASE_URL}${encodeURIComponent(rawImage.trim())}`;
+    // 2. Images Lookup
+    const imageManifest = dbCache['Image Manifest']?.[baseNameClean]?.[rarity] || {};
+    let finalImageUrl = imageManifest.full_image 
+            ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}${encodeURI(imageManifest.full_image)}`
+            : `${IMAGE_BASE_URL}${encodeURIComponent(file)}.png`;
 
-      const costumes = await resolveCostumes(data.name, folder);
-      const sounds = await resolveSounds(data.name, folder);
-      const likes = await resolveLikes(data.name, folder);
+    // Fast-fail if absolutely no data exists for this monster
+    if (!descObj && !Object.keys(costObj).length && !imageManifest.full_image) {
+        return null;
+    }
 
-      /* --- PRELOAD ELEMENTS --- */
-      const elementDb = await getElementDatabase();
-      const rawEls = data.element || data.elements || [];
-      let elements = Array.isArray(rawEls) ? rawEls.flat() : [];
+    // 3. Elements Lookup
+    const elementObj = dbCache['Elements']?.[baseNameClean];
+    let elements = elementObj ? (elementObj.Element || elementObj.elements || []) : [];
 
-      if (elements.length === 0 && (folder === "Rare" || folder === "Epic")) {
-        const commonPath = resolveMonsterPath(baseNameClean);
-        const commonKey = `monster_Common_${commonPath.file}`;
-        const commonUrl = `${BASE_URL}Common/${encodeURIComponent(commonPath.file)}.json`;
-        const commonData = await fetchWithCache(commonKey, commonUrl);
-
-        if (commonData) {
-          const commonRaw = commonData.element || commonData.elements || [];
-          elements = Array.isArray(commonRaw) ? commonRaw.flat() : [];
-        }
-      }
-
-      const elementsResolved = elements.map(el => {
-        const elName = typeof el === "object" ? (el.name || el.id) : el;
-        const normalized = normalizeElementName(elName);
-        const elFile = elementDb[elName] || elementDb[elName.toLowerCase()] || elementDb[normalized] || elementDb[`${normalized}-element`];
-
+    const elementImageDb = dbCache['Element Image Manifest'] || {};
+    const elementsResolved = elements.map(elName => {
+        const normalized = elName.toLowerCase().replace(/\s+/g, "-");
+        const elFile = elementImageDb[elName] || elementImageDb[normalized] || elementImageDb[`${normalized}-element`];
         return {
-          name: elName,
-          image: elFile ? `${ELEMENTS_URL}${encodeURIComponent(elFile)}` : null
+            name: elName,
+            image: elFile ? `${ELEMENTS_URL}${encodeURIComponent(elFile)}` : null
         };
-      });
+    });
 
-      /* ---------------- RETURN OBJECT ---------------- */
-      return {
-        ...data,
-        rarity: folder,
+    // 4. Mechanics Lookups
+    const breedingTimes = dbCache['Breeding Times']?.[baseNameClean]?.[rarity] || null;
+    const likes = dbCache['Likes']?.[baseNameClean]?.[rarity] || [];
+    const islandsList = dbCache['Islands']?.[fullName] || dbCache['Islands']?.[baseNameClean] || [];
+    const inventory = dbCache['Celestials']?.[fullName]?.Inventory || dbCache['Wublins']?.[baseNameClean]?.[rarity]?.Inventory || null;
+
+    // 5. Assets Lookups
+    const rawCostumes = dbCache['Costumes']?.[baseNameClean]?.[rarity] || [];
+    const costumes = rawCostumes.map(c => `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(c)}`);
+
+    const rawSounds = dbCache['Sounds']?.[baseNameClean]?.[rarity] || [];
+    const sounds = rawSounds.map(s => `${SOUND_BASE_URL}${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(s)}`);
+
+    // 6. Return the fully-assembled API object
+    return {
+        name: fullName,
+        baseName: baseNameClean,
+        rarity: rarity,
+        description: description,
+        costs: costObj,
+        cost: primaryCost,
         imageUrl: finalImageUrl,
-        likes,
-        costumes,
+        eggUrl: imageManifest.egg_image ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}${encodeURI(imageManifest.egg_image)}` : null,        elements: elements,
+        elementsResolved: elementsResolved,
+        islands: islandsList,
+        inventory: inventory,
+        likes: likes,
+        costumes: costumes,
         _costumeIndex: costumes.length,
-        elementsResolved,
-        sounds,
+        sounds: sounds,
+        breedingTimes: breedingTimes,
         
         getElementImages() { return this.elementsResolved; },
         getImageURL() { return this.imageUrl; },
@@ -359,45 +268,35 @@
         },
         
         isOnIsland(islandName) {
-          const list = (data.islands || []).map(i => i.toLowerCase());
+          const list = this.islands.map(i => i.toLowerCase());
           return list.includes(islandName.toLowerCase())
-            ? `${data.name} is on ${islandName}!`
-            : `${data.name} is not on ${islandName}.`;
+            ? `${this.name} is on ${islandName}!`
+            : `${this.name} is not on ${islandName}.`;
         },
         
-        getInfo() { return `${data.name} (${folder}) costs ${data.cost || 'N/A'}.`; },
+        getInfo() { return `${this.name} (${this.rarity}) costs ${this.cost}.`; },
         
         async getBreedingTime() {
-          if (!data.breedingTime || data.breedingTime.length === 0) return { breedingTime: "Unknown", enhancedTime: "Unknown" };
-          const [breeding, enhanced] = data.breedingTime[0].includes(", ") ? data.breedingTime[0].split(", ") : [data.breedingTime[0], "Unknown"];
-          return { breedingTime: breeding.replace("Breeding Time: ", ""), enhancedTime: enhanced.replace("Enhanced Time: ", "") };
+          return this.breedingTimes || { Standard: "Unknown", Enhanced: "Unknown", Standard_Skin: "Unknown", Enhanced_Skin: "Unknown" };
         },
         
-        async getBreedingCombos() { return data.breedingCombo; },
-        getStatistics() { return { ...data, rarity: folder }; },
+        getStatistics() { return { name: this.name, rarity: this.rarity, costs: this.costs, description: this.description }; },
         getSounds() { return this.sounds; },
 
         async playSound(index = 0) {
-          if (!this.sounds || this.sounds.length === 0) {
-            console.warn(`No sounds found for ${data.name}`);
-            return;
-          }
+          if (!this.sounds || this.sounds.length === 0) return console.warn(`No sounds found for ${this.name}`);
           try {
-            // Allows playing alternate sounds if the monster has more than one
             const trackIndex = index < this.sounds.length ? index : 0; 
             const audio = new Audio(this.sounds[trackIndex]);
             audio.crossOrigin = "anonymous";
             await audio.play();
           } catch {
-            console.warn(`Failed to play sound for ${data.name}`);
+            console.warn(`Failed to play sound for ${this.name}`);
           }
         }
-      };
-
-    } catch (err) { return null; }
+    };
   }
 
-  /* ---------------- PROXY MAPPER ---------------- */
   const MSM = new Proxy({}, {
     get(target, prop) {
       const key = String(prop);

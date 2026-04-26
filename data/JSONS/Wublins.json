@@ -1,0 +1,747 @@
+{
+  "Astropod": {
+    "Common": {
+      "Cost": "20,000",
+      "Inventory": {
+        "Deedge": 5,
+        "Reedling": 8,
+        "Scups": 6,
+        "Shellbeat": 5,
+        "Spunge": 8,
+        "Toe Jammer": 10
+      },
+      "Time Limit": "None",
+      "Total Eggs": "42"
+    },
+    "Rare": {
+      "Cost": "10",
+      "Inventory": {
+        "Rare Deedge": 2,
+        "Rare Reedling": 3,
+        "Rare Scups": 3,
+        "Rare Shellbeat": 2,
+        "Rare Spunge": 3,
+        "Rare Toe Jammer": 4
+      },
+      "Time Limit": "None",
+      "Total Eggs": "17"
+    },
+    "Epic": null
+  },
+  "Blipsqueak": {
+    "Common": {
+      "Cost": "5,000",
+      "Inventory": {
+        "Cybop": 6,
+        "Deedge": 4,
+        "Pompom": 4,
+        "T-Rox": 6,
+        "Toe Jammer": 4
+      },
+      "Time Limit": "None",
+      "Total Eggs": "24"
+    },
+    "Rare": {
+      "Cost": "5",
+      "Inventory": {
+        "Rare Cybop": 3,
+        "Rare Deedge": 2,
+        "Rare PomPom": 2,
+        "Rare T-Rox": 3,
+        "Rare Toe Jammer": 2
+      },
+      "Time Limit": "None",
+      "Total Eggs": "12"
+    },
+    "Epic": {
+      "Cost": "5",
+      "Inventory": {
+        "Epic Cybop": 1,
+        "Epic Deedge": 1,
+        "Epic Glowl": 1,
+        "Epic PomPom": 1,
+        "Epic T-Rox": 1,
+        "Epic Toe Jammer": 1,
+        "Epic Wynq": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "7"
+    }
+  },
+  "Bona-Petite": {
+    "Common": {
+      "Cost": "20,000",
+      "Inventory": {
+        "Bowgart": 6,
+        "Drumpler": 10,
+        "Entbrat": 5,
+        "Fwog": 10,
+        "Mammott": 10,
+        "Maw": 10,
+        "Pompom": 6,
+        "Riff": 5,
+        "T-Rox": 6
+      },
+      "Time Limit": "None",
+      "Total Eggs": "68"
+    },
+    "Rare": {
+      "Cost": "10",
+      "Inventory": {
+        "Rare Bowgart": 3,
+        "Rare Drumpler": 4,
+        "Rare Entbrat": 2,
+        "Rare Fwog": 4,
+        "Rare Mammott": 4,
+        "Rare Maw": 4,
+        "Rare PomPom": 3,
+        "Rare Riff": 2,
+        "Rare T-Rox": 3
+      },
+      "Time Limit": "None",
+      "Total Eggs": "29"
+    },
+    "Epic": null
+  },
+  "Brump": {
+    "Common": {
+      "Cost": "2,000",
+      "Inventory": {
+        "Furcorn": 6,
+        "Fwog": 2
+      },
+      "Time Limit": "None",
+      "Total Eggs": "8"
+    },
+    "Rare": {
+      "Cost": "2",
+      "Inventory": {
+        "Rare Furcorn": 3,
+        "Rare Fwog": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "4"
+    },
+    "Epic": {
+      "Cost": "2",
+      "Inventory": {
+        "Epic Furcorn": 1,
+        "Epic Fwog": 1,
+        "Epic Stogg": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "3"
+    }
+  },
+  "Creepuscule": {
+    "Common": {
+      "Cost": "17,000",
+      "Inventory": {
+        "Congle": 8,
+        "Deedge": 5,
+        "Noggin": 12,
+        "Pummel": 6,
+        "Quibble": 10,
+        "Shellbeat": 5,
+        "T-Rox": 6
+      },
+      "Time Limit": "None",
+      "Total Eggs": "52"
+    },
+    "Rare": {
+      "Cost": "7",
+      "Inventory": {
+        "Rare Congle": 3,
+        "Rare Deedge": 2,
+        "Rare Noggin": 4,
+        "Rare Pummel": 3,
+        "Rare Quibble": 4,
+        "Rare Shellbeat": 2,
+        "Rare T-Rox": 3
+      },
+      "Time Limit": "None",
+      "Total Eggs": "21"
+    },
+    "Epic": null
+  },
+  "Dermit": {
+    "Common": {
+      "Cost": "17,000",
+      "Inventory": {
+        "Entbrat": 3,
+        "Fwog": 12,
+        "Quarrister": 3,
+        "Scups": 4,
+        "Thumpies": 4
+      },
+      "Time Limit": "None",
+      "Total Eggs": "26"
+    },
+    "Rare": {
+      "Cost": "3",
+      "Inventory": {
+        "Rare Entbrat": 1,
+        "Rare Fwog": 4,
+        "Rare Quarrister": 1,
+        "Rare Scups": 2,
+        "Rare Thumpies": 2
+      },
+      "Time Limit": "None",
+      "Total Eggs": "10"
+    },
+    "Epic": {
+      "Cost": "3",
+      "Inventory": {
+        "Epic Entbrat": 1,
+        "Epic Fwog": 2,
+        "Epic Quarrister": 1,
+        "Epic Scups": 1,
+        "Epic Sneyser": 1,
+        "Epic Thumpies": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "7"
+    }
+  },
+  "Dwumrohl": {
+    "Common": {
+      "Cost": "34,000",
+      "Inventory": {
+        "Bowgart": 4,
+        "Congle": 4,
+        "Deedge": 3,
+        "Entbrat": 3,
+        "Mammott": 8,
+        "Noggin": 8,
+        "Pompom": 4,
+        "Potbelly": 4,
+        "Pummel": 4,
+        "Quarrister": 3,
+        "Reedling": 4,
+        "Riff": 3,
+        "Scups": 2,
+        "Shellbeat": 3,
+        "Thumpies": 2,
+        "Toe Jammer": 8,
+        "Tweedle": 4
+      },
+      "Time Limit": "None",
+      "Total Eggs": "71"
+    },
+    "Rare": {
+      "Cost": "14",
+      "Inventory": {
+        "Rare Bowgart": 2,
+        "Rare Congle": 2,
+        "Rare Deedge": 1,
+        "Rare Entbrat": 1,
+        "Rare Mammott": 3,
+        "Rare Noggin": 3,
+        "Rare PomPom": 2,
+        "Rare Potbelly": 2,
+        "Rare Pummel": 2,
+        "Rare Quarrister": 1,
+        "Rare Reedling": 2,
+        "Rare Riff": 1,
+        "Rare Scups": 1,
+        "Rare Shellbeat": 1,
+        "Rare Thumpies": 1,
+        "Rare Toe Jammer": 3,
+        "Rare Tweedle": 2
+      },
+      "Time Limit": "None",
+      "Total Eggs": "30"
+    },
+    "Epic": {
+      "Cost": "14",
+      "Inventory": {
+        "Epic Bowgart": 1,
+        "Epic Congle": 1,
+        "Epic Deedge": 1,
+        "Epic Entbrat": 1,
+        "Epic Mammott": 1,
+        "Epic Noggin": 1,
+        "Epic PomPom": 1,
+        "Epic Potbelly": 1,
+        "Epic Pummel": 1,
+        "Epic Quarrister": 1,
+        "Epic Reedling": 1,
+        "Epic Repatillo": 1,
+        "Epic Riff": 1,
+        "Epic Rootitoot": 1,
+        "Epic Scups": 1,
+        "Epic Shellbeat": 1,
+        "Epic Thumpies": 1,
+        "Epic Toe Jammer": 1,
+        "Epic Tring": 1,
+        "Epic Tweedle": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "20"
+    }
+  },
+  "Fleechwurm": {
+    "Common": {
+      "Cost": "5,000",
+      "Inventory": {
+        "Dandidoo": 4,
+        "Furcorn": 4,
+        "Pummel": 4,
+        "Quarrister": 3,
+        "Reedling": 3,
+        "Shellbeat": 3,
+        "Spunge": 3
+      },
+      "Time Limit": "None",
+      "Total Eggs": "24"
+    },
+    "Rare": {
+      "Cost": "5",
+      "Inventory": {
+        "Rare Dandidoo": 2,
+        "Rare Furcorn": 2,
+        "Rare Pummel": 2,
+        "Rare Quarrister": 1,
+        "Rare Reedling": 1,
+        "Rare Shellbeat": 1,
+        "Rare Spunge": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "10"
+    },
+    "Epic": {
+      "Cost": "5",
+      "Inventory": {
+        "Epic Dandidoo": 1,
+        "Epic Furcorn": 1,
+        "Epic Phangler": 1,
+        "Epic Pummel": 1,
+        "Epic Quarrister": 1,
+        "Epic Reedling": 1,
+        "Epic Shellbeat": 1,
+        "Epic Spunge": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "8"
+    }
+  },
+  "Gheegur": {
+    "Common": {
+      "Cost": "3,000",
+      "Inventory": {
+        "Cybop": 6,
+        "Pompom": 4,
+        "Reedling": 6,
+        "Riff": 6,
+        "Scups": 4
+      },
+      "Time Limit": "None",
+      "Total Eggs": "26"
+    },
+    "Rare": {
+      "Cost": "7",
+      "Inventory": {
+        "Rare Cybop": 3,
+        "Rare PomPom": 2,
+        "Rare Reedling": 3,
+        "Rare Riff": 3,
+        "Rare Scups": 2
+      },
+      "Time Limit": "None",
+      "Total Eggs": "13"
+    },
+    "Epic": {
+      "Cost": "7",
+      "Inventory": {
+        "Epic Cybop": 1,
+        "Epic PomPom": 1,
+        "Epic Reedling": 1,
+        "Epic Riff": 1,
+        "Epic Scups": 1,
+        "Epic Sneyser": 1,
+        "Epic Sooza": 1,
+        "Epic Thrumble": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "8"
+    }
+  },
+  "Poewk": {
+    "Common": {
+      "Cost": "5,000",
+      "Inventory": {
+        "Clamble": 2,
+        "Dandidoo": 2,
+        "Oaktopus": 1,
+        "Pango": 1,
+        "Pompom": 1,
+        "Reedling": 1,
+        "Scups": 1,
+        "Shellbeat": 1,
+        "Shrubb": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "11"
+    },
+    "Rare": {
+      "Cost": "5",
+      "Inventory": {
+        "Rare Clamble": 1,
+        "Rare Dandidoo": 1,
+        "Rare Oaktopus": 1,
+        "Rare Pango": 1,
+        "Rare PomPom": 1,
+        "Rare Reedling": 1,
+        "Rare Scups": 1,
+        "Rare Shellbeat": 1,
+        "Rare Shrubb": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "9"
+    },
+    "Epic": {
+      "Cost": "5",
+      "Inventory": {
+        "Epic Clamble": 1,
+        "Epic Dandidoo": 1,
+        "Epic Glowl": 1,
+        "Epic Oaktopus": 1,
+        "Epic Pango": 1,
+        "Epic PomPom": 1,
+        "Epic Reedling": 1,
+        "Epic Scups": 1,
+        "Epic Shellbeat": 1,
+        "Epic Shrubb": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "10"
+    }
+  },
+  "Thwok": {
+    "Common": {
+      "Cost": "17,000",
+      "Inventory": {
+        "Bowgart": 4,
+        "Deedge": 1,
+        "Entbrat": 1,
+        "Furcorn": 4,
+        "Pompom": 4,
+        "Quarrister": 1,
+        "Quibble": 4,
+        "Riff": 1,
+        "Shellbeat": 1,
+        "Spunge": 4
+      },
+      "Time Limit": "None",
+      "Total Eggs": "25"
+    },
+    "Rare": {
+      "Cost": "7",
+      "Inventory": {
+        "Rare Bowgart": 2,
+        "Rare Deedge": 1,
+        "Rare Entbrat": 1,
+        "Rare Furcorn": 2,
+        "Rare PomPom": 2,
+        "Rare Quarrister": 1,
+        "Rare Quibble": 2,
+        "Rare Riff": 1,
+        "Rare Shellbeat": 1,
+        "Rare Spunge": 2
+      },
+      "Time Limit": "None",
+      "Total Eggs": "15"
+    },
+    "Epic": {
+      "Cost": "7",
+      "Inventory": {
+        "Epic Boskus": 1,
+        "Epic Bowgart": 1,
+        "Epic Deedge": 1,
+        "Epic Entbrat": 1,
+        "Epic Furcorn": 1,
+        "Epic PomPom": 1,
+        "Epic Quarrister": 1,
+        "Epic Quibble": 1,
+        "Epic Riff": 1,
+        "Epic Shellbeat": 1,
+        "Epic Spunge": 1,
+        "Epic Whaddle": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "12"
+    }
+  },
+  "Tympa": {
+    "Common": {
+      "Cost": "34,000",
+      "Inventory": {
+        "Clamble": 12,
+        "Drumpler": 24,
+        "Pummel": 12,
+        "Shellbeat": 8,
+        "T-Rox": 12
+      },
+      "Time Limit": "None",
+      "Total Eggs": "68"
+    },
+    "Rare": {
+      "Cost": "14",
+      "Inventory": {
+        "Rare Clamble": 4,
+        "Rare Drumpler": 8,
+        "Rare Pummel": 4,
+        "Rare Shellbeat": 3,
+        "Rare T-Rox": 4
+      },
+      "Time Limit": "None",
+      "Total Eggs": "23"
+    },
+    "Epic": {
+      "Cost": "14",
+      "Inventory": {
+        "Epic Clamble": 2,
+        "Epic Drumpler": 4,
+        "Epic PongPing": 1,
+        "Epic Pummel": 2,
+        "Epic Repatillo": 1,
+        "Epic Shellbeat": 1,
+        "Epic T-Rox": 2,
+        "Epic Ziggurab": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "14"
+    }
+  },
+  "Zuuker": {
+    "Common": {
+      "Cost": "20,000",
+      "Inventory": {
+        "Bowgart": 4,
+        "Deedge": 2,
+        "Entbrat": 2,
+        "Furcorn": 6,
+        "Fwog": 4,
+        "Oaktopus": 6,
+        "T-Rox": 6
+      },
+      "Time Limit": "None",
+      "Total Eggs": "30"
+    },
+    "Rare": {
+      "Cost": "10",
+      "Inventory": {
+        "Rare Bowgart": 2,
+        "Rare Deedge": 1,
+        "Rare Entbrat": 1,
+        "Rare Furcorn": 3,
+        "Rare Fwog": 2,
+        "Rare Oaktopus": 3,
+        "Rare T-Rox": 3
+      },
+      "Time Limit": "None",
+      "Total Eggs": "15"
+    },
+    "Epic": {
+      "Cost": "10",
+      "Inventory": {
+        "Epic Bowgart": 1,
+        "Epic Deedge": 1,
+        "Epic Entbrat": 1,
+        "Epic Floogull": 1,
+        "Epic Furcorn": 1,
+        "Epic Fwog": 1,
+        "Epic Krillby": 1,
+        "Epic Oaktopus": 1,
+        "Epic T-Rox": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "9"
+    }
+  },
+  "Zynth": {
+    "Common": {
+      "Cost": "3,000",
+      "Inventory": {
+        "Congle": 1,
+        "Drumpler": 1,
+        "Maw": 1,
+        "Oaktopus": 1,
+        "Pango": 1,
+        "T-Rox": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "6"
+    },
+    "Rare": {
+      "Cost": "3",
+      "Inventory": {
+        "Rare Congle": 1,
+        "Rare Drumpler": 1,
+        "Rare Maw": 1,
+        "Rare Oaktopus": 1,
+        "Rare Pango": 1,
+        "Rare T-Rox": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "6"
+    },
+    "Epic": {
+      "Cost": "3",
+      "Inventory": {
+        "Epic Congle": 1,
+        "Epic Drumpler": 1,
+        "Epic Maw": 1,
+        "Epic Oaktopus": 1,
+        "Epic Pango": 1,
+        "Epic Phangler": 1,
+        "Epic T-Rox": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "7"
+    }
+  },
+  "Maulch": {
+    "Common": {
+      "Cost": "17,000",
+      "Inventory": {
+        "Clamble": 4,
+        "Entbrat": 4,
+        "Furcorn": 8,
+        "Noggin": 6,
+        "Pummel": 6,
+        "Quarrister": 4,
+        "Spunge": 6
+      },
+      "Time Limit": "None",
+      "Total Eggs": "38"
+    },
+    "Rare": {
+      "Cost": "7",
+      "Inventory": {
+        "Rare Clamble": 2,
+        "Rare Entbrat": 2,
+        "Rare Furcorn": 3,
+        "Rare Noggin": 3,
+        "Rare Pummel": 3,
+        "Rare Quarrister": 2,
+        "Rare Spunge": 3
+      },
+      "Time Limit": "None",
+      "Total Eggs": "18"
+    },
+    "Epic": null
+  },
+  "Pixolotl": {
+    "Common": {
+      "Cost": "34,000",
+      "Inventory": {
+        "Cybop": 14,
+        "Entbrat": 6,
+        "Fwog": 10,
+        "Pummel": 8,
+        "Riff": 6,
+        "Scups": 10,
+        "T-Rox": 8
+      },
+      "Time Limit": "None",
+      "Total Eggs": "62"
+    },
+    "Rare": {
+      "Cost": "14",
+      "Inventory": {
+        "Rare Cybop": 4,
+        "Rare Entbrat": 3,
+        "Rare Fwog": 4,
+        "Rare Pummel": 3,
+        "Rare Riff": 3,
+        "Rare Scups": 4,
+        "Rare T-Rox": 3
+      },
+      "Time Limit": "None",
+      "Total Eggs": "24"
+    },
+    "Epic": null
+  },
+  "Scargo": {
+    "Common": {
+      "Cost": "3,000",
+      "Inventory": {
+        "Clamble": 3,
+        "Dandidoo": 3,
+        "Pummel": 2,
+        "Shellbeat": 3,
+        "Shrubb": 3,
+        "Spunge": 2
+      },
+      "Time Limit": "None",
+      "Total Eggs": "16"
+    },
+    "Rare": {
+      "Cost": "3",
+      "Inventory": {
+        "Rare Clamble": 1,
+        "Rare Dandidoo": 1,
+        "Rare Pummel": 1,
+        "Rare Shellbeat": 1,
+        "Rare Shrubb": 1,
+        "Rare Spunge": 1
+      },
+      "Time Limit": "None",
+      "Total Eggs": "6"
+    },
+    "Epic": null
+  },
+  "Screemu": {
+    "Common": {
+      "Cost": "5,000",
+      "Inventory": {
+        "Quibble": 6,
+        "Shellbeat": 2,
+        "Shrubb": 6,
+        "Spunge": 6
+      },
+      "Time Limit": "None",
+      "Total Eggs": "20"
+    },
+    "Rare": {
+      "Cost": "5",
+      "Inventory": {
+        "Rare Quibble": 3,
+        "Rare Shellbeat": 1,
+        "Rare Shrubb": 3,
+        "Rare Spunge": 3
+      },
+      "Time Limit": "None",
+      "Total Eggs": "10"
+    },
+    "Epic": null
+  },
+  "Whajje": {
+    "Common": {
+      "Cost": "20,000",
+      "Inventory": {
+        "Cybop": 10,
+        "Dandidoo": 10,
+        "Deedge": 7,
+        "Reedling": 10,
+        "Tweedle": 6
+      },
+      "Time Limit": "None",
+      "Total Eggs": "43"
+    },
+    "Rare": {
+      "Cost": "10",
+      "Inventory": {
+        "Rare Cybop": 4,
+        "Rare Dandidoo": 4,
+        "Rare Deedge": 3,
+        "Rare Reedling": 4,
+        "Rare Tweedle": 3
+      },
+      "Time Limit": "None",
+      "Total Eggs": "18"
+    },
+    "Epic": null
+  }
+}

@@ -1,27 +1,45 @@
 import requests
 import time
+import urllib.parse
 from pathlib import Path
 
+def normalize_filename(filename):
+    """Cleans up filenames so spaces, underscores, and cases don't ruin the match."""
+    # Decode URL strings (changes %20 to space)
+    decoded_name = urllib.parse.unquote(filename)
+    # Swap underscores for spaces and force lowercase
+    return decoded_name.replace("_", " ").lower()
+
 def fetch_costume_images():
-    # The base API endpoint for the Fandom wiki
     base_url = "https://mysingingmonsters.fandom.com/api.php"
+    
     download_dir = Path("downloaded_costumes")
     download_dir.mkdir(exist_ok=True)
     
-    # 1. Ask the API for a list of every file tagged in the Costume Images category
+    existing_dir = Path("costumes")
+    existing_filenames = set()
+    
+    print("0. Scanning existing costumes to prevent re-downloading...")
+    if existing_dir.exists() and existing_dir.is_dir():
+        for file_path in existing_dir.rglob('*'):
+            if file_path.is_file():
+                # Add the NORMALIZED filename to our set
+                existing_filenames.add(normalize_filename(file_path.name))
+                
+    print(f"   -> Found {len(existing_filenames)} existing costume files locally!")
+    
     params = {
         "action": "query",
         "list": "categorymembers",
         "cmtitle": "Category:Costume_Images",
         "cmtype": "file",
-        "cmlimit": "500", # Fetch up to 500 at a time
+        "cmlimit": "500", 
         "format": "json"
     }
     
     file_titles = []
-    print("1. Asking the Fandom API for a list of all costume files...")
+    print("\n1. Asking the Fandom API for a list of all costume files...")
     
-    # Loop to handle pagination (if there are more than 500 images)
     while True:
         response = requests.get(base_url, params=params).json()
         
@@ -29,20 +47,17 @@ def fetch_costume_images():
             for member in response["query"]["categorymembers"]:
                 file_titles.append(member["title"])
                 
-        # Check if there is a 'continue' token for the next page of results
         if "continue" in response and "cmcontinue" in response["continue"]:
             params["cmcontinue"] = response["continue"]["cmcontinue"]
         else:
             break
             
-    print(f"   -> Found {len(file_titles)} exact costume files!")
-    print("2. Resolving high-resolution download links...")
+    print(f"   -> Found {len(file_titles)} exact costume files on the wiki!")
+    print("\n2. Resolving high-resolution download links for missing files...")
     
-    # 2. Get the actual download URLs for those files
-    # The API allows querying multiple titles at once, so we batch them in groups of 50
     downloaded_count = 0
+    skipped_count = 0
     
-    # Helper to chunk the list
     def chunk_list(lst, n):
         for i in range(0, len(lst), n):
             yield lst[i:i + n]
@@ -60,31 +75,33 @@ def fetch_costume_images():
         info_response = requests.get(base_url, params=info_params).json()
         pages = info_response.get("query", {}).get("pages", {})
         
-        # 3. Download the images
         for page_id, page_data in pages.items():
             if "imageinfo" in page_data:
-                # Extract the direct, uncompressed image URL
                 img_url = page_data["imageinfo"][0]["url"]
                 
-                # Clean up the filename (Remove "File:" prefix and any slashes)
-                filename = page_data["title"].replace("File:", "").replace("/", "_")
-                file_path = download_dir / filename
+                # The filename exactly as the API gives it
+                raw_filename = page_data["title"].replace("File:", "").replace("/", "_")
+                file_path = download_dir / raw_filename
                 
-                if not file_path.exists():
-                    try:
-                        # Download and save the image
-                        img_data = requests.get(img_url).content
-                        with open(file_path, "wb") as handler:
-                            handler.write(img_data)
-                        print(f"Downloaded: {filename}")
-                        downloaded_count += 1
+                # Normalize the API filename to check against our local set
+                normalized_api_name = normalize_filename(raw_filename)
+                
+                if normalized_api_name in existing_filenames or file_path.exists():
+                    skipped_count += 1
+                    continue
+                    
+                try:
+                    img_data = requests.get(img_url).content
+                    with open(file_path, "wb") as handler:
+                        handler.write(img_data)
+                    print(f"Downloaded: {raw_filename}")
+                    downloaded_count += 1
+                    
+                    time.sleep(0.1) 
+                except Exception as e:
+                    print(f"Failed to download {raw_filename}: {e}")
                         
-                        # A tiny delay so we don't get blocked for spamming requests
-                        time.sleep(0.1) 
-                    except Exception as e:
-                        print(f"Failed to download {filename}: {e}")
-                        
-    print(f"\nSuccess! Downloaded {downloaded_count} new costumes into '{download_dir}'.")
+    print(f"\nSuccess! Downloaded {downloaded_count} new costumes into '{download_dir}'. Skipped {skipped_count} existing files.")
 
 if __name__ == "__main__":
     fetch_costume_images()
