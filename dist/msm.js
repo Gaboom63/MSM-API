@@ -142,6 +142,10 @@
         } else { processed[key.toLowerCase()] = rawData[key]; }
     });
     breedingCache = processed;
+    
+    // Also cache the raw dictionary structure for the reverse-lookup
+    breedingCache._rawDict = rawData; 
+    
     return processed;
   }
 
@@ -187,8 +191,8 @@
     // 2. Images Lookup
     const imageManifest = dbCache['Image Manifest']?.[baseNameClean]?.[rarity] || {};
     let finalImageUrl = imageManifest.full_image 
-            ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}${encodeURI(imageManifest.full_image)}`
-            : `${IMAGE_BASE_URL}${encodeURIComponent(file)}.png`;
+        ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}${encodeURI(imageManifest.full_image)}`
+        : `${IMAGE_BASE_URL}${encodeURIComponent(file)}.png`;
 
     // Fast-fail if absolutely no data exists for this monster
     if (!descObj && !Object.keys(costObj).length && !imageManifest.full_image) {
@@ -231,7 +235,8 @@
         costs: costObj,
         cost: primaryCost,
         imageUrl: finalImageUrl,
-        eggUrl: imageManifest.egg_image ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}${encodeURI(imageManifest.egg_image)}` : null,        elements: elements,
+        eggUrl: imageManifest.egg_image ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}${encodeURI(imageManifest.egg_image)}` : null,
+        elements: elements,
         elementsResolved: elementsResolved,
         islands: islandsList,
         inventory: inventory,
@@ -278,6 +283,42 @@
         
         async getBreedingTime() {
           return this.breedingTimes || { Standard: "Unknown", Enhanced: "Unknown", Standard_Skin: "Unknown", Enhanced_Skin: "Unknown" };
+        },
+
+        async getBreedingCombos() {
+          const db = await getBreedingDatabase();
+          const rawDict = db._rawDict || {}; // Retrieve the original unaltered dictionary
+          const searchName = this.name.toLowerCase();
+          const baseNameClean = this.baseName.toLowerCase();
+          let combos = [];
+          
+          // 1. Search for explicit matches (Catches Epics, Commons, and explicitly defined Rares)
+          for (const [comboKey, results] of Object.entries(rawDict)) {
+              if (comboKey.includes("+") && Array.isArray(results)) {
+                  if (results.some(r => r.toLowerCase() === searchName)) {
+                      combos.push(comboKey);
+                  }
+              }
+          }
+          
+          // 2. Rare Inheritance Rule
+          // If the monster is Rare, and NO explicit combo was found above, inherit the Common monster's combo!
+          if (this.rarity === "Rare" && combos.length === 0) {
+              for (const [comboKey, results] of Object.entries(rawDict)) {
+                  if (comboKey.includes("+") && Array.isArray(results)) {
+                      if (results.some(r => r.toLowerCase() === baseNameClean)) {
+                          combos.push(comboKey);
+                      }
+                  }
+              }
+          }
+          
+          // Format the combo strings safely with Capital letters
+          return [...new Set(combos)].map(c => 
+              c.split('+')
+               .map(p => p.trim().split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '))
+               .join(' + ')
+          );
         },
         
         getStatistics() { return { name: this.name, rarity: this.rarity, costs: this.costs, description: this.description }; },
