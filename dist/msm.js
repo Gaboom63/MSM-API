@@ -223,7 +223,6 @@
         const islandsList = dbCache['Islands']?.[fullName] || dbCache['Islands']?.[baseNameClean] || [];
         const inventory = dbCache['Celestials']?.[fullName]?.Inventory || dbCache['Wublins']?.[baseNameClean]?.[rarity]?.Inventory || null;
 
-        // Bulletproof array checks
         const rawCostumes = Array.isArray(dbCache['Costumes']?.[baseNameClean]?.[rarity]) ? dbCache['Costumes'][baseNameClean][rarity] : [];
         const costumes = rawCostumes.map(c => `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(c)}`);
 
@@ -337,7 +336,8 @@
     if (key === "twoMonsterCombo") return calculateBreeding;
     if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
 
-    if (cache[key]) return cache[key];
+    // FIX: Optimized Cache Check. Now recognizes "null" as a cached result so we don't endlessly check fake monsters
+    if (key in cache) return cache[key];
 
     const loader = getMonster(key).then(m => {
       cache[key] = m;
