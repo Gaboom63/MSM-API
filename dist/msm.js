@@ -321,36 +321,40 @@
     };
   }
 
-const MSM = new Proxy({}, {
-    get(target, prop) {
-      const key = String(prop);
-      if (key === "twoMonsterCombo") return calculateBreeding;
-      if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
-      
-      if (cache[key]) return cache[key];
+  const MSM = new Proxy({}, {
+  get(target, prop) {
+    const key = String(prop);
+    
+    // Fix: route the key to either getMonster or calculateBreeding
+    if (key === "twoMonsterCombo") return calculateBreeding;
+    if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
 
-      const loader = getMonster(key).then(m => {
-          cache[key] = m;
-          return m;
-      });
+    // Cache check
+    if (cache[key]) return cache[key];
 
-      return new Proxy({ _loader: loader }, {
-          get(target, sub) {
-              // FIX: Safely route Promise methods so JavaScript doesn't treat them as arbitrary async calls
-              if (sub === "then") return target._loader.then.bind(target._loader);
-              if (sub === "catch") return target._loader.catch.bind(target._loader);
-              if (sub === "finally") return target._loader.finally.bind(target._loader);
+    // Loader creation for the monster
+    const loader = getMonster(key).then(m => {
+      cache[key] = m;
+      return m;
+    });
 
-              return async (...args) => {
-                  const real = await target._loader;
-                  if (!real) return null; // Fails safely if the kill switch triggered
-                  const val = real[sub];
-                  return typeof val === "function" ? val.apply(real, args) : val;
-              };
-          }
-      });
-    }
-  });
+    return new Proxy({ _loader: loader }, {
+      get(target, sub) {
+        // Handle Promise methods (then, catch, finally)
+        if (sub === "then") return target._loader.then.bind(target._loader);
+        if (sub === "catch") return target._loader.catch.bind(target._loader);
+        if (sub === "finally") return target._loader.finally.bind(target._loader);
+
+        return async (...args) => {
+          const real = await target._loader;
+          if (!real) return null; // Fails safely if the kill switch triggered
+          const val = real[sub];
+          return typeof val === "function" ? val.apply(real, args) : val;
+        };
+      }
+    });
+  }
+});
 
   if (typeof module !== "undefined" && module.exports) module.exports = MSM;
   else global.MSM = MSM;
