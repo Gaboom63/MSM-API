@@ -289,26 +289,13 @@
           const db = await getBreedingDatabase();
           const rawDict = db._rawDict || {}; // Retrieve the original unaltered dictionary
           const searchName = this.name.toLowerCase();
-          const baseNameClean = this.baseName.toLowerCase();
           let combos = [];
           
-          // 1. Search for explicit matches (Catches Epics, Commons, and explicitly defined Rares)
+          // STRICT SEARCH: Only returns explicitly defined matches in your JSON!
           for (const [comboKey, results] of Object.entries(rawDict)) {
               if (comboKey.includes("+") && Array.isArray(results)) {
                   if (results.some(r => r.toLowerCase() === searchName)) {
                       combos.push(comboKey);
-                  }
-              }
-          }
-          
-          // 2. Rare Inheritance Rule
-          // If the monster is Rare, and NO explicit combo was found above, inherit the Common monster's combo!
-          if (this.rarity === "Rare" && combos.length === 0) {
-              for (const [comboKey, results] of Object.entries(rawDict)) {
-                  if (comboKey.includes("+") && Array.isArray(results)) {
-                      if (results.some(r => r.toLowerCase() === baseNameClean)) {
-                          combos.push(comboKey);
-                      }
                   }
               }
           }
