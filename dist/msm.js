@@ -49,7 +49,6 @@
           COMMIT_HASH = data.sha;
           localStorage.setItem('msm_api_hash', COMMIT_HASH);
           
-          // FIX: Ensure oldHash is valid before attempting a wipe to prevent wiping all storage
           if (oldHash && oldHash !== 'main') {
               Object.keys(localStorage).forEach(key => {
                   if (key.startsWith('msm_') && key.includes(oldHash)) {
@@ -146,14 +145,7 @@
     return processed;
   }
 
-  async function calculateBreeding(comboString) {
-    const db = await getBreedingDatabase();
-    if (!comboString || !comboString.includes("+")) return ["Invalid format"];
-    const searchKey = comboString.split("+").map(s => s.trim().toLowerCase()).sort().join(" + ");
-    return db[searchKey] || ["No combination found."];
-  }
-
-  function resolveMonsterPath(rawName) {
+  function resolveMonsterPath(rawName, dbCacheRef) {
       const lowerName = rawName.trim().toLowerCase();
       let folder = "Common", baseNameClean = rawName.trim();
 
@@ -163,10 +155,14 @@
           folder = "Epic"; baseNameClean = rawName.substring(5).trim(); 
       }
 
-      // FIX: Ensure capitalized proper casing for aliases to prevent Image Manifest lookup failures
-      const aliases = { "gnarl": "Gnarls" };
-      const lookupKey = baseNameClean.toLowerCase();
-      if (aliases[lookupKey]) baseNameClean = aliases[lookupKey];
+      if (baseNameClean.toLowerCase() === "gnarl") baseNameClean = "Gnarls";
+
+      if (dbCacheRef && dbCacheRef['Image Manifest']) {
+          const exactKey = Object.keys(dbCacheRef['Image Manifest']).find(k => k.toLowerCase() === baseNameClean.toLowerCase());
+          if (exactKey) {
+              baseNameClean = exactKey;
+          }
+      }
 
       const fileName = (baseNameClean.charAt(0).toUpperCase() + baseNameClean.slice(1));
       return { folder, file: fileName, baseNameClean };
@@ -175,7 +171,7 @@
   async function getMonster(name) {
     await initDatabases();
     
-    const { folder: rarity, file, baseNameClean } = resolveMonsterPath(name);
+    const { folder: rarity, file, baseNameClean } = resolveMonsterPath(name, dbCache);
     const fullName = rarity === "Common" ? baseNameClean : `${rarity} ${baseNameClean}`;
 
     if (rarity !== "Common") {
@@ -184,6 +180,7 @@
         const hasCost = dbCache['Costs']?.[fullName];
         const hasWublin = dbCache['Wublins']?.[baseNameClean]?.[rarity];
         
+        // Relaxed Kill Switch: Allows monsters to load if they have at least *some* database presence
         if (!hasImage && !hasTime && !hasCost && !hasWublin) {
             return null; 
         }
@@ -348,7 +345,6 @@
           const real = await target._loader;
           if (!real) return null; 
           const val = real[sub];
-          // FIX: Await the promise returned by apply if the function is async (like playSound)
           if (typeof val === "function") {
               const result = val.apply(real, args);
               return result instanceof Promise ? await result : result;
