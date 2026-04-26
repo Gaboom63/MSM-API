@@ -145,6 +145,14 @@
     return processed;
   }
 
+  // FIX: Restored the missing calculateBreeding function!
+  async function calculateBreeding(comboString) {
+      const db = await getBreedingDatabase();
+      if (!comboString || !comboString.includes("+")) return ["Invalid format"];
+      const searchKey = comboString.split("+").map(s => s.trim().toLowerCase()).sort().join(" + ");
+      return db[searchKey] || ["No combination found."];
+  }
+
   function resolveMonsterPath(rawName, dbCacheRef) {
       const lowerName = rawName.trim().toLowerCase();
       let folder = "Common", baseNameClean = rawName.trim();
@@ -336,7 +344,6 @@
     if (key === "twoMonsterCombo") return calculateBreeding;
     if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
 
-    // FIX: Optimized Cache Check. Now recognizes "null" as a cached result so we don't endlessly check fake monsters
     if (key in cache) return cache[key];
 
     const loader = getMonster(key).then(m => {
