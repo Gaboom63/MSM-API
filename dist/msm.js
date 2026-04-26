@@ -169,156 +169,165 @@
   }
 
   async function getMonster(name) {
-    await initDatabases();
-    
-    const { folder: rarity, file, baseNameClean } = resolveMonsterPath(name, dbCache);
-    const fullName = rarity === "Common" ? baseNameClean : `${rarity} ${baseNameClean}`;
-
-    if (rarity !== "Common") {
-        const hasImage = dbCache['Image Manifest']?.[baseNameClean]?.[rarity];
-        const hasTime = dbCache['Breeding Times']?.[baseNameClean]?.[rarity];
-        const hasCost = dbCache['Costs']?.[fullName];
-        const hasWublin = dbCache['Wublins']?.[baseNameClean]?.[rarity];
+    try {
+        await initDatabases();
         
-        // Relaxed Kill Switch: Allows monsters to load if they have at least *some* database presence
-        if (!hasImage && !hasTime && !hasCost && !hasWublin) {
-            return null; 
+        const { folder: rarity, file, baseNameClean } = resolveMonsterPath(name, dbCache);
+        const fullName = rarity === "Common" ? baseNameClean : `${rarity} ${baseNameClean}`;
+
+        if (rarity !== "Common") {
+            const hasImage = dbCache['Image Manifest']?.[baseNameClean]?.[rarity];
+            const hasTime = dbCache['Breeding Times']?.[baseNameClean]?.[rarity];
+            const hasCost = dbCache['Costs']?.[fullName];
+            const hasWublin = dbCache['Wublins']?.[baseNameClean]?.[rarity];
+            
+            if (!hasImage && !hasTime && !hasCost && !hasWublin) {
+                return null; 
+            }
         }
-    }
 
-    const descObj = dbCache['Descriptions']?.[fullName] || dbCache['Descriptions']?.[baseNameClean];
-    const description = descObj ? descObj.description : "Description unavailable.";
+        const descObj = dbCache['Descriptions']?.[fullName] || dbCache['Descriptions']?.[baseNameClean];
+        const description = descObj ? descObj.description : "Description unavailable.";
 
-    const costObj = dbCache['Costs']?.[fullName] || dbCache['Costs']?.[baseNameClean] || {};
-    const primaryCost = costObj.coin_cost || costObj.diamond_cost || costObj.relic_cost || "N/A";
+        const costObj = dbCache['Costs']?.[fullName] || dbCache['Costs']?.[baseNameClean] || {};
+        const primaryCost = costObj.coin_cost || costObj.diamond_cost || costObj.relic_cost || "N/A";
 
-    const imageManifest = dbCache['Image Manifest']?.[baseNameClean]?.[rarity] || {};
-    let finalImageUrl = imageManifest.full_image 
-        ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}${encodeURI(imageManifest.full_image)}`
-        : `${IMAGE_BASE_URL}${encodeURIComponent(file)}.png`;
+        const imageManifest = dbCache['Image Manifest']?.[baseNameClean]?.[rarity] || {};
+        let finalImageUrl = imageManifest.full_image 
+            ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}${encodeURI(imageManifest.full_image)}`
+            : `${IMAGE_BASE_URL}${encodeURIComponent(file)}.png`;
 
-    if (!descObj && !Object.keys(costObj).length && !imageManifest.full_image) {
-        return null;
-    }
+        if (!descObj && !Object.keys(costObj).length && !imageManifest.full_image) {
+            return null;
+        }
 
-    const elementObj = dbCache['Elements']?.[baseNameClean];
-    let elements = elementObj ? (elementObj.Element || elementObj.elements || []) : [];
+        const elementObj = dbCache['Elements']?.[baseNameClean];
+        let elements = [];
+        if (elementObj) {
+            if (Array.isArray(elementObj.Element)) elements = elementObj.Element;
+            else if (Array.isArray(elementObj.elements)) elements = elementObj.elements;
+        }
 
-    const elementImageDb = dbCache['Element Image Manifest'] || {};
-    const elementsResolved = elements.map(elName => {
-        const normalized = elName.toLowerCase().replace(/\s+/g, "-");
-        const elFile = elementImageDb[elName] || elementImageDb[normalized] || elementImageDb[`${normalized}-element`];
+        const elementImageDb = dbCache['Element Image Manifest'] || {};
+        const elementsResolved = elements.map(elName => {
+            const normalized = String(elName).toLowerCase().replace(/\s+/g, "-");
+            const elFile = elementImageDb[elName] || elementImageDb[normalized] || elementImageDb[`${normalized}-element`];
+            return {
+                name: String(elName),
+                image: elFile ? `${ELEMENTS_URL}${encodeURIComponent(elFile)}` : null
+            };
+        });
+
+        const breedingTimes = dbCache['Breeding Times']?.[baseNameClean]?.[rarity] || null;
+        const likes = dbCache['Likes']?.[baseNameClean]?.[rarity] || [];
+        const islandsList = dbCache['Islands']?.[fullName] || dbCache['Islands']?.[baseNameClean] || [];
+        const inventory = dbCache['Celestials']?.[fullName]?.Inventory || dbCache['Wublins']?.[baseNameClean]?.[rarity]?.Inventory || null;
+
+        // Bulletproof array checks
+        const rawCostumes = Array.isArray(dbCache['Costumes']?.[baseNameClean]?.[rarity]) ? dbCache['Costumes'][baseNameClean][rarity] : [];
+        const costumes = rawCostumes.map(c => `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(c)}`);
+
+        const rawSounds = Array.isArray(dbCache['Sounds']?.[baseNameClean]?.[rarity]) ? dbCache['Sounds'][baseNameClean][rarity] : [];
+        const sounds = rawSounds.map(s => `${SOUND_BASE_URL}${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(s)}`);
+
         return {
-            name: elName,
-            image: elFile ? `${ELEMENTS_URL}${encodeURIComponent(elFile)}` : null
-        };
-    });
+            name: fullName,
+            baseName: baseNameClean,
+            rarity: rarity,
+            description: description,
+            costs: costObj,
+            cost: primaryCost,
+            imageUrl: finalImageUrl,
+            eggUrl: imageManifest.egg_image ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}${encodeURI(imageManifest.egg_image)}` : null,
+            elements: elements,
+            elementsResolved: elementsResolved,
+            islands: islandsList,
+            inventory: inventory,
+            likes: likes,
+            costumes: costumes,
+            _costumeIndex: costumes.length,
+            sounds: sounds,
+            breedingTimes: breedingTimes,
+            
+            getElementImages() { return this.elementsResolved; },
+            getImageURL() { return this.imageUrl; },
+            getCostumes() { return this.costumes; },
+            
+            getCostume(index) {
+              if (!this.costumes.length) return this.imageUrl;
+              const i = index ?? this._costumeIndex;
+              return i === this.costumes.length ? this.imageUrl : this.costumes[i % this.costumes.length];
+            },
+            
+            nextCostume() {
+              if (!this.costumes.length) return this.imageUrl;
+              this._costumeIndex = (this._costumeIndex + 1) % (this.costumes.length + 1);
+              return this.getCostume(this._costumeIndex);
+            },
+            
+            resetCostumes() {
+              this._costumeIndex = this.costumes.length;
+              return this.imageUrl;
+            },
+            
+            async loadImage(selector) {
+              const el = document.getElementById(selector) || document.querySelector(`.${selector}`);
+              if (el) el.src = this.imageUrl;
+            },
+            
+            isOnIsland(islandName) {
+              const list = this.islands.map(i => String(i).toLowerCase());
+              return list.includes(islandName.toLowerCase())
+                ? `${this.name} is on ${islandName}!`
+                : `${this.name} is not on ${islandName}.`;
+            },
+            
+            getInfo() { return `${this.name} (${this.rarity}) costs ${this.cost}.`; },
+            
+            async getBreedingTime() {
+              return this.breedingTimes || { Standard: "Unknown", Enhanced: "Unknown", Standard_Skin: "Unknown", Enhanced_Skin: "Unknown" };
+            },
 
-    const breedingTimes = dbCache['Breeding Times']?.[baseNameClean]?.[rarity] || null;
-    const likes = dbCache['Likes']?.[baseNameClean]?.[rarity] || [];
-    const islandsList = dbCache['Islands']?.[fullName] || dbCache['Islands']?.[baseNameClean] || [];
-    const inventory = dbCache['Celestials']?.[fullName]?.Inventory || dbCache['Wublins']?.[baseNameClean]?.[rarity]?.Inventory || null;
-
-    const rawCostumes = dbCache['Costumes']?.[baseNameClean]?.[rarity] || [];
-    const costumes = rawCostumes.map(c => `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(c)}`);
-
-    const rawSounds = dbCache['Sounds']?.[baseNameClean]?.[rarity] || [];
-    const sounds = rawSounds.map(s => `${SOUND_BASE_URL}${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(s)}`);
-
-    return {
-        name: fullName,
-        baseName: baseNameClean,
-        rarity: rarity,
-        description: description,
-        costs: costObj,
-        cost: primaryCost,
-        imageUrl: finalImageUrl,
-        eggUrl: imageManifest.egg_image ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}${encodeURI(imageManifest.egg_image)}` : null,
-        elements: elements,
-        elementsResolved: elementsResolved,
-        islands: islandsList,
-        inventory: inventory,
-        likes: likes,
-        costumes: costumes,
-        _costumeIndex: costumes.length,
-        sounds: sounds,
-        breedingTimes: breedingTimes,
-        
-        getElementImages() { return this.elementsResolved; },
-        getImageURL() { return this.imageUrl; },
-        getCostumes() { return this.costumes; },
-        
-        getCostume(index) {
-          if (!this.costumes.length) return this.imageUrl;
-          const i = index ?? this._costumeIndex;
-          return i === this.costumes.length ? this.imageUrl : this.costumes[i % this.costumes.length];
-        },
-        
-        nextCostume() {
-          if (!this.costumes.length) return this.imageUrl;
-          this._costumeIndex = (this._costumeIndex + 1) % (this.costumes.length + 1);
-          return this.getCostume(this._costumeIndex);
-        },
-        
-        resetCostumes() {
-          this._costumeIndex = this.costumes.length;
-          return this.imageUrl;
-        },
-        
-        async loadImage(selector) {
-          const el = document.getElementById(selector) || document.querySelector(`.${selector}`);
-          if (el) el.src = this.imageUrl;
-        },
-        
-        isOnIsland(islandName) {
-          const list = this.islands.map(i => i.toLowerCase());
-          return list.includes(islandName.toLowerCase())
-            ? `${this.name} is on ${islandName}!`
-            : `${this.name} is not on ${islandName}.`;
-        },
-        
-        getInfo() { return `${this.name} (${this.rarity}) costs ${this.cost}.`; },
-        
-        async getBreedingTime() {
-          return this.breedingTimes || { Standard: "Unknown", Enhanced: "Unknown", Standard_Skin: "Unknown", Enhanced_Skin: "Unknown" };
-        },
-
-        async getBreedingCombos() {
-          const db = await getBreedingDatabase();
-          const rawDict = db._rawDict || {}; 
-          const searchName = this.name.toLowerCase();
-          let combos = [];
-          
-          for (const [comboKey, results] of Object.entries(rawDict)) {
-              if (comboKey.includes("+") && Array.isArray(results)) {
-                  if (results.some(r => r.toLowerCase() === searchName)) {
-                      combos.push(comboKey);
+            async getBreedingCombos() {
+              const db = await getBreedingDatabase();
+              const rawDict = db._rawDict || {}; 
+              const searchName = this.name.toLowerCase();
+              let combos = [];
+              
+              for (const [comboKey, results] of Object.entries(rawDict)) {
+                  if (comboKey.includes("+") && Array.isArray(results)) {
+                      if (results.some(r => typeof r === 'string' && r.toLowerCase() === searchName)) {
+                          combos.push(comboKey);
+                      }
                   }
               }
-          }
-          
-          return [...new Set(combos)].map(c => 
-              c.split('+')
-               .map(p => p.trim().split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '))
-               .join(' + ')
-          );
-        },
-        
-        getStatistics() { return { name: this.name, rarity: this.rarity, costs: this.costs, description: this.description }; },
-        getSounds() { return this.sounds; },
+              
+              return [...new Set(combos)].map(c => 
+                  c.split('+')
+                   .map(p => p.trim().split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '))
+                   .join(' + ')
+              );
+            },
+            
+            getStatistics() { return { name: this.name, rarity: this.rarity, costs: this.costs, description: this.description }; },
+            getSounds() { return this.sounds; },
 
-        async playSound(index = 0) {
-          if (!this.sounds || this.sounds.length === 0) return console.warn(`No sounds found for ${this.name}`);
-          try {
-            const trackIndex = index < this.sounds.length ? index : 0; 
-            const audio = new Audio(this.sounds[trackIndex]);
-            audio.crossOrigin = "anonymous";
-            await audio.play();
-          } catch {
-            console.warn(`Failed to play sound for ${this.name}`);
-          }
-        }
-    };
+            async playSound(index = 0) {
+              if (!this.sounds || this.sounds.length === 0) return console.warn(`No sounds found for ${this.name}`);
+              try {
+                const trackIndex = index < this.sounds.length ? index : 0; 
+                const audio = new Audio(this.sounds[trackIndex]);
+                audio.crossOrigin = "anonymous";
+                await audio.play();
+              } catch {
+                console.warn(`Failed to play sound for ${this.name}`);
+              }
+            }
+        };
+    } catch (criticalError) {
+        console.error(`Catastrophic failure parsing JSON for ${name}:`, criticalError);
+        return null;
+    }
   }
 
   const MSM = new Proxy({}, {
