@@ -65,7 +65,6 @@
   updateUrls();
   const syncPromise = syncToLatestCommit();
 
-  // Unified Database Cache System
   const cache = {}; 
   const fetchPromises = {};
   let dbCache = null;
@@ -110,7 +109,6 @@
     return fetchPromise;
   }
 
-  // Fetch the single optimized master database
   async function initDatabases() {
     await syncPromise;
     if (dbCache) return dbCache;
@@ -119,7 +117,6 @@
     return dbCache || {};
   }
 
-  // Breeding combo calculator logic
   let breedingCache = null;
   let nameRegistry = {};
   
@@ -127,7 +124,6 @@
     await initDatabases();
     if (breedingCache) return breedingCache;
     
-    // Check if the master database included breedingCombos. If not, fetch it separately.
     const rawData = dbCache['breedingCombos'] || await fetchWithCache('breeding_db', BREEDING_FILE_PATH);
     if (!rawData) return {};
 
@@ -142,8 +138,6 @@
         } else { processed[key.toLowerCase()] = rawData[key]; }
     });
     breedingCache = processed;
-    
-    // Also cache the raw dictionary structure for the reverse-lookup
     breedingCache._rawDict = rawData; 
     
     return processed;
@@ -174,32 +168,39 @@
       return { folder, file: fileName, baseNameClean };
   }
 
-  // The fully optimized getMonster function
   async function getMonster(name) {
     await initDatabases();
     
     const { folder: rarity, file, baseNameClean } = resolveMonsterPath(name);
     const fullName = rarity === "Common" ? baseNameClean : `${rarity} ${baseNameClean}`;
 
-    // 1. Text & Stats Lookups (O(1) Instant Object lookups mapping by Name)
+    // 1. STRICT RARITY VERIFICATION (Kill fake monsters instantly)
+    if (rarity !== "Common") {
+        const hasImage = dbCache['Image Manifest']?.[baseNameClean]?.[rarity];
+        const hasTime = dbCache['Breeding Times']?.[baseNameClean]?.[rarity];
+        const hasCost = dbCache['Costs']?.[fullName];
+        const hasWublin = dbCache['Wublins']?.[baseNameClean]?.[rarity];
+        
+        if (!hasImage && !hasTime && !hasCost && !hasWublin) {
+            return null; // Instant kill switch for Frankenstein monsters
+        }
+    }
+
     const descObj = dbCache['Descriptions']?.[fullName] || dbCache['Descriptions']?.[baseNameClean];
     const description = descObj ? descObj.description : "Description unavailable.";
 
     const costObj = dbCache['Costs']?.[fullName] || dbCache['Costs']?.[baseNameClean] || {};
     const primaryCost = costObj.coin_cost || costObj.diamond_cost || costObj.relic_cost || "N/A";
 
-    // 2. Images Lookup
     const imageManifest = dbCache['Image Manifest']?.[baseNameClean]?.[rarity] || {};
     let finalImageUrl = imageManifest.full_image 
         ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}${encodeURI(imageManifest.full_image)}`
         : `${IMAGE_BASE_URL}${encodeURIComponent(file)}.png`;
 
-    // Fast-fail if absolutely no data exists for this monster
     if (!descObj && !Object.keys(costObj).length && !imageManifest.full_image) {
         return null;
     }
 
-    // 3. Elements Lookup
     const elementObj = dbCache['Elements']?.[baseNameClean];
     let elements = elementObj ? (elementObj.Element || elementObj.elements || []) : [];
 
@@ -213,20 +214,17 @@
         };
     });
 
-    // 4. Mechanics Lookups
     const breedingTimes = dbCache['Breeding Times']?.[baseNameClean]?.[rarity] || null;
     const likes = dbCache['Likes']?.[baseNameClean]?.[rarity] || [];
     const islandsList = dbCache['Islands']?.[fullName] || dbCache['Islands']?.[baseNameClean] || [];
     const inventory = dbCache['Celestials']?.[fullName]?.Inventory || dbCache['Wublins']?.[baseNameClean]?.[rarity]?.Inventory || null;
 
-    // 5. Assets Lookups
     const rawCostumes = dbCache['Costumes']?.[baseNameClean]?.[rarity] || [];
     const costumes = rawCostumes.map(c => `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(c)}`);
 
     const rawSounds = dbCache['Sounds']?.[baseNameClean]?.[rarity] || [];
     const sounds = rawSounds.map(s => `${SOUND_BASE_URL}${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(s)}`);
 
-    // 6. Return the fully-assembled API object
     return {
         name: fullName,
         baseName: baseNameClean,
@@ -287,11 +285,10 @@
 
         async getBreedingCombos() {
           const db = await getBreedingDatabase();
-          const rawDict = db._rawDict || {}; // Retrieve the original unaltered dictionary
+          const rawDict = db._rawDict || {}; 
           const searchName = this.name.toLowerCase();
           let combos = [];
           
-          // STRICT SEARCH: Only returns explicitly defined matches in your JSON!
           for (const [comboKey, results] of Object.entries(rawDict)) {
               if (comboKey.includes("+") && Array.isArray(results)) {
                   if (results.some(r => r.toLowerCase() === searchName)) {
@@ -300,7 +297,6 @@
               }
           }
           
-          // Format the combo strings safely with Capital letters
           return [...new Set(combos)].map(c => 
               c.split('+')
                .map(p => p.trim().split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '))
