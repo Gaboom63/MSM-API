@@ -321,7 +321,7 @@
     };
   }
 
-  const MSM = new Proxy({}, {
+const MSM = new Proxy({}, {
     get(target, prop) {
       const key = String(prop);
       if (key === "twoMonsterCombo") return calculateBreeding;
@@ -336,9 +336,14 @@
 
       return new Proxy({ _loader: loader }, {
           get(target, sub) {
+              // FIX: Safely route Promise methods so JavaScript doesn't treat them as arbitrary async calls
+              if (sub === "then") return target._loader.then.bind(target._loader);
+              if (sub === "catch") return target._loader.catch.bind(target._loader);
+              if (sub === "finally") return target._loader.finally.bind(target._loader);
+
               return async (...args) => {
                   const real = await target._loader;
-                  if (!real) return null;
+                  if (!real) return null; // Fails safely if the kill switch triggered
                   const val = real[sub];
                   return typeof val === "function" ? val.apply(real, args) : val;
               };
