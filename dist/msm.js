@@ -49,13 +49,16 @@
           COMMIT_HASH = data.sha;
           localStorage.setItem('msm_api_hash', COMMIT_HASH);
           
-          Object.keys(localStorage).forEach(key => {
-              if (key.startsWith('msm_') && key.includes(oldHash)) {
-                  localStorage.removeItem(key);
-              }
-          });
+          // FIX: Ensure oldHash is valid before attempting a wipe to prevent wiping all storage
+          if (oldHash && oldHash !== 'main') {
+              Object.keys(localStorage).forEach(key => {
+                  if (key.startsWith('msm_') && key.includes(oldHash)) {
+                      localStorage.removeItem(key);
+                  }
+              });
+          }
           
-          console.log(`MSM API Update detected! Switched from ${oldHash.substring(0,7)} to ${COMMIT_HASH.substring(0,7)}`);
+          console.log(`MSM API Update detected! Switched from ${oldHash ? oldHash.substring(0,7) : 'main'} to ${COMMIT_HASH.substring(0,7)}`);
       }
       localStorage.setItem('msm_hash_last_check', now);
     } catch (err) { console.warn("GitHub API Sync failed, using cached hash."); }
@@ -160,7 +163,8 @@
           folder = "Epic"; baseNameClean = rawName.substring(5).trim(); 
       }
 
-      const aliases = { "gnarl": "gnarls" };
+      // FIX: Ensure capitalized proper casing for aliases to prevent Image Manifest lookup failures
+      const aliases = { "gnarl": "Gnarls" };
       const lookupKey = baseNameClean.toLowerCase();
       if (aliases[lookupKey]) baseNameClean = aliases[lookupKey];
 
@@ -174,7 +178,6 @@
     const { folder: rarity, file, baseNameClean } = resolveMonsterPath(name);
     const fullName = rarity === "Common" ? baseNameClean : `${rarity} ${baseNameClean}`;
 
-    // 1. STRICT RARITY VERIFICATION (Kill fake monsters instantly)
     if (rarity !== "Common") {
         const hasImage = dbCache['Image Manifest']?.[baseNameClean]?.[rarity];
         const hasTime = dbCache['Breeding Times']?.[baseNameClean]?.[rarity];
@@ -182,7 +185,7 @@
         const hasWublin = dbCache['Wublins']?.[baseNameClean]?.[rarity];
         
         if (!hasImage && !hasTime && !hasCost && !hasWublin) {
-            return null; // Instant kill switch for Frankenstein monsters
+            return null; 
         }
     }
 
@@ -325,14 +328,11 @@
   get(target, prop) {
     const key = String(prop);
     
-    // Fix: route the key to either getMonster or calculateBreeding
     if (key === "twoMonsterCombo") return calculateBreeding;
     if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
 
-    // Cache check
     if (cache[key]) return cache[key];
 
-    // Loader creation for the monster
     const loader = getMonster(key).then(m => {
       cache[key] = m;
       return m;
@@ -340,16 +340,20 @@
 
     return new Proxy({ _loader: loader }, {
       get(target, sub) {
-        // Handle Promise methods (then, catch, finally)
         if (sub === "then") return target._loader.then.bind(target._loader);
         if (sub === "catch") return target._loader.catch.bind(target._loader);
         if (sub === "finally") return target._loader.finally.bind(target._loader);
 
         return async (...args) => {
           const real = await target._loader;
-          if (!real) return null; // Fails safely if the kill switch triggered
+          if (!real) return null; 
           const val = real[sub];
-          return typeof val === "function" ? val.apply(real, args) : val;
+          // FIX: Await the promise returned by apply if the function is async (like playSound)
+          if (typeof val === "function") {
+              const result = val.apply(real, args);
+              return result instanceof Promise ? await result : result;
+          }
+          return val;
         };
       }
     });
