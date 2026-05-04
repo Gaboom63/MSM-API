@@ -1837,6 +1837,12 @@
       "Thumpies Totem",
       "Dragoon Statue"
     ],
+    "Epic": [
+      "Fa",
+      "Bloofi Tree",
+      "The Thunker",
+      "Orb of Aklino"
+    ],
     "Rare": [
       "Knucklehead",
       "Star Rocks",
@@ -3205,6 +3211,14 @@
       "Wubbox Stockpile",
       "Harmonorb Holder",
       "Piney Tree"
+    ]
+  },
+  "T-Pirainha": {
+    "Common": [
+      "Anglow",
+      "Eerie Remains",
+      "Cave Crystal Teleporter",
+      "Innertuba"
     ]
   },
   "T-Rox": {

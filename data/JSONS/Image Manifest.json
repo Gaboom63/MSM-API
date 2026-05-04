@@ -1610,7 +1610,11 @@
       "full_image": "/images/bm/Rare Knucklehead.png",
       "egg_image": "/images/monster_eggs/Rare Knucklehead.png"
     },
-    "Epic": null
+    "Epic": {
+      "name": "Epic Knucklehead",
+      "full_image": "/images/bm/Epic Knucklehead.png",
+      "egg_image": "/images/monster_eggs/Epic Knucklehead.png"
+    }
   },
   "Knurv": {
     "Common": {

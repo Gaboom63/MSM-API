@@ -62,7 +62,7 @@ def scrape_msm_monsters():
                     })
 
     # 4. Output the result to a JSON file
-    output_filename = "msm_monsters.json"
+    output_filename = "Elements.json"
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(monsters_data, f, indent=2, ensure_ascii=False)
         

@@ -2502,5 +2502,13 @@
     {
         "name": "Fleechwurm",
         "cost": "5000"
+    },
+    {
+        "name": "T-Pirainha",
+        "cost": "500"
+    },
+    {
+        "name": "Epic Knucklehead",
+        "cost": "600"
     }
 ]

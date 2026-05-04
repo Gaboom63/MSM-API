@@ -1,4 +1,4 @@
-{
+  {
   "Anglow": {
     "Common": {
       "Enhanced": "1d 45m",
@@ -1495,6 +1495,12 @@
       "Enhanced_Skin": "17h 13m 30s",
       "Standard": "1d 2h 30m",
       "Standard_Skin": "23h 51m"
+    },
+    "Epic": {
+      "Enhanced": "1d 14h 51m 45s",
+      "Enhanced_Skin": "1d 9h 40m 51s",
+      "Standard": "2d 3h 49m",
+      "Standard_Skin": "1d 22h 38m 6s"
     }
   },
   "Knurv": {

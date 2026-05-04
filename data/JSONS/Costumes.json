@@ -1,7 +1,10 @@
 {
   "Anglow": {
     "Common": [
-      "Anglow_(Little_Cosmic_Egg).png"
+      "Anglow_(Little_Cosmic_Egg).png",
+      "Anglow_(Flashy_Wobbler).png",
+      "Anglow_(Splashy_Seafarer).png",
+      "Anglow_(Steamy_Artificer).png"
     ]
   },
   "Arackulele": {
@@ -267,6 +270,13 @@
       "D\u00e9j\u00e0-Jin_(Lucky_Mask).png"
     ]
   },
+  "Dermit": {
+    "Common": [
+      "Dermit_(Flashy_Shock_Jock).png",
+      "Dermit_(Splashy_Puffer).png",
+      "Dermit_(Steamy_Bosun).png"
+    ]
+  },
   "Edamimi": {
     "Common": [
       "Edamimi_(Fruit_Salad_Style).png"
@@ -374,7 +384,8 @@
       "Furcorn_Spooktacle_2012.png",
       "Furcorn_Spooktacle_2015.png",
       "Furcorn_Spooktacle_2018.png",
-      "Furcorn_Spooktacle_2019.png"
+      "Furcorn_Spooktacle_2019.png",
+      "Furcorn_(Clubbox_Swagger).png"
     ],
     "Epic": [
       "Epic_Furcorn_(Big_Blue_Bauble).png",
@@ -419,7 +430,9 @@
       "Ghazt_(Kinda_Sketchy).png",
       "Ghazt_(Med-Hiss-inal).png",
       "Ghazt_(Orbiting_Ova).png",
-      "Ghazt_(Seus-spicious).png"
+      "Ghazt_(Seus-spicious).png",
+      "Ghazt_(Flashy_PLURalist).png",
+      "Ghazt_(Steamy_Aetherist).png"
     ]
   },
   "Gloptic": {
@@ -519,6 +532,13 @@
       "Jellbilly_(Think_Tank).png"
     ]
   },
+  "Hornacle": {
+    "Common": [
+      "Hornacle_(Flashy_Raver).png",
+      "Hornacle_(Splashy_Sidekick).png",
+      "Hornacle_(Steamy_Skipper).png"
+    ]
+  },
   "Kayna": {
     "Common": [
       "Kayna_(Gobbley_Get-Up).png",
@@ -579,7 +599,8 @@
       "Mammott_(Stentorian_Skeleton).png",
       "Mammott_(Water_Buff-a-low).png",
       "Mammott_Spooktacle_2012.png",
-      "Mammott_Spooktacle_2014.png"
+      "Mammott_Spooktacle_2014.png",
+      "Mammott_(Clubbox_HypeMon).png"
     ],
     "Epic": [
       "Epic_Mammott_Yay_2018.png"
@@ -1201,6 +1222,12 @@
     ],
     "Epic": [
       "Epic_Tweedle_(Quadruple_Clawing).png"
+    ]
+  },
+  "T-Pirainha": {
+    "Common": [
+      "T-Pirainha_(Flashy_Front_Mon).png",
+      "T-Pirainha_(Steamy_Captain).png"
     ]
   },
   "Uuduk": {
