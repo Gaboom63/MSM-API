@@ -2766,6 +2766,13 @@
       "egg_image": "/images/monster_eggs/Epic T-Rox.png"
     }
   },
+  "T-Pirainha": {
+    "Common": {
+      "name": "T-Pirainha",
+      "full_image": "/images/bm/T-Pirainha.png",
+      "egg_image": "/images/monster_eggs/T-Pirainha.png"
+    }
+  },
   "Tapricorn": {
     "Common": {
       "name": "Tapricorn",
