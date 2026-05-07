@@ -935,7 +935,7 @@
     },
     "Rare": {
       "name": "Rare Enchantling",
-      "full_image": null,
+      "full_image": "/images/bm/Rare Enchantling.png",
       "egg_image": "/images/monster_eggs/Rare Enchantling.png"
     },
     "Epic": null
