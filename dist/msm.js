@@ -337,11 +337,33 @@
     }
   }
 
+  async function getIslandImg(identifier) {
+        // Ensure the database is loaded
+        await initDatabases();
+        
+        // Fetch the island image mapping from the master database cache
+        const islandsImages = dbCache['Island Manifest'] || {};
+        
+        // Normalize identifier to handle various input styles
+        let normalized = identifier.toLowerCase().trim().replace(/\s+/g, '_');
+        if (!normalized.endsWith('_island') && !normalized.includes('colossingum')) {
+            normalized += '_island';
+        }
+
+        const matches = islandsImages[normalized];
+        if (!matches) return null;
+
+        // Map local paths to full URLs using the repository and commit hash
+        const islandBaseUrl = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/`;
+        return matches.map(path => `${islandBaseUrl}${encodeURI(path)}`);
+  }
+
   const MSM = new Proxy({}, {
   get(target, prop) {
     const key = String(prop);
     
     if (key === "twoMonsterCombo") return calculateBreeding;
+    if (key === "getIslandImg") return getIslandImg;
     if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
 
     if (key in cache) return cache[key];
