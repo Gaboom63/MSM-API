@@ -365,7 +365,40 @@
     if (key === "twoMonsterCombo") return calculateBreeding;
     if (key === "getIslandImg") return getIslandImg;
     if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
-
+    if (key === "help") {
+      return () => ({
+        version: COMMIT_HASH,
+        methods: {
+          get: "MSM.get(name) -> Fetch a monster",
+          monster: "MSM.monster(name) -> Alias for get()",
+          twoMonsterCombo: "MSM.twoMonsterCombo('Noggin + Mammott') -> Get breeding results",
+          getIslandImg: "MSM.getIslandImg('plant island') -> Get island image URLs",
+          help: "MSM.help() -> Show all API methods"
+        },
+        monsterMethods: {
+          getInfo: "monster.getInfo()",
+          getStatistics: "monster.getStatistics()",
+          getBreedingTime: "monster.getBreedingTime()",
+          getBreedingCombos: "monster.getBreedingCombos()",
+          getElementImages: "monster.getElementImages()",
+          getImageURL: "monster.getImageURL()",
+          getSounds: "monster.getSounds()",
+          playSound: "monster.playSound(index)",
+          getCostumes: "monster.getCostumes()",
+          getCostume: "monster.getCostume(index)",
+          nextCostume: "monster.nextCostume()",
+          resetCostumes: "monster.resetCostumes()",
+          loadImage: "monster.loadImage(selector)",
+          isOnIsland: "monster.isOnIsland(island)"
+        },
+        examples: [
+          "await MSM.get('Bowgart')",
+          "await MSM.Bowgart.getInfo()",
+          "await MSM.twoMonsterCombo('T-Rox + Shellbeat')",
+          "await MSM.getIslandImg('Water Island')"
+        ]
+      });
+    }
     if (key in cache) return cache[key];
 
     const loader = getMonster(key).then(m => {
