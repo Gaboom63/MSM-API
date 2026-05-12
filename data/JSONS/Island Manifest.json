@@ -1,23 +1,23 @@
 {
   "air_island": [
-    "images/islands/Air Island (Gigacheep Nest Skin).png",
     "images/islands/Air Island.png",
+    "images/islands/Air Island (Gigacheep Nest Skin).png",
     "images/islands/Air Island (Season of Love Skin).png"
   ],
   "amber_island": [
-    "images/islands/Amber Island (Echoes of Eco Skin).png",
-    "images/islands/Amber Island.png"
+    "images/islands/Amber Island.png",
+    "images/islands/Amber Island (Echoes of Eco Skin).png"
   ],
   "bone_island": [
-    "images/islands/Bone Island (Beat Hereafter Skin).png",
-    "images/islands/Bone Island.png"
+    "images/islands/Bone Island.png",
+    "images/islands/Bone Island (Beat Hereafter Skin).png"
   ],
   "celestial_island": [
     "images/islands/Celestial Island.png"
   ],
   "cold_island": [
-    "images/islands/Cold Island (Festival of Yay Skin).png",
     "images/islands/Cold Island.png",
+    "images/islands/Cold Island (Festival of Yay Skin).png",
     "images/islands/Cold Island (Sweti Settlement Skin).png"
   ],
   "colossingum_island": [
@@ -32,20 +32,20 @@
     "images/islands/Earth Island (Temple of Hahoo Skin).png"
   ],
   "ethereal_island": [
-    "images/islands/Ethereal Island (Life-Formula Skin).png",
-    "images/islands/Ethereal Island.png"
+    "images/islands/Ethereal Island.png",
+    "images/islands/Ethereal Island (Life-Formula Skin).png"
   ],
   "faerie_island": [
-    "images/islands/Faerie Island (Cloverspell Skin).png",
-    "images/islands/Faerie Island.png"
+    "images/islands/Faerie Island.png",
+    "images/islands/Faerie Island (Cloverspell Skin).png"
   ],
   "gold_island": [
-    "images/islands/Gold Island (Anniversary Month Skin).png",
-    "images/islands/Gold Island.png"
+    "images/islands/Gold Island.png",
+    "images/islands/Gold Island (Anniversary Month Skin).png"
   ],
   "haven_island": [
-    "images/islands/Fire Haven (Feast-Ember Skin).png",
-    "images/islands/Fire Haven Island.png"
+    "images/islands/Fire Haven Island.png",
+    "images/islands/Fire Haven (Feast-Ember Skin).png"
   ],
   "light_island": [
     "images/islands/Light Island.png",
@@ -100,12 +100,12 @@
     "images/islands/Plasma Islet Island.png"
   ],
   "psychic_island": [
-    "images/islands/Psychic Island (MindBoggle Skin).png",
-    "images/islands/Psychic Island.png"
+    "images/islands/Psychic Island.png",
+    "images/islands/Psychic Island (MindBoggle Skin).png"
   ],
   "sanctum_island": [
-    "images/islands/Magical Sanctum (Crescendo Moon Skin).png",
-    "images/islands/Magical Sanctum Island.png"
+    "images/islands/Magical Sanctum Island.png",
+    "images/islands/Magical Sanctum (Crescendo Moon Skin).png"
   ],
   "seasonal_island": [
     "images/islands/Seasonal Shanty Island.png"
@@ -117,9 +117,9 @@
     "images/islands/Tribal Island.png"
   ],
   "water_island": [
+    "images/islands/Water Island.png",
     "images/islands/Water Island (Eggs-Travaganza Skin).png",
-    "images/islands/Water Island (Glubber Lagoon Skin).png",
-    "images/islands/Water Island.png"
+    "images/islands/Water Island (Glubber Lagoon Skin).png"
   ],
   "workshop_island": [
     "images/islands/Ethereal Workshop Island.png"
