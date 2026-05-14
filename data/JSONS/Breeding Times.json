@@ -1639,6 +1639,12 @@
       "Enhanced_Skin": "2d 14h 4m 30s",
       "Standard": "3d 23h 30m",
       "Standard_Skin": "3d 13h 57m"
+    },
+    "Epic": {
+      "Enchanced": "1d 5h 15m",
+      "Enhanced_Skin": "1d 1h 21m",
+      "Standard": "1d 15h",
+      "Standard_Skin": "1d 11h 6m"
     }
   },
   "Monculus": {
@@ -2303,6 +2309,10 @@
       "Enhanced_Skin": "21h 56m 15s",
       "Standard": "1d 9h 45m",
       "Standard_Skin": "1d 6h 22m 30s"
+    },
+    "Epic": {
+      "Enchanced": "1d 12h 25m 30s",
+      "Standard": "2d 34m"
     }
   },
   "Shellbeat": {

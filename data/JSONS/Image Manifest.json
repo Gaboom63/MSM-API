@@ -3451,7 +3451,11 @@
       "full_image": "/images/bm/Rare shLep.png",
       "egg_image": "/images/monster_eggs/Rare shLep.png"
     },
-    "Epic": null
+    "Epic": {
+      "name": "Epic shLep",
+      "full_image": "/images/bm/Epic shLep.png",
+      "egg_image": "/images/monster_eggs/Epic shLep.png"
+    }
   },
   "ERmA gUrDy (Major)": {
     "Common": {

@@ -2038,6 +2038,12 @@
       "Eerie Remains",
       "Freed Thing",
       "Shrini"
+    ],
+    "Epic": [
+      "Fa",
+      "Wubbox Stockpile",
+      "Crumpler Tree",
+      "Inverdigus Fern"
     ]
   },
   "Monculus": {
@@ -4044,11 +4050,23 @@
     ]
   },
   "shLep": {
+    "Common": [
+      "Cherubble",
+      "Englobulated F.U.M.",
+      "Thumpies Totem",
+      "Shrini"
+    ],
     "Rare": [
       "ShLep",
       "Hollow Log",
       "Striking Bulbs",
       "Yum Yum Tree"
+    ],
+    "Epic": [
+      "Wheezel", 
+      "Bloofi Tree",
+      "Flappy Flag",
+      "Ambered Thing"
     ]
   }
 }

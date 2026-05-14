@@ -208,7 +208,7 @@
   "Cataliszt + Yawstrich": ["Sporerow", "Rare Sporerow", "Epic G'joob"],
   "Cataliszt + Anglow": ["Pinghound", "Rare Pinghound", "Epic Buzzinga", "Epic Cranchee"],
   "Cataliszt + Hyehehe": ["Wheezel", "Rare Wheezel", "Epic Cherubble", "Epic Sporerow"],
-  "Cataliszt + Buzzinga": ["Knurv", "Rare Knurv", "Epic Hyehehe"],
+  "Cataliszt + Buzzinga": ["Knurv", "Rare Knurv", "Epic Hyehehe", "Epic shLep"],
   "Cataliszt + Cherubble": ["ShLep", "Rare ShLep","Epic Anglow", "Epic Bleatnik"],
   "Gloptic + Rootitoot": ["Hairionette (Major)"],
   "Gloptic + Tapricorn": ["Hairionette (Major)"],
@@ -427,5 +427,6 @@
   "Any Celestial": ["Hornacle", "Furnoss", "Glaishur", "Blasoom", "Syncopite", "Vhamp", "Galvana", "Scaratar", "Loodvigg", "Torrt", "Plixie", "Attmoz", "Adult Hornacle", "Adult Furnoss", "Adult Glaishur", "Adult Blasoom", "Adult Syncopite", "Adult Vhamp", "Adult Galvana", "Adult Scaratar", "Adult Loodvigg", "Adult Torrt", "Adult Plixie", "Adult Attmoz"],
   "Any Dipsters": ["Do", "Re", "Mi", "Fa", "Sol", "La", "Ti"],
   "Larvaluss + Cahoot": ["Epic Knucklehead"],
-  "Exclusive To Clubbox": ["T-Pirainha"]
+  "Exclusive To Clubbox": ["T-Pirainha"],
+  "Wynq + Glowl": ["Epic Mimic"]
 }

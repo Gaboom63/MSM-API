@@ -2510,5 +2510,13 @@
     {
         "name": "Epic Knucklehead",
         "cost": "600"
+    },
+    {
+        "name": "Epic shLep",
+        "cost": "1600"
+    },
+    {
+        "name": "Epic Mimic",
+        "cost": "1750"
     }
 ]
