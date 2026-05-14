@@ -1779,7 +1779,11 @@
       "full_image": "/images/bm/Rare Mimic.png",
       "egg_image": "/images/monster_eggs/Rare Mimic.png"
     },
-    "Epic": null
+    "Epic": {
+      "name": "Epic Mimic",
+      "full_image": "/images/bm/Epic Mimic.png",
+      "egg_image": "/images/monster_eggs/Epic Mimic.png"  
+    }
   },
   "Monculus": {
     "Common": {
