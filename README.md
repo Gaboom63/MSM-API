@@ -1,8 +1,6 @@
 ## LATEST UPDATE:
 **Added:** Epic shLep and Epic Mimic! 
 --------------------
-## LAST UPDATED: 3/25/26 (Added All Eggstravaganza Updates)
-
 ## AT LAST THE API IS DONE! (1/28/26)
 
 This project is now finished! It will be consistantly worked on and updated frequently! Enjoy using it now, and expect more and more features to come out soon! 
