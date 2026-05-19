@@ -358,12 +358,79 @@
         return matches.map(path => `${islandBaseUrl}${encodeURI(path)}`);
   }
 
+  async function fetchIslands() {
+      await initDatabases();
+      const dbIslands = dbCache['Islands'] || {};
+      const uniqueIslands = new Set();
+
+      // Iterate through all monsters to extract unique island names
+      for (const islandArray of Object.values(dbIslands)) {
+          if (Array.isArray(islandArray)) {
+              islandArray.forEach(island => uniqueIslands.add(island));
+          }
+      }
+
+      return Array.from(uniqueIslands).sort();
+    }
+
+    async function fetchIsland(identifier) {
+      await initDatabases();
+
+      const dbIslands = dbCache['Islands'] || {};
+      const searchTarget = identifier.toLowerCase().trim();
+      let actualIslandName = identifier;
+
+      const roster = [];
+      let found = false;
+
+      // Search the database to find all monsters that map to this island
+      for (const [monsterName, islandArray] of Object.entries(dbIslands)) {
+          if (!Array.isArray(islandArray)) continue;
+
+          for (const islandName of islandArray) {
+              const normalizedIsland = String(islandName).toLowerCase().trim();
+              
+              // Flexible matching so "plant" matches "Plant Island"
+              if (
+                  normalizedIsland === searchTarget || 
+                  normalizedIsland === searchTarget + " island" || 
+                  normalizedIsland + " island" === searchTarget
+              ) {
+                  roster.push(monsterName);
+                  actualIslandName = islandName; // Grab the correctly capitalized name
+                  found = true;
+                  break;
+              }
+          }
+      }
+
+      if (!found) {
+          return { error: `No data found for island matching '${identifier}'.` };
+      }
+
+      // Fetch images using your existing helper
+      const images = await getIslandImg(actualIslandName) || [];
+
+      // Return a structured object with helper methods
+      return {
+          name: actualIslandName,
+          images: images,
+          monsters: roster.sort(),
+          totalMonsters: roster.length,
+
+          getImages() { return this.images; },
+          getMonsters() { return this.monsters; },
+          getInfo() { return `${this.name} features ${this.totalMonsters} known monsters!`; }
+      };
+    }
   const MSM = new Proxy({}, {
   get(target, prop) {
     const key = String(prop);
     
     if (key === "twoMonsterCombo") return calculateBreeding;
     if (key === "getIslandImg") return getIslandImg;
+    if (key === "fetchIsland" || key === "island") return fetchIsland;
+    if (key === "fetchIslands" || key === "islands") return fetchIslands;
     if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
     if (key === "help") {
       return () => ({
@@ -373,6 +440,8 @@
           monster: "MSM.monster(name) -> Alias for get()",
           twoMonsterCombo: "MSM.twoMonsterCombo('Noggin + Mammott') -> Get breeding results",
           getIslandImg: "MSM.getIslandImg('plant island') -> Get island image URLs",
+          fetchIsland: "MSM.fetchIsland('plant') -> Get an island's info and monster roster",
+          fetchIslands: "MSM.fetchIslands() -> Returns an array of all known islands", 
           help: "MSM.help() -> Show all API methods"
         },
         monsterMethods: {
@@ -395,7 +464,9 @@
           "await MSM.get('Bowgart')",
           "await MSM.Bowgart.getInfo()",
           "await MSM.twoMonsterCombo('T-Rox + Shellbeat')",
-          "await MSM.getIslandImg('Water Island')"
+          "await MSM.getIslandImg('Water Island')",
+          "await MSM.fetchIslands()",
+          "await MSM.fetchIsland('Ethereal')"
         ]
       });
     }

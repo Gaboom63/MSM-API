@@ -9,7 +9,7 @@ const filesToMerge = [
   'Breeding Times.json', 'Celestials.json', 'Costumes.json', 'Islands.json',
   'Likes.json', 'Costs.json', 'Descriptions.json', 'Elements.json',
   'Image Manifest.json', 'Sounds.json', 'Wublins.json', 'Element Image Manifest.json',
-  'breedingCombos.json', 'Island Manifest.json'
+  'breedingCombos.json', 'Island Manifest.json', "Islands_Names.json"
 ];
 
 let masterDb = {};
