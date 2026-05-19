@@ -2109,7 +2109,7 @@
     "Common": {
       "name": "PomPom",
       "full_image": "/images/bm/PomPom.png",
-      "egg_image": null
+      "egg_image": "/images/monster_eggs/PomPom.png"
     },
     "Rare": {
       "name": "Rare PomPom",
