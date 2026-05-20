@@ -2518,5 +2518,9 @@
     {
         "name": "Epic Mimic",
         "cost": "1750"
+    },
+    {
+        "name": "Epic Peckidna",
+        "cost": "500"
     }
 ]

@@ -1641,7 +1641,7 @@
       "Standard_Skin": "3d 13h 57m"
     },
     "Epic": {
-      "Enchanced": "1d 5h 15m",
+      "Enhanced": "1d 5h 15m",
       "Enhanced_Skin": "1d 1h 21m",
       "Standard": "1d 15h",
       "Standard_Skin": "1d 11h 6m"
@@ -1825,6 +1825,12 @@
       "Enhanced_Skin": "19h 49m 30s",
       "Standard": "1d 6h 30m",
       "Standard_Skin": "1d 3h 27m"
+    },
+    "Epic": {
+      "Enhanced": "1d 22h 15m",
+      "Enhanced_Skin": "1d 6h 3m 45s",
+      "Standard": "1d 22h 15m",
+      "Standard_Skin": "1d 17h 37m 30s"
     }
   },
   "Pentumbra": {
@@ -2311,7 +2317,7 @@
       "Standard_Skin": "1d 6h 22m 30s"
     },
     "Epic": {
-      "Enchanced": "1d 12h 25m 30s",
+      "Enhanced": "1d 12h 25m 30s",
       "Standard": "2d 34m"
     }
   },

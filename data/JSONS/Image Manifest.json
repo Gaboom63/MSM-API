@@ -1956,7 +1956,11 @@
       "full_image": "/images/bm/Rare Peckidna.png",
       "egg_image": "/images/monster_eggs/Rare Peckidna.png"
     },
-    "Epic": null
+    "Epic": {
+      "name": "Epic Peckidna",
+      "full_image": "/images/bm/Epic Peckidna.png",
+      "egg_image": "/images/monster_eggs/Epic Peckidna.png"
+    }
   },
   "Pentumbra": {
     "Common": {
