@@ -54,6 +54,9 @@
   "mech_island": [
     "images/islands/Mech Islet Island.png"
   ],
+  "crystal_islet": [
+    "images/islands/Crystal Islet Island.png"
+  ],
   "mirror_air_island": [
     "images/islands/Mirror Air Island.png"
   ],

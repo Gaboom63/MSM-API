@@ -895,6 +895,9 @@
       "Enhanced_Skin": "19h 30m",
       "Standard": "1d 6h",
       "Standard_Skin": "1d 3h"
+    },
+    "Rare": {
+      "Standard": "1d 11h"
     }
   },
   "Floogull": {
@@ -3193,6 +3196,11 @@
       "Enhanced_Skin": "17h 13m 30s",
       "Standard": "1d 2h 30m",
       "Standard_Skin": "23h 51m"
+    }
+  },
+  "Droah": {
+    "Common": {
+      "Standard": "2d 2h"
     }
   }
 }

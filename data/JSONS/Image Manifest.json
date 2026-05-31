@@ -1011,7 +1011,11 @@
       "full_image": "/images/bm/Flasque.png",
       "egg_image": "/images/monster_eggs/Flasque.png"
     },
-    "Rare": null,
+    "Rare": {
+      "name": "Rare Flasque",
+      "full_image": "/images/bm/Rare Flasque.png",
+      "egg_image": "/images/monster_eggs/Rare Flasque.png"
+    },
     "Epic": null
   },
   "Fleechwurm": {
@@ -3518,5 +3522,12 @@
     },
     "Rare": null,
     "Epic": null
+  },
+  "Droah": {
+    "Common": {
+      "name": "Droah",
+      "full_image": "/images/bm/Droah.png",
+      "egg_image": "/images/monster_eggs/Droah.png"
+    }
   }
 }

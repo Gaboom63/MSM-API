@@ -2522,5 +2522,13 @@
     {
         "name": "Epic Peckidna",
         "cost": "500"
+    },
+    {
+        "name": "Rare Flasque", 
+        "cost": "3500"
+    },
+    {
+        "name": "Droah",
+        "cost": "5000"
     }
 ]

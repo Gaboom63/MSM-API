@@ -1085,6 +1085,14 @@
       "Englobulated F.U.M.",
       "Trumplite",
       "Babayag Tower"
+    ],
+    "Rare": [
+      "Flasque",
+      "Rare Ghazt",
+      "Rare Sox", 
+      "Rare Jellbilly",
+      "Rare Nitebear",
+      "Rare Fung Pray"
     ]
   },
   "Floogull": {
@@ -4073,6 +4081,14 @@
       "Bloofi Tree",
       "Flappy Flag",
       "Ambered Thing"
+    ]
+  },
+  "Droah": {
+    "Common": [
+      "Flasque",
+      "Nitebear",
+      "X'rt",
+      "Boodoo"
     ]
   }
 }
