@@ -1,0 +1,35 @@
+{
+  "Name": "Peckidna",
+  "Elements": [
+    "Earth",
+    "Bone"
+  ],
+  "Islands": [
+    "bone",
+    "nexus",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Peckidna",
+    "description": "A flock of colorful birds plucking the instrument of a willing little Monster? It may sound familiar, yet the Peckidna evolved independently of the woolen Monster you know and love thanks to its unique habitat and Elemental make-up. The caring Peckidna crawls beneath the bellies of itchy-tummied giants and uses its spines to scritch and scratch away. Its shell not only provides a cozy place to get some 'me time,' but also a layer of protection from any flaky skin that may fall from the Monster above!"
+  },
+  "Costs": {
+    "name": "Peckidna",
+    "diamond_cost": "150"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 15m",
+    "Enhanced_Skin": "17h 33m",
+    "Standard": "1d 3h",
+    "Standard_Skin": "1d 18m"
+  },
+  "Likes": [
+    "Hawlo",
+    "Toob",
+    "Mountain Morsel",
+    "Barbloo Statue"
+  ],
+  "Combinations to Breed": [
+    "Noggin + Clackula"
+  ]
+}

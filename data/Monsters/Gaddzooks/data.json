@@ -1,0 +1,45 @@
+{
+  "Name": "Gaddzooks",
+  "Elements": [
+    "Plasma",
+    "Mech",
+    "Crystal"
+  ],
+  "Islands": [
+    "workshop",
+    "plasma",
+    "mech"
+  ],
+  "Description": {
+    "name": "Gaddzooks",
+    "description": "The instability present in all Triple-Element Ethereals is no better represented than in the Gaddzooks. Every snap of their jaws and tap of their feet threatens to shatter its very form, and yet this Monster is able to keep it together and perform. An outlier in the Monster World as far as double-headedness goes, both of the Gaddzook brainstems get along famously and are always totally in sync with one another (we suppose you'd have to be in order to attain that level of percussive prowess). This cheerfulness and amicability extends to friendships with its fellow Ethereals as well, particularly the closely-related Yooreek."
+  },
+  "Costs": {
+    "name": "Gaddzooks",
+    "ethereal_diamond_cost": "1800",
+    "mech_diamond_cost": "3000",
+    "shard_cost": "2500",
+    "dish-harmonizer_shard_cost": "6000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 30m",
+    "Enhanced_Skin": "19h 30m",
+    "Standard": "1d 6h",
+    "Standard_Skin": "1d 3h"
+  },
+  "Likes": [
+    "Meebkin",
+    "Ghazt",
+    "Reebro",
+    "Nebulob",
+    "Sox",
+    "Bellowfish",
+    "Bogle",
+    "Jarhead",
+    "Leafy Sea Dragon",
+    "Bottomless Pit"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

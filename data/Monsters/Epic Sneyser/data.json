@@ -1,0 +1,40 @@
+{
+  "Name": "Epic Sneyser",
+  "Elements": [
+    "Air",
+    "Water",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "oasis",
+    "amber"
+  ],
+  "Description": {
+    "name": "Epic Sneyser",
+    "description": "Generations of Sneysers have strived to diminish the discomfort associated with the molten effluvium for which the species is known. So what's better than hot snot? Sublime slime! The Epic Sneyser generates and secretes highly acidic mucus all over its body to protect itself both from the rays of the sun, and its own sneezes. Its third eye sometimes helps to keep watch over its reserve of Sneysosudoric acid, while its additional forelimbs allow it to achieve land speeds faster than you would expect of a Monster its shape."
+  },
+  "Costs": {
+    "name": "Epic Sneyser",
+    "diamond_cost": "1000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 6h 45m",
+    "Enhanced_Skin": "1d 2h 39m",
+    "Standard": "1d 17h",
+    "Standard_Skin": "1d 12h 54m"
+  },
+  "Likes": [
+    "Phangler",
+    "Flum Ox",
+    "Tiawa",
+    "Drummidary",
+    "Bloofi Tree",
+    "Boss Monument",
+    "Mount Knottshurr",
+    "Epic Edamimi"
+  ],
+  "Combinations to Breed": [
+    "Woolabee + Phangler"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "Name": "Knucklehead",
+  "Elements": [
+    "Light",
+    "Faerie"
+  ],
+  "Islands": [
+    "sanctum"
+  ],
+  "Description": {
+    "name": "Knucklehead",
+    "description": "The golem-like Knucklehead possesses a level of strength nearly unmatched in all of the Monster World. When the Monster slams its gargantuan fists together to produce its signature sound, small quantities of light emanate from the impact. This strength is seldom on display when the Knucklehead is not performing, however - instead, its favorite pastimes include delicate needlework and sculpting miniature clay models for use in role-playing tabletop gaming."
+  },
+  "Costs": {
+    "name": "Knucklehead",
+    "diamond_cost": "200"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h",
+    "Enhanced_Skin": "13h",
+    "Standard": "20h",
+    "Standard_Skin": "18h"
+  },
+  "Likes": [
+    "Floot Fly",
+    "Piney Tree",
+    "Thumpies Totem",
+    "Dragoon Statue"
+  ],
+  "Combinations to Breed": [
+    "Fluoress + Floot Fly"
+  ]
+}

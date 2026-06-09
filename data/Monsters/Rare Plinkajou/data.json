@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Plinkajou",
+  "Elements": [
+    "Earth",
+    "Water",
+    "Fire",
+    "Bone"
+  ],
+  "Islands": [
+    "bone",
+    "nexus",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Rare Plinkajou",
+    "description": "Monsters will often adapt their appearance to match their surroundings, but less frequently, they will adapt themselves to another Monstrous denizen of their habitat. The Rare Plinkajou is a prime example of this - it has evolved multiple traits to resemble the Rare Gnarls that share its subterranean ecosystem. The dense white-grey fur that covers the Rare Magical's body is reminiscent of the texture of the Fire Rare's arboreal host of choice, and also recedes to a dark sooty grey as it reaches the extremities. Additionally, the many eyespots that cover its body call to mind the knots in the birch-Like texture of Rare Gnarls. Why the Rare Plinkajou evolved to appear this way remains unsolved, but some have suggested it's so that the Monster can disappear into the trees at a moment's notice should its collection of precious minerals be discovered."
+  },
+  "Costs": {
+    "name": "Rare Plinkajou",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 21h 22m 30s",
+    "Enhanced_Skin": "1d 15h 19m 30s",
+    "Standard": "2d 12h 30m",
+    "Standard_Skin": "2d 6h 27m"
+  },
+  "Likes": [
+    "Plinkajou",
+    "Piney Tree",
+    "Stritch Skin",
+    "Harmonorb Holder"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

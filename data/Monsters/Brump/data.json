@@ -1,0 +1,29 @@
+{
+  "Name": "Brump",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Brump",
+    "description": "Eww. Almost unique among Wublins, this Monster's appearance definitely brings to mind the eggs used to wake it... and also elicits a gag reflex. The Brump uses its Furcorn-like headstalks and Fwoggy feet to forage for food. It's pretty nasty, but presumably like you, we just can't seem to look away."
+  },
+  "Costs": {
+    "name": "Brump",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "2,000",
+    "Inventory": {
+      "Furcorn": 6,
+      "Fwog": 2
+    },
+    "Time Limit": "None",
+    "Total Eggs": "8"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

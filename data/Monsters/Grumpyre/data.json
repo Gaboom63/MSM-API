@@ -1,0 +1,45 @@
+{
+  "Name": "Grumpyre",
+  "Elements": [
+    "Shadow"
+  ],
+  "Islands": [
+    "cold",
+    "colossingum",
+    "ethereal",
+    "mirror cold"
+  ],
+  "Description": {
+    "name": "Grumpyre",
+    "description": "Another of the mysterious Ethereals, you can never fully tell what kind of mood the Grumpyre is in. Thanks to its shifting eyes and mouth as it gurgles forth its song, it might appear sad when really it's happy, or afraid when it's actually having a blast. This makes sense, since it embodies the essence of Shadow - always a bit obscured, and able to unnerve even the most intrepid of Monsters."
+  },
+  "Costs": {
+    "name": "Grumpyre",
+    "shadow_diamond_cost": "1000",
+    "colossingum_diamond_cost": "1050",
+    "ethereal_diamond_cost": "1500",
+    "dish-harmonizer_shard_cost": "4000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 3h",
+    "Enhanced_Skin": "23h 24m",
+    "Standard": "1d 12h",
+    "Standard_Skin": "1d 8h 24m"
+  },
+  "Likes": [
+    "Maw",
+    "Arackulele",
+    "Yooreek",
+    "Nitebear",
+    "Piplash",
+    "Saggle Tree",
+    "Bass String Bridge",
+    "Dragon Tower"
+  ],
+  "Combinations to Breed": [
+    "Deedge + Congle",
+    "Deedge + Bowgart",
+    "Deedge + Spunge",
+    "Deedge + Thumpies"
+  ]
+}

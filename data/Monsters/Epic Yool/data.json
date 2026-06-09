@@ -1,0 +1,37 @@
+{
+  "Name": "Epic Yool",
+  "Elements": [
+    "Festival of Yay"
+  ],
+  "Islands": [
+    "cold",
+    "gold",
+    "seasonal",
+    "mirror cold"
+  ],
+  "Description": {
+    "name": "Epic Yool",
+    "description": "No matter how it may adorn itself with baubles and bows, Epic Yool always makes a chilling first impression. Thus, the first-known Epic Seasonal prefers a behind-the-scenes role in the Festival of Yay festivities: making lists, checking them thrice, yada yada yada. If Common and Rare Yool are the face of the Yay operation, the busy Epic Yool is the mastermind!"
+  },
+  "Costs": {
+    "name": "Epic Yool",
+    "cold_diamond_cost": "1000",
+    "seasonal_diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "18h 54m",
+    "Enhanced_Skin": "16h 22m 48s",
+    "Standard": "1d 1h 12m",
+    "Standard_Skin": "22h 40m 48s"
+  },
+  "Likes": [
+    "Coldman Colloquy",
+    "Lamppost",
+    "Gingerbread Bluff",
+    "Yaytide Trimmings"
+  ],
+  "Combinations to Breed": [
+    "Deedge + Pango",
+    "Hoola + Blabbit"
+  ]
+}

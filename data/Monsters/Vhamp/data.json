@@ -1,0 +1,43 @@
+{
+  "Name": "Vhamp",
+  "Elements": [
+    "Celestial"
+  ],
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Vhamp",
+    "description": "There's nothing like a good tune-up for the Mech Celestial! Vhamp’s revival was like a cosmic car wash, removing centuries of rust and rubble to reveal a shining new Monster beneath. Movin’ and shakin' like a well-oiled machine, Vhamp now spends its days making repairs to the broken down Island it calls home, collecting shiny scraps all the while."
+  },
+  "Costs": {
+    "name": "Vhamp",
+    "key_cost": "8",
+    "diamond_cost": "140"
+  },
+  "Celestial Inventory": {
+    "Cost": "8 Keys",
+    "Inventory": {
+      "Congle": 3,
+      "Cybop": 15,
+      "Drumpler": 12,
+      "Fwog": 5,
+      "Mammott": 35,
+      "Maw": 7,
+      "Noggin": 40,
+      "Pango": 5,
+      "PomPom": 1,
+      "Quibble": 5,
+      "Riff": 1,
+      "Scups": 3,
+      "T-Rox": 4,
+      "Toe Jammer": 50,
+      "Tweedle": 9
+    },
+    "Time Limit": "8 days",
+    "Total Eggs": "195"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ]
+}

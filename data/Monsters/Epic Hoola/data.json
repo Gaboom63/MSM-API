@@ -1,0 +1,40 @@
+{
+  "Name": "Epic Hoola",
+  "Elements": [
+    "SummerSong"
+  ],
+  "Islands": [
+    "air",
+    "earth",
+    "gold",
+    "seasonal",
+    "mirror air",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Epic Hoola",
+    "description": "Everyone's raving about this tie-dye raver! Epic Hoola is a world-renowned DJ that hosts the raddest parties this side of the Seam - especially at its usual stomping ground, Club Box. Only the hippest Monsters with an ear to the ground (or sky!) turn up at Epic Hoola's legendary secret shows. Whether it's your first time at Club Box or your fiftieth, one thing's for sure: any shindig with this Epic Seasonal is bound to be the best. Night. EVER!"
+  },
+  "Costs": {
+    "name": "Epic Hoola",
+    "earth_diamond_cost": "1000",
+    "seasonal_diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "16h",
+    "Enhanced_Skin": "13h 52m",
+    "Standard": "21h 20m",
+    "Standard_Skin": "19h 12m"
+  },
+  "Likes": [
+    "Beach Chair",
+    "Hot Tub",
+    "Granular Castle",
+    "Hut of a Thousand Perfumes"
+  ],
+  "Combinations to Breed": [
+    "Yool + Schmoochle",
+    "Riff + Fwog",
+    "Quarrister + Dandidoo"
+  ]
+}

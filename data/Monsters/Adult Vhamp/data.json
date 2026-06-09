@@ -1,0 +1,42 @@
+{
+  "Name": "Adult Vhamp",
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Adult Vhamp",
+    "description": "When a problem comes along, you must revamp it. Faced with the eventual deterioration of its physical form, the adult Vhamp invests endless time and energy into novelty mechanisms, doodads and paintjobs to try and stay youthful and relevant. 'Mech-nical' difficulties being an inevitable part of the future, the Celestial of Mech has attempted to distract itself from such concerns by taking up a new hobby: a keen interest in all things Mythical."
+  },
+  "Costs": {
+    "name": "Adult Vhamp",
+    "key_cost": "10"
+  },
+  "Celestial Inventory": {
+    "Cost": "10 Keys",
+    "Inventory": {
+      "Congle": 2,
+      "Cybop": 3,
+      "Drumpler": 3,
+      "Flex": 5,
+      "Fwog": 3,
+      "Maw": 3,
+      "Monculus": 1,
+      "Pango": 3,
+      "PomPom": 2,
+      "Quibble": 3,
+      "Riff": 1,
+      "Scups": 2,
+      "Sneyser": 1,
+      "T-Rox": 2,
+      "Tring": 1
+    },
+    "Time Limit": "30 days (June 1st 3:00pm UTC to July 1st 3:00pm UTC)",
+    "Total Eggs": "35"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ],
+  "Elements": [
+    "Celestial"
+  ]
+}

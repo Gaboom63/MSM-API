@@ -1,0 +1,29 @@
+{
+  "Name": "Shugajo",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "shugabush"
+  ],
+  "Description": {
+    "name": "Shugajo",
+    "description": "The perfectionist of the Shugafam, this fastidious fellow values precision and detail above all else. It follows that the Shugajo is the namesake of an instrument that requires a finely-honed technique. The secret to its success? Soothing daily mudbaths, which keep the mind clear and the limbs limber (and tinted a rich, chocolatey brown)."
+  },
+  "Costs": {
+    "name": "Shugajo",
+    "diamond_cost": "700"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "Quibble",
+    "Pipes of Cicado",
+    "Fuzzle Tree",
+    "Dragon Tower"
+  ]
+}

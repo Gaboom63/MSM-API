@@ -1,0 +1,37 @@
+{
+  "Name": "Epic Quarrister",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Cold"
+  ],
+  "Islands": [
+    "earth",
+    "gold",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Epic Quarrister",
+    "description": "Some Monsters age gracefully, while others age... like this. The seasoned Epic Quarrister has been one with the Earth for so long that vegetation has begun to take root within its weathered form, changing the landscape of this once-formidable golem forever. Ever the optimists, Epic Quarrister's heads can't help but smile at its new buttercup-yellow blooms and dignified Bawnzi Tree. Well, MOST of its heads."
+  },
+  "Costs": {
+    "name": "Epic Quarrister",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "Fossil-osaurus",
+    "Boss Monument",
+    "Bottomless Pit",
+    "Mount Knottshurr"
+  ],
+  "Combinations to Breed": [
+    "Clamble + Dandidoo"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Name": "Rare Strombonin",
+  "Elements": [
+    "Mythical"
+  ],
+  "Islands": [
+    "cold",
+    "mythical",
+    "mirror cold"
+  ],
+  "Description": {
+    "name": "Rare Strombonin",
+    "description": "Folklore contends that all Strombonin can move soundlessly if they so choose (although most of the time they are deafeningly loud). In reality, this is a misrepresentation of the Rare Strombonin's ability to make itself unseen by camouflaging itself among Piney Trees. By no means is this Rare Mythical prone to quietude - on the contrary, it often occupies a special position in Strombonin society called the Yippie Kiyay-koo. This designated performer will signal with a fewer-eyed Strombone subspecies called the Hora-guy and carried in a webbed net, and you can bet there's no mistaking when it arrives!"
+  },
+  "Costs": {
+    "name": "Rare Strombonin",
+    "cold_diamond_cost": "500",
+    "mythical_diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "21h 33m 45s",
+    "Enhanced_Skin": "18h 41m 15s",
+    "Standard": "1d 4h 45m",
+    "Standard_Skin": "1d 1h 52m 30s"
+  },
+  "Likes": [
+    "Strombonin",
+    "Wubbox Stockpile",
+    "Harmonorb Holder",
+    "Piney Tree"
+  ],
+  "Combinations to Breed": [
+    "Spunge + Bowgart"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "Name": "Zuuker",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Zuuker",
+    "description": "How do Zuukers stay warm? Their mostly featherless bodies would appear to have little insulation. These ingenious specimens breathe in through their mouths, warm the air inside, and pump out their signature drone through their blowholes, producing a nice and toasty sensation. That's also why Zuukers always appear red in the face."
+  },
+  "Costs": {
+    "name": "Zuuker",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "20,000",
+    "Inventory": {
+      "Bowgart": 4,
+      "Deedge": 2,
+      "Entbrat": 2,
+      "Furcorn": 6,
+      "Fwog": 4,
+      "Oaktopus": 6,
+      "T-Rox": 6
+    },
+    "Time Limit": "None",
+    "Total Eggs": "30"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

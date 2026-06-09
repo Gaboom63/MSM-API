@@ -1,0 +1,36 @@
+{
+  "Name": "Epic Clavavera",
+  "Elements": [
+    "Beat Hereafter"
+  ],
+  "Islands": [
+    "bone",
+    "seasonal",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Epic Clavavera",
+    "description": "Amidst the joy and liveliness of the Beat Hereafter, it can be easy to overlook the fact that sadness and loss have their own parts to play in processing the parting of a loved one. The purple hues of the Epic Clavavera are said to convey feelings of grief and mourning; a counterpoise to the celebratory significance of the pink cempasuchil atop its head. As far as the Epic Clavavera is concerned, there's no 'proper' way to tap into the heartbeat of forever, so long as it is done sincerely. A local legend attests that the brightly-colored feathered serpent draped around the Seasonal's neck is an alebrije form of the spectral critter that glides around Bone Island."
+  },
+  "Costs": {
+    "name": "Epic Clavavera",
+    "bone_diamond_cost": "1000",
+    "seasonal_diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "17h 23m 15s",
+    "Enhanced_Skin": "15h 4m 9s",
+    "Standard": "23h 11m",
+    "Standard_Skin": "20h 51m 54s"
+  },
+  "Likes": [
+    "Makeshift Altar",
+    "Heartstrings Stirring",
+    "Lady Calaca",
+    "Little Drummer"
+  ],
+  "Combinations to Breed": [
+    "Plinkajou + Hawlo",
+    "Viveine + Whiz-bang"
+  ]
+}

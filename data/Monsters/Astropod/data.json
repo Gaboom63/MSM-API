@@ -1,0 +1,36 @@
+{
+  "Name": "Astropod",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "Wublin"
+  ],
+  "Description": {
+    "name": "Astropod",
+    "description": "The Astropod is a bizarre amalgam of seemingly incompatible features that come together to create a truly unique Monster performer. The electricity that courses through its Wublin body manifests itself between its antlers and in the color-shifting tufts on its shell. Conversing with an Astropod is a complicated affair, as the slightest movement of its puny upper arms communicates nuanced subtexts and exposed veiled thoughts."
+  },
+  "Costs": {
+    "name": "Astropod",
+    "cost": "5000"
+  },
+  "Likes": [
+    "Pixolotl"
+  ],
+  "Wublin Inventory": {
+    "Cost": "20,000",
+    "Inventory": {
+      "Deedge": 5,
+      "Reedling": 8,
+      "Scups": 6,
+      "Shellbeat": 5,
+      "Spunge": 8,
+      "Toe Jammer": 10
+    },
+    "Time Limit": "None",
+    "Total Eggs": "42"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

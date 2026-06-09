@@ -1,0 +1,40 @@
+{
+  "Name": "Blasoom",
+  "Elements": [
+    "Celestial"
+  ],
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Blasoom",
+    "description": "The Blasoom has emerged from its ancient shell like a flower blossoming in the early days of spring, feeling refreshed and vibrantly alive. A surprising development in the Celestial's renewal was the disappearance of one of its elegantly oaky legs. While countless botanists and horticulturalists of the Plant Element have researched this loss of limb, the biological explanation behind its late leg growth remains elusive. The Blasoom appears undeterred however, happily hopping from place to place."
+  },
+  "Costs": {
+    "name": "Blasoom",
+    "key_cost": "14",
+    "diamond_cost": "145"
+  },
+  "Celestial Inventory": {
+    "Cost": "14 Keys",
+    "Inventory": {
+      "Bowgart": 3,
+      "Clamble": 5,
+      "Dandidoo": 8,
+      "Entbrat": 3,
+      "Furcorn": 9,
+      "Oaktopus": 5,
+      "Potbelly": 20,
+      "Pummel": 3,
+      "Reedling": 4,
+      "Shrubb": 5,
+      "Spunge": 3,
+      "Thumpies": 4
+    },
+    "Time Limit": "14 days",
+    "Total Eggs": "72"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Sooza",
+  "Elements": [
+    "Plant",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "light",
+    "amber",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Rare Sooza",
+    "description": "By tilting its flat-topped head backwards, the jazzy Rare Sooza can plug up its horn to produce a smoother, more muted sound. Just don't expect any further tonal alteration from the selection of silvery valves that adorn this Fire Rare's instrument; those bits and bobs exist purely to lend Rare Sooza a sophisticated old-school air."
+  },
+  "Costs": {
+    "name": "Rare Sooza",
+    "diamond_cost": "500",
+    "starpower_cost": "5000"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 52m 30s",
+    "Enhanced_Skin": "17h 13m 30s",
+    "Standard": "1d 2h 30m",
+    "Standard_Skin": "23h 51m"
+  },
+  "Likes": [
+    "Sooza",
+    "Glowl",
+    "Repatillo",
+    "Sneyser",
+    "Pipes of Cicado",
+    "Tree Hut",
+    "Crumpler Tree"
+  ],
+  "Combinations to Breed": [
+    "Furcorn + Kayna",
+    "Flowah + Mammott",
+    "Boskus + Potbelly"
+  ]
+}

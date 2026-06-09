@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Banjaw",
+  "Elements": [
+    "Water",
+    "Fire",
+    "Bone"
+  ],
+  "Islands": [
+    "bone",
+    "nexus",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Rare Banjaw",
+    "description": "Let's put some meat on those bones, said no one ever as they beheld a Common Banjaw. But here we are! In their quest to get swole, Rare Banjaws work up ravenous appetites to bulk up and develop musculature on several of their bony bits. Even after getting the gains, the Monster's long principle tendon is just as spindly as ever, drawing comparisons to a skinny nail and earning it the nickname a tack on Titan Necrull."
+  },
+  "Costs": {
+    "name": "Rare Banjaw",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 8h 37m 30s",
+    "Enhanced_Skin": "1d 4h 16m 30s",
+    "Standard": "1d 19h 30m",
+    "Standard_Skin": "1d 15h 9m"
+  },
+  "Likes": [
+    "Banjaw",
+    "Dragon Tower",
+    "Spatial Sapling",
+    "Striking Bulbs"
+  ],
+  "Combinations to Breed": [
+    "Hawlo + Toe Jammer",
+    "Phangler + Clackula",
+    "Denchuhs + Kayna"
+  ]
+}

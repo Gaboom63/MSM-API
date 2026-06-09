@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Blow't",
+  "Elements": [
+    "Plant",
+    "Cold",
+    "Fire",
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Rare Blow't",
+    "description": "There's an unending debate over which of the Rare Blow't's features are the most eye-catching and identifiable. Is it the Monster's many horns, whose spiraling configuration calls to mind as many writhing snakes? Or how about that one solitary eye? When one makes eye contact with the Rare Blow't, a chilling sensation is said to ripple through the observer's body - almost like the feeling of being turned to stone! However, the reality couldn't be further from the truth - it's actually just the physical response to being endowed with the Monster's unique form of apotropaic magic. A protective charm is cast upon the receiver of the Rare Blow't's gaze, warding off bad vibes, tummy aches and rotten luck alike. So when you spy this Rare Light Boss, don't avert your eyes - walk right up with a grin and say hello!"
+  },
+  "Costs": {
+    "name": "Rare Blow't",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 21h 22m 30s",
+    "Enhanced_Skin": "1d 15h 19m 30s",
+    "Standard": "2d 12h 30m",
+    "Standard_Skin": "2d 6h 27m"
+  },
+  "Likes": [
+    "Blow't",
+    "Flappy Flag",
+    "Squeed Statue",
+    "Odd-o-Mobile"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "Name": "Rare Ffidyll",
+  "Elements": [
+    "Cloverspell"
+  ],
+  "Islands": [
+    "faerie",
+    "seasonal",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Rare Ffidyll",
+    "description": "Monsters are naturally superstitious creatures, and perhaps none moreso than the Rare Ffidyll. In a departure from the carefree, fun-loving disposition of its Common cousin, this Monster is on the skittish side, and constantly on the lookout for any bad luck that may befall it. It's also a believer in the power of 'opposites' holding sway over one's fortunes - so while it can be coaxed out of hiding during Cloverspell, the Rare Ffidyll is actually most at ease at the opposite end of the calendar around the autumnal equinox."
+  },
+  "Costs": {
+    "name": "Rare Ffidyll",
+    "faerie_diamond_cost": "500",
+    "seasonal_diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 48m 45s",
+    "Enhanced_Skin": "20h 38m 15s",
+    "Standard": "1d 7h 45m",
+    "Standard_Skin": "1d 4h 34m 30s"
+  },
+  "Likes": [
+    "Ffidyll",
+    "Squeed Statue",
+    "Tub Fountain",
+    "Wild Bagpipe"
+  ],
+  "Combinations to Breed": [
+    "Pladdie + Floot Fly",
+    "Schmoochle + Blabbit"
+  ]
+}

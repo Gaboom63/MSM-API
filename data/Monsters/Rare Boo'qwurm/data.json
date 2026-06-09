@@ -1,0 +1,36 @@
+{
+  "Name": "Rare Boo'qwurm",
+  "Elements": [
+    "MindBoggle"
+  ],
+  "Islands": [
+    "psychic",
+    "seasonal",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Rare Boo'qwurm",
+    "description": "You're perhaps familiar with 'cooking the books'… but have you ever heard of 'baking the books'? That's the Rare Boo'qwurm's specialty. In place of the typical stack of unapproachable Bib'leos, this Seasonal concocts layers of sugary confections that cause the most fanciful fictions to be imagined upon their delectation. Rather than using one's eyes to perceive the written word, these stories are delivered and deciphered via degustation! There are some who argue that the only way to enjoy a book is to read it the old-fashioned way, but as far as the Rare Boo'qwurm is concerned, encouraging a love of literacy by any means necessary is a recipe for success."
+  },
+  "Costs": {
+    "name": "Rare Boo'qwurm",
+    "psychic_diamond_cost": "500",
+    "seasonal_diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 48m 45s",
+    "Enhanced_Skin": "20h 38m 15s",
+    "Standard": "1d 7h 45m",
+    "Standard_Skin": "1d 4h 34m 30s"
+  },
+  "Likes": [
+    "Boo'qwurm",
+    "Bloofi Tree",
+    "Yum Yum Tree",
+    "Eerie Remains"
+  ],
+  "Combinations to Breed": [
+    "Periscorp + Bonkers",
+    "Schmoochle + Hoola"
+  ]
+}

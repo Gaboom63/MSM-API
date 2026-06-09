@@ -1,0 +1,36 @@
+{
+  "Name": "Epic Jeeode",
+  "Elements": [
+    "Crystal"
+  ],
+  "Islands": [
+    "water",
+    "ethereal",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Epic Jeeode",
+    "description": "In order to become the ultimate muse, Epic Jeeode leaves no gems uncut, allowing the all-seeing eyes of its Rare cousins to merge into its body. Then, the Epic Ethereal uses its flawless powers of perception to picture every possible scenario, not only to resolve conflicts but also to create inspiration among other monsters. Refining its skills by playing beautiful crystalized melodies, which has in turn prompted some to refer to it as an 'intellectual wizard', this Monster has fulfilled its destiny of becoming a being of pure impartiality."
+  },
+  "Costs": {
+    "name": "Epic Jeeode",
+    "water_diamond_cost": "2250",
+    "ethereal_diamond_cost": "2550"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 30m",
+    "Enhanced_Skin": "16h 54m",
+    "Standard": "1d 2h",
+    "Standard_Skin": "23h 24m"
+  },
+  "Likes": [
+    "La",
+    "Elmenco Stump",
+    "Crumpler Tree",
+    "Hammock"
+  ],
+  "Combinations to Breed": [
+    "Pummel + Quibble",
+    "Jellbilly + Arackulele"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "Name": "Epic Brump",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Epic Brump",
+    "description": "Epic Brump knows a good thing when it sees one: just like the Common and Rare iterations before it, this Epic Wublin combines signature styles from its two original source eggs. Don't mess with success, they always say... Wake up the Wublins! Brumps always say!"
+  },
+  "Costs": {
+    "name": "Brump",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "2",
+    "Inventory": {
+      "Epic Furcorn": 1,
+      "Epic Fwog": 1,
+      "Epic Stogg": 1
+    },
+    "Time Limit": "None",
+    "Total Eggs": "3"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

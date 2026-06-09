@@ -1,0 +1,36 @@
+{
+  "Name": "Bona-Petite",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Bona-Petite",
+    "description": "Some musicians tickle the ivories, but the Bona-Petite prefers tickling the ribs. Or perhaps 'having its ribs tickled' is more accurate, depending on which of these two percussionists we're talking about here. Truth is, each is symbiotically connected to the other and equally responsible for delivering punchy kick patterns peppered with a little bottom-end bulk. The duo consists of two Monsters, amiably dubbed 'Bona' and 'Petite' by their Wublin pals. The smaller Petite puts the 'riff' in 'midriff,' while the larger Bona grumbles endlessly about indigestion."
+  },
+  "Costs": {
+    "name": "Bona-Petite",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "20,000",
+    "Inventory": {
+      "Bowgart": 6,
+      "Drumpler": 10,
+      "Entbrat": 5,
+      "Fwog": 10,
+      "Mammott": 10,
+      "Maw": 10,
+      "Pompom": 6,
+      "Riff": 5,
+      "T-Rox": 6
+    },
+    "Time Limit": "None",
+    "Total Eggs": "68"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

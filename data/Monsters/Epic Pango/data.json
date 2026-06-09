@@ -1,0 +1,44 @@
+{
+  "Name": "Epic Pango",
+  "Elements": [
+    "Air",
+    "Cold"
+  ],
+  "Islands": [
+    "cold",
+    "air",
+    "earth",
+    "gold",
+    "oasis",
+    "mirror cold",
+    "mirror air",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Epic Pango",
+    "description": "When a Rare Pango completes a particularly well-crafted, ice-sculpted self portrait, it feels a fleeting flash of self-confidence that flows into the very soul of its sculpture. These positive vibes animate the icy figure, giving life to an Epic Pango! Epic Pangos are exceptionally warm-hearted in spite of their chilling appearance, projecting their sweet disposition to the world through a Swurlee Nut-flavored ice cream belly badge."
+  },
+  "Costs": {
+    "name": "Epic Pango",
+    "diamond_cost": "150"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 15m",
+    "Enhanced_Skin": "17h 33m",
+    "Standard": "1d 3h",
+    "Standard_Skin": "1d 18m"
+  },
+  "Likes": [
+    "Wubbox",
+    "Boskus",
+    "PU System",
+    "Castanevine",
+    "Swurlee Tree"
+  ],
+  "Combinations to Breed": [
+    "Thumpies + Oaktopus",
+    "Congle + Cybop",
+    "Reedling + Furcorn",
+    "Whaddle + Maw"
+  ]
+}

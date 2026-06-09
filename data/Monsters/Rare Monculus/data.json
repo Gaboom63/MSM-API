@@ -1,0 +1,37 @@
+{
+  "Name": "Rare Monculus",
+  "Elements": [
+    "Life-Formula"
+  ],
+  "Islands": [
+    "ethereal",
+    "seasonal",
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Monculus",
+    "description": "During the era when all of the Colossals were using the pocket dimension as the site of their world-building experimentation, the spirits would gather the requisite materials in jars and vases. In what can now be viewed as a humorous oversight, the same Bubblerite clay that was filling the vessels was also used to craft the vessels themselves; meaning that as the prototype Monculus was receiving the spark of life, that same energy animated the jars and vases as well! And thus, the Rare Monculus was 'born.' Coincidentally, it was also the discovery of Krystillium's ability to alter its plasmic form, which opened up a world of possibility for more advanced crystalline manipulation in the future."
+  },
+  "Costs": {
+    "name": "Rare Monculus",
+    "ethereal_diamond_cost": "500",
+    "seasonal_diamond_cost": "625",
+    "wublin_key_cost": "12"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 48m 45s",
+    "Enhanced_Skin": "20h 38m 15s",
+    "Standard": "1d 7h 45m",
+    "Standard_Skin": "1d 4h 34m 30s"
+  },
+  "Likes": [
+    "Monculus",
+    "Floofy Nest",
+    "Kab's Wax",
+    "Crumpler Tree"
+  ],
+  "Combinations to Breed": [
+    "Nebulob + Jeeode",
+    "Yool +  Hoola"
+  ]
+}

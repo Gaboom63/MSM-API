@@ -1,0 +1,34 @@
+{
+  "Name": "Rare Maulch",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "Wublin"
+  ],
+  "Description": {
+    "name": "Rare Maulch",
+    "description": "For being little more than a hummock of soil, the Maulch sure is packed with personality. This inner vibrancy has a chance to manifest in an outer way when the transition into a Rare Maulch is complete, overlaying this 'late bloomer' with greenery and vivacity. The Monster is topped with an even more elaborate flower than the Common's, although the strain of keeping it sturdy and upright can lead to carpel tunnel syndrome."
+  },
+  "Costs": {
+    "name": "Maulch",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "7",
+    "Inventory": {
+      "Rare Clamble": 2,
+      "Rare Entbrat": 2,
+      "Rare Furcorn": 3,
+      "Rare Noggin": 3,
+      "Rare Pummel": 3,
+      "Rare Quarrister": 2,
+      "Rare Spunge": 3
+    },
+    "Time Limit": "None",
+    "Total Eggs": "18"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

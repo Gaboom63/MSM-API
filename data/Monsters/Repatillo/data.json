@@ -1,0 +1,41 @@
+{
+  "Name": "Repatillo",
+  "Elements": [
+    "Plant",
+    "Earth",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "amber"
+  ],
+  "Description": {
+    "name": "Repatillo",
+    "description": "The Repatillo is capable of rolling into a tight, armoured ball, ideal for barrelling down steep hills and valleys. It is a mystery how Repatillos managed to tuck away their many limbs, though their fellow Monsters have a few theories."
+  },
+  "Costs": {
+    "name": "Repatillo",
+    "fire_relic_cost": "100",
+    "amber_relic_cost": "20"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h",
+    "Enhanced_Skin": "13h",
+    "Standard": "20h",
+    "Standard_Skin": "18h"
+  },
+  "Likes": [
+    "Kayna",
+    "Thrumble",
+    "PongPing",
+    "Tiawa",
+    "Castanevine",
+    "Dragon Tower",
+    "Leafy Sea Dragon"
+  ],
+  "Combinations to Breed": [
+    "Shrubb + Kayna",
+    "Stogg + Potbelly",
+    "Flowah + Noggin"
+  ]
+}

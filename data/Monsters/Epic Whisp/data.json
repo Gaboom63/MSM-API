@@ -1,0 +1,34 @@
+{
+  "Name": "Epic Whisp",
+  "Elements": [
+    "Plasma",
+    "Shadow"
+  ],
+  "Islands": [
+    "ethereal"
+  ],
+  "Description": {
+    "name": "Epic Whisp",
+    "description": "The Epic Whisp straddles the line between macabre and lovely, morose and bewitching - no doubt due to its dual parentage of Plasma and Shadow. It harbors a secret that very few in the Monster World know about, and will only reveal it to those who have been completely hypnotized by its 'potion eyes'. The Epic Ethereal tends to behave like a wallflower at social gatherings, but when the party's over, it's been known to participate in playful impishness. But the Epic Whisp is not a bad guy; when given the chance to lead, you should see it in a crown."
+  },
+  "Costs": {
+    "name": "Epic Whisp",
+    "diamond_cost": "3500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 6h",
+    "Enhanced_Skin": "1d 2h",
+    "Standard": "1d 16h",
+    "Standard_Skin": "1d 12h"
+  },
+  "Likes": [
+    "Jellbilly",
+    "Sweetstreamz Tree",
+    "Stritch Skin",
+    "Ockulo Tree",
+    "Epic Nebulob"
+  ],
+  "Combinations to Breed": [
+    "Nebulob + Kazilleon"
+  ]
+}

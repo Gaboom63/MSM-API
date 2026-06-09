@@ -1,0 +1,38 @@
+{
+  "Name": "Blow't",
+  "Elements": [
+    "Plant",
+    "Cold",
+    "Fire",
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Blow't",
+    "description": "The Quad-Elemental Blow't is filled to bursting with the unbridled power of its Elements! To relieve the immense pressure built up inside its elastic anatomy, Blow't inhales a lung-expanding breath that forces the excess energy into its prickly array of quill chambers. Here, the glorious magic of the Elements is converted into only the most mesmerizing of music before expelling a dazzling prism of lightwaves as a not-so-wasteful waste product."
+  },
+  "Costs": {
+    "name": "Blow't",
+    "diamond_cost": "600"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 13h 30m",
+    "Enhanced_Skin": "1d 8h 30m",
+    "Standard": "2d 2h",
+    "Standard_Skin": "1d 21h"
+  },
+  "Likes": [
+    "Gob",
+    "Barbloo Statue",
+    "Cozee Cabin",
+    "Wubbox Stockpile"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

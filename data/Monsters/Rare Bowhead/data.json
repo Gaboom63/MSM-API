@@ -1,0 +1,41 @@
+{
+  "Name": "Rare Bowhead",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Water",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "psychic",
+    "amber",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Rare Bowhead",
+    "description": "Ask anyone in the living ocean for their impression of Rare Bowhead, and they will all tell you the same thing: the Rare Water Top Boss is pure eye candy! Rare Bowhead is not shy about its vanity; to the Monster, a well-groomed appearance is an essential part of the unforgettable shows it performs for its adoring audiences. The Rare Quint's beauty ritual begins with a 7-step haircare routine to ensure its mane is marshmallowy soft; then it pampers itself with a fetching manicure, baleen whitening treatments and a final powdering of its bulbous melon. Showtime!"
+  },
+  "Costs": {
+    "name": "Rare Bowhead",
+    "starpower_cost": "15000"
+  },
+  "Breeding Times": {
+    "Enhanced": "2d 23h 37m 30s",
+    "Enhanced_Skin": "2d 14h 4m 30s",
+    "Standard": "3d 23h 30m",
+    "Standard_Skin": "3d 13h 57m"
+  },
+  "Likes": [
+    "Bowhead",
+    "Thrumble",
+    "Krillby",
+    "Gnarls",
+    "Reflecting Pool",
+    "Givutawai Tree",
+    "Macho Monument"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

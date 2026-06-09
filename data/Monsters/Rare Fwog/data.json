@@ -1,0 +1,45 @@
+{
+  "Name": "Rare Fwog",
+  "Elements": [
+    "Earth",
+    "Water"
+  ],
+  "Islands": [
+    "plant",
+    "air",
+    "water",
+    "colossingum",
+    "gold",
+    "bone",
+    "tribal",
+    "composer",
+    "mirror plant",
+    "mirror air",
+    "mirror water",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Rare Fwog",
+    "description": "Rotten luck for a Fwog if a Rare specimen surfaces in its territory. Whereas the Common Fwog aspires to attract a mate by song alone, the Rare invariably gets all the attention, with its spiraling horns and resplendently-colored head growths. The absence of the middle eye proves to be quite the hindrance, however; it must compensate with a heightened sense of smell (hence its nose), and of touch (via its hollow, prehensile toes)."
+  },
+  "Costs": {
+    "name": "Rare Fwog",
+    "diamond_cost": "40",
+    "starpower_cost": "1500"
+  },
+  "Breeding Times": {
+    "Enhanced": "56m 15s",
+    "Enhanced_Skin": "48m 45s",
+    "Standard": "1h 15m",
+    "Standard_Skin": "1h 7m 30s"
+  },
+  "Likes": [
+    "Fwog",
+    "Squeed Statue",
+    "Zuffle Tree",
+    "Ambered Thing"
+  ],
+  "Combinations to Breed": [
+    "Noggin + Toe Jammer"
+  ]
+}

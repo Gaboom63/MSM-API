@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Rooba",
+  "Elements": [
+    "Plant",
+    "Fire",
+    "Psychic"
+  ],
+  "Islands": [
+    "psychic",
+    "nexus",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Rare Rooba",
+    "description": "Living near a wide-open starscape has its advantages, specifically when it comes to tuning in to signals that broadcast across the Monster World. The eyeball critters that surround Psychic Island are remarkably effective relayers of DJ Epic's 'satellite channel,' which suits fellow Pomily member Rare Rooba just fine! This Magical Monster is a major 'Picsie (the DJ's fan club) and wishes it could attend every concert held in Club Box. Alas, Cruv'laapht's position in the upper atmosphere makes that a challenge, so the Rare Rooba has to settle for spacing out with homemade tie-dye, and playing along to the greatest hits with its trusty bow."
+  },
+  "Costs": {
+    "name": "Rare Rooba",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 8h 37m 30s",
+    "Enhanced_Skin": "1d 4h 16m 30s",
+    "Standard": "1d 19h 30m",
+    "Standard_Skin": "1d 15h 9m"
+  },
+  "Likes": [
+    "Rooba",
+    "Sweetstreamz Tree",
+    "Beeyoot Tree",
+    "Elmenco Stump"
+  ],
+  "Combinations to Breed": [
+    "Yuggler + Potbelly",
+    "Bonkers + Kayna",
+    "Flowah + Theremind"
+  ]
+}

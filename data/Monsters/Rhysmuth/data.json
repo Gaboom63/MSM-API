@@ -1,0 +1,36 @@
+{
+  "Name": "Rhysmuth",
+  "Elements": [
+    "Plasma",
+    "Mech",
+    "Crystal",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop"
+  ],
+  "Description": {
+    "name": "Rhysmuth",
+    "description": "Rhysmuth's cubic configuration comes from its complex Crystalline composition. Each of its four Elements exerts incredible pressure against the others, compressing the very fiber of this Ethereal's being into compact blocks which vibrate with an atomic energy that can barely be contained. The most powerful of these blocks, the Rhubix Cube, is closely guarded within Rhysmuth's heart. A word to the wise: beware when excavating the Workshop's Mini-Mine, as this crafty Quad enjoys creeping among the minerals."
+  },
+  "Costs": {
+    "name": "Rhysmuth",
+    "diamond_cost": "3300",
+    "shard_cost": "5000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 7h 30m",
+    "Enhanced_Skin": "1d 3h 18m",
+    "Standard": "1d 18h",
+    "Standard_Skin": "1d 13h 48m"
+  },
+  "Likes": [
+    "Teeter-Tauter",
+    "Cave Crystal Teleporter",
+    "Digger",
+    "Tub Fountain"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "Name": "Epic Deedge",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "cold",
+    "shugabush",
+    "gold",
+    "mirror cold"
+  ],
+  "Description": {
+    "name": "Epic Deedge",
+    "description": "Epic Deedges are born with their head in the clouds, but cranial implants help their intellect reach new heights! These computer-savvy cyclopes make a handy sidekick to any Monster seeking to spruce up a hunk o' junk. Epic Deedge's true passion lies in upgrading its sweet sound equipment with state-of-the-art Shuga Crystal technology, harvested from the sap of Shugabush Island Trees. Gritty Shuga Crystals amplify Barbloo-tooth connectivity at the cost of a few scuffed paws."
+  },
+  "Costs": {
+    "name": "Epic Deedge",
+    "diamond_cost": "750",
+    "shugabush_diamond_cost": "1000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 6h 45m",
+    "Enhanced_Skin": "1d 2h 39m",
+    "Standard": "1d 17h",
+    "Standard_Skin": "1d 12h 54m"
+  },
+  "Likes": [
+    "Quibble",
+    "Barbloo Statue",
+    "Boss Monument",
+    "Innertuba"
+  ],
+  "Combinations to Breed": [
+    "Bowgart + Pango"
+  ]
+}

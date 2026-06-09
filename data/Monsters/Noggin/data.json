@@ -1,0 +1,46 @@
+{
+  "Name": "Noggin",
+  "Elements": [
+    "Earth"
+  ],
+  "Islands": [
+    "plant",
+    "air",
+    "water",
+    "earth",
+    "colossingum",
+    "gold",
+    "haven",
+    "faerie",
+    "bone",
+    "composer",
+    "mirror plant",
+    "mirror air",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Noggin",
+    "description": "Noggins are basically musical rocks. Deeply in tune with the earth, their simple rhythms echo an island's pulse. The sensation of reverberation produced by a Noggin motivates all other Monsters."
+  },
+  "Costs": {
+    "name": "Noggin",
+    "coin_cost": "300",
+    "colossingum_diamond_cost": "25",
+    "composer_coin_cost": "2000"
+  },
+  "Breeding Times": {
+    "Enhanced": "3s",
+    "Enhanced_Skin": "3s",
+    "Standard": "5s",
+    "Standard_Skin": "4s"
+  },
+  "Likes": [
+    "Drumpler",
+    "Shellbeat",
+    "Kayna",
+    "Fire Bush",
+    "Travelers' Sign",
+    "Trumplite"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Name": "Uuduk",
+  "Elements": [
+    "Earth",
+    "Fire",
+    "Bone"
+  ],
+  "Islands": [
+    "bone",
+    "nexus",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Uuduk",
+    "description": "For each year of life, the Uuduk gains an extra vertebra in its slinky spine. The full height of an Uuduk, however, is hidden from view deep beneath the soil: an Uuduk never reveals its age! Wear-and-tear on its impressive blowhorns may hint at the number of birthdays this coy Monster has seen, but it just as easily could indicate how itchy it was that day."
+  },
+  "Costs": {
+    "name": "Uuduk",
+    "diamond_cost": "300"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 1h 30m",
+    "Enhanced_Skin": "22h 6m",
+    "Standard": "1d 10h",
+    "Standard_Skin": "1d 6h 36m"
+  },
+  "Likes": [
+    "Toe Jammer",
+    "Pipes of Cicado",
+    "Babayag Tower",
+    "Wubbox Stockpile"
+  ],
+  "Combinations to Breed": [
+    "Hawlo + Noggin",
+    "Stogg + Clackula",
+    "Peckidna + Kayna"
+  ]
+}

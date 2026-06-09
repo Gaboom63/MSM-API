@@ -1,0 +1,36 @@
+{
+  "Name": "Rare Fluoress",
+  "Elements": [
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "sanctum",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Rare Fluoress",
+    "description": "Attend the tale of Rare Fluoress - its skin was drab, with a dreary dress. But don't mistake its muted appearance for a lack of personality… this unassuming Magical Rare is obsessed with show tunes. It is especially inclined towards serious and morbid themes, and is fascinated by all dentition and dentistry. Sprouting teeth all over its body converts the Monster into a walking, singing advertisement for its amateur tonsorial parlor. Through the grapevine, Rare Fluoresses have heard tell of a Magical Monster pair who are practically all teeth - the prospect of meeting them one day strikes them as very ful-'filling'."
+  },
+  "Costs": {
+    "name": "Rare Fluoress",
+    "light_diamond_cost": "150",
+    "magical_diamond_cost": "375"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 30m",
+    "Enhanced_Skin": "16h 54m",
+    "Standard": "1d 2h",
+    "Standard_Skin": "23h 24m"
+  },
+  "Likes": [
+    "Fluoress",
+    "Mount Knottshurr",
+    "Barbloo Statue",
+    "PU System"
+  ],
+  "Combinations to Breed": [
+    "Any Two Triples"
+  ]
+}

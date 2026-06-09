@@ -1,0 +1,43 @@
+{
+  "Name": "Meebkin",
+  "Elements": [
+    "Plasma",
+    "Shadow",
+    "Crystal"
+  ],
+  "Islands": [
+    "workshop",
+    "plasma"
+  ],
+  "Description": {
+    "name": "Meebkin",
+    "description": "The Meebkin gets its name from a greater-than-average affinity for the Meeb critters essential to the specialized processes of the Workshop. Rather than being recruited for attunement, a pair is carefully chosen to perch on either end of a special baton made of woven fibers. Deftly and gymnastically twirling the baton over its head, the Meebkin is able to coax otherworldly groans and gargles out of the mouths of Meebs, but don't worry - the critters aren't uncomfortable. Rather the opposite: the Triple-Element Ethereal is a doting and responsible caretaker."
+  },
+  "Costs": {
+    "name": "Meebkin",
+    "ethereal_diamond_cost": "1600",
+    "shadow_diamond_cost": "3000",
+    "shard_cost": "2500",
+    "dish-harmonizer_shard_cost": "6000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 30m",
+    "Enhanced_Skin": "19h 30m",
+    "Standard": "1d 6h",
+    "Standard_Skin": "1d 3h"
+  },
+  "Likes": [
+    "Yooreek",
+    "Ghazt",
+    "Whisp",
+    "Sox",
+    "Boodoo",
+    "Kazilleon",
+    "Miniature Island Complex",
+    "Floofy Nest",
+    "Barbloo Statue"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

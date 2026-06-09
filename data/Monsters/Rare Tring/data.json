@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Tring",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "amber"
+  ],
+  "Description": {
+    "name": "Rare Tring",
+    "description": "The colorful crystals encrusted in the canary-yellow body of Rare Tring reveal visions of the future to all who gaze within. Its bulbous head is swimming with ominous omens and precious prophecies, which the fortune teller will happily reveal... for the small fee of one serving of Yum Yum taffy."
+  },
+  "Costs": {
+    "name": "Rare Tring",
+    "diamond_cost": "750",
+    "starpower_cost": "7500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 22m 30s",
+    "Enhanced_Skin": "1d 10h 7m 30s",
+    "Standard": "2d 4h 30m",
+    "Standard_Skin": "1d 23h 15m"
+  },
+  "Likes": [
+    "Tring",
+    "Phangler",
+    "Edamimi",
+    "Tiawa",
+    "Harpsitree",
+    "Yum Yum Tree",
+    "Cozee Cabin",
+    "Rare Bisonorus"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "Name": "Epic Schmoochle",
+  "Elements": [
+    "Season of Love"
+  ],
+  "Islands": [
+    "air",
+    "gold",
+    "seasonal",
+    "mirror air"
+  ],
+  "Description": {
+    "name": "Epic Schmoochle",
+    "description": "Epic Schmoochle is dripping with sickly-sweet feelings of love and adoration - it's a wonder it doesn't get toothaches! This pair unabashedly indulges in PDA, whispering sweet nothings to one another and stealing quick smooches wherever it goes. Other Monsters may find it a bit nauseating, but nothing can come between these saccharine sweethearts!"
+  },
+  "Costs": {
+    "name": "Epic Schmoochle",
+    "air_diamond_cost": "1000",
+    "seasonal_diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "16h 40m 30s",
+    "Enhanced_Skin": "14h 27m 6s",
+    "Standard": "22h 14m",
+    "Standard_Skin": "20h 36s"
+  },
+  "Likes": [
+    "Chokkolit Fountain",
+    "Luff-Balloons",
+    "Gargle-oyle",
+    "Curious Cultivar"
+  ],
+  "Combinations to Breed": [
+    "Punkleton + Hoola",
+    "Riff + Quibble"
+  ]
+}

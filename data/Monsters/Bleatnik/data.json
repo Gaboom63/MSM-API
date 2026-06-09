@@ -1,0 +1,34 @@
+{
+  "Name": "Bleatnik",
+  "Elements": [
+    "Dream",
+    "Mythical"
+  ],
+  "Islands": [
+    "mythical"
+  ],
+  "Description": {
+    "name": "Bleatnik",
+    "description": "Picture yourself in a boat on a river, with Hummatite trees and star-spangled skies… that's reportedly the setting that appeared in the Plant Mythical's imagination when it first envisioned the Bleatnik. This Dreamythical has inherited its counterpart's love of napping and snoozing, and spends the majority of its time lost in delightful reveries of its own. In these reveries, the Monster describes cavorting and frolicking in fields of strawberries - although on closer inspection, they might be Halleberries. When it is awake, the Bleatnik loves to gurgle forth a transcendental vocal line that harkens back to its psychedelic origins - just be careful around its unusually serrated beak as it shudders open and closed."
+  },
+  "Costs": {
+    "name": "Bleatnik",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 15m",
+    "Enhanced_Skin": "17h 33m",
+    "Standard": "1d 3h",
+    "Standard_Skin": "1d 18m"
+  },
+  "Likes": [
+    "G'joob",
+    "Macho Monument",
+    "Harmonorb Holder",
+    "Wubbox Stockpile",
+    "Cranchee"
+  ],
+  "Combinations to Breed": [
+    "Cataliszt + G'joob"
+  ]
+}

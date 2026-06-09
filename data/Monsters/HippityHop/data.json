@@ -1,0 +1,35 @@
+{
+  "Name": "HippityHop",
+  "Elements": [
+    "Earth",
+    "Faerie"
+  ],
+  "Islands": [
+    "faerie",
+    "nexus",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "HippityHop",
+    "description": "HippityHops hippy to the hop, and they don't stop! The conjoined siblings Hippity and Hop act as each other's hypeMon during the day, cheering on one another's mouthy beats. During cold nights, they burrow deep underground to their subterranean home, using only echolocation and the sensory organs topping their ears and arms to navigate the pitch black tunnels. Together HippityHops symbolize the harmonious duality of vocals and percussion."
+  },
+  "Costs": {
+    "name": "HippityHop",
+    "diamond_cost": "150"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 15m",
+    "Enhanced_Skin": "17h 33m",
+    "Standard": "1d 3h",
+    "Standard_Skin": "1d 18m"
+  },
+  "Likes": [
+    "Ziggurab",
+    "Bottomless Pit",
+    "Fossil-osaurus",
+    "Jarhead"
+  ],
+  "Combinations to Breed": [
+    "Noggin + Floot Fly"
+  ]
+}

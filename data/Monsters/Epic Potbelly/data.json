@@ -1,0 +1,52 @@
+{
+  "Name": "Epic Potbelly",
+  "Elements": [
+    "Plant"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "water",
+    "earth",
+    "shugabush",
+    "gold",
+    "haven",
+    "light",
+    "psychic",
+    "mirror plant",
+    "mirror cold",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Epic Potbelly",
+    "description": "Every Common Potbelly shares a deep connection with the pot it calls home. Epic Potbellies, however, take this protective instinct to new heights! This territorial Elemental is perfectly pleasant... until an unwitting Monster tries to borrow its pot. Trespassers cause the Epic Potbelly to transform from delightful daisy to snarling snapdragon, baring its fearsome fangs and flapping its mighty wings. Tragically, the stone reinforcements added to its pot make it much too heavy to fly anywhere."
+  },
+  "Costs": {
+    "name": "Epic Potbelly",
+    "diamond_cost": "250",
+    "shugabush_diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "6h 45m",
+    "Enhanced_Skin": "5h 51m",
+    "Standard": "9h",
+    "Standard_Skin": "8h 6m"
+  },
+  "Likes": [
+    "Star Rocks",
+    "Elmenco Stump",
+    "Striking Bulbs",
+    "Castanevine"
+  ],
+  "Combinations to Breed": [
+    "Shugabush + Furcorn",
+    "Entbrat + Shrubb",
+    "Deedge + Oaktopus",
+    "Shellbeat + Dandidoo",
+    "Quarrister + Furcorn",
+    "Tring + Cybop",
+    "Blow't + Boskus",
+    "Gloptic + Phangler"
+  ]
+}

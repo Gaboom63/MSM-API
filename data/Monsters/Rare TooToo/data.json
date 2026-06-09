@@ -1,0 +1,38 @@
+{
+  "Name": "Rare TooToo",
+  "Elements": [
+    "Plant",
+    "Fire",
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Rare TooToo",
+    "description": "Years of practicing hard every day have step-ball-changed this black swan into a professional Bah-llayrina. Taking center stage, the Rare TooToo executes the beautifully delicate music for which it is known with on point precision, and has so mastered the pirouette that its hairstyle has twisted around to follow suit! The Rare Magical's colorful rings perfectly complement those of its Common Cousin, but one must make sure that both are given an equal opportunity to shine, lest some unhealthy competitiveness begin to simmer. Just mention the word 'hangnail', and they'll set aside their differences to present a united front against every dancer's most nauseating nuisance..."
+  },
+  "Costs": {
+    "name": "Rare TooToo",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 8h 37m 30s",
+    "Enhanced_Skin": "1d 4h 16m 30s",
+    "Standard": "1d 19h 30m",
+    "Standard_Skin": "1d 15h 9m"
+  },
+  "Likes": [
+    "TooToo",
+    "Ockulo Tree",
+    "Barbloo Statue",
+    "Spatial Sapling"
+  ],
+  "Combinations to Breed": [
+    "Pluckbill + Potbelly",
+    "Flowah + Fluoress",
+    "Gob + Kayna"
+  ]
+}

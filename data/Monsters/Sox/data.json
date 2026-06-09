@@ -1,0 +1,42 @@
+{
+  "Name": "Sox",
+  "Elements": [
+    "Plasma",
+    "Crystal"
+  ],
+  "Islands": [
+    "ethereal",
+    "colossingum",
+    "plasma"
+  ],
+  "Description": {
+    "name": "Sox",
+    "description": "According to monster lore, the ancestors of the Sox were self-conscious of the gaping holes in their tails. Over time, it was discovered that eating precious stones spurred the growth of peculiar metal pads over the holes. Quite by accident, Soxes learned they could use them, along with their tube-like snouts, to create smooth musical riffs! The age-old mystery of 'What does the Sox say' has now been solved."
+  },
+  "Costs": {
+    "name": "Sox",
+    "ethereal_diamond_cost": "1250",
+    "colossingum_diamond_cost": "1350",
+    "plasma_diamond_cost": "2000",
+    "dish-harmonizer_shard_cost": "4000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 7h 30m",
+    "Enhanced_Skin": "1d 3h 18m",
+    "Standard": "1d 18h",
+    "Standard_Skin": "1d 13h 48m"
+  },
+  "Likes": [
+    "Grumpyre",
+    "Meebkin",
+    "Gaddzooks",
+    "Whaill",
+    "Lowb",
+    "Bloofi Tree",
+    "Spurrit Statue",
+    "Cozee Cabin"
+  ],
+  "Combinations to Breed": [
+    "Ghazt + Jeeode"
+  ]
+}

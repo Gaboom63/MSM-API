@@ -1,0 +1,32 @@
+{
+  "Name": "Shugabeats",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "shugabush"
+  ],
+  "Description": {
+    "name": "Shugabeats",
+    "description": "While it's no stranger to stringed instruments, the Shugabeats has always had a closer affinity to the rhythm selection. An accomplished gardener, it cultivates and sustains a living drumkit made of different types of mushrooms. When struck, the cymbal-shrooms release a fine amber powder, which is why so many Shugabeats' beards are tinted likewise."
+  },
+  "Costs": {
+    "name": "Shugabeats",
+    "diamond_cost": "700"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "Travelers' Sign",
+    "Shugitar",
+    "Harpsitree",
+    "Ambered Thing"
+  ],
+  "Combinations to Breed": [
+    "Shugabush + Furcorn"
+  ]
+}

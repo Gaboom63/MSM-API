@@ -1,0 +1,42 @@
+{
+  "Name": "Sneyser",
+  "Elements": [
+    "Air",
+    "Water",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "oasis",
+    "amber"
+  ],
+  "Description": {
+    "name": "Sneyser",
+    "description": "The scintillating pool located on the Sneyser's hindquarters casts an enchanting glow on the walls of its crater, but it's best to appreciate this spectacle at a distance. One sneeze from a Sneyser with hay fever, and that serene puddle will burst into an explosive geyser!"
+  },
+  "Costs": {
+    "name": "Sneyser",
+    "fire_relic_cost": "200",
+    "amber_relic_cost": "30"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 6h",
+    "Enhanced_Skin": "1d 2h",
+    "Standard": "1d 16h",
+    "Standard_Skin": "1d 12h"
+  },
+  "Likes": [
+    "Glowl",
+    "Sooza",
+    "Barrb",
+    "Tuskski",
+    "Fire Bush",
+    "Toob",
+    "Tub Fountain",
+    "Edamimi"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

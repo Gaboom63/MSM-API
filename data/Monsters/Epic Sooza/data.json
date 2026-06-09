@@ -1,0 +1,40 @@
+{
+  "Name": "Epic Sooza",
+  "Elements": [
+    "Plant",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "light",
+    "amber",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Epic Sooza",
+    "description": "Epic Sooza may sport a different number of limbs than its cousins, but that doesn't stop it from being a star! It finds its confidence through stylish self expression: from its fabulous 'do to its bedazzled tetra-horn, this Fire Epic has no interest in blending in. Epic Sooza warmly encourages every Monster it meets to be themselves and march to the beat of their own drum (or horn, as it were)."
+  },
+  "Costs": {
+    "name": "Epic Sooza",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 15m",
+    "Enhanced_Skin": "17h 33m",
+    "Standard": "1d 3h",
+    "Standard_Skin": "1d 18m"
+  },
+  "Likes": [
+    "Sol",
+    "Stogg",
+    "Tring",
+    "PongPing",
+    "Tuskski",
+    "Star Rocks",
+    "Shrini",
+    "Givutawai Tree"
+  ],
+  "Combinations to Breed": [
+    "TooToo + Boskus"
+  ]
+}

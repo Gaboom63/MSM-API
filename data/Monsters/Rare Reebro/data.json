@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Reebro",
+  "Elements": [
+    "Mech"
+  ],
+  "Islands": [
+    "air",
+    "ethereal",
+    "mirror air",
+    "mech"
+  ],
+  "Description": {
+    "name": "Rare Reebro",
+    "description": "Rare Reebros make up the most gifted part of this Ethereal's population. As such, they are concerned - nay, obssessed - with protecting their intellect, using fortified helmets and stronger-than-average mech suits. These 'Bros' are particularly interested in journeying beyond the confines of the Monster World and exploring the multiverse... especially to investigate legends of a cosmic island from ancient times."
+  },
+  "Costs": {
+    "name": "Rare Reebro",
+    "air_diamond_cost": "1500",
+    "mech_diamond_cost": "1900"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 10h 7m 30s",
+    "Enhanced_Skin": "1d 5h 34m 30s",
+    "Standard": "1d 21h 30m",
+    "Standard_Skin": "1d 16h 57m"
+  },
+  "Likes": [
+    "Reebro",
+    "Rare Nebulob",
+    "Rare Yooreek",
+    "Rare Nitebear",
+    "Flappy Flag",
+    "Squeed Statue",
+    "Leafy Sea Dragon"
+  ],
+  "Combinations to Breed": [
+    "Riff + Congle",
+    "Riff + Scups",
+    "Riff + PomPom",
+    "Riff + T-Rox"
+  ]
+}

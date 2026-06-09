@@ -1,0 +1,33 @@
+{
+  "Name": "Rare Zynth",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Zynth",
+    "description": "The tusked Rare Zynth is sometimes considered a pest, owing to its penchant for digging up crops and using the energy from its glowing abdomen to dissolve them into a nutritious goo for later consumption. It's not ill-intentioned - it was just designed that way. A word of advice from the Monster-Handlers: keep these creatures away from farms."
+  },
+  "Costs": {
+    "name": "Zynth",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "3",
+    "Inventory": {
+      "Rare Congle": 1,
+      "Rare Drumpler": 1,
+      "Rare Maw": 1,
+      "Rare Oaktopus": 1,
+      "Rare Pango": 1,
+      "Rare T-Rox": 1
+    },
+    "Time Limit": "None",
+    "Total Eggs": "6"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

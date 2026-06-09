@@ -1,0 +1,39 @@
+{
+  "Name": "Rare Meebkin",
+  "Elements": [
+    "Plasma",
+    "Shadow",
+    "Crystal"
+  ],
+  "Islands": [
+    "workshop",
+    "plasma"
+  ],
+  "Description": {
+    "name": "Rare Meebkin",
+    "description": "While delving the manifold mysteries of the multiverse, the Colossal Zarroë has been known to pluck inspiration for their experimentation from novel biomes and environs. Spelunking the Aquaslime Abyss yielded one of these strokes of insight, as the slime seemingly stared back with a set of beady, albeit adorable eyes. The spined crest and wings of the Rare Meebkin are functionally vestigial as modes of transportation in the less dense environments of the Monster World. They do however add quite a bit of dramatic flair to Rare Meebkin's baton routine."
+  },
+  "Costs": {
+    "name": "Rare Meebkin",
+    "ethereal_diamond_cost": "3100",
+    "shadow_diamond_cost": "3500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "Meebkin",
+    "Rare Yooreek",
+    "Rare Ghazt",
+    "Rare Whisp",
+    "Fossil-osaurus",
+    "Hollow Log",
+    "Stritch Skin"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

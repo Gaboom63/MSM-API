@@ -1,0 +1,47 @@
+{
+  "Name": "Yooreek",
+  "Elements": [
+    "Plasma",
+    "Shadow",
+    "Mech"
+  ],
+  "Islands": [
+    "workshop",
+    "plasma",
+    "mech"
+  ],
+  "Description": {
+    "name": "Yooreek",
+    "description": "Yooreek… uh… what's the story behind this Monster? It seems to possess an organic exterior, but the sound it produces definitely evokes something more robotic. Perhaps this trait is 'inherited' from auditory residue from former residents of the Workshop. This Ethereal and Gaddzooks appear to have a lot of genetic programming in common, but the quirks of the attunement and synthesis processes have resulted in markedly different final products. It matters little to these two, who savor each other's company and really 'click' musically."
+  },
+  "Costs": {
+    "name": "Yooreek",
+    "ethereal_diamond_cost": "1500",
+    "shadow_diamond_cost": "3000",
+    "shard_cost": "2500",
+    "dish-harmonizer_shard_cost": "6000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 30m",
+    "Enhanced_Skin": "19h 30m",
+    "Standard": "1d 6h",
+    "Standard_Skin": "1d 3h"
+  },
+  "Likes": [
+    "Gaddzooks",
+    "Ghazt",
+    "Grumpyre",
+    "Reebro",
+    "Whisp",
+    "Nebulob",
+    "Arackulele",
+    "Fandhul",
+    "Crumpler Tree",
+    "Macho Monument",
+    "Yum Yum Tree",
+    "Meebkin"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "Name": "Epic Bleatnik",
+  "Elements": [
+    "Dream",
+    "Mythical"
+  ],
+  "Islands": [
+    "mythical"
+  ],
+  "Description": {
+    "name": "Epic Bleatnik",
+    "description": "Isn't it nice when someone tells you It's alright? This refrain rings clear to the Plant Mythical with every sunrise, and each time the sun breaks through the clouds. Basking in its warmth, and soaking up the rays, it sometimes feels like it's been years since it's been clear. Listlessly enjoying the luminosity, the liminal vibes may very well have led to the resulting Epic Dreamythical's kinship with the sun. Epic Bleatnik's intricately carved form, and ornate adornments harken back to ancient depictions of Monstrous companions and the sun itself. Hummatite carvings of figurines and friezes tell the tale of early Monster mythologies, of vast golden fields, and galloping herds, bleating out to benevolent fiery deity. Do all Mythicals dream of long forgotten times, of grander tales, or are they simply waiting for someone to tell them it's alright and for the sun to rise?"
+  },
+  "Costs": {
+    "name": "Epic Bleatnik",
+    "diamond_cost": "1600"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 12h 54m 45s",
+    "Enhanced_Skin": "1d 7h 59m 27s",
+    "Standard": "2d 1h 13m",
+    "Standard_Skin": "1d 20h 17m 42s"
+  },
+  "Likes": [
+    "Buzzinga",
+    "Bingo Bango Bongos",
+    "Givutawai Tree",
+    "Ambered Thing",
+    "Epic Cranchee"
+  ],
+  "Combinations to Breed": [
+    "Cataliszt + Cherubble"
+  ]
+}

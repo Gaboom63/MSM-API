@@ -1,0 +1,38 @@
+{
+  "Name": "Rooba",
+  "Elements": [
+    "Plant",
+    "Fire",
+    "Psychic"
+  ],
+  "Islands": [
+    "psychic",
+    "nexus",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Rooba",
+    "description": "In keeping with the biology of their coiffed-calved relatives, Roobas consume a holistic plant-based diet that not only gives them a lush green hue, but also a foliage-like consistency to their furthered body - and even accelerated hair growth! This naturalistic Monster will be happy to open your mind to a wild world of vegetation, from its fondness for fronds to its soft spot for sprouts. Just make sure to check for stray hairs before dining!"
+  },
+  "Costs": {
+    "name": "Rooba",
+    "diamond_cost": "300"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 1h 30m",
+    "Enhanced_Skin": "22h 6m",
+    "Standard": "1d 10h",
+    "Standard_Skin": "1d 6h 36m"
+  },
+  "Likes": [
+    "Gloptic",
+    "Puffle Tree",
+    "Crumpler Tree",
+    "Inverdigus Fern"
+  ],
+  "Combinations to Breed": [
+    "Yuggler + Potbelly",
+    "Bonkers + Kayna",
+    "Flowah + Theremind"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "Name": "Epic Cranchee",
+  "Elements": [
+    "Dream",
+    "Mythical"
+  ],
+  "Islands": [
+    "mythical"
+  ],
+  "Description": {
+    "name": "Epic Cranchee",
+    "description": "At this point, it's widely-known that the Dreamythical Cranchee is a product of dreamcraft, plucked from the imaginaton[sic] of the unlikely Strombone, the Cold Mythical's steadfast companion. What isn't as well-known is that Strombones enjoy a rich lived experience from their time dwelling in the living ocean, outside of the aforementioned companionship. In fact, many swim to unfathomable depths to learn an ancient technique taught by an enigmatic denizen of the deep. Rumors abound that both this technique (known as 'Deepdreaming') and its teacher hail from Beyond, so it's no surprise that it can produce some truly psychedelic results. The Epic Cranchee is a reification of Deepdreaming, with multiple eyespots, bubble accessories and fantastical formations combining to make a Monster you won't soon forget - maybe you'll even meet it in your own (deep) dreams!"
+  },
+  "Costs": {
+    "name": "Epic Cranchee",
+    "diamond_cost": "1600"
+  },
+  "Breeding Times": {
+    "Enhanced": "2d 9m 45s",
+    "Enhanced_Skin": "1d 17h 44m 27s",
+    "Standard": "2d 16h 13m",
+    "Standard_Skin": "2d 9h 47m 42s"
+  },
+  "Likes": [
+    "Bleatnik",
+    "Fire Bush",
+    "Fuzzle Tree",
+    "Innertuba"
+  ],
+  "Combinations to Breed": [
+    "Cataliszt + Anglow"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Name": "Rare G'joob",
+  "Elements": [
+    "Mythical"
+  ],
+  "Islands": [
+    "plant",
+    "mythical",
+    "mirror plant"
+  ],
+  "Description": {
+    "name": "Rare G'joob",
+    "description": "Within any given gathering (or 'mersey') of G'joobs, there are always one or two Monsters that want to strike out on their own and be different. Over time, these 'solo acts' start manifesting unique traits to help them stand apart, like leopard spots and ornate horns. Most elaborate among these embellishments are no doubt the adornments on the Rare Mythical's respiratory tusks, and the wing-tipped moustache - nicknamed 'Wings' for short. Despite all these changes, some Monsters still prefer the look of the original. G'figure."
+  },
+  "Costs": {
+    "name": "Rare G'joob",
+    "plant_diamond_cost": "500",
+    "mythical_diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "16h 52m 30s",
+    "Enhanced_Skin": "14h 37m 30s",
+    "Standard": "22h 30m",
+    "Standard_Skin": "20h 15m"
+  },
+  "Likes": [
+    "G'joob",
+    "Shrini",
+    "Harpsitree",
+    "Mountain Morsel"
+  ],
+  "Combinations to Breed": [
+    "Pummel + T-Rox"
+  ]
+}

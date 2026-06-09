@@ -1,0 +1,37 @@
+{
+  "Name": "Epic Ghazt",
+  "Elements": [
+    "Plasma"
+  ],
+  "Islands": [
+    "plant",
+    "ethereal",
+    "mirror plant"
+  ],
+  "Description": {
+    "name": "Epic Ghazt",
+    "description": "If Ghazts are known for their ability to slide inconspicuously between dimensions, then the fearsome-looking Epic Ghazts are known for their difficulty in living up to that reputation. The Epic Ethereal possesses several traits that make interdimensional travel a bother: a bad-to-the-bone skeleton that seldom attains full intangibility, dual-ended horns that catch on the edge of dimensional portals, and optical Plasmic orbs that get easily distracted. When it finally settles in to a habitat it finds comfortable, you'd be hard-pressed to flush out this hardheaded Monster!"
+  },
+  "Costs": {
+    "name": "Epic Ghazt",
+    "plant_diamond_cost": "2250",
+    "ethereal_diamond_cost": "2550"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 30m",
+    "Enhanced_Skin": "19h 30m",
+    "Standard": "1d 6h",
+    "Standard_Skin": "1d 3h"
+  },
+  "Likes": [
+    "Mi",
+    "Spatial Sapling",
+    "Cozee Cabin",
+    "Thumpies Totem, Too",
+    "Epic Grumpyre"
+  ],
+  "Combinations to Breed": [
+    "T-Rox + Furcorn",
+    "Boodoo + Dragong"
+  ]
+}

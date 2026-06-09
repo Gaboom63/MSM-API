@@ -1,0 +1,35 @@
+{
+  "Name": "Rare Wimmzies",
+  "Elements": [
+    "Fire",
+    "Faerie"
+  ],
+  "Islands": [
+    "faerie",
+    "nexus",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Rare Wimmzies",
+    "description": "It's what's inside that counts, and the interior mists of the Rare Wimmzies are every bit as bubbly and vivacious as those of their Common cousins. Understandably, there's nothing saying that you can't decorate what's on the outside! Each Rare Wimmzy adorns itself to studying advanced balloon modeling techniques like twisting and gymping to customize its vibrant exteriors."
+  },
+  "Costs": {
+    "name": "Rare Wimmzies",
+    "diamond_cost": "250"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Wimmzies",
+    "Toob",
+    "Swurlee Tree",
+    "PU System"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Floot Fly"
+  ]
+}

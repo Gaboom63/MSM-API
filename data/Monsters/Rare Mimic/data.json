@@ -1,0 +1,36 @@
+{
+  "Name": "Rare Mimic",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "oasis"
+  ],
+  "Description": {
+    "name": "Rare Mimic",
+    "description": "Previously believed to have gone extinct, the Rare Mimic has made a miraculous return to the modern Monster World! Or has it? It's perplexing at best to attempt to classify the Air Quint's subspecies and variant forms, because of the Monster's ability to shapeshift to impersonate (imMonsterate?) others. Adding to the bafflement are recently-published scientific studies that purport that certain Monsters that have long been understood to be distinct species are actually just Mimics in disguise? Or maybe they decided to settle into a new form (and Class!) and stay that way forever? Even that part of the theory is convoluted. Rare Mimics are, at minimum, still identifiable as Mimics, even if some attributes have been tweaked."
+  },
+  "Costs": {
+    "name": "Rare Mimic",
+    "starpower_cost": "15000"
+  },
+  "Breeding Times": {
+    "Enhanced": "2d 23h 37m 30s",
+    "Enhanced_Skin": "2d 14h 4m 30s",
+    "Standard": "3d 23h 30m",
+    "Standard_Skin": "3d 13h 57m"
+  },
+  "Likes": [
+    "Mimic",
+    "Eerie Remains",
+    "Freed Thing",
+    "Shrini"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

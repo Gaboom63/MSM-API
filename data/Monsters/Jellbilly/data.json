@@ -1,0 +1,41 @@
+{
+  "Name": "Jellbilly",
+  "Elements": [
+    "Plasma",
+    "Poison"
+  ],
+  "Islands": [
+    "ethereal",
+    "colossingum",
+    "plasma"
+  ],
+  "Description": {
+    "name": "Jellbilly",
+    "description": "This rootin'-tootin' Ethereal is something of a legend to the scavenging Cybops of the neighboring dimension. Their cycloptic vision and distinctive vocal twang are modeled after the Jellbilly's own. Even though they may never meet face-to-face, Jellbillies generously return every piece of Cybop fan mail they receive, taking advantage of their many tentacles to write several replies at once."
+  },
+  "Costs": {
+    "name": "Jellbilly",
+    "ethereal_diamond_cost": "1250",
+    "colossingum_diamond_cost": "1350",
+    "plasma_diamond_cost": "2000",
+    "dish-harmonizer_shard_cost": "4000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 7h 30m",
+    "Enhanced_Skin": "1d 3h 18m",
+    "Standard": "1d 18h",
+    "Standard_Skin": "1d 13h 48m"
+  },
+  "Likes": [
+    "Sox",
+    "Auglur",
+    "Flasque",
+    "Whaill",
+    "Flappy Flag",
+    "Squeed Statue",
+    "Leafy Sea Dragon"
+  ],
+  "Combinations to Breed": [
+    "Ghazt + Humbug"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "Name": "Rare Potbelly",
+  "Elements": [
+    "Plant"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "water",
+    "earth",
+    "shugabush",
+    "gold",
+    "haven",
+    "light",
+    "psychic",
+    "mirror plant",
+    "mirror cold",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Rare Potbelly",
+    "description": "Can you spot the Rare Potbelly?... No seriously, those weights are pretty heavy, and it needs a spotter. This Monster is focused on self-improvement wherever possible, which sets it apart from the garden variety that's more than happy to remain languid and pudgy. Maintaining its six-pack and getting regular braces adjustments are of the utmost priority. Because of its fixation on fitness, the Rare Potbelly is hard-pressed to stay in one place for too long, but if you plant the idea in their multiple heads that it can exercise on your islands as much as it wants, it will stick around."
+  },
+  "Costs": {
+    "name": "Rare Potbelly",
+    "diamond_cost": "75",
+    "starpower_cost": "1000"
+  },
+  "Breeding Times": {
+    "Enhanced": "4h 30m",
+    "Enhanced_Skin": "3h 54m",
+    "Standard": "6h",
+    "Standard_Skin": "5h 24m"
+  },
+  "Likes": [
+    "Noggin",
+    "Mammott",
+    "Toe Jammer",
+    "Tweedle",
+    "Potbelly",
+    "Kayna",
+    "Oaktopus",
+    "Furcorn",
+    "Fluoress",
+    "Theremind"
+  ],
+  "Combinations to Breed": [
+    "Any Two Triples"
+  ]
+}

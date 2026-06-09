@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Cantorell",
+  "Elements": [
+    "Earth",
+    "Cold",
+    "Faerie"
+  ],
+  "Islands": [
+    "faerie",
+    "nexus",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Rare Cantorell",
+    "description": "The Rare Cantorell loves love! It takes its species's yearning for closeness to the next level, growing in tight-knit choirs that sap all nutrients from the soil and leave their bodies a fleshy pink hue. The Rare Magical's craving for cuddles has even caused its mycelium tendrils to grow upwards and outwards, reaching out to others in the choir for a comforting hug. Rare Cantorell choirs can even end up so intertwined that, when seen from above, their 'rings' in fact appear heart-shaped."
+  },
+  "Costs": {
+    "name": "Rare Cantorell",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 8h 37m 30s",
+    "Enhanced_Skin": "1d 4h 16m 30s",
+    "Standard": "1d 19h 30m",
+    "Standard_Skin": "1d 15h 9m"
+  },
+  "Likes": [
+    "Cantorell",
+    "Yum Yum Tree",
+    "Mountain Morsel",
+    "Miniature Island Complex"
+  ],
+  "Combinations to Breed": [
+    "Squot + Noggin",
+    "Drumpler + Floot Fly",
+    "HippityHop + Mammott"
+  ]
+}

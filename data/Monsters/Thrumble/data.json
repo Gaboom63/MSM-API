@@ -1,0 +1,42 @@
+{
+  "Name": "Thrumble",
+  "Elements": [
+    "Earth",
+    "Water",
+    "Fire"
+  ],
+  "Islands": [
+    "bone",
+    "amber",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Thrumble",
+    "description": "Wide-mouthed and keen snackers, Thrumbles are prone to swallowing Treats whole. Their elongated gullets can squash and stretch to provide said Treats with ample time to be pulverized by the reverberations of this happy-go-lucky hummer's signature thrumming. When thrumming on an empty stomach, bubbling pockets of air can expand and prompt a sudden flurry of giggles!"
+  },
+  "Costs": {
+    "name": "Thrumble",
+    "bone_relic_cost": "100",
+    "amber_relic_cost": "20"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h",
+    "Enhanced_Skin": "13h",
+    "Standard": "20h",
+    "Standard_Skin": "18h"
+  },
+  "Likes": [
+    "Phangler",
+    "Sooza",
+    "Bisonorus",
+    "Gnarls",
+    "Bottomless Pit",
+    "Dragon Tower",
+    "Tub Fountain"
+  ],
+  "Combinations to Breed": [
+    "Fwog + Kayna",
+    "Stogg + Toe Jammer",
+    "Phangler + Noggin"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "Name": "Rare Deedge",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "cold",
+    "shugabush",
+    "colossingum",
+    "gold",
+    "tribal",
+    "composer",
+    "mirror cold"
+  ],
+  "Description": {
+    "name": "Rare Deedge",
+    "description": "Rare Deedges are so handy! They've got a knack for invention, and relish every opportunity to take something apart and put it back together again in a completely different way. Miraculously, the objects they recraft still work, even after reassembly! Such is the case with their state-of-the-art gilded amp sets, which blast out beats just as well as Common Deedges' regular ice(boom)boxes. Just goes to show that there's more than one way to skin a Stritch."
+  },
+  "Costs": {
+    "name": "Rare Deedge",
+    "diamond_cost": "200",
+    "starpower_cost": "5000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Deedge",
+    "Stritch Skin",
+    "Flappy Flag",
+    "Dragon Tower"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

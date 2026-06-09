@@ -1,0 +1,33 @@
+{
+  "Name": "Stoowarb",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "air",
+    "earth",
+    "mirror air",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Stoowarb",
+    "description": "The Stoowarb is a good-natured goofball that uses its glorious gift of gab to bring merriment to Monsters. Impressions, one-liners, wisecracks, and general tomfoolery have earned this jovial jokester a reputation as the life of the party! While many assume the Stoowarb's third eye is imbued with clairvoyant powers, its friends know the truth: it simply serves to distract from this wily Werdo's formidable forehead."
+  },
+  "Costs": {
+    "name": "Stoowarb",
+    "relic_cost": "100"
+  },
+  "Breeding Times": {
+    "Enhanced": "6h",
+    "Enhanced_Skin": "5h 12m",
+    "Standard": "8h",
+    "Standard_Skin": "7h 12m"
+  },
+  "Likes": [
+    "Parlsona",
+    "Tawkerr",
+    "Freed Thing",
+    "Star Rocks",
+    "Spurrit Statue"
+  ]
+}

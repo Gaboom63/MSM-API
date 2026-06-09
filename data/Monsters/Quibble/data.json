@@ -1,0 +1,48 @@
+{
+  "Name": "Quibble",
+  "Elements": [
+    "Air",
+    "Water"
+  ],
+  "Islands": [
+    "cold",
+    "air",
+    "water",
+    "shugabush",
+    "colossingum",
+    "gold",
+    "oasis",
+    "tribal",
+    "composer",
+    "mirror cold",
+    "mirror air",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Quibble",
+    "description": "Soaring high above, Quibbles are able to spot and collect resonant rocks with which to build their clever keyboards. This happens only occasionally of course, when the two Quibble minds are able to agree on a single purpose."
+  },
+  "Costs": {
+    "name": "Quibble",
+    "diamond_cost": "30",
+    "shugabush_diamond_cost": "300",
+    "colossingum_diamond_cost": "35",
+    "composer_coin_cost": "4000"
+  },
+  "Breeding Times": {
+    "Enhanced": "6h",
+    "Enhanced_Skin": "5h 12m",
+    "Standard": "8h",
+    "Standard_Skin": "7h 12m"
+  },
+  "Likes": [
+    "Mammott",
+    "Scups",
+    "Trumplite",
+    "Fossil-osaurus",
+    "Castanevine"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Toe Jammer"
+  ]
+}

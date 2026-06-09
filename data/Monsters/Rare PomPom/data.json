@@ -1,0 +1,42 @@
+{
+  "Name": "Rare PomPom",
+  "Elements": [
+    "Air",
+    "Earth",
+    "Cold"
+  ],
+  "Islands": [
+    "air",
+    "earth",
+    "shugabush",
+    "gold",
+    "mirror air",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Rare PomPom",
+    "description": "There's no greater living proof that 'You are what you eat' than the Rare PomPom. Although sometimes confused for a separate Monster entirely, like the Hoola, this Rare is actually just a Common PomPom on a diet consisting entirely of indigo foods! The change isn't just reflected in its appearance, though - Rare PomPoms develop a heightened fashion sense, and coif their plumes in radical styles - with some blue highlights for good measure."
+  },
+  "Costs": {
+    "name": "Rare PomPom",
+    "diamond_cost": "65",
+    "starpower_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "11h 37m 30s",
+    "Enhanced_Skin": "10h 4m 30s",
+    "Standard": "15h 30m",
+    "Standard_Skin": "13h 57m"
+  },
+  "Likes": [
+    "PomPom",
+    "Beeyoot Tree",
+    "Guitree",
+    "Dragon Tower"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Drumpler",
+    "Noggin + Pango",
+    "Mammott + Cybop"
+  ]
+}

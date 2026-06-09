@@ -1,0 +1,45 @@
+{
+  "Name": "Cybop",
+  "Elements": [
+    "Air",
+    "Earth"
+  ],
+  "Islands": [
+    "air",
+    "water",
+    "earth",
+    "colossingum",
+    "gold",
+    "haven",
+    "tribal",
+    "composer",
+    "mirror air",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Cybop",
+    "description": "Much more than mere gizmos, Cybops are deep thinkers, and vibrantly alive. Occasionally, Cybops need reminders that attempting to scavenge the body parts of other Monsters for personal repair is not socially acceptable."
+  },
+  "Costs": {
+    "name": "Cybop",
+    "diamond_cost": "30",
+    "colossingum_diamond_cost": "35",
+    "composer_coin_cost": "4000"
+  },
+  "Breeding Times": {
+    "Enhanced": "6h",
+    "Enhanced_Skin": "5h 12m",
+    "Standard": "8h",
+    "Standard_Skin": "7h 12m"
+  },
+  "Likes": [
+    "Tweedle",
+    "Toob",
+    "Razzli Tree",
+    "Cozee Cabin"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Noggin"
+  ]
+}

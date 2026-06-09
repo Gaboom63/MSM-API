@@ -1,0 +1,27 @@
+{
+  "Name": "T-Pirainha",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "water",
+    "mirror water"
+  ],
+  "Costs": {
+    "name": "T-Pirainha",
+    "cost": "500"
+  },
+  "Likes": [
+    "Anglow",
+    "Eerie Remains",
+    "Cave Crystal Teleporter",
+    "Innertuba"
+  ],
+  "Combinations to Breed": [
+    "Exclusive To Clubbox"
+  ],
+  "Description": {
+    "name": "T-Pirainha",
+    "description": "Documentation pending."
+  }
+}

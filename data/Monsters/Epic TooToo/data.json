@@ -1,0 +1,36 @@
+{
+  "Name": "Epic TooToo",
+  "Elements": [
+    "Plant",
+    "Fire",
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Epic TooToo",
+    "description": "What good is sitting alone in your room? Come hear the music play! Classically-trained at the Bah-llay school of dance in its youth, the Epic TooToo opts for a saucier performance style in adulthood. In fact, this Epic Magical is responsible for starting its very own dance academy, which holds Cah-bah-ray classes that challenge norms and innovate new techniques. It should come as no surprise that this Monster gets along famously with another Epic denizen of its habitat, and one can always be spotted in the audience supporting the artistic endeavors of the other. They even match from a color scheme standpoint! If the Epic TooToo wasn't already the adoptive member of another Monster family, it could be suggested that these two form a new one! But you don't know the life of a showMon, and you're never ever gonna."
+  },
+  "Costs": {
+    "name": "Epic TooToo",
+    "light_diamond_cost": "1000"
+  },
+  "Breeding Times": {
+    "Enhanced": "2d 5h 18m 45s",
+    "Enhanced_Skin": "1d 22h 12m 15s",
+    "Standard": "2d 23h 5m",
+    "Standard_Skin": "2d 15h 58m 30s"
+  },
+  "Likes": [
+    "Epic Tiawa",
+    "Swurlee Tree",
+    "Harpsitree",
+    "Orb of Aklino"
+  ],
+  "Combinations to Breed": [
+    "Spytrap + Flowah"
+  ]
+}

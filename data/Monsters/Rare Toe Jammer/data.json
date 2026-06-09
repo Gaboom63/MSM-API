@@ -1,0 +1,49 @@
+{
+  "Name": "Rare Toe Jammer",
+  "Elements": [
+    "Water"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "air",
+    "water",
+    "gold",
+    "oasis",
+    "psychic",
+    "bone",
+    "mirror plant",
+    "mirror cold",
+    "mirror water",
+    "mirror psychic",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Rare Toe Jammer",
+    "description": "To call the Rare Toe Jammer a marshmallow enthusiast would be a profound understatement. It gobbles them up at every opportunity, but thanks to a curious chemical reaction that takes place inside the Monster, they drift to its outer membrane and protrude at all angles. The Rare Toe Jammer's shifting coloration may be a product of this same internal process, but while some believe that this theory holds Water, others claim it's just a phase."
+  },
+  "Costs": {
+    "name": "Rare Toe Jammer",
+    "diamond_cost": "75",
+    "starpower_cost": "1000"
+  },
+  "Breeding Times": {
+    "Enhanced": "4h 30m",
+    "Enhanced_Skin": "3h 54m",
+    "Standard": "6h",
+    "Standard_Skin": "5h 24m"
+  },
+  "Likes": [
+    "Noggin",
+    "Mammott",
+    "Toe Jammer",
+    "Tweedle",
+    "Potbelly",
+    "Kayna",
+    "Theremind",
+    "Clackula"
+  ],
+  "Combinations to Breed": [
+    "Any Two Triples"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "Name": "Adult Hornacle",
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Adult Hornacle",
+    "description": "At this stage, the adult Hornacle is transfixed by treasure, and bedecks its face and carapace with piercing and baubles looted from its swashbuckling adventures. No matter how much the Celestial tries to avoid it, these same adventures invariably result in the loss of its leg; thankfully, a congenial octopus supplies the prosthetic solution in the form of bottles it recovers from the surface of the living ocean."
+  },
+  "Costs": {
+    "name": "Adult Hornacle",
+    "key_cost": "10"
+  },
+  "Likes": [
+    "Adult Furnoss"
+  ],
+  "Celestial Inventory": {
+    "Cost": "10 Keys",
+    "Inventory": {
+      "Bowgart": 2,
+      "Carillong": 1,
+      "Congle": 2,
+      "Deedge": 2,
+      "Entbrat": 2,
+      "Flex": 4,
+      "Fwog": 3,
+      "Maw": 3,
+      "Oaktopus": 3,
+      "Pummel": 2,
+      "Quibble": 3,
+      "Riff": 2,
+      "Scups": 2,
+      "Shellbeat": 2,
+      "Spunge": 2,
+      "T-Rox": 2
+    },
+    "Time Limit": "31 days (January 1st 3:00pm UTC to February 1st 3:00pm UTC)",
+    "Total Eggs": "37"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ],
+  "Elements": [
+    "Celestial"
+  ]
+}

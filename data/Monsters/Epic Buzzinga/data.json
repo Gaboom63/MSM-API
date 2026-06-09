@@ -1,0 +1,36 @@
+{
+  "Name": "Epic Buzzinga",
+  "Elements": [
+    "Mythical"
+  ],
+  "Islands": [
+    "haven",
+    "mythical"
+  ],
+  "Description": {
+    "name": "Epic Buzzinga",
+    "description": "Epic Buzzingas trade their fuzzy, pollen-collecting pelts for aerodynamic carapaces that allow them to flit through multiversal dimensions at speeds that would put a Common to shame. This doesn't excuse the Epic Mythical from its sworn duty as a pollinator for the flowers of the Stablo Mjehurica World Tree, however. Instead of collecting pollen in its fluff, Epic Buzzinga scoops it up with its impressive horn and stores its precious loot within! It has also evolved a predilection for delectable fruits ranging in origin across the multiverse, from Applecots to Zuffles. With these sharp adaptations, Epic Buzzinga has earned itself a renowned reputation as a top-speed pollinator, in addition to racking up some serious frequent-flyer miles."
+  },
+  "Costs": {
+    "name": "Epic Buzzinga",
+    "fire_diamond_cost": "1000",
+    "mythical_diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 55m 30s",
+    "Enhanced_Skin": "19h 52m 6s",
+    "Standard": "1d 6h 34m",
+    "Standard_Skin": "1d 3h 30m 36s"
+  },
+  "Likes": [
+    "La",
+    "Pinghound",
+    "Wubbox Stockpile",
+    "Thumpies Totem, Too",
+    "Cave Crystal Teleporter"
+  ],
+  "Combinations to Breed": [
+    "Cataliszt + Anglow",
+    "Tring + Glowl"
+  ]
+}

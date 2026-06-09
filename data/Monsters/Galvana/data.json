@@ -1,0 +1,69 @@
+{
+  "Name": "Galvana",
+  "Elements": [
+    "Celestial"
+  ],
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Galvana",
+    "description": "Even the mightiest of Celestials has to start somewhere! The revived Galvana enjoys its new found freedom from age-old responsibilities, blissfully unaware that its very own creations roam the Monster World. Unshackled from the burdens of guardianship, Galvana instead releases its raw Electrical energy through play, even toying with the very orb that contains its power."
+  },
+  "Costs": {
+    "name": "Galvana",
+    "key_cost": "28",
+    "diamond_cost": "150"
+  },
+  "Likes": [
+    "Scaratar"
+  ],
+  "Celestial Inventory": {
+    "Cost": "28 Keys",
+    "Inventory": {
+      "Barrb": 2,
+      "Bowgart": 3,
+      "Clamble": 3,
+      "Congle": 3,
+      "Cybop": 4,
+      "Dandidoo": 4,
+      "Deedge": 1,
+      "Drumpler": 5,
+      "Entbrat": 1,
+      "Floogull": 2,
+      "Flowah": 3,
+      "Furcorn": 4,
+      "Fwog": 5,
+      "Glowl": 3,
+      "Kayna": 6,
+      "Mammott": 10,
+      "Maw": 5,
+      "Noggin": 10,
+      "Oaktopus": 4,
+      "Pango": 4,
+      "PomPom": 3,
+      "Potbelly": 10,
+      "Pummel": 3,
+      "Quarrister": 1,
+      "Quibble": 4,
+      "Reedling": 3,
+      "Repatillo": 2,
+      "Riff": 1,
+      "Scups": 3,
+      "Shellbeat": 1,
+      "Shrubb": 4,
+      "Spunge": 3,
+      "Stogg": 3,
+      "T-Rox": 3,
+      "Thumpies": 3,
+      "Toe Jammer": 10,
+      "Tring": 1,
+      "Tweedle": 10
+    },
+    "Time Limit": "28 days",
+    "Total Eggs": "150"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ]
+}

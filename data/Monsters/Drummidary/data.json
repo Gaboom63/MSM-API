@@ -1,0 +1,43 @@
+{
+  "Name": "Drummidary",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "light",
+    "amber",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Drummidary",
+    "description": "Even from afar, the rhythmic booms of the Drummidary can be heard. The Earth Top Boss is perfectly adapted to thrive in the harshest climates imaginable, because it's able to safeguard any supplies or food it may need in its four hump-drums. Over the course of its lifetime, the Drummidary never stops growing, and some specimens in the contemporary era have grown to considerable size - even though the Quint-Element Monster can be sentimental and hold on to keepsakes of its humble upbringing, like its training wheels. Sometimes, it'll gather other percussion Monsters around, and whirl on those same wheels to perform impressive breakdance routines, all while cranking out beastly beats!"
+  },
+  "Costs": {
+    "name": "Drummidary",
+    "light_relic_cost": "500",
+    "amber_relic_cost": "40"
+  },
+  "Breeding Times": {
+    "Enhanced": "2d 12h",
+    "Enhanced_Skin": "2d 4h",
+    "Standard": "3d 8h",
+    "Standard_Skin": "3d"
+  },
+  "Likes": [
+    "Blow't",
+    "Phangler",
+    "Ziggurab",
+    "Thrumble",
+    "Tuskski",
+    "Bingo Bango Bongos",
+    "Smunkit",
+    "Sweetstreamz Tree"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

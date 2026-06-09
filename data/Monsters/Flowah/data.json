@@ -1,0 +1,44 @@
+{
+  "Name": "Flowah",
+  "Elements": [
+    "Plant",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "light",
+    "psychic",
+    "amber",
+    "mirror light",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Flowah",
+    "description": "Every rose has its thorns, but you'll find that the Flowah tends to be a little more 'thorn' than 'rose.' This burly beast may seem like a curmudgeon, but beneath its prickly exterior lies a soul that's sweeter than honeysuckle."
+  },
+  "Costs": {
+    "name": "Flowah",
+    "relic_cost": "50",
+    "amber_relic_cost": "10"
+  },
+  "Breeding Times": {
+    "Enhanced": "7h 30m",
+    "Enhanced_Skin": "6h 30m",
+    "Standard": "10h",
+    "Standard_Skin": "9h"
+  },
+  "Likes": [
+    "Toe Jammer",
+    "Barrb",
+    "Fluoress",
+    "Yelmut",
+    "PongPing",
+    "Bowhead",
+    "Bottomless Pit",
+    "Bass String Bridge",
+    "Tub Fountain"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Potbelly"
+  ]
+}

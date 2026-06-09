@@ -1,52 +1,105 @@
 const fs = require('fs');
 const path = require('path');
 
-// Point these to your specific folder structures
-const inputDir = path.join(__dirname, 'data', 'JSONS');
-const outputFile = path.join(__dirname, 'data', 'master_database.json');
+const dataDir = path.join(__dirname, 'data');
+const imagesDir = path.join(__dirname, 'images');
+const outputFile = path.join(dataDir, 'master_database.json');
 
-const filesToMerge = [
-  'Breeding Times.json', 'Celestials.json', 'Costumes.json', 'Islands.json',
-  'Likes.json', 'Costs.json', 'Descriptions.json', 'Elements.json',
-  'Image Manifest.json', 'Sounds.json', 'Wublins.json', 'Element Image Manifest.json',
-  'breedingCombos.json', 'Island Manifest.json', "Islands_Names.json"
-];
+// Initialize the only global databases the API still needs
+const masterDb = {
+    "Image Manifest": {},
+    "Element Image Manifest": {},
+    "Island Manifest": {},
+    "Costumes": {},
+    "Sounds": {},
+    "Islands": {}
+};
 
-let masterDb = {};
+console.log("🔍 Scanning file system to build master database...");
 
-filesToMerge.forEach(fileName => {
-    const filePath = path.join(inputDir, fileName);
+// 1. Build Image Manifest & Roster from /data/Monsters/
+const monstersDir = path.join(dataDir, 'Monsters');
+if (fs.existsSync(monstersDir)) {
+    fs.readdirSync(monstersDir).forEach(folder => {
+        const folderPath = path.join(monstersDir, folder);
+        if (fs.statSync(folderPath).isDirectory()) {
+            // Save the exact casing of the folder for Linux lookups
+            masterDb["Image Manifest"][folder] = folder; 
 
-    if (fs.existsSync(filePath)) {
-        try {
-            const rawData = fs.readFileSync(filePath, 'utf-8');
-            console.log(`Processing file: ${fileName}`);  // Log which file is being processed
-            
-            const parsedData = JSON.parse(rawData);  // Attempt to parse JSON
-
-            const keyName = fileName.replace('.json', ''); // e.g., 'Descriptions'
-            
-            // OPTIMIZATION: Convert Arrays into O(1) Object Maps for faster API lookups
-            if (['Descriptions', 'Costs', 'Elements'].includes(keyName) && Array.isArray(parsedData)) {
-                let optimizedObj = {};
-                parsedData.forEach(item => {
-                    const nameKey = item.name || item.Name;
-                    if (nameKey) optimizedObj[nameKey] = item;
-                });
-                masterDb[keyName] = optimizedObj;
-            } else {
-                // Keep objects (like Wublins, Image Manifest, etc.) exactly as they are
-                masterDb[keyName] = parsedData;
+            // Extract the Islands list for the global Island roster feature
+            const dataJsonPath = path.join(folderPath, 'data.json');
+            if (fs.existsSync(dataJsonPath)) {
+                try {
+                    const mData = JSON.parse(fs.readFileSync(dataJsonPath, 'utf8'));
+                    if (mData.Islands && Array.isArray(mData.Islands)) {
+                        masterDb["Islands"][mData.Name || folder] = mData.Islands;
+                    }
+                } catch (e) {
+                    console.error(`❌ Error parsing ${dataJsonPath}: ${e.message}`);
+                }
             }
-        } catch (error) {
-            console.error(`Error parsing JSON in file: ${fileName}`);
-            console.error('Error details:', error.message);
         }
-    } else {
-        console.warn(`⚠️ Skipping: ${fileName} not found in ${inputDir}`);
+    });
+}
+
+// 2. Build Element Manifest from /images/elements/
+const elementsDir = path.join(imagesDir, 'elements');
+if (fs.existsSync(elementsDir)) {
+    fs.readdirSync(elementsDir).forEach(file => {
+        if (file.endsWith('.png')) {
+            // Converts "Natural - Air.png" -> "Air"
+            const cleanName = file.replace('.png', '').split('-').pop().trim();
+            masterDb["Element Image Manifest"][cleanName] = file;
+            masterDb["Element Image Manifest"][file.replace('.png', '')] = file; // Safe fallback
+        }
+    });
+}
+
+// 3. Build Island Skins Manifest from /images/islands/
+const islandsDir = path.join(imagesDir, 'islands');
+if (fs.existsSync(islandsDir)) {
+    fs.readdirSync(islandsDir).forEach(file => {
+        if (file.endsWith('.png')) {
+            // Groups standard and skins (e.g., "Plant Island (Spooktacle Skin).png" -> "plant_island")
+            const baseName = file.split('(')[0].trim().toLowerCase().replace(/\s+/g, '_');
+            if (!masterDb["Island Manifest"][baseName]) masterDb["Island Manifest"][baseName] = [];
+            masterDb["Island Manifest"][baseName].push(`images/islands/${file}`);
+        }
+    });
+}
+
+// 4. Build Costumes Database from /data/costumes/
+const costumesDir = path.join(dataDir, 'costumes');
+['Common', 'Rare', 'Epic'].forEach(rarity => {
+    const rarityPath = path.join(costumesDir, rarity);
+    if (fs.existsSync(rarityPath)) {
+        fs.readdirSync(rarityPath).forEach(monster => {
+            const monsterPath = path.join(rarityPath, monster);
+            if (fs.statSync(monsterPath).isDirectory()) {
+                if (!masterDb["Costumes"][monster]) masterDb["Costumes"][monster] = {};
+                // Grab all PNG files inside the monster's costume folder
+                masterDb["Costumes"][monster][rarity] = fs.readdirSync(monsterPath).filter(f => f.endsWith('.png'));
+            }
+        });
     }
 });
 
-// Write the final compressed master file
-fs.writeFileSync(outputFile, JSON.stringify(masterDb));
-console.log(`✅ Successfully merged ${Object.keys(masterDb).length} databases into master_database.json!`);
+// 5. Build Sounds Database from /data/sounds/
+const soundsDir = path.join(dataDir, 'sounds');
+['Common', 'Rare', 'Epic'].forEach(rarity => {
+    const rarityPath = path.join(soundsDir, rarity);
+    if (fs.existsSync(rarityPath)) {
+        fs.readdirSync(rarityPath).forEach(monster => {
+            const monsterPath = path.join(rarityPath, monster);
+            if (fs.statSync(monsterPath).isDirectory()) {
+                if (!masterDb["Sounds"][monster]) masterDb["Sounds"][monster] = {};
+                // Grab all audio files inside the monster's sound folder
+                masterDb["Sounds"][monster][rarity] = fs.readdirSync(monsterPath).filter(f => f.match(/\.(mp3|wav|ogg)$/i));
+            }
+        });
+    }
+});
+
+// Write everything to the final JSON file
+fs.writeFileSync(outputFile, JSON.stringify(masterDb, null, 2));
+console.log(`✅ Success! Generated master_database.json completely dynamically!`);

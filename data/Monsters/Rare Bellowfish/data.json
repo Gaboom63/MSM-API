@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Bellowfish",
+  "Elements": [
+    "Mech",
+    "Crystal"
+  ],
+  "Islands": [
+    "ethereal",
+    "colossingum",
+    "mech"
+  ],
+  "Description": {
+    "name": "Rare Bellowfish",
+    "description": "Despite its flamboyant red pigmentation, the Rare Bellowfish's mechanized suit is typically powered by an inferior crystal. As such, it is far more subdued than its Common brethren and much less socially inclined... until it is challenged to a dance-off. Putting its three legs to good use, this Ethereal cuts a rug like no one's business, busting a move it calls Bellowfishing this up."
+  },
+  "Costs": {
+    "name": "Rare Bellowfish",
+    "ethereal_diamond_cost": "2000",
+    "mech_diamond_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 22m 30s",
+    "Enhanced_Skin": "1d 10h 7m 30s",
+    "Standard": "2d 4h 30m",
+    "Standard_Skin": "1d 23h 15m"
+  },
+  "Likes": [
+    "Bellowfish",
+    "Rare Auglur",
+    "Rare Yooreek",
+    "Wild Bagpipe",
+    "Razzli Tree",
+    "Tree Forte Tower"
+  ],
+  "Combinations to Breed": [
+    "Reebro + Jeeode"
+  ]
+}

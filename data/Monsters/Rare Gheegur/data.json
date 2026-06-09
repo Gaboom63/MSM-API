@@ -1,0 +1,35 @@
+{
+  "Name": "Rare Gheegur",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Gheegur",
+    "description": "The Zuffle doesn't fall far from the tree, and the Rare Gheegur's aesthetic certainly calls to mind the image of a kooky scientist bringing its creations to life. An unexpected side-effect of this Monster's evolution was the disappearance of its trademark glow that elicited apprehension in its fellow Wublins - which makes it even easier to lurk among the shadows."
+  },
+  "Costs": {
+    "name": "Gheegur",
+    "cost": "5000"
+  },
+  "Likes": [
+    "Rare Whajje"
+  ],
+  "Wublin Inventory": {
+    "Cost": "7",
+    "Inventory": {
+      "Rare Cybop": 3,
+      "Rare PomPom": 2,
+      "Rare Reedling": 3,
+      "Rare Riff": 3,
+      "Rare Scups": 2
+    },
+    "Time Limit": "None",
+    "Total Eggs": "13"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

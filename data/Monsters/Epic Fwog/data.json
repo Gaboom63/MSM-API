@@ -1,0 +1,44 @@
+{
+  "Name": "Epic Fwog",
+  "Elements": [
+    "Earth",
+    "Water"
+  ],
+  "Islands": [
+    "plant",
+    "air",
+    "water",
+    "gold",
+    "bone",
+    "mirror plant",
+    "mirror air",
+    "mirror water",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Epic Fwog",
+    "description": "Some Monsters love to be held, others just long to hold. Epic Fwog enjoys both! A diehard romantic just like its Common and Rare cousins, the Epic Fwog hopes to impress potential mates with the strength of its snuggles. It can also deliver a mean high-four!"
+  },
+  "Costs": {
+    "name": "Epic Fwog",
+    "diamond_cost": "150"
+  },
+  "Breeding Times": {
+    "Enhanced": "5h 15m",
+    "Enhanced_Skin": "4h 33m",
+    "Standard": "7h",
+    "Standard_Skin": "6h 18m"
+  },
+  "Likes": [
+    "Mi",
+    "Mount Knottshurr",
+    "PU System",
+    "Swurlee Tree"
+  ],
+  "Combinations to Breed": [
+    "Pummel + Furcorn",
+    "Scups + Pango",
+    "Reedling + Oaktopus",
+    "Thrumble + Denchuhs"
+  ]
+}

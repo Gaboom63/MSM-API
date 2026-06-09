@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Boskus",
+  "Elements": [
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "oasis",
+    "light",
+    "faerie",
+    "amber",
+    "mirror light",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Rare Boskus",
+    "description": "Rare Boskus has an ambitious entrepreneurial spirit and a brain always bubbling up with new ideas. This bright Rare firmly believes in putting its best hoof forward - especially during its pitches to other Monsters! To look its best, Rare Boskus regularly pampers itself with a flashy nosey-pedi. Its manicured nasal digit looks particularly striking when it's turning the pages of its jam-packed notepad, or pointing out the key features in its latest presentation."
+  },
+  "Costs": {
+    "name": "Rare Boskus",
+    "diamond_cost": "250",
+    "starpower_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "10h 7m 30s",
+    "Enhanced_Skin": "8h 46m 30s",
+    "Standard": "13h 30m",
+    "Standard_Skin": "12h 9m"
+  },
+  "Likes": [
+    "Boskus",
+    "PongPing",
+    "Tiawa",
+    "Bowhead",
+    "Trumplite",
+    "Spurrit Statue",
+    "Dragon Tower"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Mammott"
+  ]
+}

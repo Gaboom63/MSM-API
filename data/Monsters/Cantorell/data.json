@@ -1,0 +1,38 @@
+{
+  "Name": "Cantorell",
+  "Elements": [
+    "Earth",
+    "Cold",
+    "Faerie"
+  ],
+  "Islands": [
+    "faerie",
+    "nexus",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Cantorell",
+    "description": "The Cantorell may seem to be a rather small-statured Monster to the naked eye, but beneath the soil, this fungal fiend grows a far-reaching system of mycelia capable of propagating dozens of clones! As more and more like-minded Cantorell caps emerge from the earth, they often compete for space both physical and musical. It's not uncommon to spot a Cantorell choir growing in a ring-like shape, so that each cap can feel included."
+  },
+  "Costs": {
+    "name": "Cantorell",
+    "diamond_cost": "300"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 1h 30m",
+    "Enhanced_Skin": "22h 6m",
+    "Standard": "1d 10h",
+    "Standard_Skin": "1d 6h 36m"
+  },
+  "Likes": [
+    "Squot",
+    "Beeyoot Tree",
+    "Tree Hut",
+    "Inverdigus Fern"
+  ],
+  "Combinations to Breed": [
+    "Squot + Noggin",
+    "Drumpler + Floot Fly",
+    "HippityHop + Mammott"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Name": "Pluckbill",
+  "Elements": [
+    "Fire",
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Pluckbill",
+    "description": "The Pluckbill's shimmering strings are spun by weaving the Monster's own furthers with stardust fallen from the Aurora Monstralis. It is this lustrous dust that not only lends Pluckbill strings their signature sparkle, but also their unbreakable strength. These crafty Monsters have thus inspired a popular nugget of the Monster World wisdom: 'If the bond between friends is tougher than Pluckbill string, it is worth keeping.'"
+  },
+  "Costs": {
+    "name": "Pluckbill",
+    "diamond_cost": "150"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 15m",
+    "Enhanced_Skin": "17h 33m",
+    "Standard": "1d 3h",
+    "Standard_Skin": "1d 18m"
+  },
+  "Likes": [
+    "Mammott",
+    "Saggle Tree",
+    "Mountain Morsel",
+    "Harpsitree"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Fluoress"
+  ]
+}

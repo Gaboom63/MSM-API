@@ -1,0 +1,33 @@
+{
+  "Name": "Shugarock",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "shugabush"
+  ],
+  "Description": {
+    "name": "Shugarock",
+    "description": "When it's not strumming away on its electric guitar, the Shugarock enjoys nothing more than to kick back and relax. One of its favorite pastimes is to bask in the warm glow of the midday sun to get a tan. Unfortunately, the sun has little effect on the bark-like skin of the Monster, but it has faded its fur to a pleasant shade of jade. Ever the good sport, the Shugarock has decided to embrace change and keep the color."
+  },
+  "Costs": {
+    "name": "Shugarock",
+    "diamond_cost": "700"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "Beeyoot Tree",
+    "Shugabeats",
+    "Guitree",
+    "Cozee Cabin",
+    "Shugabuzz"
+  ],
+  "Combinations to Breed": [
+    "Shugabush + Mammott"
+  ]
+}

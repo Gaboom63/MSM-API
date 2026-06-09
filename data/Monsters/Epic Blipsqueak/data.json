@@ -1,0 +1,34 @@
+{
+  "Name": "Epic Blipsqueak",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Epic Blipsqueak",
+    "description": "They say that happiness is living in a neat mess, and the Epic Blipsqueak is nothing if not neat when it comes to organizing its various eyes, ears, nose and toes (albeit in unexpected locations). With a body made out of exquisite wood and fine metal ornamentation, this Epic Wublin's knowledge of natural remedies like poultices, tinctures and ointments is unmatched - all thanks to the apothecary diaries it routinely drafts and publishes."
+  },
+  "Costs": {
+    "name": "Blipsqueak",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "5",
+    "Inventory": {
+      "Epic Cybop": 1,
+      "Epic Deedge": 1,
+      "Epic Glowl": 1,
+      "Epic PomPom": 1,
+      "Epic T-Rox": 1,
+      "Epic Toe Jammer": 1,
+      "Epic Wynq": 1
+    },
+    "Time Limit": "None",
+    "Total Eggs": "7"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

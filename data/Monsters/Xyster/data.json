@@ -1,0 +1,34 @@
+{
+  "Name": "Xyster",
+  "Elements": [
+    "Psychic",
+    "Bone"
+  ],
+  "Islands": [
+    "sanctum"
+  ],
+  "Description": {
+    "name": "Xyster",
+    "description": "Are you thinking what we're thinking? Chances are the Xyster is thinking it too - its elaborate antlers attract and retain nearby thoughts for the Magical Monster to examine at its leisure. It bears a striking resemblance to another occupant of the Pocket Dimension, and might be the descendant of ancient transplants from a neighboring isle. Recent discoveries in the Monster World may have identified the 'missing link' in its evolution... speaking of links, the Xyster absolutely loves to swat at and coddle its caudal vertebrae to produce mind-bending melodies for all to enjoy."
+  },
+  "Costs": {
+    "name": "Xyster",
+    "diamond_cost": "200"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h",
+    "Enhanced_Skin": "13h",
+    "Standard": "20h",
+    "Standard_Skin": "18h"
+  },
+  "Likes": [
+    "Clackula",
+    "Eerie Remains",
+    "Guitree",
+    "Jarhead",
+    "Cahoot"
+  ],
+  "Combinations to Breed": [
+    "Theremind + Clackula"
+  ]
+}

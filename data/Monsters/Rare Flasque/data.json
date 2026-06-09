@@ -1,0 +1,34 @@
+{
+  "Name": "Rare Flasque",
+  "Elements": [
+    "Plasma",
+    "Crystal",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop",
+    "crystal"
+  ],
+  "Description": {
+    "name": "Rare Flasque",
+    "description": "With time comes experience, and the Rare Flasque is not so green anymore - or shatter-resistant, for that matter. While it may appear from the outside that some fundamental change in its green lifeblood has compromised the integrity of its glassy exterior, there's actually a bit more at play. In looking for ways to draw out the more prominent features of the Crystal Element, Zarroë was inspired by the refractory properties and light transmissibility of different materials. As such, the sloshy interior of the Rare Flasque is not quite as changed as one would expect. The spectrum of color we observe is actually a result of fine adjustments to the properties of its bulbous beakers. Structural changes to each of the flasks block and reflect specific wavelengths of light, causing the liquid inside to appear to change color! However, what was once a delicate balance is now all out of whack, as chalices crack, burst, and emit gaseous byproducts of all hues. And while the Colossal may approach this issue with a slapdash, 'fix-it-as-we-go' attitude, one has to worry that the Rare Flasque is one bonk away from a splash!"
+  },
+  "Costs": {
+    "name": "Rare Flasque",
+    "cost": "3500"
+  },
+  "Breeding Times": {
+    "Standard": "1d 11h"
+  },
+  "Likes": [
+    "Flasque",
+    "Rare Ghazt",
+    "Rare Sox",
+    "Rare Jellbilly",
+    "Rare Nitebear",
+    "Rare Fung Pray"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

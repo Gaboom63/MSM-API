@@ -1,0 +1,36 @@
+{
+  "Name": "Enchantling",
+  "Elements": [
+    "Psychic",
+    "Bone",
+    "Light",
+    "Faerie"
+  ],
+  "Islands": [
+    "sanctum"
+  ],
+  "Description": {
+    "name": "Enchantling",
+    "description": "If Enchantler is the Titan-Who-Would-Be-Colossal, then Enchantling is the Monster-Who-Would-Be-Titan! Although there are other instances of Titans starting life in a miniaturized form, the exact nature of the relationship between these two entities remains a mystery. Some have suggested that the Enchantling taps into the same Monstromantic energies coursing through its namesake's antlers to transfigure itself into a shape more akin to that of Enchantler. The evidence that one has an effect on the other is incontrovertible, as the entire Sanctum seemed to light up when it first made its appearance and sang forth its exuberant song."
+  },
+  "Costs": {
+    "name": "Enchantling",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 13h 30m",
+    "Enhanced_Skin": "1d 8h 30m",
+    "Standard": "2d 2h",
+    "Standard_Skin": "1d 21h"
+  },
+  "Likes": [
+    "Roarick",
+    "Mountain Morsel",
+    "Dragon Tower",
+    "Ambered Thing"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

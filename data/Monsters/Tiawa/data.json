@@ -1,0 +1,41 @@
+{
+  "Name": "Tiawa",
+  "Elements": [
+    "Earth",
+    "Water",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "light",
+    "amber",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Tiawa",
+    "description": "Proven as a keen leader, the Tiawa's very presence suggests a soothing sageness. In the face of adversity, the queenly Quad simply flourishes its crown of planks, and undertakes any situation or challenge with the help of its noble hearts (it grows a second one alongside a second eye as it ages). For many years, Monsters have followed the knowledgeable beat of Tiawa's drumming digits as it crafts subtle melodies. Even today, Tiawa continues to give priceless counsel to anyone, and will for generations to come."
+  },
+  "Costs": {
+    "name": "Tiawa",
+    "light_relic_cost": "300",
+    "amber_relic_cost": "30"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 6h",
+    "Enhanced_Skin": "1d 2h",
+    "Standard": "1d 16h",
+    "Standard_Skin": "1d 12h"
+  },
+  "Likes": [
+    "Flowah",
+    "Woolabee",
+    "Whaddle",
+    "Gnarls",
+    "Cold Globe",
+    "Swurlee Tree",
+    "Spatial Sapling"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

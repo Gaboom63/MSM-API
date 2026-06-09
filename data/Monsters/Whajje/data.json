@@ -1,0 +1,32 @@
+{
+  "Name": "Whajje",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Whajje",
+    "description": "For a Wublin, the Whajje is almost... dainty. Named for its distinctive 'Whajje-Whajje' cry, it can most often be found standing on tippy-toes so that its song rings out above the heads of other Monsters. Whajjes scrupulously preen their feathers to create a sort of dish to amplify the sound of their voices. Other Supernaturals are always daring it to join their capers, but the Whajje is better-behaved than most - a trait for which it cryptically credits its furry feet."
+  },
+  "Costs": {
+    "name": "Whajje",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "20,000",
+    "Inventory": {
+      "Cybop": 10,
+      "Dandidoo": 10,
+      "Deedge": 7,
+      "Reedling": 10,
+      "Tweedle": 6
+    },
+    "Time Limit": "None",
+    "Total Eggs": "43"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

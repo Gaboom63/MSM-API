@@ -1,0 +1,36 @@
+{
+  "Name": "Rare Bulbo",
+  "Elements": [
+    "Cold",
+    "Light"
+  ],
+  "Islands": [
+    "Light",
+    "Nexus",
+    "Mirror Light"
+  ],
+  "Description": {
+    "name": "Rare Bulbo",
+    "description": "Conventional wisdom tells us not to pick at our dermatological imperfections. From skin tags to scabs, boils to warts, and ingrown hairs to zits, Rare Bulbo is unfortunately cursed with the most pickable dermis of all time. So much itching has rubbed the poor Rare raw! Now it stands before you, bare and bumpy, popping both its peepers and its pimples. And yet, there is something disarmingly beautiful in the Light hybrid's vulnerability. After all, hasn't puberty made us all feel a little like Rare Bulbo sometimes?"
+  },
+  "Costs": {
+    "name": "Rare Bulbo",
+    "diamond_cost": "250"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Bulbo",
+    "Optiglowbe",
+    "Stritch Skin",
+    "Babayag Tower",
+    "Rare Squot"
+  ],
+  "Combinations to Breed": [
+    "Mammott + Fluoress"
+  ]
+}

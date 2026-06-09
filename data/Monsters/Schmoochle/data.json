@@ -1,0 +1,39 @@
+{
+  "Name": "Schmoochle",
+  "Elements": [
+    "Season of Love"
+  ],
+  "Islands": [
+    "air",
+    "colossingum",
+    "gold",
+    "seasonal",
+    "mirror air"
+  ],
+  "Description": {
+    "name": "Schmoochle",
+    "description": "No one can agree on how the two-headed Schmoochle came to be. Some say that it began as two individual Monsters who fell so deeply in love with each other that they forfeited their own bodies and decided to live together in just one. Others insist that they are just born that way, arriving in a puff of brightly-colored feathers. In any case, a Schmoochle is always a welcome addition to the Air Island chorus."
+  },
+  "Costs": {
+    "name": "Schmoochle",
+    "air_diamond_cost": "225",
+    "colossingum_diamond_cost": "250",
+    "seasonal_diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 19m 52s",
+    "Enhanced_Skin": "20h 13m 13s",
+    "Standard": "1d 7h 6m 30s",
+    "Standard_Skin": "1d 3h 59m 51s"
+  },
+  "Likes": [
+    "PomPom",
+    "Yool",
+    "Barbloo Statue",
+    "Puffle Tree",
+    "Yum Yum Tree"
+  ],
+  "Combinations to Breed": [
+    "Riff + Tweedle"
+  ]
+}

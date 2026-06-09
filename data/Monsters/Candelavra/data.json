@@ -1,0 +1,42 @@
+{
+  "Name": "Candelavra",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Water",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "amber"
+  ],
+  "Description": {
+    "name": "Candelavra",
+    "description": "The strong amalgam of five precious Elements is what creates the fierce flame shining elegantly atop Candelavra's opulent frame. In particular, the blue flame signet set in the forehead of the Fire Top Boss represents the figurative 'complete combustion' of this Monster's indomitable spirit. If ever a Monster feels adrift in the vast macrocosm of the Monster World, it need only gaze upon the horizons for the warm flame of Candelavra, and let it be the shining beacon that guides them to their destination, wherever that may be."
+  },
+  "Costs": {
+    "name": "Candelavra",
+    "fire_relic_cost": "500",
+    "amber_relic_cost": "40"
+  },
+  "Breeding Times": {
+    "Enhanced": "2d 12h",
+    "Enhanced_Skin": "2d 4h",
+    "Standard": "3d 8h",
+    "Standard_Skin": "3d"
+  },
+  "Likes": [
+    "Boskus",
+    "Repatillo",
+    "Wynq",
+    "Bowhead",
+    "Smunkit",
+    "Freed Thing",
+    "The Thunker",
+    "Drummidary"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

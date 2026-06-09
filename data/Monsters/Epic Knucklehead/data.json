@@ -1,0 +1,33 @@
+{
+  "Name": "Epic Knucklehead",
+  "Elements": [
+    "Light",
+    "Faerie"
+  ],
+  "Islands": [
+    "sanctum"
+  ],
+  "Description": {
+    "name": "Epic Knucklehead",
+    "description": "The trees of the pocket dimension are tall and stately, but none approach the majesty of the golden Aerudtree of legend. Modeled after Stablo Mjehurica, the World Tree of the multiverse, its grandeur and significance cannot be understated. It should come as no surprise to learn that it figures prominently in many high fantasy tabletop campaigns, and the Epic Knucklehead enthusiastically paints its own branches to look the part during role-play. Collaborating with a dungeon master from another Island, the Epic Magical has journeyed far and wide and triumphed in many daring adventures (all imaginary exploits, of course). Switching from fictive to frictive: of equal interest are the hunks of Krystillium used instead of its fists to make its pounding music. One can plainly observe the start of the alchemical process that shifts the Ethereal Crystal into Pyrozite, Fire's own gem, and the promise of prosperity this transformation carried in the early days of the Monster World."
+  },
+  "Costs": {
+    "name": "Epic Knucklehead",
+    "cost": "600"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 14h 51m 45s",
+    "Enhanced_Skin": "1d 9h 40m 51s",
+    "Standard": "2d 3h 49m",
+    "Standard_Skin": "1d 22h 38m 6s"
+  },
+  "Likes": [
+    "Fa",
+    "Bloofi Tree",
+    "The Thunker",
+    "Orb of Aklino"
+  ],
+  "Combinations to Breed": [
+    "Larvaluss + Cahoot"
+  ]
+}

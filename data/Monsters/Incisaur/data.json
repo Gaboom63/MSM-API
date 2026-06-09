@@ -1,0 +1,42 @@
+{
+  "Name": "Incisaur",
+  "Elements": [
+    "Plant",
+    "Water",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "bone",
+    "amber",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Incisaur",
+    "description": "With a smile only a Monster mother could love, the charming Incisaur loves to munch on cold Treats like Ice Cream and popsicles day and night - lucky! Like all Monsters, its metabolism is designed to derive maximum nutrition from foods that humans might consider junk food, but its ability to bypass Ice Cream headaches and actually improve its focus with its frigid diet seems to be unique to this species. While this Quad might have aspired to be a beatboxer at one point, the Incisaur's wiggly teeth make that difficult (but still manage to produce a whole lot of spittle in the process)."
+  },
+  "Costs": {
+    "name": "Incisaur",
+    "bone_relic_cost": "300",
+    "amber_relic_cost": "30"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 6h",
+    "Enhanced_Skin": "1d 2h",
+    "Standard": "1d 16h",
+    "Standard_Skin": "1d 12h"
+  },
+  "Likes": [
+    "Clackula",
+    "Floogull",
+    "Boskus",
+    "Edamimi",
+    "PongPing",
+    "Cold Globe",
+    "Thumpies Totem, Too",
+    "Star Rocks"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

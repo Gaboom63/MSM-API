@@ -1,0 +1,37 @@
+{
+  "Name": "Rare Sox",
+  "Elements": [
+    "Plasma",
+    "Crystal"
+  ],
+  "Islands": [
+    "ethereal",
+    "plasma"
+  ],
+  "Description": {
+    "name": "Rare Sox",
+    "description": "Because they belong to a naturally - or rather, Ethereally - introverted species, Soxes shy away from spontaneous musical improvisations with fellow Monsters. After all, who knows what embarrassing sound could potentially escape from their tail holes? The Rare variant, however, puts its oversized ears to good use by experimenting with new harmony lines at such a low volume that only it can hear them. This little trick boosts its confidence, but it still needs to psych itself up for full scale performances."
+  },
+  "Costs": {
+    "name": "Rare Sox",
+    "ethereal_diamond_cost": "2000",
+    "plasma_diamond_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 22m 30s",
+    "Enhanced_Skin": "1d 10h 7m 30s",
+    "Standard": "2d 4h 30m",
+    "Standard_Skin": "1d 23h 15m"
+  },
+  "Likes": [
+    "Sox",
+    "Rare Meebkin",
+    "Rare Gaddzooks",
+    "Smunkin Patch",
+    "Yum Yum Tree",
+    "Crumpler Tree"
+  ],
+  "Combinations to Breed": [
+    "Ghazt + Jeeode"
+  ]
+}

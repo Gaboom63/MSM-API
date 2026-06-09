@@ -1,0 +1,39 @@
+{
+  "Name": "Blabbit",
+  "Elements": [
+    "Eggs-Travaganza"
+  ],
+  "Islands": [
+    "water",
+    "colossingum",
+    "gold",
+    "seasonal",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Blabbit",
+    "description": "The playful Blabbit shares a common ancestor with the Reedling, and developed an equally eccentric adaptation for breathing - blowing bubbles! As it releases the bubbles, it makes an adorable trilling sound which endears it to the other Monsters. This is lucky for the Blabbit, because it also has a reputation for being a bit of a nuisance when it 'borrows' Monster eggs to paint and hide all over the place."
+  },
+  "Costs": {
+    "name": "Blabbit",
+    "water_diamond_cost": "225",
+    "colossingum_diamond_cost": "250",
+    "seasonal_diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "14h 15m",
+    "Enhanced_Skin": "12h 21m",
+    "Standard": "19h",
+    "Standard_Skin": "17h 6m"
+  },
+  "Likes": [
+    "Pummel",
+    "Schmoochle",
+    "Toob",
+    "Tree Forte Tower",
+    "Floofy Nest"
+  ],
+  "Combinations to Breed": [
+    "Spunge + Scups"
+  ]
+}

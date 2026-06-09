@@ -1,0 +1,35 @@
+{
+  "Name": "Denchuhs",
+  "Elements": [
+    "Water",
+    "Bone"
+  ],
+  "Islands": [
+    "bone",
+    "nexus",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Denchuhs",
+    "description": "The pint-sized Denchuhs are a lot like a pair of your grandaddy's dentures: they're at their best when they're together, but often fall out! Occasional spats are an inevitability when looks are so identical, yet personalities are more contrary than fire and ice: gabby versus glum, sanguine versus stoic, and bubbly versus been-there-done-that. But at the end of a long day, all these little Denchuhs want is a hefty snack in their mega-mouths and the comfort of a held hand."
+  },
+  "Costs": {
+    "name": "Denchuhs",
+    "diamond_cost": "150"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 15m",
+    "Enhanced_Skin": "17h 33m",
+    "Standard": "1d 3h",
+    "Standard_Skin": "1d 18m"
+  },
+  "Likes": [
+    "Plinkajou",
+    "Saggle Tree",
+    "Fuzzle Tree",
+    "Jarhead"
+  ],
+  "Combinations to Breed": [
+    "Toe Jammer + Clackula"
+  ]
+}

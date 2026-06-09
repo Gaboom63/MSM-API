@@ -1,0 +1,42 @@
+{
+  "Name": "Teeter-Tauter",
+  "Elements": [
+    "Mech",
+    "Crystal",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop",
+    "mech"
+  ],
+  "Description": {
+    "name": "Teeter-Tauter",
+    "description": "Teeter-Tauter is an unusually unstable pair, even when compared to its synthetic siblings who slink about the Workshop. Its chaotic Elemental power necessitated its split into two separate beings that together form one lovably lopsided Ethereal - made complete with some minor 'Mech-nical' enhancements! While the bipedal Teeter's acrobatic prowess is undeniable, its tireless tittering tends to teeter toward tedious in the eye of its more responsible half, Tauter."
+  },
+  "Costs": {
+    "name": "Teeter-Tauter",
+    "ethereal_diamond_cost": "2400",
+    "mech_diamond_cost": "3000",
+    "shard_cost": "2500",
+    "dish-harmonizer_shard_cost": "6000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 30m",
+    "Enhanced_Skin": "19h 30m",
+    "Standard": "1d 6h",
+    "Standard_Skin": "1d 3h"
+  },
+  "Likes": [
+    "Rhysmuth",
+    "Reebro",
+    "Bellowfish",
+    "Dragong",
+    "Bogle",
+    "Shrini",
+    "Wild Bagpipe",
+    "Beeyoot Tree"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

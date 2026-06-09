@@ -1,0 +1,37 @@
+{
+  "Name": "Rare Thwok",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Thwok",
+    "description": "Subtlety is out, flashiness is in! Eschewing the more subdued coloration of its Common incarnation, the Rare Thwok is the poster-Wublin for 'campy' presentation. A uniformly neon green tongue with taste buds the size of warts is equally well-suited to producing jawsome bass lines, and additional tuning pegs on its head translate to even greater musical prowess."
+  },
+  "Costs": {
+    "name": "Thwok",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "7",
+    "Inventory": {
+      "Rare Bowgart": 2,
+      "Rare Deedge": 1,
+      "Rare Entbrat": 1,
+      "Rare Furcorn": 2,
+      "Rare PomPom": 2,
+      "Rare Quarrister": 1,
+      "Rare Quibble": 2,
+      "Rare Riff": 1,
+      "Rare Shellbeat": 1,
+      "Rare Spunge": 2
+    },
+    "Time Limit": "None",
+    "Total Eggs": "15"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

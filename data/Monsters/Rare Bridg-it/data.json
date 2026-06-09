@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Bridg-it",
+  "Elements": [
+    "Earth",
+    "Fire",
+    "Faerie"
+  ],
+  "Islands": [
+    "faerie",
+    "nexus",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Rare Bridg-it",
+    "description": "You may be familiar with divergent evolution, but have you ever heard of aspirational evolution? That's what the Rare Bridg-it has undergone, a series of pre-emptive adaptions to an environment... that may never actually come to be! The Magical sub-species swapped its earth tones for greens and blues in the hope that Faerie Island would one day transform into a swampy terrain. It even transfigured its glowing, crystalline 'chinstrument' into horn-like growths to be less conspicuous in the 'swamp' - but for the time being, it stands out more than ever!"
+  },
+  "Costs": {
+    "name": "Rare Bridg-it",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 8h 37m 30s",
+    "Enhanced_Skin": "1d 4h 16m 30s",
+    "Standard": "1d 19h 30m",
+    "Standard_Skin": "1d 15h 9m"
+  },
+  "Likes": [
+    "Bridg-it",
+    "Freed Thing",
+    "Barbloo Statue",
+    "Sweetstreamz Tree"
+  ],
+  "Combinations to Breed": [
+    "Wimmzies + Noggin",
+    "Stogg + Floot Fly",
+    "HippityHop + Kayna"
+  ]
+}

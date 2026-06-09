@@ -1,0 +1,36 @@
+{
+  "Name": "Epic Mimic",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "oasis"
+  ],
+  "Description": {
+    "name": "Epic Mimic",
+    "description": "Pre-cataclysmic murals depict a guiding spirit, taking shape in the billowing clouds of an ancient mountain range. Alpine peaks stood as guideposts for migrating Monsters amidst dense mist and fog, and a cawing laugh would reverberate through the slopes to help orient travellers to safe passage. If one attempted to approach the source of the laugh, a 'luminous substance' would briefly flash, and then lighten to nothingness. Much later, this was determined to be none other than the Epic Mimic, using its evolutionary adaptations to protect itself and preserve a 'shroud of mystery.' Of course, the mocking mass of beak, talon and ocular oddity is by no means rarified Air; it is quite dense, and a bit of a goofball. Whatever inspired the Epic Air Top Boss to reveal itself and join its fellow Monsters in song, we may never know, but its mimicking affectations never fail to bring a smile, carried on the wind like voices bouncing off the walls of a mountain pass."
+  },
+  "Costs": {
+    "name": "Epic Mimic",
+    "cost": "1750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 5h 15m",
+    "Enhanced_Skin": "1d 1h 21m",
+    "Standard": "1d 15h",
+    "Standard_Skin": "1d 11h 6m"
+  },
+  "Likes": [
+    "Fa",
+    "Wubbox Stockpile",
+    "Crumpler Tree",
+    "Inverdigus Fern"
+  ],
+  "Combinations to Breed": [
+    "Wynq + Glowl"
+  ]
+}

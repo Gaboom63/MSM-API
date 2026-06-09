@@ -1,0 +1,38 @@
+{
+  "Name": "Bridg-it",
+  "Elements": [
+    "Earth",
+    "Fire",
+    "Faerie"
+  ],
+  "Islands": [
+    "faerie",
+    "nexus",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Bridg-it",
+    "description": "Ever cross a rickety old bridge and feel like something is waiting for you underneath? It was probably just a Bridg-it! This tender soul loves hosting guests for tea, served just how they like it, in a tasse balanced delicately on its length digits. Following tea, guests are invited to sit back and enjoy the Bridg-it's exquisite 'chinstrument' as their host taps a tinkling little tune that would make any visitor feel special. What a treat!"
+  },
+  "Costs": {
+    "name": "Bridg-it",
+    "diamond_cost": "300"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 1h 30m",
+    "Enhanced_Skin": "22h 6m",
+    "Standard": "1d 10h",
+    "Standard_Skin": "1d 6h 36m"
+  },
+  "Likes": [
+    "Boskus",
+    "Mountain Morsel",
+    "Harpsitree",
+    "Ambered Thing"
+  ],
+  "Combinations to Breed": [
+    "Wimmzies + Noggin",
+    "Stogg + Floot Fly",
+    "HippityHop + Kayna"
+  ]
+}

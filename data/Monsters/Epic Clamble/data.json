@@ -1,0 +1,35 @@
+{
+  "Name": "Epic Clamble",
+  "Elements": [
+    "Plant",
+    "Earth",
+    "Cold"
+  ],
+  "Islands": [
+    "plant",
+    "earth",
+    "gold",
+    "mirror plant",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Epic Clamble",
+    "description": "Epic Clambles have the sinister countenance of a fearsome villain, all spikes and wrought iron, locked in a perpetual battle with a virtuous knight. In truth, this feudal roleplaying is just that: a play! When not engaged in theatrical LARP-ing, Epic Clambles enjoy quiet time in the garden - though pruning the withering foliage on the scorching Earth Island has cursed this Epic with a blistering bouquet of claw boils."
+  },
+  "Costs": {
+    "name": "Epic Clamble",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h 45m",
+    "Enhanced_Skin": "13h 39m",
+    "Standard": "21h",
+    "Standard_Skin": "18h 54m"
+  },
+  "Likes": [
+    "Do",
+    "Ockulo Tree",
+    "Travelers' Sign",
+    "Cold Globe"
+  ]
+}

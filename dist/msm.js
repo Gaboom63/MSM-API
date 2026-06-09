@@ -1,14 +1,15 @@
 (function (global) {
   let COMMIT_HASH = localStorage.getItem('msm_api_hash') || 'main'; 
-  let BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, MASTER_DB_URL;
+  let BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, MASTER_DB_URL, MONSTERS_URL;
 
   function updateUrls() {
-    BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/`;
-    MASTER_DB_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/master_database.json`;
-    IMAGE_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/images/bm/`;
-    SOUND_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/sounds/`;
-    ELEMENTS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/images/elements/`;
-    BREEDING_FILE_PATH = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/JSONS/breedingCombos.json`;
+      BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/`;
+      MASTER_DB_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/master_database.json`;
+      MONSTERS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/Monsters/`;
+      IMAGE_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/images/bm/`;
+      SOUND_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/sounds/`;
+      ELEMENTS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/images/elements/`;
+      BREEDING_FILE_PATH = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/breedingCombos.json`;
   }
 
   function getStringSimilarity(str1, str2) {
@@ -126,7 +127,7 @@
     await initDatabases();
     if (breedingCache) return breedingCache;
     
-    const rawData = dbCache['breedingCombos'] || await fetchWithCache('breeding_db', BREEDING_FILE_PATH);
+    const rawData = await fetchWithCache('breeding_db', BREEDING_FILE_PATH);
     if (!rawData) return {};
 
     const processed = {};
@@ -145,7 +146,6 @@
     return processed;
   }
 
-  // FIX: Restored the missing calculateBreeding function!
   async function calculateBreeding(comboString) {
       const db = await getBreedingDatabase();
       if (!comboString || !comboString.includes("+")) return ["Invalid format"];
@@ -176,175 +176,168 @@
       return { folder, file: fileName, baseNameClean };
   }
 
-  async function getMonster(name) {
-    try {
-        await initDatabases();
-        
-        const { folder: rarity, file, baseNameClean } = resolveMonsterPath(name, dbCache);
-        const fullName = rarity === "Common" ? baseNameClean : `${rarity} ${baseNameClean}`;
-
-        if (rarity !== "Common") {
-            const hasImage = dbCache['Image Manifest']?.[baseNameClean]?.[rarity];
-            const hasTime = dbCache['Breeding Times']?.[baseNameClean]?.[rarity];
-            const hasCost = dbCache['Costs']?.[fullName];
-            const hasWublin = dbCache['Wublins']?.[baseNameClean]?.[rarity];
+  async function getMonster(rawName) {
+        try {
+            await initDatabases();
             
-            if (!hasImage && !hasTime && !hasCost && !hasWublin) {
-                return null; 
+            const { folder: rarity, file, baseNameClean } = resolveMonsterPath(rawName, dbCache);
+            let fullName = rawName.trim();
+            
+            let dataFolderName = fullName;
+            if (fullName.includes("(Major)")) {
+                dataFolderName = fullName.replace(" (Major)", "").trim();
+            } else if (fullName.includes("(Minor)")) {
+                dataFolderName = fullName.replace(" (Minor)", "").trim();
             }
-        }
 
-        const descObj = dbCache['Descriptions']?.[fullName] || dbCache['Descriptions']?.[baseNameClean];
-        const description = descObj ? descObj.description : "Description unavailable.";
+            if (dbCache && dbCache['Image Manifest']) {
+                const exactFolder = Object.keys(dbCache['Image Manifest']).find(k => k.toLowerCase() === dataFolderName.toLowerCase());
+                if (exactFolder) {
+                    dataFolderName = exactFolder;
+                }
+            }
 
-        const costObj = dbCache['Costs']?.[fullName] || dbCache['Costs']?.[baseNameClean] || {};
-        const primaryCost = costObj.coin_cost || costObj.diamond_cost || costObj.relic_cost || "N/A";
+            const safeFolderName = dataFolderName.replace(/\//g, "-").replace(/:/g, "");
+            const dedicatedDataUrl = `${MONSTERS_URL}${encodeURIComponent(safeFolderName)}/data.json`;
+            
+            let mData = await fetchWithCache(`monster_data_${safeFolderName}`, dedicatedDataUrl);
+            
+            if (!mData || Object.keys(mData).length === 0) {
+                console.warn(`No dedicated data.json found for monster: ${dataFolderName}`);
+                return null;
+            }
 
-        const imageManifest = dbCache['Image Manifest']?.[baseNameClean]?.[rarity] || {};
-        let finalImageUrl = imageManifest.full_image 
-            ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}${encodeURI(imageManifest.full_image)}`
-            : `${IMAGE_BASE_URL}${encodeURIComponent(file)}.png`;
+            const descObj = mData.Description || null;
+            const description = descObj ? descObj.description : "Description unavailable.";
+            const costObj = mData.Costs || {};
+            
+            const primaryCost = Object.values(costObj).find(val => {
+                if (typeof val === 'string') {
+                    const vLow = val.toLowerCase();
+                    if (vLow === fullName.toLowerCase() || vLow === baseNameClean.toLowerCase() || vLow === dataFolderName.toLowerCase()) {
+                        return false;
+                    }
+                }
+                return true;
+            }) || "N/A";
 
-        if (!descObj && !Object.keys(costObj).length && !imageManifest.full_image) {
+            const finalImageUrl = `${IMAGE_BASE_URL}${encodeURIComponent(fullName)}.png`;
+            const eggName = fullName.replace(/\s*\((Major|Minor)\)/i, "").trim();
+            // Assuming monster eggs live under the main CDN, adjust path if they are in a different repo
+            const finalEggUrl = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/images/monster_eggs/${encodeURIComponent(eggName)}.png`;
+
+            const elementImageDb = dbCache['Element Image Manifest'] || {};
+            const elementsResolved = (mData.Elements || []).map(elName => {
+                const normalized = String(elName).toLowerCase().replace(/\s+/g, "-");
+                const elFile = elementImageDb[elName] || elementImageDb[normalized] || elementImageDb[`${normalized}-element`];
+                return {
+                    name: String(elName),
+                    image: elFile ? `${ELEMENTS_URL}${encodeURIComponent(elFile)}` : null
+                };
+            });
+
+            const rawCostumes = Array.isArray(dbCache['Costumes']?.[baseNameClean]?.[rarity]) ? dbCache['Costumes'][baseNameClean][rarity] : [];
+            const costumes = rawCostumes.map(c => `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(c)}`);
+
+            const rawSounds = Array.isArray(dbCache['Sounds']?.[baseNameClean]?.[rarity]) ? dbCache['Sounds'][baseNameClean][rarity] : [];
+            const sounds = rawSounds.map(s => `${SOUND_BASE_URL}${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(s)}`);
+
+            return {
+                name: fullName,
+                baseName: baseNameClean,
+                rarity: rarity,
+                description: description,
+                costs: costObj,
+                cost: primaryCost,
+                imageUrl: finalImageUrl,
+                eggUrl: finalEggUrl,
+                elements: mData.Elements || [],
+                elementsResolved: elementsResolved,
+                islands: mData.Islands || [],
+                inventory: mData["Celestial Inventory"] || mData["Wublin Inventory"] || null,
+                likes: mData.Likes || [],
+                costumes: costumes,
+                _costumeIndex: costumes.length,
+                sounds: sounds,
+                breedingTimes: mData["Breeding Times"] || null,
+                
+                getElementImages() { return this.elementsResolved; },
+                getImageURL() { return this.imageUrl; },
+                getCostumes() { return this.costumes; },
+                getCostume(index) {
+                    if (!this.costumes.length) return this.imageUrl;
+                    const i = index ?? this._costumeIndex;
+                    return i === this.costumes.length ? this.imageUrl : this.costumes[i % this.costumes.length];
+                },
+                nextCostume() {
+                    if (!this.costumes.length) return this.imageUrl;
+                    this._costumeIndex = (this._costumeIndex + 1) % (this.costumes.length + 1);
+                    return this.getCostume(this._costumeIndex);
+                },
+                resetCostumes() {
+                    this._costumeIndex = this.costumes.length;
+                    return this.imageUrl;
+                },
+                async loadImage(selector) {
+                    const el = document.getElementById(selector) || document.querySelector(`.${selector}`);
+                    if (el) el.src = this.imageUrl;
+                },
+                isOnIsland(islandName) {
+                    return (this.islands.map(i => String(i).toLowerCase()).includes(islandName.toLowerCase()))
+                        ? `${this.name} is on ${islandName}!`
+                        : `${this.name} is not on ${islandName}.`;
+                },
+                getInfo() { return `${this.name} (${this.rarity}) costs ${this.cost}.`; },
+                async getBreedingTime() { return this.breedingTimes || { Standard: "Unknown", Enhanced: "Unknown" }; },
+                
+                async getBreedingCombos() { 
+                    const db = await getBreedingDatabase();
+                    const rawDict = db._rawDict || {};
+                    const matches = [];
+                    
+                    const targetName = fullName.toLowerCase();
+                    
+                    for (const [parents, offsprings] of Object.entries(rawDict)) {
+                        if (parents.includes("+") && Array.isArray(offsprings)) {
+                            const producesMe = offsprings.some(child => child.toLowerCase() === targetName);
+                            if (producesMe) {
+                                matches.push(parents);
+                            }
+                        }
+                    }
+                    
+                    if (matches.length > 0) return matches;
+
+                    if (mData["Combinations to Breed"] && mData["Combinations to Breed"].length > 0) {
+                        return mData["Combinations to Breed"];
+                    }
+                    
+                    return [];
+                },
+                
+                getStatistics() { return { name: this.name, rarity: this.rarity, costs: this.costs, description: this.description }; },
+                getSounds() { return this.sounds; },
+                async playSound(index = 0) {
+                    if (!this.sounds || this.sounds.length === 0) return console.warn(`No sounds found for ${this.name}`);
+                    try {
+                        const trackIndex = index < this.sounds.length ? index : 0; 
+                        const audio = new Audio(this.sounds[trackIndex]);
+                        audio.crossOrigin = "anonymous";
+                        await audio.play();
+                    } catch { console.warn(`Failed to play sound for ${this.name}`); }
+                }
+            };
+        } catch (criticalError) {
+            console.error(`Catastrophic failure parsing JSON for ${rawName}:`, criticalError);
             return null;
         }
-
-        const elementObj = dbCache['Elements']?.[baseNameClean];
-        let elements = [];
-        if (elementObj) {
-            if (Array.isArray(elementObj.Element)) elements = elementObj.Element;
-            else if (Array.isArray(elementObj.elements)) elements = elementObj.elements;
-        }
-
-        const elementImageDb = dbCache['Element Image Manifest'] || {};
-        const elementsResolved = elements.map(elName => {
-            const normalized = String(elName).toLowerCase().replace(/\s+/g, "-");
-            const elFile = elementImageDb[elName] || elementImageDb[normalized] || elementImageDb[`${normalized}-element`];
-            return {
-                name: String(elName),
-                image: elFile ? `${ELEMENTS_URL}${encodeURIComponent(elFile)}` : null
-            };
-        });
-
-        const breedingTimes = dbCache['Breeding Times']?.[baseNameClean]?.[rarity] || null;
-        const likes = dbCache['Likes']?.[baseNameClean]?.[rarity] || [];
-        const islandsList = dbCache['Islands']?.[fullName] || dbCache['Islands']?.[baseNameClean] || [];
-        const inventory = dbCache['Celestials']?.[fullName]?.Inventory || dbCache['Wublins']?.[baseNameClean]?.[rarity]?.Inventory || null;
-
-        const rawCostumes = Array.isArray(dbCache['Costumes']?.[baseNameClean]?.[rarity]) ? dbCache['Costumes'][baseNameClean][rarity] : [];
-        const costumes = rawCostumes.map(c => `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(c)}`);
-
-        const rawSounds = Array.isArray(dbCache['Sounds']?.[baseNameClean]?.[rarity]) ? dbCache['Sounds'][baseNameClean][rarity] : [];
-        const sounds = rawSounds.map(s => `${SOUND_BASE_URL}${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(s)}`);
-
-        return {
-            name: fullName,
-            baseName: baseNameClean,
-            rarity: rarity,
-            description: description,
-            costs: costObj,
-            cost: primaryCost,
-            imageUrl: finalImageUrl,
-            eggUrl: imageManifest.egg_image ? `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}${encodeURI(imageManifest.egg_image)}` : null,
-            elements: elements,
-            elementsResolved: elementsResolved,
-            islands: islandsList,
-            inventory: inventory,
-            likes: likes,
-            costumes: costumes,
-            _costumeIndex: costumes.length,
-            sounds: sounds,
-            breedingTimes: breedingTimes,
-            
-            getElementImages() { return this.elementsResolved; },
-            getImageURL() { return this.imageUrl; },
-            getCostumes() { return this.costumes; },
-            
-            getCostume(index) {
-              if (!this.costumes.length) return this.imageUrl;
-              const i = index ?? this._costumeIndex;
-              return i === this.costumes.length ? this.imageUrl : this.costumes[i % this.costumes.length];
-            },
-            
-            nextCostume() {
-              if (!this.costumes.length) return this.imageUrl;
-              this._costumeIndex = (this._costumeIndex + 1) % (this.costumes.length + 1);
-              return this.getCostume(this._costumeIndex);
-            },
-            
-            resetCostumes() {
-              this._costumeIndex = this.costumes.length;
-              return this.imageUrl;
-            },
-            
-            async loadImage(selector) {
-              const el = document.getElementById(selector) || document.querySelector(`.${selector}`);
-              if (el) el.src = this.imageUrl;
-            },
-            
-            isOnIsland(islandName) {
-              const list = this.islands.map(i => String(i).toLowerCase());
-              return list.includes(islandName.toLowerCase())
-                ? `${this.name} is on ${islandName}!`
-                : `${this.name} is not on ${islandName}.`;
-            },
-            
-            getInfo() { return `${this.name} (${this.rarity}) costs ${this.cost}.`; },
-            
-            async getBreedingTime() {
-              return this.breedingTimes || { Standard: "Unknown", Enhanced: "Unknown", Standard_Skin: "Unknown", Enhanced_Skin: "Unknown" };
-            },
-
-            async getBreedingCombos() {
-              const db = await getBreedingDatabase();
-              const rawDict = db._rawDict || {}; 
-              const searchName = this.name.toLowerCase();
-              let combos = [];
-              
-              for (const [comboKey, results] of Object.entries(rawDict)) {
-                  if (comboKey.includes("+") && Array.isArray(results)) {
-                      if (results.some(r => typeof r === 'string' && r.toLowerCase() === searchName)) {
-                          combos.push(comboKey);
-                      }
-                  }
-              }
-              
-              return [...new Set(combos)].map(c => 
-                  c.split('+')
-                   .map(p => p.trim().split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '))
-                   .join(' + ')
-              );
-            },
-            
-            getStatistics() { return { name: this.name, rarity: this.rarity, costs: this.costs, description: this.description }; },
-            getSounds() { return this.sounds; },
-
-            async playSound(index = 0) {
-              if (!this.sounds || this.sounds.length === 0) return console.warn(`No sounds found for ${this.name}`);
-              try {
-                const trackIndex = index < this.sounds.length ? index : 0; 
-                const audio = new Audio(this.sounds[trackIndex]);
-                audio.crossOrigin = "anonymous";
-                await audio.play();
-              } catch {
-                console.warn(`Failed to play sound for ${this.name}`);
-              }
-            }
-        };
-    } catch (criticalError) {
-        console.error(`Catastrophic failure parsing JSON for ${name}:`, criticalError);
-        return null;
     }
-  }
 
   async function getIslandImg(identifier) {
-        // Ensure the database is loaded
         await initDatabases();
         
-        // Fetch the island image mapping from the master database cache
         const islandsImages = dbCache['Island Manifest'] || {};
         
-        // Normalize identifier to handle various input styles
         let normalized = identifier.toLowerCase().trim().replace(/\s+/g, '_');
         if (!normalized.endsWith('_island') && !normalized.includes('colossingum')) {
             normalized += '_island';
@@ -353,7 +346,6 @@
         const matches = islandsImages[normalized];
         if (!matches) return null;
 
-        // Map local paths to full URLs using the repository and commit hash
         const islandBaseUrl = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/`;
         return matches.map(path => `${islandBaseUrl}${encodeURI(path)}`);
   }
@@ -363,7 +355,6 @@
       const dbIslands = dbCache['Islands'] || {};
       const uniqueIslands = new Set();
 
-      // Iterate through all monsters to extract unique island names
       for (const islandArray of Object.values(dbIslands)) {
           if (Array.isArray(islandArray)) {
               islandArray.forEach(island => uniqueIslands.add(island));
@@ -383,21 +374,19 @@
       const roster = [];
       let found = false;
 
-      // Search the database to find all monsters that map to this island
       for (const [monsterName, islandArray] of Object.entries(dbIslands)) {
           if (!Array.isArray(islandArray)) continue;
 
           for (const islandName of islandArray) {
               const normalizedIsland = String(islandName).toLowerCase().trim();
               
-              // Flexible matching so "plant" matches "Plant Island"
               if (
                   normalizedIsland === searchTarget || 
                   normalizedIsland === searchTarget + " island" || 
                   normalizedIsland + " island" === searchTarget
               ) {
                   roster.push(monsterName);
-                  actualIslandName = islandName; // Grab the correctly capitalized name
+                  actualIslandName = islandName; 
                   found = true;
                   break;
               }
@@ -408,10 +397,8 @@
           return { error: `No data found for island matching '${identifier}'.` };
       }
 
-      // Fetch images using your existing helper
       const images = await getIslandImg(actualIslandName) || [];
 
-      // Return a structured object with helper methods
       return {
           name: actualIslandName,
           images: images,
@@ -423,6 +410,7 @@
           getInfo() { return `${this.name} features ${this.totalMonsters} known monsters!`; }
       };
     }
+    
   const MSM = new Proxy({}, {
   get(target, prop) {
     const key = String(prop);
@@ -432,44 +420,7 @@
     if (key === "fetchIsland" || key === "island") return fetchIsland;
     if (key === "fetchIslands" || key === "islands") return fetchIslands;
     if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
-    if (key === "help") {
-      return () => ({
-        version: COMMIT_HASH,
-        methods: {
-          get: "MSM.get(name) -> Fetch a monster",
-          monster: "MSM.monster(name) -> Alias for get()",
-          twoMonsterCombo: "MSM.twoMonsterCombo('Noggin + Mammott') -> Get breeding results",
-          getIslandImg: "MSM.getIslandImg('plant island') -> Get island image URLs",
-          fetchIsland: "MSM.fetchIsland('plant') -> Get an island's info and monster roster",
-          fetchIslands: "MSM.fetchIslands() -> Returns an array of all known islands", 
-          help: "MSM.help() -> Show all API methods"
-        },
-        monsterMethods: {
-          getInfo: "monster.getInfo()",
-          getStatistics: "monster.getStatistics()",
-          getBreedingTime: "monster.getBreedingTime()",
-          getBreedingCombos: "monster.getBreedingCombos()",
-          getElementImages: "monster.getElementImages()",
-          getImageURL: "monster.getImageURL()",
-          getSounds: "monster.getSounds()",
-          playSound: "monster.playSound(index)",
-          getCostumes: "monster.getCostumes()",
-          getCostume: "monster.getCostume(index)",
-          nextCostume: "monster.nextCostume()",
-          resetCostumes: "monster.resetCostumes()",
-          loadImage: "monster.loadImage(selector)",
-          isOnIsland: "monster.isOnIsland(island)"
-        },
-        examples: [
-          "await MSM.get('Bowgart')",
-          "await MSM.Bowgart.getInfo()",
-          "await MSM.twoMonsterCombo('T-Rox + Shellbeat')",
-          "await MSM.getIslandImg('Water Island')",
-          "await MSM.fetchIslands()",
-          "await MSM.fetchIsland('Ethereal')"
-        ]
-      });
-    }
+    if (key === "help") { return () => ({ version: COMMIT_HASH }); }
     if (key in cache) return cache[key];
 
     const loader = getMonster(key).then(m => {

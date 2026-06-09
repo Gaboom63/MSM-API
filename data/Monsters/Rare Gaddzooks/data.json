@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Gaddzooks",
+  "Elements": [
+    "Plasma",
+    "Mech",
+    "Crystal"
+  ],
+  "Islands": [
+    "workshop",
+    "plasma",
+    "mech"
+  ],
+  "Description": {
+    "name": "Rare Gaddzooks",
+    "description": "Rare Gaddzooks are plucky ones, to be sure. This precocious Monster is seen as a mischievous meddler by those around it, always getting into other Mons' business. With their meticulous movements, and perfect synchronicity, the Rare Gaddzooks are always at the ready with a freshly-hatched scheme. It's all a misunderstanding, of course; spending time and singing along with its best friend is what Rare Gaddzooks love the most. This matchmaking Monster wants nothing more than to help everyMon find their special someone, just like it did with Rare Yooreek."
+  },
+  "Costs": {
+    "name": "Rare Gaddzooks",
+    "ethereal_diamond_cost": "3300",
+    "mech_diamond_cost": "3500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "Gaddzooks",
+    "Rare Meebkin",
+    "Rare Ghazt",
+    "Rare Nebulob",
+    "Rare Reebro",
+    "Rare Bellowfish",
+    "Reflecting Pool",
+    "Toob",
+    "Tree Forte Tower"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

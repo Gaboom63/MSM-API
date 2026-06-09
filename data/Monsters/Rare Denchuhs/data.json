@@ -1,0 +1,35 @@
+{
+  "Name": "Rare Denchuhs",
+  "Elements": [
+    "Water",
+    "Bone"
+  ],
+  "Islands": [
+    "bone",
+    "nexus",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Rare Denchuhs",
+    "description": "It's the Dawn of the Denchuhs! Rare Denchuhs love Treats just as much as they despise oral hygiene. After all, brushing away the crumbs means they won't have leftovers to snack on later. No matter how many warnings their beleaguered dentist gives, this gluttonous pair simply will not listen. It is a tragedy that their ears aren't as big as their decaying mega-mouths! It has been repeatedly observed that the sweeter of the Denchuhs tends to suffer from more accelerated tooth decay than its sourpuss companion, suggesting that it eats the Kazilleon's share of the Treats. Could the so-called grumpy twin be more generous than it looks, or did its sweet tooth simply rot away too soon?"
+  },
+  "Costs": {
+    "name": "Rare Denchuhs",
+    "diamond_cost": "250"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Denchuhs",
+    "Digger",
+    "Odd-o-Mobile",
+    "Kab's Wax"
+  ],
+  "Combinations to Breed": [
+    "Toe Jammer + Clackula"
+  ]
+}

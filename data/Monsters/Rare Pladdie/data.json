@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Pladdie",
+  "Elements": [
+    "Earth",
+    "Cold",
+    "Fire",
+    "Faerie"
+  ],
+  "Islands": [
+    "faerie",
+    "nexus",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Rare Pladdie",
+    "description": "Already respected leaders among their Faerie kin, Rare Pladdies are highly revered for their spiritual connection to the Magical world around them. Through their ancient tradition of kything with the spirits of auld, Rare Pladdie can spin grander, rarer yarns than have ever been heard - as evidenced by the impressive fankle of wooly locks that crown its wee head. This bonnie Boss keeps near-lost histories alive by recounting riveting epics and carrying on the memories of those who came before."
+  },
+  "Costs": {
+    "name": "Rare Pladdie",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 21h 22m 30s",
+    "Enhanced_Skin": "1d 15h 19m 30s",
+    "Standard": "2d 12h 30m",
+    "Standard_Skin": "2d 6h 27m"
+  },
+  "Likes": [
+    "Pladdie",
+    "Bingo Bango Bongos",
+    "Castanevine",
+    "Macho Monument"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

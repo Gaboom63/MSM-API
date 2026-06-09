@@ -1,0 +1,35 @@
+{
+  "Name": "Rare Hyehehe",
+  "Elements": [
+    "Mythical"
+  ],
+  "Islands": [
+    "earth",
+    "mythical",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Rare Hyehehe",
+    "description": "More timid than its Common cousin, Rare Hyehehe leans on slapstick to break the ice! Its arsenal of props includes its extra-slippery Slip-ons on its feet, guaranteed to make you 'peel' over in laughter. This rascally Rare will do anything to have you (and itself!) in stitches, even if it means tearing the very fabric of reality. Prone to losing its special stuffing, this Mythical has become an unexpectedly talented tailor, and even offers to patch up Costumes or beloved stuffed toys for its fellow Monsters. You won't want to miss Rare Hyehehe's clumsy clownery, though some of its more experimental jokes are a little...underripe."
+  },
+  "Costs": {
+    "name": "Rare Hyehehe",
+    "earth_diamond_cost": "500",
+    "mythical_diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "Hyehehe",
+    "Miniature Island Complex",
+    "Mountain Morsel",
+    "Reflecting Pool"
+  ],
+  "Combinations to Breed": [
+    "Thumpies + PomPom"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Name": "Rare Drummidary",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "light",
+    "amber",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Rare Drummidary",
+    "description": "Spend enough time with your BFF, and their hobbies are bound to rub off on you. That's just what happened between the rocky Rare forms of the Earth Top Boss and its Single-Element pal! The Rare Earth Elemental's architectural aspirations led to the construction of a castle-like armor encasing mighty Rare Drummidary, complete with impressive parapets, sturdy brickwork, and even a drawbridge (if you know where to look.) This friendly fortified fortress would make an ideal defence in the event of a siege, but given that Monsters live in times of peace, Rare Drummidary's drums simply act as premium hide-and-go-seek spots for young Monsterlings instead."
+  },
+  "Costs": {
+    "name": "Rare Drummidary",
+    "starpower_cost": "15000"
+  },
+  "Breeding Times": {
+    "Enhanced": "2d 23h 37m 30s",
+    "Enhanced_Skin": "2d 14h 4m 30s",
+    "Standard": "3d 23h 30m",
+    "Standard_Skin": "3d 13h 57m"
+  },
+  "Likes": [
+    "Drummidary",
+    "Wynq",
+    "Barrb",
+    "Incisaur",
+    "Piney Tree",
+    "Digger",
+    "Miniature Island Complex"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

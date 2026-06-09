@@ -1,0 +1,35 @@
+{
+  "Name": "Epic Gheegur",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Epic Gheegur",
+    "description": "The custom of crafting and gifting stuffed animals is a timed-honored tradition, dating back to the days of the Dawn of Fire. Those ones usually weren't possessed by a rambunctious Wublin spirit, however - this Epic attempt to cutesify the Gheegur can be considered successful IF and only if you subscribe to Supernatural design sensibilities. Then, it's head and shoulders above the others."
+  },
+  "Costs": {
+    "name": "Gheegur",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "7",
+    "Inventory": {
+      "Epic Cybop": 1,
+      "Epic PomPom": 1,
+      "Epic Reedling": 1,
+      "Epic Riff": 1,
+      "Epic Scups": 1,
+      "Epic Sneyser": 1,
+      "Epic Sooza": 1,
+      "Epic Thrumble": 1
+    },
+    "Time Limit": "None",
+    "Total Eggs": "8"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Name": "Hoola",
+  "Elements": [
+    "SummerSong"
+  ],
+  "Islands": [
+    "air",
+    "earth",
+    "colossingum",
+    "gold",
+    "seasonal",
+    "mirror air",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Hoola",
+    "description": "Often mistaken for a PomPom that has expanded its traditional diet of exclusively red foods, the Hoola is actually a distinct creature. This doesn't stop them from getting along famously, and they share something of a sisterly bond. The Hoola is a born troublemaker, pulling pranks on other Monsters and using its special hoop to get up to all kinds of mischief. Luckily, a PomPom is usually nearby to help set things right."
+  },
+  "Costs": {
+    "name": "Hoola",
+    "earth_diamond_cost": "225",
+    "colossingum_diamond_cost": "250",
+    "seasonal_diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "18h 45m",
+    "Enhanced_Skin": "16h 15m",
+    "Standard": "1d 1h",
+    "Standard_Skin": "22h 30m"
+  },
+  "Likes": [
+    "Tweedle",
+    "Punkleton",
+    "Tree Hut",
+    "Tree Forte Tower",
+    "Castanevine"
+  ],
+  "Combinations to Breed": [
+    "PomPom + Pango"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Name": "Rare Gob",
+  "Elements": [
+    "Plant",
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Rare Gob",
+    "description": "Unlike the hydrophobic exterior of its Common cousin, the Rare Gob's dermal tissue is hydrophilic and allows for dewdrops to arrange themselves into neat configurations for later consumption. Aside from their internal organs, Rare Gobs have an active interest in multi-instrumentalism and love to dabble with whatever musical objects they find around them. Given the unique anatomy of this Rare Magical, this can be challenging... and sometimes amounts to little more than loudly singing in the direction of said objects."
+  },
+  "Costs": {
+    "name": "Rare Gob",
+    "diamond_cost": "250"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Gob",
+    "Guitree",
+    "Innertuba",
+    "The Thunker"
+  ],
+  "Combinations to Breed": [
+    "Potbelly + Fluoress"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "Name": "G'joob",
+  "Elements": [
+    "Mythical"
+  ],
+  "Islands": [
+    "plant",
+    "mythical",
+    "mirror plant"
+  ],
+  "Description": {
+    "name": "G'joob",
+    "description": "Lethargic as they come, G'joobs are healthy eaters and even better sleepers. They spend most of their time drowsing under trees, using their six flippers to drag themselves around and waiting for the sun to come so they can try and get a tan. It's believed that the circular breathing prowess honed in their musical offerings is the secret to how they rest so easy."
+  },
+  "Costs": {
+    "name": "G'joob",
+    "plant_diamond_cost": "225",
+    "mythical_diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "13h 30m",
+    "Enhanced_Skin": "11h 42m",
+    "Standard": "18h",
+    "Standard_Skin": "16h 12m"
+  },
+  "Likes": [
+    "Bowgart",
+    "Yawstrich",
+    "Mountain Morsel",
+    "Thumpies Totem",
+    "Inverdigus Fern"
+  ],
+  "Combinations to Breed": [
+    "Pummel + T-Rox"
+  ]
+}

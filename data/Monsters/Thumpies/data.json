@@ -1,0 +1,45 @@
+{
+  "Name": "Thumpies",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Cold"
+  ],
+  "Islands": [
+    "cold",
+    "earth",
+    "gold",
+    "tribal",
+    "composer",
+    "mirror cold",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Thumpies",
+    "description": "Thumpies are well-adapted to inter-dimensional travel, and can be found throughout the multiverse. In fact, they even have their own game (now remastered and better than ever)!"
+  },
+  "Costs": {
+    "name": "Thumpies",
+    "diamond_cost": "50",
+    "colossingum_diamond_cost": "60",
+    "composer_coin_cost": "8000"
+  },
+  "Breeding Times": {
+    "Enhanced": "9h",
+    "Enhanced_Skin": "7h 48m",
+    "Standard": "12h",
+    "Standard_Skin": "10h 48m"
+  },
+  "Likes": [
+    "Oaktopus",
+    "Furcorn",
+    "Fuzzle Tree",
+    "Dragoon Statue",
+    "Cozee Cabin"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Furcorn",
+    "Potbelly + Pango",
+    "Mammott + Dandidoo"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "Name": "Shugavox",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "shugabush"
+  ],
+  "Description": {
+    "name": "Shugavox",
+    "description": "Even more so than its mandolin-toting cousin, the Shugavox loves to wail out a wild tune in the company of its Monster brethren. It and the Shugabush enjoy a friendly rivalry for pretty much everything, including their tastes in phay-door-uhs. To make itself stand out more, the Shugavox regularly mists itself with essence of Deedge earwax to color itself blue."
+  },
+  "Costs": {
+    "name": "Shugavox",
+    "diamond_cost": "700"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "Mammott",
+    "Flappy Flag",
+    "Puffle Tree",
+    "Floofy Nest"
+  ],
+  "Combinations to Breed": [
+    "Shugabush + Deedge"
+  ]
+}

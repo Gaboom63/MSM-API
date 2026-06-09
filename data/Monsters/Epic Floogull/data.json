@@ -1,0 +1,38 @@
+{
+  "Name": "Epic Floogull",
+  "Elements": [
+    "Air",
+    "Earth",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "amber"
+  ],
+  "Description": {
+    "name": "Epic Floogull",
+    "description": "(Is... is this Monster okay? Yes? You're SURE. Okay.) Ahem! Epic Floogulls live long, loooong beyond any Common or Rare. They have seen it all, and though they may not look it, these wizened Fire Epics can remember every last moment. Epic Floogulls were there way back in the days when the Garden Patch was still green, and the Wishing Well was still wet, and the Wondermine still gleamed. They even heard the tree fall - the very last Barbapap Tree of them all! And while this grumpy old Epic may feel like it’s been there, done that, or that the good ol' days have come and gone, its eyes still light up whenever this Floogull hears a floo."
+  },
+  "Costs": {
+    "name": "Epic Floogull",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 3h 45m",
+    "Enhanced_Skin": "1d 3m",
+    "Standard": "1d 13h",
+    "Standard_Skin": "1d 9h 18m"
+  },
+  "Likes": [
+    "Glowl",
+    "Whaddle",
+    "Bisonorus",
+    "Sooza",
+    "Hammock",
+    "Englobulated F.U.M.",
+    "Swurlee Tree"
+  ],
+  "Combinations to Breed": [
+    "Reedling + Glowl"
+  ]
+}

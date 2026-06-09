@@ -1,0 +1,35 @@
+{
+  "Name": "Gheegur",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Gheegur",
+    "description": "Amicable but eccentric, the interior of the Gheegur is a plexus of intricate tubes, which begin at its gaping mouth and culminate in its shoulder pipes. The meticulous movements of its many mandibles make for melodious music... but they may also be the mainspring of the mystifying glow that intermittently emanates from the junctions of this Monster's body. The sequela of this glow as of yet unknown, a fellow Wublin is usually appointed as a 'counter' to monitor how much time is spent in the Gheegur's company."
+  },
+  "Costs": {
+    "name": "Gheegur",
+    "cost": "5000"
+  },
+  "Likes": [
+    "Whajje"
+  ],
+  "Wublin Inventory": {
+    "Cost": "3,000",
+    "Inventory": {
+      "Cybop": 6,
+      "Pompom": 4,
+      "Reedling": 6,
+      "Riff": 6,
+      "Scups": 4
+    },
+    "Time Limit": "None",
+    "Total Eggs": "26"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

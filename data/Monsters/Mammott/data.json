@@ -1,0 +1,54 @@
+{
+  "Name": "Mammott",
+  "Elements": [
+    "Cold"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "air",
+    "earth",
+    "gold",
+    "tribal",
+    "mirror plant",
+    "mirror cold",
+    "mirror air",
+    "mirror earth",
+    "shugabush",
+    "colossingum",
+    "composer",
+    "oasis",
+    "light",
+    "mirror light",
+    "faerie",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Mammott",
+    "description": "Mammotts luxurious fur ensures that these Cold elementals are never chilly. Tangles, however, are an ongoing issue. Their resonant anthem celebrates blizzards and frosted windows. Mammotts do not shovel snow."
+  },
+  "Costs": {
+    "name": "Mammott",
+    "coin_cost": "300",
+    "shugabush_diamond_cost": "250",
+    "colossingum_diamond_cost": "25",
+    "composer_coin_cost": "2000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1m 30s",
+    "Enhanced_Skin": "1m 18s",
+    "Standard": "2m",
+    "Standard_Skin": "1m 48s"
+  },
+  "Likes": [
+    "Fwog",
+    "Quibble",
+    "Entbrat",
+    "Quarrister",
+    "Stogg",
+    "Pluckbill",
+    "Meldablend",
+    "Stritch Skin",
+    "Bottomless Pit"
+  ]
+}

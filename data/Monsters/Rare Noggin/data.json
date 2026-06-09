@@ -1,0 +1,49 @@
+{
+  "Name": "Rare Noggin",
+  "Elements": [
+    "Earth"
+  ],
+  "Islands": [
+    "plant",
+    "air",
+    "water",
+    "earth",
+    "gold",
+    "haven",
+    "faerie",
+    "bone",
+    "composer",
+    "mirror plant",
+    "mirror air",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Rare Noggin",
+    "description": "After scouring the Monster World for what felt like forever, the Rare Noggin has been unearthed. Not satisfied with a simple existence as a musical rock, this capricious creature reinvented itself as the building block of an exotic edifice. Because of their limited maneuverability, it's unclear whether a group of Rare Noggins could ever actually cooperate to build anything... perhaps a more down-to-Earth goal would be to just keep the rhythm for its fellow Monsters."
+  },
+  "Costs": {
+    "name": "Rare Noggin",
+    "diamond_cost": "75",
+    "starpower_cost": "1000"
+  },
+  "Breeding Times": {
+    "Enhanced": "4h 30m",
+    "Enhanced_Skin": "3h 54m",
+    "Standard": "6h",
+    "Standard_Skin": "5h 24m"
+  },
+  "Likes": [
+    "Noggin",
+    "Mammott",
+    "Toe Jammer",
+    "Tweedle",
+    "Potbelly",
+    "Kayna",
+    "Floot Fly",
+    "Clackula"
+  ],
+  "Combinations to Breed": [
+    "Any Two Triples"
+  ]
+}

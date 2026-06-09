@@ -1,0 +1,44 @@
+{
+  "Name": "Boskus",
+  "Elements": [
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "oasis",
+    "light",
+    "faerie",
+    "amber",
+    "mirror light",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Boskus",
+    "description": "If you value your dignity, never challenge a Boskus to a thumb war! Years of lip-flubbering with its nasal digit have given this silly Monster a finger strong enough to lift broken-down Diggers and uproot even the most stubborn of stumps."
+  },
+  "Costs": {
+    "name": "Boskus",
+    "relic_cost": "50",
+    "amber_relic_cost": "10"
+  },
+  "Breeding Times": {
+    "Enhanced": "7h 30m",
+    "Enhanced_Skin": "6h 30m",
+    "Standard": "10h",
+    "Standard_Skin": "9h"
+  },
+  "Likes": [
+    "Furcorn",
+    "Phangler",
+    "Bridg-it",
+    "Edamimi",
+    "Incisaur",
+    "Drummidary",
+    "Flappy Flag",
+    "Puffle Tree",
+    "Digger"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Mammott"
+  ]
+}

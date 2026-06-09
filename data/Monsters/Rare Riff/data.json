@@ -1,0 +1,39 @@
+{
+  "Name": "Rare Riff",
+  "Elements": [
+    "Air",
+    "Earth",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "air",
+    "gold",
+    "mirror air"
+  ],
+  "Description": {
+    "name": "Rare Riff",
+    "description": "Found much less frequently than the common Riff, this Rare Monster nonetheless offers great insights into the habits and behaviours of this secretive species. For instance, it's now known that all Riffs share a symbiotic relationship with their guitars, which are actually living creatures as well! Riffs exchange the foods they collect with their toes for whispered messages of affirmation about their musical performances. Go team."
+  },
+  "Costs": {
+    "name": "Rare Riff",
+    "diamond_cost": "200",
+    "starpower_cost": "5000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Riff",
+    "Smunkin Patch",
+    "Fuzzle Tree",
+    "Piney Tree"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

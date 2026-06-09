@@ -1,0 +1,23 @@
+{
+  "Name": "Faesoddoid Fungus",
+  "Elements": [
+    "Titansoul"
+  ],
+  "Costs": {
+    "name": "Faesoddoid Fungus",
+    "coin_cost": "10000000"
+  },
+  "Breeding Times": {
+    "Enhanced": "9h",
+    "Enhanced_Skin": "7h 48m",
+    "Standard": "12h",
+    "Standard_Skin": "10h 48m"
+  },
+  "Description": {
+    "name": "Faesoddoid Fungus",
+    "description": "Documentation pending."
+  },
+  "Islands": [
+    "Unknown"
+  ]
+}

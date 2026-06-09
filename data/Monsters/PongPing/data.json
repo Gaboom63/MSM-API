@@ -1,0 +1,41 @@
+{
+  "Name": "PongPing",
+  "Elements": [
+    "Plant",
+    "Earth",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "bone",
+    "amber",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "PongPing",
+    "description": "There's a persistent cliché that you can either be a music fan or a sports nut, but not both - and the PongPing proves otherwise! Even though its vermiform body is better suited to standing activities like table tennis, the Monster also loves embarking on cross-island marathons, no matter how long they take. To keep its spirits up on the way, the PongPing uses its paddles to practice a series of rhythmic rudiments on its inflatable cheeks. When intense weather or fatigue threaten to discourage, the Monster likes to remember the optimistic adage its forebears always used to say: 'Life is like a music box of Chokkolits... wait, why are there Chokkolits in a music box? What a mess! Oh well, let's get started on clean-up.' We know, it's kind of convoluted."
+  },
+  "Costs": {
+    "name": "PongPing",
+    "faerie_relic_cost": "300",
+    "amber_relic_cost": "30"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 6h",
+    "Enhanced_Skin": "1d 2h",
+    "Standard": "1d 16h",
+    "Standard_Skin": "1d 12h"
+  },
+  "Likes": [
+    "Boskus",
+    "Repatillo",
+    "Woolabee",
+    "Gnarls",
+    "Sweetstreamz Tree",
+    "Elmenco Stump",
+    "Bingo Bango Bongos"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

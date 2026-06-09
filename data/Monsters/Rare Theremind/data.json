@@ -1,0 +1,37 @@
+{
+  "Name": "Rare Theremind",
+  "Elements": [
+    "Psychic"
+  ],
+  "Islands": [
+    "psychic",
+    "sanctum",
+    "nexus",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Rare Theremind",
+    "description": "Science tells us that one day, we might be able to shed our physical forms and exist solely in our minds... but Rare Theremind may have gotten a little 'ahead' of itself. The well-intentioned but overly-ambitious Rare of this species attempted to speed up its evolution, outgrow its body, and live via astral projection. This endeavor was only half-successful, and the Monster was forced to resume occupancy of its former body with a little help from some Magical reanimation. A lesson to us all to exercise both our minds and our bodies."
+  },
+  "Costs": {
+    "name": "Rare Theremind",
+    "psychic_diamond_cost": "150",
+    "magical_diamond_cost": "375"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 30m",
+    "Enhanced_Skin": "16h 54m",
+    "Standard": "1d 2h",
+    "Standard_Skin": "23h 24m"
+  },
+  "Likes": [
+    "Theremind",
+    "Stritch Skin",
+    "Freed Thing",
+    "The Thunker",
+    "Rare Clackula"
+  ],
+  "Combinations to Breed": [
+    "Any Two Triples"
+  ]
+}

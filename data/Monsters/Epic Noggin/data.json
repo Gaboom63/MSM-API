@@ -1,0 +1,50 @@
+{
+  "Name": "Epic Noggin",
+  "Elements": [
+    "Earth"
+  ],
+  "Islands": [
+    "plant",
+    "air",
+    "water",
+    "earth",
+    "gold",
+    "haven",
+    "faerie",
+    "bone",
+    "mirror plant",
+    "mirror air",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Epic Noggin",
+    "description": "The lineage of Epic Noggin can be traced to the first Common settlers of Earth Island, the species' Elemental home. While many Noggins migrated to other islands, a select few stayed, preferring the volcanic rumblings and charcoal caverns of Earth Island to any other. Over time, this group's appearance began to mirror its surroundings, transforming into fierce and fiery Epics that now roam free."
+  },
+  "Costs": {
+    "name": "Epic Noggin",
+    "diamond_cost": "250"
+  },
+  "Breeding Times": {
+    "Enhanced": "45m",
+    "Enhanced_Skin": "39m",
+    "Standard": "1h",
+    "Standard_Skin": "54m"
+  },
+  "Likes": [
+    "Rare Wubbox",
+    "Kayna",
+    "Givutawai Tree",
+    "Bingo Bango Bongos",
+    "Innertuba"
+  ],
+  "Combinations to Breed": [
+    "Entbrat + Fwog",
+    "Riff + Drumpler",
+    "Shellbeat + Shrubb",
+    "Quarrister + Cybop",
+    "Tring + Dandidoo",
+    "Pladdie + Boskus",
+    "Plinkajou + Phangler"
+  ]
+}

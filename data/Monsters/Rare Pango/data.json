@@ -1,0 +1,41 @@
+{
+  "Name": "Rare Pango",
+  "Elements": [
+    "Air",
+    "Cold"
+  ],
+  "Islands": [
+    "cold",
+    "air",
+    "earth",
+    "gold",
+    "oasis",
+    "mirror cold",
+    "mirror air",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Rare Pango",
+    "description": "While still flightless and prone to cold, the Rare Pango is, at the very least, a bit more resourceful than its Common cousin. Using its elongated talons, it carves and shapes blocks of ice to create igloos to take refuge in during snowstorms. Its ornate crest and patterned plumage are eye-catching, but they do little to improve the low self-esteem shared by all Pangos."
+  },
+  "Costs": {
+    "name": "Rare Pango",
+    "diamond_cost": "40",
+    "starpower_cost": "1500"
+  },
+  "Breeding Times": {
+    "Enhanced": "7h 52m 30s",
+    "Enhanced_Skin": "6h 49m 30s",
+    "Standard": "10h 30m",
+    "Standard_Skin": "9h 27m"
+  },
+  "Likes": [
+    "Pango",
+    "Saggle Tree",
+    "Tree Forte Tower",
+    "Crumpler Tree"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Mammott"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Name": "Epic Blabbit",
+  "Elements": [
+    "Eggs-Travaganza"
+  ],
+  "Islands": [
+    "water",
+    "colossingum",
+    "gold",
+    "seasonal",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Epic Blabbit",
+    "description": "For many years, the Epic Blabbit was nothing more than a tall tale whispered conspiratorially between young Monsters. Many claimed to have spotted the blurry silhouette of this horned creature as it dashed across their path, or heard the faraway clip-clop of its hooves while it hopped down its trail. Tired of the gossip and unflattering photography, Epic Blabbit has finally come out of hiding to prove its existence once and for all!"
+  },
+  "Costs": {
+    "name": "Epic Blabbit",
+    "water_diamond_cost": "1000",
+    "seasonal_diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 1m 30s",
+    "Enhanced_Skin": "16h 29m 18s",
+    "Standard": "1d 1h 22m",
+    "Standard_Skin": "22h 49m 48s"
+  },
+  "Likes": [
+    "Rotten Egg",
+    "Floofy Basket",
+    "Multiversal Phabberjay",
+    "Ginormous Carrot"
+  ],
+  "Combinations to Breed": [
+    "Punkleton + Yool",
+    "Shellbeat + Oaktopus"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "Name": "Epic Boskus",
+  "Elements": [
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "oasis",
+    "light",
+    "faerie",
+    "amber",
+    "mirror light",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Epic Boskus",
+    "description": "There's a price to be paid for having one of the most notable schnozzes in the Monster World - everyone expects you to have the finest olfaction! The truth, of course, is that the Boskus is not well-suited to smelling; so one particular group of the Fire Monsters long ago decided to take matters into their own hands… that is, if they had hands. Over time, they deliberately atrophied their nasal digits through non-use, so others would stop mistaking them for noses. As luck would have it, an unforeseen side-effect was the development of a pungent odor that emanated from their fur that only other Monsters could smell. Now, the altered Epic Boskuses don prosthetic gas mask 'noses' to warn others of their stench… and of course, so that they can continue to perform their famous lip-flubbering!"
+  },
+  "Costs": {
+    "name": "Epic Boskus",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "14h 15m",
+    "Enhanced_Skin": "12h 21m",
+    "Standard": "19h",
+    "Standard_Skin": "17h 6m"
+  },
+  "Likes": [
+    "Phangler",
+    "Spytrap",
+    "Floot Fly",
+    "Barrb",
+    "PongPing",
+    "Rootitoot",
+    "Bisonorus",
+    "PU System",
+    "Eerie Remains",
+    "Innertuba"
+  ],
+  "Combinations to Breed": [
+    "Woolabee + Maw",
+    "TooToo + Bulbo",
+    "Cantorell + Wimmzies"
+  ]
+}

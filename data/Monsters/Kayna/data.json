@@ -1,0 +1,48 @@
+{
+  "Name": "Kayna",
+  "Elements": [
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "oasis",
+    "light",
+    "psychic",
+    "faerie",
+    "bone",
+    "amber",
+    "tribal",
+    "mirror light",
+    "mirror psychic",
+    "mirror faerie",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Kayna",
+    "description": "The ancient Kayna was long thought lost to an enigmatic event in Monster antiquity. A solitary specimen encased in amber was rescued on Tribal Island. It's true, but only recently did a new generation of these beings begin to appear, beckoned by the mysterious call of Relics resonating deep within the world's volcanic core. Now this feisty Fire Elemental is ready to play its part in restoring the glory of its powerful Element in the Monster World."
+  },
+  "Costs": {
+    "name": "Kayna",
+    "relic_cost": "10",
+    "amber_relic_cost": "5"
+  },
+  "Breeding Times": {
+    "Enhanced": "5h 15m",
+    "Enhanced_Skin": "4h 33m",
+    "Standard": "7h",
+    "Standard_Skin": "6h 18m"
+  },
+  "Likes": [
+    "Oaktopus",
+    "Floogull",
+    "Woolabee",
+    "TooToo",
+    "Pladdie",
+    "Peckidna",
+    "Flum Ox",
+    "Edamimi",
+    "Directions to Nowhere",
+    "Dragoon Statue",
+    "Floofy Nest"
+  ]
+}

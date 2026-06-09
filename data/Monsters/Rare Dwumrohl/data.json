@@ -1,0 +1,47 @@
+{
+  "Name": "Rare Dwumrohl",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Dwumrohl",
+    "description": "Expanding their tastes beyond music, Rare Dwumrohls are avid practitioners of the visual arts as well. With so many digits at their disposal, it's unsurprising to learn that their favorite medium is finger-painting! Adorning their drum sets with luminescent paint, they've even swapped out drumsticks for special tensible paintbrushes!"
+  },
+  "Costs": {
+    "name": "Dwumrohl",
+    "cost": "5000"
+  },
+  "Likes": [
+    "Rare Zuuker"
+  ],
+  "Wublin Inventory": {
+    "Cost": "14",
+    "Inventory": {
+      "Rare Bowgart": 2,
+      "Rare Congle": 2,
+      "Rare Deedge": 1,
+      "Rare Entbrat": 1,
+      "Rare Mammott": 3,
+      "Rare Noggin": 3,
+      "Rare PomPom": 2,
+      "Rare Potbelly": 2,
+      "Rare Pummel": 2,
+      "Rare Quarrister": 1,
+      "Rare Reedling": 2,
+      "Rare Riff": 1,
+      "Rare Scups": 1,
+      "Rare Shellbeat": 1,
+      "Rare Thumpies": 1,
+      "Rare Toe Jammer": 3,
+      "Rare Tweedle": 2
+    },
+    "Time Limit": "None",
+    "Total Eggs": "30"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

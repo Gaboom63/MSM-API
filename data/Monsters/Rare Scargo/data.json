@@ -1,0 +1,33 @@
+{
+  "Name": "Rare Scargo",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Scargo",
+    "description": "Around the gift-giving time of year, the Rare Scargo really comes into its own, and piles its creativity into fashioning imaginative toys and trinkets for its fellow Wublins. Its crowning achievements is the great big electro-Mon-cardio-snooks, an elaborate musical contraption that can be operated by several Monsters at once; but even at full strength, it can't compete with the decibel levels attainable by the Rare Scargo alone… oh, the noise, noise, noise, noise!"
+  },
+  "Costs": {
+    "name": "Scargo",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "3",
+    "Inventory": {
+      "Rare Clamble": 1,
+      "Rare Dandidoo": 1,
+      "Rare Pummel": 1,
+      "Rare Shellbeat": 1,
+      "Rare Shrubb": 1,
+      "Rare Spunge": 1
+    },
+    "Time Limit": "None",
+    "Total Eggs": "6"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

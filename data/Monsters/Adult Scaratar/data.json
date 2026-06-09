@@ -1,0 +1,48 @@
+{
+  "Name": "Adult Scaratar",
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Adult Scaratar",
+    "description": "No longer forced to lay its trademark instrument on the ground, the Scaratar fastidiously infuses wood with special toxins that transform it into a more ornate version. At this age, the Celestial of Poison is perhaps a little too preoccupied with superficially being an indicator of quality, and will often fixate on polishing its instrument rather than practicing its arpeggios."
+  },
+  "Costs": {
+    "name": "Adult Scaratar",
+    "key_cost": "10"
+  },
+  "Celestial Inventory": {
+    "Cost": "10 Keys",
+    "Inventory": {
+      "Boo'qwurm": 1,
+      "Bridg-it": 2,
+      "Cantorell": 2,
+      "Clamble": 2,
+      "Clavi Gnat": 2,
+      "Cybop": 3,
+      "Dandidoo": 3,
+      "Drumpler": 3,
+      "Flex": 3,
+      "Floot Fly": 5,
+      "Furcorn": 3,
+      "HippityHop": 3,
+      "Pango": 3,
+      "Pladdie": 1,
+      "PomPom": 2,
+      "Quarrister": 1,
+      "Reedling": 2,
+      "Shrubb": 3,
+      "Squot": 3,
+      "Thumpies": 2,
+      "Wimmzies": 3
+    },
+    "Time Limit": "31 days (August 1st 3:00pm UTC to September 1st 3:00pm UTC)",
+    "Total Eggs": "52"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ],
+  "Elements": [
+    "Celestial"
+  ]
+}

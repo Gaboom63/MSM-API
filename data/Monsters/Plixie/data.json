@@ -1,0 +1,43 @@
+{
+  "Name": "Plixie",
+  "Elements": [
+    "Celestial"
+  ],
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Plixie",
+    "description": "Like the Plasma Element it represents, the pudgy Plixie's cranium contains a viscous ooze that floats and sways hypnotically within its container. While the joy of revival has made this buzzy Celestial a bit of a party Monster, its head's passing resemblance to a lava lamp should be disregarded. But please - if its Plixie Glass cap falls off while headbopping to its favorite tune, help scoop the goop!"
+  },
+  "Costs": {
+    "name": "Plixie",
+    "key_cost": "13",
+    "diamond_cost": "110"
+  },
+  "Celestial Inventory": {
+    "Cost": "13 Keys",
+    "Inventory": {
+      "Bowgart": 3,
+      "Clamble": 2,
+      "Drumpler": 12,
+      "Entbrat": 5,
+      "Furcorn": 7,
+      "Fwog": 20,
+      "Mammott": 25,
+      "Maw": 35,
+      "Noggin": 70,
+      "Oaktopus": 15,
+      "Potbelly": 16,
+      "Pummel": 2,
+      "Shrubb": 8,
+      "T-Rox": 4,
+      "Toe Jammer": 25
+    },
+    "Time Limit": "13 days",
+    "Total Eggs": "249"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ]
+}

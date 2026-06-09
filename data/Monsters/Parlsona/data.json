@@ -1,0 +1,36 @@
+{
+  "Name": "Parlsona",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "plant",
+    "air",
+    "water",
+    "mirror plant",
+    "mirror air",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Parlsona",
+    "description": "Music is the language of all Monsters, with most expressing themselves instrumentally or through indecipherable - at least to us - vocal sound effects. The Parlsona, however, has been further gifted with the ability to sing in actual words, making it the de facto voice of the Monster World. The Parlsona loves keeping its multicolored talons well filed and it goes through lip balm like no one's business."
+  },
+  "Costs": {
+    "name": "Parlsona",
+    "relic_cost": "100"
+  },
+  "Breeding Times": {
+    "Enhanced": "6h",
+    "Enhanced_Skin": "5h 12m",
+    "Standard": "8h",
+    "Standard_Skin": "7h 12m"
+  },
+  "Likes": [
+    "Tawkerr",
+    "Stoowarb",
+    "Maggpi",
+    "Floofy Nest",
+    "Zuffle Tree",
+    "Bass String Bridge"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "Name": "Bowgart",
+  "Elements": [
+    "Plant",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "colossingum",
+    "gold",
+    "tribal",
+    "composer",
+    "mirror plant",
+    "mirror cold"
+  ],
+  "Description": {
+    "name": "Bowgart",
+    "description": "The Bowgart loves to stand in puddles. It sucks a muddy mixture of Earth and Water through its feet to feed rapid horn growth. When shed, a horn will be strung and tuned, then replace the Bowgart's old instrument."
+  },
+  "Costs": {
+    "name": "Bowgart",
+    "diamond_cost": "50",
+    "colossingum_diamond_cost": "60",
+    "composer_coin_cost": "8000"
+  },
+  "Breeding Times": {
+    "Enhanced": "9h",
+    "Enhanced_Skin": "7h 48m",
+    "Standard": "12h",
+    "Standard_Skin": "10h 48m"
+  },
+  "Likes": [
+    "Tweedle",
+    "Shrubb",
+    "Travelers' Sign",
+    "Toob",
+    "Eerie Remains"
+  ],
+  "Combinations to Breed": [
+    "Potbelly + Maw",
+    "Toe Jammer + Furcorn",
+    "Mammott + Oaktopus"
+  ]
+}

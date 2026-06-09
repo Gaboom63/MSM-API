@@ -1,0 +1,40 @@
+{
+  "Name": "Rare Edamimi",
+  "Elements": [
+    "Plant",
+    "Earth",
+    "Water",
+    "Fire"
+  ],
+  "Islands": [
+    "psychic",
+    "amber",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Rare Edamimi",
+    "description": "Rare Edamimis represent such a radical departure in terms of both appearance and disposition from their Common relatives that Monsters more often refer to them as 'Gloomy Blooms.' A verdurous veneer? Replaced by atramentous armature. A bright, sunny attitude? Replaced by snide cynicism. Like other Rares in the Plant family, these Fire Monsters process the darkness through umbrasynthesis... and it appears that the side-effects are more than skin-deep. They're stupendous dancers though - even if they're full of woe."
+  },
+  "Costs": {
+    "name": "Rare Edamimi",
+    "starpower_cost": "10000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 22m 30s",
+    "Enhanced_Skin": "1d 10h 7m 30s",
+    "Standard": "2d 4h 30m",
+    "Standard_Skin": "1d 23h 15m"
+  },
+  "Likes": [
+    "Edamimi",
+    "Flowah",
+    "Woolabee",
+    "Candelavra",
+    "Boss Monument",
+    "Innertuba",
+    "Striking Bulbs"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "Name": "Boodoo",
+  "Elements": [
+    "Shadow",
+    "Crystal"
+  ],
+  "Islands": [
+    "ethereal",
+    "colossingum"
+  ],
+  "Description": {
+    "name": "Boodoo",
+    "description": "Offspring of Shadow and Crystal, Boodoos are contradictory creatures. Its uncanny appearance belies a gentle soul who enjoys home-cooking, collecting vintage dolls and artisanal craft-making. A Boodoo's shakers and ornamental headdress represent only a small portion of its creative pursuits; Monsters far and wide will travel to witness the unveiling of a Boodoo original."
+  },
+  "Costs": {
+    "name": "Boodoo",
+    "ethereal_diamond_cost": "1250",
+    "colossingum_diamond_cost": "1350",
+    "shadow_diamond_cost": "2000",
+    "dish-harmonizer_shard_cost": "4000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 7h 30m",
+    "Enhanced_Skin": "1d 3h 18m",
+    "Standard": "1d 18h",
+    "Standard_Skin": "1d 13h 48m"
+  },
+  "Likes": [
+    "Jeeode",
+    "Meebkin",
+    "Blarret",
+    "X'rt",
+    "Pentumbra",
+    "Stritch Skin",
+    "Fossil-osaurus",
+    "Castanevine",
+    "Kazilleon"
+  ],
+  "Combinations to Breed": [
+    "Grumpyre + Jeeode"
+  ]
+}

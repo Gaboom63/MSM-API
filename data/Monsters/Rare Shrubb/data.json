@@ -1,0 +1,41 @@
+{
+  "Name": "Rare Shrubb",
+  "Elements": [
+    "Plant",
+    "Earth"
+  ],
+  "Islands": [
+    "plant",
+    "water",
+    "earth",
+    "gold",
+    "haven",
+    "mirror plant",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Rare Shrubb",
+    "description": "The blue back-turf of this creature is specially-adapted to absorb energy in both sunny and low-light environments. Rare Shrubbs devote their bountiful stamina not only to their ceaseless saliva-spraying, but also to the growth of gnarly vine-dreads that drape over their faces and head."
+  },
+  "Costs": {
+    "name": "Rare Shrubb",
+    "diamond_cost": "40",
+    "starpower_cost": "1500"
+  },
+  "Breeding Times": {
+    "Enhanced": "7h 52m 30s",
+    "Enhanced_Skin": "6h 49m 30s",
+    "Standard": "10h 30m",
+    "Standard_Skin": "9h 27m"
+  },
+  "Likes": [
+    "Shrubb",
+    "Fuzzle Tree",
+    "Puffle Tree",
+    "Leafy Sea Dragon"
+  ],
+  "Combinations to Breed": [
+    "Potbelly + Noggin"
+  ]
+}

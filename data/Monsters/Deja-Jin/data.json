@@ -1,0 +1,30 @@
+{
+  "Name": "Deja-Jin",
+  "Elements": [
+    "Psychic",
+    "Faerie"
+  ],
+  "Costs": {
+    "name": "Deja-Jin",
+    "diamond_cost": "200"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h",
+    "Enhanced_Skin": "13h",
+    "Standard": "20h",
+    "Standard_Skin": "18h"
+  },
+  "Likes": [
+    "Larvaluss",
+    "Reflecting Pool",
+    "Mountain Morsel",
+    "Bottomless Pit"
+  ],
+  "Islands": [
+    "Magical Sanctum"
+  ],
+  "Description": {
+    "name": "Deja-Jin",
+    "description": "Documentation pending."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Name": "Hornacle",
+  "Elements": [
+    "Celestial"
+  ],
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Hornacle",
+    "description": "The reborn Hornacle boasts two barnacle-encrusted legs, unlike its conspicuously peg-legged form of yore. Water Elementals revel in exchanging tales at sea of how the Celestial lost its leg. A tangle with an aquatic beast? An unbreakable curse? Only the deep-sea dweller itself knows the truth; not that it will ever share its story, of course. It's much too embarrassing."
+  },
+  "Costs": {
+    "name": "Hornacle",
+    "key_cost": "12",
+    "diamond_cost": "120"
+  },
+  "Likes": [
+    "Furnoss"
+  ],
+  "Celestial Inventory": {
+    "Cost": "12 Keys",
+    "Inventory": {
+      "Bowgart": 4,
+      "Congle": 3,
+      "Fwog": 15,
+      "Maw": 9,
+      "Oaktopus": 12,
+      "Pummel": 5,
+      "Quibble": 8,
+      "Scups": 4,
+      "Shellbeat": 3,
+      "Spunge": 3,
+      "T-Rox": 2,
+      "Toe Jammer": 50
+    },
+    "Time Limit": "12 days",
+    "Total Eggs": "118"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "Name": "Adult Plixie",
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Adult Plixie",
+    "description": "For a Monster whose brain is so prominently on display, the adult Plixie sure is fixated on physical gains. During this period, it focuses almost exclusively on bulking up its arms, and drawing further attention to them by decorating them with temporary tattoos. The arms get so swole that they weigh down the Plixie, making flight nearly impossible - all while conspicuously skipping leg day."
+  },
+  "Costs": {
+    "name": "Adult Plixie",
+    "key_cost": "10"
+  },
+  "Celestial Inventory": {
+    "Cost": "10 Keys",
+    "Inventory": {
+      "Bonkers": 3,
+      "Bowgart": 2,
+      "Clamble": 2,
+      "Drumpler": 3,
+      "Entbrat": 1,
+      "Flex": 3,
+      "Furcorn": 3,
+      "Fwog": 3,
+      "Gloptic": 1,
+      "Gobbleygourd": 1,
+      "Maw": 3,
+      "Oaktopus": 3,
+      "Periscorp": 2,
+      "Poppette": 3,
+      "Pummel": 2,
+      "Rooba": 2,
+      "Shrubb": 3,
+      "T-Rox": 2,
+      "Tapricorn": 2,
+      "Theremind": 5,
+      "Yuggler": 3
+    },
+    "Time Limit": "30 days (November 1st 3:00pm UTC to December 1st 3:00pm UTC)",
+    "Total Eggs": "52"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ],
+  "Elements": [
+    "Celestial"
+  ]
+}

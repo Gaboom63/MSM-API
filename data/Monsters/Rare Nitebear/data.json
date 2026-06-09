@@ -1,0 +1,39 @@
+{
+  "Name": "Rare Nitebear",
+  "Elements": [
+    "Shadow",
+    "Mech",
+    "Crystal"
+  ],
+  "Islands": [
+    "workshop",
+    "mech"
+  ],
+  "Description": {
+    "name": "Rare Nitebear",
+    "description": "Hello, hello? Hello! Behind the laughter and mirth of the majority of the Workshop's inhabitants lurks the Nitebear. A mishmash of multiple ideas, the leading theory is that it's secretly powered by quirky animatronics (hence the cables sticking out of its head). To avoid going purple in the face (and so that its servos don't lock up), the Monster must routinely express itself via a string of groans and moans. It's important for the Nitebear to socialize, even though its melancholic disposition often dampens the party atmosphere. The Ethereal asserts that it's going to stop killing the mood with the others and isolate itself... but it always comes back."
+  },
+  "Costs": {
+    "name": "Rare Nitebear",
+    "ethereal_diamond_cost": "3600",
+    "shadow_diamond_cost": "3500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "Nitebear",
+    "Rare Arackulele",
+    "Rare Reebro",
+    "Rare Bellowfish",
+    "Englobulated F.U.M.",
+    "Eerie Remains",
+    "Bloofi Tree"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

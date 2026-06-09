@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Flowah",
+  "Elements": [
+    "Plant",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "light",
+    "psychic",
+    "amber",
+    "mirror light",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Rare Flowah",
+    "description": "Tougher than a tree trunk and sturdier than a stump, Rare Flowah can take a trimming! But don't let its scratches and scrapes fool you, this botanical bruiser isn't getting in any fights. Instead, the klutzy Monster is bumping into walls! Hopefully its new top-knot will put an end to its flouncy petals obstructing its line of sight."
+  },
+  "Costs": {
+    "name": "Rare Flowah",
+    "diamond_cost": "250",
+    "starpower_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "10h 7m 30s",
+    "Enhanced_Skin": "8h 46m 30s",
+    "Standard": "13h 30m",
+    "Standard_Skin": "12h 9m"
+  },
+  "Likes": [
+    "Flowah",
+    "Flum Ox",
+    "Incisaur",
+    "Tuskski",
+    "Beeyoot Tree",
+    "Meldablend",
+    "Squeed Statue"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Potbelly"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "Name": "Tring",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "amber"
+  ],
+  "Description": {
+    "name": "Tring",
+    "description": "A Tring's nose ring is its most prized possession. Each Tring crafts its own ring using foraged metals, shaping it with their impressive strength until the ring produces the gentle chime for which Trings are best known."
+  },
+  "Costs": {
+    "name": "Tring",
+    "fire_relic_cost": "200",
+    "amber_relic_cost": "30"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 6h",
+    "Enhanced_Skin": "1d 2h",
+    "Standard": "1d 16h",
+    "Standard_Skin": "1d 12h"
+  },
+  "Likes": [
+    "Stogg",
+    "Sneyser",
+    "Incisaur",
+    "Drummidary",
+    "Flappy Flag",
+    "Babayag Tower",
+    "Ambered Thing",
+    "Bisonorus"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

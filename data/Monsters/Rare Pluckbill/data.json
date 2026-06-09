@@ -1,0 +1,35 @@
+{
+  "Name": "Rare Pluckbill",
+  "Elements": [
+    "Fire",
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Rare Pluckbill",
+    "description": "At one point in time, a Pluckbill sighting was quite rare, and this was especially true of the Rare Pluckbill. The migrations of the Phosphora Titan were more aimless back then, and less directed by the Aurora Monstralis, the stardust of which Pluckbills need to craft their strings. Rare Pluckbills have an additional adaptation: to give their strings a saffron color, they must mix a special residue from the Titan's nodules that is only harvestable with long-term exposure to the Aurora's ultraviolet rays. After becoming aware of this vulnerability to environmental change, Phosphora disciplined itself to follow the Aurora closely, and focused on the conservation of Light Island's native species."
+  },
+  "Costs": {
+    "name": "Rare Pluckbill",
+    "diamond_cost": "250"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Pluckbill",
+    "Englobulated F.U.M.",
+    "Elmenco Stump",
+    "Orb of Aklino"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Fluoress"
+  ]
+}

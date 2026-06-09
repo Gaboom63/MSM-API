@@ -1,0 +1,40 @@
+{
+  "Name": "Glaishur",
+  "Elements": [
+    "Celestial"
+  ],
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Glaishur",
+    "description": "Glaishur's rebirth has given it a perspective on life that is as new and bright as freshly fallen snow. The cheerfully chill Celestial is embracing its newfound joie de vivre by taking up a creative hobby: snow sculpture! Many of this frosty giant's oeuvres are meticulously sculpted in the image of the Cold Elementals who revere it, but these Monsterpieces do not last long. Once a sculpture is complete, it is then toppled and molded anew, representing an eternal circle of life."
+  },
+  "Costs": {
+    "name": "Glaishur",
+    "key_cost": "10",
+    "diamond_cost": "95"
+  },
+  "Celestial Inventory": {
+    "Cost": "10 Keys",
+    "Inventory": {
+      "Bowgart": 3,
+      "Clamble": 1,
+      "Congle": 2,
+      "Deedge": 4,
+      "Drumpler": 7,
+      "Furcorn": 10,
+      "Mammott": 40,
+      "Maw": 5,
+      "Pango": 8,
+      "PomPom": 3,
+      "T-Rox": 2,
+      "Thumpies": 2
+    },
+    "Time Limit": "10 days",
+    "Total Eggs": "87"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ]
+}

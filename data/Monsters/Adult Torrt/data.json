@@ -1,0 +1,43 @@
+{
+  "Name": "Adult Torrt",
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Adult Torrt",
+    "description": "Everything is sunshine and good vibes for the adult Torrt - it bleaches its hair to achieve a constant state of beach readiness - but is it all just a veneer masking self-doubt and feelings of unworthiness? Nah, this Celestial's got the right Attitorrt."
+  },
+  "Costs": {
+    "name": "Adult Torrt",
+    "key_cost": "10"
+  },
+  "Celestial Inventory": {
+    "Cost": "10 Keys",
+    "Inventory": {
+      "Clamble": 2,
+      "Cybop": 3,
+      "Drumpler": 3,
+      "Entbrat": 2,
+      "Flex": 4,
+      "Fwog": 3,
+      "PomPom": 2,
+      "Pummel": 2,
+      "Punkleton": 1,
+      "Quarrister": 2,
+      "Reedling": 2,
+      "Riff": 2,
+      "Scups": 2,
+      "Shellbeat": 2,
+      "Shrubb": 3,
+      "T-Rox": 2
+    },
+    "Time Limit": "31 days (October 1st 3:00pm UTC to November 1st 3:00pm UTC)",
+    "Total Eggs": "37"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ],
+  "Elements": [
+    "Celestial"
+  ]
+}

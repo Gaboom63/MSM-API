@@ -1,0 +1,33 @@
+{
+  "Name": "Rare Knucklehead",
+  "Elements": [
+    "Light",
+    "Faerie"
+  ],
+  "Islands": [
+    "sanctum"
+  ],
+  "Description": {
+    "name": "Rare Knucklehead",
+    "description": "While its trademark fists remain unchanged, the Rare Knucklehead's exposed tissue sheds some light on the true nature of this pure Magical's morphology. What has the semblance of a wooden mask is actually the Monster's outer skeleton, or cuticle, and behind it lies its true soft-bodied appearance, antennae… and a surprising third eye, capable of limited divination. Wait a minute - this Light-Faerie hybrid has a Bony exterior and Psychic ability? Roll a perception check to try and figure out what's going on."
+  },
+  "Costs": {
+    "name": "Rare Knucklehead",
+    "diamond_cost": "300"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 52m 30s",
+    "Enhanced_Skin": "17h 13m 30s",
+    "Standard": "1d 2h 30m",
+    "Standard_Skin": "23h 51m"
+  },
+  "Likes": [
+    "Knucklehead",
+    "Star Rocks",
+    "Directions to Nowhere",
+    "Macho Monument"
+  ],
+  "Combinations to Breed": [
+    "Fluoress + Floot Fly"
+  ]
+}

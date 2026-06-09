@@ -1,0 +1,37 @@
+{
+  "Name": "Rare Whiz-bang",
+  "Elements": [
+    "SkyPainting"
+  ],
+  "Islands": [
+    "light",
+    "seasonal",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Rare Whiz-bang",
+    "description": "When are you gonna come down? When are you going to land? Such are the questions asked of the Rare Whiz-bang, whose aeronautical ambitions stretch higher and further than the Common Glowbe-turned-Seasonal. It combines all of the various bands of the spectrum into one, but mystifyingly, its outward appearance contradicts the laws of color theory. Typically, you'd expect all colors of light to combine into white, but the Rare Whiz-bang glows instead with an emphatic golden yellow. This phenomenon is still being researched, but in the mean time, it makes for a stunning chromatic display near the year's end, augmented by the multicolored streamers, goggles and cape the Rare Seasonal dons for the occasion.!"
+  },
+  "Costs": {
+    "name": "Rare Whiz-bang",
+    "light_diamond_cost": "500",
+    "seasonal_diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 48m 45s",
+    "Enhanced_Skin": "20h 38m 15s",
+    "Standard": "1d 7h 45m",
+    "Standard_Skin": "1d 4h 34m 30s"
+  },
+  "Likes": [
+    "Whiz-bang",
+    "Beeyoot Tree",
+    "Ambered Thing",
+    "Toob",
+    "Rare Monculus"
+  ],
+  "Combinations to Breed": [
+    "Blow't + Spytrap",
+    "Yool + Blabbit"
+  ]
+}

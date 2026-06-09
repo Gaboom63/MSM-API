@@ -1,0 +1,40 @@
+{
+  "Name": "Rare Tiawa",
+  "Elements": [
+    "Earth",
+    "Water",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "light",
+    "amber",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Rare Tiawa",
+    "description": "In a world where Tiawa might be hailed as a queen, the preciously precocious Rare Tiawa subspecies is most certainly the princess. It is spoiled (but endearingly so), opting out of the optic optimization that typically comes with the species' maturation from Monsterling to Monster and only keeping the one eye. Naturally, this Fire Rare still nurtures the development of its trademark second heart, the alternating beats providing an important education in playing syncopated rhythms. And for serving up oodles of affection, of course."
+  },
+  "Costs": {
+    "name": "Rare Tiawa",
+    "starpower_cost": "10000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 22m 30s",
+    "Enhanced_Skin": "1d 10h 7m 30s",
+    "Standard": "2d 4h 30m",
+    "Standard_Skin": "1d 23h 15m"
+  },
+  "Likes": [
+    "Tiawa",
+    "Thrumble",
+    "Repatillo",
+    "Candelavra",
+    "Hammock",
+    "Striking Bulbs",
+    "Boss Monument"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

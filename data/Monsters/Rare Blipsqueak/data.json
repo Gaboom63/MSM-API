@@ -1,0 +1,32 @@
+{
+  "Name": "Rare Blipsqueak",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Blipsqueak",
+    "description": "While the Common Blipsqueak presents a balanced offering of organic eyes and toes, and robotic ears and nose, its gold-plated Rare variant leans completely into the world of mechanical automata. While those eyes may look biological, they are in fact fully synthetic, complementing its suite of retrofuturistic body parts from the kingdom of Mait-Land's illustrious history."
+  },
+  "Costs": {
+    "name": "Blipsqueak",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "5",
+    "Inventory": {
+      "Rare Cybop": 3,
+      "Rare Deedge": 2,
+      "Rare PomPom": 2,
+      "Rare T-Rox": 3,
+      "Rare Toe Jammer": 2
+    },
+    "Time Limit": "None",
+    "Total Eggs": "12"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

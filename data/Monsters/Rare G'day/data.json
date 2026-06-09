@@ -1,0 +1,37 @@
+{
+  "Name": "Rare G'day",
+  "Elements": [
+    "Psychic",
+    "Bone",
+    "Light"
+  ],
+  "Islands": [
+    "sanctum"
+  ],
+  "Description": {
+    "name": "Rare G'day",
+    "description": "With the discovery of Rare G'day, a long-standing debate regarding the Monster's origins and relationship to G'joob has been reignited... yet the Rare Magical's physical characteristics offer evidence that may change this debate forever! Thorough examination and modern Bubblerite dating techniques have revealed that the wood-like shells encasing Rare G'days are traced with intricate carvings harkening back to the very first days of Monster antiquity. The significance of these findings has shaken the scientific community to the core and could have a major impact on our current understanding of not only Monster World history, but also the confounding question of which of the G'brood came first: Mythical or Magical?"
+  },
+  "Costs": {
+    "name": "Rare G'day",
+    "diamond_cost": "600"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 4h 7m 30s",
+    "Enhanced_Skin": "1d 22m 30s",
+    "Standard": "1d 13h 30m",
+    "Standard_Skin": "1d 9h 45m"
+  },
+  "Likes": [
+    "G'day",
+    "Shrini",
+    "Pipes of Cicado",
+    "Bingo Bango Bongos",
+    "Rare Larvaluss"
+  ],
+  "Combinations to Breed": [
+    "Xyster + Fluoress",
+    "Roarick + Theremind",
+    "Cahoot + Clackula"
+  ]
+}

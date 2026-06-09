@@ -1,0 +1,33 @@
+{
+  "Name": "Bbli$zard",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "cold",
+    "mirror cold"
+  ],
+  "Description": {
+    "name": "Bbli$zard",
+    "description": "Why settle for being a sophisticated, musical champion in one universe when you can make moves to conquer another? That's exactly the kind of thinking that yielded bbli$zard, a debonair and unapologetically kooky creature whose flow is unstoppable and whose moves are as sweet as a bag of honey Dijon chips. Even though this Legendary Monster is famous for spitting straight fire, it can usually be found chilling in colder environments, like the Monster World's own Cold Island. Just as a member of the Armor-Clade sheds its skin, the bbli$zard is always reinventing itself and searching for a new look. Its love of collaborating with other Monsters and going on side quests has given it a 'Rap'-utation of being a one-of-a-kind word-weaver throughout the human and Monster Worlds alike. Whether it's singing a simple 'Lalala' (or 'Dadada,' as the case may be), or devising unexpected, earwormy rhymes, you can always expect an out-of-control melody to leave you feeling good!"
+  },
+  "Costs": {
+    "name": "bbli$zard",
+    "cold_diamond_cost": "200"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "La",
+    "Macho Monument",
+    "Flappy Flag",
+    "Odd-o-Mobile"
+  ],
+  "Combinations to Breed": [
+    "Thumpies + Congle"
+  ]
+}

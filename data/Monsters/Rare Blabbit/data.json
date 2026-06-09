@@ -1,0 +1,37 @@
+{
+  "Name": "Rare Blabbit",
+  "Elements": [
+    "Eggs-Travaganza"
+  ],
+  "Islands": [
+    "water",
+    "colossingum",
+    "gold",
+    "seasonal",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Rare Blabbit",
+    "description": "What do you do when you have the urge to steal - ahem, borrow - Monster eggs and paint them, but your fellow Monsters are wise to your hijinks? Do as the Rare Blabbit does: get organized. It's not unusual for this mustard-colored creature to be the mastermind behind fearless and inventive egg raids. It's also an expert at covering its tracks; its serpentine form leaves none to speak of! The Rare Blabbit's antics take some getting used to, but it assures us we'll soon learn to appreciate it."
+  },
+  "Costs": {
+    "name": "Rare Blabbit",
+    "water_diamond_cost": "500",
+    "seasonal_diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 48m 45s",
+    "Enhanced_Skin": "20h 38m 15s",
+    "Standard": "1d 7h 45m",
+    "Standard_Skin": "1d 4h 34m 30s"
+  },
+  "Likes": [
+    "Blabbit",
+    "Guitree",
+    "Directions to Nowhere",
+    "Babayag Tower"
+  ],
+  "Combinations to Breed": [
+    "Spunge + Scups"
+  ]
+}

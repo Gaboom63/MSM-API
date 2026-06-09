@@ -1,0 +1,34 @@
+{
+  "Name": "Clackula",
+  "Elements": [
+    "Bone"
+  ],
+  "Islands": [
+    "bone",
+    "sanctum",
+    "nexus",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Clackula",
+    "description": "Dapper Clackula doesn't have a mouth of its own with which to chitter-chatter about its many cultured interests, so the Bone Elemental leaves all the yammering to its loquacious little hands. If only they'd behave! When the lanky gentle-Mon's appendages get too snippy with dinner guests, it delivers the quickest of pin-point pinches to each chatterbox with its dainty fangs. While not enough to cause any pain, it's certainly enough to send a message: keep it classy!"
+  },
+  "Costs": {
+    "name": "Clackula",
+    "bone_coin_cost": "25000",
+    "magical_diamond_cost": "325"
+  },
+  "Breeding Times": {
+    "Enhanced": "17h 15m",
+    "Enhanced_Skin": "14h 57m",
+    "Standard": "23h",
+    "Standard_Skin": "20h 42m"
+  },
+  "Likes": [
+    "Denchuhs",
+    "Xyster",
+    "Castanevine",
+    "Cozee Cabin",
+    "Wubbox Stockpile"
+  ]
+}

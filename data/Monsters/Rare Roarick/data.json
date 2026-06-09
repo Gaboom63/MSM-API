@@ -1,0 +1,33 @@
+{
+  "Name": "Rare Roarick",
+  "Elements": [
+    "Bone",
+    "Light"
+  ],
+  "Islands": [
+    "sanctum"
+  ],
+  "Description": {
+    "name": "Rare Roarick",
+    "description": "When shall these Elements meet again? With Bone and Light, or in vain? When the Sanctum song is done, when the music's power has won. That will be ere the time for fun! Where the place? Within the Pocket. Safe within its silent socket. I come, Grayskullkin. Sporadic calls. A yawn. Rare is foul, and foul is Rare; check out this weird sister's hair!"
+  },
+  "Costs": {
+    "name": "Rare Roarick",
+    "diamond_cost": "300"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 52m 30s",
+    "Enhanced_Skin": "17h 13m 30s",
+    "Standard": "1d 2h 30m",
+    "Standard_Skin": "23h 51m"
+  },
+  "Likes": [
+    "Roarick",
+    "Squeed Statue",
+    "Smunkit",
+    "Harmonorb Holder"
+  ],
+  "Combinations to Breed": [
+    "Clackula + Fluoress"
+  ]
+}

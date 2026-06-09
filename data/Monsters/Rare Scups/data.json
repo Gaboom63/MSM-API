@@ -1,0 +1,41 @@
+{
+  "Name": "Rare Scups",
+  "Elements": [
+    "Air",
+    "Earth",
+    "Water"
+  ],
+  "Islands": [
+    "air",
+    "water",
+    "gold",
+    "mirror air",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Rare Scups",
+    "description": "The Rare Scups' bioluminescent spurs are perfectly suited to its predominantly noctural [sic] lifestyle. Sure, it performs along nonchalantly during the day, but it's total mystery what it does after the sun sets. Every once in a while, a company of ambitious Monsters will resolve to stay up long enough to witness a Rare Scups in nighttime action, but the siren song of the Castle's beds always proves too much to resist."
+  },
+  "Costs": {
+    "name": "Rare Scups",
+    "diamond_cost": "65",
+    "starpower_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "11h 37m 30s",
+    "Enhanced_Skin": "10h 4m 30s",
+    "Standard": "15h 30m",
+    "Standard_Skin": "13h 57m"
+  },
+  "Likes": [
+    "Scups",
+    "Eerie Remains",
+    "Tree Hut",
+    "Bass String Bridge"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Fwog",
+    "Noggin + Quibble",
+    "Toe Jammer + Cybop"
+  ]
+}

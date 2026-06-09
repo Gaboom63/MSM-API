@@ -1,0 +1,41 @@
+{
+  "Name": "Whaddle",
+  "Elements": [
+    "Air",
+    "Water",
+    "Fire"
+  ],
+  "Islands": [
+    "oasis",
+    "amber"
+  ],
+  "Description": {
+    "name": "Whaddle",
+    "description": "It is scientifically impossible to become vexed with the sweet-natured Whaddle. Not that this demure little Monster would ever do something vexing! One flutter of its fluffy lashes or gentle giggle is all that's needed to soothe the spirit of a troubled Monster."
+  },
+  "Costs": {
+    "name": "Whaddle",
+    "fire_relic_cost": "100",
+    "amber_relic_cost": "20"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h",
+    "Enhanced_Skin": "13h",
+    "Standard": "20h",
+    "Standard_Skin": "18h"
+  },
+  "Likes": [
+    "Kayna",
+    "Barrb",
+    "Sooza",
+    "Bowhead",
+    "Beeyoot Tree",
+    "Yum Yum Tree",
+    "Cozee Cabin"
+  ],
+  "Combinations to Breed": [
+    "Quibble + Kayna",
+    "Phangler + Tweedle",
+    "Glowl + Toe Jammer"
+  ]
+}

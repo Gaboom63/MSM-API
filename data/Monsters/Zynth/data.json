@@ -1,0 +1,33 @@
+{
+  "Name": "Zynth",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Zynth",
+    "description": "The Zynth thrives on the natural electricity emitted by Wublin Island. This Monster stores the excess energy to power its glowing abdomen and produce a wonderful harmonic buzzing sound. A word of caution - don't stand too close to the Zynth, unless you want to reek of the orange fizz and ozone smell that accompanies it wherever it goes."
+  },
+  "Costs": {
+    "name": "Zynth",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "3,000",
+    "Inventory": {
+      "Congle": 1,
+      "Drumpler": 1,
+      "Maw": 1,
+      "Oaktopus": 1,
+      "Pango": 1,
+      "T-Rox": 1
+    },
+    "Time Limit": "None",
+    "Total Eggs": "6"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

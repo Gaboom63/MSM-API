@@ -1,0 +1,51 @@
+{
+  "Name": "Toe Jammer",
+  "Elements": [
+    "Water"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "air",
+    "water",
+    "colossingum",
+    "gold",
+    "oasis",
+    "psychic",
+    "bone",
+    "tribal",
+    "composer",
+    "mirror plant",
+    "mirror cold",
+    "mirror water",
+    "mirror psychic",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Toe Jammer",
+    "description": "While Toe Jammers may appear fragile, these rubbery Water elementals are very tough. Toe Jammers sing of liquid wonders: deep sea leviathans, crashing surf, flooded basements, and bubble tea!"
+  },
+  "Costs": {
+    "name": "Toe Jammer",
+    "coin_cost": "250",
+    "colossingum_diamond_cost": "25",
+    "composer_coin_cost": "2000"
+  },
+  "Breeding Times": {
+    "Enhanced": "45s",
+    "Enhanced_Skin": "39s",
+    "Standard": "1m",
+    "Standard_Skin": "54s"
+  },
+  "Likes": [
+    "Riff",
+    "Furcorn",
+    "Pummel",
+    "Flowah",
+    "Whaddle",
+    "Uuduk",
+    "Wild Bagpipe",
+    "Directions to Nowhere",
+    "Hollow Log"
+  ]
+}

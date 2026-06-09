@@ -1,0 +1,36 @@
+{
+  "Name": "Rare Bona-Petite",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Bona-Petite",
+    "description": "'Family' can be a little overwhelming at the best of times, but the duo of Bona and Petite never even get a chance at personal space! The same is true of their fluorescently colored Rare counterparts, who appear gaunt and underfed even after gorging themselves and haranguing each other at every harvest banquet... but they're wise enough never to take each other for granted, and to settle their snits promptly."
+  },
+  "Costs": {
+    "name": "Bona-Petite",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "10",
+    "Inventory": {
+      "Rare Bowgart": 3,
+      "Rare Drumpler": 4,
+      "Rare Entbrat": 2,
+      "Rare Fwog": 4,
+      "Rare Mammott": 4,
+      "Rare Maw": 4,
+      "Rare PomPom": 3,
+      "Rare Riff": 2,
+      "Rare T-Rox": 3
+    },
+    "Time Limit": "None",
+    "Total Eggs": "29"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

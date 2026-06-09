@@ -1,0 +1,32 @@
+{
+  "Name": "Rare Whajje",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Whajje",
+    "description": "Inspired by frequent contact with a certain bubble-blowing Seasonal, the Rare one of this Wublin has been reimagined in that Monster's partial likeness. Lagomorph ears and a white and purple striped torso evoke the pre-eminent detective who was instrumental in revealing Electricity's landmark island in the first place - Whajje think about that?"
+  },
+  "Costs": {
+    "name": "Whajje",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "10",
+    "Inventory": {
+      "Rare Cybop": 4,
+      "Rare Dandidoo": 4,
+      "Rare Deedge": 3,
+      "Rare Reedling": 4,
+      "Rare Tweedle": 3
+    },
+    "Time Limit": "None",
+    "Total Eggs": "18"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

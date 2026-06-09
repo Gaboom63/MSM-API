@@ -1,0 +1,30 @@
+{
+  "Name": "Rare Deja-Jin",
+  "Elements": [
+    "Psychic",
+    "Faerie"
+  ],
+  "Costs": {
+    "name": "Rare Deja-Jin",
+    "diamond_cost": "300"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 52m 30s",
+    "Enhanced_Skin": "17h 13m 30s",
+    "Standard": "1d 2h 30m",
+    "Standard_Skin": "23h 51m"
+  },
+  "Likes": [
+    "Deja-Jin",
+    "Ambered Thing",
+    "Innertuba",
+    "Optiglowbe"
+  ],
+  "Islands": [
+    "Magical Sanctum"
+  ],
+  "Description": {
+    "name": "Rare Deja-Jin",
+    "description": "Documentation pending."
+  }
+}

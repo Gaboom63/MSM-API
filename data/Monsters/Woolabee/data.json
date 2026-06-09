@@ -1,0 +1,42 @@
+{
+  "Name": "Woolabee",
+  "Elements": [
+    "Air",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "oasis",
+    "amber"
+  ],
+  "Description": {
+    "name": "Woolabee",
+    "description": "Woolabees are never alone - and that's just how they like it! This pile of fluff forms a close-knit posse with its plumed pals from its early days as a lambkin. Though they provide constant companionship, these tropical birds are also prone to leaving birdseed in the woolen tufts of their unsuspecting host."
+  },
+  "Costs": {
+    "name": "Woolabee",
+    "fire_relic_cost": "100",
+    "amber_relic_cost": "20"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h",
+    "Enhanced_Skin": "13h",
+    "Standard": "20h",
+    "Standard_Skin": "18h"
+  },
+  "Likes": [
+    "Toe Jammer",
+    "Stogg",
+    "Rootitoot",
+    "Bisonorus",
+    "Gnarls",
+    "Fuzzle Tree",
+    "Eerie Remains",
+    "Spurrit Statue"
+  ],
+  "Combinations to Breed": [
+    "Pango + Kayna",
+    "Boskus + Tweedle",
+    "Glowl + Mammott"
+  ]
+}

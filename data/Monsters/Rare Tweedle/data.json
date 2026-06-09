@@ -1,0 +1,49 @@
+{
+  "Name": "Rare Tweedle",
+  "Elements": [
+    "Air"
+  ],
+  "Islands": [
+    "cold",
+    "air",
+    "water",
+    "earth",
+    "colossingum",
+    "gold",
+    "haven",
+    "oasis",
+    "tribal",
+    "composer",
+    "mirror cold",
+    "mirror air",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Rare Tweedle",
+    "description": "Like their Common cousins, Rare Tweedles circulate gossip and rumors with much gusto. As they flit from tree to tree, sap, leaves and other debris become wound around their antlers and coalesce. Never ones to miss an opportunity, they then harvest the malleable material and use it for craft-making (macrame is a popular medium). It's still up in the Air whether these artworks actually carry secret messages that only a fellow Rare Tweedle can understand."
+  },
+  "Costs": {
+    "name": "Rare Tweedle",
+    "diamond_cost": "75",
+    "starpower_cost": "1000"
+  },
+  "Breeding Times": {
+    "Enhanced": "4h 30m",
+    "Enhanced_Skin": "3h 54m",
+    "Standard": "6h",
+    "Standard_Skin": "5h 24m"
+  },
+  "Likes": [
+    "Noggin",
+    "Mammott",
+    "Toe Jammer",
+    "Tweedle",
+    "Potbelly",
+    "Kayna",
+    "Rare Potbelly"
+  ],
+  "Combinations to Breed": [
+    "Any Two Triples"
+  ]
+}

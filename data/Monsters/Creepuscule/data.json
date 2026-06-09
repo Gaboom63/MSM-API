@@ -1,0 +1,34 @@
+{
+  "Name": "Creepuscule",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Creepuscule",
+    "description": "In the gloomy twilight of Wublin Island, the eerie gleam of the Creepuscule's plate can make it even harder to tell what time of day it is. This Monster takes full advantage of its unique physiology to showcase true percussive prowess. The nails that tip its long, finger-like limbs are actually tightly packed strands that are more like stiff hairs. The 'hair' on its head is probably a wig, but hey, right on - whatever makes a Creepuscule feel good, right?"
+  },
+  "Costs": {
+    "name": "Creepuscule",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "17,000",
+    "Inventory": {
+      "Congle": 8,
+      "Deedge": 5,
+      "Noggin": 12,
+      "Pummel": 6,
+      "Quibble": 10,
+      "Shellbeat": 5,
+      "T-Rox": 6
+    },
+    "Time Limit": "None",
+    "Total Eggs": "52"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

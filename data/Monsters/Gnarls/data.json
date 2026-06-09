@@ -1,0 +1,42 @@
+{
+  "Name": "Gnarls",
+  "Elements": [
+    "Plant",
+    "Earth",
+    "Water",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "bone",
+    "amber",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Gnarls",
+    "description": "Depending on how you look at it, Gnarls are both bigger and smaller than any of the other Quint-Element Monsters. Bigger in the sense that each 'being' is actually comprised of multiple organisms instead of just one; and smaller because the Gnarls themselves are actually quite minuscule! Some might say they are little more than parasitic vines that attach themselves to a tree and coordinate to hijack the plant's latent motor functions. Then it's a simple matter of working together to 'animate' the tree's trunk and branches to give it a full range of motion. Each Gnarl operates the opposite side of the tree, and synchronously conjoin their tendrils to form a 'mouth' through which wind can blow to produce sound. Mercifully, the tree doesn't perceive this transformation as troublesome - instead, it delights in the opportunity to explore the Monster World and make music! Another mercy is that the Plant Top Boss's dual intelligences are satisfied to stick to one tree - no need to 'infect' anyone else."
+  },
+  "Costs": {
+    "name": "Gnarls",
+    "bone_relic_cost": "500",
+    "amber_relic_cost": "40"
+  },
+  "Breeding Times": {
+    "Enhanced": "2d 12h",
+    "Enhanced_Skin": "2d 4h",
+    "Standard": "3d 8h",
+    "Standard_Skin": "3d"
+  },
+  "Likes": [
+    "Kayna",
+    "Glowl",
+    "Tiawa",
+    "Tring",
+    "Ockulo Tree",
+    "Hammock",
+    "Striking Bulbs"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

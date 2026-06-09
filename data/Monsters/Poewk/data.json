@@ -1,0 +1,36 @@
+{
+  "Name": "Poewk",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Poewk",
+    "description": "Is that the Poewk's face, or is it a mask procured from parts unknown? If it is indeed a mask... Why? Is it bashful? Cold? Ghastly to behold? Or is this Wublin simply into cosplay? That would explain a lot. The Poewk's musical performance is a mesmerizing display of frantic grace and composed frenzy."
+  },
+  "Costs": {
+    "name": "Poewk",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "5,000",
+    "Inventory": {
+      "Clamble": 2,
+      "Dandidoo": 2,
+      "Oaktopus": 1,
+      "Pango": 1,
+      "Pompom": 1,
+      "Reedling": 1,
+      "Scups": 1,
+      "Shellbeat": 1,
+      "Shrubb": 1
+    },
+    "Time Limit": "None",
+    "Total Eggs": "11"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

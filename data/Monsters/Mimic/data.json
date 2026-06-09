@@ -1,0 +1,36 @@
+{
+  "Name": "Mimic",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "oasis"
+  ],
+  "Description": {
+    "name": "Mimic",
+    "description": "Mimic?! What are you doing here? We now have substantial evidence that the shapeshifting Air Top Boss has been laying low in the Monster World ever since the Dawn of Fire, masquerading as its fellow Monsters. Previously, these imitations have extended only to appearance and sound, but now it seems like the Mimic is upping the ante and trying to pass itself off as a Relic-seeking Fire Monster. Those in the know are wise to its chicanery, but the rabble has been successfully duped - the trick has something to do with the mysterious atmosphere the Mimic can generate around itself, and the way light bends around it. That voice, though… there’s no mistaking that voice."
+  },
+  "Costs": {
+    "name": "Mimic",
+    "relic_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "2d 12h",
+    "Enhanced_Skin": "2d 4h",
+    "Standard": "3d 8h",
+    "Standard_Skin": "3d"
+  },
+  "Likes": [
+    "Gobbleygourd",
+    "Smunkit",
+    "Spurrit Statue",
+    "Mountain Morsel"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Name": "Spytrap",
+  "Elements": [
+    "Plant",
+    "Cold",
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Spytrap",
+    "description": "Looks can be deceiving... and so can the Spytrap. This botanical beast grows in the dark and does its darndest to go completely unnoticed by the surrounding fauna. But once an unsuspecting creature scuttles too close, SNAP - It is suddenly ensnared! And what better to do when encased in the acoustic wonderland of a Spytrap yap than to bang out a banger? In exchange for its ward's kind company and musical talent, the host Monster happily supplies a steady drip of some of the sweetest sap ever sampled."
+  },
+  "Costs": {
+    "name": "Spytrap",
+    "diamond_cost": "300"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 1h 30m",
+    "Enhanced_Skin": "22h 6m",
+    "Standard": "1d 10h",
+    "Standard_Skin": "1d 6h 36m"
+  },
+  "Likes": [
+    "Potbelly",
+    "Squeed Statue",
+    "Castanevine",
+    "Inverdigus Fern"
+  ],
+  "Combinations to Breed": [
+    "Gob + Mammott",
+    "Furcorn + Fluoress",
+    "Bulbo + Potbelly"
+  ]
+}

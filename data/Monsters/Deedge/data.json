@@ -1,0 +1,46 @@
+{
+  "Name": "Deedge",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "cold",
+    "shugabush",
+    "colossingum",
+    "gold",
+    "tribal",
+    "composer",
+    "mirror cold"
+  ],
+  "Description": {
+    "name": "Deedge",
+    "description": "The Deedge, attuned to the beat of the Earth, pulls together multiple elements to produce a complex beat. A tireless, energetic performer, it keeps all the Monsters dancing."
+  },
+  "Costs": {
+    "name": "Deedge",
+    "diamond_cost": "150",
+    "shugabush_diamond_cost": "700",
+    "colossingum_diamond_cost": "165",
+    "composer_coin_cost": "16000"
+  },
+  "Breeding Times": {
+    "Enhanced": "18h",
+    "Enhanced_Skin": "15h 36m",
+    "Standard": "1d",
+    "Standard_Skin": "21h 36m"
+  },
+  "Likes": [
+    "Shugabuzz",
+    "Piney Tree",
+    "Squeed Statue",
+    "Leafy Sea Dragon",
+    "Zuffle Tree"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

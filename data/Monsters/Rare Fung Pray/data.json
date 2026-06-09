@@ -1,0 +1,34 @@
+{
+  "Name": "Rare Fung Pray",
+  "Elements": [
+    "Crystal",
+    "Poison"
+  ],
+  "Islands": [
+    "ethereal",
+    "colossingum"
+  ],
+  "Description": {
+    "name": "Rare Fung Pray",
+    "description": "Rares of this species have embraced balance so much so that their headcaps shrivel away to reveal plant-like growth climbing skyward. This growth eventually extends all over their bodies, even prompting extra stridulatory limbs to sprout! They believe this represents an unfettering of the imagination, and a powerful connection to the Natural world - even though they're Ethereal!"
+  },
+  "Costs": {
+    "name": "Rare Fung Pray",
+    "diamond_cost": "2000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 45m",
+    "Enhanced_Skin": "1d 10h 27m",
+    "Standard": "2d 5h",
+    "Standard_Skin": "1d 23h 42m"
+  },
+  "Likes": [
+    "Fung Pray",
+    "Pipes of Cicado",
+    "Smunkin Patch",
+    "Hollow Log"
+  ],
+  "Combinations to Breed": [
+    "Reebro + Humbug"
+  ]
+}

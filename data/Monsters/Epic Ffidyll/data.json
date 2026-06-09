@@ -1,0 +1,36 @@
+{
+  "Name": "Epic Ffidyll",
+  "Elements": [
+    "Cloverspell"
+  ],
+  "Islands": [
+    "faerie",
+    "seasonal",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Epic Ffidyll",
+    "description": "If ever there was any doubt that Ffidyll belonged on Faerie Island, one needn't look any further than the form its Epic takes when it manifests on that Magical Island. Between those gossamer wings, miraculous white locks and fiddlehead antennae, it has all the markings of a true Fae: the Tou'a-day of local legend! The fable recounts that the Titan Faesodd once dwelled among crystal clear skies, but this all changed with the arrival of dark clouds and heavy mist. These clouds blotted out the sun and it was during this time of uncertainity that the Tou'a-day first manifested. The debate of whether or not this storied figure and Epic Ffidyll are one and the same continues to this day."
+  },
+  "Costs": {
+    "name": "Epic Ffidyll",
+    "faerie_diamond_cost": "1000",
+    "seasonal_diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 42m 45s",
+    "Enhanced_Skin": "19h 41m 3s",
+    "Standard": "1d 6h 17m",
+    "Standard_Skin": "1d 3h 15m 18s"
+  },
+  "Likes": [
+    "Clover Contraption",
+    "Pot of Enchanted Coins",
+    "Gigantic Metal Shoe",
+    "Green Cupcakes"
+  ],
+  "Combinations to Breed": [
+    "Pladdie + HippityHop",
+    "Viveine + Spurrit"
+  ]
+}

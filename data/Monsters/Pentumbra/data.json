@@ -1,0 +1,41 @@
+{
+  "Name": "Pentumbra",
+  "Elements": [
+    "Plasma",
+    "Shadow",
+    "Crystal",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop"
+  ],
+  "Description": {
+    "name": "Pentumbra",
+    "description": "Even though its official species name is recognized to be 'Pentumbra' (because of its five limbs and the shadow it casts), everyone just wants to call this Monster a 'Shady Long-Legs'. The Ethereal Quad's affinity for the Shadow Element causes an unusual sticky pink residue to form on its legs - something to do with the fact that they're so often bathed in darkness. Apparently this phenomenon has been known to happen at large scale, when the dark matter of the Rift between dimensions seeps out from interdimensional fractures. It could be a trick of light, but the gloom that dwells beneath a Pentumbra almost seems to take a life of its own... but because it's nothing more than a shadow of a shade, it tends to imitate other beings' sounds rather than create its own."
+  },
+  "Costs": {
+    "name": "Pentumbra",
+    "ethereal_diamond_cost": "3200",
+    "shadow_diamond_cost": "4000",
+    "shard_cost": "5000",
+    "dish-harmonizer_shard_cost": "8000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 7h 30m",
+    "Enhanced_Skin": "1d 3h 18m",
+    "Standard": "1d 18h",
+    "Standard_Skin": "1d 13h 48m"
+  },
+  "Likes": [
+    "X'rt",
+    "Grumpyre",
+    "Boodoo",
+    "Fandhul",
+    "Cave Crystal Teleporter",
+    "Eerie Remains",
+    "Harmonorb Holder"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Name": "Epic Gobbleygourd",
+  "Elements": [
+    "Feast-Ember"
+  ],
+  "Islands": [
+    "haven",
+    "oasis",
+    "seasonal"
+  ],
+  "Description": {
+    "name": "Epic Gobbleygourd",
+    "description": "For as long as anyone can remember, the prideful Epic Gobbleygourd has been complaining about special 'passengers' that ride around in the gourd shaped like a miniature carriage on its back. Are they wayward Crumplings? A product of the Epic Seasonal's overactive imagination? No one's totally sure. The Epic Gobbleygourd insists that the passengers are traveling to a fancy shindig, and that they refer to their host as the 'fairy Gobbmonster' tasked with protecting them from the outside world. Don't ever let it know, but some contend that the Monster secretly cares for the tiny creatures - even sprouting eyes on its tail to keep a watch on their well-being."
+  },
+  "Costs": {
+    "name": "Epic Gobbleygourd",
+    "fire_diamond_cost": "1000",
+    "seasonal_diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 23m 15s",
+    "Enhanced_Skin": "17h 40m 9s",
+    "Standard": "1d 3h 11m",
+    "Standard_Skin": "1d 27m 54s"
+  },
+  "Likes": [
+    "Gobbley Inflatable",
+    "Monster Scareglowls",
+    "Carnivorous Cornucopia",
+    "Oversized Pies",
+    "Epic Clavavera"
+  ],
+  "Combinations to Breed": [
+    "Tring + Flowah",
+    "Sneyser + Boskus",
+    "Jam Boree + Clavavera"
+  ]
+}

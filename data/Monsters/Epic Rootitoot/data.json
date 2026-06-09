@@ -1,0 +1,41 @@
+{
+  "Name": "Epic Rootitoot",
+  "Elements": [
+    "Plant",
+    "Water",
+    "Fire"
+  ],
+  "Islands": [
+    "psychic",
+    "amber",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Epic Rootitoot",
+    "description": "After learning that certain starchy tubers could electrochemically power a light bulb, the knowledge 'galvanized' a sharp-toothed and sprout-footed variety of Rootitoot into coming up with a way to utilize all the extra energy within. After the Fire Monster balanced all the positives and negatives, it constructed some bionic appendages worthy of the Epic designation. Now it can better serve all the other Monsters at its next soirée; let them eat Cake, as they say… Come again? You want another Big Salad or two?! Well, at least the Monster has the arm room now."
+  },
+  "Costs": {
+    "name": "Epic Rootitoot",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "Bonkers",
+    "Floogull",
+    "Flowah",
+    "Candelavra",
+    "Tring",
+    "Spatial Sapling",
+    "Saggle Tree",
+    "Smunkit",
+    "Epic Sooza"
+  ],
+  "Combinations to Breed": [
+    "Rooba + Oaktopus"
+  ]
+}

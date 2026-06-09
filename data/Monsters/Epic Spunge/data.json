@@ -1,0 +1,35 @@
+{
+  "Name": "Epic Spunge",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Water"
+  ],
+  "Islands": [
+    "cold",
+    "water",
+    "gold",
+    "mirror cold",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Epic Spunge",
+    "description": "Sweeter (and more stylish) than your run-of-the-mill sea cucumber is the sea spineapple, an aquatic plant emulated by the Epic Spunge. This clever Monster's camouflage extends beyond its dual spineapple stems to its gelatinous body itself, which can morph into a translucent state. The effectiveness of the survival tactic is debatable at best, as Epic Spunge's stout skeleton remains visible within."
+  },
+  "Costs": {
+    "name": "Epic Spunge",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "18h 45m",
+    "Enhanced_Skin": "16h 15m",
+    "Standard": "1d 1h",
+    "Standard_Skin": "22h 30m"
+  },
+  "Likes": [
+    "Sol",
+    "PU System",
+    "Dragoon Statue",
+    "Cold Globe"
+  ]
+}

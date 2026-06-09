@@ -1,0 +1,40 @@
+{
+  "Name": "Rare Shellbeat",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Water"
+  ],
+  "Islands": [
+    "water",
+    "gold",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Rare Shellbeat",
+    "description": "Finally - the Rare Shellbeat has been revealed! This especially bashful being only emerges once in a blue moon, so great care must be taken to make sure it feels welcome among its fellow Monsters. Once it's settled in a jam session, the Rare Shellbeat has been known to produce pearls of exceptional quality from its unique shell, which it gives away as presents! This curious Quad-Element often contemplates the nature of the Monster World, and the possibility of alternate universes. If it's learned anything, it has so far decided to keep the secrets to itself."
+  },
+  "Costs": {
+    "name": "Rare Shellbeat",
+    "diamond_cost": "200",
+    "starpower_cost": "5000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Shellbeat",
+    "Stritch Skin",
+    "Crumpler Tree",
+    "Leafy Sea Dragon",
+    "Rare Quarrister"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

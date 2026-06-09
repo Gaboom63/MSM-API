@@ -1,0 +1,34 @@
+{
+  "Name": "Rare Zuuker",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Zuuker",
+    "description": "Reinventing the wheel (or the Wublin, in this case) can be a source of fatigue for the Wubbox when designing Rares. Sometimes, it's nice to take a break and admire the scenery of the Monster World; one such sight to behold is the luster of the sunset as seen from Fire Oasis. Golden tones blending into the blues and purples of oncoming night were so inspiring that they ended up being the color palette for the Rare Zuuker, combined with some of the timber of Wublin Island."
+  },
+  "Costs": {
+    "name": "Zuuker",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "10",
+    "Inventory": {
+      "Rare Bowgart": 2,
+      "Rare Deedge": 1,
+      "Rare Entbrat": 1,
+      "Rare Furcorn": 3,
+      "Rare Fwog": 2,
+      "Rare Oaktopus": 3,
+      "Rare T-Rox": 3
+    },
+    "Time Limit": "None",
+    "Total Eggs": "15"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

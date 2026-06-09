@@ -1,0 +1,41 @@
+{
+  "Name": "Rare Thumpies",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Cold"
+  ],
+  "Islands": [
+    "cold",
+    "earth",
+    "gold",
+    "mirror cold",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Rare Thumpies",
+    "description": "While these varieties of Thumpies can be found in some abundance in their home dimension, they very rarely cross over into the Monster World. The more familiar FurFacE and NoObiE subspecies are instead replaced by RawT and ReeCEsS, but all share a love for music and mischief!"
+  },
+  "Costs": {
+    "name": "Rare Thumpies",
+    "diamond_cost": "65",
+    "starpower_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "11h 37m 30s",
+    "Enhanced_Skin": "10h 4m 30s",
+    "Standard": "15h 30m",
+    "Standard_Skin": "13h 57m"
+  },
+  "Likes": [
+    "Thumpies",
+    "Directions to Nowhere",
+    "Puffle Tree",
+    "Bass String Bridge"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Furcorn",
+    "Potbelly + Pango",
+    "Mammott + Dandidoo"
+  ]
+}

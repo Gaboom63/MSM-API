@@ -1,0 +1,35 @@
+{
+  "Name": "Epic Tympa",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Epic Tympa",
+    "description": "The concept of a 'mind palace' is familiar to those in need of a mnemonic device for recalling specific information. For better or worse, the Epic Tympa takes the expression literally and was designed to construct an actual physical palace. Unclear if this helps with memory recall in any substantial way, but the Epic Wublin continues to rat-tat-tap away, nevertheless."
+  },
+  "Costs": {
+    "name": "Tympa",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "14",
+    "Inventory": {
+      "Epic Clamble": 2,
+      "Epic Drumpler": 4,
+      "Epic PongPing": 1,
+      "Epic Pummel": 2,
+      "Epic Repatillo": 1,
+      "Epic Shellbeat": 1,
+      "Epic T-Rox": 2,
+      "Epic Ziggurab": 1
+    },
+    "Time Limit": "None",
+    "Total Eggs": "14"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

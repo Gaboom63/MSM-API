@@ -1,0 +1,35 @@
+{
+  "Name": "Rare Poppette",
+  "Elements": [
+    "Water",
+    "Psychic"
+  ],
+  "Islands": [
+    "psychic",
+    "nexus",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Rare Poppette",
+    "description": "Popp-ular...you're gonna be popp-ular! In Poppette society, the more bubbles you have, the greater social standing. Some Poppettes long so deeply for popp-ularity, they turn to desperate measures: self-experimentation! After much splicing, swabbing and sampling, Rare Poppettes have discovered a method to artificially stimulate accelerated bubble growth. This unsightly practice is generally frowned upon, particularly in the world of Competitive Bubble-Bopping, but it does not stop Rare Poppettes from being welcomed into the coveted social circles they have eyed for so long."
+  },
+  "Costs": {
+    "name": "Rare Poppette",
+    "diamond_cost": "250"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Poppette",
+    "Jarhead",
+    "Orb of Aklino",
+    "Optiglowbe"
+  ],
+  "Combinations to Breed": [
+    "Toe Jammer + Theremind"
+  ]
+}

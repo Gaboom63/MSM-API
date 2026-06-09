@@ -1,0 +1,33 @@
+{
+  "Name": "Rare Jam Boree",
+  "Elements": [
+    "Anniversary Month"
+  ],
+  "Islands": [
+    "gold",
+    "seasonal"
+  ],
+  "Description": {
+    "name": "Rare Jam Boree",
+    "description": "A decade has passed, full of musical craze; We've all grown together through this Monstrous phase.  Upon the Shanty, Seasonals all sing carefree... But still were surprised to meet Rare Jam Boree!  With a Roamin' candle placed on its Chokkolitty top, Everyone knows that the music won't stop.  Sparklers for cheer, and candles burning bright, For all Singing Monsters, there's no end in sight!"
+  },
+  "Costs": {
+    "name": "Rare Jam Boree",
+    "diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 13h 30m",
+    "Enhanced_Skin": "1d 8h 30m",
+    "Standard": "2d 2h",
+    "Standard_Skin": "1d 21h"
+  },
+  "Likes": [
+    "Jam Boree",
+    "Bass String Bridge",
+    "Saggle Tree",
+    "Eerie Remains"
+  ],
+  "Combinations to Breed": [
+    "Punkleton + Hoola"
+  ]
+}

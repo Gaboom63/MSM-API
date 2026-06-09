@@ -1,0 +1,41 @@
+{
+  "Name": "Floogull",
+  "Elements": [
+    "Air",
+    "Earth",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "amber"
+  ],
+  "Description": {
+    "name": "Floogull",
+    "description": "Floogull is the paragon of nosiness. This curious critter's protracted proboscis may excel at sniffing out lost items, but it also tends to find its way into other Monsters' private affairs. Remembering not to meddle is a tough lesson every Floogull learns the hard way."
+  },
+  "Costs": {
+    "name": "Floogull",
+    "fire_relic_cost": "100",
+    "amber_relic_cost": "20"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h",
+    "Enhanced_Skin": "13h",
+    "Standard": "20h",
+    "Standard_Skin": "18h"
+  },
+  "Likes": [
+    "Repatillo",
+    "Thrumble",
+    "Yelmut",
+    "Incisaur",
+    "Bloofi Tree",
+    "Tree Forte Tower",
+    "Fossil-osaurus"
+  ],
+  "Combinations to Breed": [
+    "Cybop + Kayna",
+    "Stogg + Tweedle",
+    "Glowl + Noggin"
+  ]
+}

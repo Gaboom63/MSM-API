@@ -1,0 +1,45 @@
+{
+  "Name": "Whisp",
+  "Elements": [
+    "Plasma",
+    "Shadow"
+  ],
+  "Islands": [
+    "ethereal",
+    "colossingum",
+    "plasma"
+  ],
+  "Description": {
+    "name": "Whisp",
+    "description": "Even though it may look like the Whisp doesn't get out too often, nothing could be further from the truth. It loves to swoop, glide and careen through the phantasmagorical terrain of Ethereal Island, entertaining other Monsters with its mellifluous voice and charming conversational skills. Whisps don't cast reflections in mirrors, which makes it difficult to preen their stylish hairdos."
+  },
+  "Costs": {
+    "name": "Whisp",
+    "ethereal_diamond_cost": "1250",
+    "colossingum_diamond_cost": "1350",
+    "shadow_diamond_cost": "2000",
+    "dish-harmonizer_shard_cost": "4000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 7h 30m",
+    "Enhanced_Skin": "1d 3h 18m",
+    "Standard": "1d 18h",
+    "Standard_Skin": "1d 13h 48m"
+  },
+  "Likes": [
+    "Reebro",
+    "Yooreek",
+    "Meebkin",
+    "Whaill",
+    "Pentumbra",
+    "Lowb",
+    "Fandhul",
+    "Beeyoot Tree",
+    "Puffle Tree",
+    "Ambered Thing",
+    "Nebulob"
+  ],
+  "Combinations to Breed": [
+    "Ghazt + Grumpyre"
+  ]
+}

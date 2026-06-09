@@ -1,0 +1,34 @@
+{
+  "Name": "Rare Kazilleon",
+  "Elements": [
+    "Shadow",
+    "Poison"
+  ],
+  "Islands": [
+    "ethereal"
+  ],
+  "Description": {
+    "name": "Rare Kazilleon",
+    "description": "The winged Rare Kazilleon differs from the Common variety in that the exhaust it emits is inoffensive, non-toxic, and smells rather like Moonjube Upside-Down Cake (with a dollop of Lillypilly Cream). These colorful fumes purportedly soothe fussy babies and can curl a fellow monster's fur or tentacles into luxurious spirals within seconds of exposure. Up for anything, this intrepid Rarethereal has seen and done everything there is to see and 'doo-wop!."
+  },
+  "Costs": {
+    "name": "Rare Kazilleon",
+    "ethereal_diamond_cost": "2000",
+    "shadow_diamond_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 22m 30s",
+    "Enhanced_Skin": "1d 10h 7m 30s",
+    "Standard": "2d 4h 30m",
+    "Standard_Skin": "1d 23h 15m"
+  },
+  "Likes": [
+    "Kazilleon",
+    "Squeed Statue",
+    "Fossil-osaurus",
+    "Zuffle Tree"
+  ],
+  "Combinations to Breed": [
+    "Grumpyre + Humbug"
+  ]
+}

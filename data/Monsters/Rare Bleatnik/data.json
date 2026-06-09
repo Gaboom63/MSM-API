@@ -1,0 +1,34 @@
+{
+  "Name": "Rare Bleatnik",
+  "Elements": [
+    "Dream",
+    "Mythical"
+  ],
+  "Islands": [
+    "mythical"
+  ],
+  "Description": {
+    "name": "Rare Bleatnik",
+    "description": "Don't you think you're better suited to Cold Island? This phrase has echoed in the eardrums of the Plant Mythical so often that the sentiment has even weaseled its way into its dreams, molding its Rare Dreamythical counterpart into a frostier, fluffier form. Rare Bleatnik's plush pelt is more befitting a blizzard than a stroll through the Halleberry fields, and beware its icy beak - touching it will fill you with a bone-chilling shiver colder than the depths of the abyss. Torn between its true Elemental ancestry and the rumors that encircle it, Rare Bleatnik has chosen to rebel against the ties that bind. Now, it's a real nowhere Mon, sitting in its nowhere land, making all its nowhere plans for nobody."
+  },
+  "Costs": {
+    "name": "Rare Bleatnik",
+    "diamond_cost": "1100"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 1h 18m 45s",
+    "Enhanced_Skin": "21h 56m 15s",
+    "Standard": "1d 9h 45m",
+    "Standard_Skin": "1d 6h 22m 30s"
+  },
+  "Likes": [
+    "Bleatnik",
+    "The Thunker",
+    "Star Rocks",
+    "Swurlee Tree",
+    "Rare Cranchee"
+  ],
+  "Combinations to Breed": [
+    "Cataliszt + G'joob"
+  ]
+}

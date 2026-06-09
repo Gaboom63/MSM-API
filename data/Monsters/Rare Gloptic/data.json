@@ -1,0 +1,39 @@
+{
+  "Name": "Rare Gloptic",
+  "Elements": [
+    "Plant",
+    "Water",
+    "Fire",
+    "Psychic"
+  ],
+  "Islands": [
+    "psychic",
+    "nexus",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Rare Gloptic",
+    "description": "Gloptical Illoozions are so powerful, not even Gloptic itself can resist! When a covetous Common Gloptic gazes too long at its reflection in a glassy Relic, admiring both the amber's beauty and its own, it is susceptible to an unintentional instance of auto-hypnosis. This trance-like state is so strong, it can convince even the cleverest Gloptic that the Relic and itself are one and the same, willing its gloopy body to transform into oozing amber. Rare Gloptic's sticky, resinous limbs are prone to picking up all manner of detritus over the course of its lengthy lifespan."
+  },
+  "Costs": {
+    "name": "Rare Gloptic",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 21h 22m 30s",
+    "Enhanced_Skin": "1d 15h 19m 30s",
+    "Standard": "2d 12h 30m",
+    "Standard_Skin": "2d 6h 27m"
+  },
+  "Likes": [
+    "Gloptic",
+    "Ambered Thing",
+    "Eerie Remains",
+    "Englobulated F.U.M.",
+    "Rare Blow't"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

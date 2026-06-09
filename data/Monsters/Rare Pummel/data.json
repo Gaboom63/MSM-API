@@ -1,0 +1,41 @@
+{
+  "Name": "Rare Pummel",
+  "Elements": [
+    "Plant",
+    "Earth",
+    "Water"
+  ],
+  "Islands": [
+    "plant",
+    "water",
+    "gold",
+    "mirror plant",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Rare Pummel",
+    "description": "It's amazing what some extra appendages and fins can do! You wouldn't know it to look at it, but the Rare Pummel is exceptionally aerodynamic and uses its extra arms to perform spectacular acrobatic feats. In addition to its two dorsal fins, the tiny growths that cover its body are actually small 'drag-fins' that can open and close to help it maneuver while flipping and flopping about."
+  },
+  "Costs": {
+    "name": "Rare Pummel",
+    "diamond_cost": "65",
+    "starpower_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "11h 37m 30s",
+    "Enhanced_Skin": "10h 4m 30s",
+    "Standard": "15h 30m",
+    "Standard_Skin": "13h 57m"
+  },
+  "Likes": [
+    "Pummel",
+    "Pipes of Cicado",
+    "Barbloo Statue",
+    "Bass String Bridge"
+  ],
+  "Combinations to Breed": [
+    "Potbelly + Fwog",
+    "Noggin + Oaktopus",
+    "Toe Jammer + Shrubb"
+  ]
+}

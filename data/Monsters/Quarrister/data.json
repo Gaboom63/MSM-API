@@ -1,0 +1,43 @@
+{
+  "Name": "Quarrister",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Cold"
+  ],
+  "Islands": [
+    "earth",
+    "colossingum",
+    "gold",
+    "tribal",
+    "composer",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Quarrister",
+    "description": "The first stage of the Quarrister's life cycle begins deep underground. Each head is a separate creature, feeding on crystals and fending for themselves. Eventually, groups of heads band together and harmonize their efforts until they physically fuse together. Every once in a while, one of the Quarrister's voices will go for a solo, but that kind of behavior is usually seen as big-headed."
+  },
+  "Costs": {
+    "name": "Quarrister",
+    "diamond_cost": "150",
+    "colossingum_diamond_cost": "165",
+    "composer_coin_cost": "16000"
+  },
+  "Breeding Times": {
+    "Enhanced": "18h",
+    "Enhanced_Skin": "15h 36m",
+    "Standard": "1d",
+    "Standard_Skin": "21h 36m"
+  },
+  "Likes": [
+    "Mammott",
+    "Tree Hut",
+    "Bass String Bridge",
+    "Zuffle Tree"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

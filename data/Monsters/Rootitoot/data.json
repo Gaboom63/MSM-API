@@ -1,0 +1,43 @@
+{
+  "Name": "Rootitoot",
+  "Elements": [
+    "Plant",
+    "Water",
+    "Fire"
+  ],
+  "Islands": [
+    "psychic",
+    "amber",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Rootitoot",
+    "description": "Rootitoots are natural-born hosts, blessing many a soirée with a knack for storytelling, an enviable wit, and general zest for life. A Rootitoot's dinner party traditionally offers as many dishes as it can carry upon its tubular vents, doubled. But don't overburden this Monster... oh, great... you had to have the Biiiiig Salad!"
+  },
+  "Costs": {
+    "name": "Rootitoot",
+    "psychic_relic_cost": "100",
+    "amber_relic_cost": "20"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h",
+    "Enhanced_Skin": "13h",
+    "Standard": "20h",
+    "Standard_Skin": "18h"
+  },
+  "Likes": [
+    "Kayna",
+    "Floogull",
+    "Ziggurab",
+    "Krillby",
+    "Toob",
+    "Piney Tree",
+    "Babayag Tower",
+    "Sooza"
+  ],
+  "Combinations to Breed": [
+    "Oaktopus + Kayna",
+    "Flowah + Toe Jammer",
+    "Phangler + Potbelly"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "Name": "Withur",
+  "Elements": [
+    "Earth",
+    "Water",
+    "Bone"
+  ],
+  "Islands": [
+    "bone",
+    "nexus",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Withur",
+    "description": "Light as a feather and exquisitely empyreal, Withur shares a spiritual connection with a similarly ghostly Ethereal. But whereas its spectral 'sister' makes music with its mellifluous voice, Withur favors the haunting vibrations produced by plucking the fins of the Lyrodocus Rex. Much like the famed Fossil-osaurus, this skeletal creature is merely a fiberglass model from the days of yore - although it seems blissfully oblivious to this fact, tapping its tail along to the rhythm."
+  },
+  "Costs": {
+    "name": "Withur",
+    "diamond_cost": "300"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 1h 30m",
+    "Enhanced_Skin": "22h 6m",
+    "Standard": "1d 10h",
+    "Standard_Skin": "1d 6h 36m"
+  },
+  "Likes": [
+    "Stogg",
+    "Mountain Morsel",
+    "Eerie Remains",
+    "Fossil-osaurus",
+    "Cantorell"
+  ],
+  "Combinations to Breed": [
+    "Denchuhs + Noggin",
+    "Fwog + Clackula",
+    "Peckidna + Toe Jammer"
+  ]
+}

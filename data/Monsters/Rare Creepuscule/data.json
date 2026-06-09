@@ -1,0 +1,34 @@
+{
+  "Name": "Rare Creepuscule",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Creepuscule",
+    "description": "Rare Creepuscule ups the wig game of its Common counterpart, flaunting a red yarn hairpiece that complements its green scaly skin. From a distance, one might say that this Rare Wublin resembles a juicy tropical fruit - only upon closer examination do its rows of teeth and ossified drum negate the prior observation."
+  },
+  "Costs": {
+    "name": "Creepuscule",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "7",
+    "Inventory": {
+      "Rare Congle": 3,
+      "Rare Deedge": 2,
+      "Rare Noggin": 4,
+      "Rare Pummel": 3,
+      "Rare Quibble": 4,
+      "Rare Shellbeat": 2,
+      "Rare T-Rox": 3
+    },
+    "Time Limit": "None",
+    "Total Eggs": "21"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

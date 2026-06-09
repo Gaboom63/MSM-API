@@ -1,0 +1,32 @@
+{
+  "Name": "Tympa",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Tympa",
+    "description": "One might reasonably conclude that rat-tat-tapping upon its own eardrums all day would give the Tympa a headache. On the contrary, this Wublin delights in banging the drum - particularly for a good cause! While it doesn't have much in terms of material wealth, it selflessly devotes its time and energy to helping fellow Monsters however it can, making the Tympa a very good friend, indeed."
+  },
+  "Costs": {
+    "name": "Tympa",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "34,000",
+    "Inventory": {
+      "Clamble": 12,
+      "Drumpler": 24,
+      "Pummel": 12,
+      "Shellbeat": 8,
+      "T-Rox": 12
+    },
+    "Time Limit": "None",
+    "Total Eggs": "68"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

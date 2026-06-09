@@ -1,0 +1,42 @@
+{
+  "Name": "Viveine",
+  "Elements": [
+    "Echoes of Eco"
+  ],
+  "Islands": [
+    "shugabush",
+    "seasonal",
+    "amber"
+  ],
+  "Description": {
+    "name": "Viveine",
+    "description": "The Viveine is a warm and caring soul with the ability to commune with all creatures, big and small - but it's no secret that its favorites are the critters that populate the diverse ecosystems of the Monster World. This Seasonal Monster has a particular soft spot for Wingalings, the protomorphic Mon-drakes that make their homes among the copses of Green Trees. Despite its gentle disposition, it is fiercely protective of the natural world, and will go to great lengths to preserve it. The gentle, rhythmic rustling of its branches attracts all manner of critters to settle in and keep the Viveine company - although the constant movement has a tendency to kick up pollen and activate Seasonal allergies."
+  },
+  "Costs": {
+    "name": "Viveine",
+    "shugabush_diamond_cost": "225",
+    "seasonal_diamond_cost": "500",
+    "amber_relic_cost": "25"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 34m",
+    "Enhanced_Skin": "16h 57m 28s",
+    "Standard": "1d 2h 5m 20s",
+    "Standard_Skin": "23h 28m 48s"
+  },
+  "Likes": [
+    "Shugavox",
+    "Boo'qwurm",
+    "Flowah",
+    "Barrb",
+    "Edamimi",
+    "Gnarls",
+    "Zuffle Tree",
+    "Pipes of Cicado",
+    "Razzli Tree"
+  ],
+  "Combinations to Breed": [
+    "Shugabush + Oaktopus",
+    "Punkleton + Blabbit"
+  ]
+}

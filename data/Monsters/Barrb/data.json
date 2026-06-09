@@ -1,0 +1,42 @@
+{
+  "Name": "Barrb",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "amber"
+  ],
+  "Description": {
+    "name": "Barrb",
+    "description": "On a moonlit night when a Barrb has reached maturity, its elegant neck foliage, formerly chartreuse, blooms into a luscious collar in a fetching shade of magenta. This collar quickly becomes the Barrb's pride and joy, requiring frequent waterings and plenty of sunlight."
+  },
+  "Costs": {
+    "name": "Barrb",
+    "fire_relic_cost": "100",
+    "amber_relic_cost": "20"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h",
+    "Enhanced_Skin": "13h",
+    "Standard": "20h",
+    "Standard_Skin": "18h"
+  },
+  "Likes": [
+    "Flowah",
+    "Boskus",
+    "Sneyser",
+    "Gnarls",
+    "Barbloo Statue",
+    "Puffle Tree",
+    "Crumpler Tree",
+    "Floogull"
+  ],
+  "Combinations to Breed": [
+    "Dandidoo + Kayna",
+    "Flowah + Tweedle",
+    "Glowl + Potbelly"
+  ]
+}

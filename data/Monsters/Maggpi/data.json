@@ -1,0 +1,33 @@
+{
+  "Name": "Maggpi",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "cold",
+    "water",
+    "mirror cold",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Maggpi",
+    "description": "The Maggpi is nimble of both voice and of mind, with a vocal range spanning the most silvery of sopranos to the most full-bodied of contraltos - and a brain like a steel trap. Although fastidious and well-coiffed, the Maggpi's otherwise silky fur is often matted due to getting hugged so much: such is the burden of one so beloved. Its eyelashes are long and lush and create its own breeze when it blinks."
+  },
+  "Costs": {
+    "name": "Maggpi",
+    "relic_cost": "100"
+  },
+  "Breeding Times": {
+    "Enhanced": "6h",
+    "Enhanced_Skin": "5h 12m",
+    "Standard": "8h",
+    "Standard_Skin": "7h 12m"
+  },
+  "Likes": [
+    "Tawkerr",
+    "Parlsona",
+    "Floofy Nest",
+    "Tub Fountain",
+    "Cozee Cabin"
+  ]
+}

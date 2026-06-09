@@ -1,0 +1,35 @@
+{
+  "Name": "Rare Dragong",
+  "Elements": [
+    "Mech",
+    "Poison"
+  ],
+  "Islands": [
+    "ethereal",
+    "colossingum",
+    "mech"
+  ],
+  "Description": {
+    "name": "Rare Dragong",
+    "description": "Very few have actually witnessed it, but it's said that the Rare Dragong has limited flight capabilities! The coloration of its plates is actually owing to the fact that they are hot to the touch. Then, it simply heats the air below it, and surfs around on the updraft. Finally, the rest of its body maintains a frigid temperature to avoid overheating. The ingenuity of Rarethereals never ceases to amaze."
+  },
+  "Costs": {
+    "name": "Rare Dragong",
+    "ethereal_diamond_cost": "2000",
+    "mech_diamond_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 22m 30s",
+    "Enhanced_Skin": "1d 10h 7m 30s",
+    "Standard": "2d 4h 30m",
+    "Standard_Skin": "1d 23h 15m"
+  },
+  "Likes": [
+    "Dragong",
+    "Rare Auglur",
+    "Rare Yooreek",
+    "Fire Bush",
+    "Eerie Remains",
+    "Castanevine"
+  ]
+}

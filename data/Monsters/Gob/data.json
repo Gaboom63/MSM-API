@@ -1,0 +1,35 @@
+{
+  "Name": "Gob",
+  "Elements": [
+    "Plant",
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Gob",
+    "description": "Gob's gaping gabber leaves gandering groups gobsmacked. An unassuming figure at first blush, a withdrawn Gob might not even appear as a Monster to the untrained eye. But keener onlookers may note the subtle wiggle of its frill before suddenly, it happens: The Aperture Overture! Gob opens wide to release a moving melody that resonates from deep within its internal organs themselves... pipes, pedals, and all."
+  },
+  "Costs": {
+    "name": "Gob",
+    "diamond_cost": "150"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 15m",
+    "Enhanced_Skin": "17h 33m",
+    "Standard": "1d 3h",
+    "Standard_Skin": "1d 18m"
+  },
+  "Likes": [
+    "Blow't",
+    "Mountain Morsel",
+    "Fossil-osaurus",
+    "Ambered Thing"
+  ],
+  "Combinations to Breed": [
+    "Potbelly + Fluoress"
+  ]
+}

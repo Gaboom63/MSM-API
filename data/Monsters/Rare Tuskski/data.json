@@ -1,0 +1,41 @@
+{
+  "Name": "Rare Tuskski",
+  "Elements": [
+    "Air",
+    "Earth",
+    "Water",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "faerie",
+    "amber",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Rare Tuskski",
+    "description": "Back when the world was whole, a group of dauntless Tuskskis embarked on a voyage over the perilous mountains of the Cold Lands. They were seeking the optimal grove of conifers to engage in some ten-pine bowling, but ended up getting cut off from the rest of the Monster World for countless generations. Only recently in the contemporary era have they renewed contact, and it's obvious that the long-term exposure to the chilling cold of the mountains made these Cold Top Bosses even colder (if that's even possible). Now covered in a veritable forest of firs and their four ski-toenails replaced by two board-like plates, might they now more accurately be called Tusksnurfers? That'll take some getting used to."
+  },
+  "Costs": {
+    "name": "Rare Tuskski",
+    "starpower_cost": "15000"
+  },
+  "Breeding Times": {
+    "Enhanced": "2d 23h 37m 30s",
+    "Enhanced_Skin": "2d 14h 4m 30s",
+    "Standard": "3d 23h 30m",
+    "Standard_Skin": "3d 13h 57m"
+  },
+  "Likes": [
+    "Tuskski",
+    "Stogg",
+    "Yelmut",
+    "Wynq",
+    "Piney Tree",
+    "Mount Knottshurr",
+    "Thumpies Totem, Too"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "Name": "Piplash",
+  "Elements": [
+    "Shadow",
+    "Mech",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop",
+    "mech"
+  ],
+  "Description": {
+    "name": "Piplash",
+    "description": "Wow! This Triple-Element Ethereal is… not what we were expecting. In a class of Monsters that includes some of the more unsightly species, the Piplash exists in stark and striking contrast. It's so cute and endearing! Even its headbanging, stereotypically associated with hardcore genres, is absolutely delightful. What precisely is going on here?! Is the Piplash harboring some secret, putting up a front, concealing a side we can't see? Could the Monster possibly be as wholesome as it outwardly seems? This is driving us crazy!!!"
+  },
+  "Costs": {
+    "name": "Piplash",
+    "ethereal_diamond_cost": "2200",
+    "shadow_diamond_cost": "3000",
+    "shard_cost": "2500",
+    "dish-harmonizer_shard_cost": "6000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 30m",
+    "Enhanced_Skin": "19h 30m",
+    "Standard": "1d 6h",
+    "Standard_Skin": "1d 3h"
+  },
+  "Likes": [
+    "Vhenshun",
+    "Grumpyre",
+    "Reebro",
+    "Dragong",
+    "Arackulele",
+    "Kazilleon",
+    "Boodoo",
+    "Puffle Tree",
+    "Odd-o-Mobile",
+    "Fuzzle Tree"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

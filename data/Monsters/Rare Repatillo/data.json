@@ -1,0 +1,41 @@
+{
+  "Name": "Rare Repatillo",
+  "Elements": [
+    "Plant",
+    "Earth",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "amber"
+  ],
+  "Description": {
+    "name": "Rare Repatillo",
+    "description": "Rare Repatillo sports a notably spikier silhouette than its Common cousin, though the use of these peculiar protrusions may surprise you! Embodying the Elements of both Plant and Earth, this Fiery Rare rolls into a compact little ball and tumbles across farmlands far and wide, tilling soil and aerating earth as it goes. Rare Repatillo's efforts help prepare the ground for new seeds to be planted each harvest season, at the relatively small cost of a brief dizzy spell."
+  },
+  "Costs": {
+    "name": "Rare Repatillo",
+    "diamond_cost": "500",
+    "starpower_cost": "5000"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 52m 30s",
+    "Enhanced_Skin": "17h 13m 30s",
+    "Standard": "1d 2h 30m",
+    "Standard_Skin": "23h 51m"
+  },
+  "Likes": [
+    "Repatillo",
+    "Ziggurab",
+    "Bisonorus",
+    "Incisaur",
+    "Wild Bagpipe",
+    "Digger",
+    "Bass String Bridge"
+  ],
+  "Combinations to Breed": [
+    "Shrubb + Kayna",
+    "Stogg + Potbelly",
+    "Flowah + Noggin"
+  ]
+}

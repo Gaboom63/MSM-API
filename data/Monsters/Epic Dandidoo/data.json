@@ -1,0 +1,44 @@
+{
+  "Name": "Epic Dandidoo",
+  "Elements": [
+    "Air",
+    "Plant"
+  ],
+  "Islands": [
+    "cold",
+    "water",
+    "earth",
+    "gold",
+    "haven",
+    "mirror cold",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Epic Dandidoo",
+    "description": "Do you do your 'do like Dandidoo? Well, Epic Dandidoo would like to have a word with you! This spectacularly showy subspecies loves to be a little bit extra, teasing its famous puffs to nigh unimaginable heights - even for its Rare cousin! The result is a mane of truly Epic proportions, which the endlessly self-confident Monster is exceptionally proud of. Work it!"
+  },
+  "Costs": {
+    "name": "Epic Dandidoo",
+    "diamond_cost": "150"
+  },
+  "Breeding Times": {
+    "Enhanced": "21h 45m",
+    "Enhanced_Skin": "18h 51m",
+    "Standard": "1d 5h",
+    "Standard_Skin": "1d 2h 6m"
+  },
+  "Likes": [
+    "Mount Knottshurr",
+    "Fossil-osaurus",
+    "Sweetstreamz Tree",
+    "Squeed Statue",
+    "Epic Cybop"
+  ],
+  "Combinations to Breed": [
+    "Bowgart + Quibble",
+    "Pummel + Cybop",
+    "Clamble + Pango",
+    "Reedling + Flowah"
+  ]
+}

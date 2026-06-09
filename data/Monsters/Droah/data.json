@@ -1,0 +1,29 @@
+{
+  "Name": "Droah",
+  "Elements": [
+    "Primordial Water"
+  ],
+  "Islands": [
+    "crystal"
+  ],
+  "Description": {
+    "name": "Droah",
+    "description": "Advancement of the Droah prototype at a standstill. Unlike other Core Elemental initiatives, however, not a result of the design being non-viable. Instead, we're divided on which of the Elements the Droah most embodies. My personal inclination, of course, is Water; its columnar body and tentacle-covered head call to mind the deep-sea Anemonon. G, on the other hand, lays claim for the Plant Element, citing the fact that it grows from a rooted base, although their proposal would see that part covered by some kind of crockery. Tried to convince the assembly that its rows of teeth would be best-suited to a fearsome sea creature, but they seem to leaning towards Plant. Debate got so heated at one point that R had to intervene to mediate. Haven't given up just yet, though. Something about the notion of a rubbery spheroid with multiple stubby bits jutting out that I can't get out of my head - it's really jammed in there."
+  },
+  "Costs": {
+    "name": "Droah",
+    "cost": "5000"
+  },
+  "Breeding Times": {
+    "Standard": "2d 2h"
+  },
+  "Likes": [
+    "Flasque",
+    "Nitebear",
+    "X'rt",
+    "Boodoo"
+  ],
+  "Combinations to Breed": [
+    "Exclusive To Primordial Islands"
+  ]
+}

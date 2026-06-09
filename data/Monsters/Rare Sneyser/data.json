@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Sneyser",
+  "Elements": [
+    "Air",
+    "Water",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "oasis",
+    "amber"
+  ],
+  "Description": {
+    "name": "Rare Sneyser",
+    "description": "Rare Sneyser's feelin' hot, hot, hot! No, really - get this Rare an Ice Pack. While these sun-loving Sneyser cousins adore baking all day long in steaming heat like an endless SummerSong, all that exposure has had some chilling effects on their physiology. Charred scales like volcanic rock, crystals flickering with pure Fire, and a once-glistening geyser now brimming with broiling magma make Rare Sneyser too hot to handle - but not too hot to love!"
+  },
+  "Costs": {
+    "name": "Rare Sneyser",
+    "diamond_cost": "750",
+    "starpower_cost": "7500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 22m 30s",
+    "Enhanced_Skin": "1d 10h 7m 30s",
+    "Standard": "2d 4h 30m",
+    "Standard_Skin": "1d 23h 15m"
+  },
+  "Likes": [
+    "Sneyser",
+    "Flowah",
+    "PongPing",
+    "Tring",
+    "Fuzzle Tree",
+    "Tree Hut",
+    "Bass String Bridge",
+    "Rare Edamimi"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

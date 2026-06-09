@@ -1,0 +1,36 @@
+{
+  "Name": "Epic Boo'qwurm",
+  "Elements": [
+    "MindBoggle"
+  ],
+  "Islands": [
+    "psychic",
+    "seasonal",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Epic Boo'qwurm",
+    "description": "Who doesn't love the nostalgic, musty scent of aging incunabula hidden away in a dusty old attic? To the Epic Boo'qwurm, such a cozy hideaway makes for the ideal boo'q noo'q. The Epic Seasonal whiles away the hours by voraciously reading tattered tomes and sharing the ancient wisdom contained therein with its brainy little companions: an eclipse of moth-like stowaways indigenous to Seasonal Shanty. In fact, it is through this passionate consumption of literature that Epic Boo'qwurm and its tiny pals gained their wings - after mistaking the acclaimed collection of essays 'The Lost Habits' for a motivational novel, the once-wormy Seasonal experienced a self-actualizing epiphany so powerful, it sprouted a pair of fuzzy wings. Never would this bibliophilic Monster throw away an old book, even if its yellowed pages have decayed beyond legibility. After all, it doesn't need to see the words to absorb their knowledge! And besides, old books have the best acoustics."
+  },
+  "Costs": {
+    "name": "Epic Boo'qwurm",
+    "psychic_diamond_cost": "1000",
+    "seasonal_diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 7m 30s",
+    "Enhanced_Skin": "1d 9h 54m 30s",
+    "Standard": "2d 4h 10m",
+    "Standard_Skin": "1d 22h 57m"
+  },
+  "Likes": [
+    "Confounding Cryptex",
+    "Bib'leo-Theque",
+    "Brain Teaser Tome",
+    "Floating Library"
+  ],
+  "Combinations to Breed": [
+    "Gloptic + Bonkers",
+    "Gobbleygourd + Clavavera"
+  ]
+}

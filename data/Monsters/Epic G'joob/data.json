@@ -1,0 +1,38 @@
+{
+  "Name": "Epic G'joob",
+  "Elements": [
+    "Mythical"
+  ],
+  "Islands": [
+    "plant",
+    "mythical",
+    "mirror plant"
+  ],
+  "Description": {
+    "name": "Epic G'joob",
+    "description": "In search of musical inspiration, uninspired G'joobs sometimes take to a section of the living ocean called the Sea of G'reen, diving deep in their yellow submarines. There, in the tepid darkness, they finally slip into a slumber of Epic proportions. Once Common, these G'joobs awaken as newly enlightened Epics capable of seeing the Monster World through a fresh eye. The Epic Mythical's flowing beard is grown during its long repose. Each silky strand represents a sweet dream long forgotten, yet the warm and fuzzy feelings of these golden slumbers still linger."
+  },
+  "Costs": {
+    "name": "Epic G'joob",
+    "plant_diamond_cost": "1000",
+    "mythical_diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 52m 30s",
+    "Enhanced_Skin": "21h 33m 30s",
+    "Standard": "1d 9h 10m",
+    "Standard_Skin": "1d 5h 51m"
+  },
+  "Likes": [
+    "Do",
+    "Sporerow",
+    "Ockulo Tree",
+    "Floofy Nest",
+    "Trumplite",
+    "Epic Strombonin"
+  ],
+  "Combinations to Breed": [
+    "Cataliszt + Yawstrich",
+    "Entbrat + Maw"
+  ]
+}

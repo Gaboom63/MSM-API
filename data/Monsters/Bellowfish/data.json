@@ -1,0 +1,42 @@
+{
+  "Name": "Bellowfish",
+  "Elements": [
+    "Mech",
+    "Crystal"
+  ],
+  "Islands": [
+    "ethereal",
+    "colossingum",
+    "mech"
+  ],
+  "Description": {
+    "name": "Bellowfish",
+    "description": "Indigenous to the aquaslime pools of Ethereal Island, this blubberous beast always wants to be smack dab in the middle of the action. So that they never miss out on that action, Bellowfish cooperate to create each other's crystal-powered mechanized suits, which let them leave the water and join in the musical menagerie. That said, they're not particularly known for their punctuality; if there's a latecomer to a Monster party, it's safe to assume a Bellowfish is the one who knocks."
+  },
+  "Costs": {
+    "name": "Bellowfish",
+    "ethereal_diamond_cost": "1250",
+    "colossingum_diamond_cost": "1350",
+    "mech_diamond_cost": "2000",
+    "dish-harmonizer_shard_cost": "4000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 7h 30m",
+    "Enhanced_Skin": "1d 3h 18m",
+    "Standard": "1d 18h",
+    "Standard_Skin": "1d 13h 48m"
+  },
+  "Likes": [
+    "Ghazt",
+    "Auglur",
+    "Teeter-Tauter",
+    "Piplash",
+    "Yooreek",
+    "Meldablend",
+    "Tree Hut",
+    "Zuffle Tree"
+  ],
+  "Combinations to Breed": [
+    "Reebro + Jeeode"
+  ]
+}

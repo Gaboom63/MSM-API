@@ -1,0 +1,36 @@
+{
+  "Name": "Epic Zuuker",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Epic Zuuker",
+    "description": "Born to be wild... a Wild Bagpipe! The Epic Zuuker draws air in through the various spiracles found all over its body, just as the Wubbox drew inspiration from the musical life-form that flourishes in high-altitude environment. It's basically a living instrument... but then, aren't all Singing Monsters living instruments, if you really think about it?"
+  },
+  "Costs": {
+    "name": "Zuuker",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "10",
+    "Inventory": {
+      "Epic Bowgart": 1,
+      "Epic Deedge": 1,
+      "Epic Entbrat": 1,
+      "Epic Floogull": 1,
+      "Epic Furcorn": 1,
+      "Epic Fwog": 1,
+      "Epic Krillby": 1,
+      "Epic Oaktopus": 1,
+      "Epic T-Rox": 1
+    },
+    "Time Limit": "None",
+    "Total Eggs": "9"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

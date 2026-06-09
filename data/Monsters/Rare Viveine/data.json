@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Viveine",
+  "Elements": [
+    "Echoes of Eco"
+  ],
+  "Islands": [
+    "shugabush",
+    "seasonal",
+    "amber"
+  ],
+  "Description": {
+    "name": "Rare Viveine",
+    "description": "Every organism has its place in the ecosystem, but you can't deny that some of them could be classified as unlovely - the creepy-crawly, the many-legged, and the like. This doesn't make them any less worthy of care or affection, though, and that's where the Rare Viveine sidles in. Accompanied by the faithful indigo Wingaling, this Seasonal gathers all unconventionally cute critters to its side and hosts little 'show-and-tell' soirées for other Monsters to get up close and personal with them. In this way, the Rare Viveine hopes to make Monsters comfortable with all forms of life and expand their appreciation for the natural world all around them."
+  },
+  "Costs": {
+    "name": "Rare Viveine",
+    "shugabush_diamond_cost": "500",
+    "seasonal_diamond_cost": "625",
+    "key_cost": "1",
+    "relic_cost": "212"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 48m 45s",
+    "Enhanced_Skin": "20h 38m 15s",
+    "Standard": "1d 7h 45m",
+    "Standard_Skin": "1d 4h 34m 30s"
+  },
+  "Likes": [
+    "Viveine",
+    "Digger",
+    "Tree Hut",
+    "Reflecting Pool"
+  ],
+  "Combinations to Breed": [
+    "Shugabush + Oaktopus",
+    "Punkleton + Blabbit"
+  ]
+}

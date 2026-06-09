@@ -1,0 +1,43 @@
+{
+  "Name": "Rare Reedling",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth"
+  ],
+  "Islands": [
+    "water",
+    "earth",
+    "gold",
+    "haven",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Rare Reedling",
+    "description": "Stubby horns and buckteeth aside, Rare Reedlings are mostly known for their impatience and not being the greatest listeners. Of course, that may have something to do with the fact that they have an extra set of breathing spines in place of ears. To communicate with it, this stubborn subspecies insists that other Monsters pipe musical messages directly into its ear-spines, believing that if something is worth saying, it's worth taking the time to translate."
+  },
+  "Costs": {
+    "name": "Rare Reedling",
+    "diamond_cost": "65",
+    "starpower_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "11h 37m 30s",
+    "Enhanced_Skin": "10h 4m 30s",
+    "Standard": "15h 30m",
+    "Standard_Skin": "13h 57m"
+  },
+  "Likes": [
+    "Reedling",
+    "Guitree",
+    "Fossil-osaurus",
+    "Zuffle Tree",
+    "Rare Spunge"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Shrubb",
+    "Potbelly + Cybop",
+    "Noggin + Dandidoo"
+  ]
+}

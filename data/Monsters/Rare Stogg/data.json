@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Stogg",
+  "Elements": [
+    "Earth",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "faerie",
+    "bone",
+    "amber",
+    "mirror faerie",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Rare Stogg",
+    "description": "What does the all-seeing Rare Stogg perceive with those glorious peepers, you may ask? A shining symphony of sound waves and light, more beautiful than anything its Common cousins could imagine. In an effort to share its experience, Rare Stoggs have taken to creating abstract illustrations using bioluminescent paints."
+  },
+  "Costs": {
+    "name": "Rare Stogg",
+    "diamond_cost": "250",
+    "starpower_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "10h 7m 30s",
+    "Enhanced_Skin": "8h 46m 30s",
+    "Standard": "13h 30m",
+    "Standard_Skin": "12h 9m"
+  },
+  "Likes": [
+    "Stogg",
+    "Flum Ox",
+    "Sneyser",
+    "Bisonorus",
+    "Travelers' Sign",
+    "Spurrit Statue",
+    "Crumpler Tree"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Noggin"
+  ]
+}

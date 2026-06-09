@@ -1,0 +1,49 @@
+{
+  "Name": "Congle",
+  "Elements": [
+    "Air",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "cold",
+    "air",
+    "colossingum",
+    "gold",
+    "oasis",
+    "tribal",
+    "composer",
+    "mirror cold",
+    "mirror air"
+  ],
+  "Description": {
+    "name": "Congle",
+    "description": "So that's what happens to the shells when Monsters hatch! Congles are great recyclers, and use a lot of drums. Eggshells can only stand so much pounding, after all."
+  },
+  "Costs": {
+    "name": "Congle",
+    "diamond_cost": "50",
+    "colossingum_diamond_cost": "60",
+    "composer_coin_cost": "8000"
+  },
+  "Breeding Times": {
+    "Enhanced": "9h",
+    "Enhanced_Skin": "7h 48m",
+    "Standard": "12h",
+    "Standard_Skin": "10h 48m"
+  },
+  "Likes": [
+    "Potbelly",
+    "T-Rox",
+    "Boskus",
+    "Meldablend",
+    "Guitree",
+    "Fossil-osaurus",
+    "Pummel"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Maw",
+    "Toe Jammer + Pango",
+    "Mammott + Quibble"
+  ]
+}

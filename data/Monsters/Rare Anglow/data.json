@@ -1,0 +1,36 @@
+{
+  "Name": "Rare Anglow",
+  "Elements": [
+    "Mythical"
+  ],
+  "Islands": [
+    "water",
+    "mythical",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Rare Anglow",
+    "description": "Rare Anglow was first sighted at the bottom of a hydrothermal vent in the dark depths of the Monstriana Trench, alongside a strange new substance: Monstronium! This potent material mutates all that pass within its unsettling glow, transforming unsuspecting Common Anglows into incredible crimson Rares! Now feeling a certain kinship with the mysterious mineral, Rare Anglow likes to keep a small chunk of it on the tip of its tongue for an occasional taste of nostalgia. The documented effects of Monstronium confirms its influence on other Monster species sharing similar traits, such as the equally ruddy and ruddered Rare Pummel."
+  },
+  "Costs": {
+    "name": "Rare Anglow",
+    "water_diamond_cost": "500",
+    "mythical_diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 6h 56m 15s",
+    "Enhanced_Skin": "1d 2h 48m 45s",
+    "Standard": "1d 17h 15m",
+    "Standard_Skin": "1d 13h 7m 30s"
+  },
+  "Likes": [
+    "Anglow",
+    "Kab's Wax",
+    "Odd-o-Mobile",
+    "Spatial Sapling",
+    "Rare Hyehehe"
+  ],
+  "Combinations to Breed": [
+    "Scups + Pummel"
+  ]
+}

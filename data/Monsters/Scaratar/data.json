@@ -1,0 +1,43 @@
+{
+  "Name": "Scaratar",
+  "Elements": [
+    "Celestial"
+  ],
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Scaratar",
+    "description": "While Scaratar may reign over the element of Poison, the serene Celestial wouldn't hurt a Humbug. The only thing that this pacifist prods with its surprisingly venomous forelegs is its instrument, whose harmonious sound echoes throughout the Monster World like an antidote coursing through the body. Despite its tranquil nature, it's certainly wise not to sneak up on a Scaratar: if it pricks you by surprise, you may be left with an embarrassing case of Tweedle Pox."
+  },
+  "Costs": {
+    "name": "Scaratar",
+    "key_cost": "9",
+    "diamond_cost": "100"
+  },
+  "Celestial Inventory": {
+    "Cost": "9 Keys",
+    "Inventory": {
+      "Clamble": 3,
+      "Cybop": 3,
+      "Dandidoo": 5,
+      "Drumpler": 4,
+      "Furcorn": 7,
+      "Mammott": 25,
+      "Noggin": 36,
+      "Pango": 3,
+      "PomPom": 1,
+      "Potbelly": 16,
+      "Quarrister": 2,
+      "Reedling": 2,
+      "Shrubb": 6,
+      "Thumpies": 4,
+      "Tweedle": 6
+    },
+    "Time Limit": "9 days",
+    "Total Eggs": "123"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ]
+}

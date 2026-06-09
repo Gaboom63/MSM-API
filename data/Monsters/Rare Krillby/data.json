@@ -1,0 +1,40 @@
+{
+  "Name": "Rare Krillby",
+  "Elements": [
+    "Air",
+    "Earth",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "faerie",
+    "amber",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Rare Krillby",
+    "description": "It's beneficial, in bustling ecosystems, to carve out a niche for oneself - and that's exactly what the Rare Krillby has done. The Monster takes full advantage of its sylvian coloration to do the exact opposite of its speedster Common cousin: move at an achingly slow pace and blend it with its surroundings. Its feet are designed not for velocity or dexterity, but for maximum noise dampening of its footfalls. Passerby will report hearing the Rare Krillby's flute-like call... but being utterly unable to spot it!"
+  },
+  "Costs": {
+    "name": "Rare Krillby",
+    "starpower_cost": "10000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 22m 30s",
+    "Enhanced_Skin": "1d 10h 7m 30s",
+    "Standard": "2d 4h 30m",
+    "Standard_Skin": "1d 23h 15m"
+  },
+  "Likes": [
+    "Krillby",
+    "Glowl",
+    "Floogull",
+    "Yelmut",
+    "The Thunker",
+    "Smunkit",
+    "Ockulo Tree"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

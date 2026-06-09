@@ -1,0 +1,32 @@
+{
+  "Name": "Rare HippityHop",
+  "Elements": [
+    "Earth",
+    "Faerie"
+  ],
+  "Islands": [
+    "faerie",
+    "nexus",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Rare HippityHop",
+    "description": "Rare HippityHops strive to produce the purest, cleanest mouthy beats possible, without any rustling or flapping of its droopy sleeve furthers. That's why these Rare Magicals have evolved tiny serrations on the edges of their furthers that help break up the flow of air over its arms and body and reduce excess noise. They also sprout a secondary set of ears, all tipped with the same sensory organs used to navigate their underground tunnels - except these ones fold downwards, pointing at their facial discs to provide valuable acoustic feedback in performance mode."
+  },
+  "Costs": {
+    "name": "Rare HippityHop",
+    "diamond_cost": "250"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "HippityHop",
+    "Shrini",
+    "Mount Knottshurr",
+    "Ambered Thing"
+  ]
+}

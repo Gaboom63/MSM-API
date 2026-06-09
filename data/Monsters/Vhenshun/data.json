@@ -1,0 +1,42 @@
+{
+  "Name": "Vhenshun",
+  "Elements": [
+    "Plasma",
+    "Shadow",
+    "Mech",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop",
+    "mech"
+  ],
+  "Description": {
+    "name": "Vhenshun",
+    "description": "Behold… a workshop within the Workshop! Fittingly, the Mech Quad Vhenshun looks like the wooden workbench of Monster antiquity where items and decorations alike were crafted… if that workbench sprang to life and swapped crafting for clanging! Not only is this contraption itself a product of mechanical invention, it's an inventor in its own right! The Monster is constantly experimenting with the materials available to devise new gadgets and gizmos - not unlike the Celestial that shares its Elemental affiliation. Rumors swirl around that it's planning a hi-Mech heist to distract Zarroë and escape into the great beyond, but we're not sure the world is prepared for Vhenshun impact."
+  },
+  "Costs": {
+    "name": "Vhenshun",
+    "ethereal_diamond_cost": "3100",
+    "mech_diamond_cost": "4000",
+    "shard_cost": "5000",
+    "dish-harmonizer_shard_cost": "8000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 7h 30m",
+    "Enhanced_Skin": "1d 3h 18m",
+    "Standard": "1d 18h",
+    "Standard_Skin": "1d 13h 48m"
+  },
+  "Likes": [
+    "Piplash",
+    "Reebro",
+    "Dragong",
+    "Bogle",
+    "Orb of Aklino",
+    "Ambered Thing",
+    "Guitree"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Name": "Glowl",
+  "Elements": [
+    "Air",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "oasis",
+    "amber"
+  ],
+  "Description": {
+    "name": "Glowl",
+    "description": "A Glowl would seemingly make an excellent spy, soaring high above its flightless companions, but its fire-bright tail feathers make it easy to spot. Nevertheless, this Monster maintains a bird's eye view of the world below and is always up-to-date on the latest happenings."
+  },
+  "Costs": {
+    "name": "Glowl",
+    "relic_cost": "50",
+    "amber_relic_cost": "10"
+  },
+  "Breeding Times": {
+    "Enhanced": "7h 30m",
+    "Enhanced_Skin": "6h 30m",
+    "Standard": "10h",
+    "Standard_Skin": "9h"
+  },
+  "Likes": [
+    "Dandidoo",
+    "Sneyser",
+    "Ziggurab",
+    "Rootitoot",
+    "Drummidary",
+    "Smunkin Patch",
+    "Tree Hut",
+    "Dragon Tower",
+    "Flowah"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Tweedle"
+  ]
+}

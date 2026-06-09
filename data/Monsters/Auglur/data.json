@@ -1,0 +1,45 @@
+{
+  "Name": "Auglur",
+  "Elements": [
+    "Plasma",
+    "Mech",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop",
+    "plasma",
+    "mech"
+  ],
+  "Description": {
+    "name": "Auglur",
+    "description": "The Auglur leans heavily into its Mech-Element parentage, and blurs the line between the real and virtual worlds by manifesting a trio of hands with digital digits. You don't need augmented reality goggles to see them; the Auglur's power makes them visible to all. From there, it's a simple matter of gesturing and swiping in mid-air at 'sonic panels' that create soundscapes drawn from nostalgic dreams. Alright, maybe it's not actually so simple for you or I [sic] - but to the Auglur, it comes naturally… er, Ethereally."
+  },
+  "Costs": {
+    "name": "Auglur",
+    "ethereal_diamond_cost": "1900",
+    "mech_diamond_cost": "3000",
+    "shard_cost": "2500",
+    "dish-harmonizer_shard_cost": "6000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 30m",
+    "Enhanced_Skin": "19h 30m",
+    "Standard": "1d 6h",
+    "Standard_Skin": "1d 3h"
+  },
+  "Likes": [
+    "Blarret",
+    "Ghazt",
+    "Reebro",
+    "Nebulob",
+    "Jellbilly",
+    "Dragong",
+    "Bogle",
+    "Flappy Flag",
+    "Squeed Statue",
+    "Optiglowbe"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

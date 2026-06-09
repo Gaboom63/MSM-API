@@ -1,0 +1,40 @@
+{
+  "Name": "X'rt",
+  "Elements": [
+    "Shadow",
+    "Crystal",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop"
+  ],
+  "Description": {
+    "name": "X'rt",
+    "description": "Whenever Zarroë is struggling to articulate a thought, or the Colossal is having trouble remembering something, suspicion mounts that there's an X'rt about. Put bluntly (and literally), this is the Monster equivalent of a brain fart: its home is a gargantuan brain and it communicates by spewing gas from its... mouth? Gut? We're not sure how to classify it. The biggest surprise, especially because of the presence of the Poison Element, is that the X'rt's gaseous emissions are totally odorless. Instead, they buildup over time and incite confusion and fogginess in the thought processes of its neighbors - so make sure you're not planning on doing anything mentally taxing when an X'rt is nearby."
+  },
+  "Costs": {
+    "name": "X'rt",
+    "ethereal_diamond_cost": "2300",
+    "shadow_diamond_cost": "3000",
+    "shard_cost": "2500",
+    "dish-harmonizer_shard_cost": "6000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 30m",
+    "Enhanced_Skin": "19h 30m",
+    "Standard": "1d 6h",
+    "Standard_Skin": "1d 3h"
+  },
+  "Likes": [
+    "Pentumbra",
+    "Boodoo",
+    "Kazilleon",
+    "Whisp",
+    "Pipes of Cicado",
+    "Fire Bush",
+    "Mountain Morsel"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

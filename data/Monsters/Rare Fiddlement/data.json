@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Fiddlement",
+  "Elements": [
+    "Cold",
+    "Fire",
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Rare Fiddlement",
+    "description": "Got a petty crime that needs solving? Rare Fiddlement is on the case! This observant Rare Magical has successfully channeled the Light Element into a concentrated beam of Ultra-Spy-olet rays that illuminates telltale traces left behind by unwitting Monsters, critters, and culprits. Slobber from a drooling Gob? Check. Puffs of Wimmzy mist? Noted. Flowah petal pollen? Achoo- You get it! Whatever your preposterous case or pesky prankster, Rare Fiddlement's keen blue gaze is following the trail."
+  },
+  "Costs": {
+    "name": "Rare Fiddlement",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 8h 37m 30s",
+    "Enhanced_Skin": "1d 4h 16m 30s",
+    "Standard": "1d 19h 30m",
+    "Standard_Skin": "1d 15h 9m"
+  },
+  "Likes": [
+    "Fiddlement",
+    "Harmonorb Holder",
+    "Cold Globe",
+    "Fossil-osaurus"
+  ],
+  "Combinations to Breed": [
+    "Pluckbill + Mammott",
+    "Boskus + Fluoress",
+    "Bulbo + Kayna"
+  ]
+}

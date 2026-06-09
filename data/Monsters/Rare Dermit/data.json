@@ -1,0 +1,32 @@
+{
+  "Name": "Rare Dermit",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Dermit",
+    "description": "For the creation of Rare Dermit, the Wubbox decided to spice things up and incorporate an existing organic material into its genetic makeup - the parasitic pathogen RitRawt. The extent to which the fungus has completely overwhelmed the physiology of this Wublin was perhaps unforeseen... but thankfully the mushroom-laden Monster seems unfazed, and is as willing as ever to boogie down: or is that the influence of the RitRawt?!"
+  },
+  "Costs": {
+    "name": "Dermit",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "3",
+    "Inventory": {
+      "Rare Entbrat": 1,
+      "Rare Fwog": 4,
+      "Rare Quarrister": 1,
+      "Rare Scups": 2,
+      "Rare Thumpies": 2
+    },
+    "Time Limit": "None",
+    "Total Eggs": "10"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

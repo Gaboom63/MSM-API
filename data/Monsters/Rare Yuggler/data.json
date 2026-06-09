@@ -1,0 +1,35 @@
+{
+  "Name": "Rare Yuggler",
+  "Elements": [
+    "Fire",
+    "Psychic"
+  ],
+  "Islands": [
+    "psychic",
+    "nexus",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Rare Yuggler",
+    "description": "The Rare Yuggler has elevated the med-ding-tational teachings of its Common cousin to a whole other level... but an unforeseen consequence is a total upheaval of sensory equilibrium! Its senses of smell and touch have been all but neutralized with the removal of its nostrils and the dulling of its nails, but they've been swapped for heightened sight and hearing with an extra eye and droopy ears! The design for its metallic orbs is said to have been drawn from vivid dreams visited upon it during deep med-ding-tation... dreams of a virtual world filled with never-ending joy and entertainment..."
+  },
+  "Costs": {
+    "name": "Rare Yuggler",
+    "diamond_cost": "250"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Yuggler",
+    "Bingo Bango Bongos",
+    "Travelers' Sign",
+    "PU System"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Theremind"
+  ]
+}

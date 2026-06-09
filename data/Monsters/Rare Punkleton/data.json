@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Punkleton",
+  "Elements": [
+    "Spooktacle"
+  ],
+  "Islands": [
+    "plant",
+    "colossingum",
+    "gold",
+    "seasonal",
+    "mirror plant"
+  ],
+  "Description": {
+    "name": "Rare Punkleton",
+    "description": "Nobody likes watching someone let themselves go, but this is a regrettable inevitability for the Rare Punkleton. Lacking the hardiness of the Common's Smunkin-like head, it is doomed to decompose faster and turn into a sloppy mess. Donning a paper bag to limit the embarrassment, it's lucky that this ghoulish Rare Seasonal is only really active during a time of dress-up - it fits right in, and no one's the wiser!"
+  },
+  "Costs": {
+    "name": "Rare Punkleton",
+    "plant_diamond_cost": "500",
+    "seasonal_diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 48m 45s",
+    "Enhanced_Skin": "20h 38m 15s",
+    "Standard": "1d 7h 45m",
+    "Standard_Skin": "1d 4h 34m 30s"
+  },
+  "Likes": [
+    "Punkleton",
+    "Stritch Skin",
+    "Reflecting Pool",
+    "Castanevine",
+    "Rare Yool"
+  ],
+  "Combinations to Breed": [
+    "Bowgart + T-Rox"
+  ]
+}

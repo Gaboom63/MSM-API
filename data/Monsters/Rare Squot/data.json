@@ -1,0 +1,35 @@
+{
+  "Name": "Rare Squot",
+  "Elements": [
+    "Cold",
+    "Faerie"
+  ],
+  "Islands": [
+    "faerie",
+    "nexus",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Rare Squot",
+    "description": "If you're wondering - no, that's not a Playphid resting on the Rare Squot... it's a Slapscallion! But the general idea is practically identical. This Rare Magical and its pint-sized partner are very alliaceous in appearance, and the similarities don't end there - they give off a wonderfully oniony aroma as well! Before you ask - no, no one has had the gumption (or the foolishness) to inquire whether they taste like onions as well. As far as having 'layers' is concerned... well, this Monster would certainly like to think so, in the figurative sense. The truth is that there isn't a ton of nuance when it comes to the Rare Squot - squot you see is squot you get."
+  },
+  "Costs": {
+    "name": "Rare Squot",
+    "diamond_cost": "250"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Squot",
+    "Bloofi Tree",
+    "Ockulo Tree",
+    "Striking Bulbs"
+  ],
+  "Combinations to Breed": [
+    "Mammott + Floot Fly"
+  ]
+}

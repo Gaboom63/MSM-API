@@ -1,0 +1,34 @@
+{
+  "Name": "Epic Peckidna",
+  "Elements": [
+    "Earth",
+    "Bone"
+  ],
+  "Islands": [
+    "bone",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Epic Peckidna",
+    "description": "Oh my! What striking bones! This cave-diving master spends its days delving the depths of Bone Island with a dual purpose. The Epic Peckidna's affinity with the Bone Element runs so deep, it lives with a condition known as 'ossus eruptus', where the skeleton tries to leap out of the body! Its spine-tacular eruptions need to be constantly worn down, or they will continue to grow larger and longer. Burrowing and tunneling its way through the dense cave systems of the underground, the Epic Magical files down the sharper protrusions. These excavations uncover Chromeleon critters who accompany Epic Peckidna, gnawing away at the largest of its spines. Their meticulous maintenance helps create the Monster's characteristic melody as they pluck away. "
+  },
+  "Costs": {
+    "name": "Epic Peckidna",
+    "cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 22h 15m",
+    "Enhanced_Skin": "1d 6h 3m 45s",
+    "Standard": "1d 22h 15m",
+    "Standard_Skin": "1d 17h 37m 30s"
+  },
+  "Likes": [
+    "Ti",
+    "Sweetstreamz Tree",
+    "Floofy Nest",
+    "Odd-o-Mobile"
+  ],
+  "Combinations to Breed": [
+    "Uuduk + Fwog"
+  ]
+}

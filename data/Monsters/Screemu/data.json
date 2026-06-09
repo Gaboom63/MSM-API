@@ -1,0 +1,31 @@
+{
+  "Name": "Screemu",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Screemu",
+    "description": "By nature, the Screemu has very drab coloring, so it spruces itself up with ribbons and paint splatter. Make no mistake, these adornments are the only bright things about Screemu. This delusional Monster has no ears to hear itself and is of the opinion it can outsing an entire cache of Furcorns."
+  },
+  "Costs": {
+    "name": "Screemu",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "5,000",
+    "Inventory": {
+      "Quibble": 6,
+      "Shellbeat": 2,
+      "Shrubb": 6,
+      "Spunge": 6
+    },
+    "Time Limit": "None",
+    "Total Eggs": "20"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

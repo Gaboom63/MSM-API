@@ -1,0 +1,41 @@
+{
+  "Name": "Epic Tring",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "amber"
+  ],
+  "Description": {
+    "name": "Epic Tring",
+    "description": "During the long interval between the end of the Dawn of Fire and the rediscovery of Fire Haven, few Monsters ever ventured out into the labyrinthine network of caves and tunnels that surrounded the hidden sanctuary. Those who did, however, reported that they never felt lost because they sensed a presence that helped them along the way. This very presence turned out to be none other than the piebald Epic Tring! The Fire Quad's cloven feet help it to find sure footing in the dark, and its unique globular crystals supposedly grant advanced night vision, too! Not sure why it eschews the traditional triangular nose ring in favor of a circular one, though - would it make more sense to call this Monster an Epic 'Ring' instead?"
+  },
+  "Costs": {
+    "name": "Epic Tring",
+    "diamond_cost": "1000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 9h 45m",
+    "Enhanced_Skin": "1d 5h 15m",
+    "Standard": "1d 21h",
+    "Standard_Skin": "1d 16h 30m"
+  },
+  "Likes": [
+    "Sol",
+    "Sooza",
+    "Boskus",
+    "Krillby",
+    "Bowhead",
+    "Boss Monument",
+    "Dragon Tower",
+    "Cold Globe",
+    "Epic Bisonorus"
+  ],
+  "Combinations to Breed": [
+    "Barrb + Stogg"
+  ]
+}

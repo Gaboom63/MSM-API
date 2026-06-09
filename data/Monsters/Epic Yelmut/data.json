@@ -1,0 +1,41 @@
+{
+  "Name": "Epic Yelmut",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "light",
+    "amber",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Epic Yelmut",
+    "description": "Epic Yelmuts and their Rare cousins may not look like they may have much in common, yet they share one persistent delusion: that their minds are being probed by nosy Colossals! While Rare Yelmuts cower at the thought of this less-than-likely prospect, Epic Yelmuts revel in it, wholly convinced they have been chosen by the Colossals for their superior intellect, strong leadership skills, and dashing good looks. Delusions of grandeur have led the Epic Fire Monster to sport ostentatious headgear befitting a being of great importance, which it wears in exaltation of its mindreading masters."
+  },
+  "Costs": {
+    "name": "Epic Yelmut",
+    "diamond_cost": "1250"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 5h 15m",
+    "Enhanced_Skin": "1d 1h 21m",
+    "Standard": "1d 15h",
+    "Standard_Skin": "1d 11h 6m"
+  },
+  "Likes": [
+    "Fiddlement",
+    "Candelavra",
+    "Sneyser",
+    "Wynq",
+    "Ziggurab",
+    "Cave Crystal Teleporter",
+    "Kab's Wax",
+    "Sweetstreamz Tree"
+  ],
+  "Combinations to Breed": [
+    "Blow't + Kayna"
+  ]
+}

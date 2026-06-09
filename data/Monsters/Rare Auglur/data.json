@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Auglur",
+  "Elements": [
+    "Plasma",
+    "Mech",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop",
+    "plasma",
+    "mech"
+  ],
+  "Description": {
+    "name": "Rare Auglur",
+    "description": "If dreams can be visions of the past and future, the soundscapes woven by the Rare Auglur are possessed of an awesome clarity. While the Common Auglur's calm, cool, collected attitude may cause some to perceive the Monster as distant and aloof, in truth this is nothing more than projection. Rare Auglur, on the other hand, is positively ascendant, with its downy plumage and ruffled furthers... Maybe it really is above it all. Wreathed with an ophanine crown, a piercing stare replaces the more characteristically indifferent gaze we've come to expect. What does it see that we don't? Or what does it want us to see?"
+  },
+  "Costs": {
+    "name": "Rare Auglur",
+    "ethereal_diamond_cost": "3400",
+    "mech_diamond_cost": "3500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "Auglur",
+    "Rare Blarret",
+    "Rare Ghazt",
+    "Rare Nebulob",
+    "Rare Reebro",
+    "Rare Dragong",
+    "Razzli Tree",
+    "Smunkin Patch",
+    "Castanevine"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

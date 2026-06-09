@@ -1,0 +1,34 @@
+{
+  "Name": "Fleechwurm",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Fleechwurm",
+    "description": "In addition to using them to play music, some Monsters take advantage of their unique features and body shapes, and use them for other purposes. In the case of the Fleechwurm, its resonant body cavity can generate a series of whistles that have an unusual hypnotic effect on other Wublins. They can be used to coax others into doing unglamorous chores for it, or to lovingly preen its leaf-like limbs. Some Wublins are more resistant than others, and playfully admonish the Fleechwurm so it doesn't become too mischievous."
+  },
+  "Costs": {
+    "name": "Fleechwurm",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "5,000",
+    "Inventory": {
+      "Dandidoo": 4,
+      "Furcorn": 4,
+      "Pummel": 4,
+      "Quarrister": 3,
+      "Reedling": 3,
+      "Shellbeat": 3,
+      "Spunge": 3
+    },
+    "Time Limit": "None",
+    "Total Eggs": "24"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

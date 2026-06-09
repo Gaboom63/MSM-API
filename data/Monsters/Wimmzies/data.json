@@ -1,0 +1,35 @@
+{
+  "Name": "Wimmzies",
+  "Elements": [
+    "Fire",
+    "Faerie"
+  ],
+  "Islands": [
+    "faerie",
+    "nexus",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Wimmzies",
+    "description": "Wimmzies are a bubbly chorus of Monsters positively bursting at the seams with delight. It's this very overflowing of glee that is cause for the sorority of singers' patchwork appearance: their delicately-sewn casings contain the fine mist that makes up the Wimmzies' upper bodies! Little more than fluttering eyelashes and tapping toes, this squad is nonetheless erupting with joy and - of course - whimsy."
+  },
+  "Costs": {
+    "name": "Wimmzies",
+    "diamond_cost": "150"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 15m",
+    "Enhanced_Skin": "17h 33m",
+    "Standard": "1d 3h",
+    "Standard_Skin": "1d 18m"
+  },
+  "Likes": [
+    "Kayna",
+    "Cozee Cabin",
+    "Leafy Sea Dragon",
+    "Jarhead"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Floot Fly"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Name": "Rare Hawlo",
+  "Elements": [
+    "Fire",
+    "Bone"
+  ],
+  "Islands": [
+    "bone",
+    "nexus",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Rare Hawlo",
+    "description": "Living so far underground has its downsides, and one of those is seldom (if ever) seeing the sky. The striped subspecies of Hawlo, seeking to make the dimly-lit ambience of Bone Island more comfortable for all Monsters, crafts its disguise from the Azurewood tree. Staring at the grain of the wood produces a mesmerizing effect that mimics the actual blue sky far above, but staring too long induces a suggestible, hypnotic state in some. Best enjoyed in moderation."
+  },
+  "Costs": {
+    "name": "Rare Hawlo",
+    "diamond_cost": "250"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Hawlo",
+    "Mount Knottshurr",
+    "Reflecting Pool",
+    "Cold Globe"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Clackula"
+  ]
+}

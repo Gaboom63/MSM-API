@@ -1,0 +1,37 @@
+{
+  "Name": "Epic Entbrat",
+  "Elements": [
+    "Plant",
+    "Earth",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "plant",
+    "gold",
+    "mirror plant"
+  ],
+  "Description": {
+    "name": "Epic Entbrat",
+    "description": "Yikes! The Epic Entbrat is a truly terrifying sight for anyone familiar with its hearty Common cousin. No need for alarm, however - we can assure you that this Epic is in a perfectly healthy state. It may be pale, frail, and honestly a little creepy, but this is simply the appearance of a Monster that prefers the comforting darkness of a Cozee Cabin to the shining rays of the great outdoors."
+  },
+  "Costs": {
+    "name": "Epic Entbrat",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 9h 45m",
+    "Enhanced_Skin": "1d 5h 15m",
+    "Standard": "1d 21h",
+    "Standard_Skin": "1d 16h 30m"
+  },
+  "Likes": [
+    "Boss Monument",
+    "Cozee Cabin",
+    "Spatial Sapling",
+    "The Thunker"
+  ],
+  "Combinations to Breed": [
+    "T-Rox + Shrubb"
+  ]
+}

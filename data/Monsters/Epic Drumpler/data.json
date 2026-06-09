@@ -1,0 +1,44 @@
+{
+  "Name": "Epic Drumpler",
+  "Elements": [
+    "Earth",
+    "Cold"
+  ],
+  "Islands": [
+    "plant",
+    "air",
+    "earth",
+    "gold",
+    "faerie",
+    "mirror plant",
+    "mirror air",
+    "mirror earth",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Epic Drumpler",
+    "description": "It's not just a Spooktacle story keeping little Monsters up at night: Epic Drumpler is fang-tastically real! Drumplers incubated beneath the haunting glow of a full moon undergo a fur-ocious change: the chosen Monsters sprout coarse fur, all-hearing ears, and a superb sniffer! This canine Epic's feral instincts make it particularly partial to gnawing on the fiberglass bones of the Fossil-osaurus."
+  },
+  "Costs": {
+    "name": "Epic Drumpler",
+    "diamond_cost": "150"
+  },
+  "Breeding Times": {
+    "Enhanced": "11h 15m",
+    "Enhanced_Skin": "9h 45m",
+    "Standard": "15h",
+    "Standard_Skin": "13h 30m"
+  },
+  "Likes": [
+    "Fa",
+    "Elmenco Stump",
+    "Directions to Nowhere",
+    "Fossil-osaurus"
+  ],
+  "Combinations to Breed": [
+    "Clamble + Maw",
+    "PomPom + Fwog",
+    "Thumpies + Cybop",
+    "Ziggurab + HippityHop"
+  ]
+}

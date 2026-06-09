@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Quibble",
+  "Elements": [
+    "Air",
+    "Water"
+  ],
+  "Islands": [
+    "cold",
+    "air",
+    "water",
+    "shugabush",
+    "gold",
+    "oasis",
+    "mirror cold",
+    "mirror air",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Rare Quibble",
+    "description": "Some Quibbles flat out refuse to grow up – in fact, it's one of the few things the two heads can agree upon. Rare Quibbles, who naturally retain the short, stout beaks of their youth, really commit: they preen their crests into radical feather-dos and never replace the colorful keyboards they played as hatchlings. They do need to use beak extenders to reach the rocks... but whatever, man. Still totally hardcore."
+  },
+  "Costs": {
+    "name": "Rare Quibble",
+    "diamond_cost": "40",
+    "starpower_cost": "1500"
+  },
+  "Breeding Times": {
+    "Enhanced": "7h 52m 30s",
+    "Enhanced_Skin": "6h 49m 30s",
+    "Standard": "10h 30m",
+    "Standard_Skin": "9h 27m"
+  },
+  "Likes": [
+    "Quibble",
+    "Travelers' Sign",
+    "Bottomless Pit",
+    "Floofy Nest"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Toe Jammer"
+  ]
+}

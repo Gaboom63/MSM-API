@@ -1,0 +1,41 @@
+{
+  "Name": "Rare Spunge",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Water"
+  ],
+  "Islands": [
+    "cold",
+    "water",
+    "gold",
+    "mirror cold",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Rare Spunge",
+    "description": "TThere's more to the Rare Spunge than meets the eye: it is a full-scale mutation of the regular Monster, recognizable by its superfluous eye, limbs and leaf sprig. In lieu of fresh clean Water, it emits a viscous ooze at passersby which, if they're unlucky enough to get some in their mouth, is absolutely revolting in flavor. In an unusual twist of fate, the Rare Spunge suffers from dry eyes, and must hydrate them by being especially blinky."
+  },
+  "Costs": {
+    "name": "Rare Spunge",
+    "diamond_cost": "65",
+    "starpower_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "11h 37m 30s",
+    "Enhanced_Skin": "10h 4m 30s",
+    "Standard": "15h 30m",
+    "Standard_Skin": "13h 57m"
+  },
+  "Likes": [
+    "Spunge",
+    "Beeyoot Tree",
+    "Smunkin Patch",
+    "Tree Hut"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Oaktopus",
+    "Potbelly + Quibble",
+    "Toe Jammer + Dandidoo"
+  ]
+}

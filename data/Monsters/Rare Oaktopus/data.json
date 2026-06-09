@@ -1,0 +1,45 @@
+{
+  "Name": "Rare Oaktopus",
+  "Elements": [
+    "Plant",
+    "Water"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "water",
+    "shugabush",
+    "gold",
+    "psychic",
+    "tribal",
+    "mirror plant",
+    "mirror cold",
+    "mirror water",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Rare Oaktopus",
+    "description": "Much can be said for the Common Oaktopus' powerful tentacles, but when it comes to fine motor skills, that's where the Rares have the upper hand... literally! A pair of nimble tentilla is used to explore the world around them and groom their blond silks. Rare Oaktopi are perhaps a little too wily for their own good, and experiment with various slimes and oozes to brew potent potions."
+  },
+  "Costs": {
+    "name": "Rare Oaktopus",
+    "diamond_cost": "40",
+    "starpower_cost": "1500"
+  },
+  "Breeding Times": {
+    "Enhanced": "7h 52m 30s",
+    "Enhanced_Skin": "6h 49m 30s",
+    "Standard": "10h 30m",
+    "Standard_Skin": "9h 27m"
+  },
+  "Likes": [
+    "Oaktopus",
+    "Dragoon Statue",
+    "Tree Forte Tower",
+    "Cozee Cabin",
+    "Rare Furcorn"
+  ],
+  "Combinations to Breed": [
+    "Potbelly + Toe Jammer"
+  ]
+}

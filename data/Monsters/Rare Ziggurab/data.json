@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Ziggurab",
+  "Elements": [
+    "Earth",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "faerie",
+    "amber",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Rare Ziggurab",
+    "description": "Sponge? Cake? Sponge Cake! The Rare 'tier' of the Ziggurab family is well-versed in tending the home thanks to its inherent knack for both cooking and cleaning. Whether it's scouring countertops 'til they're sparkling clean, or scouring the Monster World Wide Web for delectable new recipes (as any arachnoid worth its webbing would do), you can rest easy knowing that your abode is in good claws when there's a Rare Ziggurab around."
+  },
+  "Costs": {
+    "name": "Rare Ziggurab",
+    "diamond_cost": "500",
+    "starpower_cost": "5000"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 52m 30s",
+    "Enhanced_Skin": "17h 13m 30s",
+    "Standard": "1d 2h 30m",
+    "Standard_Skin": "23h 51m"
+  },
+  "Likes": [
+    "Ziggurab",
+    "Yelmut",
+    "Flowah",
+    "Barrb",
+    "Razzli Tree",
+    "Piney Tree",
+    "Castanevine"
+  ],
+  "Combinations to Breed": [
+    "Drumpler + Kayna",
+    "Stogg + Mammott",
+    "Boskus + Noggin"
+  ]
+}

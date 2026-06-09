@@ -1,0 +1,39 @@
+{
+  "Name": "Rare Humbug",
+  "Elements": [
+    "Poison"
+  ],
+  "Islands": [
+    "earth",
+    "colossingum",
+    "ethereal",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Rare Humbug",
+    "description": "If the Element of Poison has a bit of a questionable reputation, this could be traced back to Rare Humbugs. Eschewing the typically amicable attitude of the Common Ethereal, they seem to delight in injecting their venom into poor Torchle Trees. The joke's on them, though - the trees actually lap it up and grow stronger as a result!"
+  },
+  "Costs": {
+    "name": "Rare Humbug",
+    "earth_diamond_cost": "1500",
+    "ethereal_diamond_cost": "1900"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 10h 7m 30s",
+    "Enhanced_Skin": "1d 5h 34m 30s",
+    "Standard": "1d 21h 30m",
+    "Standard_Skin": "1d 16h 57m"
+  },
+  "Likes": [
+    "Humbug",
+    "Pipes of Cicado",
+    "Trumplite",
+    "Yum Yum Tree"
+  ],
+  "Combinations to Breed": [
+    "Quarrister + Clamble",
+    "Quarrister + Thumpies",
+    "Quarrister + PomPom",
+    "Quarrister + Reedling"
+  ]
+}

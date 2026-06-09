@@ -1,0 +1,48 @@
+{
+  "Name": "Reedling",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth"
+  ],
+  "Islands": [
+    "water",
+    "earth",
+    "colossingum",
+    "gold",
+    "haven",
+    "tribal",
+    "composer",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Reedling",
+    "description": "Reedlings live and breathe music - literally. Somewhere in their evolution they forgot how to breathe through mouths and noses, so they developed flute-like breathing spines. Reedlings sometimes release the odd toot in their sleep."
+  },
+  "Costs": {
+    "name": "Reedling",
+    "diamond_cost": "50",
+    "colossingum_diamond_cost": "60",
+    "composer_coin_cost": "8000"
+  },
+  "Breeding Times": {
+    "Enhanced": "9h",
+    "Enhanced_Skin": "7h 48m",
+    "Standard": "12h",
+    "Standard_Skin": "10h 48m"
+  },
+  "Likes": [
+    "Potbelly",
+    "Shrubb",
+    "Beeyoot Tree",
+    "Pipes of Cicado",
+    "Squeed Statue",
+    "Spunge"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Shrubb",
+    "Potbelly + Cybop",
+    "Noggin + Dandidoo"
+  ]
+}

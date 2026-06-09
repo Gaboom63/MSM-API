@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Phangler",
+  "Elements": [
+    "Water",
+    "Fire"
+  ],
+  "Islands": [
+    "oasis",
+    "psychic",
+    "bone",
+    "amber",
+    "mirror psychic",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Rare Phangler",
+    "description": "Long ago, when Phanglers were too fearful to venture to the surface of the living ocean, a small school would gaze longingly up at the glimmering sunset each evening as it sparkled on the waves. These Phanglers yearned for the warm embrace of sunshine on their scales so dearly that they grew hand-like fins to reach up to the sun itself! These sunkissed sea creatures became known as Rare Phanglers and today can be distinguished by their warm hue and lanky arms."
+  },
+  "Costs": {
+    "name": "Rare Phangler",
+    "diamond_cost": "250",
+    "starpower_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "10h 7m 30s",
+    "Enhanced_Skin": "8h 46m 30s",
+    "Standard": "13h 30m",
+    "Standard_Skin": "12h 9m"
+  },
+  "Likes": [
+    "Phangler",
+    "Edamimi",
+    "Tring",
+    "Drummidary",
+    "Fire Bush",
+    "Smunkin Patch",
+    "Tree Forte Tower"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Toe Jammer"
+  ]
+}

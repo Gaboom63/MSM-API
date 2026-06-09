@@ -1,0 +1,42 @@
+{
+  "Name": "Flasque",
+  "Elements": [
+    "Plasma",
+    "Crystal",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop",
+    "plasma"
+  ],
+  "Description": {
+    "name": "Flasque",
+    "description": "It's challenging to describe the Flasque as a 'living thing' by the conventional definition of the term. The Ethereal's body consists of little more than an assortment of beakers and chalices, which float and move together impossibly, defying all known scientific laws. If that wasn't already enough, the Monster purposefully collides these body parts together - isn't it fearful of breaking the glass? By a fluke of nature, the Flasque's green lifeblood that sloshes and splashes about inside its body parts actually fortifies them and makes them completely shatter-resistant."
+  },
+  "Costs": {
+    "name": "Flasque",
+    "ethereal_diamond_cost": "2000",
+    "plasma_diamond_cost": "3000",
+    "shard_cost": "2500",
+    "dish-harmonizer_shard_cost": "6000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 30m",
+    "Enhanced_Skin": "19h 30m",
+    "Standard": "1d 6h",
+    "Standard_Skin": "1d 3h"
+  },
+  "Likes": [
+    "Nitebear",
+    "Ghazt",
+    "Sox",
+    "Jellbilly",
+    "Lowb",
+    "Englobulated F.U.M.",
+    "Trumplite",
+    "Babayag Tower"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Name": "Rare T-Rox",
+  "Elements": [
+    "Earth",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "plant",
+    "air",
+    "gold",
+    "mirror plant",
+    "mirror air"
+  ],
+  "Description": {
+    "name": "Rare T-Rox",
+    "description": "Hold on to your toes... the Rare T-Rox has survived. Previously believed to have disappeared ages ago, it resurfaced when a primordial goop was spilled onto a clutch of eggs. The purpose of its stubby forelimbs has been hotly debated, but clapping along can be safely ruled out. Nonetheless, this Rare is possessed of an indomitable spirit and always innovates shrewd beats with its reinforced jaws and paws. Clever Monster."
+  },
+  "Costs": {
+    "name": "Rare T-Rox",
+    "diamond_cost": "65",
+    "starpower_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "7h 52m 30s",
+    "Enhanced_Skin": "6h 49m 30s",
+    "Standard": "10h 30m",
+    "Standard_Skin": "9h 27m"
+  },
+  "Likes": [
+    "T-Rox",
+    "Saggle Tree",
+    "Fossil-osaurus",
+    "Yum Yum Tree"
+  ],
+  "Combinations to Breed": [
+    "Noggin + Maw",
+    "Toe Jammer + Drumpler",
+    "Mammott + Fwog"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "Name": "Rare Yooreek",
+  "Elements": [
+    "Plasma",
+    "Shadow",
+    "Mech"
+  ],
+  "Islands": [
+    "workshop",
+    "plasma",
+    "mech"
+  ],
+  "Description": {
+    "name": "Rare Yooreek",
+    "description": "Rare Yooreek's steadfastness and support of its friends can come off as a little single-minded at times, which can be troublesome as no one is sure where its mind is located yet. One sometimes has to wonder if Rare Yooreek is all there. Attached at the hip to its good buddy Rare Gaddzooks, this Rarethereal sure likes to go with the flow. But is that so bad? Like the old saying goes, a Mon in the hand is worth two in the Fire Bush. Whether its contrasting colors were the result of a genetic side effect or a part of its friends' elaborate schemes, Rare Yooreek is just happy to be matching."
+  },
+  "Costs": {
+    "name": "Rare Yooreek",
+    "ethereal_diamond_cost": "3000",
+    "shadow_diamond_cost": "3500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "Yooreek",
+    "Rare Gaddzooks",
+    "Rare Ghazt",
+    "Rare Whisp",
+    "Rare Reebro",
+    "Rare Nebulob",
+    "Fuzzle Tree",
+    "Travelers' Sign",
+    "Odd-o-Mobile",
+    "Rare Meebkin"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

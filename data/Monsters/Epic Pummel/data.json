@@ -1,0 +1,35 @@
+{
+  "Name": "Epic Pummel",
+  "Elements": [
+    "Plant",
+    "Earth",
+    "Water"
+  ],
+  "Islands": [
+    "plant",
+    "water",
+    "gold",
+    "mirror plant",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Epic Pummel",
+    "description": "Epic Pummel's wide set eyes are each able to focus on separate pages of its favorite book, allowing this bookworm to read in record time! Tragically, the information they take in is rarely retained thanks to their broad heads carrying more water than brains. How do you even wear bonnets with that kind of head, anyway!? Nonetheless, their well-read nature does grant them with an impressive vocabulary."
+  },
+  "Costs": {
+    "name": "Epic Pummel",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 15m",
+    "Enhanced_Skin": "20h 9m",
+    "Standard": "1d 7h",
+    "Standard_Skin": "1d 3h 54m"
+  },
+  "Likes": [
+    "La",
+    "Bingo Bango Bongos",
+    "Digger",
+    "Thumpies Totem, Too"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "Name": "Adult Galvana",
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Adult Galvana",
+    "description": "Energized by the Electrical currents that crackle at its finger (and toe) tips, adult Galvana has found a healthy outlet through physical activity. The Celestial of Electricity has grown into a star athlete capable of impressive orb control and unparalleled stamina. Galvana is a natural leader with a strong sense of sportsMonship, proudly taking on a team captain role and guiding its fellow Monsters with words of encouragement and motivation. It's the MVP of any Monster orchestra!"
+  },
+  "Costs": {
+    "name": "Adult Galvana",
+    "key_cost": "10"
+  },
+  "Likes": [
+    "Adult Scaratar"
+  ],
+  "Celestial Inventory": {
+    "Cost": "10 Keys",
+    "Inventory": {
+      "Barrb": 2,
+      "Bowgart": 2,
+      "Clamble": 2,
+      "Congle": 2,
+      "Deedge": 1,
+      "Entbrat": 1,
+      "Flex": 5,
+      "Floogull": 2,
+      "Hoola": 1,
+      "PomPom": 2,
+      "Pummel": 2,
+      "Quarrister": 1,
+      "Reedling": 2,
+      "Repatillo": 2,
+      "Riff": 1,
+      "Scups": 2,
+      "Shellbeat": 1,
+      "Sneyser": 1,
+      "Spunge": 2,
+      "T-Rox": 2,
+      "Thumpies": 2,
+      "Tring": 1,
+      "Whaddle": 2,
+      "Woolabee": 2,
+      "Wynq": 2
+    },
+    "Time Limit": "31 days (July 1st 3:00pm UTC to August 1st 3:00pm UTC)",
+    "Total Eggs": "45"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ],
+  "Elements": [
+    "Celestial"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Clavi Gnat",
+  "Elements": [
+    "Cold",
+    "Fire",
+    "Faerie"
+  ],
+  "Islands": [
+    "faerie",
+    "nexus",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Rare Clavi Gnat",
+    "description": "Rare Clavi Gnats bat at the spiny fruits of the Clavi Cactus to tenderize their fleshy pulp. Once sufficiently softened, these tasty morsels emit a gentle glow signaling that they are ready for consumption. The fruits are then digested by the Rare Magical's highly specialized gastrointestinal system, skin and all! The Monster's own spiky exterior recalls the age-old expression, you are what you beat. Fruit punch, anyone?"
+  },
+  "Costs": {
+    "name": "Rare Clavi Gnat",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 8h 37m 30s",
+    "Enhanced_Skin": "1d 4h 16m 30s",
+    "Standard": "1d 19h 30m",
+    "Standard_Skin": "1d 15h 9m"
+  },
+  "Likes": [
+    "Clavi Gnat",
+    "Reflecting Pool",
+    "Kab's Wax",
+    "Beeyoot Tree"
+  ],
+  "Combinations to Breed": [
+    "Wimmzies + Mammott",
+    "Boskus + Floot Fly",
+    "Squot + Kayna"
+  ]
+}

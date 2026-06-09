@@ -1,0 +1,45 @@
+{
+  "Name": "Rare Drumpler",
+  "Elements": [
+    "Earth",
+    "Cold"
+  ],
+  "Islands": [
+    "plant",
+    "air",
+    "earth",
+    "colossingum",
+    "gold",
+    "faerie",
+    "tribal",
+    "composer",
+    "mirror plant",
+    "mirror air",
+    "mirror earth",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Rare Drumpler",
+    "description": "Endowed with a tall, sloping forehead, it would have been easy for the Rare Drumpler to feel insecure about its hairline, especially when compared to the full-bodied mane of the Common Monster. Unfazed, this positive percussionist instead decided to make the most of the situation and grew two extra sets of eyes! Its appetite is notorious, since its eyes are now truly bigger than its stomach."
+  },
+  "Costs": {
+    "name": "Rare Drumpler",
+    "diamond_cost": "40",
+    "starpower_cost": "1500"
+  },
+  "Breeding Times": {
+    "Enhanced": "50m 37s",
+    "Enhanced_Skin": "43m 52s",
+    "Standard": "1h 7m 30s",
+    "Standard_Skin": "1h 45s"
+  },
+  "Likes": [
+    "Drumpler",
+    "Bloofi Tree",
+    "Puffle Tree",
+    "Floofy Nest"
+  ],
+  "Combinations to Breed": [
+    "Noggin + Mammott"
+  ]
+}

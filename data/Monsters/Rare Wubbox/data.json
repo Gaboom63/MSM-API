@@ -1,0 +1,44 @@
+{
+  "Name": "Rare Wubbox",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "air",
+    "water",
+    "earth",
+    "gold",
+    "ethereal",
+    "haven",
+    "oasis",
+    "wublin",
+    "mirror plant",
+    "mirror cold",
+    "mirror air",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Rare Wubbox",
+    "description": "Unlike the Common Wubbox, the Rare can be bought for a song - as long as you're singing the right tune. In this inactive state, it's hard to tell what physically differentiates the two Monsters, but the most striking contrast is the Rare Wubbox's modest bed count - it's only one! We're hoping to learn more once this cryptic creature is powered up with Monsters and awakens to share its song. Get going with the boxing! Your Common Natural Monsters just won't do - this picky customer only accepts Rares."
+  },
+  "Costs": {
+    "name": "Rare Wubbox",
+    "starpower_cost": "1"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 21h",
+    "Enhanced_Skin": "1d 15h",
+    "Standard": "2d 12h",
+    "Standard_Skin": "2d 6h"
+  },
+  "Likes": [
+    "Thumpies Totem, Too",
+    "Mount Knottshurr",
+    "Freed Thing",
+    "Boss Monument",
+    "Rare Brump"
+  ]
+}

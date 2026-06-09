@@ -1,0 +1,41 @@
+{
+  "Name": "Rare Woolabee",
+  "Elements": [
+    "Air",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "oasis",
+    "amber"
+  ],
+  "Description": {
+    "name": "Rare Woolabee",
+    "description": "Baa, baa, Rare Woolabee, have you any wool? Yes sir, yes sir, 3 Elements full! The dark-as-night Rare Woolabee considers itself the black sheep of its flock thanks to its preference for spiky over soft and punk over puff. But like all Woolabees, even this Rare cousin is never truly alone! Rare Woolabee attracts a special bird that, like its host Monster, enjoy interests that are off the beaten path."
+  },
+  "Costs": {
+    "name": "Rare Woolabee",
+    "diamond_cost": "500",
+    "starpower_cost": "5000"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 52m 30s",
+    "Enhanced_Skin": "17h 13m 30s",
+    "Standard": "1d 2h 30m",
+    "Standard_Skin": "23h 51m"
+  },
+  "Likes": [
+    "Woolabee",
+    "Yelmut",
+    "Sooza",
+    "Candelavra",
+    "Stritch Skin",
+    "Babayag Tower",
+    "Leafy Sea Dragon"
+  ],
+  "Combinations to Breed": [
+    "Pango + Kayna",
+    "Boskus + Tweedle",
+    "Glowl + Mammott"
+  ]
+}

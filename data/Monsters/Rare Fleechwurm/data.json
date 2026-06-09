@@ -1,0 +1,34 @@
+{
+  "Name": "Rare Fleechwurm",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Fleechwurm",
+    "description": "Even though the moon is seldom visible through the lightning of the perpetual storm, the red and gold Rare Fleechwurm has a preternatural instinct for knowing when it's in its new lunar phase. Especially at the beginning of the lunisolar year, it will wriggle its way over to its fellow Wublins, imitating the movements of the fantastical Lion creature of legend, and 'pluck the greens' to bring good fortune - this consists of pinching or squeezing any body part that is liable to produce a tickling sensation!"
+  },
+  "Costs": {
+    "name": "Fleechwurm",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "5",
+    "Inventory": {
+      "Rare Dandidoo": 2,
+      "Rare Furcorn": 2,
+      "Rare Pummel": 2,
+      "Rare Quarrister": 1,
+      "Rare Reedling": 1,
+      "Rare Shellbeat": 1,
+      "Rare Spunge": 1
+    },
+    "Time Limit": "None",
+    "Total Eggs": "10"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

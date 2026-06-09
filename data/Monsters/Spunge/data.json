@@ -1,0 +1,45 @@
+{
+  "Name": "Spunge",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Water"
+  ],
+  "Islands": [
+    "cold",
+    "water",
+    "colossingum",
+    "gold",
+    "tribal",
+    "composer",
+    "mirror cold",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Spunge",
+    "description": "The Spunge's Plant body is filled with inflatable chambers that can be filled with Air or Water. While singing, it uses Air to produce a pure whistling sound, but this Monster loves to aim and shoot a powerful jet of water at unsuspecting passersby."
+  },
+  "Costs": {
+    "name": "Spunge",
+    "diamond_cost": "50",
+    "colossingum_diamond_cost": "60",
+    "composer_coin_cost": "8000"
+  },
+  "Breeding Times": {
+    "Enhanced": "9h",
+    "Enhanced_Skin": "7h 48m",
+    "Standard": "12h",
+    "Standard_Skin": "10h 48m"
+  },
+  "Likes": [
+    "Dandidoo",
+    "Stritch Skin",
+    "Bloofi Tree",
+    "Barbloo Statue"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Oaktopus",
+    "Potbelly + Quibble",
+    "Toe Jammer + Dandidoo"
+  ]
+}

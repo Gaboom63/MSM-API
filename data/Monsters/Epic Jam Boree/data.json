@@ -1,0 +1,42 @@
+{
+  "Name": "Epic Jam Boree",
+  "Elements": [
+    "Anniversary Month"
+  ],
+  "Islands": [
+    "gold",
+    "seasonal"
+  ],
+  "Description": {
+    "name": "Epic Jam Boree",
+    "description": "You know who loves cheese? This Epic Jam Boree. So much so that this Seasonal Monster parades around with its very own mac and cheese integument, drizzled over its goblin-green body. In lieu of a candle, it proudly waves around a traditional tarp daubed with the number of the current celebration year in Monstrous numerals. Like its Rare cousin, the Epic Jam Boree is a wanderer by nature, but always sets aside time at the beginning and end of Anniversary Month to return to the Shanty. It contends that the only thing better than cheddar is visiting with its Seasonal family and hearing stories of their adventure across the Monster World from the last year. Alright, we admit - that's a little cheesy."
+  },
+  "Costs": {
+    "name": "Epic Jam Boree",
+    "diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 6h 17m 15s",
+    "Enhanced_Skin": "1d 2h 14m 57s",
+    "Standard": "1d 16h 23m",
+    "Standard_Skin": "1d 12h 20m 42s"
+  },
+  "Likes": [
+    "1st Anniversary Monument",
+    "2nd Anniversary Monument",
+    "3rd Anniversary Monument",
+    "4th Anniversary Monument",
+    "5th Anniversary Monument",
+    "6th Anniversary Monument",
+    "7th Anniversary Monument",
+    "8th Anniversary Monument",
+    "9th Anniversary Monument",
+    "10th Anniversary Monument",
+    "11th Anniversary Monument",
+    "12th Anniversary Monument",
+    "13th Anniversary Monument"
+  ],
+  "Combinations to Breed": [
+    "Gobbleygourd + Boo'qwurm"
+  ]
+}

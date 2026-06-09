@@ -1,0 +1,36 @@
+{
+  "Name": "Mushaboom",
+  "Elements": [
+    "Bone",
+    "Light",
+    "Faerie"
+  ],
+  "Islands": [
+    "sanctum"
+  ],
+  "Description": {
+    "name": "Mushaboom",
+    "description": "There isn't much in terms of natural vegetation on Magical Sanctum, just some miniature antlers and skin tags... so that's where the Mushaboom comes in! Its Faerie lineage is the most prominently displayed of its constituent Elements - a mycological menagerie of pert, fungal drums that are just as impressive to listen to as they are to gaze upon. With some perhaps misplaced confidence, Mushabooms believe they'll be able to get all sorts of plants to grow on the Sanctum, namely lilacs and buttercups."
+  },
+  "Costs": {
+    "name": "Mushaboom",
+    "diamond_cost": "400"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 30m",
+    "Enhanced_Skin": "19h 30m",
+    "Standard": "1d 6h",
+    "Standard_Skin": "1d 3h"
+  },
+  "Likes": [
+    "Cahoot",
+    "Smunkin Patch",
+    "Crumpler Tree",
+    "Inverdigus Fern"
+  ],
+  "Combinations to Breed": [
+    "Osstax + Fluoress",
+    "Roarick + Floot Fly",
+    "Knucklehead + Clackula"
+  ]
+}

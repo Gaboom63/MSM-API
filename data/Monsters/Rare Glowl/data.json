@@ -1,0 +1,40 @@
+{
+  "Name": "Rare Glowl",
+  "Elements": [
+    "Air",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "oasis",
+    "amber"
+  ],
+  "Description": {
+    "name": "Rare Glowl",
+    "description": "All Glowl nestlings are born without their tertiary tail feathers, but it is only the Rare Glowl that must develop its own alternative illumination! For generations these Rares have flown high in the endless blue sky to be nearer to the sun's rays. After innumerable journeys, they were finally enveloped from plume to pinion in the very shades of sapphire, cyan, cerulean and seafoam found in the sky above! Bathed forever in a cool-toned light, Rare Glowls are a glowing example of the union of nature and Monsterkind."
+  },
+  "Costs": {
+    "name": "Rare Glowl",
+    "diamond_cost": "250",
+    "starpower_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "10h 7m 30s",
+    "Enhanced_Skin": "8h 46m 30s",
+    "Standard": "13h 30m",
+    "Standard_Skin": "12h 9m"
+  },
+  "Likes": [
+    "Glowl",
+    "Sooza",
+    "Edamimi",
+    "Bowhead",
+    "Saggle Tree",
+    "Barbloo Statue",
+    "Tub Fountain",
+    "Rare Flowah"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Tweedle"
+  ]
+}

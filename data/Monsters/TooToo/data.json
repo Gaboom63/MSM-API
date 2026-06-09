@@ -1,0 +1,38 @@
+{
+  "Name": "TooToo",
+  "Elements": [
+    "Plant",
+    "Fire",
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "TooToo",
+    "description": "Pirouette! Plié! En Pointe! Pamplemousse! The graceful TooToo can perform it all with great panache from the tips of its tippy-toed toesies. Light as a further, you would not even know that this lithe Monster has landed from a splendid saute if not for the brilliant rings of light and sound that radiate out from the point of impact. Its distinctive tutu is TooToo's secret weapon in maintaining perfect balance, and has become a staple of the Bah-llay school of dance."
+  },
+  "Costs": {
+    "name": "TooToo",
+    "diamond_cost": "300"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 1h 30m",
+    "Enhanced_Skin": "22h 6m",
+    "Standard": "1d 10h",
+    "Standard_Skin": "1d 6h 36m"
+  },
+  "Likes": [
+    "Bulbo",
+    "Fire Bush",
+    "Babayag Tower",
+    "Wubbox Stockpile"
+  ],
+  "Combinations to Breed": [
+    "Pluckbill + Potbelly",
+    "Flowah + Fluoress",
+    "Gob + Kayna"
+  ]
+}

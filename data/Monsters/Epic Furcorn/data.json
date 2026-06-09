@@ -1,0 +1,49 @@
+{
+  "Name": "Epic Furcorn",
+  "Elements": [
+    "Plant",
+    "Cold"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "earth",
+    "light",
+    "gold",
+    "mirror plant",
+    "mirror cold",
+    "mirror earth",
+    "mirror light",
+    "shugabush"
+  ],
+  "Description": {
+    "name": "Epic Furcorn",
+    "description": "Not to be mistaken for a Common donning its cold-weather coat, the Epic Furcorn is another breed entirely. A subspecies that has thoroughly embraced its Cold Element half, the Epic Furcorn forgoes flattening its pelt for warmth in favor of exposing itself to the icy chill. Its subzero body temperatures have had visible effects on this fuzzball's physique, fading it blue from tuft to toenail."
+  },
+  "Costs": {
+    "name": "Epic Furcorn",
+    "diamond_cost": "150",
+    "shugabush_diamond_cost": "600"
+  },
+  "Breeding Times": {
+    "Enhanced": "12h 45m",
+    "Enhanced_Skin": "11h 3m",
+    "Standard": "17h",
+    "Standard_Skin": "15h 18m"
+  },
+  "Likes": [
+    "Fa",
+    "TooToo",
+    "Shugitar",
+    "Hammock",
+    "Givutawai Tree",
+    "Freed Thing"
+  ],
+  "Combinations to Breed": [
+    "Shugabush + Deedge",
+    "Clamble + Fwog",
+    "Spunge + Maw",
+    "Thumpies + Drumpler",
+    "Sooza + Pluckbill"
+  ]
+}

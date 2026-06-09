@@ -1,0 +1,35 @@
+{
+  "Name": "Epic Spurrit",
+  "Elements": [
+    "Perplexplore"
+  ],
+  "Islands": [
+    "oasis",
+    "seasonal"
+  ],
+  "Description": {
+    "name": "Epic Spurrit",
+    "description": "Everyone pictures something different when they're asked to visualize the 'idealized form'... but for a Spurrit, it's this. Rounding out the trio of psyche-sudivided Seasonals, the Epic Spurrit is practically perfect in every way: calm and collected in a crisis, always knowing the right thing to say (Huzzah), the paragon of Monstrous virtue and scientific insight... the list goes on. If we HAD to identify one shortcoming, it's that the Monster seems a tad braggadocious when showing off its chiseled physique, BUT we were corrected on this - apparently, its flexing and showboating is meant to serve as an aspirational model for others' fitness journeys. How generous, our mistake."
+  },
+  "Costs": {
+    "name": "Epic Spurrit",
+    "fire_diamond_cost": "1000",
+    "seasonal_diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 30m",
+    "Enhanced_Skin": "17h 46m",
+    "Standard": "1d 3h 20m",
+    "Standard_Skin": "1d 36m"
+  },
+  "Likes": [
+    "Armillary Sphere",
+    "Helmet Rack",
+    "Campfire",
+    "Expedition Tent"
+  ],
+  "Combinations to Breed": [
+    "Sneyser + Glowl",
+    "Jam Boree + Carillong"
+  ]
+}

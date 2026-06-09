@@ -1,0 +1,46 @@
+{
+  "Name": "Shrubb",
+  "Elements": [
+    "Plant",
+    "Earth"
+  ],
+  "Islands": [
+    "plant",
+    "water",
+    "earth",
+    "colossingum",
+    "gold",
+    "haven",
+    "tribal",
+    "composer",
+    "mirror plant",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Shrubb",
+    "description": "The willowy Shrubb performs continually in a graceful ballet. This statuesque Monster has astounding stamina, ensuring a steady source of modulation and sprayed saliva for the entire island chorus."
+  },
+  "Costs": {
+    "name": "Shrubb",
+    "diamond_cost": "30",
+    "colossingum_diamond_cost": "35",
+    "composer_coin_cost": "4000"
+  },
+  "Breeding Times": {
+    "Enhanced": "6h",
+    "Enhanced_Skin": "5h 12m",
+    "Standard": "8h",
+    "Standard_Skin": "7h 12m"
+  },
+  "Likes": [
+    "Bowgart",
+    "Reedling",
+    "Fire Bush",
+    "Saggle Tree",
+    "Razzli Tree"
+  ],
+  "Combinations to Breed": [
+    "Potbelly + Noggin"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "Name": "Potbelly",
+  "Elements": [
+    "Plant"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "water",
+    "earth",
+    "shugabush",
+    "colossingum",
+    "gold",
+    "haven",
+    "light",
+    "psychic",
+    "tribal",
+    "composer",
+    "mirror plant",
+    "mirror cold",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Potbelly",
+    "description": "Potbellies are all Plant, and grow like weeds. They are welcome participants in the chorus, so long as they wear their pots and refrain from invading others' space."
+  },
+  "Costs": {
+    "name": "Potbelly",
+    "coin_cost": "250",
+    "shugabush_diamond_cost": "250",
+    "colossingum_diamond_cost": "25",
+    "composer_coin_cost": "2000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1h 30m",
+    "Enhanced_Skin": "1h 18m",
+    "Standard": "2h",
+    "Standard_Skin": "1h 48m"
+  },
+  "Likes": [
+    "T-Rox",
+    "Congle",
+    "Reedling",
+    "Phangler",
+    "Spytrap",
+    "Shugarock",
+    "Wild Bagpipe",
+    "Bloofi Tree",
+    "Eerie Remains"
+  ]
+}

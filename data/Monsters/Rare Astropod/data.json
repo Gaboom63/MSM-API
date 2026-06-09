@@ -1,0 +1,36 @@
+{
+  "Name": "Rare Astropod",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "Wublin"
+  ],
+  "Description": {
+    "name": "Rare Astropod",
+    "description": "Over time, routine exposure to the heavenly sights and sounds of Gold Island's higher plane have seeped into the Wubbox's design sensibilities... made abundantly apparent in the Rare Astropod! Its jade green tones of its skin and shell evoke the shimmering surfaces of the Crystal Castle, and auric highlights call to mind the lustre of Gold Island's metallic ornamentation. "
+  },
+  "Costs": {
+    "name": "Astropod",
+    "cost": "5000"
+  },
+  "Likes": [
+    "Rare Pixolotl"
+  ],
+  "Wublin Inventory": {
+    "Cost": "10",
+    "Inventory": {
+      "Rare Deedge": 2,
+      "Rare Reedling": 3,
+      "Rare Scups": 3,
+      "Rare Shellbeat": 2,
+      "Rare Spunge": 3,
+      "Rare Toe Jammer": 4
+    },
+    "Time Limit": "None",
+    "Total Eggs": "17"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

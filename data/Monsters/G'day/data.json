@@ -1,0 +1,37 @@
+{
+  "Name": "G'day",
+  "Elements": [
+    "Psychic",
+    "Bone",
+    "Light"
+  ],
+  "Islands": [
+    "sanctum"
+  ],
+  "Description": {
+    "name": "G'day",
+    "description": "Crikey! No one can argue that G'day is a supremely cool Monster, but its origin is hotly debated. Could it be that forebears of Plant Island's G'joob got swept up in an Ethereal interdimensional portal and landed in the pocket dimension? Or maybe it's the other way around, and G'day came first and somehow migrated to the main dimension at an unspecified time. So which is it? Mythical or Magical? G'day is definitively Magical... but with just a hint of Mythical for good measure!"
+  },
+  "Costs": {
+    "name": "G'day",
+    "diamond_cost": "400"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 30m",
+    "Enhanced_Skin": "19h 30m",
+    "Standard": "1d 6h",
+    "Standard_Skin": "1d 3h"
+  },
+  "Likes": [
+    "Osstax",
+    "Mountain Morsel",
+    "Thumpies Totem",
+    "Inverdigus Fern",
+    "Larvaluss"
+  ],
+  "Combinations to Breed": [
+    "Xyster + Fluoress",
+    "Roarick + Theremind",
+    "Cahoot + Clackula"
+  ]
+}

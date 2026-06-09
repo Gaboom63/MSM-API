@@ -1,0 +1,37 @@
+{
+  "Name": "Epic Congle",
+  "Elements": [
+    "Air",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "cold",
+    "air",
+    "gold",
+    "oasis",
+    "mirror cold",
+    "mirror air"
+  ],
+  "Description": {
+    "name": "Epic Congle",
+    "description": "When a Common Congle's Egg forms in just the right shape, its acoustics cause every sound and song to bounce around the walls of its shell. Hearing the surrounding cacophony, the burgeoning Monster begins to grow out in all directions, sprouting spindly legs before hatching as an Epic! Epic Congles are typically the silent type, only producing sound with their iconic instruments and the click-clack of their new set of legs."
+  },
+  "Costs": {
+    "name": "Epic Congle",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "17h 15m",
+    "Enhanced_Skin": "14h 57m",
+    "Standard": "23h",
+    "Standard_Skin": "20h 42m"
+  },
+  "Likes": [
+    "Pango",
+    "Reflecting Pool",
+    "Bingo Bango Bongos",
+    "Elmenco Stump",
+    "Epic Pummel"
+  ]
+}

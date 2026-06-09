@@ -1,0 +1,43 @@
+{
+  "Name": "Adult Attmoz",
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Adult Attmoz",
+    "description": "Some have accused Attmoz of being a bit of a windbag at this stage, but that's only because the Celestial talks nonstop about its new favorite topic: glam rock. The gestural skills used to play its trademark instrument have a number of other uses as well; using its hands to swipe and streak through the air, it\u2019s now a master of karate (and friendship) for everyone. Ah-AH-ah!"
+  },
+  "Costs": {
+    "name": "Adult Attmoz",
+    "key_cost": "10"
+  },
+  "Celestial Inventory": {
+    "Cost": "10 Keys",
+    "Inventory": {
+      "Congle": 2,
+      "Cybop": 3,
+      "Dandidoo": 3,
+      "Deedge": 2,
+      "Flex": 4,
+      "Pango": 3,
+      "PomPom": 2,
+      "Quarrister": 2,
+      "Quibble": 3,
+      "Reedling": 2,
+      "Riff": 2,
+      "Scups": 2,
+      "Shellbeat": 2,
+      "Spunge": 2,
+      "Thumpies": 2,
+      "Yool": 1
+    },
+    "Time Limit": "31 days (December 1st 3:00pm UTC to January 1st 3:00pm UTC)",
+    "Total Eggs": "37"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ],
+  "Elements": [
+    "Celestial"
+  ]
+}

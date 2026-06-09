@@ -1,0 +1,34 @@
+{
+  "Name": "Rare Cherubble",
+  "Elements": [
+    "Mythical"
+  ],
+  "Islands": [
+    "oasis",
+    "mythical"
+  ],
+  "Description": {
+    "name": "Rare Cherubble",
+    "description": "Behold Rare Cherubble's fantastic kleptoplastic photosynthesystem! The lush cerata garden growing wild atop its back acts as a vibrant nature reserve for all manner of critters, including the affable Algaernons that flutter about its body. Rare Cherubble's verdant hues are derived from its symbolic relationship with its tiny companions: when the Algaernons has snacked on one too many sea pickles and feel green around the gills, this Rare Mythical absorbs the excess plant matter into an endless cycle of photosynthesis. Yet no matter how much energy it produces, Rare Cherubble still seems to slumber."
+  },
+  "Costs": {
+    "name": "Rare Cherubble",
+    "fire_diamond_cost": "500",
+    "mythical_diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "16h 52m 30s",
+    "Enhanced_Skin": "14h 37m 30s",
+    "Standard": "22h 30m",
+    "Standard_Skin": "20h 15m"
+  },
+  "Likes": [
+    "Cherubble",
+    "Sweetstreamz Tree",
+    "Jarhead",
+    "Hammock"
+  ],
+  "Combinations to Breed": [
+    "Congle + Woolabee"
+  ]
+}

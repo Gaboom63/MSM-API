@@ -1,0 +1,40 @@
+{
+  "Name": "Rare Whaill",
+  "Elements": [
+    "Plasma",
+    "Shadow",
+    "Mech",
+    "Crystal"
+  ],
+  "Islands": [
+    "workshop",
+    "plasma"
+  ],
+  "Description": {
+    "name": "Rare Whaill",
+    "description": "Among the ever-evolving experiments in the Ethereal Workshop, several unintended consequences have emerged. The Colossal Zarroë had certainly not planned to submit Monsters to long-term exposure to the Rift, but once a Whaill starts to wail, there's really not much to be done! The Rare Whaill seems to be the result of over-exposure to the nether energies released when the barrier between the Monster World and the Rift is breached. These mutations, almost polychromatic in nature, have taken the distinct tone and timbre from each appendage and tuned them to some otherwordly frequencies. This change, while delightful to the experimenting Colossal, has been quite an adjustment for the Rare Plasma Boss itself. The Ethereal's established harmonizing is now refactored by its newfound individuality, competing for ownership of its singular body. Snack time is now a much more complicated affair, having to satisfy six preferences instead of one. It's not all bad though; at least the Monster can better see where it's going now, rather than rely on plasmolocation."
+  },
+  "Costs": {
+    "name": "Rare Whaill",
+    "ethereal_diamond_cost": "4000",
+    "plasma_diamond_cost": "4500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 9h 45m",
+    "Enhanced_Skin": "1d 5h 15m",
+    "Standard": "1d 21h",
+    "Standard_Skin": "1d 16h 30m"
+  },
+  "Likes": [
+    "Whaill",
+    "Rare Ghazt",
+    "Rare Jellbilly",
+    "Rare Blarret",
+    "Saggle Tree",
+    "Floofy Nest",
+    "Optiglowbe"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

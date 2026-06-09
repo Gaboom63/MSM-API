@@ -1,0 +1,36 @@
+{
+  "Name": "Bonkers",
+  "Elements": [
+    "Plant",
+    "Psychic"
+  ],
+  "Islands": [
+    "Psychic",
+    "Nexus",
+    "Mirror Psychic"
+  ],
+  "Description": {
+    "name": "Bonkers",
+    "description": "Bonkers go bonkers for thumpin' on stumpies! Uh, we mean stumps. The understated sapling that the Bonkers thump their fuzzy heads against is no Great Tree, but hey - theyll take what they can get! It still emanates a particular magic that compels Bonkers to beat up on bark. While certainly befuddling to us, this behavior is only natural to the other inhabitants of the Bonkers percussive home dimension."
+  },
+  "Costs": {
+    "name": "Bonkers",
+    "diamond_cost": "150"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 15m",
+    "Enhanced_Skin": "17h 33m",
+    "Standard": "1d 3h",
+    "Standard_Skin": "1d 18m"
+  },
+  "Likes": [
+    "Yuggler",
+    "Hollow Log",
+    "Thumpies Totem",
+    "Ambered Thing",
+    "Gob"
+  ],
+  "Combinations to Breed": [
+    "Potbelly + Theremind"
+  ]
+}

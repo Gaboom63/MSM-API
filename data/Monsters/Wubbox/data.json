@@ -1,0 +1,45 @@
+{
+  "Name": "Wubbox",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "air",
+    "water",
+    "earth",
+    "gold",
+    "ethereal",
+    "haven",
+    "oasis",
+    "wublin",
+    "mirror plant",
+    "mirror cold",
+    "mirror air",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Wubbox",
+    "description": "One day as the Monsters were tunneling underground, they stumbled upon an immense vault containing several of the mysterious objects known as the Wubbox. Very little is known of their origin or purpose, save a few observations: after being incubated in the Nursery, sample analysis of the box's exterior indicates that it shares traits with every known Natural Monster species - in fact, it even has specialized compartments with an otherworldly shrinking technology. The box is also imbued with an elemental energy unfamiliar to those on the surface - a shocking discovery, to say the least. Gather some intrepid Monster volunteers and see what happens when you 'box' them!"
+  },
+  "Costs": {
+    "name": "Wubbox",
+    "coin_cost": "75000000",
+    "ethereal_shard_cost": "112500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 12h",
+    "Enhanced_Skin": "1d 7h 12m",
+    "Standard": "2d",
+    "Standard_Skin": "1d 19h 12m"
+  },
+  "Likes": [
+    "Toob",
+    "Digger",
+    "Ambered Thing",
+    "Tub Fountain",
+    "Brump"
+  ]
+}

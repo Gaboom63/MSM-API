@@ -1,0 +1,34 @@
+{
+  "Name": "Rare Pixolotl",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Pixolotl",
+    "description": "Rare Pixolotl bears a strong affinity for the Mech Element, syncing up with the month of its inaugural evolution. This neck-bearded newt loves immersing itself in the digital world, playing its favourite video games late into the night. Its console of choice is the Eksboks Series Eks, which it has tastefully customized with RGB light displays mimicking its own bioluminescence."
+  },
+  "Costs": {
+    "name": "Pixolotl",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "14",
+    "Inventory": {
+      "Rare Cybop": 4,
+      "Rare Entbrat": 3,
+      "Rare Fwog": 4,
+      "Rare Pummel": 3,
+      "Rare Riff": 3,
+      "Rare Scups": 4,
+      "Rare T-Rox": 3
+    },
+    "Time Limit": "None",
+    "Total Eggs": "24"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

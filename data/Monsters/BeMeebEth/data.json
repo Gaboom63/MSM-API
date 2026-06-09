@@ -1,0 +1,37 @@
+{
+  "Name": "BeMeebEth",
+  "Elements": [
+    "Plasma",
+    "Shadow",
+    "Mech",
+    "Crystal",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop"
+  ],
+  "Description": {
+    "name": "BeMeebEth",
+    "description": "It's alive! Not since the creation of the Wubbox has Monsterkind witnessed such a significant scientific achievement. The gargantuan BeMeebEth represents the pinnacle of Zarroë's mad tinkering and endless experimentation. The Ethereal Quint towers over the other denizens of the Ethereal Workshop, inspiring awe and apprehension in equal measure. Visible in its unstable composition are all five Ethereal Elements: Plasmic tentacles, Shadowy claws, Crystalline cartilage, pockmarked Poisonous spines, and the Mech-nical jaw that houses its mighty brain. From the moment it erupted from the Synthesizer's upper bulb, there was no question that this Monster was the Top Boss of the Workshop."
+  },
+  "Costs": {
+    "name": "BeMeebEth",
+    "diamond_cost": "5555",
+    "shard_cost": "11111"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 17h 15m",
+    "Enhanced_Skin": "1d 11h 45m",
+    "Standard": "2d 7h",
+    "Standard_Skin": "2d 1h 30m"
+  },
+  "Likes": [
+    "Cozee Cabin",
+    "Spurrit Statue",
+    "Dragon Tower",
+    "Jarhead"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

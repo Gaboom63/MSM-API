@@ -1,0 +1,34 @@
+{
+  "Name": "Floot Fly",
+  "Elements": [
+    "Faerie"
+  ],
+  "Islands": [
+    "faerie",
+    "sanctum",
+    "nexus",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Floot Fly",
+    "description": "Long-believed to be little more than myth, the Monsters were all aflutter to find that this mysterious Magical isn't just make-believe! The Floot Fly's mask holds much more than melodious musings: it also holds the Faerie Elemental's deepest secrets. The best chance to catch this Monster unmasked is during its nightly skinny dip in a tinkling freshet, but that's a sight you simply can't unsee."
+  },
+  "Costs": {
+    "name": "Floot Fly",
+    "faerie_coin_cost": "25000",
+    "magical_diamond_cost": "325"
+  },
+  "Breeding Times": {
+    "Enhanced": "16h 30m",
+    "Enhanced_Skin": "14h 18m",
+    "Standard": "22h",
+    "Standard_Skin": "19h 48m"
+  },
+  "Likes": [
+    "Clavi Gnat",
+    "Knucklehead",
+    "Tree Hut",
+    "Bass String Bridge",
+    "Zuffle Tree"
+  ]
+}

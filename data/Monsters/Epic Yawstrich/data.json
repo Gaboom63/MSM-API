@@ -1,0 +1,37 @@
+{
+  "Name": "Epic Yawstrich",
+  "Elements": [
+    "Mythical"
+  ],
+  "Islands": [
+    "air",
+    "mythical",
+    "mirror air"
+  ],
+  "Description": {
+    "name": "Epic Yawstrich",
+    "description": "Finally, a breed of Yawstrich whose seraphic appearance matches its equally angelic voice! Epic Yawstrich is the envy of all its furthered friends, revered for its subtle beauty and elegance. Its pillowy pink plumage evokes the whisper soft quality of its song. And that rosy hue! A product of its rigorourous [sic] Yaw-Yaw Fruit diet, its romantic coloring is nearly as delicate as its tender yodels. So graceful, so exquisite, so... so heavenly! What's that? You disagree? Well, I suppose there's no accounting for taste."
+  },
+  "Costs": {
+    "name": "Epic Yawstrich",
+    "air_diamond_cost": "1000",
+    "mythical_diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 4h 47m 15s",
+    "Enhanced_Skin": "1d 56m 57s",
+    "Standard": "1d 14h 23m",
+    "Standard_Skin": "1d 10h 32m 42s"
+  },
+  "Likes": [
+    "Mi",
+    "Cranchee",
+    "Spatial Sapling",
+    "Beeyoot Tree",
+    "Bass String Bridge"
+  ],
+  "Combinations to Breed": [
+    "Cataliszt + Strombonin",
+    "Riff + Fwog"
+  ]
+}

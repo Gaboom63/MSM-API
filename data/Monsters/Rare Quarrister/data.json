@@ -1,0 +1,39 @@
+{
+  "Name": "Rare Quarrister",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Cold"
+  ],
+  "Islands": [
+    "earth",
+    "gold",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Rare Quarrister",
+    "description": "The Rare Quarrister's body is composed of many different types of minerals and is encrusted with unusual crystals normally found all over the multiverse. Even though its individual heads all have different origins, this Earth Boss rocks just as equally as the Common Monster. The Rare Quarrister proudly celebrates diversity and inclusion, and proves that putting heads together with positive energy can achieve great harmony."
+  },
+  "Costs": {
+    "name": "Rare Quarrister",
+    "diamond_cost": "200",
+    "starpower_cost": "5000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Quarrister",
+    "Squeed Statue",
+    "Castanevine",
+    "Tub Fountain"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

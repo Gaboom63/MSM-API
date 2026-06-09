@@ -1,0 +1,43 @@
+{
+  "Name": "Furnoss",
+  "Elements": [
+    "Celestial"
+  ],
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Furnoss",
+    "description": "Upon its revival, Furnoss sensed that once-bright flame of the Fire Element had dimmed to a faint ember. The fiercely devoted Celestial of Fire recalled that even the tiniest of sparks can be reignited and began to drum diligently, its resounding beat stoking the flames of hope within all Fire Elementals. With the Fire Element beginning to glow again, Furnoss now stores the Monster World's excess embers in its Bakery-like tummy. It has rescued countless turkey dinners from burnt ends in the process."
+  },
+  "Costs": {
+    "name": "Furnoss",
+    "key_cost": "25",
+    "diamond_cost": "85"
+  },
+  "Celestial Inventory": {
+    "Cost": "25 Keys",
+    "Inventory": {
+      "Barrb": 3,
+      "Cybop": 2,
+      "Dandidoo": 2,
+      "Floogull": 4,
+      "Flowah": 5,
+      "Glowl": 7,
+      "Kayna": 15,
+      "Noggin": 25,
+      "Potbelly": 10,
+      "Reedling": 3,
+      "Repatillo": 3,
+      "Shrubb": 3,
+      "Stogg": 5,
+      "Tring": 2,
+      "Tweedle": 5
+    },
+    "Time Limit": "25 days",
+    "Total Eggs": "94"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ]
+}

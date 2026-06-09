@@ -1,0 +1,45 @@
+{
+  "Name": "Rare Dandidoo",
+  "Elements": [
+    "Air",
+    "Plant"
+  ],
+  "Islands": [
+    "cold",
+    "water",
+    "earth",
+    "colossingum",
+    "gold",
+    "haven",
+    "tribal",
+    "composer",
+    "mirror cold",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Rare Dandidoo",
+    "description": "Unlike the two minds of its distant Quibble relative, the Rare Dandidoo is only governed by a single intelligence, albeit split between two heads. If one peers closely enough, ideas and thoughts can actually be witnessed hopping between the Monster's cerulean Dandiflorets. Rare Dandidoos are said to have the most boundless imaginations in all Monsterdom... although they're particularly fixated on the idea of Ghazts in hats, for some reason."
+  },
+  "Costs": {
+    "name": "Rare Dandidoo",
+    "diamond_cost": "40",
+    "starpower_cost": "1500"
+  },
+  "Breeding Times": {
+    "Enhanced": "7h 52m 30s",
+    "Enhanced_Skin": "6h 49m 30s",
+    "Standard": "10h 30m",
+    "Standard_Skin": "9h 27m"
+  },
+  "Likes": [
+    "Dandidoo",
+    "Fire Bush",
+    "Piney Tree",
+    "Ambered Thing",
+    "Rare Cybop"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Potbelly"
+  ]
+}

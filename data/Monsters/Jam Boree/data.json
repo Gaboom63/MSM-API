@@ -1,0 +1,33 @@
+{
+  "Name": "Jam Boree",
+  "Elements": [
+    "Anniversary Month"
+  ],
+  "Islands": [
+    "gold",
+    "seasonal"
+  ],
+  "Description": {
+    "name": "Jam Boree",
+    "description": "To say that the Seasonal Shanty is Jam-packed with goodwill and jubilation would be accurate, and that's largely thanks to the presence of the Jam Boree! For many years, the self-styled leader of the Shanty has taken it upon itself to try to organize the Seasonal trappings that festoon every corner of the floating hideaway. It's a very patient Monster, who looks forward every year to Anniversary Month when it throws a huge party for the migratory Seasonals coming home to roost! Jam Boree appreciates when Treats other than Cake are served at such shindigs."
+  },
+  "Costs": {
+    "name": "Jam Boree",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 6h 18m",
+    "Enhanced_Skin": "1d 2h 15m 36s",
+    "Standard": "1d 16h 24m",
+    "Standard_Skin": "1d 12h 21m 36s"
+  },
+  "Likes": [
+    "Spurrit",
+    "Thumpies Totem",
+    "Dragon Tower",
+    "Ambered Thing"
+  ],
+  "Combinations to Breed": [
+    "Punkleton + Hoola"
+  ]
+}

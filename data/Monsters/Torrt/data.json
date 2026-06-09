@@ -1,0 +1,40 @@
+{
+  "Name": "Torrt",
+  "Elements": [
+    "Celestial"
+  ],
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Torrt",
+    "description": "Torrt is the rock that all Earth Elementals lean on: dependable, unwavering, and grounded. The steady beat of its drum actively defies the laws of physics, resonating throughout the Monster World and within each Earth Elemental regardless of distance or acoustics. This enduring rhythm has been harnessed by the Monsters for many surprising purposes, including lulling rambunctious young Monsters to sleep."
+  },
+  "Costs": {
+    "name": "Torrt",
+    "key_cost": "7",
+    "diamond_cost": "175"
+  },
+  "Celestial Inventory": {
+    "Cost": "7 Keys",
+    "Inventory": {
+      "Clamble": 2,
+      "Cybop": 6,
+      "Drumpler": 6,
+      "Fwog": 4,
+      "Noggin": 50,
+      "PomPom": 3,
+      "Pummel": 2,
+      "Quarrister": 1,
+      "Reedling": 2,
+      "Scups": 1,
+      "Shrubb": 4,
+      "T-Rox": 6
+    },
+    "Time Limit": "7 days",
+    "Total Eggs": "87"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ]
+}

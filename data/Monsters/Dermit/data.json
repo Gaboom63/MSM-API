@@ -1,0 +1,32 @@
+{
+  "Name": "Dermit",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Dermit",
+    "description": "The shy and unsightly Dermit harbors clusters of itchy warts all over its skin, but what is an occasional nuisance for the Wublin is the great boon for mushrooms of all varieties. As quickly as the Monster can scratch away new growths with its long nails, there's more where that came from. Oh well, spontaneous singing is as good a salve as any!"
+  },
+  "Costs": {
+    "name": "Dermit",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "17,000",
+    "Inventory": {
+      "Entbrat": 3,
+      "Fwog": 12,
+      "Quarrister": 3,
+      "Scups": 4,
+      "Thumpies": 4
+    },
+    "Time Limit": "None",
+    "Total Eggs": "26"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

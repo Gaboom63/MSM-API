@@ -1,0 +1,52 @@
+{
+  "Name": "Rare Kayna",
+  "Elements": [
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "oasis",
+    "light",
+    "psychic",
+    "faerie",
+    "bone",
+    "amber",
+    "mirror light",
+    "mirror psychic",
+    "mirror faerie",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Rare Kayna",
+    "description": "Bearers of the oldest Element of all, Rare Kaynas are an ancient breed from which all their Common cousins have sprung. Their intricate, tattoo-like carvings are bestowed upon them with great honor to represent their impressive age and growing wisdom, eon after eon; you can imagine that the oldest Rare Kaynas are quite a sight! Yet no matter how old the original Fire Rare gets, the burning glow of the Fire Element never dims."
+  },
+  "Costs": {
+    "name": "Rare Kayna",
+    "diamond_cost": "150",
+    "starpower_cost": "1500"
+  },
+  "Breeding Times": {
+    "Enhanced": "6h",
+    "Enhanced_Skin": "5h 12m",
+    "Standard": "8h",
+    "Standard_Skin": "7h 12m"
+  },
+  "Likes": [
+    "Noggin",
+    "Mammott",
+    "Toe Jammer",
+    "Tweedle",
+    "Potbelly",
+    "Kayna",
+    "Fluoress",
+    "Theremind",
+    "Floot Fly",
+    "Clackula",
+    "Yelmut",
+    "PongPing",
+    "Candelavra"
+  ],
+  "Combinations to Breed": [
+    "Any Two Triples"
+  ]
+}

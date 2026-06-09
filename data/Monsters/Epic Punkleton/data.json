@@ -1,0 +1,38 @@
+{
+  "Name": "Epic Punkleton",
+  "Elements": [
+    "Spooktacle"
+  ],
+  "Islands": [
+    "plant",
+    "gold",
+    "seasonal",
+    "mirror plant"
+  ],
+  "Description": {
+    "name": "Epic Punkleton",
+    "description": "It may be the most Epic branch in a spidery family tree of scare-masters, but Epic Punkleton just wants to be loved by the masses! This Monster thespian longs to give a performance that elicits a standing ovation from its adoring audience - not screams of terror. It is no stranger to Plant Island's wardrobe department, where it tests out various costume pieces and facial carvings in an effort to appear more relatable to its fellow Monsters."
+  },
+  "Costs": {
+    "name": "Epic Punkleton",
+    "plant_diamond_cost": "1000",
+    "seasonal_diamond_cost": "1225"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 22m 30s",
+    "Enhanced_Skin": "20h 15m 30s",
+    "Standard": "1d 7h 10m",
+    "Standard_Skin": "1d 4h 3m"
+  },
+  "Likes": [
+    "Inverdigus Cemetery",
+    "Creepy Cauldron",
+    "Smunk-o-Lantern Patch",
+    "Frightful Fripperies",
+    "Epic Yool"
+  ],
+  "Combinations to Breed": [
+    "Schmoochle + Blabbit",
+    "Entbrat + Drumpler"
+  ]
+}

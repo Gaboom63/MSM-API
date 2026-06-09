@@ -1,0 +1,47 @@
+{
+  "Name": "Dwumrohl",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Dwumrohl",
+    "description": "The Dwumrohl is armed to the teeth. Yet because they are so well-concealed by its feathers, it remains a mystery as to just how many arms the Dwumrohl has. This adroit percussionist has immaculate rhythm and can keep the beat alive with four, five, or even six arms behind its back."
+  },
+  "Costs": {
+    "name": "Dwumrohl",
+    "cost": "5000"
+  },
+  "Likes": [
+    "Zuuker"
+  ],
+  "Wublin Inventory": {
+    "Cost": "34,000",
+    "Inventory": {
+      "Bowgart": 4,
+      "Congle": 4,
+      "Deedge": 3,
+      "Entbrat": 3,
+      "Mammott": 8,
+      "Noggin": 8,
+      "Pompom": 4,
+      "Potbelly": 4,
+      "Pummel": 4,
+      "Quarrister": 3,
+      "Reedling": 4,
+      "Riff": 3,
+      "Scups": 2,
+      "Shellbeat": 3,
+      "Thumpies": 2,
+      "Toe Jammer": 8,
+      "Tweedle": 4
+    },
+    "Time Limit": "None",
+    "Total Eggs": "71"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Name": "Epic Fleechwurm",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Epic Fleechwurm",
+    "description": "Steptanium is the construction material of choice for both the Wubbox and Clubbox, due to its ability to easily conduct Electricity, as well as its unique metaphysical quality of containing vast, almost inconceivably-sized spaces within. When it came time to design the Epic Fleechwurm, the Wubbox chose to utilize a rare Steptanium alloy to bring to life an ornate work of art, with tinted glass highlights for good measure."
+  },
+  "Costs": {
+    "name": "Fleechwurm",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "5",
+    "Inventory": {
+      "Epic Dandidoo": 1,
+      "Epic Furcorn": 1,
+      "Epic Phangler": 1,
+      "Epic Pummel": 1,
+      "Epic Quarrister": 1,
+      "Epic Reedling": 1,
+      "Epic Shellbeat": 1,
+      "Epic Spunge": 1
+    },
+    "Time Limit": "None",
+    "Total Eggs": "8"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

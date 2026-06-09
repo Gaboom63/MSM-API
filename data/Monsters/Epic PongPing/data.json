@@ -1,0 +1,40 @@
+{
+  "Name": "Epic PongPing",
+  "Elements": [
+    "Plant",
+    "Earth",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "bone",
+    "amber",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Epic PongPing",
+    "description": "Epic PongPing is a renowned sorcerer feared by many for its proficiency in the 'dark arts.' If only other Monsters understood that this particular school of spellcasting is only useful for turning the lights off when you leave a room! The Epic channels its magical power through its two paddles made of its excess brain matter. The spell resonates into existence upon striking the Monster's inflatable cheeks, snuffing out nearby candles and blacking out all light in an instant. Once the lights are off, Epic PongPing can finally feel at home and reminisce about the cool, dark caves where it learned its first spell from a mysterious mentor. In the privacy of the dark, it is free to practice its twin hobbies of physical fitness and song in peace."
+  },
+  "Costs": {
+    "name": "Epic PongPing",
+    "diamond_cost": "1250"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 11h 15m",
+    "Enhanced_Skin": "1d 6h 33m",
+    "Standard": "1d 23h",
+    "Standard_Skin": "1d 18h 18m"
+  },
+  "Likes": [
+    "Stogg",
+    "Bisonorus",
+    "Floogull",
+    "Incisaur",
+    "Miniature Island Complex",
+    "Piney Tree",
+    "The Thunker"
+  ],
+  "Combinations to Breed": [
+    "Pladdie + Floot Fly"
+  ]
+}

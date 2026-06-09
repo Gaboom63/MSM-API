@@ -1,0 +1,47 @@
+{
+  "Name": "Tweedle",
+  "Elements": [
+    "Air"
+  ],
+  "Islands": [
+    "cold",
+    "air",
+    "water",
+    "earth",
+    "colossingum",
+    "gold",
+    "haven",
+    "oasis",
+    "tribal",
+    "composer",
+    "mirror cold",
+    "mirror air",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Tweedle",
+    "description": "Tweedles are nothing but Air! These flighty creatures really get around, and see themselves as fashionable and popular. Tweedles love to spread whispers and gossip, keeping the social life on their island very interesting."
+  },
+  "Costs": {
+    "name": "Tweedle",
+    "coin_cost": "300",
+    "colossingum_diamond_cost": "25",
+    "composer_coin_cost": "2000"
+  },
+  "Breeding Times": {
+    "Enhanced": "3h",
+    "Enhanced_Skin": "2h 36m",
+    "Standard": "4h",
+    "Standard_Skin": "3h 36m"
+  },
+  "Likes": [
+    "Cybop",
+    "Bowgart",
+    "Wynq",
+    "Reflecting Pool",
+    "Razzli Tree",
+    "Harpsitree",
+    "Potbelly"
+  ]
+}

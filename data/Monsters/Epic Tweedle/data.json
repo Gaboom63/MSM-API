@@ -1,0 +1,51 @@
+{
+  "Name": "Epic Tweedle",
+  "Elements": [
+    "Air"
+  ],
+  "Islands": [
+    "cold",
+    "air",
+    "water",
+    "earth",
+    "colossingum",
+    "gold",
+    "haven",
+    "oasis",
+    "tribal",
+    "composer",
+    "mirror cold",
+    "mirror air",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Epic Tweedle",
+    "description": "Some say that the Epic Tweedle got a little mixed up in the breeding process. Feet for horns (or horns for feet?), a missing beak, too many eyes, plumeless wings - it all comes together to create an unsettling Epic that lacks the feathery charm of its Common cousin. However, once this avian anomaly hits you with its gummy smile, your heart is sure to be won over in an instant."
+  },
+  "Costs": {
+    "name": "Epic Tweedle",
+    "diamond_cost": "250"
+  },
+  "Breeding Times": {
+    "Enhanced": "8h 15m",
+    "Enhanced_Skin": "7h 9m",
+    "Standard": "11h",
+    "Standard_Skin": "9h 54m"
+  },
+  "Likes": [
+    "Swurlee Tree",
+    "Spatial Sapling",
+    "Mi",
+    "Ockulo Tree",
+    "Epic Potbelly"
+  ],
+  "Combinations to Breed": [
+    "Deedge + Dandidoo",
+    "Riff + Cybop",
+    "Shellbeat + Quibble",
+    "Quarrister + Pango",
+    "Tring + Shrubb",
+    "Sneyser + Maw"
+  ]
+}

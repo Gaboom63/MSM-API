@@ -1,0 +1,38 @@
+{
+  "Name": "Monculus",
+  "Elements": [
+    "Life-Formula"
+  ],
+  "Islands": [
+    "ethereal",
+    "seasonal",
+    "wublin"
+  ],
+  "Description": {
+    "name": "Monculus",
+    "description": "Back when the Monster World was new, the Colossals pioneered a special process called Life-Formula: the imbuement of vitalizing energies into sculptures of fantastical creatures, plucked right from the giant spirits' imaginations. In this way would the nascent reality be populated, and the Monculus was among the very first prototype Singing Monsters awakened by the so-called 'spark of life.' Fashioned from Bubblerite, the versatile building material favored most by the Colossals, its moving parts are manipulated by the rare plasmic form of Krystillium, the first-ever Crystal to be created. Initially pocket-sized, it can grow to imposing heights to sputter out its hauntingly beautiful refrain."
+  },
+  "Costs": {
+    "name": "Monculus",
+    "ethereal_diamond_cost": "225",
+    "seasonal_diamond_cost": "500",
+    "wublin_coin_cost": "225000"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h 3m",
+    "Enhanced_Skin": "13h 2m 36s",
+    "Standard": "20h 4m",
+    "Standard_Skin": "18h 3m 36s"
+  },
+  "Likes": [
+    "Dragong",
+    "Gobbleygourd",
+    "Barbloo Statue",
+    "Meldablend",
+    "Mountain Morsel"
+  ],
+  "Combinations to Breed": [
+    "Nebulob + Jeeode",
+    "Yool +  Hoola"
+  ]
+}

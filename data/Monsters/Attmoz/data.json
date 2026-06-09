@@ -1,0 +1,40 @@
+{
+  "Name": "Attmoz",
+  "Elements": [
+    "Celestial"
+  ],
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Attmoz",
+    "description": "The Attmoz has long dreamt of strumming the strings of a physical instrument like its Celestial cousin Scaratar. Unfortunately this virtuoso suffers from a lack of binocular depth perception, making fine motor skills a challenge. Remaining as flexible and fluid air, this one-eyed wonder has risen above its limitations and adapted an instrument that harnesses the very essence of the element it reigns over. The Air Celestial's strength in the face of adversity has made it a symbol of perseverance for all Air Elementals."
+  },
+  "Costs": {
+    "name": "Attmoz",
+    "key_cost": "12",
+    "diamond_cost": "75"
+  },
+  "Celestial Inventory": {
+    "Cost": "12 Keys",
+    "Inventory": {
+      "Congle": 2,
+      "Cybop": 8,
+      "Dandidoo": 5,
+      "Pango": 6,
+      "PomPom": 3,
+      "Quibble": 6,
+      "Reedling": 1,
+      "Riff": 3,
+      "Scups": 2,
+      "Spunge": 2,
+      "Thumpies": 2,
+      "Tweedle": 25
+    },
+    "Time Limit": "12 days",
+    "Total Eggs": "65"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ]
+}

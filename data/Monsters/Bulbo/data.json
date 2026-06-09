@@ -1,0 +1,36 @@
+{
+  "Name": "Bulbo",
+  "Elements": [
+    "Cold",
+    "Light"
+  ],
+  "Islands": [
+    "Light",
+    "Nexus",
+    "Mirror Light"
+  ],
+  "Description": {
+    "name": "Bulbo",
+    "description": "Don't be creeped out by the creepy-crawly Bulbo if you spy its strange glow in the dead of night! This Light hybrid produces its eye-popping shine from its posterior bulb, a stunning piece of glasswork powered by the kinetic energy of its stridulatory organs. To maximize the impact of its radiant rump, Bulbos slink about in the dark, bulging their eyes to observe the expression of its listeners in the dimness... whether that expression is one of shock or awe."
+  },
+  "Costs": {
+    "name": "Bulbo",
+    "diamond_cost": "150"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 15m",
+    "Enhanced_Skin": "17h 33m",
+    "Standard": "1d 3h",
+    "Standard_Skin": "1d 18m"
+  },
+  "Likes": [
+    "Kayna",
+    "Thumpies Totem",
+    "Crumpler Tree",
+    "Zuffle Tree",
+    "Squot"
+  ],
+  "Combinations to Breed": [
+    "Mammott + Fluoress"
+  ]
+}

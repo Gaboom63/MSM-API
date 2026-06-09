@@ -1,0 +1,53 @@
+{
+  "Name": "Oaktopus",
+  "Elements": [
+    "Plant",
+    "Water"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "water",
+    "shugabush",
+    "colossingum",
+    "gold",
+    "psychic",
+    "tribal",
+    "composer",
+    "mirror plant",
+    "mirror cold",
+    "mirror water",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Oaktopus",
+    "description": "This amphibious hybrid of Plant and Water is comfortable in any environment. The Monster's 'roots' are actually powerful tentacles that carry the Oaktopus rapidly across landscapes, and propel it efficiently through water."
+  },
+  "Costs": {
+    "name": "Oaktopus",
+    "diamond_cost": "30",
+    "shugabush_diamond_cost": "300",
+    "colossingum_diamond_cost": "35",
+    "composer_coin_cost": "4000"
+  },
+  "Breeding Times": {
+    "Enhanced": "6h",
+    "Enhanced_Skin": "5h 12m",
+    "Standard": "8h",
+    "Standard_Skin": "7h 12m"
+  },
+  "Likes": [
+    "Fwog",
+    "Thumpies",
+    "Clamble",
+    "Rootitoot",
+    "Shugabass",
+    "Reflecting Pool",
+    "Trumplite",
+    "Spurrit Statue",
+    "Furcorn"
+  ],
+  "Combinations to Breed": [
+    "Potbelly + Toe Jammer"
+  ]
+}

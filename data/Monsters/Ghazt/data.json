@@ -1,0 +1,49 @@
+{
+  "Name": "Ghazt",
+  "Elements": [
+    "Plasma"
+  ],
+  "Islands": [
+    "plant",
+    "colossingum",
+    "ethereal",
+    "composer",
+    "mirror plant",
+    "plasma"
+  ],
+  "Description": {
+    "name": "Ghazt",
+    "description": "The extraordinary Ghazt only manifests itself when conditions are absolutely perfect. Imbued with the Ethereal power of Plasma, its sleek frame and ability to become intangible are ideal for slipping in and out of places unnoticed. However, these traits also make it vulnerable to accidental interdimensional travel. It plays well with the other Monsters, but just like a cat, it sometimes prefers to be alone... or in the company of others of its kind."
+  },
+  "Costs": {
+    "name": "Ghazt",
+    "plasma_diamond_cost": "1000",
+    "colossingum_diamond_cost": "1050",
+    "ethereal_diamond_cost": "1500",
+    "composer_coin_cost": "2000",
+    "dish-harmonizer_shard_cost": "4000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 3h",
+    "Enhanced_Skin": "23h 24m",
+    "Standard": "1d 12h",
+    "Standard_Skin": "1d 8h 24m"
+  },
+  "Likes": [
+    "Entbrat",
+    "Whisp",
+    "Blarret",
+    "Auglur",
+    "Flasque",
+    "Babayag Tower",
+    "Squeed Statue",
+    "Crumpler Tree",
+    "Grumpyre"
+  ],
+  "Combinations to Breed": [
+    "Entbrat + Clamble",
+    "Entbrat + Bowgart",
+    "Entbrat + T-Rox",
+    "Entbrat + Pummel"
+  ]
+}

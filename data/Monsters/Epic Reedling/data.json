@@ -1,0 +1,37 @@
+{
+  "Name": "Epic Reedling",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth"
+  ],
+  "Islands": [
+    "water",
+    "earth",
+    "gold",
+    "haven",
+    "mirror water",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Epic Reedling",
+    "description": "Reedlings have a hard time controlling their body temperature. So what's a Monster to do when it inhabits both stifling heat and chilly depths? In true Reedling fashion, you evolve special organs, of course! Epic Reedlings harness the air expelled from their rogue toots with special chitinous carapaces and cable-like tubing that channel it into hot or cool air that circulates across its body."
+  },
+  "Costs": {
+    "name": "Epic Reedling",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "12h 45m",
+    "Enhanced_Skin": "11h 3m",
+    "Standard": "17h",
+    "Standard_Skin": "15h 18m"
+  },
+  "Likes": [
+    "Mi",
+    "Innertuba",
+    "Reflecting Pool",
+    "Spatial Sapling",
+    "Epic Spunge"
+  ]
+}

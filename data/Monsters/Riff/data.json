@@ -1,0 +1,43 @@
+{
+  "Name": "Riff",
+  "Elements": [
+    "Air",
+    "Earth",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "air",
+    "colossingum",
+    "gold",
+    "tribal",
+    "composer",
+    "mirror air"
+  ],
+  "Description": {
+    "name": "Riff",
+    "description": "Riffs are masterful musicians. Very little is known about these complex Monsters, but they do have some distinct and unusual habits. For example, Riffs use their flexible toes to select random objects from the ground which they inspect, then eat."
+  },
+  "Costs": {
+    "name": "Riff",
+    "diamond_cost": "150",
+    "colossingum_diamond_cost": "165",
+    "composer_coin_cost": "16000"
+  },
+  "Breeding Times": {
+    "Enhanced": "18h",
+    "Enhanced_Skin": "15h 36m",
+    "Standard": "1d",
+    "Standard_Skin": "21h 36m"
+  },
+  "Likes": [
+    "Toe Jammer",
+    "Crumpler Tree",
+    "Bass String Bridge",
+    "Leafy Sea Dragon"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

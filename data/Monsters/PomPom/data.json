@@ -1,0 +1,49 @@
+{
+  "Name": "PomPom",
+  "Elements": [
+    "Air",
+    "Earth",
+    "Cold"
+  ],
+  "Islands": [
+    "air",
+    "earth",
+    "shugabush",
+    "colossingum",
+    "gold",
+    "tribal",
+    "composer",
+    "mirror air",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "PomPom",
+    "description": "The PomPom grows brilliant pink plumes by eating only foods that are red. The pelt may grow to be very long. While dancing and emitting its strident cry, the PomPom is an arresting sight."
+  },
+  "Costs": {
+    "name": "PomPom",
+    "diamond_cost": "50",
+    "colossingum_diamond_cost": "60",
+    "shugabush_diamond_cost": "500",
+    "composer_coin_cost": "8000"
+  },
+  "Breeding Times": {
+    "Enhanced": "9h",
+    "Enhanced_Skin": "7h 48m",
+    "Standard": "12h",
+    "Standard_Skin": "10h 48m"
+  },
+  "Likes": [
+    "Fwog",
+    "Dandidoo",
+    "Shugarock",
+    "Directions to Nowhere",
+    "Toob",
+    "Bottomless Pit"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Drumpler",
+    "Noggin + Pango",
+    "Mammott + Cybop"
+  ]
+}

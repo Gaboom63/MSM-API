@@ -1,0 +1,49 @@
+{
+  "Name": "Fwog",
+  "Elements": [
+    "Earth",
+    "Water"
+  ],
+  "Islands": [
+    "plant",
+    "air",
+    "water",
+    "colossingum",
+    "gold",
+    "bone",
+    "tribal",
+    "composer",
+    "mirror plant",
+    "mirror air",
+    "mirror water",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Fwog",
+    "description": "Emerging from its muddy birthplace, the Fwog sings passionately in the hope of attracting a companion. Its hypnotic call fills the air, stirring the most primal feelings of excitement in all Monsters."
+  },
+  "Costs": {
+    "name": "Fwog",
+    "diamond_cost": "30",
+    "colossingum_diamond_cost": "35",
+    "composer_coin_cost": "4000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22m 30s",
+    "Enhanced_Skin": "19m 30s",
+    "Standard": "30m",
+    "Standard_Skin": "27m"
+  },
+  "Likes": [
+    "Mammott",
+    "PomPom",
+    "Oaktopus",
+    "Banjaw",
+    "Fire Bush",
+    "Reflecting Pool",
+    "Spurrit Statue"
+  ],
+  "Combinations to Breed": [
+    "Noggin + Toe Jammer"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "Name": "Adult Syncopite",
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Adult Syncopite",
+    "description": "Patience has been rewarded for the bejeweled adult Syncopite, who has finally grown enough crystals to form them into the individual articulated elements of hands. Fearing that someday they may fuse to its stocky body, the middle-aged Celestial of Crystal wastes no time in waving its hands around and wildly gesticulating while performing. Its reach is not limitless, however; asked whether it can extend to scratch the top of its 'head', Syncopite replies: 'Can't touch this.'"
+  },
+  "Costs": {
+    "name": "Adult Syncopite",
+    "key_cost": "10"
+  },
+  "Celestial Inventory": {
+    "Cost": "10 Keys",
+    "Inventory": {
+      "Banjaw": 2,
+      "Clackula": 5,
+      "Cybop": 3,
+      "Dandidoo": 3,
+      "Denchuhs": 3,
+      "Flex": 3,
+      "Fwog": 3,
+      "Hawlo": 3,
+      "Oaktopus": 3,
+      "Peckidna": 3,
+      "Plinkajou": 1,
+      "Pummel": 2,
+      "Quibble": 3,
+      "Reedling": 2,
+      "Scups": 2,
+      "Shellbeat": 1,
+      "Shrubb": 3,
+      "Spunge": 2,
+      "Spurrit": 1,
+      "Uuduk": 2,
+      "Withur": 2
+    },
+    "Time Limit": "31 days (May 1st 3:00pm UTC to June 1st 3:00pm UTC)",
+    "Total Eggs": "52"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ],
+  "Elements": [
+    "Celestial"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "Name": "Rare Boodoo",
+  "Elements": [
+    "Shadow",
+    "Crystal"
+  ],
+  "Islands": [
+    "ethereal",
+    "colossingum"
+  ],
+  "Description": {
+    "name": "Rare Boodoo",
+    "description": "Boodoos in general are weird, but the Rares of this species exceptionally so. It's not clear whether the third eye revealed by their tusked masks is unique to these Rarethereals, or secretly shared by all Boodoos. They turn everything they find into so-called 'Boodoo dolls,' which they delight in gifting to their reluctant cohorts. Despite their wild, flailing dance, these Monsters manage to frighten absolutely no one - except each other."
+  },
+  "Costs": {
+    "name": "Rare Boodoo",
+    "ethereal_diamond_cost": "2000",
+    "shadow_diamond_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 22m 30s",
+    "Enhanced_Skin": "1d 10h 7m 30s",
+    "Standard": "2d 4h 30m",
+    "Standard_Skin": "1d 23h 15m"
+  },
+  "Likes": [
+    "Boodoo",
+    "Rare Meebkin",
+    "Pipes of Cicado",
+    "Eerie Remains",
+    "Tree Hut",
+    "Rare Kazilleon"
+  ],
+  "Combinations to Breed": [
+    "Grumpyre + Jeeode"
+  ]
+}

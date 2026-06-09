@@ -1,0 +1,44 @@
+{
+  "Name": "Blarret",
+  "Elements": [
+    "Plasma",
+    "Shadow",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop",
+    "plasma"
+  ],
+  "Description": {
+    "name": "Blarret",
+    "description": "Right after it's synthesized, the Ethereal Blarret only has one functioning mouth: the top one attached to the rest of its face. Once it's a little older, the Monster's secondary and tertiary mouths learn to sing with preternatural speed… although a non-trivial amount of discipline and concentration is required to make sure they all sing in the right order. After a while though, the reflex becomes 'otama-tic.' Blarrets love getting their triple chins scratched by an Auglur's digital claws - although in the case of the two lower mouths, it's more like a neck scratch?"
+  },
+  "Costs": {
+    "name": "Blarret",
+    "ethereal_diamond_cost": "1700",
+    "shadow_diamond_cost": "3000",
+    "shard_cost": "2500",
+    "dish-harmonizer_shard_cost": "6000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 30m",
+    "Enhanced_Skin": "19h 30m",
+    "Standard": "1d 6h",
+    "Standard_Skin": "1d 3h"
+  },
+  "Likes": [
+    "Auglur",
+    "Ghazt",
+    "Grumpyre",
+    "Whisp",
+    "Jellbilly",
+    "Kazilleon",
+    "Boodoo",
+    "Toob",
+    "Thumpies Totem",
+    "Directions to Nowhere"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "Name": "Epic Barrb",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "amber"
+  ],
+  "Description": {
+    "name": "Epic Barrb",
+    "description": "Look no further than the Epic forms of Barrb and Flowah for irrefutable evidence of the two Monsters' genetic connection. Building upon the efflorescence of its Rare cousin, the Epic Barrb is practically one big flower. Externally, the Monster is overall less pointy, but the 'sharpness' of this species is still intact - it just attacks the sense of smell, instead of touch. A pungent odor that calls to mind the worst cooking you've ever had is released from its forehead and elbows, and even if you plug your nose, you'll still be affected. Sensing an opportunity, the Epic Barrb holds occasional raffles where the prize is a specialized noseguard that blocks out the odor (that only this Fire Monster knows how to craft). That way, Monsters still have the opportunity to socialize with it... Justice for Barrb!"
+  },
+  "Costs": {
+    "name": "Epic Barrb",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 5h 15m",
+    "Enhanced_Skin": "1d 1h 21m",
+    "Standard": "1d 15h",
+    "Standard_Skin": "1d 11h 6m"
+  },
+  "Likes": [
+    "Re",
+    "Phangler",
+    "Rootitoot",
+    "Sneyser",
+    "Whaddle",
+    "Freed Thing",
+    "Kab's Wax",
+    "Striking Bulbs",
+    "Epic Floogull"
+  ],
+  "Combinations to Breed": [
+    "Floogull + Shrubb"
+  ]
+}

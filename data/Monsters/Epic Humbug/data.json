@@ -1,0 +1,36 @@
+{
+  "Name": "Epic Humbug",
+  "Elements": [
+    "Poison"
+  ],
+  "Islands": [
+    "earth",
+    "ethereal",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Epic Humbug",
+    "description": "If Rare Humbugs are givers (roguishly delivering their venom into Torchle Trees), then Epic Humbugs are most certainly takers! Their elongated mouthparts are used to drain tropical fruits of their nectar… wait, what did you think they were for? In the Humbug family, the Epics are the most adept at navigating the supersonic dimensional highways their wings can open, thanks to special organs on their bodies called halteres. Much more than simply providing information about the Monsters' position in real space, they can detect weaknesses in the fabric of reality and form wormholes to even the most inaccessible dimensions."
+  },
+  "Costs": {
+    "name": "Epic Humbug",
+    "earth_diamond_cost": "2250",
+    "ethereal_diamond_cost": "2550"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d",
+    "Enhanced_Skin": "20h 48m",
+    "Standard": "1d 8h",
+    "Standard_Skin": "1d 4h 48m"
+  },
+  "Likes": [
+    "Re",
+    "Striking Bulbs",
+    "Dragoon Statue",
+    "Bloofi Tree"
+  ],
+  "Combinations to Breed": [
+    "Clamble + Cybop",
+    "Whisp + Bellowfish"
+  ]
+}

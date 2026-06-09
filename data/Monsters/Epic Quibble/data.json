@@ -1,0 +1,50 @@
+{
+  "Name": "Epic Quibble",
+  "Elements": [
+    "Air",
+    "Water"
+  ],
+  "Islands": [
+    "cold",
+    "air",
+    "water",
+    "shugabush",
+    "gold",
+    "oasis",
+    "mirror cold",
+    "mirror air",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Epic Quibble",
+    "description": "(This? THIS is Epic Quibble? You're sure? Okay...)  AHEM! The Epic Quibble is a mystifying creature that... that... UGH! We give up. If you want to research this thing, be our guest."
+  },
+  "Costs": {
+    "name": "Epic Quibble",
+    "diamond_cost": "150",
+    "shugabush_diamond_cost": "600"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h 45m",
+    "Enhanced_Skin": "13h 39m",
+    "Standard": "21h",
+    "Standard_Skin": "18h 54m"
+  },
+  "Likes": [
+    "Bowgart",
+    "T-Rox",
+    "Reedling",
+    "Woolabee",
+    "Shugajo",
+    "Bloofi Tree",
+    "Striking Bulbs",
+    "Givutawai Tree"
+  ],
+  "Combinations to Breed": [
+    "Shugabush + PomPom",
+    "Congle + Dandidoo",
+    "Scups + Maw",
+    "Spunge + Shrubb",
+    "Wynq + Pango"
+  ]
+}

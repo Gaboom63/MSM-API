@@ -1,0 +1,43 @@
+{
+  "Name": "Adult Blasoom",
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Adult Blasoom",
+    "description": "For an Element with strong ties to forward-thinking concepts like rebirth and renewal, the adult Blasoom sure spends a lot of time thinking about the past. Specifically, the Plant Celestial fancies itself an aficionado of something called the Middle C Ages (no one's sure what that's in reference to). Its enthusiasm as a history buff knows no limits; it styles its growing facial ferns to resemble ancient heaumes (though it must be hard to see where you're going) and even organizes 'Renna-sawnts' fairs to march around at (one leg at a time)."
+  },
+  "Costs": {
+    "name": "Adult Blasoom",
+    "key_cost": "10"
+  },
+  "Celestial Inventory": {
+    "Cost": "10 Keys",
+    "Inventory": {
+      "Blabbit": 1,
+      "Bowgart": 2,
+      "Clamble": 2,
+      "Dandidoo": 3,
+      "Deedge": 2,
+      "Entbrat": 2,
+      "Flex": 4,
+      "Furcorn": 3,
+      "Oaktopus": 3,
+      "Pummel": 2,
+      "Quarrister": 2,
+      "Reedling": 2,
+      "Shellbeat": 2,
+      "Shrubb": 3,
+      "Spunge": 2,
+      "Thumpies": 2
+    },
+    "Time Limit": "30 days (April 1st 3:00pm UTC to May 1st 3:00pm UTC)",
+    "Total Eggs": "37"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ],
+  "Elements": [
+    "Celestial"
+  ]
+}

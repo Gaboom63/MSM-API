@@ -1,0 +1,40 @@
+{
+  "Name": "Epic Thrumble",
+  "Elements": [
+    "Earth",
+    "Water",
+    "Fire"
+  ],
+  "Islands": [
+    "bone",
+    "amber",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Epic Thrumble",
+    "description": "Stories of sea creatures swirling in the ocean's unfathomable depths are as old as the Monster World itself. The Epic Thrumble, however, is a subspecies with a younger lineage, having only evolved since the formation of the Monstriana Trench. Possessing the Fire Element is a welcome advantage in a habitat that can be inhospitably toasty, especially where the Trench abuts the region of the former living core. Research still under review posits that this Epic is actually spliced with Glubber genetics, but it seems to borrow characteristics from other denizens of the deep as well, like Anemonons or Jlelljiggles."
+  },
+  "Costs": {
+    "name": "Epic Thrumble",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 15m",
+    "Enhanced_Skin": "20h 9m",
+    "Standard": "1d 7h",
+    "Standard_Skin": "1d 3h 54m"
+  },
+  "Likes": [
+    "Denchuhs",
+    "Flowah",
+    "Wynq",
+    "Yelmut",
+    "Bowhead",
+    "Elmenco Stump",
+    "Flappy Flag",
+    "Spatial Sapling"
+  ],
+  "Combinations to Breed": [
+    "Uuduk + Denchuhs"
+  ]
+}

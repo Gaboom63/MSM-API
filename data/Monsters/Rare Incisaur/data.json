@@ -1,0 +1,40 @@
+{
+  "Name": "Rare Incisaur",
+  "Elements": [
+    "Plant",
+    "Water",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "bone",
+    "amber",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Rare Incisaur",
+    "description": "Instead of saliva, the Rare Incisaur actually produces an unexpectedly potent venom that helps to break down its Treats before devouring them whole. Fortunately, if it's accidentally ingested by another Monster, the most severe side-effect is hiccups. Still - out of an abundance of caution, this Fire Rare flares out a hooded neck frill to warn others, especially when it wants to play fetch with a stick and its slobber invariably gets everywhere. We're glad it's not extinct!"
+  },
+  "Costs": {
+    "name": "Rare Incisaur",
+    "starpower_cost": "10000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 22m 30s",
+    "Enhanced_Skin": "1d 10h 7m 30s",
+    "Standard": "2d 4h 30m",
+    "Standard_Skin": "1d 23h 15m"
+  },
+  "Likes": [
+    "Incisaur",
+    "Glowl",
+    "Whaddle",
+    "Tiawa",
+    "Smunkit",
+    "Swurlee Tree",
+    "The Thunker"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

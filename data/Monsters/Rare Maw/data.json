@@ -1,0 +1,41 @@
+{
+  "Name": "Rare Maw",
+  "Elements": [
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "air",
+    "gold",
+    "oasis",
+    "mirror plant",
+    "mirror cold",
+    "mirror air"
+  ],
+  "Description": {
+    "name": "Rare Maw",
+    "description": "When comparing the Rare Maw to its pink Common cousin, it's tempting to classify this maroon ball of fur as... well, not a Maw at all. Sprouting spindly horns, a matted goatee and, of course, beady little eyes, this ain't your mama's Maw. It fancies itself a master hunter, tickling its quarry into submission with its horns. No one has plucked up the courage to tell the Rare Maw that Cupcakes can't run away anyhow. Please don't spoil its fun."
+  },
+  "Costs": {
+    "name": "Rare Maw",
+    "diamond_cost": "40",
+    "starpower_cost": "1500"
+  },
+  "Breeding Times": {
+    "Enhanced": "50m 37s",
+    "Enhanced_Skin": "43m 52s",
+    "Standard": "1h 7m 30s",
+    "Standard_Skin": "1h 45s"
+  },
+  "Likes": [
+    "Maw",
+    "Beeyoot Tree",
+    "Guitree",
+    "Zuffle Tree"
+  ],
+  "Combinations to Breed": [
+    "Toe Jammer + Mammott"
+  ]
+}

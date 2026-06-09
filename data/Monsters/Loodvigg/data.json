@@ -1,0 +1,43 @@
+{
+  "Name": "Loodvigg",
+  "Elements": [
+    "Celestial"
+  ],
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Loodvigg",
+    "description": "Loodvigg’s skeletal visage may suggest it lacks a pulse, but take the time to revive it, and you will find that the Celestial of Shadow is very much alive! This peculiar pianist is a role model for all startling Shadow Elementals that feel misunderstood by their peers. Though Loodvigg’s appearance may chill onlookers to the bone, inside lies a creative soul capable of elegant self-expression through the gentlest caress of its keys. Sadly, the occasional mood swing can lead the adolescent Celestial to be a little forceful with its keyboard - hence the braces."
+  },
+  "Costs": {
+    "name": "Loodvigg",
+    "key_cost": "8",
+    "diamond_cost": "160"
+  },
+  "Celestial Inventory": {
+    "Cost": "8 Keys",
+    "Inventory": {
+      "Bowgart": 5,
+      "Congle": 2,
+      "Dandidoo": 5,
+      "Deedge": 2,
+      "Furcorn": 6,
+      "Mammott": 25,
+      "Maw": 15,
+      "Oaktopus": 8,
+      "Pango": 2,
+      "Potbelly": 6,
+      "Quibble": 4,
+      "Spunge": 1,
+      "Thumpies": 2,
+      "Toe Jammer": 30,
+      "Tweedle": 8
+    },
+    "Time Limit": "8 days",
+    "Total Eggs": "121"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ]
+}

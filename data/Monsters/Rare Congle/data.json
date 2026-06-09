@@ -1,0 +1,46 @@
+{
+  "Name": "Rare Congle",
+  "Elements": [
+    "Air",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "cold",
+    "air",
+    "colossingum",
+    "gold",
+    "oasis",
+    "tribal",
+    "composer",
+    "mirror cold",
+    "mirror air"
+  ],
+  "Description": {
+    "name": "Rare Congle",
+    "description": "More so than any other Rare discovered to date, the Rare Congle is stupefyingly different from its Common counterpart. Though this Monster is hatched from the same egg, gone are the familiar eye-stalks, substituted for a great pompadour of fur and horned brows. And it's still unknown whether those are wings or just enormous ears."
+  },
+  "Costs": {
+    "name": "Rare Congle",
+    "diamond_cost": "65",
+    "starpower_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "11h 37m 30s",
+    "Enhanced_Skin": "10h 4m 30s",
+    "Standard": "15h 30m",
+    "Standard_Skin": "13h 57m"
+  },
+  "Likes": [
+    "Congle",
+    "Pipes of Cicado",
+    "Cozee Cabin",
+    "Tub Fountain",
+    "Rare Pummel"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Maw",
+    "Toe Jammer + Pango",
+    "Mammott + Quibble"
+  ]
+}

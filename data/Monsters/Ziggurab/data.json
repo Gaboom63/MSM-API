@@ -1,0 +1,43 @@
+{
+  "Name": "Ziggurab",
+  "Elements": [
+    "Earth",
+    "Cold",
+    "Fire"
+  ],
+  "Islands": [
+    "faerie",
+    "amber",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Ziggurab",
+    "description": "Ziggurab's pinchers aren't just snappy sound-makers. They're also multi-purpose tools perfect for chopping veggies, wood, or wrapping paper. You could say Ziggurab is quite the handyMon - literally! When it's not slicing and dicing, this not-so-crabby Monster loves to take a snooze with its head buried deep in its soundproof body chamber."
+  },
+  "Costs": {
+    "name": "Ziggurab",
+    "faerie_relic_cost": "100",
+    "amber_relic_cost": "20"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h",
+    "Enhanced_Skin": "13h",
+    "Standard": "20h",
+    "Standard_Skin": "18h"
+  },
+  "Likes": [
+    "HippityHop",
+    "Glowl",
+    "Candelavra",
+    "Wynq",
+    "Bisonorus",
+    "Hollow Log",
+    "Tree Forte Tower",
+    "Yum Yum Tree"
+  ],
+  "Combinations to Breed": [
+    "Drumpler + Kayna",
+    "Stogg + Mammott",
+    "Boskus + Noggin"
+  ]
+}

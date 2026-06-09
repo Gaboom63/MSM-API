@@ -1,0 +1,41 @@
+{
+  "Name": "Rare Floogull",
+  "Elements": [
+    "Air",
+    "Earth",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "amber"
+  ],
+  "Description": {
+    "name": "Rare Floogull",
+    "description": "Rare Floogull posits that the most mouthwatering meal is one that belongs to someone else! This renegade Rare quietly hovers in the vicinity of feasts, brunches, and midnight snackings in order to swipe a stray morsel. When scolded, the beaked bandit is quick to make amends with an apologetic honk."
+  },
+  "Costs": {
+    "name": "Rare Floogull",
+    "diamond_cost": "500",
+    "starpower_cost": "5000"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 52m 30s",
+    "Enhanced_Skin": "17h 13m 30s",
+    "Standard": "1d 2h 30m",
+    "Standard_Skin": "23h 51m"
+  },
+  "Likes": [
+    "Floogull",
+    "Ziggurab",
+    "Rootitoot",
+    "Flum Ox",
+    "Pipes of Cicado",
+    "Trumplite",
+    "Zuffle Tree"
+  ],
+  "Combinations to Breed": [
+    "Cybop + Kayna",
+    "Stogg + Tweedle",
+    "Glowl + Noggin"
+  ]
+}

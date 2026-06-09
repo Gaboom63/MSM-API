@@ -1,0 +1,40 @@
+{
+  "Name": "Rare Bisonorus",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Water",
+    "Fire"
+  ],
+  "Islands": [
+    "psychic",
+    "amber",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Rare Bisonorus",
+    "description": "Some nasty rumors persist that the Rare Bisonorus (both its Standard and Emperor forms) is the product of genetic experimentation, instead of progressive evolution... but not so! It's true that this Fire Rare is abnormally strong and virtually indestructible, but those are traits that have been selected for over the course of many generations. The 'further'-ed Standard sports a hefty tail that aids its balance as it rocks the antlered Emperor on its head - their one true place is with each other, and they ardently believe in the concept of family."
+  },
+  "Costs": {
+    "name": "Rare Bisonorus",
+    "starpower_cost": "10000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 22m 30s",
+    "Enhanced_Skin": "1d 10h 7m 30s",
+    "Standard": "2d 4h 30m",
+    "Standard_Skin": "1d 23h 15m"
+  },
+  "Likes": [
+    "Bisonorus",
+    "Ziggurab",
+    "Sneyser",
+    "Drummidary",
+    "Hammock",
+    "PU System",
+    "Mount Knottshurr"
+  ],
+  "Combinations to Breed": [
+    "Any Other Non 'Breedable Monster"
+  ]
+}

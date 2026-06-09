@@ -1,0 +1,33 @@
+{
+  "Name": "Rare Osstax",
+  "Elements": [
+    "Bone",
+    "Faerie"
+  ],
+  "Islands": [
+    "sanctum"
+  ],
+  "Description": {
+    "name": "Rare Osstax",
+    "description": "Osstax rarely travel long distances, as their towers tend to take a tumble and topple in transit. Instead, curious ones learn about the Monster World from the writings of their idols: the great Stone Scribes who share a similarly stoney exterior. After reading Hahoo's ancient engravings, Common Osstax are known to achieve intellectual enlightenment, transforming into Rares that mimic their mentor's intricate appearance. If only they had hands with which to write legends of their own!"
+  },
+  "Costs": {
+    "name": "Rare Osstax",
+    "diamond_cost": "300"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 52m 30s",
+    "Enhanced_Skin": "17h 13m 30s",
+    "Standard": "1d 2h 30m",
+    "Standard_Skin": "23h 51m"
+  },
+  "Likes": [
+    "Osstax",
+    "Orb of Aklino",
+    "Miniature Island Complex",
+    "Thumpies Totem, Too"
+  ],
+  "Combinations to Breed": [
+    "Clackula + Floot Fly"
+  ]
+}

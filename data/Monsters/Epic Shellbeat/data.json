@@ -1,0 +1,38 @@
+{
+  "Name": "Epic Shellbeat",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Earth",
+    "Water"
+  ],
+  "Islands": [
+    "water",
+    "gold",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Epic Shellbeat",
+    "description": "Creatures from the deep are oft met by seafaring Monsters with apprehension, but the Epic Shellbeat swims against the current. This beat-keeping Epic is the sonic equivalent of a lighthouse in the dark, playing a reliable rhythm that guides disoriented vessels to the safety of the shore. When the living ocean beckons for a lifeguard, Epic Shellbeat is there!"
+  },
+  "Costs": {
+    "name": "Epic Shellbeat",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 8h 15m",
+    "Enhanced_Skin": "1d 3h 57m",
+    "Standard": "1d 19h",
+    "Standard_Skin": "1d 14h 42m"
+  },
+  "Likes": [
+    "Do",
+    "Boss Monument",
+    "Piney Tree",
+    "Star Rocks",
+    "Epic Quarrister"
+  ],
+  "Combinations to Breed": [
+    "Spunge + Cybop"
+  ]
+}

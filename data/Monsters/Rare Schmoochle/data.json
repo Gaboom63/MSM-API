@@ -1,0 +1,36 @@
+{
+  "Name": "Rare Schmoochle",
+  "Elements": [
+    "Season of Love"
+  ],
+  "Islands": [
+    "air",
+    "gold",
+    "seasonal",
+    "mirror air"
+  ],
+  "Description": {
+    "name": "Rare Schmoochle",
+    "description": "Love, just like music, is universal. Rare Schmoochles, with their extra set of eyes, claim to be able to see love in all its forms. This enlightenment doesn't mean that the Monster is exempt from conflict - spats and misunderstandings have historically led to literal heartbreak, requiring stitching. In the end, the love you take is equal to the love you make, and the two heads know that they're ultimately destined for one another."
+  },
+  "Costs": {
+    "name": "Rare Schmoochle",
+    "air_diamond_cost": "500",
+    "seasonal_diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 48m 45s",
+    "Enhanced_Skin": "20h 38m 15s",
+    "Standard": "1d 7h 45m",
+    "Standard_Skin": "1d 4h 34m 30s"
+  },
+  "Likes": [
+    "Schmoochle",
+    "Flappy Flag",
+    "Spurrit Statue",
+    "Leafy Sea Dragon"
+  ],
+  "Combinations to Breed": [
+    "Riff + Tweedle"
+  ]
+}

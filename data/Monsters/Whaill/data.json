@@ -1,0 +1,44 @@
+{
+  "Name": "Whaill",
+  "Elements": [
+    "Plasma",
+    "Shadow",
+    "Mech",
+    "Crystal"
+  ],
+  "Islands": [
+    "workshop",
+    "plasma"
+  ],
+  "Description": {
+    "name": "Whaill",
+    "description": "Some Ethereals prefer to whisper, while others favor wailing. The Quad-Element Whaill is the latter, so-named for the ululations that gurgle forth from its many mouths. Although at first blush these sounds seem melodious, over time they can elicit feelings of dread and disorientation in the listener. That's because the sound waves the Whaill produces actually begin to tear apart the fabric of space time and threaten to expose reality to the Rift, the world between worlds. But how can the polystomatous Plasma Boss help it? When you have hands for mouths and mouths for hands, there's little else that you can do but wail."
+  },
+  "Costs": {
+    "name": "Whaill",
+    "ethereal_diamond_cost": "3000",
+    "plasma_diamond_cost": "4000",
+    "shard_cost": "5000",
+    "dish-harmonizer_shard_cost": "8000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 7h 30m",
+    "Enhanced_Skin": "1d 3h 18m",
+    "Standard": "1d 18h",
+    "Standard_Skin": "1d 13h 48m"
+  },
+  "Likes": [
+    "Oogiddy",
+    "Ghazt",
+    "Jellbilly",
+    "Blarret",
+    "Lowb",
+    "Dragoon Statue",
+    "Stritch Skin",
+    "Inverdigus Fern",
+    "Vhenshun"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

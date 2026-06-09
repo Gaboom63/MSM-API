@@ -1,0 +1,36 @@
+{
+  "Name": "Tawkerr",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "earth",
+    "mirror plant",
+    "mirror cold",
+    "mirror earth"
+  ],
+  "Description": {
+    "name": "Tawkerr",
+    "description": "Unusual among Monsters for its ability to form actual words and sing them in a way that tells a story, it is with wonder and the love of collaboration that the Tawkerr sings its Monster anthem. Constantly dreaming up new compositions, the Tawkerr enjoys supporting friends in times of need. Leaning too heavily upon its shoulders is not recommended, however, lest its shoulder spikes leave unattractive dents in one's fuzzy pelt, satin jacket, or delicate epidermis."
+  },
+  "Costs": {
+    "name": "Tawkerr",
+    "relic_cost": "100"
+  },
+  "Breeding Times": {
+    "Enhanced": "6h",
+    "Enhanced_Skin": "5h 12m",
+    "Standard": "8h",
+    "Standard_Skin": "7h 12m"
+  },
+  "Likes": [
+    "Parlsona",
+    "Maggpi",
+    "Stoowarb",
+    "Dragon Tower",
+    "Ambered Thing",
+    "Leafy Sea Dragon"
+  ]
+}

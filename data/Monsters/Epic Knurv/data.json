@@ -1,0 +1,33 @@
+{
+  "Name": "Epic Knurv",
+  "Elements": [
+    "Dream",
+    "Mythical"
+  ],
+  "Islands": [
+    "mythical"
+  ],
+  "Description": {
+    "name": "Epic Knurv",
+    "description": "It doesn't take a dreamlike state or cross-dimensional manipulation to imagine this Epic Dreamythical at home beneath the waves in a garden under the sea, with its chromatophoric coloration and tentacled extremities. But Epic Knurv knows where you've been, so make sure you let the right one in. With its entrancing song, its bogeyMon inspiration lulls guests into a blissfully disarmed state, leaving them feeling happy, and safe, secreting them away to rest on the seabed. For Epic Knurv, this simply means it has become Mythical Island's premiere party planner. When a Monster is looking to surprise a friend with a secluded getaway, the Dreamythical seems almost predisposed to emancipating the pair from their concerns and obligations. Though Epic Knurv's solos seem peaceful and serene, upon returning, pairs of Monsters often seem a bit ornery, and are typically very resistant to anyone telling them what to do."
+  },
+  "Costs": {
+    "name": "Epic Knurv",
+    "diamond_cost": "1600"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 18h 7m 30s",
+    "Enhanced_Skin": "1d 12h 30m 30s",
+    "Standard": "2d 8h 10m",
+    "Standard_Skin": "2d 2h 33m"
+  },
+  "Likes": [
+    "Cranchee",
+    "Tree Hut",
+    "Puffle Tree",
+    "Boss Monument"
+  ],
+  "Combinations to Breed": [
+    "Cataliszt + G'joob"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Jeeode",
+  "Elements": [
+    "Crystal"
+  ],
+  "Islands": [
+    "water",
+    "ethereal",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Rare Jeeode",
+    "description": "In the pursuit of pure impartiality, the Rare Jeeode has achieved near-perfection. Its commitment to resolving conflicts between fellow monsters is so strong, it even endows fragments of itself with all-seeing eyes. Perhaps this is taking the idea of 'seeing' both sides of story too literally. They can, at times, be a little creepy."
+  },
+  "Costs": {
+    "name": "Rare Jeeode",
+    "water_diamond_cost": "1500",
+    "ethereal_diamond_cost": "1900"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 10h 7m 30s",
+    "Enhanced_Skin": "1d 5h 34m 30s",
+    "Standard": "1d 21h 30m",
+    "Standard_Skin": "1d 16h 57m"
+  },
+  "Likes": [
+    "Jeeode",
+    "Wild Bagpipe",
+    "Babayag Tower",
+    "Bottomless Pit"
+  ],
+  "Combinations to Breed": [
+    "Shellbeat + Spunge",
+    "Shellbeat + Pummel",
+    "Shellbeat + Scups",
+    "Shellbeat + Reedling"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "Name": "Syncopite",
+  "Elements": [
+    "Celestial"
+  ],
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Syncopite",
+    "description": "Syncopite is a Diamond in the rough: unpolished and unrefined, yet glistening with an immense potential concealed inside its crude frame. The rugged Celestial has a surprisingly magnetic personality, capable of uniting its fellow Monsters and forging rock-solid friendships. Unfortunately, this inherent magnetism can be troublesome for the mineralized Monster, whose thoughts are frequently interrupted by the sudden collision of stones against its crystalline cranium."
+  },
+  "Costs": {
+    "name": "Syncopite",
+    "key_cost": "11",
+    "diamond_cost": "90"
+  },
+  "Celestial Inventory": {
+    "Cost": "11 Keys",
+    "Inventory": {
+      "Cybop": 3,
+      "Dandidoo": 6,
+      "Fwog": 10,
+      "Noggin": 75,
+      "Oaktopus": 5,
+      "Potbelly": 12,
+      "Pummel": 4,
+      "Quibble": 6,
+      "Reedling": 4,
+      "Scups": 3,
+      "Shellbeat": 2,
+      "Shrubb": 2,
+      "Spunge": 6,
+      "Toe Jammer": 30,
+      "Tweedle": 6
+    },
+    "Time Limit": "11 days",
+    "Total Eggs": "174"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ]
+}

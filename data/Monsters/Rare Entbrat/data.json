@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Entbrat",
+  "Elements": [
+    "Plant",
+    "Earth",
+    "Water",
+    "Cold"
+  ],
+  "Islands": [
+    "plant",
+    "colossingum",
+    "gold",
+    "tribal",
+    "composer",
+    "mirror plant"
+  ],
+  "Description": {
+    "name": "Rare Entbrat",
+    "description": "As if Entbrats weren't impressive enough already! The Rare Entbrat sports vibrant autumnal foliage and eye-catching horn extensions. Reports suggest that this uncommon morph is at least marginally smarter than its regular counterpart, but don't hold your breath waiting for it to score well on any intelligence test."
+  },
+  "Costs": {
+    "name": "Rare Entbrat",
+    "diamond_cost": "200",
+    "starpower_cost": "5000"
+  },
+  "Breeding Times": {
+    "Enhanced": "22h 52m 30s",
+    "Enhanced_Skin": "19h 49m 30s",
+    "Standard": "1d 6h 30m",
+    "Standard_Skin": "1d 3h 27m"
+  },
+  "Likes": [
+    "Entbrat",
+    "Meldablend",
+    "Castanevine",
+    "Dragon Tower"
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

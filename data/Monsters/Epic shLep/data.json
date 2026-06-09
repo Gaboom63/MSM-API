@@ -1,0 +1,25 @@
+{
+  "Name": "Epic shLep",
+  "Elements": [
+    "Dream",
+    "Mythical"
+  ],
+  "Islands": [
+    "mythical"
+  ],
+  "Description": {
+    "name": "Epic shLep",
+    "description": "According to all known laws of aviation, there is no way a shLep should be able to fly; its wings are too small to get its rotund body off the ground. The dreamspace, however, cares not what we think is impossible, so shLeps of all rarities can take wing despite the tremendous amount of Treats they consume. The Epic Dreamythical is not merely a consumer, however... it is also a producer, using its 'honey stomach' to create food of its own. A result of a crossover reverie between the two Fire Mythicals, the papery-shelled Epic shLep is inspired by imagery of a hive queendom at the genesis of the multiverse. In it, countless drones gather glistening nectar from the World Tree for a bedazzled ruler, their order and efficiency matched only by their prodigious numbers. Expanding, partitioning, consuming, expanding. The swarm grows, but something gnaws at the periphery of this hexiform empire - can uniformity coexist with buzzing-edge fashion sense? Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh, black and yellow! Let's shake it up a little."
+  },
+  "Costs": {
+    "name": "Epic shLep",
+    "cost": "1600"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 12h 25m 30s",
+    "Standard": "2d 34m"
+  },
+  "Combinations to Breed": [
+    "Cataliszt + Buzzinga"
+  ]
+}

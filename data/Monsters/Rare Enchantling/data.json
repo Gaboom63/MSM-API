@@ -1,0 +1,36 @@
+{
+  "Name": "Rare Enchantling",
+  "Elements": [
+    "Psychic",
+    "Bone",
+    "Light",
+    "Faerie"
+  ],
+  "Islands": [
+    "sanctum"
+  ],
+  "Description": {
+    "name": "Rare Enchantling",
+    "description": "It's hard to put one's nosy little finger on why exactly, but something about the Rare Enchantling leads Monster World experts to surmise that this is actually the 'original' form of the Magical Quad. The arms tugging on the Monster's antlers, the brown coat dotted with spots, the cloven feet - all of these characteristics evoke distant, early memories of what came before... or what might have been. There are those who object to that conclusion, of course; it can't be denied that the Common Enchantling is a closer visual match for the Enchantler Titan whose landscape they both call home. The closest example we have of a comparable relationship is that of the Magical Titans and their respective Titansouls... but the Enchantling species was discovered long before they flourished in the main dimension. So what exactly is going on here? No one's sure, but what's known is that the Rare Enchantling's skill in Monstromancy is just as strong as its cousin's. Drawing energy from the unrefined crystals that dangle to and fro, screaming forth its captivating cry: a must-see in any tour of the pocket dimension."
+  },
+  "Costs": {
+    "name": "Rare Enchantling",
+    "diamond_cost": "1750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 22h 52m 30s",
+    "Enhanced_Skin": "1d 16h 37m 30s",
+    "Standard": "2d 14h 30m",
+    "Standard_Skin": "2d 8h 15m"
+  },
+  "Likes": [
+    "Enchantling",
+    "Boss Monument",
+    "Tub Fountain",
+    "Englobulated F.U.M."
+  ],
+  "Combinations to Breed": [
+    "Any Two Doubles",
+    "Any Single With Any Single "
+  ]
+}

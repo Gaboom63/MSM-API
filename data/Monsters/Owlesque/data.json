@@ -1,0 +1,37 @@
+{
+  "Name": "Owlesque",
+  "Elements": [
+    "Hoax"
+  ],
+  "Costs": {
+    "name": "Owlesque",
+    "faerie_diamond_cost": "900",
+    "paironormal_diamond_cost": "3500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 1h 30m",
+    "Enhanced_Skin": "22h 6m",
+    "Standard": "1d 10h",
+    "Standard_Skin": "1d 6h 36m"
+  },
+  "Likes": [
+    "Squot",
+    "Odd-o-Mobile",
+    "Optiglowbe",
+    "Star Rocks"
+  ],
+  "Islands": [
+    "faerie",
+    "paironormal"
+  ],
+  "Description": {
+    "name": "Owlesque (Major)",
+    "description": "The Hoax Paironormal lives by the four D's: deceive, dissemble, dissimulate and distract! Owlesque's Major and Minor forms symbolize the false projection of ourselves that we present to others, and the true self that we keep concealed. Yet, neither form is any less lovely than the other: with a simple flip, both aspects of Owlesque are equally striking, offering an unsettlingly strigine elegance and eye-catching markings (if you know which eye to catch). For all its supposed trickery, this Paironormal's existence encourages radical acceptance of all aspects of ourselves, and its piercing eyes (both camouflaged and corporeal) dare you to believe that beauty is simply a matter of perspective."
+  },
+  "Combinations to Breed": [
+    "Pladdie + Ziggurab",
+    "Pladdie + Cantorell",
+    "Pladdie + Bridg-it",
+    "Pladdie + Clavi Gnat"
+  ]
+}

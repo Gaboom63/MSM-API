@@ -1,0 +1,39 @@
+{
+  "Name": "Rare Blarret",
+  "Elements": [
+    "Plasma",
+    "Shadow",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop",
+    "plasma"
+  ],
+  "Description": {
+    "name": "Rare Blarret",
+    "description": "Amateur Monster World explorers often misidentify and misclassify Monsters when encountering them for the first time in the field, and few have fallen victim to this more often than the Rare Blarret. Hurried sketches and blurry images of this misty Monster have been found alongside other long-necked (and often purely fabricated) 'discoveries' in the field journals. Rather than poking its long neck out of the earth and coughing out a tune, the Rare Blarret has its head in the clouds. Drawing more on its Shadow- and Poison-Element lineage, this airy Rarethereal feels particularly ephemeral, like it can billow up out of nowhere and blow away with the breeze."
+  },
+  "Costs": {
+    "name": "Rare Blarret",
+    "ethereal_diamond_cost": "3200",
+    "shadow_diamond_cost": "3500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Enhanced_Skin": "22h 45m",
+    "Standard": "1d 11h",
+    "Standard_Skin": "1d 7h 30m"
+  },
+  "Likes": [
+    "Blarret",
+    "Rare Auglur",
+    "Rare Ghazt",
+    "Rare Whisp",
+    "Trumplite",
+    "Harpsitree",
+    "Tub Fountain"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

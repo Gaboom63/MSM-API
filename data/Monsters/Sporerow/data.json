@@ -1,0 +1,33 @@
+{
+  "Name": "Sporerow",
+  "Elements": [
+    "Dream",
+    "Mythical"
+  ],
+  "Islands": [
+    "mythical"
+  ],
+  "Description": {
+    "name": "Sporerow",
+    "description": "Plucked from the Air Mythical's bird-brained imagination, the Sporerow manifested from an imaginative mist into a thumping force. This Dreamythical will 'caw to arms' fungal hangers-on dubbed Shroomites to come together in an instinctive anthem that feels almost primal. As host to many other creatures and with room to spore... ahem, spare... this generous monster is the gift that keeps on giving."
+  },
+  "Costs": {
+    "name": "Sporerow",
+    "diamond_cost": "750"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 3h 45m",
+    "Enhanced_Skin": "1d 3m",
+    "Standard": "1d 13h",
+    "Standard_Skin": "1d 9h 18m"
+  },
+  "Likes": [
+    "Yawstrich",
+    "Inverdigus Fern",
+    "Orb of Aklino",
+    "Optiglowbe"
+  ],
+  "Combinations to Breed": [
+    "Cataliszt + Yawstrich"
+  ]
+}

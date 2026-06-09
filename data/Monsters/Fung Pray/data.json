@@ -1,0 +1,35 @@
+{
+  "Name": "Fung Pray",
+  "Elements": [
+    "Crystal",
+    "Poison"
+  ],
+  "Islands": [
+    "ethereal",
+    "colossingum"
+  ],
+  "Description": {
+    "name": "Fung Pray",
+    "description": "The chimeric Fung Pray strives to achieve complete balance in all aspects of life, according to transcendental teachings passed down from generation to generation. Even though tranquility and precision are held in highest esteem, the occasional burst of unbridled exuberance is permitted. Bystanders can identify such a display by the appearance of glowing gills under the Fung Pray’s headcap."
+  },
+  "Costs": {
+    "name": "Fung Pray",
+    "ethereal_diamond_cost": "1250",
+    "colossingum_diamond_cost": "1350"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 7h 30m",
+    "Enhanced_Skin": "1d 3h 18m",
+    "Standard": "1d 18h",
+    "Standard_Skin": "1d 13h 48m"
+  },
+  "Likes": [
+    "Bellowfish",
+    "Directions to Nowhere",
+    "Bottomless Pit",
+    "Cozee Cabin"
+  ],
+  "Combinations to Breed": [
+    "Reebro + Humbug"
+  ]
+}

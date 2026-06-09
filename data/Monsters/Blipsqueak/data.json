@@ -1,0 +1,32 @@
+{
+  "Name": "Blipsqueak",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Blipsqueak",
+    "description": "Before settling into its finalized form, this impassioned Wublin decided that its musical contribution would be to recite several words it had heard on faint radio frequencies from the human universe, in a kingdom known only as the Mait-Land. Its maker acquiesced to these linguistic leanings, making sure to fashion a robotic body that featured all the parts mentioned - well, in one form or another, or rather in a way that only a Monster could truly do."
+  },
+  "Costs": {
+    "name": "Blipsqueak",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "5,000",
+    "Inventory": {
+      "Cybop": 6,
+      "Deedge": 4,
+      "Pompom": 4,
+      "T-Rox": 6,
+      "Toe Jammer": 4
+    },
+    "Time Limit": "None",
+    "Total Eggs": "24"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

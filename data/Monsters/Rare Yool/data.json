@@ -1,0 +1,36 @@
+{
+  "Name": "Rare Yool",
+  "Elements": [
+    "Festival of Yay"
+  ],
+  "Islands": [
+    "cold",
+    "gold",
+    "seasonal",
+    "mirror cold"
+  ],
+  "Description": {
+    "name": "Rare Yool",
+    "description": "Hitching a ride with its Common Seasonal cousin, the Rare Yool journeys to Cold Island each year to ring in the heart-warming Festival of Yay with its fellow Monsters. Legend says it was once a curmudgeonly loner, preferring to spend time by itself - but once it discovered the joy of friendship, it sprinkled its beard with scrumptious candy and resolved to hold the message of goodwill towards all Monsterkind in its heart, no matter the season."
+  },
+  "Costs": {
+    "name": "Rare Yool",
+    "cold_diamond_cost": "500",
+    "seasonal_diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 48m 45s",
+    "Enhanced_Skin": "20h 38m 15s",
+    "Standard": "1d 7h 45m",
+    "Standard_Skin": "1d 4h 34m 30s"
+  },
+  "Likes": [
+    "Yool",
+    "Flappy Flag",
+    "Harpsitree",
+    "Tree Forte Tower"
+  ],
+  "Combinations to Breed": [
+    "Thumpies + Congle"
+  ]
+}

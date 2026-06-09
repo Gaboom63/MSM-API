@@ -1,0 +1,39 @@
+{
+  "Name": "Rare Nebulob",
+  "Elements": [
+    "Plasma",
+    "Mech"
+  ],
+  "Islands": [
+    "ethereal",
+    "plasma",
+    "mech"
+  ],
+  "Description": {
+    "name": "Rare Nebulob",
+    "description": "A 'Rhythm & Ooze' connoisseur, the purplish essence of the Rare Nebulob wants the fast and loose improvisational style of its preferred genre to be reflected in all aspects of its existence. However, it tends to go a bit overboard, and sprouts as many eyes as will fit in the dome of its exo-suit. It's a good thing this Rarethereal is lighter than air, otherwise it would undoubtedly wobble on its only leg. Still, this Monster's loopy lifestyle isn't hurting anybody, so its fellows on Ethereal Island are happy to let it do its thing."
+  },
+  "Costs": {
+    "name": "Rare Nebulob",
+    "ethereal_diamond_cost": "2000",
+    "mech_diamond_cost": "2500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 15h 22m 30s",
+    "Enhanced_Skin": "1d 10h 7m 30s",
+    "Standard": "2d 4h 30m",
+    "Standard_Skin": "1d 23h 15m"
+  },
+  "Likes": [
+    "Nebulob",
+    "Rare Yooreek",
+    "Rare Gaddzooks",
+    "Rare Auglur",
+    "Directions to Nowhere",
+    "Bottomless Pit",
+    "Tub Fountain"
+  ],
+  "Combinations to Breed": [
+    "Ghazt + Reebro"
+  ]
+}

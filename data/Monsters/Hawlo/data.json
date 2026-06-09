@@ -1,0 +1,35 @@
+{
+  "Name": "Hawlo",
+  "Elements": [
+    "Fire",
+    "Bone"
+  ],
+  "Islands": [
+    "bone",
+    "nexus",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Hawlo",
+    "description": "The Hawlo is 'knot' what it appears to be... but just what IS it? No one dares woodchip the chipper wood making up this percussive Monster's disguise to find out. Instead, its peers have chosen to accept Hawlo's perplexing presentation, and simply shake their trunk to the 'berry' delightful rhythm of its stump or admire its talent for pyrogravure."
+  },
+  "Costs": {
+    "name": "Hawlo",
+    "diamond_cost": "150"
+  },
+  "Breeding Times": {
+    "Enhanced": "20h 15m",
+    "Enhanced_Skin": "17h 33m",
+    "Standard": "1d 3h",
+    "Standard_Skin": "1d 18m"
+  },
+  "Likes": [
+    "Noggin",
+    "Flappy Flag",
+    "Piney Tree",
+    "Thumpies Totem"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Clackula"
+  ]
+}

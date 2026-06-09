@@ -1,0 +1,45 @@
+{
+  "Name": "Scups",
+  "Elements": [
+    "Air",
+    "Earth",
+    "Water"
+  ],
+  "Islands": [
+    "air",
+    "water",
+    "colossingum",
+    "gold",
+    "tribal",
+    "composer",
+    "mirror air",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Scups",
+    "description": "Versatile Scups can readily adhere to most any surface when the need arises. Generally, it prefers to remain on the Earth, as its Water-filled body is quite heavy. The Scups' remarkable feet use Air to produce a call that can travel vast distances."
+  },
+  "Costs": {
+    "name": "Scups",
+    "diamond_cost": "50",
+    "colossingum_diamond_cost": "60",
+    "composer_coin_cost": "8000"
+  },
+  "Breeding Times": {
+    "Enhanced": "9h",
+    "Enhanced_Skin": "7h 48m",
+    "Standard": "12h",
+    "Standard_Skin": "10h 48m"
+  },
+  "Likes": [
+    "Quibble",
+    "Harpsitree",
+    "Castanevine",
+    "Dragon Tower"
+  ],
+  "Combinations to Breed": [
+    "Tweedle + Fwog",
+    "Noggin + Quibble",
+    "Toe Jammer + Cybop"
+  ]
+}

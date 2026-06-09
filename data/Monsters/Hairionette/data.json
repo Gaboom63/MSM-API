@@ -1,0 +1,38 @@
+{
+  "Name": "Hairionette",
+  "Elements": [
+    "Control"
+  ],
+  "Costs": {
+    "name": "Hairionette",
+    "psychic_diamond_cost": "700",
+    "paironormal_diamond_cost": "3500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d",
+    "Enhanced_Skin": "20h 48m",
+    "Standard": "1d 8h",
+    "Standard_Skin": "1d 4h 48m"
+  },
+  "Likes": [
+    "Theremind",
+    "Babayag Tower",
+    "Bottomless Pit",
+    "Star Rocks",
+    "Owlesque"
+  ],
+  "Islands": [
+    "psychic",
+    "paironormal"
+  ],
+  "Description": {
+    "name": "Hairionette (Major)",
+    "description": "The Hairionette's existence is defined by cruel irony: despite its status as the Control Elemental, this Paironormal is convinced that its destiny is not its own to choose. Hairionette firmly believes that its every move is predetermined, pulled along its life path by the skeins of fate. It is driven by its overwhelming need to find just who is pulling the strings, never pausing to wonder whether it is in fact the mastermind behind its own designs. So just who is the true puppetmaster: a mysterious manipulator, or the hapless Hairionette itself? This Paironormal's Major and Minor forms reflect both existential options."
+  },
+  "Combinations to Breed": [
+    "Gloptic + Rootitoot",
+    "Gloptic + Tapricorn",
+    "Gloptic + Rooba",
+    "Gloptic + Periscorp"
+  ]
+}

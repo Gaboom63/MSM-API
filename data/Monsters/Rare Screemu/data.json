@@ -1,0 +1,31 @@
+{
+  "Name": "Rare Screemu",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Screemu",
+    "description": "It's not often that a full-grown Gigacheep soars overhead... but when it happens, it's an experience not easily forgotten. That must've been what happened to inspire the design of the Rare Screemu; the Monster would like to think that it was a spitting image of the fledgling form of the avian Titan... but in truth, it's a bird-brained notion that it could ever pass for anything other than a Rare Wublin."
+  },
+  "Costs": {
+    "name": "Screemu",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "5",
+    "Inventory": {
+      "Rare Quibble": 3,
+      "Rare Shellbeat": 1,
+      "Rare Shrubb": 3,
+      "Rare Spunge": 3
+    },
+    "Time Limit": "None",
+    "Total Eggs": "10"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

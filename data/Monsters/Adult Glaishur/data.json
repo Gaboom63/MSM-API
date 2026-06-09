@@ -1,0 +1,43 @@
+{
+  "Name": "Adult Glaishur",
+  "Islands": [
+    "celestial"
+  ],
+  "Description": {
+    "name": "Adult Glaishur",
+    "description": "Even though many Celestials endure some level of awkwardness in adulthood, Glaishur doesn't appear to be one of them. Sure, it's grown in size a bit and its snow-encrusted fists don't leave a ton of room for finesse... but for the most part, the Celestial of Cold exudes the same even-temperedness throughout its whole life. Perhaps the prevailing sense of 'coolness' is the source of its zen approach - after all, what's cooler than being cool? Ice cold."
+  },
+  "Costs": {
+    "name": "Adult Glaishur",
+    "key_cost": "10"
+  },
+  "Celestial Inventory": {
+    "Cost": "10 Keys",
+    "Inventory": {
+      "Bowgart": 2,
+      "Clamble": 2,
+      "Congle": 2,
+      "Deedge": 2,
+      "Drumpler": 3,
+      "Entbrat": 2,
+      "Ffidyll": 1,
+      "Flex": 4,
+      "Furcorn": 3,
+      "Maw": 3,
+      "Pango": 3,
+      "Pompom": 2,
+      "Quarrister": 2,
+      "Riff": 2,
+      "T-Rox": 2,
+      "Thumpies": 2
+    },
+    "Time Limit": "31 days (March 1st 3:00pm UTC to April 1st 3:00pm UTC)",
+    "Total Eggs": "37"
+  },
+  "Combinations to Breed": [
+    "Any Celestial"
+  ],
+  "Elements": [
+    "Celestial"
+  ]
+}

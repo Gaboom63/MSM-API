@@ -1,0 +1,37 @@
+{
+  "Name": "Clavavera",
+  "Elements": [
+    "Beat Hereafter"
+  ],
+  "Islands": [
+    "bone",
+    "seasonal",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Clavavera",
+    "description": "The statuesque Clavavera cuts a dashing figure wherever it appears, but it's best-known for the unique effects that the sound of its special, dexterous fingers can produce. When struck together, the bright, clean tone this Clackula relative makes can cause all those in the vicinity to perceive and interact with Monster ancestors from bygone eras. The spirits, who have passed on to the 'Beat Hereafter,' recount stories of glorious songs of yore and reassure their descendants that any Monster, living or departed, can tune in to the 'heartbeat of forever' if they're only listening. The Clavavera keeps the exact nature of the Beat Hereafter mostly to itself."
+  },
+  "Costs": {
+    "name": "Clavavera",
+    "bone_diamond_cost": "225",
+    "seasonal_diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "16h 38m 15s",
+    "Enhanced_Skin": "14h 25m 9s",
+    "Standard": "22h 11m",
+    "Standard_Skin": "19h 57m 54s"
+  },
+  "Likes": [
+    "Uuduk",
+    "Whiz-bang",
+    "Bloofi Tree",
+    "Tub Fountain",
+    "Bottomless Pit"
+  ],
+  "Combinations to Breed": [
+    "Withur + Clackula",
+    "Punkleton + Schmoochle"
+  ]
+}

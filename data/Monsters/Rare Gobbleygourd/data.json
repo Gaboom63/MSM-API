@@ -1,0 +1,37 @@
+{
+  "Name": "Rare Gobbleygourd",
+  "Elements": [
+    "Feast-Ember"
+  ],
+  "Islands": [
+    "haven",
+    "oasis",
+    "seasonal"
+  ],
+  "Description": {
+    "name": "Rare Gobbleygourd",
+    "description": "All Gobbleygourds are aeronautically challenged - any time you might have seen one hurtling through the air, it probably just jumped from a high height and hoped for the best. That hasn't stopped one particular rafter of Gobbleygourds from trying to improve their chances by any means possible - losing their snoods, evolving white head feathers to emulate the aquiline ideal and studying textbooks on flight dynamics. It's all wishful thinking, of course - but Rare Gobbleygourds are possessed of an indomitable will that isn't easily discouraged!"
+  },
+  "Costs": {
+    "name": "Rare Gobbleygourd",
+    "fire_diamond_cost": "500",
+    "seasonal_diamond_cost": "625"
+  },
+  "Breeding Times": {
+    "Enhanced": "23h 48m 45s",
+    "Enhanced_Skin": "20h 38m 15s",
+    "Standard": "1d 7h 45m",
+    "Standard_Skin": "1d 4h 34m 30s"
+  },
+  "Likes": [
+    "Gobbleygourd",
+    "Piney Tree",
+    "Castanevine",
+    "Tub Fountain",
+    "Rare Clavavera"
+  ],
+  "Combinations to Breed": [
+    "Glowl + Kayna",
+    "Punkleton + Yool"
+  ]
+}

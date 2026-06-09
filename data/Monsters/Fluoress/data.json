@@ -1,0 +1,34 @@
+{
+  "Name": "Fluoress",
+  "Elements": [
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "sanctum",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Fluoress",
+    "description": "A dimmed Fluoress exudes a gloomy aura, but the moment it joins the Monster chorus, the demure avatar of Light shines with all the fluorescent radiance of its Element! Each panel of a Fluoress's 'skirt' is packed with Fluorophyll, a Magically-occurring chemical that responds to sudden agitation with a luminous light show that's designed to draw in new friends when a Fluoress is feeling much too bashful."
+  },
+  "Costs": {
+    "name": "Fluoress",
+    "light_coin_cost": "30000",
+    "magical_diamond_cost": "325"
+  },
+  "Breeding Times": {
+    "Enhanced": "15h",
+    "Enhanced_Skin": "13h",
+    "Standard": "20h",
+    "Standard_Skin": "18h"
+  },
+  "Likes": [
+    "Flowah",
+    "Frondley",
+    "Fuzzle Tree",
+    "Tree Forte Tower",
+    "Inverdigus Fern"
+  ]
+}

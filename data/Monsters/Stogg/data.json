@@ -1,0 +1,44 @@
+{
+  "Name": "Stogg",
+  "Elements": [
+    "Earth",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "faerie",
+    "bone",
+    "amber",
+    "mirror faerie",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Stogg",
+    "description": "As avid rock collectors, Stoggs relish digging into the earth with their powerful forelegs to find shiny new minerals. Unfortunately this absentminded Monster also enjoys burying their treasure, often forgetting the location soon after."
+  },
+  "Costs": {
+    "name": "Stogg",
+    "relic_cost": "50",
+    "amber_relic_cost": "10"
+  },
+  "Breeding Times": {
+    "Enhanced": "7h 30m",
+    "Enhanced_Skin": "6h 30m",
+    "Standard": "10h",
+    "Standard_Skin": "9h"
+  },
+  "Likes": [
+    "Mammott",
+    "Tring",
+    "Yelmut",
+    "Withur",
+    "Drummidary",
+    "Gnarls",
+    "Stritch Skin",
+    "Eerie Remains",
+    "Digger"
+  ],
+  "Combinations to Breed": [
+    "Kayna + Noggin"
+  ]
+}

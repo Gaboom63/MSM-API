@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Barrb",
+  "Elements": [
+    "Air",
+    "Plant",
+    "Fire"
+  ],
+  "Islands": [
+    "haven",
+    "amber"
+  ],
+  "Description": {
+    "name": "Rare Barrb",
+    "description": "It is well-documented in tomes of Monster botany that the Common Barrb's neck foliage blooms only in the night; but what happens when a Barrb is never exposed to direct sunlight? It blooms uncontrollably! Rare Barrbs have adapted to subterranean living by undergoing umbrasynthesis: the process of converting raw darkness into valuable nutrients. Who would have guessed a life underground would produce such bright blossoms?."
+  },
+  "Costs": {
+    "name": "Rare Barrb",
+    "diamond_cost": "500",
+    "starpower_cost": "5000"
+  },
+  "Breeding Times": {
+    "Enhanced": "19h 52m 30s",
+    "Enhanced_Skin": "17h 13m 30s",
+    "Standard": "1d 2h 30m",
+    "Standard_Skin": "23h 51m"
+  },
+  "Likes": [
+    "Barrb",
+    "Phangler",
+    "Edamimi",
+    "Whaddle",
+    "Directions to Nowhere",
+    "Hollow Log",
+    "Bottomless Pit",
+    "Rare Floogull"
+  ],
+  "Combinations to Breed": [
+    "Dandidoo + Kayna",
+    "Flowah + Tweedle",
+    "Glowl + Potbelly"
+  ]
+}

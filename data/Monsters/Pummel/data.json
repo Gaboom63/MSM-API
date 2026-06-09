@@ -1,0 +1,46 @@
+{
+  "Name": "Pummel",
+  "Elements": [
+    "Plant",
+    "Earth",
+    "Water"
+  ],
+  "Islands": [
+    "plant",
+    "water",
+    "colossingum",
+    "gold",
+    "tribal",
+    "composer",
+    "mirror plant",
+    "mirror water"
+  ],
+  "Description": {
+    "name": "Pummel",
+    "description": "Aquatic Pummels are gill-breathers. They soak themselves regularly to suck in a fresh load of Water and seal their mouths with Plant membranes. Like Noggins, Pummels are closely in tune with the Earth."
+  },
+  "Costs": {
+    "name": "Pummel",
+    "diamond_cost": "50",
+    "colossingum_diamond_cost": "60",
+    "composer_coin_cost": "8000"
+  },
+  "Breeding Times": {
+    "Enhanced": "9h",
+    "Enhanced_Skin": "7h 48m",
+    "Standard": "12h",
+    "Standard_Skin": "10h 48m"
+  },
+  "Likes": [
+    "Toe Jammer",
+    "Maw",
+    "Flappy Flag",
+    "Fuzzle Tree",
+    "Fossil-osaurus"
+  ],
+  "Combinations to Breed": [
+    "Potbelly + Fwog",
+    "Noggin + Oaktopus",
+    "Toe Jammer + Shrubb"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "Name": "Scargo",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Scargo",
+    "description": "Nobody is sure whether the constant collision of the Scargo's clash cymbal-tipped eye-stalks causes it any discomfort, or if the Wublin has just gotten used to it. What is sure is that this Monster's technique is near-perfection - many new percussionists can't seem to get a handle on the proper grip. Then again, if the cymbals were attached to you, you might figure it out quicker than most, too."
+  },
+  "Costs": {
+    "name": "Scargo",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "3,000",
+    "Inventory": {
+      "Clamble": 3,
+      "Dandidoo": 3,
+      "Pummel": 2,
+      "Shellbeat": 3,
+      "Shrubb": 3,
+      "Spunge": 2
+    },
+    "Time Limit": "None",
+    "Total Eggs": "16"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

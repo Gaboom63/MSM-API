@@ -1,0 +1,45 @@
+{
+  "Name": "Rare Ghazt",
+  "Elements": [
+    "Plasma"
+  ],
+  "Islands": [
+    "plant",
+    "colossingum",
+    "ethereal",
+    "composer",
+    "mirror plant",
+    "plasma"
+  ],
+  "Description": {
+    "name": "Rare Ghazt",
+    "description": "Trying to get a Ghazt is akin to catching smoke with your hands. So you can imagine that trying to get your hands on a Rare Ghazt is like trying to catch a particular puff of smoke that floats by once in a blue moon, with your hands... while blindfolded. This centaurine 'Rarethereal' is the crowning jewel of any Monster collection."
+  },
+  "Costs": {
+    "name": "Rare Ghazt",
+    "plant_diamond_cost": "1500",
+    "plasma_diamond_cost": "1900"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 10h 7m 30s",
+    "Enhanced_Skin": "1d 5h 34m 30s",
+    "Standard": "1d 21h 30m",
+    "Standard_Skin": "1d 16h 57m"
+  },
+  "Likes": [
+    "Ghazt",
+    "Rare Whisp",
+    "Rare Blarret",
+    "Rare Auglur",
+    "Hollow Log",
+    "Razzli Tree",
+    "Bass String Bridge",
+    "Rare Grumpyre"
+  ],
+  "Combinations to Breed": [
+    "Entbrat + Clamble",
+    "Entbrat + Bowgart",
+    "Entbrat + T-Rox",
+    "Entbrat + Pummel"
+  ]
+}

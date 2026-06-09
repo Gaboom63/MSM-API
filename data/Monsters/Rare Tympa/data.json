@@ -1,0 +1,32 @@
+{
+  "Name": "Rare Tympa",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Rare Tympa",
+    "description": "First unveiled while the stars of Immortal Jolt shone overhead, Rare Tympa's aesthetic is a perfect match for the blue, gloomy tones of Wublin Island and its surrounding Electrical storm. But there's no arguing that that hairdo is perfect for all seasons."
+  },
+  "Costs": {
+    "name": "Tympa",
+    "cost": "5000"
+  },
+  "Wublin Inventory": {
+    "Cost": "14",
+    "Inventory": {
+      "Rare Clamble": 4,
+      "Rare Drumpler": 8,
+      "Rare Pummel": 4,
+      "Rare Shellbeat": 3,
+      "Rare T-Rox": 4
+    },
+    "Time Limit": "None",
+    "Total Eggs": "23"
+  },
+  "Combinations to Breed": [
+    "Any Wublin"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Spytrap",
+  "Elements": [
+    "Plant",
+    "Cold",
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Rare Spytrap",
+    "description": "The symbiosis between the Spytrap and its arachnid 'ward' is taken to the next level with the Rare Magical... the Monster houses the larval form of its unsuspecting guest atop its pod! But that's not the only difference - perhaps out of boredom or some kind of unfulfilled void within itself, the ward of a Rare Spytap [sic] will also spontaneously start hosting a weekly talk show it refers to as a 'pod-cast.' Very few fellow Monsters ever tune in to listen, but the Spytrap goodnaturedly obliges this indulgence by continuing to 'co-host' the pod-cast free of any major licensing or distribution fees. Whatever those are."
+  },
+  "Costs": {
+    "name": "Rare Spytrap",
+    "diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 8h 37m 30s",
+    "Enhanced_Skin": "1d 4h 16m 30s",
+    "Standard": "1d 19h 30m",
+    "Standard_Skin": "1d 15h 9m"
+  },
+  "Likes": [
+    "Spytrap",
+    "Kab's Wax",
+    "Bloofi Tree",
+    "Englobulated F.U.M."
+  ],
+  "Combinations to Breed": [
+    "Gob + Mammott",
+    "Furcorn + Fluoress",
+    "Bulbo + Potbelly"
+  ]
+}
