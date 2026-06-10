@@ -3,13 +3,13 @@
   let BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, MASTER_DB_URL, MONSTERS_URL;
 
   function updateUrls() {
-      BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/`;
-      MASTER_DB_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/master_database.json`;
-      MONSTERS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/Monsters/`;
-      IMAGE_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/images/bm/`;
-      SOUND_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/sounds/`;
-      ELEMENTS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/images/elements/`;
-      BREEDING_FILE_PATH = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/breedingCombos.json`;
+      BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/`;
+      MASTER_DB_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/master_database.json`;
+      MONSTERS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/Monsters/`;
+      IMAGE_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/images/bm/`;
+      SOUND_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/sounds/`;
+      ELEMENTS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/images/elements/`;
+      BREEDING_FILE_PATH = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/breedingCombos.json`;
   }
 
   function getStringSimilarity(str1, str2) {
@@ -224,7 +224,7 @@
             const finalImageUrl = `${IMAGE_BASE_URL}${encodeURIComponent(fullName)}.png`;
             const eggName = fullName.replace(/\s*\((Major|Minor)\)/i, "").trim();
             // Assuming monster eggs live under the main CDN, adjust path if they are in a different repo
-            const finalEggUrl = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/images/monster_eggs/${encodeURIComponent(eggName)}.png`;
+            const finalEggUrl = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/images/monster_eggs/${encodeURIComponent(eggName)}.png`;
 
             const elementImageDb = dbCache['Element Image Manifest'] || {};
             const elementsResolved = (mData.Elements || []).map(elName => {
@@ -237,7 +237,7 @@
             });
 
             const rawCostumes = Array.isArray(dbCache['Costumes']?.[baseNameClean]?.[rarity]) ? dbCache['Costumes'][baseNameClean][rarity] : [];
-            const costumes = rawCostumes.map(c => `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/data/costumes/${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(c)}`);
+            const costumes = rawCostumes.map(c => `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/costumes/${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(c)}`);
 
             const rawSounds = Array.isArray(dbCache['Sounds']?.[baseNameClean]?.[rarity]) ? dbCache['Sounds'][baseNameClean][rarity] : [];
             const sounds = rawSounds.map(s => `${SOUND_BASE_URL}${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(s)}`);
@@ -346,7 +346,7 @@
         const matches = islandsImages[normalized];
         if (!matches) return null;
 
-        const islandBaseUrl = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/`;
+        const islandBaseUrl = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/`;
         return matches.map(path => `${islandBaseUrl}${encodeURI(path)}`);
   }
 
