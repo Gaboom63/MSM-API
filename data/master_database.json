@@ -81,6 +81,7 @@
     "Epic Blabbit": "Epic Blabbit",
     "Epic Bleatnik": "Epic Bleatnik",
     "Epic Blipsqueak": "Epic Blipsqueak",
+    "Epic Bona-Petite": "Epic Bona-Petite",
     "Epic Boo'qwurm": "Epic Boo'qwurm",
     "Epic Boodoo": "Epic Boodoo",
     "Epic Boskus": "Epic Boskus",
@@ -288,6 +289,7 @@
     "Punkleton": "Punkleton",
     "Quarrister": "Quarrister",
     "Quibble": "Quibble",
+    "Raqsoun": "Raqsoun",
     "Rare Anglow": "Rare Anglow",
     "Rare Arackulele": "Rare Arackulele",
     "Rare Astropod": "Rare Astropod",
@@ -579,18 +581,18 @@
     "Mythical - Dream": "Mythical - Dream.png",
     "Mythical": "Mythical - Mythical.png",
     "Mythical - Mythical": "Mythical - Mythical.png",
-    "Primordial Air": "Primordial - Air.png",
-    "Air": "Natural - Air.png",
-    "Primordial Cold": "Primordial - Cold.png",
-    "Cold": "Natural - Cold.png",
-    "Primordial Earth": "Primordial - Earth.png",
-    "Earth": "Natural - Earth.png",
+    "Air": "Primordial - Air.png",
+    "Natural - Air": "Natural - Air.png",
+    "Cold": "Primordial - Cold.png",
+    "Natural - Cold": "Natural - Cold.png",
+    "Earth": "Primordial - Earth.png",
+    "Natural - Earth": "Natural - Earth.png",
     "Fire": "Natural - Fire.png",
     "Natural - Fire": "Natural - Fire.png",
-    "Primordial Plant": "Primordial - Plant.png",
-    "Plant": "Natural - Plant.png",
-    "Primordial Water": "Primordial - Water.png",
-    "Water": "Natural - Water.png",
+    "Plant": "Primordial - Plant.png",
+    "Natural - Plant": "Natural - Plant.png",
+    "Water": "Primordial - Water.png",
+    "Natural - Water": "Natural - Water.png",
     "Control": "Paironormal - Control.png",
     "Paironormal - Control": "Paironormal - Control.png",
     "Depths": "Paironormal - Depths.png",
@@ -4626,6 +4628,9 @@
     "Epic Blipsqueak": [
       "wublin"
     ],
+    "Epic Bona-Petite": [
+      "wublin"
+    ],
     "Epic Boo'qwurm": [
       "psychic",
       "seasonal",
@@ -5897,6 +5902,9 @@
       "mirror cold",
       "mirror air",
       "mirror water"
+    ],
+    "Raqsoun": [
+      "paironormal"
     ],
     "Rare Anglow": [
       "water",

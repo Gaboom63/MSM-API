@@ -1,0 +1,35 @@
+{
+  "Name": "Epic Bona-Petite",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "wublin"
+  ],
+  "Description": {
+    "name": "Epic Bona-Petite",
+    "description": "If Galvana, Celestial of Electricity could be the said to be the 'godmother' of the Wublins (and we think that's an appropriate term), then the godfather would be Vhamp, Celestial of Mech. The tinkerer's influence can be felt in the chimeral and eclectic nature of the Wubbox's creations, and the Mech-anically-minded Epic Bona and Petite are the true materializations of that influence."
+  },
+  "Wublin Inventory": {
+    "Cost": "10",
+    "Inventory": {
+      "Epic Mammott": 1,
+      "Epic Fwog": 1,
+      "Epic Drumpler": 1,
+      "Epic Maw": 1,
+      "Epic PomPom": 1,
+      "Epic Bowgart": 1,
+      "Epic T-Rox": 1,
+      "Epic Riff": 1,
+      "Epic Entbrat": 1,
+      "Epic Sooza": 1,
+      "Epic Woolabee": 1,
+      "Epic Bisonorus": 1
+    },
+    "Time Limit": "None",
+    "Total Eggs": "12"
+  },
+  "Combinations to Breed": [
+    "Zap To Power Up!"
+  ]
+}

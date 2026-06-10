@@ -1,0 +1,25 @@
+{
+  "Name": "Raqsoun",
+  "Elements": [
+    "Control",
+    "Ruin"
+  ],
+  "Costs": {
+    "name": "Raqsoun",
+    "diamond_cost": "3000"
+  },
+  "Islands": [
+    "paironormal"
+  ],
+  "Description": {
+    "name": "Raqsoun (Major)",
+    "description": "Whenever and wherever the Raqsoun performs, the audience stops in its tracks. The Poise Paironormal's pointed precision never leaves you wondering, even if it does seem to be playing it by ear, but that's just its deal. Under a shadowed brim, this confident Bell-y dancer moves with grace and finality, punctuating the beat with an impact as elegant as it is purposeful. Like clockwork, the ring of a bell is predictable and expected… but a bell can just as easily signal an alarm, rung out in sudden desperation. Despite this, there remains something reassuring and rhythmic about how the Minor Raqsoun's stumbling steps and precarious pealing resound across the Carnival. Stouter and less sure-footed, this Monster's Minor form may strike with less confidence, but its tone rings clear. Its melancholic notes call back to a more ancient era, and its now fading ornamentation leave traces of a story not long forgotten. Diverse manifestations of 'Ruin' within the Paironormal class continue to surprise, and teach us to approach this unusual Element with an open mind."
+  },
+  "Combinations to Breed": [
+    "Hairionette (Major) + Arcorina (Major)"
+  ],
+  "Breeding Times": {
+    "Enhanced": "1d 9h 45m",
+    "Standard": "1d 21h"
+  }
+}
