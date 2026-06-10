@@ -45,12 +45,45 @@ if (fs.existsSync(monstersDir)) {
 // 2. Build Element Manifest from /images/elements/
 const elementsDir = path.join(imagesDir, 'elements');
 if (fs.existsSync(elementsDir)) {
+    const stripPrefixes = [
+        'Natural',
+        'Paironormal',
+        'Seasonal (Core)',
+        'Seasonal (Aux)',
+        'Seasonal (Aux.)',
+        'Ethereal',
+        'Magical',
+        'Supernatural'
+    ];
+
     fs.readdirSync(elementsDir).forEach(file => {
         if (file.endsWith('.png')) {
-            // Converts "Natural - Air.png" -> "Air"
-            const cleanName = file.replace('.png', '').split('-').pop().trim();
-            masterDb["Element Image Manifest"][cleanName] = file;
-            masterDb["Element Image Manifest"][file.replace('.png', '')] = file; // Safe fallback
+            const fileName = path.parse(file).name.trim();
+
+            let key = fileName;
+
+            // Split only on the FIRST " - "
+            const separatorIndex = fileName.indexOf(' - ');
+
+            if (separatorIndex !== -1) {
+                const category = fileName.slice(0, separatorIndex).trim();
+                const element = fileName.slice(separatorIndex + 3).trim();
+
+                if (stripPrefixes.includes(category)) {
+                    key = element;
+                } else {
+                    key = `${category} ${element}`;
+                }
+            }
+
+            // Warn if two files would generate the same key
+            if (masterDb["Element Image Manifest"][key]) {
+                console.warn(
+                    `⚠️ Duplicate element key "${key}" from "${file}" (already mapped to "${masterDb["Element Image Manifest"][key]}")`
+                );
+            }
+
+            masterDb["Element Image Manifest"][key] = file;
         }
     });
 }
