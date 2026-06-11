@@ -1,0 +1,46 @@
+{
+    "Name": "Quarrister",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Quarrister (Young).png",
+            "Egg-Img": "Young_Egg_Quarrister.png",
+            "Avatar image": "Young_Avatar_Quarrister - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Quarrister (Adult).png",
+            "Egg-Img": "Adult_Egg_Quarrister.png",
+            "Avatar image": "Adult_Avatar_Quarrister - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Red",
+            "Image": "Prismatic Quarrister - Red.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Quarrister - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Quarrister - Green.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Quarrister - Orange.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Quarrister - Purple.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Quarrister - Blue.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Repatillo",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Repatillo (Young).png",
+            "Egg-Img": "Young_Egg_Repatillo.png",
+            "Avatar image": "Young_Avatar_Repatillo - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Repatillo (Adult).png",
+            "Egg-Img": "Adult_Egg_Repatillo.png",
+            "Avatar image": "Adult_Avatar_Repatillo - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Repatillo - Blue.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Repatillo - Purple.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Repatillo - Orange.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Repatillo - Red.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Repatillo - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Repatillo - Green.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

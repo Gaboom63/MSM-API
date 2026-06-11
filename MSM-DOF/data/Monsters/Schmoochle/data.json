@@ -1,0 +1,20 @@
+{
+    "Name": "Schmoochle",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Schmoochle (Young).png",
+            "Egg-Img": "Young_Egg_Schmoochle.png",
+            "Avatar image": "Young_Avatar_Schmoochle - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Schmoochle (Adult).png",
+            "Egg-Img": "Adult_Egg_Schmoochle.png",
+            "Avatar image": "Adult_Avatar_Schmoochle - adult.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d 7h"
+    }
+}

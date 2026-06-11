@@ -1,0 +1,46 @@
+{
+    "Name": "Thumpies",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Thumpies (Adult).png",
+            "Egg-Img": "Adult_Egg_Thumpies.png",
+            "Avatar image": "Adult_Avatar_Thumpies - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Thumpies (Young).png",
+            "Egg-Img": "Young_Egg_Thumpies.png",
+            "Avatar image": "Young_Avatar_Thumpies - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Thumpies - Orange.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Thumpies - Red.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Thumpies - Blue.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Thumpies - Purple.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Thumpies - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Thumpies - Yellow.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

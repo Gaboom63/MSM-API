@@ -1,0 +1,46 @@
+{
+    "Name": "Bowgart",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Bowgart (Young).png",
+            "Egg-Img": "Young_Egg_Bowgart.png",
+            "Avatar image": "Young_Avatar_Bowgart - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Bowgart (Adult).png",
+            "Egg-Img": "Adult_Egg_Bowgart.png",
+            "Avatar image": "Adult_Avatar_Bowgart - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Bowgart - Blue.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Bowgart - Purple.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Bowgart - Yellow.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Bowgart - Orange.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Bowgart - Green.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Bowgart - Red.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

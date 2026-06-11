@@ -1,0 +1,46 @@
+{
+    "Name": "Spunge",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Spunge (Adult).png",
+            "Egg-Img": "Adult_Egg_Spunge.png",
+            "Avatar image": "Adult_Avatar_Spunge - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Spunge (Young).png",
+            "Egg-Img": "Young_Egg_Spunge.png",
+            "Avatar image": "Young_Avatar_Spunge - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Spunge - Orange.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Spunge - Yellow.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Spunge - Red.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Spunge - Blue.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Spunge - Green.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Spunge - Purple.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Flowah",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Flowah (Adult).png",
+            "Egg-Img": "Adult_Egg_Flowah.png",
+            "Avatar image": "Adult_Avatar_Flowah - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Flowah (Young).png",
+            "Egg-Img": "Young_Egg_Flowah.png",
+            "Avatar image": "Young_Avatar_Flowah - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Flowah - Purple.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Flowah - Red.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Flowah - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Flowah - Green.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Flowah - Blue.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Flowah - Orange.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "8h"
+    }
+}

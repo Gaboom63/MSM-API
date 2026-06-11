@@ -1,0 +1,46 @@
+{
+    "Name": "Wynq",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Wynq (Young).png",
+            "Egg-Img": "Young_Egg_Wynq.png",
+            "Avatar image": "Young_Avatar_Wynq - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Wynq (Adult).png",
+            "Egg-Img": "Adult_Egg_Wynq.png",
+            "Avatar image": "Adult_Avatar_Wynq - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Red",
+            "Image": "Prismatic Wynq - Red.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Wynq - Orange.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Wynq - Blue.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Wynq - Purple.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Wynq - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Wynq - Green.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

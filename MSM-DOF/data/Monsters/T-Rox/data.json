@@ -1,0 +1,46 @@
+{
+    "Name": "T-Rox",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "T-Rox (Young).png",
+            "Egg-Img": "Young_Egg_T-Rox.png",
+            "Avatar image": "Young_Avatar_T-Rox - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "T-Rox (Adult).png",
+            "Egg-Img": "Adult_Egg_T-Rox.png",
+            "Avatar image": "Adult_Avatar_T-Rox - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Rox - orange",
+            "Image": "Prismatic T-Rox - Orange.png"
+        },
+        {
+            "Color": "Rox - purple",
+            "Image": "Prismatic T-Rox - Purple.png"
+        },
+        {
+            "Color": "Rox - red",
+            "Image": "Prismatic T-Rox - Red.png"
+        },
+        {
+            "Color": "Rox - blue",
+            "Image": "Prismatic T-Rox - Blue.png"
+        },
+        {
+            "Color": "Rox - yellow",
+            "Image": "Prismatic T-Rox - Yellow.png"
+        },
+        {
+            "Color": "Rox - green",
+            "Image": "Prismatic T-Rox - Green.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

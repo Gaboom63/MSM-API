@@ -1,0 +1,46 @@
+{
+    "Name": "Drumpler",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Drumpler (Young).png",
+            "Egg-Img": "Young_Egg_Drumpler.png",
+            "Avatar image": "Young_Avatar_Drumpler - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Drumpler (Adult).png",
+            "Egg-Img": "Adult_Egg_Drumpler.png",
+            "Avatar image": "Adult_Avatar_Drumpler - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Drumpler - Yellow.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Drumpler - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Drumpler - Purple.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Drumpler - Blue.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Drumpler - Orange.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Drumpler - Green.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "30m"
+    }
+}

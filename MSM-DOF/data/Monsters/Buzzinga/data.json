@@ -1,0 +1,20 @@
+{
+    "Name": "Buzzinga",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Buzzinga (Adult).png",
+            "Egg-Img": "Adult_Egg_Buzzinga.png",
+            "Avatar image": "Adult_Avatar_Buzzinga - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Buzzinga (Young).png",
+            "Egg-Img": "Young_Egg_Buzzinga.png",
+            "Avatar image": "Young_Avatar_Buzzinga - young.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "23h"
+    }
+}

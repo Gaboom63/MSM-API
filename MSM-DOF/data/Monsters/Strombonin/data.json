@@ -1,0 +1,20 @@
+{
+    "Name": "Strombonin",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Strombonin (Young).png",
+            "Egg-Img": "Young_Egg_Strombonin.png",
+            "Avatar image": "Young_Avatar_Strombonin - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Strombonin (Adult).png",
+            "Egg-Img": "Adult_Egg_Strombonin.png",
+            "Avatar image": "Adult_Avatar_Strombonin - adult.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "23h"
+    }
+}

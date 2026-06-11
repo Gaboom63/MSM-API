@@ -1,0 +1,46 @@
+{
+    "Name": "Sooza",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Sooza (Young).png",
+            "Egg-Img": "Young_Egg_Sooza.png",
+            "Avatar image": "Young_Avatar_Sooza - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Sooza (Adult).png",
+            "Egg-Img": "Adult_Egg_Sooza.png",
+            "Avatar image": "Adult_Avatar_Sooza - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Green",
+            "Image": "Prismatic Sooza - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Sooza - Yellow.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Sooza - Blue.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Sooza - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Sooza - Purple.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Sooza - Orange.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

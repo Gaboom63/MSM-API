@@ -1,0 +1,46 @@
+{
+    "Name": "Flum Ox",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Flum Ox (Adult).png",
+            "Egg-Img": "",
+            "Avatar image": "Adult_Avatar_Flum Ox - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Flum Ox (Young).png",
+            "Egg-Img": "",
+            "Avatar image": "Young_Avatar_Flum Ox - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Flum Ox - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Flum Ox - Green.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Flum Ox - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Flum Ox - Purple.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Flum Ox - Orange.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Flum Ox - Blue.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d"
+    }
+}

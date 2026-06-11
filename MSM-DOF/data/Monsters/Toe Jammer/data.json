@@ -1,0 +1,46 @@
+{
+    "Name": "Toe Jammer",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Toe Jammer (Young).png",
+            "Egg-Img": "Young_Egg_Toe Jammer.png",
+            "Avatar image": "Young_Avatar_Toe Jammer - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Toe Jammer (Adult).png",
+            "Egg-Img": "Adult_Egg_Toe Jammer.png",
+            "Avatar image": "Adult_Avatar_Toe Jammer - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Toe Jammer - Yellow.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Toe Jammer - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Toe Jammer - Purple.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Toe Jammer - Orange.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Toe Jammer - Green.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Toe Jammer - Blue.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": ""
+    }
+}

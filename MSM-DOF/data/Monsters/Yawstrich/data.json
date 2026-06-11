@@ -1,0 +1,20 @@
+{
+    "Name": "Yawstrich",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Yawstrich (Adult).png",
+            "Egg-Img": "Adult_Egg_Yawstrich.png",
+            "Avatar image": "Adult_Avatar_Yawstrich - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Yawstrich (Young).png",
+            "Egg-Img": "Young_Egg_Yawstrich.png",
+            "Avatar image": "Young_Avatar_Yawstrich - young.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d 4h"
+    }
+}

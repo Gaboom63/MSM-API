@@ -1,0 +1,46 @@
+{
+    "Name": "Oaktopus",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Oaktopus (Young).png",
+            "Egg-Img": "Young_Egg_Oaktopus.png",
+            "Avatar image": "Young_Avatar_Oaktopus - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Oaktopus (Adult).png",
+            "Egg-Img": "Adult_Egg_Oaktopus.png",
+            "Avatar image": "Adult_Avatar_Oaktopus - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Oaktopus - Orange.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Oaktopus - Yellow.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Oaktopus - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Oaktopus - Purple.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Oaktopus - Blue.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Oaktopus - Green.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "8h"
+    }
+}

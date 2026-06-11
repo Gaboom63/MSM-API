@@ -1,0 +1,20 @@
+{
+    "Name": "Cherubble",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Cherubble (Young).png",
+            "Egg-Img": "Young_Egg_Cherubble.png",
+            "Avatar image": "Young_Avatar_Cherubble - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Cherubble (Adult).png",
+            "Egg-Img": "Adult_Egg_Cherubble.png",
+            "Avatar image": "Adult_Avatar_Cherubble - adult.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "18h"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Dandidoo",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Dandidoo (Young).png",
+            "Egg-Img": "Young_Egg_Dandidoo.png",
+            "Avatar image": "Young_Avatar_Dandidoo - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Dandidoo (Adult).png",
+            "Egg-Img": "Adult_Egg_Dandidoo.png",
+            "Avatar image": "Adult_Avatar_Dandidoo - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Dandidoo - Blue.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Dandidoo - Orange.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Dandidoo - Green.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Dandidoo - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Dandidoo - Purple.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Dandidoo - Yellow.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "8h"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Mammott",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Mammott (Young).png",
+            "Egg-Img": "Young_Egg_Mammott.png",
+            "Avatar image": "Young_Avatar_Mammott - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Mammott (Adult).png",
+            "Egg-Img": "Adult_Egg_Mammott.png",
+            "Avatar image": "Adult_Avatar_Mammott - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Mammott - Orange.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Mammott - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Mammott - Yellow.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Mammott - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Mammott - Purple.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Mammott - Blue.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": ""
+    }
+}

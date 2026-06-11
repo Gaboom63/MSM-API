@@ -1,0 +1,46 @@
+{
+    "Name": "Mimic",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Mimic (Adult).png",
+            "Egg-Img": "Adult_Egg_Mimic.png",
+            "Avatar image": "Adult_Avatar_Mimic - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Mimic (Young).png",
+            "Egg-Img": "Young_Egg_Mimic.png",
+            "Avatar image": "Young_Avatar_Mimic - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Mimic - Purple.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Mimic - Blue.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Mimic - Orange.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Mimic - Green.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Mimic - Red.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Mimic - Yellow.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "2d"
+    }
+}

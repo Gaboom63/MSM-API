@@ -1,0 +1,46 @@
+{
+    "Name": "Tweedle",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Tweedle (Young).png",
+            "Egg-Img": "Young_Egg_Tweedle.png",
+            "Avatar image": "Young_Avatar_Tweedle - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Tweedle (Adult).png",
+            "Egg-Img": "Adult_Egg_Tweedle.png",
+            "Avatar image": "Adult_Avatar_Tweedle - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Green",
+            "Image": "Prismatic Tweedle - Green.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Tweedle - Red.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Tweedle - Yellow.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Tweedle - Purple.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Tweedle - Blue.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Tweedle - Orange.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": ""
+    }
+}

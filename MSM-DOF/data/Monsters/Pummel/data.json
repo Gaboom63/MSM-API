@@ -1,0 +1,46 @@
+{
+    "Name": "Pummel",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Pummel (Young).png",
+            "Egg-Img": "Young_Egg_Pummel.png",
+            "Avatar image": "Young_Avatar_Pummel - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Pummel (Adult).png",
+            "Egg-Img": "Adult_Egg_Pummel.png",
+            "Avatar image": "Adult_Avatar_Pummel - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Pummel - Purple.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Pummel - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Pummel - Yellow.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Pummel - Orange.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Pummel - Blue.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Pummel - Red.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

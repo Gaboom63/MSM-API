@@ -1,0 +1,46 @@
+{
+    "Name": "Gnarls",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Gnarls (Young).png",
+            "Egg-Img": "Young_Egg_Gnarls.png",
+            "Avatar image": "Young_Avatar_Gnarls - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Gnarls (Adult).png",
+            "Egg-Img": "Adult_Egg_Gnarls.png",
+            "Avatar image": "Adult_Avatar_Gnarls - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Gnarls - Purple.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Gnarls - Orange.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Gnarls - Red.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Gnarls - Yellow.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Gnarls - Blue.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Gnarls - Green.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "2d"
+    }
+}

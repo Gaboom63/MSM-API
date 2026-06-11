@@ -1,0 +1,46 @@
+{
+    "Name": "Tiawa",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Tiawa (Adult).png",
+            "Egg-Img": "Adult_Egg_Tiawa.png",
+            "Avatar image": "Adult_Avatar_Tiawa - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Tiawa (Young).png",
+            "Egg-Img": "Young_Egg_Tiawa.png",
+            "Avatar image": "Young_Avatar_Tiawa - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Green",
+            "Image": "Prismatic Tiawa - Green.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Tiawa - Purple.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Tiawa - Blue.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Tiawa - Orange.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Tiawa - Red.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Tiawa - Yellow.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d"
+    }
+}

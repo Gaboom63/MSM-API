@@ -1,0 +1,46 @@
+{
+    "Name": "Riff",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Riff (Young).png",
+            "Egg-Img": "Young_Egg_Riff.png",
+            "Avatar image": "Young_Avatar_Riff - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Riff (Adult).png",
+            "Egg-Img": "Adult_Egg_Riff.png",
+            "Avatar image": "Adult_Avatar_Riff - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Riff - Yellow.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Riff - Blue.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Riff - Orange.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Riff - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Riff - Purple.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Riff - Green.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d"
+    }
+}

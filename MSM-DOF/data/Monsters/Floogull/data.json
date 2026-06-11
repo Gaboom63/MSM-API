@@ -1,0 +1,46 @@
+{
+    "Name": "Floogull",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Floogull (Adult).png",
+            "Egg-Img": "Adult_Egg_Floogull.png",
+            "Avatar image": "Adult_Avatar_Floogull - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Floogull (Young).png",
+            "Egg-Img": "Young_Egg_Floogull.png",
+            "Avatar image": "Young_Avatar_Floogull - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Red",
+            "Image": "Prismatic Floogull - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Floogull - Purple.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Floogull - Orange.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Floogull - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Floogull - Green.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Floogull - Blue.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

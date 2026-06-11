@@ -1,0 +1,46 @@
+{
+    "Name": "Candelavra",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Candelavra (Adult).png",
+            "Egg-Img": "Adult_Egg_Candelavra.png",
+            "Avatar image": "Adult_Avatar_Candelavra - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Candelavra (Young).png",
+            "Egg-Img": "Young_Egg_Candelavra.png",
+            "Avatar image": "Young_Avatar_Candelavra - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Candelavra - Orange.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Candelavra - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Candelavra - Green.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Candelavra - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Candelavra - Purple.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Candelavra - Blue.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "2d"
+    }
+}

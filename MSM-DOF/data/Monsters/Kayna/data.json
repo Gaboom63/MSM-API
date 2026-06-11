@@ -1,0 +1,46 @@
+{
+    "Name": "Kayna",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Kayna (Adult).png",
+            "Egg-Img": "Adult_Egg_Kayna.png",
+            "Avatar image": "Adult_Avatar_Kayna - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Kayna (Young).png",
+            "Egg-Img": "Young_Egg_Kayna.png",
+            "Avatar image": "Young_Avatar_Kayna - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Red",
+            "Image": "Prismatic Kayna - Red.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Kayna - Orange.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Kayna - Purple.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Kayna - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Kayna - Yellow.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Kayna - Blue.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": ""
+    }
+}

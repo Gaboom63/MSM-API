@@ -1,16 +1,32 @@
 (function (global) {
   let COMMIT_HASH = localStorage.getItem('msm_api_hash') || 'main'; 
-  let BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, MASTER_DB_URL, MONSTERS_URL;
+  let BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, MASTER_DB_URL, MONSTERS_URL, DOF_MONSTERS_URL;
+  
+  const LOCAL_MODE = false;
 
   function updateUrls() {
-      BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/`;
-      MASTER_DB_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/master_database.json`;
-      MONSTERS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/Monsters/`;
-      IMAGE_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/images/bm/`;
-      SOUND_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/sounds/`;
-      ELEMENTS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/images/elements/`;
-      BREEDING_FILE_PATH = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/breedingCombos.json`;
-  }
+          if (LOCAL_MODE) {
+            // Local relative paths stepping out of MSM-Combo-Finder directly into MSM / MSM-DOF
+            BASE_URL = `/MSM-API/MSM/data/`;
+            MASTER_DB_URL = `/MSM-API/MSM/data/master_database.json`;
+            MONSTERS_URL = `/MSM-API/MSM/data/Monsters/`;
+            DOF_MONSTERS_URL = `/MSM-API/MSM-DOF/data/Monsters/`; 
+            IMAGE_BASE_URL = `/MSM-API/MSM/images/bm/`;
+            SOUND_BASE_URL = `/MSM-API/MSM/data/sounds/`;
+            ELEMENTS_URL = `/MSM-API/MSM/images/elements/`;
+            BREEDING_FILE_PATH = `/MSM-API/MSM/data/breedingCombos.json`;
+          } else {
+              // Production GitHub CDN paths
+              BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/`;
+              MASTER_DB_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/master_database.json`;
+              MONSTERS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/Monsters/`;
+              DOF_MONSTERS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM-DOF/data/Monsters/`;
+              IMAGE_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/images/bm/`;
+              SOUND_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/sounds/`;
+              ELEMENTS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/images/elements/`;
+              BREEDING_FILE_PATH = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/breedingCombos.json`;
+          }
+    }
 
   function getStringSimilarity(str1, str2) {
     const s1 = str1.toLowerCase();
@@ -32,38 +48,47 @@
   }
   
   async function syncToLatestCommit() {
-    const lastCheck = localStorage.getItem('msm_hash_last_check') || 0;
-    const now = Date.now();
-    
-    if (now - lastCheck < 600000 && COMMIT_HASH !== 'main') {
-        updateUrls();
-        return;
-    }
-
-    try {
-      const res = await fetch('https://api.github.com/repos/Gaboom63/MSM-API/commits/main', { credentials: 'omit' });
-      if (!res.ok) throw new Error();
-      const data = await res.json();
-      
-      if (COMMIT_HASH !== data.sha) {
-          const oldHash = COMMIT_HASH;
-          COMMIT_HASH = data.sha;
-          localStorage.setItem('msm_api_hash', COMMIT_HASH);
-          
-          if (oldHash && oldHash !== 'main') {
-              Object.keys(localStorage).forEach(key => {
-                  if (key.startsWith('msm_') && key.includes(oldHash)) {
-                      localStorage.removeItem(key);
-                  }
-              });
+          // If testing locally, we don't care about the GitHub commit sync.
+          if (LOCAL_MODE) {
+              updateUrls();
+              return;
           }
+
+          const lastCheck = localStorage.getItem('msm_hash_last_check') || 0;
+          const now = Date.now();
           
-          console.log(`MSM API Update detected! Switched from ${oldHash ? oldHash.substring(0,7) : 'main'} to ${COMMIT_HASH.substring(0,7)}`);
+          if (now - lastCheck < 600000 && COMMIT_HASH !== 'main') {
+              updateUrls();
+              return;
+          }
+
+          try {
+              const res = await fetch('https://api.github.com/repos/Gaboom63/MSM-API/commits/main', { credentials: 'omit' });
+              if (!res.ok) throw new Error();
+              const data = await res.json();
+              
+              if (COMMIT_HASH !== data.sha) {
+                  const oldHash = COMMIT_HASH;
+                  COMMIT_HASH = data.sha;
+                  localStorage.setItem('msm_api_hash', COMMIT_HASH);
+                  
+                  if (oldHash && oldHash !== 'main') {
+                      Object.keys(localStorage).forEach(key => {
+                          if (key.startsWith('msm_') && key.includes(oldHash)) {
+                              localStorage.removeItem(key);
+                          }
+                      });
+                  }
+                  
+                  console.log(`MSM API Update detected! Switched from ${oldHash ? oldHash.substring(0,7) : 'main'} to ${COMMIT_HASH.substring(0,7)}`);
+              }
+              localStorage.setItem('msm_hash_last_check', now);
+          } catch (err) { 
+              console.warn("GitHub API Sync failed, using cached hash."); 
+          } finally { 
+              updateUrls(); 
+          }
       }
-      localStorage.setItem('msm_hash_last_check', now);
-    } catch (err) { console.warn("GitHub API Sync failed, using cached hash."); }
-    finally { updateUrls(); }
-  }
 
   updateUrls();
   const syncPromise = syncToLatestCommit();
@@ -331,8 +356,35 @@
             console.error(`Catastrophic failure parsing JSON for ${rawName}:`, criticalError);
             return null;
         }
-    }
+  }
 
+  async function getDofMonster(rawName) {
+      try {
+          const folderName = rawName.trim();
+          const safeFolderName = folderName.replace(/\//g, "-").replace(/:/g, "");
+          const dedicatedDataUrl = `${DOF_MONSTERS_URL}${encodeURIComponent(safeFolderName)}/data.json`;
+          
+          let mData = await fetchWithCache(`dof_monster_data_${safeFolderName}`, dedicatedDataUrl);
+          
+          if (!mData || Object.keys(mData).length === 0) {
+              console.warn(`No dedicated DOF data.json found for: ${dedicatedDataUrl}`);
+              return null;
+          }
+
+          return {
+              name: folderName,
+              breedingTimes: mData["Breeding Times"] || { Standard: "Unknown", Enhanced: "Unknown" },
+              prismatics: mData["Prismatics"] || [], // New field
+              async getBreedingTime() { 
+                  return this.breedingTimes; 
+              }
+          };
+      } catch (error) {
+          console.error(`Failed parsing DOF JSON for ${rawName}:`, error);
+          return null;
+      }
+  }
+ 
   async function getIslandImg(identifier) {
         await initDatabases();
         
@@ -414,12 +466,14 @@
   const MSM = new Proxy({}, {
   get(target, prop) {
     const key = String(prop);
-    
+
+    if (key === "getDofBaseUrl") return () => DOF_MONSTERS_URL;
     if (key === "twoMonsterCombo") return calculateBreeding;
     if (key === "getIslandImg") return getIslandImg;
     if (key === "fetchIsland" || key === "island") return fetchIsland;
     if (key === "fetchIslands" || key === "islands") return fetchIslands;
     if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
+    if (["getdofmonster", "dofmonster"].includes(key.toLowerCase())) return getDofMonster; 
     if (key === "help") { return () => ({ version: COMMIT_HASH }); }
     if (key in cache) return cache[key];
 

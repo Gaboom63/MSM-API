@@ -1,0 +1,46 @@
+{
+    "Name": "Stogg",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Stogg (Young).png",
+            "Egg-Img": "Young_Egg_Stogg.png",
+            "Avatar image": "Young_Avatar_Stogg - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Stogg (Adult).png",
+            "Egg-Img": "Adult_Egg_Stogg.png",
+            "Avatar image": "Adult_Avatar_Stogg - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Stogg - Purple.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Stogg - Red.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Stogg - Orange.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Stogg - Blue.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Stogg - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Stogg - Green.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "30m"
+    }
+}

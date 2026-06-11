@@ -1,0 +1,46 @@
+{
+    "Name": "Cybop",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Cybop (Young).png",
+            "Egg-Img": "Young_Egg_Cybop.png",
+            "Avatar image": "Young_Avatar_Cybop - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Cybop (Adult).png",
+            "Egg-Img": "Adult_Egg_Cybop.png",
+            "Avatar image": "Adult_Avatar_Cybop - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Red",
+            "Image": "Prismatic Cybop - Red.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Cybop - Blue.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Cybop - Yellow.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Cybop - Purple.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Cybop - Green.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Cybop - Orange.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "8h"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Tuskski",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Tuskski (Adult).png",
+            "Egg-Img": "Adult_Egg_Tuskski.png",
+            "Avatar image": "Adult_Avatar_Tuskski - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Tuskski (Young).png",
+            "Egg-Img": "Young_Egg_Tuskski.png",
+            "Avatar image": "Young_Avatar_Tuskski - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Red",
+            "Image": "Prismatic Tuskski - Red.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Tuskski - Blue.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Tuskski - Green.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Tuskski - Orange.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Tuskski - Purple.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Tuskski - Yellow.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "2d"
+    }
+}

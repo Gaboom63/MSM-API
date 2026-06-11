@@ -1,0 +1,46 @@
+{
+    "Name": "Pango",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Pango (Adult).png",
+            "Egg-Img": "Adult_Egg_Pango.png",
+            "Avatar image": "Adult_Avatar_Pango - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Pango (Young).png",
+            "Egg-Img": "Young_Egg_Pango.png",
+            "Avatar image": "Young_Avatar_Pango - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Red",
+            "Image": "Prismatic Pango - Red.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Pango - Blue.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Pango - Purple.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Pango - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Pango - Green.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Pango - Orange.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "8h"
+    }
+}

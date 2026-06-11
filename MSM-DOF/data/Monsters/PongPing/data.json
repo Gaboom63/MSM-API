@@ -1,0 +1,46 @@
+{
+    "Name": "PongPing",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "PongPing (Young).png",
+            "Egg-Img": "Young_Egg_PongPing.png",
+            "Avatar image": "Young_Avatar_PongPing - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "PongPing (Adult).png",
+            "Egg-Img": "Adult_Egg_PongPing.png",
+            "Avatar image": "Adult_Avatar_PongPing - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Red",
+            "Image": "Prismatic PongPing - Red.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic PongPing - Blue.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic PongPing - Green.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic PongPing - Orange.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic PongPing - Yellow.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic PongPing - Purple.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d"
+    }
+}

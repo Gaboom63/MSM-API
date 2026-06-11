@@ -1,0 +1,20 @@
+{
+    "Name": "Yool",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Yool (Young).png",
+            "Egg-Img": "Young_Egg_Yool.png",
+            "Avatar image": "Young_Avatar_Yool - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Yool (Adult).png",
+            "Egg-Img": "Adult_Egg_Yool.png",
+            "Avatar image": "Adult_Avatar_Yool - adult.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d 13h"
+    }
+}

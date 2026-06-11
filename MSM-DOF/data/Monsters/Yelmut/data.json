@@ -1,0 +1,46 @@
+{
+    "Name": "Yelmut",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Yelmut (Young).png",
+            "Egg-Img": "Young_Egg_Yelmut.png",
+            "Avatar image": "Young_Avatar_Yelmut - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Yelmut (Adult).png",
+            "Egg-Img": "Adult_Egg_Yelmut.png",
+            "Avatar image": "Adult_Avatar_Yelmut - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Yelmut - Yellow.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Yelmut - Purple.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Yelmut - Green.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Yelmut - Blue.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Yelmut _ Red.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Yelmut - Orange.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d"
+    }
+}

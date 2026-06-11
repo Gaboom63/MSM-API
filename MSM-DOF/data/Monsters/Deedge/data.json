@@ -1,0 +1,46 @@
+{
+    "Name": "Deedge",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Deedge (Adult).png",
+            "Egg-Img": "Adult_Egg_Deedge.png",
+            "Avatar image": "Adult_Avatar_Deedge - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Deedge (Young).png",
+            "Egg-Img": "Young_Egg_Deedge.png",
+            "Avatar image": "Young_Avatar_Deedge - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Green",
+            "Image": "Prismatic Deedge - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Deedge - Yellow.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Deedge - Blue.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Deedge - Red.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Deedge - Orange.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Deedge - Purple.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Glowl",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Glowl (Young).png",
+            "Egg-Img": "Young_Egg_Glowl.png",
+            "Avatar image": "Young_Avatar_Glowl - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Glowl (Adult).png",
+            "Egg-Img": "Adult_Egg_Glowl.png",
+            "Avatar image": "Adult_Avatar_Glowl - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Red",
+            "Image": "Prismatic Glowl - Red.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Glowl - Orange.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Glowl - Blue.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Glowl - Purple.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Glowl - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Glowl - Yellow.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "8h"
+    }
+}

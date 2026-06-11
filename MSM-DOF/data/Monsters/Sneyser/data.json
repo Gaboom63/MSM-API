@@ -1,0 +1,46 @@
+{
+    "Name": "Sneyser",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Sneyser (Young).png",
+            "Egg-Img": "Young_Egg_Sneyser.png",
+            "Avatar image": "Young_Avatar_Sneyser - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Sneyser (Adult).png",
+            "Egg-Img": "Adult_Egg_Sneyser.png",
+            "Avatar image": "Adult_Avatar_Sneyser - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Red",
+            "Image": "Prismatic Sneyser - Red.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Sneyser - Green.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Sneyser - Purple.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Sneyser - Orange.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Sneyser - Yellow.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Sneyser - Blue.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d"
+    }
+}

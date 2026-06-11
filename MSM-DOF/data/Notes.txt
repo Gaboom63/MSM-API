@@ -1,0 +1,1 @@
+There will be no 'dist' folder in this section since the main API in the "MSM" folder already takes care of everything :)

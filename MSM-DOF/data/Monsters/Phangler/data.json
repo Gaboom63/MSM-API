@@ -1,0 +1,46 @@
+{
+    "Name": "Phangler",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Phangler (Young).png",
+            "Egg-Img": "Young_Egg_Phangler.png",
+            "Avatar image": "Young_Avatar_Phangler - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Phangler (Adult).png",
+            "Egg-Img": "Adult_Egg_Phangler.png",
+            "Avatar image": "Adult_Avatar_Phangler - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Phangler - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Phangler - Green.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Phangler - Purple.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Phangler - Blue.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Phangler - Red.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Phangler - Orange.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "8h"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "Name": "Blabbit",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Blabbit (Adult).png",
+            "Egg-Img": "Adult_Egg_Blabbit.png",
+            "Avatar image": "Adult_Avatar_Blabbit - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Blabbit (Young).png",
+            "Egg-Img": "Young_Egg_Blabbit.png",
+            "Avatar image": "Young_Avatar_Blabbit - young.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "19h"
+    }
+}

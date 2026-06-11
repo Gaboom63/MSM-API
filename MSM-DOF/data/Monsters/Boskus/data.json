@@ -1,0 +1,46 @@
+{
+    "Name": "Boskus",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Boskus (Young).png",
+            "Egg-Img": "Young_Egg_Boskus.png",
+            "Avatar image": "Young_Avatar_Boskus - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Boskus (Adult).png",
+            "Egg-Img": "Adult_Egg_Boskus.png",
+            "Avatar image": "Adult_Avatar_Boskus - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Boskus - Purple.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Boskus - Orange.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Boskus - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Boskus - Yellow.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Boskus - Blue.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Boskus - Red.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "8h"
+    }
+}

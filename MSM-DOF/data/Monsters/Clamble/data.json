@@ -1,0 +1,46 @@
+{
+    "Name": "Clamble",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Clamble (Young).png",
+            "Egg-Img": "Young_Egg_Clamble.png",
+            "Avatar image": "Young_Avatar_Clamble - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Clamble (Adult).png",
+            "Egg-Img": "Adult_Egg_Clamble.png",
+            "Avatar image": "Adult_Avatar_Clamble - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Clamble - Purple.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Clamble - Green.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Clamble - Orange.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Clamble - Red.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Clamble - Yellow.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Clamble - Blue.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

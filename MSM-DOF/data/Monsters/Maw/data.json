@@ -1,0 +1,46 @@
+{
+    "Name": "Maw",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Maw (Young).png",
+            "Egg-Img": "Young_Egg_Maw.png",
+            "Avatar image": "Young_Avatar_Maw - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Maw (Adult).png",
+            "Egg-Img": "Adult_Egg_Maw.png",
+            "Avatar image": "Adult_Avatar_Maw - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Maw - Purple.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Maw - Orange.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Maw - Red.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Maw - Blue.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Maw - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Maw - Green.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "8h"
+    }
+}

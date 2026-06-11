@@ -1,0 +1,46 @@
+{
+    "Name": "Quibble",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Quibble (Adult).png",
+            "Egg-Img": "Adult_Egg_Quibble.png",
+            "Avatar image": "Adult_Avatar_Quibble - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Quibble (Young).png",
+            "Egg-Img": "Young_Egg_Quibble.png",
+            "Avatar image": "Young_Avatar_Quibble - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Red",
+            "Image": "Prismatic Quibble - Red.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Quibble - Orange.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Quibble - Purple.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Quibble - Yellow.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Quibble - Blue.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Quibble - Green.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "8h"
+    }
+}

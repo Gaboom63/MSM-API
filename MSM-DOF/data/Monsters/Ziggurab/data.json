@@ -1,0 +1,46 @@
+{
+    "Name": "Ziggurab",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Ziggurab (Adult).png",
+            "Egg-Img": "Adult_Egg_Ziggurab.png",
+            "Avatar image": "Adult_Avatar_Ziggurab - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Ziggurab (Young).png",
+            "Egg-Img": "Young_Egg_Ziggurab.png",
+            "Avatar image": "Young_Avatar_Ziggurab - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Zigurrab - Blue.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Zigurrab - Orange.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Zigurrab - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Zigurrab - Purple.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Zigurrab - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Zigurrab - Yellow.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

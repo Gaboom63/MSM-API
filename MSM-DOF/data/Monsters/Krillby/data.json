@@ -1,0 +1,46 @@
+{
+    "Name": "Krillby",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Krillby (Adult).png",
+            "Egg-Img": "Adult_Egg_Krillby.png",
+            "Avatar image": "Adult_Avatar_Krillby - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Krillby (Young).png",
+            "Egg-Img": "Young_Egg_Krillby.png",
+            "Avatar image": "Young_Avatar_Krillby - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Krillby - Blue.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Krillby - Yellow.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Krillby - Purple.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Krillby - Orange.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Krillby - Red.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Krillby - Green.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d"
+    }
+}

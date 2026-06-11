@@ -1,0 +1,46 @@
+{
+    "Name": "Shrubb",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Shrubb (Adult).png",
+            "Egg-Img": "Adult_Egg_Shrubb.png",
+            "Avatar image": "Adult_Avatar_Shrubb - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Shrubb (Young).png",
+            "Egg-Img": "Young_Egg_Shrubb.png",
+            "Avatar image": "Young_Avatar_Shrubb - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Green",
+            "Image": "Prismatic Shrubb - Green.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Shrubb - Blue.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Shrubb - Red.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Shrubb - Orange.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Shrubb - Yellow.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Shrubb - Purple.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "8h"
+    }
+}

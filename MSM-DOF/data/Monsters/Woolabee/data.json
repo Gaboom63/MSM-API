@@ -1,0 +1,46 @@
+{
+    "Name": "Woolabee",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Woolabee (Young).png",
+            "Egg-Img": "Young_Egg_Woolabee.png",
+            "Avatar image": "Young_Avatar_Woolabee - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Woolabee (Adult).png",
+            "Egg-Img": "Adult_Egg_Woolabee.png",
+            "Avatar image": "Adult_Avatar_Woolabee - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Woolabee - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Woolabee - Green.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Woolabee - Blue.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Woolabee - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Woolabee - Purple.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Woolabee - Orange.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

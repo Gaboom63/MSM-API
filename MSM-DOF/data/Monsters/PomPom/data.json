@@ -1,0 +1,46 @@
+{
+    "Name": "PomPom",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "PomPom (Young).png",
+            "Egg-Img": "Young_Egg_PomPom.png",
+            "Avatar image": "Young_Avatar_PomPom - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "PomPom (Adult).png",
+            "Egg-Img": "Adult_Egg_PomPom.png",
+            "Avatar image": "Adult_Avatar_PomPom - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Green",
+            "Image": "Prismatic Pompom - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Pompom - Yellow.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Pompom - Red.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Pompom - Blue.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Pompom - Orange.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Pompom - Purple.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

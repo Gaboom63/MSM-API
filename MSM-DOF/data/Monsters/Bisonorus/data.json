@@ -1,0 +1,46 @@
+{
+    "Name": "Bisonorus",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Bisonorus (Young).png",
+            "Egg-Img": "Young_Egg_Bisonorus.png",
+            "Avatar image": "Young_Avatar_Bisonorus - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Bisonorus (Adult).png",
+            "Egg-Img": "Adult_Egg_Bisonorus.png",
+            "Avatar image": "Adult_Avatar_Bisonorus - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Bisonorus - Orange.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Bisonorus - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Bisonorus - Green.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Bisonorus - Red.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Bisonorus - Blue.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Bisonorus - Purple.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d"
+    }
+}

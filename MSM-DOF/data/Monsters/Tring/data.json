@@ -1,0 +1,46 @@
+{
+    "Name": "Tring",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Tring (Adult).png",
+            "Egg-Img": "Adult_Egg_Tring.png",
+            "Avatar image": "Adult_Avatar_Tring - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Tring (Young).png",
+            "Egg-Img": "Young_Egg_Tring.png",
+            "Avatar image": "Young_Avatar_Tring - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Tring - Purple.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Tring - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Tring - Yellow.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Tring - Blue.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Tring - Orange.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Tring - Red.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Reedling",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Reedling (Young).png",
+            "Egg-Img": "Young_Egg_Reedling.png",
+            "Avatar image": "Young_Avatar_Reedling - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Reedling (Adult).png",
+            "Egg-Img": "Adult_Egg_Reedling.png",
+            "Avatar image": "Adult_Avatar_Reedling - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Red",
+            "Image": "Prismatic Reedling - Red.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Reedling - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Reedling - Yellow.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Reedling - Purple.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Reedling - Blue.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Reedling - Orange.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Congle",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Congle (Young).png",
+            "Egg-Img": "Young_Egg_Congle.png",
+            "Avatar image": "Young_Avatar_Congle - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Congle (Adult).png",
+            "Egg-Img": "Adult_Egg_Congle.png",
+            "Avatar image": "Adult_Avatar_Congle - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Congle - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Congle - Green.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Congle - Orange.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Congle - Blue.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Congle - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Congle - Purple.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

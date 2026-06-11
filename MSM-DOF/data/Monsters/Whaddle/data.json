@@ -1,0 +1,46 @@
+{
+    "Name": "Whaddle",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Whaddle (Adult).png",
+            "Egg-Img": "Adult_Egg_Whaddle.png",
+            "Avatar image": "Adult_Avatar_Whaddle - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Whaddle (Young).png",
+            "Egg-Img": "Young_Egg_Whaddle.png",
+            "Avatar image": "Young_Avatar_Whaddle - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Red",
+            "Image": "Prismatic Whaddle - Red.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Whaddle - Orange.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Whaddle - Purple.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Whaddle - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Whaddle - Yellow.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Whaddle - Blue.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "Name": "Edamimi",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Edamimi (Adult).png",
+            "Egg-Img": "Adult_Egg_Edamimi.png",
+            "Avatar image": "Adult_Avatar_Edamimi - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Edamimi (Young).png",
+            "Egg-Img": "Young_Egg_Edamimi.png",
+            "Avatar image": "Young_Avatar_Edamimi - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Edamimi - Blue.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Edamimi - Orange.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Edamimi - Red.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Edamimi - Green.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Edamimi - Purple.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Edamimi - Yellow.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d"
+    }
+}

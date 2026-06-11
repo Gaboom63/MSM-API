@@ -1,0 +1,46 @@
+{
+    "Name": "Scups",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Scups (Young).png",
+            "Egg-Img": "Young_Egg_Scups.png",
+            "Avatar image": "Young_Avatar_Scups - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Scups (Adult).png",
+            "Egg-Img": "Adult_Egg_Scups.png",
+            "Avatar image": "Adult_Avatar_Scups - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Scups - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Scups - Green.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Scups - Blue.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Scups - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Scups - Purple.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Scups - Orange.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

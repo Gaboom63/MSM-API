@@ -1,0 +1,46 @@
+{
+    "Name": "Thrumble",
+    "Variants": [
+        {
+            "Form": "Adult",
+            "Image": "Thrumble (Adult).png",
+            "Egg-Img": "Adult_Egg_Thrumble.png",
+            "Avatar image": "Adult_Avatar_Thrumble - adult.png"
+        },
+        {
+            "Form": "Young",
+            "Image": "Thrumble (Young).png",
+            "Egg-Img": "Young_Egg_Thrumble.png",
+            "Avatar image": "Young_Avatar_Thrumble - young.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Thrumble - Orange.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Thrumble - Red.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Thrumble - Purple.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Thrumble - Blue.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Thrumble - Green.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Thrumble - Yellow.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "12h"
+    }
+}

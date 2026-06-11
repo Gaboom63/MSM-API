@@ -1,0 +1,46 @@
+{
+    "Name": "Entbrat",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Entbrat (Young).png",
+            "Egg-Img": "Young_Egg_Entbrat.png",
+            "Avatar image": "Young_Avatar_Entbrat - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Entbrat (Adult).png",
+            "Egg-Img": "Adult_Egg_Entbrat.png",
+            "Avatar image": "Adult_Avatar_Entbrat - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Entbrat - Blue.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Entbrat - Purple.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Entbrat - Yellow.png"
+        },
+        {
+            "Color": "Green",
+            "Image": "Prismatic Entbrat - Green.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Entbrat - Orange.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Entbrat - Red.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "1d"
+    }
+}

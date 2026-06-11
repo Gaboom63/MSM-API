@@ -1,0 +1,46 @@
+{
+    "Name": "Furcorn",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Furcorn (Young).png",
+            "Egg-Img": "Young_Egg_Furcorn.png",
+            "Avatar image": "Young_Avatar_Furcorn - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Furcorn (Adult).png",
+            "Egg-Img": "Adult_Egg_Furcorn.png",
+            "Avatar image": "Adult_Avatar_Furcorn - adult.png"
+        }
+    ],
+    "Prismatics": [
+        {
+            "Color": "Green",
+            "Image": "Prismatic Furcorn - Green.png"
+        },
+        {
+            "Color": "Purple",
+            "Image": "Prismatic Furcorn - Purple.png"
+        },
+        {
+            "Color": "Orange",
+            "Image": "Prismatic Furcorn - Orange.png"
+        },
+        {
+            "Color": "Yellow",
+            "Image": "Prismatic Furcorn - Yellow.png"
+        },
+        {
+            "Color": "Blue",
+            "Image": "Prismatic Furcorn - Blue.png"
+        },
+        {
+            "Color": "Red",
+            "Image": "Prismatic Furcorn - Red.png"
+        }
+    ],
+    "Breeding Times": {
+        "Standard": "8h"
+    }
+}
