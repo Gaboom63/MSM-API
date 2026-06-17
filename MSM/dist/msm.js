@@ -416,19 +416,36 @@
       return Array.from(uniqueIslands).sort();
     }
 
+    // THE FIXED FETCH ISLAND FUNCTION
     async function fetchIsland(identifier) {
-        if(typeof initDatabases === 'function') await initDatabases();
-        const dbIslands = window.dbCache?.['Islands'] || {};
-        const searchTarget = identifier.toLowerCase().trim();
+        await initDatabases();
+        const dbIslands = dbCache['Islands'] || {};
+        
+        let searchTarget = identifier.toLowerCase().trim();
+        
+        // Handle UI Dropdown Aliases
+        if (searchTarget === 'haven') searchTarget = 'fire haven';
+        if (searchTarget === 'oasis') searchTarget = 'fire oasis';
+        if (searchTarget === 'sanctum') searchTarget = 'magical sanctum';
+        if (searchTarget === 'nexus') searchTarget = 'magical nexus';
+
         let actualIslandName = identifier;
         const roster = [];
         let found = false;
     
         for (const [monsterName, islandArray] of Object.entries(dbIslands)) {
             if (!Array.isArray(islandArray)) continue;
+            
             for (const islandName of islandArray) {
                 const normalizedIsland = String(islandName).toLowerCase().trim();
-                if (normalizedIsland === searchTarget || normalizedIsland === searchTarget + " island" || normalizedIsland + " island" === searchTarget) {
+                
+                // Allow flexible matching (exact, appended "island", or matching the UI alias)
+                if (
+                    normalizedIsland === searchTarget || 
+                    normalizedIsland === searchTarget + " island" || 
+                    normalizedIsland + " island" === searchTarget ||
+                    (normalizedIsland.includes(searchTarget) && searchTarget.length > 3)
+                ) {
                     roster.push(monsterName);
                     actualIslandName = islandName; 
                     found = true;
@@ -436,26 +453,23 @@
                 }
             }
         }
-        return { name: actualIslandName, monsters: roster.sort() };
-}
 
+        if (!found) {
+            return { error: `No data found for island matching '${identifier}'.` };
+        }
 
-      if (!found) {
-          return { error: `No data found for island matching '${identifier}'.` };
-      }
+        const images = await getIslandImg(actualIslandName) || [];
 
-      const images = await getIslandImg(actualIslandName) || [];
+        return {
+            name: actualIslandName,
+            images: images,
+            monsters: roster.sort(),
+            totalMonsters: roster.length,
 
-      return {
-          name: actualIslandName,
-          images: images,
-          monsters: roster.sort(),
-          totalMonsters: roster.length,
-
-          getImages() { return this.images; },
-          getMonsters() { return this.monsters; },
-          getInfo() { return `${this.name} features ${this.totalMonsters} known monsters!`; }
-      };
+            getImages() { return this.images; },
+            getMonsters() { return this.monsters; },
+            getInfo() { return `${this.name} features ${this.totalMonsters} known monsters!`; }
+        };
     }
     
   const MSM = new Proxy({}, {
