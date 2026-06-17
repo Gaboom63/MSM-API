@@ -1172,7 +1172,8 @@
     "Epic Deedge"
   ],
   "Pummel + Drumpler": [
-    "Epic Riff"
+    "Epic Riff",
+    "Epic T-Rox"
   ],
   "Spunge + Cybop": [
     "Epic Shellbeat"
@@ -1516,5 +1517,8 @@
   ],
   "Hairionette (Major) + Arcorina (Major)": [
     "Raqsoun (Major)"
+  ],
+  "Congle + Fwog": [
+    "Epic T-Rox"
   ]
 }

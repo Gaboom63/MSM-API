@@ -767,51 +767,13 @@
     ]
   },
   "Costumes": {
-    "Adult Attmoz": {
-      "Common": []
-    },
-    "Adult Blasoom": {
-      "Common": []
-    },
-    "Adult Furnoss": {
-      "Common": []
-    },
-    "Adult Galvana": {
-      "Common": []
-    },
-    "Adult Glaishur": {
-      "Common": []
-    },
-    "Adult Hornacle": {
-      "Common": []
-    },
-    "Adult Loodvigg": {
-      "Common": []
-    },
-    "Adult Plixie": {
-      "Common": []
-    },
-    "Adult Scaratar": {
-      "Common": []
-    },
-    "Adult Syncopite": {
-      "Common": []
-    },
-    "Adult Torrt": {
-      "Common": []
-    },
-    "Adult Vhamp": {
-      "Common": []
-    },
     "Anglow": {
       "Common": [
         "Anglow_(Flashy_Wobbler).png",
         "Anglow_(Little_Cosmic_Egg).png",
         "Anglow_(Splashy_Seafarer).png",
         "Anglow_(Steamy_Artificer).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Arackulele": {
       "Common": [
@@ -820,24 +782,12 @@
         "Arackulele_(Fastest_Webslinger).png",
         "Arackulele_(Lionized).png",
         "Arackulele_(Pollinator_Poise).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Arcorina": {
       "Common": [
         "Arcorina_(Altared_State).png"
       ]
-    },
-    "Arcorina (Major)": {
-      "Common": []
-    },
-    "Arcorina (Minor)": {
-      "Common": []
-    },
-    "Astropod": {
-      "Common": [],
-      "Rare": []
     },
     "Attmoz": {
       "Common": [
@@ -845,23 +795,10 @@
         "Attmoz_(Punk_Leather).png"
       ]
     },
-    "Auglur": {
-      "Common": [],
-      "Rare": []
-    },
-    "Banjaw": {
-      "Common": [],
-      "Rare": []
-    },
     "Barrb": {
       "Common": [
         "Barrb_(Gourdness_Gracious).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Bbli$zard": {
-      "Common": []
+      ]
     },
     "BeMeebEth": {
       "Common": [
@@ -874,16 +811,12 @@
         "Bellowfish_(Bellow-blerite_Belly).png",
         "Bellowfish_(Crystal_Habit).png",
         "Bellowfish_(Take_the_Plunge).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Bisonorus": {
       "Common": [
         "Bisonorus_(Candy_Smorgasbord).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Blabbit": {
       "Common": [
@@ -897,46 +830,15 @@
         "Epic_Blabbit_(Velvety_Bunnyhug).png"
       ]
     },
-    "Blarret": {
-      "Common": [],
-      "Rare": []
-    },
-    "Blasoom": {
-      "Common": []
-    },
-    "Bleatnik": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
-    },
-    "Blipsqueak": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
-    },
     "Blow't": {
       "Common": [
         "Blow't_(Short_Fused).png"
-      ],
-      "Rare": []
-    },
-    "Bogle": {
-      "Common": []
-    },
-    "Bona-Petite": {
-      "Common": [],
-      "Rare": []
+      ]
     },
     "Bonkers": {
       "Common": [
         "Bonkers_(Hardcover_Hits).png"
-      ],
-      "Rare": []
-    },
-    "Boo'qwurm": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Boodoo": {
       "Common": [
@@ -946,15 +848,12 @@
       ],
       "Rare": [
         "Rare_Boodoo_(Speaking_in_Tongues).png"
-      ],
-      "Epic": []
+      ]
     },
     "Boskus": {
       "Common": [
         "Boskus_(Trample_On).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Bowgart": {
       "Common": [
@@ -981,57 +880,27 @@
     "Bowhead": {
       "Common": [
         "Bowhead_(Tale_of_a_Whale).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Bridg-it": {
-      "Common": [],
-      "Rare": []
-    },
-    "Brump": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Bulbo": {
       "Common": [
         "Bulbo_(Merry_and_Bright).png"
-      ],
-      "Rare": []
+      ]
     },
     "Buzzinga": {
       "Common": [
         "Buzzinga_(Orn_of_Plenty).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Cahoot": {
-      "Common": [],
-      "Rare": []
+      ]
     },
     "Candelavra": {
       "Common": [
         "Candelavra_(Gobbley_Idolater).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Cantorell": {
       "Common": [
         "Cantorell_(Buckled_Caps).png"
-      ],
-      "Rare": []
-    },
-    "Carillong": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
-    },
-    "Cataliszt": {
-      "Common": [],
-      "Rare": []
+      ]
     },
     "Charrkoll": {
       "Common": [
@@ -1041,16 +910,12 @@
     "Cherubble": {
       "Common": [
         "Cherubble_(Shape_of_Umm).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Clackula": {
       "Common": [
         "Clackula_(Charming_Charro).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Clamble": {
       "Common": [
@@ -1069,15 +934,6 @@
         "Epic_Clamble_(D.I.Y.-zard).png"
       ]
     },
-    "Clavavera": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
-    },
-    "Clavi Gnat": {
-      "Common": [],
-      "Rare": []
-    },
     "Congle": {
       "Common": [
         "Congle_(Beat_Poet).png",
@@ -1094,20 +950,7 @@
       "Rare": [
         "Rare_Congle_(Gaudy_Giftwrap).png",
         "Rare_Congle_Yay_2016.png"
-      ],
-      "Epic": []
-    },
-    "Cranchee": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
-    },
-    "Creepuscule": {
-      "Common": [],
-      "Rare": []
-    },
-    "Cruv'laaphtian Crocus": {
-      "Common": []
+      ]
     },
     "Cybop": {
       "Common": [
@@ -1118,16 +961,9 @@
         "Cybop_(Talent_in_Spades).png",
         "Cybop_(You_Spin_Me_Round).png"
       ],
-      "Rare": [],
       "Epic": [
         "Epic_Cybop_(Thruster_Thorns).png"
       ]
-    },
-    "Dakktyl (Major)": {
-      "Common": []
-    },
-    "Dakktyl (Minor)": {
-      "Common": []
     },
     "Dandidoo": {
       "Common": [
@@ -1154,28 +990,19 @@
         "Deedge_(Ore_So_Vein).png",
         "Deedge_(Skrooball).png",
         "Deedge_(Vintage_Speakers).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Deja-Jin": {
-      "Common": [],
-      "Rare": []
+      ]
     },
     "Denchuhs": {
       "Common": [
         "Denchuhs_(Best_Cuspuds).png"
-      ],
-      "Rare": []
+      ]
     },
     "Dermit": {
       "Common": [
         "Dermit_(Flashy_Shock_Jock).png",
         "Dermit_(Splashy_Puffer).png",
         "Dermit_(Steamy_Bosun).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Do": {
       "Common": [
@@ -1192,16 +1019,12 @@
         "Dragong_(Frill_Thrill).png",
         "Dragong_(Terracotta_Regalia).png",
         "Dragong_(Time_to_Pretend).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Drummidary": {
       "Common": [
         "Drummidary_(Get_the_Hook).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Drumpler": {
       "Common": [
@@ -1215,38 +1038,22 @@
         "Drumpler_(Thingia_Swag).png",
         "Drumpler_(Tomayto_Tomahto).png",
         "Drumpler_(Tune_Up_Mechanic).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Dwumrohl": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Déjà-Jin": {
       "Common": [
         "Déjà-Jin_(Lucky_Mask).png"
       ]
     },
-    "ERmA gUrDy (Major)": {
-      "Common": []
-    },
-    "ERmA gUrDy (Minor)": {
-      "Common": []
-    },
     "Edamimi": {
       "Common": [
         "Edamimi_(Fruit_Salad_Style).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Enchantling": {
       "Common": [
         "Enchantling_(Lion_Dancer).png"
-      ],
-      "Rare": []
+      ]
     },
     "Entbrat": {
       "Common": [
@@ -1276,45 +1083,21 @@
         "Fa_(Tiki_Mask_Topper).png"
       ]
     },
-    "Faesoddoid Fungus": {
-      "Common": []
-    },
-    "Fandhul": {
-      "Common": []
-    },
-    "Ffidyll": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
-    },
-    "Fiddlement": {
-      "Common": [],
-      "Rare": []
-    },
-    "Flasque": {
-      "Common": []
-    },
     "Fleechwurm": {
       "Common": [
         "Fleechwurm_(Mecha_Drone).png",
         "Fleechwurm_(Punk_Stud).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Floogull": {
       "Common": [
         "Floogull_(Appetizing_Apron).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Floot Fly": {
       "Common": [
         "Floot_Fly_(The_Green_Mon).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Flowah": {
       "Common": [
@@ -1323,27 +1106,22 @@
       ],
       "Rare": [
         "Rare_Flowah_(Beads_of_Sweat).png"
-      ],
-      "Epic": []
+      ]
     },
     "Flum Ox": {
       "Common": [
         "Flum_Ox_(Bovine_Unicorn).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Fluoress": {
       "Common": [
         "Fluoress_(Pride_and_Precious_Fits).png"
-      ],
-      "Rare": []
+      ]
     },
     "Frondley": {
       "Common": [
         "Frondley_(Hot_Pot_Hum).png"
-      ],
-      "Rare": []
+      ]
     },
     "Fung Pray": {
       "Common": [
@@ -1351,9 +1129,7 @@
         "Fung_Pray_(Burgomaster).png",
         "Fung_Pray_(Tip_Topiary).png",
         "Fung_Pray_(Under_my_Umbrella).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Furcorn": {
       "Common": [
@@ -1387,9 +1163,6 @@
         "Epic_Furcorn_Spooktacle_2019.png"
       ]
     },
-    "Furnoss": {
-      "Common": []
-    },
     "Fwog": {
       "Common": [
         "Fwog_(All_Squashed_Up).png",
@@ -1407,29 +1180,10 @@
         "Epic_Fwog_(See?_No_Bite).png"
       ]
     },
-    "G'day": {
-      "Common": [],
-      "Rare": []
-    },
     "G'joob": {
       "Common": [
         "G'joob_(Sgt._Flipper).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Gaddzooks": {
-      "Common": [],
-      "Rare": []
-    },
-    "Galvana": {
-      "Common": []
-    },
-    "Galymph (Major)": {
-      "Common": []
-    },
-    "Galymph (Minor)": {
-      "Common": []
+      ]
     },
     "Ghazt": {
       "Common": [
@@ -1443,78 +1197,47 @@
         "Ghazt_(Seus-spicious).png",
         "Ghazt_(Splashy_Portalist).png",
         "Ghazt_(Steamy_Aetherist).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Gheegur": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
-    },
-    "Glaishur": {
-      "Common": []
+      ]
     },
     "Gloptic": {
       "Common": [
         "Gloptic_(Lang'strump).png"
-      ],
-      "Rare": []
+      ]
     },
     "Glowl": {
       "Common": [
         "Glowl_(Airhart).png",
         "Glowl_(Gobbley_Tribute).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Gnarls": {
       "Common": [
         "Gnarls_(Teddiberry_Trim).png",
         "Gnarls_(Tree_of_Life).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Gob": {
       "Common": [
         "Gob_(Blinky_Buddy).png",
         "Gob_(Blinky_Buddy)_(Mouth_Open).png"
-      ],
-      "Rare": []
-    },
-    "Gobbleygourd": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Grumpyre": {
       "Common": [
         "Grumpyre_(Dungeon_Master).png",
         "Grumpyre_(Garbed_in_Goth).png",
         "Grumpyre_(Holly-lujah).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Hairionette (Major)": {
-      "Common": []
-    },
-    "Hairionette (Minor)": {
-      "Common": []
+      ]
     },
     "Hawlo": {
       "Common": [
         "Hawlo_(Hawlo_Knight).png"
-      ],
-      "Rare": []
+      ]
     },
     "HippityHop": {
       "Common": [
         "HippityHop_(Peanut_Gallery).png"
-      ],
-      "Rare": []
+      ]
     },
     "Hoola": {
       "Common": [
@@ -1522,9 +1245,7 @@
         "Hoola_(DJ_Epic_Drip).png",
         "Hoola_(Flower_Earth_Child).png",
         "Hoola_(M-Pop_Vocalist).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Hornacle": {
       "Common": [
@@ -1539,29 +1260,17 @@
         "Humbug_(Kissing_Booth).png",
         "Humbug_(MailMon_Mike).png",
         "Humbug_(Straw_Hat_Disguise).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Hyehehe": {
       "Common": [
         "Hyehehe_(Snicker_Snorkel).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Illoost (Major)": {
-      "Common": []
-    },
-    "Illoost (Minor)": {
-      "Common": []
+      ]
     },
     "Incisaur": {
       "Common": [
         "Incisaur_(Amiable_Alebrije).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Jam Boree": {
       "Common": [
@@ -1584,9 +1293,7 @@
         "Jeeode_(For_Soothsayer).png",
         "Jeeode_(Krystillium_Kouture).png",
         "Jeeode_(Tactile_Taproot).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Jellbilly": {
       "Common": [
@@ -1594,15 +1301,7 @@
         "Jellbilly_(Refrain_Conductor).png",
         "Jellbilly_(Revisionist_History).png",
         "Jellbilly_(Think_Tank).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Jerm (Major)": {
-      "Common": []
-    },
-    "Jerm (Minor)": {
-      "Common": []
+      ]
     },
     "Kayna": {
       "Common": [
@@ -1612,9 +1311,7 @@
         "Kayna_(Playground_Frostbite).png",
         "Kayna_(Playground_Roseate).png",
         "Kayna_(Trailblazer).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Kazilleon": {
       "Common": [
@@ -1622,28 +1319,18 @@
         "Kazilleon_(Lobster_Role).png",
         "Kazilleon_(Paleo_Diet).png",
         "Kazilleon_(Scale_Model).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Knucklehead": {
-      "Common": [],
-      "Rare": []
+      ]
     },
     "Knurv": {
       "Common": [
         "Knurv_(Cadaverous_Cryptid).png",
         "Knurv_Playing_(Cadaverous_Cryptid).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Krillby": {
       "Common": [
         "Krillby_(Kangafruit_Cocktail).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "La": {
       "Common": [
@@ -1653,16 +1340,6 @@
         "La_(Teddybear_Topper).png",
         "La_(Witch_Hat_Topper).png"
       ]
-    },
-    "Larvaluss": {
-      "Common": [],
-      "Rare": []
-    },
-    "Loodvigg": {
-      "Common": []
-    },
-    "Lowb": {
-      "Common": []
     },
     "Maggpi": {
       "Common": [
@@ -1698,10 +1375,6 @@
         "Epic_Mammott_Yay_2018.png"
       ]
     },
-    "Maulch": {
-      "Common": [],
-      "Rare": []
-    },
     "Maw": {
       "Common": [
         "Maw_(1derland_Corn).png",
@@ -1722,10 +1395,6 @@
         "Epic_Maw_Spooktacle_2019.png"
       ]
     },
-    "Meebkin": {
-      "Common": [],
-      "Rare": []
-    },
     "Mi": {
       "Common": [
         "Mi_(Boo-in-the-Box_Topper).png",
@@ -1740,19 +1409,12 @@
         "Mimic (In Between Evolution).png",
         "Mimic_(Festyvalgoer).png",
         "Mimic_(In_Between_Evolution).png"
-      ],
-      "Rare": []
-    },
-    "Monculus": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Mushaboom": {
       "Common": [
         "Mushaboom_(Gift_Box_Goodies).png"
-      ],
-      "Rare": []
+      ]
     },
     "Nebulob": {
       "Common": [
@@ -1760,13 +1422,7 @@
         "Nebulob_(Mega_Mon).png",
         "Nebulob_(Shake_'n'_Flake).png",
         "Nebulob_(Sticky_Handed).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Nitebear": {
-      "Common": [],
-      "Rare": []
+      ]
     },
     "Noggin": {
       "Common": [
@@ -1800,30 +1456,19 @@
         "Oaktopus_(Target_Practice).png",
         "Oaktopus_(Touch_of_Tromino).png"
       ],
-      "Rare": [],
       "Epic": [
         "Epic_Oaktopus_Spooktacle_2019.png"
       ]
     },
-    "Oogiddy": {
-      "Common": []
-    },
     "Osstax": {
       "Common": [
         "Osstax_(Golden_Ginkgos).png"
-      ],
-      "Rare": []
+      ]
     },
     "Owlesque": {
       "Common": [
         "Owlesque_(Great_Pretender).png"
       ]
-    },
-    "Owlesque (Major)": {
-      "Common": []
-    },
-    "Owlesque (Minor)": {
-      "Common": []
     },
     "Pango": {
       "Common": [
@@ -1857,17 +1502,12 @@
     "Peckidna": {
       "Common": [
         "Peckidna_(Calaverita_Cutie).png"
-      ],
-      "Rare": []
-    },
-    "Pentumbra": {
-      "Common": []
+      ]
     },
     "Periscorp": {
       "Common": [
         "Periscorp_(Other_Monster).png"
-      ],
-      "Rare": []
+      ]
     },
     "Perplexplore Series Costumes": {
       "Common": [
@@ -1878,51 +1518,20 @@
       "Common": [
         "Phangler_(Sumpter_Net).png"
       ],
-      "Rare": [],
       "Epic": [
         "Epic_Phangler_(Mecha_Scout).png",
         "Epic_Phangler_(Punk_Rebel).png"
       ]
     },
-    "Phosphoran Phlox": {
-      "Common": []
-    },
-    "Pinghound": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
-    },
-    "Piplash": {
-      "Common": [],
-      "Rare": []
-    },
-    "Pixolotl": {
-      "Common": [],
-      "Rare": []
-    },
     "Pladdie": {
       "Common": [
         "Pladdie_(Bullate_Bloomer).png"
-      ],
-      "Rare": []
+      ]
     },
     "Plinkajou": {
       "Common": [
         "Plinkajou_(Monarch's_Rest).png"
-      ],
-      "Rare": []
-    },
-    "Plixie": {
-      "Common": []
-    },
-    "Pluckbill": {
-      "Common": [],
-      "Rare": []
-    },
-    "Poewk": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "PomPom": {
       "Common": [
@@ -1943,19 +1552,12 @@
       ],
       "Rare": [
         "Rare_PomPom_Spooktacle_2015.png"
-      ],
-      "Epic": []
+      ]
     },
     "PongPing": {
       "Common": [
         "PongPing_(Luck_o'_the_Firish).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Poppette": {
-      "Common": [],
-      "Rare": []
+      ]
     },
     "Potbelly": {
       "Common": [
@@ -1996,9 +1598,7 @@
     "Punkleton": {
       "Common": [
         "Punkleton_(Mouth_Waterer).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Quarrister": {
       "Common": [
@@ -2008,9 +1608,7 @@
         "Quarrister_(Sweatbands).png",
         "Quarrister_(Teddy_Rocks-Pin).png",
         "Quarrister_(Tentacool).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Quibble": {
       "Common": [
@@ -2025,8 +1623,7 @@
       ],
       "Rare": [
         "Rare_Quibble_(Sunday_Best).png"
-      ],
-      "Epic": []
+      ]
     },
     "Re": {
       "Common": [
@@ -2047,8 +1644,7 @@
       ],
       "Rare": [
         "Rare_Reebro_Spooktacle_2018.png"
-      ],
-      "Epic": []
+      ]
     },
     "Reedling": {
       "Common": [
@@ -2071,12 +1667,7 @@
     "Repatillo": {
       "Common": [
         "Repatillo_(Gobbley_Homage).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Rhysmuth": {
-      "Common": []
+      ]
     },
     "Riff": {
       "Common": [
@@ -2087,14 +1678,9 @@
         "Riff_(Seaweed_Wraps).png",
         "Riff_(Spiny_Six-String).png"
       ],
-      "Rare": [],
       "Epic": [
         "Epic_Riff_(will_U_B_MINE).png"
       ]
-    },
-    "Roarick": {
-      "Common": [],
-      "Rare": []
     },
     "Rooba": {
       "Common": [
@@ -2104,30 +1690,15 @@
       ],
       "Rare": [
         "Rare_Rooba_('Picsie_Perfect).png"
-      ],
-      "Epic": []
+      ]
     },
     "Rootitoot": {
       "Common": [
         "Rootitoot_(Jigsaw_Spud).png"
       ],
-      "Rare": [],
       "Epic": [
         "Epic_Rootitoot_(Doctor_Zay-uss).png"
       ]
-    },
-    "Scallyrags (Major)": {
-      "Common": []
-    },
-    "Scallyrags (Minor)": {
-      "Common": []
-    },
-    "Scaratar": {
-      "Common": []
-    },
-    "Scargo": {
-      "Common": [],
-      "Rare": []
     },
     "Schmoochle": {
       "Common": [
@@ -2140,10 +1711,6 @@
       "Epic": [
         "Epic_Schmoochle_(Best_Friend_Bedecked).png"
       ]
-    },
-    "Screemu": {
-      "Common": [],
-      "Rare": []
     },
     "Scups": {
       "Common": [
@@ -2166,8 +1733,7 @@
     "ShLep": {
       "Common": [
         "ShLep_(Surprisingly_Kind).png"
-      ],
-      "Rare": []
+      ]
     },
     "Shellbeat": {
       "Common": [
@@ -2185,12 +1751,6 @@
       "Epic": [
         "Epic_Shellbeat_(Splash_Zone).png"
       ]
-    },
-    "Shhimmer (Major)": {
-      "Common": []
-    },
-    "Shhimmer (Minor)": {
-      "Common": []
     },
     "Shrubb": {
       "Common": [
@@ -2211,36 +1771,10 @@
         "Epic_Shrubb_Yay_2020.png"
       ]
     },
-    "Shugabass": {
-      "Common": []
-    },
-    "Shugabeats": {
-      "Common": []
-    },
-    "Shugabush": {
-      "Common": []
-    },
-    "Shugabuzz": {
-      "Common": []
-    },
-    "Shugajo": {
-      "Common": []
-    },
-    "Shugarock": {
-      "Common": []
-    },
-    "Shugavox": {
-      "Common": []
-    },
-    "Shugitar": {
-      "Common": []
-    },
     "Sneyser": {
       "Common": [
         "Sneyser_(Observatoribum).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Sol": {
       "Common": [
@@ -2257,9 +1791,7 @@
         "Sooza_(Flower_Free_Spirit).png",
         "Sooza_(M-Pop_All-Rounder).png",
         "Sooza_(Parade_Prepped).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Sox": {
       "Common": [
@@ -2267,19 +1799,12 @@
         "Sox_(Careless_Kit).png",
         "Sox_(Forest_Cloak).png",
         "Sox_(What_Big_Eyes).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Spooktacle": {
       "Common": [
         "Spooktacle_Epic_Mammott.png"
       ]
-    },
-    "Sporerow": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
     },
     "Spunge": {
       "Common": [
@@ -2301,29 +1826,23 @@
     "Spurrit": {
       "Common": [
         "Spurrit_(Badge_of_Honor).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Spytrap": {
       "Common": [
         "Spytrap_(Prismatica_Ball).png"
-      ],
-      "Rare": []
+      ]
     },
     "Squot": {
       "Common": [
         "Squot_(I_Knew_You_Were_Truffle).png"
-      ],
-      "Rare": []
+      ]
     },
     "Stogg": {
       "Common": [
         "Stogg_(Drop_the_Myc).png",
         "Stogg_(Monkey_Business).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Stoowarb": {
       "Common": [
@@ -2334,12 +1853,7 @@
     "Strombonin": {
       "Common": [
         "Strombonin_(Peppermint_Swirl).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Syncopite": {
-      "Common": []
+      ]
     },
     "T-Pirainha": {
       "Common": [
@@ -2361,7 +1875,6 @@
         "T-Rox_(Piñata_T-Rox).png",
         "T-Rox_(Summer_Blockbuster).png"
       ],
-      "Rare": [],
       "Epic": [
         "Epic_T-Rox_(Dino-morph).png"
       ]
@@ -2369,8 +1882,7 @@
     "Tapricorn": {
       "Common": [
         "Tapricorn_(Edge_of_the_Map).png"
-      ],
-      "Rare": []
+      ]
     },
     "Tawkerr": {
       "Common": [
@@ -2380,22 +1892,16 @@
         "Tawkerr_(Stark_Raving)_(Old_Design).png"
       ]
     },
-    "Teeter-Tauter": {
-      "Common": []
-    },
     "Theremind": {
       "Common": [
         "Theremind_(Believe_in_Magic).png",
         "Theremind_(Rhymes_with_Orange?).png"
-      ],
-      "Rare": []
+      ]
     },
     "Thrumble": {
       "Common": [
         "Thrumble_(If_Looks_Could_Kill).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Thumpies": {
       "Common": [
@@ -2423,11 +1929,6 @@
         "Epic_Thumpies_(MacE_and_KarrTooF).png"
       ]
     },
-    "Thwok": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
-    },
     "Ti": {
       "Common": [
         "Ti_(Bouquet_Topper).png",
@@ -2440,9 +1941,7 @@
     "Tiawa": {
       "Common": [
         "Tiawa_(Flash_Prance).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Toe Jammer": {
       "Common": [
@@ -2470,26 +1969,17 @@
         "TooToo_(CMYK_Cutie).png",
         "TooToo_(Flower_Groovy_Gal).png",
         "TooToo_(M-Pop_Maknae).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Torrt": {
-      "Common": []
+      ]
     },
     "Tring": {
       "Common": [
         "Tring_(Harvest_Basket).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Tuskski": {
       "Common": [
         "Tuskski_(Green_Jumbo).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Tweedle": {
       "Common": [
@@ -2503,51 +1993,19 @@
         "Tweedle_(Rose-Colored_Glasses).png",
         "Tweedle_(Tuxtweedo_Mask).png"
       ],
-      "Rare": [],
       "Epic": [
         "Epic_Tweedle_(Quadruple_Clawing).png"
       ]
     },
-    "Tympa": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
-    },
     "Uuduk": {
       "Common": [
         "Uuduk_(Sugar_Skull).png"
-      ],
-      "Rare": []
-    },
-    "Vhamp": {
-      "Common": []
-    },
-    "Vhenshun": {
-      "Common": []
-    },
-    "Viveine": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Whaddle": {
       "Common": [
         "Whaddle_(Great_Scaup!).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Whaill": {
-      "Common": [],
-      "Rare": []
-    },
-    "Whajje": {
-      "Common": [],
-      "Rare": []
-    },
-    "Wheezel": {
-      "Common": [],
-      "Rare": []
+      ]
     },
     "Whisp": {
       "Common": [
@@ -2558,31 +2016,18 @@
       ],
       "Rare": [
         "Rare_Whisp_Spooktacle_2018.png"
-      ],
-      "Epic": []
-    },
-    "Whiz-bang": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Wimmzies": {
       "Common": [
         "Wimmzies_(The_Jig_is_Up).png"
-      ],
-      "Rare": []
-    },
-    "Withur": {
-      "Common": [],
-      "Rare": []
+      ]
     },
     "Woolabee": {
       "Common": [
         "Woolabee_(Best_of_All_Possible_Birds).png",
         "Woolabee_(Cartographer_Cud).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Wubbox": {
       "Common": [
@@ -2592,16 +2037,13 @@
         "Wubbox_(Hey_Wubberboy).png",
         "Wubbox_(In_Da_Club).png",
         "Wubbox_(Mmmetallized).png"
-      ],
-      "Rare": []
+      ]
     },
     "Wynq": {
       "Common": [
         "Wynq_(Loopy_Loupes).png",
         "Wynq_(Ranch_Dressing).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "X'rt": {
       "Common": [
@@ -2612,22 +2054,17 @@
     "Xyster": {
       "Common": [
         "Xyster_(Koi_With_Me).png"
-      ],
-      "Rare": []
+      ]
     },
     "Yawstrich": {
       "Common": [
         "Yawstrich_(First_Date).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Yelmut": {
       "Common": [
         "Yelmut_(Apt_Apriarist).png"
-      ],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Yool": {
       "Common": [
@@ -2641,32 +2078,15 @@
         "Epic_Yool_(Incognito_Snowed).png"
       ]
     },
-    "Yooreek": {
-      "Common": [],
-      "Rare": []
-    },
     "Yuggler": {
       "Common": [
         "Yuggler_(Puzzle_Solver).png"
-      ],
-      "Rare": []
+      ]
     },
     "Ziggurab": {
       "Common": [
         "Ziggurab_(Heart_of_Gold).png"
-      ],
-      "Rare": [],
-      "Epic": []
-    },
-    "Zuuker": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
-    },
-    "Zynth": {
-      "Common": [],
-      "Rare": [],
-      "Epic": []
+      ]
     },
     "Entbrat 2019": {
       "Rare": [
