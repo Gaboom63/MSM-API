@@ -1,0 +1,17 @@
+{
+  "Name": "Epic Wubbox Oasis",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "oasis"
+  ],
+  "Description": {
+    "name": "Wubbox",
+    "description": "One day as the Monsters were tunneling underground, they stumbled upon an immense vault containing several of the mysterious objects known as the Wubbox. Very little is known of their origin or purpose, save a few observations: after being incubated in the Nursery, sample analysis of the box's exterior indicates that it shares traits with every known Natural Monster species - in fact, it even has specialized compartments with an otherworldly shrinking technology. The box is also imbued with an elemental energy unfamiliar to those on the surface - a shocking discovery, to say the least. Gather some intrepid Monster volunteers and see what happens when you 'box' them!"
+  },
+  "Costs": {
+    "name": "Epic Wubbox Oasis",
+    "diamond_cost": "1"
+  }
+}

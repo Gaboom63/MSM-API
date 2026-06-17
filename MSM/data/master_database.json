@@ -188,7 +188,14 @@
     "Epic Whisp": "Epic Whisp",
     "Epic Whiz-bang": "Epic Whiz-bang",
     "Epic Woolabee": "Epic Woolabee",
-    "Epic Wubbox": "Epic Wubbox",
+    "Epic Wubbox Air": "Epic Wubbox Air",
+    "Epic Wubbox Cold": "Epic Wubbox Cold",
+    "Epic Wubbox Earth": "Epic Wubbox Earth",
+    "Epic Wubbox Ethereal": "Epic Wubbox Ethereal",
+    "Epic Wubbox Haven": "Epic Wubbox Haven",
+    "Epic Wubbox Oasis": "Epic Wubbox Oasis",
+    "Epic Wubbox Plant": "Epic Wubbox Plant",
+    "Epic Wubbox Water": "Epic Wubbox Water",
     "Epic Wynq": "Epic Wynq",
     "Epic Yawstrich": "Epic Yawstrich",
     "Epic Yelmut": "Epic Yelmut",
@@ -4647,22 +4654,30 @@
       "oasis",
       "amber"
     ],
-    "Epic Wubbox": [
-      "plant",
-      "cold",
+    "Epic Wubbox Air": [
       "air",
+      "mirror air"
+    ],
+    "Epic Wubbox Cold": [
+      "cold",
+      "mirror cold"
+    ],
+    "Epic Wubbox Earth": [
+      "plant",
+      "mirror plant"
+    ],
+    "Epic Wubbox Ethereal": [
+      "ethereal"
+    ],
+    "Epic Wubbox Haven": [
+      "haven"
+    ],
+    "Epic Wubbox Oasis": [
+      "oasis"
+    ],
+    "Epic Wubbox Water": [
       "water",
-      "earth",
-      "gold",
-      "ethereal",
-      "haven",
-      "oasis",
-      "wublin",
-      "mirror plant",
-      "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth"
+      "mirror water"
     ],
     "Epic Wynq": [
       "oasis",

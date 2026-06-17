@@ -417,33 +417,28 @@
     }
 
     async function fetchIsland(identifier) {
-      await initDatabases();
+        if(typeof initDatabases === 'function') await initDatabases();
+        const dbIslands = window.dbCache?.['Islands'] || {};
+        const searchTarget = identifier.toLowerCase().trim();
+        let actualIslandName = identifier;
+        const roster = [];
+        let found = false;
+    
+        for (const [monsterName, islandArray] of Object.entries(dbIslands)) {
+            if (!Array.isArray(islandArray)) continue;
+            for (const islandName of islandArray) {
+                const normalizedIsland = String(islandName).toLowerCase().trim();
+                if (normalizedIsland === searchTarget || normalizedIsland === searchTarget + " island" || normalizedIsland + " island" === searchTarget) {
+                    roster.push(monsterName);
+                    actualIslandName = islandName; 
+                    found = true;
+                    break;
+                }
+            }
+        }
+        return { name: actualIslandName, monsters: roster.sort() };
+}
 
-      const dbIslands = dbCache['Islands'] || {};
-      const searchTarget = identifier.toLowerCase().trim();
-      let actualIslandName = identifier;
-
-      const roster = [];
-      let found = false;
-
-      for (const [monsterName, islandArray] of Object.entries(dbIslands)) {
-          if (!Array.isArray(islandArray)) continue;
-
-          for (const islandName of islandArray) {
-              const normalizedIsland = String(islandName).toLowerCase().trim();
-              
-              if (
-                  normalizedIsland === searchTarget || 
-                  normalizedIsland === searchTarget + " island" || 
-                  normalizedIsland + " island" === searchTarget
-              ) {
-                  roster.push(monsterName);
-                  actualIslandName = islandName; 
-                  found = true;
-                  break;
-              }
-          }
-      }
 
       if (!found) {
           return { error: `No data found for island matching '${identifier}'.` };
