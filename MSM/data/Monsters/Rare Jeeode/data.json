@@ -1,12 +1,13 @@
 {
   "Name": "Rare Jeeode",
   "Elements": [
-    "Crystal"
+    "crystal"
   ],
   "Islands": [
     "water",
     "ethereal",
-    "mirror water"
+    "mirror water",
+    "crystal"
   ],
   "Description": {
     "name": "Rare Jeeode",

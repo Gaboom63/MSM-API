@@ -3701,7 +3701,8 @@
     "Bellowfish": [
       "ethereal",
       "colossingum",
-      "mech"
+      "mech",
+      "crystal"
     ],
     "Bisonorus": [
       "psychic",
@@ -3751,7 +3752,8 @@
     ],
     "Boodoo": [
       "ethereal",
-      "colossingum"
+      "colossingum",
+      "crystal"
     ],
     "Boskus": [
       "oasis",
@@ -4755,7 +4757,8 @@
     ],
     "Flasque": [
       "workshop",
-      "plasma"
+      "plasma",
+      "crystal"
     ],
     "Fleechwurm": [
       "wublin"
@@ -4837,7 +4840,8 @@
     "Gaddzooks": [
       "workshop",
       "plasma",
-      "mech"
+      "mech",
+      "crystal"
     ],
     "Galvana": [
       "celestial"
@@ -4943,7 +4947,8 @@
       "water",
       "colossingum",
       "ethereal",
-      "mirror water"
+      "mirror water",
+      "crystal"
     ],
     "Jellbilly": [
       "ethereal",
@@ -5058,7 +5063,8 @@
     ],
     "Meebkin": [
       "workshop",
-      "plasma"
+      "plasma",
+      "crystal"
     ],
     "Mi": [
       "plant",
@@ -5103,7 +5109,8 @@
     ],
     "Nitebear": [
       "workshop",
-      "mech"
+      "mech",
+      "crystal"
     ],
     "Noggin": [
       "plant",
@@ -5334,7 +5341,8 @@
     "Rare Bellowfish": [
       "ethereal",
       "colossingum",
-      "mech"
+      "mech",
+      "crystal"
     ],
     "Rare Bisonorus": [
       "psychic",
@@ -5378,7 +5386,8 @@
     ],
     "Rare Boodoo": [
       "ethereal",
-      "colossingum"
+      "colossingum",
+      "crystal"
     ],
     "Rare Boskus": [
       "oasis",
@@ -5626,7 +5635,8 @@
     ],
     "Rare Fung Pray": [
       "ethereal",
-      "colossingum"
+      "colossingum",
+      "crystal"
     ],
     "Rare Furcorn": [
       "plant",
@@ -5666,7 +5676,8 @@
     "Rare Gaddzooks": [
       "workshop",
       "plasma",
-      "mech"
+      "mech",
+      "crystal"
     ],
     "Rare Ghazt": [
       "plant",
@@ -5752,7 +5763,8 @@
     "Rare Jeeode": [
       "water",
       "ethereal",
-      "mirror water"
+      "mirror water",
+      "crystal"
     ],
     "Rare Jellbilly": [
       "ethereal",
@@ -5821,7 +5833,8 @@
     ],
     "Rare Meebkin": [
       "workshop",
-      "plasma"
+      "plasma",
+      "crystal"
     ],
     "Rare Mimic": [
       "oasis"
@@ -5841,7 +5854,8 @@
     ],
     "Rare Nitebear": [
       "workshop",
-      "mech"
+      "mech",
+      "crystal"
     ],
     "Rare Noggin": [
       "plant",
@@ -6358,7 +6372,8 @@
       "amber"
     ],
     "Rhysmuth": [
-      "workshop"
+      "workshop",
+      "crystal"
     ],
     "Riff": [
       "air",
@@ -6501,7 +6516,8 @@
     "Sox": [
       "ethereal",
       "colossingum",
-      "plasma"
+      "plasma",
+      "crystal"
     ],
     "Sporerow": [
       "mythical"
@@ -6581,7 +6597,8 @@
     ],
     "Teeter-Tauter": [
       "workshop",
-      "mech"
+      "mech",
+      "crystal"
     ],
     "Theremind": [
       "psychic",
@@ -6766,7 +6783,8 @@
       "amber"
     ],
     "X'rt": [
-      "workshop"
+      "workshop",
+      "crystal"
     ],
     "Xyster": [
       "sanctum"

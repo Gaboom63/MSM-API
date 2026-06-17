@@ -1,8 +1,7 @@
 {
   "Name": "Fung Pray",
   "Elements": [
-    "Crystal",
-    "Poison"
+    "crystal"
   ],
   "Islands": [
     "ethereal",
