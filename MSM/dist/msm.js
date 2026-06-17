@@ -516,3 +516,5 @@
   else global.MSM = MSM;
 
 })(this);
+
+// Thanks for using my API :)
