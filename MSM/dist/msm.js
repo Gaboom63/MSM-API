@@ -424,10 +424,10 @@
         let searchTarget = identifier.toLowerCase().trim();
         
         // Handle UI Dropdown Aliases
-        if (searchTarget === 'haven') searchTarget = 'fire haven';
-        if (searchTarget === 'oasis') searchTarget = 'fire oasis';
-        if (searchTarget === 'sanctum') searchTarget = 'magical sanctum';
-        if (searchTarget === 'nexus') searchTarget = 'magical nexus';
+        if (searchTarget === 'haven') searchTarget = 'haven';
+        if (searchTarget === 'oasis') searchTarget = 'oasis';
+        if (searchTarget === 'sanctum') searchTarget = 'sanctum';
+        if (searchTarget === 'nexus') searchTarget = 'nexus';
 
         let actualIslandName = identifier;
         const roster = [];
