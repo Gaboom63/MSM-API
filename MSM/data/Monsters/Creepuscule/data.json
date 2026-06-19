@@ -25,10 +25,10 @@
       "Shellbeat": 5,
       "T-Rox": 6
     },
-    "Time Limit": "None",
+    "Time Limit": "7 days",
     "Total Eggs": "52"
   },
   "Combinations to Breed": [
-    "Any Wublin"
+    "Zap The Eggs Needed To Fill Creepuscule"
   ]
 }
