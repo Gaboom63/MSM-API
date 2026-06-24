@@ -1,0 +1,34 @@
+{
+  "Name": "Epic Fluoress",
+  "Elements": [
+    "Light"
+  ],
+  "Islands": [
+    "light",
+    "Magical Sanctum",
+    "nexus",
+    "mirror light"
+  ],
+  "Description": {
+    "name": "Epic Fluoress",
+    "description": "The ever-radiant glow of the Aurora Monstralis reflects majestically upon the waters of the living ocean. In the wake of the migratory Titan Phosphora, forever following the Aurora in the night sky, dancing light ripples among the waves. The particular intensity ringing the waters surrounding Light Island is however not attributable to that celestial celebration of color, but a host of Fluoroluminescent Monsters! Over time, Phosphora's traversal across the living ocean churned up sedimentary material, and mixed within it were trace amounts of mineral Confettite. Through generations of Monsters basking in the Aurora, it was the Epic Fluoress who developed a symbiotic affinity for these ancient remnants. Now awash in light from the Titan and Aurora in kind, this Epic Magical radiates with a Light at once from the depths of an era long past, and from the sky above."
+  },
+  "Costs": {
+    "name": "Epic Fluoress",
+    "cost": "300",
+    "magical_diamond_cost": "425"
+  },
+  "Breeding Times": {
+    "Enhanced": "14h 27m",
+    "Enhanced_Skin": "12h 31m 24s",
+    "Standard": "19h 16m",
+    "Standard_Skin": "17h 20m 24s"
+  },
+  "Likes": [
+    "Do",
+    "Jarhead",
+    "Spatial Sapling",
+    "Cave Crystal Teleporter",
+    "Inverdigus Fern"
+  ]
+}

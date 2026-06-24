@@ -1,0 +1,42 @@
+{
+  "Name": "Rare Vhenshun",
+  "Elements": [
+    "Plasma",
+    "Shadow",
+    "Mech",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop",
+    "mech"
+  ],
+  "Description": {
+    "name": "Vhenshun",
+    "description": "Testing, testing... is this thing on? We may be experiencing Mech-nical difficulties... Nevermind, it just seems that Rare Vhenshun has undergone an industrial revolution! In its quest for freedom, this Monstrous machinator has decided that relying on working and reshaping its wooden components was just too slow; thank Zarroë. Instead, it's been replacing or heavily augmenting much of its previously organic physiology with mechanized components. With an assembly line of automated parts production at its disposal, the Rare Vhenshun can socket and swap modular parts as it sees fit. A hyperspanner? Check. Sonic Screwdriver? Got that. EPS flow regulator? Of course... Although, come to think of it, Rare Vhenshun is more often than not tasked with being the handyMon of the Workshop - fixing a leak with a monkey wrench, or cleaning up after Oogiddy with a modular mop. Its more novel tools have not yet seen much use... but soon!"
+  },
+  "Costs": {
+    "name": "Rare Vhenshun",
+    "ethereal_diamond_cost": "4100",
+    "mech_diamond_cost": "4500",
+    "shard_cost": "8000",
+    "dish-harmonizer_shard_cost": "8000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 7h 30m",
+    "Enhanced_Skin": "1d 3h 18m",
+    "Standard": "1d 18h",
+    "Standard_Skin": "1d 13h 48m"
+  },
+  "Likes": [
+    "Piplash",
+    "Reebro",
+    "Dragong",
+    "Bogle",
+    "Orb of Aklino",
+    "Ambered Thing",
+    "Guitree"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}

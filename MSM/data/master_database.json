@@ -113,6 +113,7 @@
     "Epic Floot Fly": "Epic Floot Fly",
     "Epic Flowah": "Epic Flowah",
     "Epic Flum Ox": "Epic Flum Ox",
+    "Epic Fluoress": "Epic Fluoress",
     "Epic Fung Pray": "Epic Fung Pray",
     "Epic Furcorn": "Epic Furcorn",
     "Epic Fwog": "Epic Fwog",
@@ -454,6 +455,7 @@
     "Rare Tweedle": "Rare Tweedle",
     "Rare Tympa": "Rare Tympa",
     "Rare Uuduk": "Rare Uuduk",
+    "Rare Vhenshun": "Rare Vhenshun",
     "Rare Viveine": "Rare Viveine",
     "Rare Whaddle": "Rare Whaddle",
     "Rare Whaill": "Rare Whaill",
@@ -4191,6 +4193,12 @@
       "amber",
       "mirror bone"
     ],
+    "Epic Fluoress": [
+      "light",
+      "Magical Sanctum",
+      "nexus",
+      "mirror light"
+    ],
     "Epic Fung Pray": [
       "ethereal"
     ],
@@ -6217,6 +6225,10 @@
       "bone",
       "nexus",
       "mirror bone"
+    ],
+    "Rare Vhenshun": [
+      "workshop",
+      "mech"
     ],
     "Rare Viveine": [
       "shugabush",
