@@ -1,0 +1,25 @@
+{
+  "Name": "The Inflatterer",
+  "Elements": [
+    "Hoax",
+    "Depths"
+  ],
+  "Islands": [
+    "paironormal"
+  ],
+  "Description": {
+    "name": "The Inflatterer",
+    "description": "Someone has an inflated sense of self. Even among Paironormals, the Monster known only as the Inflatterer is an odd one. Does this entity have a formal species name? None that it will willingly accept - it's simply the Inflatterer. It does, however, answer to the title of 'Cloak-and-Swagger Paironormal' (over supercilious, in this biographer's opinion). That said, it's hard to argue that the byname fits - 'Cloak' referring, of course, to the elastic Hoaxical covering draped over the Monster's Major form, and 'Swagger'… well, that part's self-explanatory. So where does the Depths Element fit in? It's tempting to write it off as a signifier of the low, room-rumbling sounds the Inflatterer achieves by puffing up the cloak and stretching different parts of its body. But the Monster's Minor form may hold a clue. Its spindly, simplistic limbs and clown-like, exposed face force one to consider the possibility that it was plucked not from the farthest reaches of space or sea, but from the furthest depths of the Carnival witnesses' imaginations. A flattering thought, if nothing else."
+  },
+  "Costs": {
+    "name": "The Inflatterer",
+    "diamond_cost": "3000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 9h 45m",
+    "Standard": "1d 21h"
+  },
+  "Combinations to Breed": [
+    "Owlesque (Major) + Shhimmer (Major)"
+  ]
+}

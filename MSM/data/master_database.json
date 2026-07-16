@@ -90,6 +90,7 @@
     "Epic Brump": "Epic Brump",
     "Epic Buzzinga": "Epic Buzzinga",
     "Epic Candelavra": "Epic Candelavra",
+    "Epic Cantorell ": "Epic Cantorell ",
     "Epic Carillong": "Epic Carillong",
     "Epic Cherubble": "Epic Cherubble",
     "Epic Clackula": "Epic Clackula",
@@ -186,6 +187,7 @@
     "Epic Tympa": "Epic Tympa",
     "Epic Viveine": "Epic Viveine",
     "Epic Whaddle": "Epic Whaddle",
+    "Epic Wheezel": "Epic Wheezel",
     "Epic Whisp": "Epic Whisp",
     "Epic Whiz-bang": "Epic Whiz-bang",
     "Epic Woolabee": "Epic Woolabee",
@@ -523,6 +525,7 @@
     "Tapricorn": "Tapricorn",
     "Tawkerr": "Tawkerr",
     "Teeter-Tauter": "Teeter-Tauter",
+    "The Inflatterer": "The Inflatterer",
     "Theremind": "Theremind",
     "Thrumble": "Thrumble",
     "Thumpies": "Thumpies",
@@ -4064,6 +4067,11 @@
       "haven",
       "amber"
     ],
+    "Epic Cantorell": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
     "Epic Carillong": [
       "Magical Sanctum",
       "seasonal"
@@ -4651,6 +4659,9 @@
     "Epic Whaddle": [
       "oasis",
       "amber"
+    ],
+    "Epic Wheezel": [
+      "mythical"
     ],
     "Epic Whisp": [
       "ethereal"
@@ -6611,6 +6622,9 @@
       "workshop",
       "mech",
       "crystal"
+    ],
+    "The Inflatterer": [
+      "paironormal"
     ],
     "Theremind": [
       "psychic",

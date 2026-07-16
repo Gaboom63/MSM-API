@@ -1,0 +1,36 @@
+{
+  "Name": "Epic Cantorell",
+  "Elements": [
+    "Earth",
+    "Cold",
+    "Faerie"
+  ],
+  "Islands": [
+    "faerie",
+    "nexus",
+    "mirror faerie"
+  ],
+  "Description": {
+    "name": "Epic Cantorell",
+    "description": "Among the broader family of Sporechids, the Epic Cantorell holds a unique place in the natural lifecycle of its home island. While all Cantorells connected to the mycelial network contribute to the breakdown and eventual recycling of fallen trees and biological material, Epic Cantorells have adapted to one species in particular, attaching themselves to errant Spatial Saplings. These fungal wonders slowly break down the lignin within fallen saplings, causing them to grow and multiply prodigiously. Beyond their rapid growth, a hearty diet of green glowing goo has had some interesting effects on this Epic Magical. To counterbalance their vigorous replication rate, the fruiting bodies of Epic Cantorells are relatively short-lived, sprouting quickly and receding in a flash. In taking on the characteristic glow of their fallen hosts, dense clusters harmoniously pop up, bathing their surroundings in a magical light."
+  },
+  "Costs": {
+    "name": "Epic Cantorell",
+    "diamond_cost": "1000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 21h 24m",
+    "Enhanced_Skin": "1d 15h 20m 48s",
+    "Standard": "2d 12h 32m",
+    "Standard_Skin": "2d 6h 28m 48s"
+  },
+  "Likes": [
+    "La",
+    "Spatial Sapling",
+    "Cave Crystal Teleporter",
+    "Optiglowbe"
+  ],
+  "Combinations to Breed": [
+    "Clavi Gnat + HippityHop"
+  ]
+}

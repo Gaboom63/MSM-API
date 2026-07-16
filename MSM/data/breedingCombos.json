@@ -831,7 +831,8 @@
   "Cataliszt + Yawstrich": [
     "Sporerow",
     "Rare Sporerow",
-    "Epic G'joob"
+    "Epic G'joob",
+    "Epic Wheezel"
   ],
   "Cataliszt + Anglow": [
     "Pinghound",
@@ -1523,5 +1524,11 @@
   ],
   "Blow't + Gob": [
     "Epic Fluoress"
+  ],
+  "Owlesque (Major) + Shhimmer (Major)": [
+    "The Inflatterer"
+  ],
+  "Clavi Gnat + HippityHop": [
+    "Epic Cantorell"
   ]
 }

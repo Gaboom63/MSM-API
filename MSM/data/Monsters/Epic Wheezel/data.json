@@ -1,0 +1,31 @@
+{
+  "Name": "Epic Wheezel",
+  "Elements": [
+    "Dream",
+    "Mythical"
+  ],
+  "Islands": [
+    "mythical"
+  ],
+  "Description": {
+    "name": "Epic Wheezel",
+    "description": "Once upon a time, the demiurgic Dream Crafter happened upon a dozing Mythical in the midst of a fitful fantasy. So restless was this Monster that it had ruffled itself into an unrecognizable mess, save for a solitary leg jutting out. Curiosity getting the better of them, Dream Crafter assumed a humble form and dove in to see what the hubbub was about… only to find themselves among soaring spires in an unfamiliar sky. Billowing from beneath, clouds began to part as furthered limbs wended their way through the bars of a golden coop of the most ornate finery. Suddenly, Dream Crafter awoke. Had they themselves been the victim of hypnagogic hijinks?! Then… a blast of air. It was real… maybe? The being could only watch as a multicolored arm grasped the front of its housing, hinging it back to reveal… 'Aaachooo!' Furthers can be tickly things, and even the Epic Wheezel isn't immune to its own antics. Still, this Epic Dreamythical is nothing to sneeze at."
+  },
+  "Costs": {
+    "name": "Epic Wheezel",
+    "diamond_cost": "1600"
+  },
+  "Breeding Times": {
+    "Standard": "2d 18h 23m",
+    "Enhanced": "2d 1h 47m 15s"
+  },
+  "Likes": [
+    "Cataliszt",
+    "Spurrit Statue",
+    "Wild Bagpipe",
+    "Barbloo Statue"
+  ],
+  "Combinations to Breed": [
+    "Cataliszt + Yawstrich"
+  ]
+}

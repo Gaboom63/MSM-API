@@ -1,5 +1,5 @@
 ## LATEST UPDATE:
-**Added:** Rare Flasque and Droah! 
+**Added:** Epic Cantorell & Epic Wheezle & The Inflatterer! 
 --------------------
 ## AT LAST THE API IS DONE! (1/28/26)
 
