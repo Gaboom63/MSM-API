@@ -1,8 +1,19 @@
 {
     "Name": "Hoola",
-    "Egg-Img": "Egg_Hoola.png",
-    "Avatar image": "Avatar_Hoola - young.png",
-    "Image": "Hoola (Young).png",
+    "Variants": [
+        {
+            "Form": "Young",
+            "Image": "Hoola (Young).png",
+            "Egg-Img": "Egg_Hoola.png",
+            "Avatar image": "Avatar_Hoola - young.png"
+        },
+        {
+            "Form": "Adult",
+            "Image": "Hoola (Adult).png",
+            "Egg-Img": "Egg_Hoola.png",
+            "Avatar image": "Hoola - adult.png"
+        }
+    ],
     "Breeding Times": {
         "Standard": "1d 1h"
     }
