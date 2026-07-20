@@ -930,7 +930,8 @@
     "Epic Viveine"
   ],
   "Shugabush + Mammott": [
-    "Shugarock"
+    "Shugarock",
+    "Epic PomPom"
   ],
   "Shugabush + Quibble": [
     "Shugabuzz",
@@ -1526,7 +1527,7 @@
     "Epic Fluoress"
   ],
   "Owlesque (Major) + Shhimmer (Major)": [
-    "The Inflatterer"
+    "The Inflatterer (Major)"
   ],
   "Clavi Gnat + HippityHop": [
     "Epic Cantorell"
@@ -1539,5 +1540,56 @@
   ],
   "Repatillo + Cybop": [
     "Epic Reedling"
+  ],
+  "Pummel + Maw": [
+    "Epic Clamble"
+  ],
+  "PomPom + Furcorn": [
+    "Epic Clamble"
+  ],
+  "Thumpies + Maw": [
+    "Epic Congle"
+  ],
+  "Scups + Drumpler": [
+    "Epic Congle"
+  ],
+  "Woolabee + Quibble": [
+    "Epic Congle"
+  ],
+  "T-Rox + Cybop": [
+    "Epic PomPom"
+  ],
+  "Reedling + Drumpler": [
+    "Epic PomPom"
+  ],
+  "Bowgart + Fwog": [
+    "Epic Pummel"
+  ],
+  "Scups + Fwog": [
+    "Epic Pummel"
+  ],
+  "PomPom + Maw": [
+    "Epic Scups"
+  ],
+  "Pummel + Dandidoo": [
+    "Epic Scups"
+  ],
+  "Thumpies + Quibble": [
+    "Epic Spunge"
+  ],
+  "Scups + Oaktopus": [
+    "Epic Spunge"
+  ],
+  "Congle + Oaktopus": [
+    "Epic Thumpies"
+  ],
+  "Reedling + Pango": [
+    "Epic Thumpies"
+  ],
+  "Dakktyl (Major) + Shhimmer (Major)": [
+    "Illoost (Major)"
+  ],
+  "The Inflatterer (Major) + Arcorina (Major)": [
+    "Illoost (Major)"
   ]
 }

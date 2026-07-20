@@ -483,7 +483,43 @@
     if (key === "fetchIslands" || key === "islands") return fetchIslands;
     if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
     if (["getdofmonster", "dofmonster"].includes(key.toLowerCase())) return getDofMonster; 
-    if (key === "help") { return () => ({ version: COMMIT_HASH }); }
+    if (key === "help") {
+        return () => {
+            console.log(`
+    🎵 MSM API
+    ──────────────────────────────────
+    Version: ${COMMIT_HASH.substring(0, 7)}
+    Mode: ${LOCAL_MODE ? "Local" : "CDN"}
+
+    Monster Methods
+    ---------------
+    await MSM.get("Entbrat")
+    await MSM.monster("Rare Noggin")
+
+    Breeding
+    --------
+    await MSM.twoMonsterCombo("Mammott + Toe Jammer")
+
+    Islands
+    -------
+    await MSM.fetchIsland("Plant")
+    await MSM.fetchIslands()
+
+    DOF
+    ---
+    await MSM.getDofMonster("Mammott")
+
+    GitHub
+    ------
+    https://github.com/Gaboom63/MSM-API
+            `);
+
+            return {
+                version: COMMIT_HASH,
+                mode: LOCAL_MODE ? "Local" : "CDN"
+            };
+        };
+    }
     if (key in cache) return cache[key];
 
     const loader = getMonster(key).then(m => {
