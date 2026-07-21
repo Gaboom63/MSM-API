@@ -1591,5 +1591,296 @@
   ],
   "The Inflatterer (Major) + Arcorina (Major)": [
     "Illoost (Major)"
+  ],
+  "Shrubb + Maw": [
+    "Entbrat"
+  ],
+  "Oaktopus + Drumpler": [
+    "Entbrat"
+  ],
+  "Furcorn + Fwog": [
+    "Entbrat"
+  ],
+  "Pummel + Mammott": [
+    "Entbrat"
+  ],
+  "Clamble + Toe Jammer": [
+    "Entbrat"
+  ],
+  "Bowgart + Noggin": [
+    "Entbrat"
+  ],
+  "T-Rox + Potbelly": [
+    "Entbrat"
+  ],
+  "Entbrat + Rare Entbrat": [
+    "Entbrat"
+  ],
+  "Dandidoo + Maw": [
+    "Deedge"
+  ],
+  "Quibble + Furcorn": [
+    "Deedge"
+  ],
+  "Pango + Oaktopus": [
+    "Deedge"
+  ],
+  "Spunge + Mammott": [
+    "Deedge"
+  ],
+  "Thumpies + Toe Jammer": [
+    "Deedge"
+  ],
+  "Congle + Potbelly": [
+    "Deedge"
+  ],
+  "Bowgart + Tweedle": [
+    "Deedge"
+  ],
+  "Deedge + Rare Deedge": [
+    "Deedge"
+  ],
+  "Shugabush + Deedge": [
+    "Deedge"
+  ],
+  "Cybop + Maw": [
+    "Riff"
+  ],
+  "Quibble + Drumpler": [
+    "Riff"
+  ],
+  "Pango + Fwog": [
+    "Riff"
+  ],
+  "Scups + Mammott": [
+    "Riff"
+  ],
+  "T-Rox + Tweedle": [
+    "Riff"
+  ],
+  "Congle + Noggin": [
+    "Riff"
+  ],
+  "PomPom + Toe Jammer": [
+    "Riff"
+  ],
+  "Riff + Rare Riff": [
+    "Riff"
+  ],
+  "Dandidoo + Fwog": [
+    "Shellbeat"
+  ],
+  "Cybop + Oaktopus": [
+    "Shellbeat"
+  ],
+  "Quibble + Shrubb": [
+    "Shellbeat"
+  ],
+  "Scups + Potbelly": [
+    "Shellbeat"
+  ],
+  "Reedling + Toe Jammer": [
+    "Shellbeat"
+  ],
+  "Pummel + Tweedle": [
+    "Shellbeat"
+  ],
+  "Spunge + Noggin": [
+    "Shellbeat"
+  ],
+  "Shellbeat + Rare Shellbeat": [
+    "Shellbeat"
+  ],
+  "Dandidoo + Drumpler": [
+    "Quarrister"
+  ],
+  "Cybop + Furcorn": [
+    "Quarrister"
+  ],
+  "Pango + Shrubb": [
+    "Quarrister"
+  ],
+  "Reedling + Mammott": [
+    "Quarrister"
+  ],
+  "Thumpies + Noggin": [
+    "Quarrister"
+  ],
+  "PomPom + Potbelly": [
+    "Quarrister"
+  ],
+  "Clamble + Tweedle": [
+    "Quarrister"
+  ],
+  "Quarrister + Rare Quarrister": [
+    "Quarrister"
+  ],
+  "Stogg + Dandidoo": [
+    "Tring"
+  ],
+  "Shrubb + Glowl": [
+    "Tring"
+  ],
+  "Flowah + Cybop": [
+    "Tring"
+  ],
+  "Reedling + Kayna": [
+    "Tring"
+  ],
+  "Floogull + Potbelly": [
+    "Tring"
+  ],
+  "Barrb + Noggin": [
+    "Tring"
+  ],
+  "Repatillo + Tweedle": [
+    "Tring"
+  ],
+  "Tring + Rare Tring": [
+    "Tring"
+  ],
+  "Quibble + Boskus": [
+    "Sneyser"
+  ],
+  "Pango + Phangler": [
+    "Sneyser"
+  ],
+  "Glowl + Maw": [
+    "Sneyser"
+  ],
+  "Congle + Kayna": [
+    "Sneyser"
+  ],
+  "Whaddle + Mammott": [
+    "Sneyser"
+  ],
+  "Woolabee + Toe Jammer": [
+    "Sneyser"
+  ],
+  "Wynq + Tweedle": [
+    "Sneyser"
+  ],
+  "Sneyser + Rare Sneyser": [
+    "Sneyser"
+  ],
+  "Oaktopus + Yuggler": [
+    "Gloptic"
+  ],
+  "Flowah + Poppette": [
+    "Gloptic"
+  ],
+  "Phangler + Bonkers": [
+    "Gloptic"
+  ],
+  "Rootitoot + Theremind": [
+    "Gloptic"
+  ],
+  "Tapricorn + Kayna": [
+    "Gloptic"
+  ],
+  "Rooba + Toe Jammer": [
+    "Gloptic"
+  ],
+  "Periscorp + Potbelly": [
+    "Gloptic"
+  ],
+  "Gloptic + Rare Gloptic": [
+    "Gloptic"
+  ],
+  "Furcorn + Pluckbill": [
+    "Blow't"
+  ],
+  "Flowah + Bulbo": [
+    "Blow't"
+  ],
+  "Boskus + Gob": [
+    "Blow't"
+  ],
+  "TooToo + Mammott": [
+    "Blow't"
+  ],
+  "Fiddlement + Potbelly": [
+    "Blow't"
+  ],
+  "Spytrap + Kayna": [
+    "Blow't"
+  ],
+  "Sooza + Fluoress": [
+    "Blow't"
+  ],
+  "Blow't + Rare Blow't": [
+    "Blow't"
+  ],
+  "Fwog + Hawlo": [
+    "Plinkajou"
+  ], 
+  "Stogg + Denchuhs": [
+    "Plinkajou"
+  ],
+  "Phangler + Peckidna": [
+    "Plinkajou"
+  ],
+  "Banjaw + Noggin": [
+    "Plinkajou"
+  ],
+  "Uuduk + Toe Jammer": [
+    "Plinkajou"
+  ],
+  "Withur + Kayna": [
+    "Plinkajou"
+  ],
+  "Thrumble + Clackula": [
+    "Plinkajou"
+  ],
+  "Plinkajou + Rare Plinkajou": [
+    "Plinkajou"
+  ],
+  "Drumpler + Wimmzies": [
+    "Pladdie"
+  ],
+  "Stogg + Squot": [
+    "Pladdie"
+  ],
+  "Boskus + HippityHop": [
+    "Pladdie"
+  ],
+  "Clavi Gnat + Noggin": [
+    "Pladdie"
+  ],
+  "Bridg-it + Mammott": [
+    "Pladdie"
+  ],
+  "Cantorell + Kayna": [
+    "Pladdie"
+  ],
+  "Ziggurab + Floot Fly": [
+    "Pladdie"
+  ],
+  "Pladdie + Rare Pladdie": [
+    "Pladdie"
+  ],
+  "Deja-Jin + Roarick": [
+    "Enchantling"
+  ],
+  "Xyster + Knucklehead": [
+    "Enchantling"
+  ],
+  "Cahoot + Osstax": [
+    "Enchantling"
+  ],
+  "Mushaboom + Theremind": [
+    "Enchantling"
+  ],
+  "G'day + Floot Fly": [
+    "Enchantling"
+  ],
+  "Frondley + Clackula": [
+    "Enchantling"
+  ],
+  "Larvaluss + Fluoress": [
+    "Enchantling"
+  ],
+  "Enchantling + Rare Enchantling": [
+    "Enchantling"
   ]
 }
