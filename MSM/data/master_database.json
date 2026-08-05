@@ -12,6 +12,7 @@
     "Adult Syncopite": "Adult Syncopite",
     "Adult Torrt": "Adult Torrt",
     "Adult Vhamp": "Adult Vhamp",
+    "Alcordion": "Alcordion",
     "Anglow": "Anglow",
     "Arackulele": "Arackulele",
     "Arcorina": "Arcorina",
@@ -90,7 +91,7 @@
     "Epic Brump": "Epic Brump",
     "Epic Buzzinga": "Epic Buzzinga",
     "Epic Candelavra": "Epic Candelavra",
-    "Epic Cantorell ": "Epic Cantorell ",
+    "Epic Cantorell": "Epic Cantorell",
     "Epic Carillong": "Epic Carillong",
     "Epic Cherubble": "Epic Cherubble",
     "Epic Clackula": "Epic Clackula",
@@ -2107,6 +2108,11 @@
     }
   },
   "Sounds": {
+    "Alcordion": {
+      "Common": [
+        "Alcordion_Memory_Sample.mp3"
+      ]
+    },
     "Anglow": {
       "Common": [
         "Anglow_DoF_Audio.mp3",
@@ -3372,6 +3378,12 @@
         "Teeter-Tauter_Memory_Sample.mp3"
       ]
     },
+    "The Inflatterer": {
+      "Common": [
+        "The_Inflatterer_(Major)_Memory_Sample.mp3",
+        "The_Inflatterer_(Minor)_Memory_Sample.mp3.mp3"
+      ]
+    },
     "Theremind": {
       "Common": [
         "Theremind_Memory_Sample.mp3"
@@ -3661,6 +3673,10 @@
     ],
     "Adult Vhamp": [
       "celestial"
+    ],
+    "Alcordion": [
+      "air",
+      "mirror air"
     ],
     "Anglow": [
       "water",

@@ -1,0 +1,33 @@
+{
+  "Name": "Alcordion",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "air",
+    "mirror air"
+  ],
+  "Description": {
+    "name": "Alcordion",
+    "description": "Oh, this is a story about a Legendary named Alcordian, and it lived on Air Island with its Monster pals! This eccentric Monster's iconic instrument is rumored to be a gift bestowed by the Colossal Zeffree themselves, and the music it creates has long been connected to other singularly strange Monsters. The workings of the bellows-driven squeezebox calls to mind the mechanized suits of Bellowfish, and the genre it typifies (nicknamed Poewka by the Monsters) gave rise to the name of one of the Wublins. The feather-like coverings on Alcordian's body have special adaptive purposes: the ones sprouting from its head give the semblance of wild and wacky hair, but in actuality, they are 'memory coils' that remember all the music the Monster has ever heard, using the power of Ultra High Frequencies. In turn, the Alcordian can call upon these musical memories and re-interpret them with the power of Poewka! As for what the multicolored, hue-shifting plumes on the Monster's body are for - they're simply part of the Alcordian's signature style."
+  },
+  "Costs": {
+    "name": "Alcordion",
+    "cold_diamond_cost": "500"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 8h 30m",
+    "Enhanced_Skin": "1d 8h 30m",
+    "Standard": "2d 2h",
+    "Standard_Skin": "1d 21h"
+  },
+  "Likes": [
+    "Stoowarb",
+    "PU System",
+    "Miniature Island Complex",
+    "Unknown"
+  ],
+  "Combinations to Breed": [
+    "Scups + PomPom"
+  ]
+}
