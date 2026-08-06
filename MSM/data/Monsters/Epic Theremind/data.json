@@ -1,0 +1,33 @@
+{
+  "Name": "Epic Theremind",
+  "Elements": [
+    "Psychic"
+  ],
+  "Islands": [
+    "psychic",
+    "Magical Sanctum",
+    "nexus",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Epic Theremind",
+    "description": "To overcome our limitations and reach new heights, we're taught to put 'mind over matter…'' so what happens when the mind IS the matter? The Epic Theremind seems to have taken its quest for cognitive transcendence in a very physical direction. In stark contrast to its Rare counterpart that attempted to outgrow its mortal form, this Epic Magical has instead doubled down, allowing unfettered growth of dense weaves of neurons to subsume most of its body! While Common Thereminds have always been skilled at reading the room, the Epic Theremind is a bit more of a rabble rouser. It turns out the neurotransmitter stalks extending from the Monster's body have greatly heightened its sensitivity to the elation of Monsters around it. At the slightest hint of a good time, the Epic Theremind will be down to clown, bringing an almost unhinged amount of joy and excitement to the party. "
+  },
+  "Costs": {
+    "name": "Epic Theremind",
+    "cost": "300",
+    "magical_diamond_cost": "425"
+  },
+  "Breeding Times": {
+    "Enhanced": "18h 9m",
+    "Enhanced_Skin": "15h 43m 48s",
+    "Standard": "1d 12m",
+    "Standard_Skin": "21h 46m 48s"
+  },
+  "Likes": [
+    "La",
+    "Zuffle Tree",
+    "Mountain Morsel",
+    "Optiglowbe"
+  ]
+}

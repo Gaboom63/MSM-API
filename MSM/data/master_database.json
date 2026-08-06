@@ -176,6 +176,7 @@
     "Epic Stogg": "Epic Stogg",
     "Epic Strombonin": "Epic Strombonin",
     "Epic T-Rox": "Epic T-Rox",
+    "Epic Theremind": "Epic Theremind",
     "Epic Thrumble": "Epic Thrumble",
     "Epic Thumpies": "Epic Thumpies",
     "Epic Thwok": "Epic Thwok",
@@ -4598,6 +4599,12 @@
       "gold",
       "mirror plant",
       "mirror air"
+    ],
+    "Epic Theremind": [
+      "psychic",
+      "Magical Sanctum",
+      "nexus",
+      "mirror psychic"
     ],
     "Epic Thrumble": [
       "bone",
