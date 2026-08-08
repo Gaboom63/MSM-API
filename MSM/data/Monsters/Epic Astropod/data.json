@@ -1,0 +1,38 @@
+{
+  "Name": "Epic Astropod",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "Wublin"
+  ],
+  "Description": {
+    "name": "Epic Astropod",
+    "description": "The days during which the stars of Poison's Mark hang in the sky remind many of their first interactions with the iconic Celestials. The Wubbox assuredly had 'space on the brain' when the Epic Astropod's design was conceived, but you can't argue that the Wublin's name has never been more fitting than for this ultimate evolved form."
+  },
+  "Costs": {
+    "name": "Epic Astropod",
+    "cost": "10"
+  },
+  "Likes": [
+    "Pixolotl"
+  ],
+  "Wublin Inventory": {
+    "Cost": "10",
+    "Inventory": {
+      "Epic Toe Jammer": 1,
+      "Epic Reedling": 1,
+      "Epic Spunge": 1,
+      "Epic Scups": 1,
+      "Epic Shellbeat": 1,
+      "Epic Whaddle": 1,
+      "Epic Rootitoot": 1,
+      "Epic Flum Ox": 1
+    },
+    "Time Limit": "None!",
+    "Total Eggs": "8"
+  },
+  "Combinations to Breed": [
+    "Zap The Eggs Needed To Fill Epic Astropod"
+  ]
+}

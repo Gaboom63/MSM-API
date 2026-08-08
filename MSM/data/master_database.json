@@ -76,6 +76,7 @@
     "Entbrat": "Entbrat",
     "Epic Anglow": "Epic Anglow",
     "Epic Arackulele": "Epic Arackulele",
+    "Epic Astropod": "Epic Astropod",
     "Epic Barrb": "Epic Barrb",
     "Epic Bellowfish": "Epic Bellowfish",
     "Epic Bisonorus": "Epic Bisonorus",
@@ -4016,6 +4017,9 @@
     ],
     "Epic Arackulele": [
       "ethereal"
+    ],
+    "Epic Astropod": [
+      "Wublin"
     ],
     "Epic Barrb": [
       "haven",
