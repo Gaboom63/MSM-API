@@ -1,5 +1,5 @@
 ## LATEST UPDATE:
-**Added:** Epic Cantorell & Epic Wheezle & The Inflatterer! 
+**Added:** Epic Astropod & Alcordion & Epic Theremind! 
 --------------------
 ## AT LAST THE API IS DONE! (1/28/26)
 
