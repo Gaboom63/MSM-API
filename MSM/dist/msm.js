@@ -47,17 +47,20 @@
     return 1.0 - (distance / Math.max(s1.length, s2.length));
   }
   
-  async function syncToLatestCommit() {
+ async function syncToLatestCommit() {
           // If testing locally, we don't care about the GitHub commit sync.
           if (LOCAL_MODE) {
               updateUrls();
               return;
           }
 
-          const lastCheck = localStorage.getItem('msm_hash_last_check') || 0;
+          // CHANGED: Use sessionStorage so a new session/tab always checks for the latest commit
+          const lastCheck = sessionStorage.getItem('msm_hash_last_check') || 0;
           const now = Date.now();
           
-          if (now - lastCheck < 600000 && COMMIT_HASH !== 'main') {
+          // CHANGED: Reduced from 600000 (10 mins) to 60000 (1 min).
+          // This allows quick updates on reload while preventing GitHub rate limiting (60 req/hr).
+          if (now - lastCheck < 60000 && COMMIT_HASH !== 'main') {
               updateUrls();
               return;
           }
@@ -82,7 +85,8 @@
                   
                   console.log(`MSM API Update detected! Switched from ${oldHash ? oldHash.substring(0,7) : 'main'} to ${COMMIT_HASH.substring(0,7)}`);
               }
-              localStorage.setItem('msm_hash_last_check', now);
+              // CHANGED: Save the new check time to sessionStorage
+              sessionStorage.setItem('msm_hash_last_check', now);
           } catch (err) { 
               console.warn("GitHub API Sync failed, using cached hash."); 
           } finally { 
