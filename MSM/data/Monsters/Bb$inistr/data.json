@@ -12,13 +12,17 @@
   },
   "Costs": {
     "name": "Bb$inister",
-    "cold_diamond_cost": "?"
+    "cold_diamond_cost": "700"
   },
   "Breeding Times": {
-    "Enhanced": "?",
-    "Standard": "?"
+    "Enhanced": "?1d 2h 15m",
+    "Standard": "1d 11h"
   },
-  "Likes": [],
+  "Likes": [
+    "Fuzzle Tree",
+    "Toob",
+    "Thumpies Totem"
+  ],
   "Combinations to Breed": [
     "Bbli$zard + Spunge"
   ]

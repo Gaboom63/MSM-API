@@ -4891,7 +4891,8 @@
       "mirror plant",
       "mirror air",
       "mirror water",
-      "mirror bone"
+      "mirror bone",
+      "bb$lizard island"
     ],
     "G'day": [
       "sanctum"
@@ -5108,7 +5109,8 @@
       "light",
       "mirror light",
       "faerie",
-      "mirror faerie"
+      "mirror faerie",
+      "bb$lizard island"
     ],
     "Maulch": [
       "Wublin"
@@ -6602,7 +6604,8 @@
       "tribal",
       "composer",
       "mirror cold",
-      "mirror water"
+      "mirror water",
+      "bb$lizard island"
     ],
     "Spurrit": [
       "oasis",

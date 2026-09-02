@@ -15,10 +15,15 @@
     "cold_diamond_cost": "700"
   },
   "Breeding Times": {
-    "Enhanced": "?",
-    "Standard": "?"
+    "Enhanced": "1d 2h 15m",
+    "Standard": "1d 11h"
   },
-  "Likes": [],
+  "Likes": [
+    "Spunge",
+    "Flappy Flag",
+    "Bingo Bango Bongos",
+    "Wubbox Stockpile"
+  ],
   "Combinations to Breed": [
     "Bbli$zard + Fwog"
   ]
