@@ -473,6 +473,7 @@
     "Rare Woolabee": "Rare Woolabee",
     "Rare Wubbox": "Rare Wubbox",
     "Rare Wynq": "Rare Wynq",
+    "Rare X'rt": "Rare X'rt",
     "Rare Xyster": "Rare Xyster",
     "Rare Yawstrich": "Rare Yawstrich",
     "Rare Yelmut": "Rare Yelmut",
@@ -6331,6 +6332,10 @@
     "Rare Wynq": [
       "oasis",
       "amber"
+    ],
+    "Rare X'rt": [
+      "workshop",
+      "crystal"
     ],
     "Rare Xyster": [
       "sanctum"
