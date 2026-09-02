@@ -1,0 +1,40 @@
+{
+  "Name": "Rare X'rt",
+  "Elements": [
+    "Shadow",
+    "Crystal",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop",
+    "crystal"
+  ],
+  "Description": {
+    "name": "Rare X'rt",
+    "description": "The Rare X'rt is the result of yet another experiment pushed to the extremes. The robust neural gas expelled by this Workshopper, which allows its top and bottom halves to stay connected over great distances, has been pushed to its absolute limit. A Common X'rt can split by up to 8 meters while still maintaining control over the bottom, before needing to autonomically close the distance. Rare X'rts venture out further and further, pushing the boundaries of their gaseous reaches. This extreme exertion does come at a cost, however. As they push and strain, sometimes things... pop, and a new nodule pokes itself out of the Rare X'rt. It's surmised that as the Monster's body is put under duress to produce more and stronger amounts of this neural gas, its experimental physiology inSTINKtually generates a new nerve center to help extend its control cloud. While extended to the extremes, this system works remarkably harmoniously, though once a Rare X'rt comes back together, the additional nubbins tend to pull it in a few too many directions."
+  },
+  "Costs": {
+    "name": "Rare X'rt",
+    "ethereal_diamond_cost": "3800",
+    "shadow_diamond_cost": "3500",
+    "shard_cost": "500",
+    "dish-harmonizer_shard_cost": "6000"
+  },
+  "Breeding Times": {
+    "Standard": "1d 11h"
+  },
+  "Likes": [
+    "X'rt",
+    "Rare Boodoo",
+    "Rare Kazilleon",
+    "Rare Whisp",
+    "Rare Fung Pray",
+    "Rare Jeeode",
+    "Yum Yum Tree",
+    "Cave Crystal Teleporter",
+    "Travelers Sign"
+  ],
+  "Combinations to Breed": [
+    "Any Workshop"
+  ]
+}
