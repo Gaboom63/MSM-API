@@ -1,0 +1,25 @@
+{
+  "Name": "Bb$kinbash",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "bbli$zard island"
+  ],
+  "Description": {
+    "name": "Bb$kinbash",
+    "description": "Every song needs a beet, and the bb$kinbash is here too... well, bash the skin! The skin in question, of course, is that of the Monster's trusty bass drum, crafted from leftover materials of the construction of bbli$zard Island's urban infrastructure. The bb$quad member's talents don't stop there, however — it's also trained itself to manipulate a hi-hat using its tail. This Monster's confidence is off the charts — it even feels comfortable performing in farcically-reaqué underwear-pants! A level of self-assuredness to which we can all aspire."
+  },
+  "Costs": {
+    "name": "Bb$kinbash",
+    "cold_diamond_cost": "700"
+  },
+  "Breeding Times": {
+    "Enhanced": "?",
+    "Standard": "?"
+  },
+  "Likes": [],
+  "Combinations to Breed": [
+    "Bbli$zard + Fwog"
+  ]
+}

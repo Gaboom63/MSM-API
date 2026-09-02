@@ -1,0 +1,30 @@
+{
+  "Name": "Unklaw",
+  "Elements": [
+    "Control",
+    "Ruin",
+    "Depth"
+  ],
+  "Costs": {
+    "name": "Unklaw",
+    "diamond_cost": "4000"
+  },
+  "Breeding Times": {
+    "Enhanced": "?",
+    "Standard": "?"
+  },
+  "Likes": [
+    "?"
+  ],
+  "Islands": [
+    "paironormal"
+  ],
+  "Description": {
+    "name": "Unklaw (Major)",
+    "description": "Is that ... an Epic Anglow? You're on the right track, since the Mythical species originates from a water world in the far-flung Beyond, where the Carnival also resides. Indeed, this unusual life-form began as an Epic Anglow, but was subjected to the carcinizing effects of the Mega Rift in space instead of the living ocean of the Monster World. An Anglow that has been subjected to this mutation is said to have attained 'Unk' status, and completes its transformation into an Unklaw. Crabbier than ever (in appearance, not temperament, mind you), a protective integument encloses the soft tissues of the Superficial Paironormal's Major form. This shell is also the secret to its musical mechanism; the bright, twinkling tones contrast emphatically with the low wobbles of its erstwhile identity. Once modulated, the Unklaw is suddenly exposed, and resorts to 'adventitious protection,' covering itself with random objects collected from the Carnival's low orbit. It is pure serendipity that the Minor Unklaw can produce similar music via manipulation of these found instruments. Some have criticized this Monster's fixation on its outward appearance (it is the Superficial Paironormal, after all), but that's not very fair. Performing requires focus and concentration at the best of times, and even more so when one is performing in what effectively amounts to their underwear."
+  },
+  "Combinations to Breed": [
+    "Raqsoun (Major) + Shhimmer (Major)",
+    "eRmA gUrDy (Major) + Arcorina (Major)"
+  ]
+}

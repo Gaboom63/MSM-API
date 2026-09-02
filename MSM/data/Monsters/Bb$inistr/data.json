@@ -1,0 +1,25 @@
+{
+  "Name": "Bb$inister",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "bbli$zard island"
+  ],
+  "Description": {
+    "name": "Bb$inister",
+    "description": "To be added."
+  },
+  "Costs": {
+    "name": "Bb$inister",
+    "cold_diamond_cost": "?"
+  },
+  "Breeding Times": {
+    "Enhanced": "?",
+    "Standard": "?"
+  },
+  "Likes": [],
+  "Combinations to Breed": [
+    "Bbli$zard + Spunge"
+  ]
+}

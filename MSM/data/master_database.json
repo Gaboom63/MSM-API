@@ -21,6 +21,9 @@
     "Auglur": "Auglur",
     "Banjaw": "Banjaw",
     "Barrb": "Barrb",
+    "Bb$enior": "Bb$enior",
+    "Bb$inistr": "Bb$inistr",
+    "Bb$kinbash": "Bb$kinbash",
     "Bbli$zard": "Bbli$zard",
     "BeMeebEth": "BeMeebEth",
     "Bellowfish": "Bellowfish",
@@ -543,6 +546,7 @@
     "Tuskski": "Tuskski",
     "Tweedle": "Tweedle",
     "Tympa": "Tympa",
+    "Unklaw": "Unklaw",
     "Uuduk": "Uuduk",
     "Vhamp": "Vhamp",
     "Vhenshun": "Vhenshun",
@@ -632,6 +636,9 @@
     ],
     "amber_island.png": [
       "images/islands/Amber Island.png"
+    ],
+    "bbli$zard_island.png": [
+      "images/islands/Bbli$zard Island.png"
     ],
     "bone_island": [
       "images/islands/Bone Island (Beat Hereafter Skin).png"
@@ -3715,9 +3722,19 @@
       "haven",
       "amber"
     ],
+    "Bb$enior": [
+      "bbli$zard island"
+    ],
+    "Bb$inister": [
+      "bbli$zard island"
+    ],
+    "Bb$kinbash": [
+      "bbli$zard island"
+    ],
     "Bbli$zard": [
       "cold",
-      "mirror cold"
+      "mirror cold",
+      "bbli$zard island"
     ],
     "BeMeebEth": [
       "workshop"
@@ -6763,6 +6780,9 @@
     ],
     "Tympa": [
       "wublin"
+    ],
+    "Unklaw": [
+      "paironormal"
     ],
     "Uuduk": [
       "bone",
