@@ -1,7 +1,7 @@
 ## LATEST UPDATE:
 **Added:** The new BBli$zard Family, Island, and Unklaw! 
 
-_(Dev Note: A good chunk of data for this update is incomplete due to little time passing, but I wanted to add this for the sake of breeding combos!)_ 
+_(Dev Note: The current images are a little low res, this will get updated ASAP!)_ 
 
 --------------------
 ## AT LAST THE API IS DONE! (1/28/26)
