@@ -1,5 +1,5 @@
  <h1 align="center"> LATEST UPDATE: </h1>
-<p align="center"> **Added:** The new BBli$zard Family, Island, and Unklaw! </p>
+<p align="center"> <b>Added:</b> The new BBli$zard Family, Island, and Unklaw! </p>
 
 <p align="center"> <i>Dev Note: All images from this update should now be high quality now!</i> </p>
 
