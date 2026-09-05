@@ -1,12 +1,12 @@
- ## LATEST UPDATE:
+ <h1 align="center"> LATEST UPDATE: </h1>
 **Added:** The new BBli$zard Family, Island, and Unklaw! 
 
 _Dev Note: All images from this update should now be high quality now!_
 
 -----
 
-INTRODUCING THE MSM API DOCS! 
------
+<h1 align="center">INTRODUCING THE MSM API DOCS!</h1> 
+
 Have you ever wanted to use my API, but didn't know how? Well now there is a website just for you! :) This website documents all the methods and functions of the API! My goal was to make this API as accessible as possible for everyone, so please enjoy! :)
 
 <br>
@@ -19,6 +19,6 @@ Have you ever wanted to use my API, but didn't know how? Well now there is a web
 </p>
 
 --------------------
-## AT LAST THE API IS DONE! (1/28/26)
+<h1 align="center"> AT LAST THE API IS DONE! (1/28/26) </h1>
 
 This project is now finished! It will be consistently worked on and updated frequently! Enjoy using it now, and expect more and more features to come out soon! 
