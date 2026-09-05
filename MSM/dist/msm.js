@@ -309,7 +309,13 @@
                 },
                 async loadImage(selector) {
                     const el = document.getElementById(selector) || document.querySelector(`.${selector}`);
-                    if (el) el.src = this.imageUrl;
+                    if (el) {
+                        // Stop large images from blocking the main thread during render
+                        el.decoding = "async";
+                        // Tell the browser to prioritize this download over other background assets
+                        el.fetchPriority = "high";
+                        el.src = this.imageUrl;
+                    }
                 },
                 isOnIsland(islandName) {
                     return (this.islands.map(i => String(i).toLowerCase()).includes(islandName.toLowerCase()))
