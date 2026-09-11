@@ -7,6 +7,7 @@
   function updateUrls() {
           if (LOCAL_MODE) {
             // Local relative paths stepping out of MSM-Combo-Finder directly into MSM / MSM-DOF
+            console.log("LOADING LOCAL MODE!");
             BASE_URL = `/MSM-API/MSM/data/`;
             MASTER_DB_URL = `/MSM-API/MSM/data/master_database.json`;
             MONSTERS_URL = `/MSM-API/MSM/data/Monsters/`;
@@ -102,43 +103,98 @@
   let dbCache = null;
 
   async function fetchWithCache(storageKey, url) {
-    if (cache[storageKey]) return cache[storageKey];
-    if (fetchPromises[storageKey]) return fetchPromises[storageKey];
+      if (cache[storageKey]) {
+          return cache[storageKey];
+      }
 
-    const versionedKey = `msm_${COMMIT_HASH}_${storageKey}`;
-    
-    try {
-        const saved = localStorage.getItem(versionedKey);
-        if (saved) {
-            const parsed = JSON.parse(saved);
-            cache[storageKey] = parsed;
-            return parsed;
-        }
-    } catch (e) {
-        console.warn(`Failed to read from LocalStorage for ${storageKey}`);
-    }
+      if (fetchPromises[storageKey]) {
+          return fetchPromises[storageKey];
+      }
 
-    const fetchPromise = (async () => {
-        try {
-            const res = await fetch(url, { credentials: 'omit' });
-            if (!res.ok) throw new Error(`HTTP Error: ${res.status}`);
-            const data = await res.json();
-            cache[storageKey] = data; 
-            try {
-                localStorage.setItem(versionedKey, JSON.stringify(data));
-            } catch (storageErr) {
-                console.warn("LocalStorage is full! Proceeding with in-memory cache.");
-            }
-            return data;
-        } catch (e) { 
-            return null; 
-        } finally {
-            delete fetchPromises[storageKey];
-        }
-    })();
+      const versionedKey = `msm_${COMMIT_HASH}_${storageKey}`;
 
-    fetchPromises[storageKey] = fetchPromise;
-    return fetchPromise;
+      if (!LOCAL_MODE) {
+          try {
+              const saved = localStorage.getItem(versionedKey);
+
+              if (saved) {
+                  const parsed = JSON.parse(saved);
+                  cache[storageKey] = parsed;
+
+                  // console.log(
+                  //     `[MSM API] Using cached production data: ${storageKey}`
+                  // );
+
+                  return parsed;
+              }
+          } catch (e) {
+              // console.warn(
+              //     `[MSM API] Failed to read LocalStorage for ${storageKey}:`,
+              //     e
+              // );
+          }
+      }
+
+      const fetchPromise = (async () => {
+          try {
+              let fetchUrl = url;
+
+              if (LOCAL_MODE) {
+                  const separator = url.includes('?') ? '&' : '?';
+                  fetchUrl = `${url}${separator}dev=${Date.now()}`;
+
+                  // console.log(`[MSM API] LOCAL FETCH: ${fetchUrl}`);
+              } else {
+                  // console.log(`[MSM API] CDN FETCH: ${fetchUrl}`);
+              }
+
+              const res = await fetch(fetchUrl, {
+                  credentials: 'omit',
+                  cache: LOCAL_MODE ? 'no-store' : 'default'
+              });
+
+              if (!res.ok) {
+                  // throw new Error(
+                  //     `HTTP Error ${res.status}: ${res.statusText}`
+                  // );
+              }
+
+              const data = await res.json();
+
+              cache[storageKey] = data;
+
+              if (!LOCAL_MODE) {
+                  try {
+                      localStorage.setItem(
+                          versionedKey,
+                          JSON.stringify(data)
+                      );
+                  } catch (storageErr) {
+                      // console.warn(
+                      //     `[MSM API] LocalStorage is full for ${storageKey}. Proceeding with in-memory cache.`,
+                      //     storageErr
+                      // );
+                  }
+              }
+
+              return data;
+
+          } catch (e) {
+              console.error(
+                  // `[MSM API] Failed to fetch ${url}:`,
+                  e
+              );
+
+              return null;
+
+          } finally {
+              delete fetchPromises[storageKey];
+          }
+      })();
+
+      fetchPromises[storageKey] = fetchPromise;
+
+      return fetchPromise;
   }
 
   async function initDatabases() {
