@@ -86,7 +86,8 @@ if (fs.existsSync(elementsDir)) {
         'Ethereal',
         'Magical',
         'Supernatural',
-        'Mythical'
+        'Mythical',
+        "Seasonal"
     ];
 
     fs.readdirSync(elementsDir).forEach(file => {
