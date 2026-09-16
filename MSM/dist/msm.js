@@ -1,6 +1,6 @@
 (function (global) {
   let COMMIT_HASH = localStorage.getItem('msm_api_hash') || 'main'; 
-  let BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, MASTER_DB_URL, MONSTERS_URL, DOF_MONSTERS_URL;
+  let BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, MASTER_DB_URL, MONSTERS_URL, DOF_MONSTERS_URL, NEWS_IMAGES_URL, NEWS_IMAGES_INDEX_URL;
   
   const LOCAL_MODE = false;
 
@@ -16,6 +16,8 @@
             SOUND_BASE_URL = `/MSM-API/MSM/data/sounds/`;
             ELEMENTS_URL = `/MSM-API/MSM/images/elements/`;
             BREEDING_FILE_PATH = `/MSM-API/MSM/data/breedingCombos.json`;
+            NEWS_IMAGES_URL = `/MSM-API/MSM/images/sales/`;
+            NEWS_IMAGES_INDEX_URL = `/MSM-API/MSM/images/sales/index.json`;
           } else {
               // Production GitHub CDN paths
               BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/`;
@@ -26,6 +28,8 @@
               SOUND_BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/sounds/`;
               ELEMENTS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/images/elements/`;
               BREEDING_FILE_PATH = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/breedingCombos.json`;
+              NEWS_IMAGES_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/images/sales/`;
+              NEWS_IMAGES_INDEX_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/images/sales/index.json`;
           }
     }
 
@@ -537,6 +541,24 @@
             getInfo() { return `${this.name} features ${this.totalMonsters} known monsters!`; }
         };
     }
+
+    async function fetchNewsImages() {
+        await syncPromise;
+
+        const files = await fetchWithCache(
+            'news_images',
+            NEWS_IMAGES_INDEX_URL
+        );
+
+        if (!Array.isArray(files)) {
+            return [];
+        }
+
+        return files
+            .filter(file => typeof file === 'string')
+            .filter(file => /\.(png|jpe?g|gif|webp)$/i.test(file))
+            .map(file => `${NEWS_IMAGES_URL}${encodeURIComponent(file)}`);
+    }
     
   const MSM = new Proxy({}, {
   get(target, prop) {
@@ -549,6 +571,7 @@
     if (key === "fetchIslands" || key === "islands") return fetchIslands;
     if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
     if (["getdofmonster", "dofmonster"].includes(key.toLowerCase())) return getDofMonster; 
+    if (key === "fetchNewsImages" || key === "newsImages") return fetchNewsImages;
     if (key === "help") {
         return () => {
             console.log(`
