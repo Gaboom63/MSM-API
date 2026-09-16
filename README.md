@@ -15,7 +15,8 @@
 <br>
 <br>
 <p align="center">
-  <a href="https://gaboom63.github.io/MSM-API-Documentation/" target="_blank" style="text-align: center;">MSM API Docs!</a>
+     <a href="https://github.com/Gaboom63/MSM-API-Documentation" target="_blank" style="text-align: center;">MSM API Docs Github</a>
+   | <a href="https://gaboom63.github.io/MSM-API-Documentation/" target="_blank" style="text-align: center;">MSM API Docs Website!</a>
 </p>
 
 --------------------
