@@ -1,0 +1,36 @@
+{
+  "Name": "Epic Cataliszt",
+  "Elements": [
+    "Dream"
+  ],
+  "Islands": [
+    "mythical"
+  ],
+  "Description": {
+    "name": "Epic Cataliszt",
+    "description": "What are dreams but the amalgmation of thoughts, ideas and feelings? That 'formula' would certainly help to explain the Epic Cataliszt, whose very inception feels like multiple cat-concepts (catcepts?) imposed on top of one another. Speculation abounds that this entity is none other than the Dream Crafter itself, appearing as a Monstrous avatar to blend in with the populace. Its white and yellow color scheme (both colorations in which it has previously manifested) would seem to support that hypothesis... but the truth is likewise more layered. The Epic Cataliszt, unsurprisingly, uses the magic of dreamcraft, but its resultant creations are most strongly-linked to a range of powerful emotions plucked from Mythical imaginations. As the Monster paws at its multicolored Cradle, a special mist dubbed 'Steamotion' is produced. Precious little research into the full ramifications of this new substance has been undertaken as of yet, but what's clear is that this Epic Mythical carries a connection to the seven Core Mythicals, each in its own unique way."
+  },
+  "Costs": {
+    "name": "Epic Cataliszt",
+    "cost": "1000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 8h 42m",
+    "Standard": "1d 19h 36m"
+  },
+  "Likes": [
+    "G'joob",
+    "Digger",
+    "Saggle Tree",
+    "Directions to Nowhere"
+  ],
+  "Combinations to Breed": [
+    "Cataliszt + G'joob",
+    "Cataliszt + Strombonin",
+    "Cataliszt + Yawstrich",
+    "Cataliszt + Anglow",
+    "Cataliszt + Hyehehe",
+    "Cataliszt + Buzzinga",
+    "Cataliszt + Cherubble"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "Name": "Bbdek$tr",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "bbli$zard island"
+  ],
+  "Description": {
+    "name": "Bbdek$tr",
+    "description": "The bbdek$tr and its chiral counterpart are two-of-a-kind. Wherever one goes, you can be sure that the other is not far behind. So close are these bros that they've been compared to two peas in a pod... specifically, the pods of an Edamimi? Fortunately, the Monster World is equally accessible to left-handed and right-handed beings, Largely because it has to be accessible for beings without any hands at all! As a righty, the bbdek$tr shows moderately increased aptitudes for linguistics and fine motor skills."
+  },
+  "Costs": {
+    "name": "Bbdek$tr",
+    "cold_diamond_cost": "700"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Standard": "1d 11h"
+  },
+  "Likes": [
+    "Bb$inistr",
+    "Zuffle Tree",
+    "Innertuba",
+    "Thumpies Totem, Too"
+  ],
+  "Combinations to Breed": [
+    "Bbli$zard + Drumpler"
+  ]
+}

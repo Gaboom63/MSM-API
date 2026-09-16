@@ -1,0 +1,28 @@
+{
+  "Name": "Vawk",
+  "Elements": [
+    "Ruin",
+    "Depths"
+  ],
+  "Costs": {
+    "name": "Vawk",
+    "diamond_cost": "3000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 18h",
+    "Standard": "2d 8h"
+  },
+  "Likes": [
+    "Vawk (Minor)"
+  ],
+  "Islands": [
+    "paironormal"
+  ],
+  "Description": {
+    "name": "Vawk (Major)",
+    "description": "How much vox could a group of Vawks voc if a group of Vawks could voc vox? The answer is: a lot. Even when there's just a single Vawk specimen vocalizing, it's nigh impossible to ignore. The sirenic song of this Paironormal is equally beguiling in its Major and Minor forms; if your eyes were closed, you'd be none the wiser as to what incarnation it had taken. However, with eyes wide open, the contrast between them elucidates the Vawk's byname as the Inversion Paironormal. The Major Monster's glaucous body is topped with two lambent papillae (or wings) that gently flutter and glow alongside its musical performance. Some have proposed a cryptic connection to the lepidopterous beings that seem to heed the Stair Shaper's bidding elsewhere in the Beyond. On the Carnival's other side, everything about the Vawk seems... inverted. The Monster's body plan is still forked into two, but now it's upside-down and... inside-out? Slack-jawed and gaunt, it's astonishing that so serene a sound can emerge from so Ruinous a shape, but you can get used to it, if you invert your expectations."
+  },
+  "Combinations to Breed": [
+    "Arcorina (Major) + Shhimmer (Major)"
+  ]
+}

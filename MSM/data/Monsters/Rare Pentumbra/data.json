@@ -1,0 +1,38 @@
+{
+  "Name": "Rare Pentumbra",
+  "Elements": [
+    "Plasma",
+    "Shadow",
+    "Crystal",
+    "Poison"
+  ],
+  "Islands": [
+    "workshop",
+    "shadow"
+  ],
+  "Description": {
+    "name": "Rare Pentumbra",
+    "description": "The Rift is not a toy to be trifled with, and a certain population of 'Shady Long-Legs' are destined, or perhaps doomed, to discover this the hard way. The role of the Shadow Quad is one that comes with its advantages - the ability to fast-travel by stepping in and out of shadows foremost among them. But too much time out of the light invites the darkness, and the pink residue that's normally kept in check begins to creep upwards past the Pentumbra's upper legs. If the residue isn't cleared with adequate urgency, it will take root, completely overtaking the leg and transforming it into a stockier limb. Under controlled laboratory settings, this transformation plays a part in the Tune Up into a full-blown Rarethereal, along with excrescences on its body and upper limb that seem more wooden than fleshy. Despite these other changes, the gloom that resides below is still perfectly capable of its mimetic musical mission."
+  },
+  "Costs": {
+    "name": "Rare Pentumbra",
+    "ethereal_diamond_cost": "4200",
+    "shadow_diamond_cost": "4500",
+    "dish-harmonizer_shard_cost": "8000"
+  },
+  "Breeding Times": {
+    "Standard": "1d 21h"
+  },
+  "Likes": [
+    "Pentumbra",
+    "Rare Grumpyre",
+    "Rare Boodoo",
+    "Rare X'rt",
+    "?",
+    "?",
+    "?"
+  ],
+  "Combinations to Breed": [
+    "Rare Plasma Meeb + Rare Shadow Meeb + Rare Crystal Meeb + Rare Poison Meeb"
+  ]
+}

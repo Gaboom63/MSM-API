@@ -24,6 +24,7 @@
     "Bb$enior": "Bb$enior",
     "Bb$inistr": "Bb$inistr",
     "Bb$kinbash": "Bb$kinbash",
+    "Bbdek$tr": "Bbdek$tr",
     "Bbli$zard": "Bbli$zard",
     "BeMeebEth": "BeMeebEth",
     "Bellowfish": "Bellowfish",
@@ -97,6 +98,7 @@
     "Epic Candelavra": "Epic Candelavra",
     "Epic Cantorell": "Epic Cantorell",
     "Epic Carillong": "Epic Carillong",
+    "Epic Cataliszt": "Epic Cataliszt",
     "Epic Cherubble": "Epic Cherubble",
     "Epic Clackula": "Epic Clackula",
     "Epic Clamble": "Epic Clamble",
@@ -409,6 +411,7 @@
     "Rare Osstax": "Rare Osstax",
     "Rare Pango": "Rare Pango",
     "Rare Peckidna": "Rare Peckidna",
+    "Rare Pentumbra": "Rare Pentumbra",
     "Rare Periscorp": "Rare Periscorp",
     "Rare Phangler": "Rare Phangler",
     "Rare Pinghound": "Rare Pinghound",
@@ -548,6 +551,7 @@
     "Tympa": "Tympa",
     "Unklaw": "Unklaw",
     "Uuduk": "Uuduk",
+    "Vawk": "Vawk",
     "Vhamp": "Vhamp",
     "Vhenshun": "Vhenshun",
     "Viveine": "Viveine",
@@ -3731,6 +3735,9 @@
     "Bb$kinbash": [
       "bbli$zard island"
     ],
+    "Bbdek$tr": [
+      "bbli$zard island"
+    ],
     "Bbli$zard": [
       "cold",
       "mirror cold",
@@ -4114,6 +4121,9 @@
     "Epic Carillong": [
       "Magical Sanctum",
       "seasonal"
+    ],
+    "Epic Cataliszt": [
+      "mythical"
     ],
     "Epic Cherubble": [
       "oasis",
@@ -5246,7 +5256,8 @@
       "mirror bone"
     ],
     "Pentumbra": [
-      "workshop"
+      "workshop",
+      "shadow"
     ],
     "Periscorp": [
       "psychic",
@@ -5968,6 +5979,10 @@
       "bone",
       "nexus",
       "mirror bone"
+    ],
+    "Rare Pentumbra": [
+      "workshop",
+      "shadow"
     ],
     "Rare Periscorp": [
       "psychic",
@@ -6791,6 +6806,9 @@
       "bone",
       "nexus",
       "mirror bone"
+    ],
+    "Vawk": [
+      "paironormal"
     ],
     "Vhamp": [
       "celestial"

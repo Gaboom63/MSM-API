@@ -820,43 +820,50 @@
     "Bleatnik",
     "Rare Bleatnik",
     "Epic Strombonin",
-    "Epic Knurv"
+    "Epic Knurv",
+    "Epic Cataliszt"
   ],
   "Cataliszt + Strombonin": [
     "Cranchee",
     "Rare Cranchee",
     "Epic Yawstrich",
-    "Epic Pinghound"
+    "Epic Pinghound",
+    "Epic Cataliszt"
   ],
   "Cataliszt + Yawstrich": [
     "Sporerow",
     "Rare Sporerow",
     "Epic G'joob",
-    "Epic Wheezel"
+    "Epic Wheezel",
+    "Epic Cataliszt"
   ],
   "Cataliszt + Anglow": [
     "Pinghound",
     "Rare Pinghound",
     "Epic Buzzinga",
-    "Epic Cranchee"
+    "Epic Cranchee",
+    "Epic Cataliszt"
   ],
   "Cataliszt + Hyehehe": [
     "Wheezel",
     "Rare Wheezel",
     "Epic Cherubble",
-    "Epic Sporerow"
+    "Epic Sporerow",
+    "Epic Cataliszt"
   ],
   "Cataliszt + Buzzinga": [
     "Knurv",
     "Rare Knurv",
     "Epic Hyehehe",
-    "Epic shLep"
+    "Epic shLep",
+    "Epic Cataliszt"
   ],
   "Cataliszt + Cherubble": [
     "ShLep",
     "Rare ShLep",
     "Epic Anglow",
-    "Epic Bleatnik"
+    "Epic Bleatnik",
+    "Epic Cataliszt"
   ],
   "Gloptic + Rootitoot": [
     "Hairionette (Major)"
@@ -1987,5 +1994,14 @@
   ],
   "Rare Plasma Meeb + Rare Shadow Meeb + Rare Mech Meeb": [
     "Rare Yooreek"
+  ],
+  "Bbli$zard + Drumpler": [
+    "Bbdek$tr"
+  ],
+  "Arcorina (Major) + Shhimmer (Major)": [
+    "Vawk (Major)"
+  ],
+  "Rare Plasma Meeb + Rare Shadow Meeb + Rare Crystal Meeb + Rare Poison Meeb": [
+    "Rare Pentumbra"
   ]
 }
