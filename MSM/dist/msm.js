@@ -3,10 +3,12 @@
   let BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, MASTER_DB_URL, MONSTERS_URL, DOF_MONSTERS_URL, NEWS_IMAGES_URL, NEWS_IMAGES_INDEX_URL;
   
   const LOCAL_MODE = false;
+  
+  // Track the currently playing audio across the entire API to prevent overlap
+  let currentPlayingAudio = null;
 
   function updateUrls() {
           if (LOCAL_MODE) {
-            // Local relative paths stepping out of MSM-Combo-Finder directly into MSM / MSM-DOF
             console.log("LOADING LOCAL MODE!");
             BASE_URL = `/MSM-API/MSM/data/`;
             MASTER_DB_URL = `/MSM-API/MSM/data/master_database.json`;
@@ -19,7 +21,6 @@
             NEWS_IMAGES_URL = `/MSM-API/MSM/images/sales/`;
             NEWS_IMAGES_INDEX_URL = `/MSM-API/MSM/images/sales/index.json`;
           } else {
-              // Production GitHub CDN paths
               BASE_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/`;
               MASTER_DB_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/master_database.json`;
               MONSTERS_URL = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/Monsters/`;
@@ -53,18 +54,14 @@
   }
   
  async function syncToLatestCommit() {
-          // If testing locally, we don't care about the GitHub commit sync.
           if (LOCAL_MODE) {
               updateUrls();
               return;
           }
 
-          // CHANGED: Use sessionStorage so a new session/tab always checks for the latest commit
           const lastCheck = sessionStorage.getItem('msm_hash_last_check') || 0;
           const now = Date.now();
           
-          // CHANGED: Reduced from 600000 (10 mins) to 60000 (1 min).
-          // This allows quick updates on reload while preventing GitHub rate limiting (60 req/hr).
           if (now - lastCheck < 60000 && COMMIT_HASH !== 'main') {
               updateUrls();
               return;
@@ -90,7 +87,6 @@
                   
                   console.log(`MSM API Update detected! Switched from ${oldHash ? oldHash.substring(0,7) : 'main'} to ${COMMIT_HASH.substring(0,7)}`);
               }
-              // CHANGED: Save the new check time to sessionStorage
               sessionStorage.setItem('msm_hash_last_check', now);
           } catch (err) { 
               console.warn("GitHub API Sync failed, using cached hash."); 
@@ -105,6 +101,7 @@
   const cache = {}; 
   const fetchPromises = {};
   let dbCache = null;
+  let soundsIndexCache = null; // New cache for sounds index
 
   async function fetchWithCache(storageKey, url) {
       if (cache[storageKey]) {
@@ -124,18 +121,9 @@
               if (saved) {
                   const parsed = JSON.parse(saved);
                   cache[storageKey] = parsed;
-
-                  // console.log(
-                  //     `[MSM API] Using cached production data: ${storageKey}`
-                  // );
-
                   return parsed;
               }
           } catch (e) {
-              // console.warn(
-              //     `[MSM API] Failed to read LocalStorage for ${storageKey}:`,
-              //     e
-              // );
           }
       }
 
@@ -146,10 +134,6 @@
               if (LOCAL_MODE) {
                   const separator = url.includes('?') ? '&' : '?';
                   fetchUrl = `${url}${separator}dev=${Date.now()}`;
-
-                  // console.log(`[MSM API] LOCAL FETCH: ${fetchUrl}`);
-              } else {
-                  // console.log(`[MSM API] CDN FETCH: ${fetchUrl}`);
               }
 
               const res = await fetch(fetchUrl, {
@@ -157,56 +141,45 @@
                   cache: LOCAL_MODE ? 'no-store' : 'default'
               });
 
-              if (!res.ok) {
-                  // throw new Error(
-                  //     `HTTP Error ${res.status}: ${res.statusText}`
-                  // );
-              }
+              if (!res.ok) {}
 
               const data = await res.json();
-
               cache[storageKey] = data;
 
               if (!LOCAL_MODE) {
                   try {
-                      localStorage.setItem(
-                          versionedKey,
-                          JSON.stringify(data)
-                      );
-                  } catch (storageErr) {
-                      // console.warn(
-                      //     `[MSM API] LocalStorage is full for ${storageKey}. Proceeding with in-memory cache.`,
-                      //     storageErr
-                      // );
-                  }
+                      localStorage.setItem(versionedKey, JSON.stringify(data));
+                  } catch (storageErr) {}
               }
 
               return data;
 
           } catch (e) {
-              console.error(
-                  // `[MSM API] Failed to fetch ${url}:`,
-                  e
-              );
-
+              console.error(e);
               return null;
-
           } finally {
               delete fetchPromises[storageKey];
           }
       })();
 
       fetchPromises[storageKey] = fetchPromise;
-
       return fetchPromise;
   }
 
   async function initDatabases() {
     await syncPromise;
-    if (dbCache) return dbCache;
+    if (dbCache && soundsIndexCache) return dbCache;
 
-    dbCache = await fetchWithCache('master_db', MASTER_DB_URL);
-    return dbCache || {};
+    // Load both databases in parallel
+    const [dbData, soundsData] = await Promise.all([
+        fetchWithCache('master_db', MASTER_DB_URL),
+        fetchWithCache('sounds_index', `${BASE_URL}sounds_index.json`) // Loads from the base data directory
+    ]);
+
+    dbCache = dbData || {};
+    soundsIndexCache = soundsData || {};
+    
+    return dbCache;
   }
 
   let breedingCache = null;
@@ -311,8 +284,7 @@
             }) || "N/A";
 
             const finalImageUrl = `${IMAGE_BASE_URL}${encodeURIComponent(fullName)}.png`;
-            const eggName = fullName.replace(/\s*\((Major|Minor)\)/i, "").trim();
-            // Assuming monster eggs live under the main CDN, adjust path if they are in a different repo
+            const eggName = fullName.replace(/\s*\((Major\vert{}Minor)\)/i, "").trim();
             const finalEggUrl = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/images/monster_eggs/${encodeURIComponent(eggName)}.png`;
 
             const elementImageDb = dbCache['Element Image Manifest'] || {};
@@ -328,8 +300,9 @@
             const rawCostumes = Array.isArray(dbCache['Costumes']?.[baseNameClean]?.[rarity]) ? dbCache['Costumes'][baseNameClean][rarity] : [];
             const costumes = rawCostumes.map(c => `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/costumes/${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(c)}`);
 
-            const rawSounds = Array.isArray(dbCache['Sounds']?.[baseNameClean]?.[rarity]) ? dbCache['Sounds'][baseNameClean][rarity] : [];
-            const sounds = rawSounds.map(s => `${SOUND_BASE_URL}${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(s)}`);
+            // NEW SOUND SYSTEM: Look up the relative path from the newly fetched sounds index
+            let soundRelativePath = soundsIndexCache[fullName] || soundsIndexCache[baseNameClean];
+            const sounds = soundRelativePath ? [`${BASE_URL}${soundRelativePath}`] : [];
 
             return {
                 name: fullName,
@@ -370,9 +343,7 @@
                 async loadImage(selector) {
                     const el = document.getElementById(selector) || document.querySelector(`.${selector}`);
                     if (el) {
-                        // Stop large images from blocking the main thread during render
                         el.decoding = "async";
-                        // Tell the browser to prioritize this download over other background assets
                         el.fetchPriority = "high";
                         el.src = this.imageUrl;
                     }
@@ -412,14 +383,24 @@
                 
                 getStatistics() { return { name: this.name, rarity: this.rarity, costs: this.costs, description: this.description }; },
                 getSounds() { return this.sounds; },
+                
+                // UPDATED AUDIO PLAYER
                 async playSound(index = 0) {
                     if (!this.sounds || this.sounds.length === 0) return console.warn(`No sounds found for ${this.name}`);
                     try {
+                        // Pause any currently playing sound across the whole API
+                        if (currentPlayingAudio) {
+                            currentPlayingAudio.pause();
+                            currentPlayingAudio.currentTime = 0;
+                        }
+                        
                         const trackIndex = index < this.sounds.length ? index : 0; 
-                        const audio = new Audio(this.sounds[trackIndex]);
-                        audio.crossOrigin = "anonymous";
-                        await audio.play();
-                    } catch { console.warn(`Failed to play sound for ${this.name}`); }
+                        currentPlayingAudio = new Audio(this.sounds[trackIndex]);
+                        currentPlayingAudio.crossOrigin = "anonymous";
+                        await currentPlayingAudio.play();
+                    } catch (error) { 
+                        console.warn(`Failed to play sound for ${this.name}:`, error); 
+                    }
                 }
             };
         } catch (criticalError) {
@@ -444,7 +425,7 @@
           return {
               name: folderName,
               breedingTimes: mData["Breeding Times"] || { Standard: "Unknown", Enhanced: "Unknown" },
-              prismatics: mData["Prismatics"] || [], // New field
+              prismatics: mData["Prismatics"] || [],
               async getBreedingTime() { 
                   return this.breedingTimes; 
               }
@@ -486,14 +467,12 @@
       return Array.from(uniqueIslands).sort();
     }
 
-    // THE FIXED FETCH ISLAND FUNCTION
     async function fetchIsland(identifier) {
         await initDatabases();
         const dbIslands = dbCache['Islands'] || {};
         
         let searchTarget = identifier.toLowerCase().trim();
         
-        // Handle UI Dropdown Aliases
         if (searchTarget === 'haven') searchTarget = 'haven';
         if (searchTarget === 'oasis') searchTarget = 'oasis';
         if (searchTarget === 'sanctum') searchTarget = 'sanctum';
@@ -509,7 +488,6 @@
             for (const islandName of islandArray) {
                 const normalizedIsland = String(islandName).toLowerCase().trim();
                 
-                // Allow flexible matching (exact, appended "island", or matching the UI alias)
                 if (
                     normalizedIsland === searchTarget || 
                     normalizedIsland === searchTarget + " island" || 
@@ -641,5 +619,3 @@
   else global.MSM = MSM;
 
 })(this);
-
-// Thanks for using my API :)
