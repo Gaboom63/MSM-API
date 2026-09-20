@@ -101,8 +101,9 @@
   const cache = {}; 
   const fetchPromises = {};
   let dbCache = null;
-  let soundsIndexCache = null; // New cache for sounds index
+  let soundsIndexCache = null; 
   let soundsIndexCacheLower = null; 
+  let costumesIndexCache = null; // NEW COSTUME CACHE
 
   async function fetchWithCache(storageKey, url) {
       if (cache[storageKey]) {
@@ -169,16 +170,18 @@
 
   async function initDatabases() {
       await syncPromise;
-      if (dbCache && soundsIndexCache) return dbCache;
+      if (dbCache && soundsIndexCache && costumesIndexCache) return dbCache;
 
-      // Load both databases in parallel
-      const [dbData, soundsData] = await Promise.all([
+      // Load all three databases in parallel
+      const [dbData, soundsData, costumesData] = await Promise.all([
           fetchWithCache('master_db', MASTER_DB_URL),
-          fetchWithCache('sounds_index', `${BASE_URL}sounds_index.json`)
+          fetchWithCache('sounds_index', `${BASE_URL}sounds_index.json`),
+          fetchWithCache('costumes_index', `${BASE_URL}costumes_index.json`) // LOAD COSTUMES
       ]);
 
       dbCache = dbData || {};
       soundsIndexCache = soundsData || {};
+      costumesIndexCache = costumesData || {};
       
       // Build a lowercase index for resilient case-insensitive sound matching
       soundsIndexCacheLower = {};
@@ -304,11 +307,17 @@
                 };
             });
 
-            const rawCostumes = Array.isArray(dbCache['Costumes']?.[baseNameClean]?.[rarity]) ? dbCache['Costumes'][baseNameClean][rarity] : [];
-            const costumes = rawCostumes.map(c => `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/costumes/${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(c)}`);
+            // --- NEW COSTUME SYSTEM ---
+            // Filters the costumes JSON to find any costume name starting with "MonsterName ("
+            let costumes = [];
+            if (costumesIndexCache) {
+                const searchPrefix = `${fullName} (`.toLowerCase();
+                costumes = Object.entries(costumesIndexCache)
+                    .filter(([cName, _]) => cName.toLowerCase().startsWith(searchPrefix))
+                    .map(([_, cPath]) => `${BASE_URL}${cPath}`);
+            }
 
-            // NEW SOUND SYSTEM: Look up the relative path from the newly fetched sounds index
-
+            // --- NEW SOUND SYSTEM ---
             const lowerFullName = fullName.toLowerCase();
             const lowerBaseName = baseNameClean.toLowerCase();
 
@@ -333,7 +342,7 @@
                 inventory: mData["Celestial Inventory"] || mData["Wublin Inventory"] || null,
                 likes: mData.Likes || [],
                 costumes: costumes,
-                _costumeIndex: costumes.length,
+                _costumeIndex: costumes.length, // Resets loop
                 sounds: sounds,
                 breedingTimes: mData["Breeding Times"] || null,
                 
@@ -398,16 +407,13 @@
                 getStatistics() { return { name: this.name, rarity: this.rarity, costs: this.costs, description: this.description }; },
                 getSounds() { return this.sounds; },
                 
-                // UPDATED AUDIO PLAYER
                 async playSound(index = 0) {
                     if (!this.sounds || this.sounds.length === 0) return console.warn(`No sounds found for ${this.name}`);
                     try {
-                        // Pause any currently playing sound across the whole API
                         if (currentPlayingAudio) {
                             currentPlayingAudio.pause();
                             currentPlayingAudio.currentTime = 0;
                         }
-                        
                         const trackIndex = index < this.sounds.length ? index : 0; 
                         currentPlayingAudio = new Audio(this.sounds[trackIndex]);
                         currentPlayingAudio.crossOrigin = "anonymous";
