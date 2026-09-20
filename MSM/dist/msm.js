@@ -102,6 +102,7 @@
   const fetchPromises = {};
   let dbCache = null;
   let soundsIndexCache = null; // New cache for sounds index
+  let soundsIndexCacheLower = null; 
 
   async function fetchWithCache(storageKey, url) {
       if (cache[storageKey]) {
@@ -167,20 +168,26 @@
   }
 
   async function initDatabases() {
-    await syncPromise;
-    if (dbCache && soundsIndexCache) return dbCache;
+      await syncPromise;
+      if (dbCache && soundsIndexCache) return dbCache;
 
-    // Load both databases in parallel
-    const [dbData, soundsData] = await Promise.all([
-        fetchWithCache('master_db', MASTER_DB_URL),
-        fetchWithCache('sounds_index', `${BASE_URL}sounds_index.json`) // Loads from the base data directory
-    ]);
+      // Load both databases in parallel
+      const [dbData, soundsData] = await Promise.all([
+          fetchWithCache('master_db', MASTER_DB_URL),
+          fetchWithCache('sounds_index', `${BASE_URL}sounds_index.json`)
+      ]);
 
-    dbCache = dbData || {};
-    soundsIndexCache = soundsData || {};
-    
-    return dbCache;
-  }
+      dbCache = dbData || {};
+      soundsIndexCache = soundsData || {};
+      
+      // Build a lowercase index for resilient case-insensitive sound matching
+      soundsIndexCacheLower = {};
+      for (const [k, v] of Object.entries(soundsIndexCache)) {
+          soundsIndexCacheLower[k.toLowerCase()] = v;
+      }
+      
+      return dbCache;
+    }
 
   let breedingCache = null;
   let nameRegistry = {};
@@ -301,7 +308,14 @@
             const costumes = rawCostumes.map(c => `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/data/costumes/${rarity}/${encodeURIComponent(baseNameClean)}/${encodeURIComponent(c)}`);
 
             // NEW SOUND SYSTEM: Look up the relative path from the newly fetched sounds index
-            let soundRelativePath = soundsIndexCache[fullName] || soundsIndexCache[baseNameClean];
+
+            const lowerFullName = fullName.toLowerCase();
+            const lowerBaseName = baseNameClean.toLowerCase();
+
+            let soundRelativePath = soundsIndexCache[fullName] || 
+                                    soundsIndexCache[baseNameClean] ||
+                                    (soundsIndexCacheLower && (soundsIndexCacheLower[lowerFullName] || soundsIndexCacheLower[lowerBaseName]));
+                                    
             const sounds = soundRelativePath ? [`${BASE_URL}${soundRelativePath}`] : [];
 
             return {
