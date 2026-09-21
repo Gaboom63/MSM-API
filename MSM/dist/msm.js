@@ -294,7 +294,7 @@
             }) || "N/A";
 
             const finalImageUrl = `${IMAGE_BASE_URL}${encodeURIComponent(fullName)}.png`;
-            const eggName = fullName.replace(/\s*\((Major\vert{}Minor)\)/i, "").trim();
+            const eggName = fullName.replace(/\s*\((Major|Minor)\)/i, "").trim();
             const finalEggUrl = `https://cdn.jsdelivr.net/gh/Gaboom63/MSM-API@${COMMIT_HASH}/MSM/images/monster_eggs/${encodeURIComponent(eggName)}.png`;
 
             const elementImageDb = dbCache['Element Image Manifest'] || {};
@@ -307,13 +307,26 @@
                 };
             });
 
-            // --- NEW COSTUME SYSTEM ---
+           // --- NEW COSTUME SYSTEM ---
             // Filters the costumes JSON to find any costume name starting with "MonsterName ("
             let costumes = [];
             if (costumesIndexCache) {
-                const searchPrefix = `${fullName} (`.toLowerCase();
+                // Determine the correct prefix to search for. 
+                // We use 'eggName' because it cleanly strips out "(Major)" and "(Minor)" from pairinormals!
+                const searchPrefix = `${eggName} (`.toLowerCase();
+                
                 costumes = Object.entries(costumesIndexCache)
-                    .filter(([cName, _]) => cName.toLowerCase().startsWith(searchPrefix))
+                    .filter(([cName, _]) => {
+                        const lowerCName = cName.toLowerCase();
+                        // 1. Must start with the monster's exact name followed by a parenthesis
+                        if (!lowerCName.startsWith(searchPrefix)) return false;
+                        
+                        // 2. Filter out group/promo images that accidentally got scraped
+                        const excludeKeywords = ['all ', 'legacy', 'promo', 'contest', 'teaser', 'extract', 'menu'];
+                        if (excludeKeywords.some(kw => lowerCName.includes(kw))) return false;
+                        
+                        return true;
+                    })
                     .map(([_, cPath]) => `${BASE_URL}${cPath}`);
             }
 
