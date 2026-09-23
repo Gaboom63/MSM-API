@@ -1,0 +1,43 @@
+{
+  "Name": "Waxen La",
+  "Elements": [
+    "Dipster"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "air",
+    "water",
+    "earth",
+    "ethereal",
+    "haven",
+    "oasis",
+    "light",
+    "psychic",
+    "faerie",
+    "bone",
+    "Magical Sanctum",
+    "mirror plant",
+    "mirror cold",
+    "mirror air",
+    "mirror water",
+    "mirror earth",
+    "mirror light",
+    "mirror psychic",
+    "mirror faerie",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Waxen La",
+    "description": "Following the perplexing-but-pleasing reveal that Dipsters were Life-Formulated at the hands of a group of ambitious Titans, you might've expected the story to end there. But as is so often the case with the Monster World, there was more to discover. Harvherd, the keenest of the group to see their venture succeed, continued to study the scroll and later brought about a new race of Dipsters that exhibited undeniable connections to the Natural and Fire Islands. These so-called Elemental Dipsters were still able to thrive in a multitude of environments, but there's no denying that each subspecies looked unmistakeably at home on a particular Island!"
+  },
+  "Likes": [
+    "Queen Re",
+    "Kab's Wax",
+    "Ambered Thing",
+    "Innertuba"
+  ],
+  "Combinations to Breed": [
+    "Obtain via Dipster Digs Minigame"
+  ]
+}

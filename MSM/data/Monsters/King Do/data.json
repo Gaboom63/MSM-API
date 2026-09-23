@@ -1,0 +1,43 @@
+{
+  "Name": "King Do",
+  "Elements": [
+    "Dipster"
+  ],
+  "Islands": [
+    "plant",
+    "cold",
+    "air",
+    "water",
+    "earth",
+    "ethereal",
+    "haven",
+    "oasis",
+    "light",
+    "psychic",
+    "faerie",
+    "bone",
+    "Magical Sanctum",
+    "mirror plant",
+    "mirror cold",
+    "mirror air",
+    "mirror water",
+    "mirror earth",
+    "mirror light",
+    "mirror psychic",
+    "mirror faerie",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "King Do",
+    "description": "They would be absolutely mortified if anyone were to find out (especially after all their naysaying at the Titanic convention), but Hahoo the Stone Scribe had also undertaken a secret Dipster project following the original Tonal Monsters' formulation. Inspired by a set of famous figures from Monster World history, each member of this Royal rabble resonates with the epic sagas of the caliginous past. Hahoo even taught these Dipsters to arrange themselves in special little scacchic configurations - isn't it gratifying for everything to be so lawful and orderly? Hahoo thinks so."
+  },
+  "Likes": [
+    "Vitreous Ti",
+    "Boss Monument",
+    "Miniature Island Complex",
+    "PU System"
+  ],
+  "Combinations to Breed": [
+    "Obtain via Dipster Digs Minigame"
+  ]
+}
