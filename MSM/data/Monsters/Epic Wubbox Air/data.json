@@ -14,5 +14,27 @@
   "Costs": {
     "name": "Epic Wubbox Air",
     "diamond_cost": "1"
-  }
+  },
+  "Wubbox Inventory": {
+    "Inventory": {
+      "Epic Tweedle": 1,
+      "Epic Noggin": 1,
+      "Epic Toe Jammer": 1,
+      "Epic Mammott": 1,
+      "Epic Cybop": 1,
+      "Epic Quibble": 1,
+      "Epic Pango": 1,
+      "Epic Fwog": 1,
+      "Epic Drumpler": 1,
+      "Epic Maw": 1,
+      "Epic Scups": 1,
+      "Epic PomPom": 1,
+      "Epic Congle": 1,
+      "Epic T-Rox": 1,
+      "Epic Riff": 1
+    }
+  },
+  "Combinations to Breed": [
+    "Zap Eggs To Power Up!"
+  ]
 }

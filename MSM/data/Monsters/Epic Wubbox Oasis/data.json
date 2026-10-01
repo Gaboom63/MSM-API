@@ -13,5 +13,27 @@
   "Costs": {
     "name": "Epic Wubbox Oasis",
     "diamond_cost": "1"
-  }
+  },
+  "Wubbox Inventory": {
+    "Inventory": {
+      "Epic Tweedle": 1,
+      "Epic Toe Jammer": 1,
+      "Epic Mammott": 1,
+      "Epic Kayna": 1,
+      "Epic Quibble": 1,
+      "Epic Pango": 1,
+      "Epic Glowl": 1,
+      "Epic Maw": 1,
+      "Epic Phangler": 1,
+      "Epic Boskus": 1,
+      "Epic Congle": 1,
+      "Epic Whaddle": 1,
+      "Epic Woolabee": 1,
+      "Epic Wynq": 1,
+      "Epic Sneyser": 1
+    }
+  },
+  "Combinations to Breed": [
+    "Zap Eggs To Power Up!"
+  ]
 }

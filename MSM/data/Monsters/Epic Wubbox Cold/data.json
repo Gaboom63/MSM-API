@@ -14,5 +14,27 @@
   "Costs": {
     "name": "Epic Wubbox Cold",
     "diamond_cost": "1"
-  }
+  },
+   "Wubbox Inventory": {
+    "Inventory": {
+      "Epic Tweedle": 1,
+      "Epic Potbelly": 1,
+      "Epic Toe Jammer": 1,
+      "Epic Mammott": 1,
+      "Epic Dandidoo": 1,
+      "Epic Quibble": 1,
+      "Epic Pango": 1,
+      "Epic Oaktopus": 1,
+      "Epic Furcorn": 1,
+      "Epic Maw": 1,
+      "Epic Spunge": 1,
+      "Epic Thumpies": 1,
+      "Epic Congle": 1,
+      "Epic Bowgart": 1,
+      "Epic Deedge": 1
+    }
+  },
+  "Combinations to Breed": [
+    "Zap Eggs To Power Up!"
+  ]
 }

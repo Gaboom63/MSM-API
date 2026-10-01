@@ -13,5 +13,27 @@
   "Costs": {
     "name": "Epic Wubbox Ethereal",
     "diamond_cost": "1"
-  }
+  },
+  "Wubbox Inventory": {
+    "Inventory": {
+      "Epic Ghazt": 1,
+      "Epic Grumpyre": 1,
+      "Epic Reebro": 1,
+      "Epic Jeeode": 1,
+      "Epic Humbug": 1,
+      "Epic Whisp": 1,
+      "Epic Nebulob": 1,
+      "Epic Sox": 1,
+      "Epic Jellbilly": 1,
+      "Epic Arackuele": 1,
+      "Epic Boodoo": 1,
+      "Epic Kazilleon": 1,
+      "Epic Bellowfish": 1,
+      "Epic Dragong": 1,
+      "Epic Fung Pray": 1
+    }
+  },
+  "Combinations to Breed": [
+    "Zap Eggs To Power Up!"
+  ]
 }

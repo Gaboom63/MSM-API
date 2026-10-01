@@ -13,5 +13,27 @@
   "Costs": {
     "name": "Epic Wubbox Haven",
     "diamond_cost": "1"
-  }
+  },
+  "Wubbox Inventory": {
+    "Inventory": {
+      "Epic Tweedle": 1,
+      "Epic Potbelly": 1,
+      "Epic Noggin": 1,
+      "Epic Kayna": 1,
+      "Epic Dandidoo": 1,
+      "Epic Cybop": 1,
+      "Epic Glowl": 1,
+      "Epic Shrubb": 1,
+      "Epic Flowah": 1,
+      "Epic Stogg": 1,
+      "Epic Reedling": 1,
+      "Epic Barrb": 1,
+      "Epic Floogull": 1,
+      "Epic Repatillo": 1,
+      "Epic Tring": 1
+    }
+  },
+  "Combinations to Breed": [
+    "Zap Eggs To Power Up!"
+  ]
 }

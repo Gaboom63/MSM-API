@@ -581,8 +581,7 @@
     "Ziggurab": "Ziggurab",
     "Zuuker": "Zuuker",
     "Zynth": "Zynth",
-    "eRmA gUrDy": "eRmA gUrDy",
-    "shLep": "shLep"
+    "eRmA gUrDy": "eRmA gUrDy"
   },
   "Element Image Manifest": {
     "Celestial": "Celestial.png",
@@ -1888,8 +1887,8 @@
       "mirror cold"
     ],
     "Epic Wubbox Earth": [
-      "plant",
-      "mirror plant"
+      "earth",
+      "mirror earth"
     ],
     "Epic Wubbox Ethereal": [
       "ethereal"
@@ -1899,6 +1898,10 @@
     ],
     "Epic Wubbox Oasis": [
       "oasis"
+    ],
+    "Epic Wubbox Plant": [
+      "plant",
+      "mirror plant"
     ],
     "Epic Wubbox Water": [
       "water",
@@ -1963,7 +1966,7 @@
       "mirror bone"
     ],
     "Faesoddoid Fungus": [
-      "Unknown"
+      "Faerie"
     ],
     "Fandhul": [
       "shadow"
@@ -4176,9 +4179,6 @@
     ],
     "eRmA gUrDy": [
       "paironormal"
-    ],
-    "shLep": [
-      "mythical"
     ]
   }
 }

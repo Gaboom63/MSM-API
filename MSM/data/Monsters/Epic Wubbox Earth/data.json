@@ -14,5 +14,27 @@
   "Costs": {
     "name": "Epic Wubbox Earth",
     "diamond_cost": "1"
-  }
+  },
+   "Wubbox Inventory": {
+    "Inventory": {
+      "Epic Tweedle": 1,
+      "Epic Potbelly": 1,
+      "Epic Noggin": 1,
+      "Epic Mammott": 1,
+      "Epic Dandidoo": 1,
+      "Epic Cybop": 1,
+      "Epic Pango": 1,
+      "Epic Shrubb": 1,
+      "Epic Furcorn": 1,
+      "Epic Drumpler": 1,
+      "Epic Reedling": 1,
+      "Epic Thumpies": 1,
+      "Epic PomPom": 1,
+      "Epic Clamble": 1,
+      "Epic Quarrister": 1
+    }
+  },
+  "Combinations to Breed": [
+    "Zap Eggs To Power Up!"
+  ]
 }

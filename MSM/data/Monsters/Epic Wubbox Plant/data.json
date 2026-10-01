@@ -1,5 +1,5 @@
 {
-  "Name": "Epic Wubbox Earth",
+  "Name": "Epic Wubbox Plant",
   "Elements": [
     "Electricity"
   ],
@@ -14,5 +14,27 @@
   "Costs": {
     "name": "Epic Wubbox Plant",
     "diamond_cost": "1"
-  }
+  },
+  "Wubbox Inventory": {
+    "Inventory": {
+      "Epic Potbelly": 1,
+      "Epic Noggin": 1,
+      "Epic Toe Jammer": 1,
+      "Epic Mammott": 1,
+      "Epic Shrubb": 1,
+      "Epic Oaktopus": 1,
+      "Epic Furcorn": 1,
+      "Epic Fwog": 1,
+      "Epic Drumpler": 1,
+      "Epic Maw": 1,
+      "Epic Pummel": 1,
+      "Epic Clamble": 1,
+      "Epic Bowgart": 1,
+      "Epic T-Rox": 1,
+      "Epic Entbrat": 1
+    }
+  },
+  "Combinations to Breed": [
+    "Zap Eggs To Power Up!"
+  ]
 }
