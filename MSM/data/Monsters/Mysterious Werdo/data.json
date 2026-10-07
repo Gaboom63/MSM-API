@@ -1,0 +1,32 @@
+{
+  "Name": "Mysterious Werdo",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "psychic",
+    "mirror psychic"
+  ],
+  "Description": {
+    "name": "Mysterious Werdo",
+    "description": "Wielding the title of the Multiverse Monarch, the 'Mysterious Werdo' seems to be the progeny of multiple worlds rather than the conjunction of a mere two. The ability to take flight with butterfly-like wings is a talent not often observed in Werdos; the Legendary Monster will assert that it's because it's actually a clone of an extratorustial entity, waiting for fate to play out as designed. Relishing any chance to perform, the 'Mysterious Werdo' is drawn to crafting lyrics about intense subject matter at the cosmic scale, unafraid to tackle topics that range from mind-boggling to macabre. It enjoys the devotion of a group of followers called Scufflings, who admire the Werdo's creativity, sense of humor and profoundly emotive performance style."
+  },
+  "Costs": {
+    "name": "Mysterious Werdo",
+    "relic_cost": "100"
+  },
+  "Breeding Times": {
+    "Enhanced": "6h",
+    "Enhanced_Skin": "5h 12m",
+    "Standard": "8h",
+    "Standard_Skin": "7h 12m"
+  },
+  "Likes": [
+    "Odd-o-Mobile",
+    "Miniature Island Complex",
+    "Unknown"
+  ],
+  "Combinations to Breed": [
+    "Buy Mysterious Werdo From The Market."
+  ]
+}

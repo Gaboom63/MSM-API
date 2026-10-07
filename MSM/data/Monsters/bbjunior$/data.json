@@ -1,0 +1,29 @@
+{
+  "Name": "Bbjunior$",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "bbli$zard island"
+  ],
+  "Description": {
+    "name": "Bbjunior$",
+    "description": "Since everyone in the bb$quad are technically Mon-drakes, it's possible that the bbjunior$ share the Seasonal Carillong's ability to remain in perpetual youth. Enamored of more simplistic 'Nursery' rhymes at this stage, the inseperable pair has already adopted the habit of wearing the genius genus's exotic trousers. When you have so many older siblings around busting a move, it's hard not to pick up some of the choreography yourselves!"
+  },
+  "Costs": {
+    "name": "Bbjunior$",
+    "cold_diamond_cost": "700"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Standard": "1d 11h"
+  },
+  "Likes": [
+    "bb$enior",
+    "Tree Hut",
+    "Sweetsteamz Tree"
+  ],
+  "Combinations to Breed": [
+    "Bbli$zard + Tweedle"
+  ]
+}
