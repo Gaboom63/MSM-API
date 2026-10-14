@@ -144,6 +144,7 @@
     "Epic Knucklehead": "Epic Knucklehead",
     "Epic Knurv": "Epic Knurv",
     "Epic Krillby": "Epic Krillby",
+    "Epic Larvaluss": "Epic Larvaluss",
     "Epic Mammott": "Epic Mammott",
     "Epic Maw": "Epic Maw",
     "Epic Mimic": "Epic Mimic",
@@ -1527,6 +1528,9 @@
       "faerie",
       "amber",
       "mirror faerie"
+    ],
+    "Epic Larvaluss": [
+      "sanctum"
     ],
     "Epic Mammott": [
       "plant",

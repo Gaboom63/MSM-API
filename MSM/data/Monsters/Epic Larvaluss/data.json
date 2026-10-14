@@ -1,0 +1,34 @@
+{
+  "Name": "Epic Larvaluss",
+  "Elements": [
+    "Psychic",
+    "Bone",
+    "Faerie"
+  ],
+  "Islands": [
+    "sanctum"
+  ],
+  "Description": {
+    "name": "Epic Larvaluss",
+    "description": "The curiously self-conscious Epic Larvaluss is a big believer in words of affirmation, flashing a toothy grin from ear to ear... or maybe, nostril to nostril? Ever seeking adulation, this Epic Magical will ask you more than once if you find its colorful and chromatic expressions enticing, or its ossified radula enthralling. The Epic Larvaluss's crystalline dorsal digit plucks at kaleidoscopic hairs fanning out from their nasal home. Like rays of light refracting after a storm, or perhaps a sneeze, these rainbow-colored flagella are unexpectedly beautiful. For nose hairs. 'What's that, Epic Larvaluss? Why yes, your smile is lovely as well... if a bit unsettling.'"
+  },
+  "Costs": {
+    "name": "Epic Larvaluss",
+    "diamond_cost": "1200"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 9h 16m 30s",
+    "Enhanced_Skin": "1d 4h 50m 18s",
+    "Standard": "1d 20h 22m",
+    "Standard_Skin": "1d 15h 55m 48s"
+  },
+  "Likes": [
+    "Larvaluss",
+    "Toob",
+    "Elmenco Stump",
+    "Kab's Wax"
+  ],
+  "Combinations to Breed": [
+    "Mushaboom + Deja-Jin"
+  ]
+}
