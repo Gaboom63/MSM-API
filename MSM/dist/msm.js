@@ -105,7 +105,7 @@
   let soundsIndexCacheLower = null; 
   let costumesIndexCache = null; // NEW COSTUME CACHE
 
-  async function fetchWithCache(storageKey, url) {
+    async function fetchWithCache(storageKey, url) {
       if (cache[storageKey]) {
           return cache[storageKey];
       }
@@ -143,7 +143,10 @@
                   cache: LOCAL_MODE ? 'no-store' : 'default'
               });
 
-              if (!res.ok) {}
+              if (!res.ok) {
+                  console.warn(`⚠️ Fetch failed (${res.status}) for URL: ${fetchUrl}`);
+                  return null; 
+              }
 
               const data = await res.json();
               cache[storageKey] = data;
@@ -157,7 +160,7 @@
               return data;
 
           } catch (e) {
-              console.error(e);
+              console.error(`❌ Error parsing JSON from ${url}:`, e);
               return null;
           } finally {
               delete fetchPromises[storageKey];

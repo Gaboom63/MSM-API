@@ -948,10 +948,6 @@
     "Shugabeats",
     "Epic Potbelly"
   ],
-  "Shugabush + Deedge": [
-    "Shugavox",
-    "Epic Furcorn"
-  ],
   "Deedge + Dandidoo": [
     "Epic Tweedle"
   ],
@@ -1650,7 +1646,9 @@
     "Deedge"
   ],
   "Shugabush + Deedge": [
-    "Deedge"
+    "Deedge",
+    "Shugavox",
+    "Epic Furcorn"
   ],
   "Cybop + Maw": [
     "Riff"
