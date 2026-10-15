@@ -18,6 +18,7 @@
   const storedHash = store.get('msm_api_hash');
   let COMMIT_HASH = SHA_RE.test(storedHash || '') ? storedHash : 'main';
   let CDN_REF = COMMIT_HASH; // what goes into jsDelivr URLs: the commit hash, or 'main' if that commit isn't being served
+  let useRawHost = false; // set (for this page view) when jsDelivr misbehaves; raw.githubusercontent.com is the fallback host
   let ROOT_URL, BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, MASTER_DB_URL, MONSTERS_URL, DOF_MONSTERS_URL, NEWS_IMAGES_URL, NEWS_IMAGES_INDEX_URL;
 
   // Track the currently playing audio across the entire API to prevent overlap
@@ -38,7 +39,9 @@
       NEWS_IMAGES_URL = `/MSM-API/MSM/images/sales/`;
       NEWS_IMAGES_INDEX_URL = `/MSM-API/MSM/images/sales/index.json`;
     } else {
-      const cdn = `https://cdn.jsdelivr.net/gh/${REPO}@${CDN_REF}/`;
+      const cdn = useRawHost
+        ? `https://raw.githubusercontent.com/${REPO}/${CDN_REF}/`
+        : `https://cdn.jsdelivr.net/gh/${REPO}@${CDN_REF}/`;
       ROOT_URL = `${cdn}MSM/`;
       BASE_URL = `${ROOT_URL}data/`;
       MASTER_DB_URL = `${BASE_URL}master_database.json`;
@@ -161,6 +164,8 @@
   // Plain-object caches without a prototype so keys like "constructor" can't collide.
   const cache = Object.create(null);
   const fetchPromises = Object.create(null);
+  const RETRY_COOLDOWN_MS = 15000;
+  const failedUntil = Object.create(null); // storageKey -> time before which a failed download is not retried
   const missing = new Set(); // per-monster data files that returned 404 this session (avoids refetching)
   let dbCache = null;
   let soundsIndexCache = null;
@@ -172,10 +177,32 @@
   updateUrls();
   const syncPromise = syncToLatestCommit().catch(() => {});
 
+  const isJsdelivr = url => /^https:\/\/cdn\.jsdelivr\.net\/gh\//.test(url);
+  const toRawUrl = url => url.replace(/^https:\/\/cdn\.jsdelivr\.net\/gh\/([^@/]+\/[^@/]+)@([^/]+)\//, 'https://raw.githubusercontent.com/$1/$2/');
+
+  // GET a JSON file. If jsDelivr fails (5xx, or a network/CORS error from its error page), retry once on
+  // raw.githubusercontent.com and keep using that host for the rest of this page view.
+  async function fetchJsonWithFallback(url) {
+    const attempt = u => fetch(u, { credentials: 'omit', cache: LOCAL_MODE ? 'no-store' : 'default' });
+    const canFallBack = !LOCAL_MODE && isJsdelivr(url);
+    let res = null;
+    try {
+      res = await attempt(url);
+      if (res.status < 500 || !canFallBack) return res;
+    } catch (e) {
+      if (!canFallBack) throw e;
+    }
+    console.warn(`jsDelivr failed for ${url} - switching to raw.githubusercontent.com`);
+    useRawHost = true;
+    updateUrls();
+    return attempt(toRawUrl(url));
+  }
+
   async function fetchWithCache(storageKey, url) {
     if (storageKey in cache) return cache[storageKey];
     if (fetchPromises[storageKey]) return fetchPromises[storageKey];
     if (missing.has(storageKey)) return null;
+    if (failedUntil[storageKey] > Date.now()) return null; // recently failed: don't hammer the CDN
 
     // Never persist under the "main" placeholder: it has no version, so it could go stale forever.
     const persist = !LOCAL_MODE && COMMIT_HASH !== 'main' && CDN_REF === COMMIT_HASH;
@@ -203,13 +230,11 @@
           fetchUrl = `${url}${separator}dev=${Date.now()}`;
         }
 
-        const res = await fetch(fetchUrl, {
-          credentials: 'omit',
-          cache: LOCAL_MODE ? 'no-store' : 'default'
-        });
+        const res = await fetchJsonWithFallback(fetchUrl);
 
         if (!res.ok) {
           if (res.status === 404 && /^(dof_)?monster_data_/.test(storageKey)) missing.add(storageKey);
+          else failedUntil[storageKey] = Date.now() + RETRY_COOLDOWN_MS;
           console.warn(`⚠️ Fetch failed (${res.status}) for URL: ${fetchUrl}`);
           return null;
         }
@@ -220,6 +245,7 @@
         return data;
       } catch (e) {
         console.error(`❌ Error loading JSON from ${url}:`, e);
+        failedUntil[storageKey] = Date.now() + RETRY_COOLDOWN_MS;
         return null;
       } finally {
         delete fetchPromises[storageKey];
@@ -532,17 +558,63 @@
     }
   }
 
-  // Fast path for <img> tags: builds the image URL without downloading monster data.json or the big
-  // databases. Casing is corrected against the Image Manifest only if it is already loaded, so pass
-  // the exact monster name (e.g. from your registry) when you can.
-  async function getImageUrl(rawName) {
-    if (typeof rawName !== 'string' || !rawName.trim()) return null;
+  const imageUrlCache = new Map();
+
+  const tryLoadImage = url => new Promise(resolve => {
+    const img = new Image();
+    img.onload = () => resolve(url);
+    img.onerror = () => resolve(null);
+    img.src = url;
+  });
+
+  // Loads `primary`. If it errors, or is still not loaded after 3s, also tries `alt` and uses whichever
+  // loads first (never slower than the better of the two). Returns `primary` if neither loads.
+  async function pickWorkingImageUrl(primary, alt) {
+    const first = tryLoadImage(primary);
+    const early = await Promise.race([first, new Promise(r => setTimeout(() => r('slow'), 3000))]);
+    if (early && early !== 'slow') return early;
+
+    const second = tryLoadImage(alt);
+    const winner = await new Promise(resolve => {
+      let left = early === 'slow' ? 2 : 1; // primary may still be in flight
+      const settle = u => { if (u) resolve(u); else if (--left === 0) resolve(null); };
+      if (early === 'slow') first.then(settle);
+      second.then(settle);
+    });
+    return winner || primary;
+  }
+
+  async function buildImageUrl(rawName) {
     await syncPromise;
     const typed = rawName.trim();
     const variantMatch = typed.match(VARIANT_RE);
     const variant = variantMatch ? ` (${variantMatch[1][0].toUpperCase()}${variantMatch[1].slice(1).toLowerCase()})` : "";
     const base = variantMatch ? typed.slice(0, variantMatch.index).trim() : typed;
     return `${IMAGE_BASE_URL}${encodeURIComponent((findManifestKey(base) || base) + variant)}.png`;
+  }
+
+  // Fast path for <img> tags: no monster data.json or big databases needed. By default it also checks the
+  // image really loads (falling back to raw.githubusercontent.com if jsDelivr errors or stalls); the browser
+  // keeps the downloaded image, so assigning the returned URL to an <img> afterwards is instant.
+  // Pass { verify: false } to just get the URL (e.g. for background preloading).
+  // Casing is corrected via the Image Manifest only if it is already loaded, so pass the exact name.
+  function getImageUrl(rawName, opts) {
+    if (typeof rawName !== 'string' || !rawName.trim()) return Promise.resolve(null);
+    if (opts && opts.verify === false) return buildImageUrl(rawName);
+
+    const key = rawName.trim().toLowerCase();
+    let p = imageUrlCache.get(key);
+    if (!p) {
+      p = (async () => {
+        const primary = await buildImageUrl(rawName);
+        if (LOCAL_MODE || typeof Image === 'undefined' || !isJsdelivr(primary)) return primary;
+        const chosen = await pickWorkingImageUrl(primary, toRawUrl(primary));
+        if (chosen !== primary) { useRawHost = true; updateUrls(); } // jsDelivr is struggling: use the fallback host from now on
+        return chosen;
+      })();
+      imageUrlCache.set(key, p);
+    }
+    return p;
   }
 
   async function getDofMonster(rawName) {
