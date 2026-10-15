@@ -101,26 +101,34 @@
       return;
     }
 
-    try {
-      const res = await fetch(`https://api.github.com/repos/${REPO}/commits/main`, { credentials: 'omit' });
-      if (!res.ok) throw new Error(`GitHub API responded ${res.status}`);
-      const data = await res.json();
-      if (!data || !SHA_RE.test(data.sha || '')) throw new Error('Unexpected GitHub API response');
+    const check = (async () => {
+      try {
+        const res = await fetch(`https://api.github.com/repos/${REPO}/commits/main`, { credentials: 'omit' });
+        if (!res.ok) throw new Error(`GitHub API responded ${res.status}`);
+        const data = await res.json();
+        if (!data || !SHA_RE.test(data.sha || '')) throw new Error('Unexpected GitHub API response');
 
-      if (COMMIT_HASH !== data.sha) {
-        const oldHash = COMMIT_HASH;
-        COMMIT_HASH = data.sha;
-        store.set('msm_api_hash', COMMIT_HASH);
-        console.log(`MSM API Update detected! Switched from ${oldHash.substring(0, 7)} to ${COMMIT_HASH.substring(0, 7)}`);
+        store.set('msm_hash_last_check', String(now));
+        if (COMMIT_HASH !== data.sha) {
+          store.set('msm_api_hash', data.sha);
+          if (!hashKnown) { // first visit: we have to wait for this, so apply it right away
+            COMMIT_HASH = data.sha;
+            console.log(`MSM API using commit ${COMMIT_HASH.substring(0, 7)}`);
+          } else {
+            console.log(`MSM API update found (${data.sha.substring(0, 7)}), it will be used on the next load.`);
+          }
+        }
+      } catch (err) {
+        store.set('msm_hash_last_fail', String(now));
+        console.warn("GitHub API Sync failed, using cached hash.", err && err.message ? err.message : "");
       }
-      store.set('msm_hash_last_check', String(now));
-    } catch (err) {
-      store.set('msm_hash_last_fail', String(now));
-      console.warn("GitHub API Sync failed, using cached hash.", err && err.message ? err.message : "");
-    } finally {
-      updateUrls();
-      pruneStaleCache();
-    }
+    })();
+
+    // We already have a usable stored hash: don't make every request wait on api.github.com.
+    // The refreshed hash is picked up on the next page load.
+    if (!hashKnown) await check;
+    updateUrls();
+    pruneStaleCache();
   }
 
   // Plain-object caches without a prototype so keys like "constructor" can't collide.
@@ -497,6 +505,19 @@
     }
   }
 
+  // Fast path for <img> tags: builds the image URL without downloading monster data.json or the big
+  // databases. Casing is corrected against the Image Manifest only if it is already loaded, so pass
+  // the exact monster name (e.g. from your registry) when you can.
+  async function getImageUrl(rawName) {
+    if (typeof rawName !== 'string' || !rawName.trim()) return null;
+    await syncPromise;
+    const typed = rawName.trim();
+    const variantMatch = typed.match(VARIANT_RE);
+    const variant = variantMatch ? ` (${variantMatch[1][0].toUpperCase()}${variantMatch[1].slice(1).toLowerCase()})` : "";
+    const base = variantMatch ? typed.slice(0, variantMatch.index).trim() : typed;
+    return `${IMAGE_BASE_URL}${encodeURIComponent((findManifestKey(base) || base) + variant)}.png`;
+  }
+
   async function getDofMonster(rawName) {
     if (typeof rawName !== 'string' || !rawName.trim()) return null;
     try {
@@ -658,6 +679,7 @@
       if (key === "getDofBaseUrl") return () => DOF_MONSTERS_URL;
       if (key === "twoMonsterCombo") return calculateBreeding;
       if (key === "getIslandImg") return getIslandImg;
+      if (key === "getImageUrl") return getImageUrl;
       if (key === "fetchIsland" || key === "island") return fetchIsland;
       if (key === "fetchIslands" || key === "islands") return fetchIslands;
       if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
