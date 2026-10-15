@@ -17,6 +17,7 @@
 
   const storedHash = store.get('msm_api_hash');
   let COMMIT_HASH = SHA_RE.test(storedHash || '') ? storedHash : 'main';
+  let CDN_REF = COMMIT_HASH; // what goes into jsDelivr URLs: the commit hash, or 'main' if that commit isn't being served
   let ROOT_URL, BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, MASTER_DB_URL, MONSTERS_URL, DOF_MONSTERS_URL, NEWS_IMAGES_URL, NEWS_IMAGES_INDEX_URL;
 
   // Track the currently playing audio across the entire API to prevent overlap
@@ -37,7 +38,7 @@
       NEWS_IMAGES_URL = `/MSM-API/MSM/images/sales/`;
       NEWS_IMAGES_INDEX_URL = `/MSM-API/MSM/images/sales/index.json`;
     } else {
-      const cdn = `https://cdn.jsdelivr.net/gh/${REPO}@${COMMIT_HASH}/`;
+      const cdn = `https://cdn.jsdelivr.net/gh/${REPO}@${CDN_REF}/`;
       ROOT_URL = `${cdn}MSM/`;
       BASE_URL = `${ROOT_URL}data/`;
       MASTER_DB_URL = `${BASE_URL}master_database.json`;
@@ -82,6 +83,29 @@
     });
   }
 
+  // jsDelivr can answer 503 (with no CORS headers) for a commit it hasn't picked up yet, which makes every
+  // JSON file and image under that hash fail. Before trusting a hash, check once per 10 minutes that it is
+  // really being served; if not, use @main for this visit.
+  async function verifyRef() {
+    if (LOCAL_MODE || CDN_REF === 'main') return;
+    const [okRef, okTime] = (store.get('msm_ref_ok') || '').split('|');
+    if (okRef === CDN_REF && Date.now() - Number(okTime) < CHECK_INTERVAL_MS) return;
+
+    let ok = false;
+    const ctrl = typeof AbortController !== 'undefined' ? new AbortController() : null;
+    const timer = ctrl ? setTimeout(() => ctrl.abort(), 6000) : null;
+    try {
+      const res = await fetch(MASTER_DB_URL, { method: 'HEAD', credentials: 'omit', signal: ctrl ? ctrl.signal : undefined });
+      ok = res.ok;
+    } catch (e) { ok = false; }
+    if (timer) clearTimeout(timer);
+
+    if (ok) { store.set('msm_ref_ok', `${CDN_REF}|${Date.now()}`); return; }
+    console.warn(`jsDelivr is not serving commit ${CDN_REF.substring(0, 7)} yet - using @main for this visit.`);
+    CDN_REF = 'main';
+    updateUrls();
+  }
+
   async function syncToLatestCommit() {
     if (LOCAL_MODE) {
       updateUrls();
@@ -97,6 +121,7 @@
     // (persisted across tabs/sessions) and back off after a failure instead of retrying every load.
     if ((hashKnown && now - lastCheck < CHECK_INTERVAL_MS) || now - lastFail < RETRY_INTERVAL_MS) {
       updateUrls();
+      await verifyRef();
       pruneStaleCache();
       return;
     }
@@ -113,6 +138,7 @@
           store.set('msm_api_hash', data.sha);
           if (!hashKnown) { // first visit: we have to wait for this, so apply it right away
             COMMIT_HASH = data.sha;
+            CDN_REF = COMMIT_HASH;
             console.log(`MSM API using commit ${COMMIT_HASH.substring(0, 7)}`);
           } else {
             console.log(`MSM API update found (${data.sha.substring(0, 7)}), it will be used on the next load.`);
@@ -128,6 +154,7 @@
     // The refreshed hash is picked up on the next page load.
     if (!hashKnown) await check;
     updateUrls();
+    await verifyRef();
     pruneStaleCache();
   }
 
@@ -151,7 +178,7 @@
     if (missing.has(storageKey)) return null;
 
     // Never persist under the "main" placeholder: it has no version, so it could go stale forever.
-    const persist = !LOCAL_MODE && COMMIT_HASH !== 'main';
+    const persist = !LOCAL_MODE && COMMIT_HASH !== 'main' && CDN_REF === COMMIT_HASH;
     const versionedKey = `msm_${COMMIT_HASH}_${storageKey}`;
 
     if (persist) {
