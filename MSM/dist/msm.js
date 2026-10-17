@@ -19,10 +19,12 @@
   let COMMIT_HASH = SHA_RE.test(storedHash || '') ? storedHash : 'main';
   let CDN_REF = COMMIT_HASH; // what goes into jsDelivr URLs: the commit hash, or 'main' if that commit isn't being served
   let useRawHost = false; // set (for this page view) when jsDelivr misbehaves; raw.githubusercontent.com is the fallback host
-  let ROOT_URL, BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, MASTER_DB_URL, MONSTERS_URL, DOF_MONSTERS_URL, NEWS_IMAGES_URL, NEWS_IMAGES_INDEX_URL;
+  let ROOT_URL, BASE_URL, IMAGE_BASE_URL, SOUND_BASE_URL, ELEMENTS_URL, BREEDING_FILE_PATH, MASTER_DB_URL, MONSTERS_URL, DOF_MONSTERS_URL, NEWS_IMAGES_URL, NEWS_IMAGES_INDEX_URL, MONSTER_REGISTRY_URL;
 
   // Track the currently playing audio across the entire API to prevent overlap
   let currentPlayingAudio = null;
+
+  let monsterRegistryCache = null;
 
   function updateUrls() {
     if (LOCAL_MODE) {
@@ -38,6 +40,8 @@
       BREEDING_FILE_PATH = `/MSM-API/MSM/data/breedingCombos.json`;
       NEWS_IMAGES_URL = `/MSM-API/MSM/images/sales/`;
       NEWS_IMAGES_INDEX_URL = `/MSM-API/MSM/images/sales/index.json`;
+      MONSTER_REGISTRY_URL = `/MSM-API/MSM/data/monster_index.json`;
+
     } else {
       const cdn = useRawHost
         ? `https://raw.githubusercontent.com/${REPO}/${CDN_REF}/`
@@ -53,6 +57,7 @@
       BREEDING_FILE_PATH = `${BASE_URL}breedingCombos.json`;
       NEWS_IMAGES_URL = `${ROOT_URL}images/sales/`;
       NEWS_IMAGES_INDEX_URL = `${NEWS_IMAGES_URL}index.json`;
+      MONSTER_REGISTRY_URL = `${BASE_URL}monster_index.json`;
     }
   }
 
@@ -663,6 +668,27 @@
     return matches.map(path => `${ROOT_URL}${encodeURI(path)}`);
   }
 
+  async function fetchMonsterRegistry() {
+    await syncPromise;
+
+    if (monsterRegistryCache !== null) {
+      return monsterRegistryCache;
+    }
+
+    const registry = await fetchWithCache(
+      'monster_registry',
+      MONSTER_REGISTRY_URL
+    );
+
+    if (registry === null) {
+      throw new Error('Failed to fetch the monster registry.');
+    }
+
+    monsterRegistryCache = registry;
+    return monsterRegistryCache;
+  }
+
+
   async function fetchIslands() {
     await initDatabases();
     const dbIslands = dbCache['Islands'] || {};
@@ -784,6 +810,8 @@
       if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
       if (["getdofmonster", "dofmonster"].includes(key.toLowerCase())) return getDofMonster;
       if (key === "fetchNewsImages" || key === "newsImages") return fetchNewsImages;
+      if (key === "fetchMonsterRegistry" || key === "monsterRegistry")
+        return fetchMonsterRegistry;
       if (key === "help") {
         return () => {
           console.log(`
