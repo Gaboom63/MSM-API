@@ -703,6 +703,20 @@
     return Array.from(uniqueIslands).sort();
   }
 
+  async function fetchIslandManifest() {
+    await initDatabases();
+    const manifest = dbCache['Island Manifest'] || {};
+    return Object.keys(manifest)
+      .sort()
+      .filter(key => Array.isArray(manifest[key]) && manifest[key].length)
+      .map(key => {
+        const files = manifest[key];
+        const name = files[0].split('/').pop().replace(/\.png$/i, '').split('(')[0].trim();
+        return { key, name, images: files.map(path => `${ROOT_URL}${encodeURI(path)}`) };
+      });
+  }
+
+
   async function fetchIsland(identifier) {
     if (typeof identifier !== 'string' || !identifier.trim()) {
       return { error: "Please provide an island name, e.g. MSM.fetchIsland(\"Plant\")." };
@@ -810,6 +824,7 @@
       if (["get", "monster"].includes(key.toLowerCase())) return getMonster;
       if (["getdofmonster", "dofmonster"].includes(key.toLowerCase())) return getDofMonster;
       if (key === "fetchNewsImages" || key === "newsImages") return fetchNewsImages;
+      if (key === "fetchIslandManifest" || key === "islandManifest") return fetchIslandManifest;
       if (key === "fetchMonsterRegistry" || key === "monsterRegistry")
         return fetchMonsterRegistry;
       if (key === "help") {
