@@ -25,6 +25,7 @@
     "Bb$inistr": "Bb$inistr",
     "Bb$kinbash": "Bb$kinbash",
     "Bbdek$tr": "Bbdek$tr",
+    "Bbjunior$": "Bbjunior$",
     "Bbli$zard": "Bbli$zard",
     "BeMeebEth": "BeMeebEth",
     "Bellowfish": "Bellowfish",
@@ -584,7 +585,6 @@
     "Ziggurab": "Ziggurab",
     "Zuuker": "Zuuker",
     "Zynth": "Zynth",
-    "bbjunior$": "bbjunior$",
     "eRmA gUrDy": "eRmA gUrDy"
   },
   "Element Image Manifest": {
@@ -637,167 +637,137 @@
   },
   "Island Manifest": {
     "air_island": [
+      "images/islands/Air Island.png",
       "images/islands/Air Island (Gigacheep Nest Skin).png",
       "images/islands/Air Island (Season of Love Skin).png"
     ],
-    "air_island.png": [
-      "images/islands/Air Island.png"
-    ],
     "amber_island": [
+      "images/islands/Amber Island.png",
       "images/islands/Amber Island (Echoes of Eco Skin).png"
     ],
-    "amber_island.png": [
-      "images/islands/Amber Island.png"
-    ],
-    "bblizard_island.png": [
+    "bblizard_island": [
       "images/islands/Bblizard Island.png"
     ],
     "bone_island": [
+      "images/islands/Bone Island.png",
       "images/islands/Bone Island (Beat Hereafter Skin).png"
     ],
-    "bone_island.png": [
-      "images/islands/Bone Island.png"
-    ],
-    "celestial_island.png": [
+    "celestial_island": [
       "images/islands/Celestial Island.png"
     ],
     "cold_island": [
+      "images/islands/Cold Island.png",
       "images/islands/Cold Island (Festival of Yay Skin).png",
       "images/islands/Cold Island (Sweti Settlement Skin).png"
     ],
-    "cold_island.png": [
-      "images/islands/Cold Island.png"
-    ],
-    "colossingum.png": [
+    "colossingum": [
       "images/islands/Colossingum.png"
     ],
-    "composer_island.png": [
+    "composer_island": [
       "images/islands/Composer Island.png"
     ],
-    "crystal_islet_island.png": [
+    "crystal_islet_island": [
       "images/islands/Crystal Islet Island.png"
     ],
     "earth_island": [
+      "images/islands/Earth Island.png",
       "images/islands/Earth Island (SummerSong Skin).png",
       "images/islands/Earth Island (Temple of Hahoo Skin).png"
     ],
-    "earth_island.png": [
-      "images/islands/Earth Island.png"
-    ],
     "ethereal_island": [
+      "images/islands/Ethereal Island.png",
       "images/islands/Ethereal Island (Life-Formula Skin).png"
     ],
-    "ethereal_island.png": [
-      "images/islands/Ethereal Island.png"
-    ],
-    "ethereal_workshop_island.png": [
+    "ethereal_workshop_island": [
       "images/islands/Ethereal Workshop Island.png"
     ],
     "faerie_island": [
+      "images/islands/Faerie Island.png",
       "images/islands/Faerie Island (Cloverspell Skin).png"
     ],
-    "faerie_island.png": [
-      "images/islands/Faerie Island.png"
-    ],
-    "fire_haven": [
+    "fire_haven_island": [
+      "images/islands/Fire Haven Island.png",
       "images/islands/Fire Haven (Feast-Ember Skin).png"
     ],
-    "fire_haven_island.png": [
-      "images/islands/Fire Haven Island.png"
-    ],
-    "fire_oasis": [
+    "fire_oasis_island": [
+      "images/islands/Fire Oasis Island.png",
       "images/islands/Fire Oasis (Perplexplore Skin).png"
     ],
-    "fire_oasis_island.png": [
-      "images/islands/Fire Oasis Island.png"
-    ],
     "gold_island": [
+      "images/islands/Gold Island.png",
       "images/islands/Gold Island (Anniversary Month Skin).png"
     ],
-    "gold_island.png": [
-      "images/islands/Gold Island.png"
-    ],
     "light_island": [
+      "images/islands/Light Island.png",
       "images/islands/Light Island (SkyPainting Skin).png"
     ],
-    "light_island.png": [
-      "images/islands/Light Island.png"
-    ],
-    "magical_nexus.png": [
+    "magical_nexus": [
       "images/islands/Magical Nexus.png"
     ],
-    "magical_sanctum": [
+    "magical_sanctum_island": [
+      "images/islands/Magical Sanctum Island.png",
       "images/islands/Magical Sanctum (Crescendo Moon Skin).png"
     ],
-    "magical_sanctum_island.png": [
-      "images/islands/Magical Sanctum Island.png"
-    ],
-    "mech_islet_island.png": [
+    "mech_islet_island": [
       "images/islands/Mech Islet Island.png"
     ],
-    "mirror_air_island.png": [
+    "mirror_air_island": [
       "images/islands/Mirror Air Island.png"
     ],
-    "mirror_bone_island.png": [
+    "mirror_bone_island": [
       "images/islands/Mirror Bone Island.png"
     ],
-    "mirror_cold_island.png": [
+    "mirror_cold_island": [
       "images/islands/Mirror Cold Island.png"
     ],
-    "mirror_earth_island.png": [
+    "mirror_earth_island": [
       "images/islands/Mirror Earth Island.png"
     ],
-    "mirror_faerie_island.png": [
+    "mirror_faerie_island": [
       "images/islands/Mirror Faerie Island.png"
     ],
-    "mirror_light_island.png": [
+    "mirror_light_island": [
       "images/islands/Mirror Light Island.png"
     ],
-    "mirror_plant_island.png": [
+    "mirror_plant_island": [
       "images/islands/Mirror Plant Island.png"
     ],
-    "mirror_psychic_island.png": [
+    "mirror_psychic_island": [
       "images/islands/Mirror Psychic Island.png"
     ],
-    "mirror_water_island.png": [
+    "mirror_water_island": [
       "images/islands/Mirror Water Island.png"
     ],
-    "mythical_island.png": [
+    "mythical_island": [
       "images/islands/Mythical Island.png"
     ],
     "plant_island": [
+      "images/islands/Plant Island.png",
       "images/islands/Plant Island (Spooktacle Skin).png",
       "images/islands/Plant Island (Vegetable Medley Skin).png"
     ],
-    "plant_island.png": [
-      "images/islands/Plant Island.png"
-    ],
-    "plasma_islet_island.png": [
+    "plasma_islet_island": [
       "images/islands/Plasma Islet Island.png"
     ],
     "psychic_island": [
+      "images/islands/Psychic Island.png",
       "images/islands/Psychic Island (MindBoggle Skin).png"
     ],
-    "psychic_island.png": [
-      "images/islands/Psychic Island.png"
-    ],
-    "seasonal_shanty_island.png": [
+    "seasonal_shanty_island": [
       "images/islands/Seasonal Shanty Island.png"
     ],
-    "shugabush_island.png": [
+    "shugabush_island": [
       "images/islands/Shugabush Island.png"
     ],
-    "tribal_island.png": [
+    "tribal_island": [
       "images/islands/Tribal Island.png"
     ],
     "water_island": [
+      "images/islands/Water Island.png",
       "images/islands/Water Island (Eggs-Travaganza Skin).png",
       "images/islands/Water Island (Glubber Lagoon Skin).png"
     ],
-    "water_island.png": [
-      "images/islands/Water Island.png"
-    ],
-    "wublin_island.png": [
+    "wublin_island": [
       "images/islands/Wublin Island.png"
     ]
   },
@@ -888,6 +858,9 @@
       "bbli$zard island"
     ],
     "Bbdek$tr": [
+      "bbli$zard island"
+    ],
+    "Bbjunior$": [
       "bbli$zard island"
     ],
     "Bbli$zard": [
@@ -4190,9 +4163,6 @@
     ],
     "Zynth": [
       "wublin"
-    ],
-    "Bbjunior$": [
-      "bbli$zard island"
     ],
     "eRmA gUrDy": [
       "paironormal"

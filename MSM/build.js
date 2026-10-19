@@ -122,29 +122,43 @@ if (fs.existsSync(elementsDir)) {
     });
 }
 
-// 3. Build Island Skins Manifest from /images/islands/
+// 3. Build Island Manifest from /images/islands/
 const islandsDir = path.join(imagesDir, 'islands');
 
 if (fs.existsSync(islandsDir)) {
+    const groups = {};
+
     fs.readdirSync(islandsDir).forEach(file => {
-        if (file.endsWith('.png')) {
+        if (!file.toLowerCase().endsWith('.png')) return;
 
-            // Groups standard and skins
-            // e.g. "Plant Island (Spooktacle Skin).png" -> "plant_island"
-            const baseName = file
-                .split('(')[0]
-                .trim()
-                .toLowerCase()
-                .replace(/\s+/g, '_');
+        // Strip the extension FIRST. Without this, plain files become "air_island.png"
+        // while skins become "air_island", so the two never end up in the same group.
+        // e.g. "Plant Island.png" and "Plant Island (Spooktacle Skin).png" -> "plant_island"
+        const baseName = path.parse(file).name
+            .split('(')[0]
+            .trim()
+            .toLowerCase()
+            .replace(/\s+/g, '_');
 
-            if (!masterDb["Island Manifest"][baseName]) {
-                masterDb["Island Manifest"][baseName] = [];
-            }
+        if (!groups[baseName]) groups[baseName] = [];
+        groups[baseName].push(`images/islands/${file}`);
+    });
 
-            masterDb["Island Manifest"][baseName].push(
-                `images/islands/${file}`
-            );
+    // Some skins drop the word "Island": "Fire Haven (Feast-Ember Skin).png" -> "fire_haven",
+    // but its base file is "Fire Haven Island.png" -> "fire_haven_island". Merge them.
+    Object.keys(groups).forEach(key => {
+        if (!key.endsWith('_island') && groups[`${key}_island`]) {
+            groups[`${key}_island`].push(...groups[key]);
+            delete groups[key];
         }
+    });
+
+    // Base image first, then skins alphabetically
+    Object.keys(groups).sort().forEach(key => {
+        masterDb["Island Manifest"][key] = groups[key].sort((a, b) => {
+            const skinA = a.includes('('), skinB = b.includes('(');
+            return (skinA - skinB) || a.localeCompare(b);
+        });
     });
 }
 
