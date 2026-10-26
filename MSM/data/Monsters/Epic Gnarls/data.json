@@ -23,5 +23,11 @@
   },
   "Combinations to Breed": [
     "Plinkajou + Peckidna"
-  ]
+  ],
+  "Breeding Times": {
+    "Enhanced": "1d 11h 15m",
+    "Enhanced_Skin": "1d 6h 33m",
+    "Standard": "1d 23h",
+    "Standard_Skin": "1d 18h 18m"
+  }
 }
