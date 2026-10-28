@@ -14,6 +14,7 @@
     "Adult Vhamp": "Adult Vhamp",
     "Alcordion": "Alcordion",
     "Anglow": "Anglow",
+    "AnomaLee": "AnomaLee",
     "Arackulele": "Arackulele",
     "Arcorina": "Arcorina",
     "Astropod": "Astropod",
@@ -285,7 +286,6 @@
     "Mimic": "Mimic",
     "Monculus": "Monculus",
     "Mushaboom": "Mushaboom",
-    "Mysterious Werdo": "Mysterious Werdo",
     "Nebulob": "Nebulob",
     "Nitebear": "Nitebear",
     "Noggin": "Noggin",
@@ -824,6 +824,10 @@
       "water",
       "mythical",
       "mirror water"
+    ],
+    "AnomaLee": [
+      "psychic",
+      "mirror psychic"
     ],
     "Arackulele": [
       "ethereal",
@@ -2377,10 +2381,6 @@
     ],
     "Mushaboom": [
       "sanctum"
-    ],
-    "Mysterious Werdo": [
-      "psychic",
-      "mirror psychic"
     ],
     "Nebulob": [
       "ethereal",
