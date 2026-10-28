@@ -1,0 +1,31 @@
+{
+  "Name": "STRingmaster",
+  "Elements": [
+    "Control",
+    "Hoax"
+  ],
+  "Costs": {
+    "name": "STRingmaster",
+    "diamond_cost": "5000"
+  },
+  "Breeding Times": {
+    "Enhanced": "2d 2h 15m",
+    "Standard": "2d 19h"
+  },
+  "Islands": [
+    "paironormal"
+  ],
+  "Description": {
+    "name": "STRingmaster (Major)",
+    "description": "Not all Monsters are first discovered by Monster-Handlers or their Helpers. In the case of the STRingmaster, that dubious honor fell... erm, falls... or, will fall?!... to a well-intentioned but ultimately bumbling organization from the human world called the Department of Monstrous Anomalies (DOMA). Puzzled? We'll explain. The Carnival's paramount powerhouse has spent lifetimes playfully taunting and provoking the agents of DOMA, who long remained ignorant of its true nature. Reports theorized that the STRingmaster was the Possession Paironormal, little more than the Carnival critter indwelling a lumbering mishmash of instruments and debris from the island's orbit. However, the STRingmaster is more - so much more. Its name gives us a clue: the capitalized S and T are actually initialisms for space and time; ergo, the SpaceTime Ringmaster. It is the Entanglement Paironormal, gifted (some might say cursed) with an inescapable connection to the many timelines and universes of reality. The STRingmaster has learned to subtly manipulate this talent when it combines it with music - the guitar-like instrument it brandishes helps channel the power with a technique called STRing theory. Much like strings can get entangled, use of the STRingmaster's spacetime subversion sometimes fuses the guitar with its own body, resulting in the Monster's unsettling Minor form. This temporal power has been exercised variously throughout history - an ancient piece of Monster World technology (later repurposed for the modern age), as well as the Carnival's own Centri-Fugue, are believed to be its handiwork. The Monster is even suspected of tampering with between the past, the present, and even the future. It remains to be seen how the STRingmaster will next utilize its power, but all we can hope for in the meantime is that this formidable figure will continue to cast a favorable gaze upon all of our realities."
+  },
+  "Combinations to Breed": [
+    "Scallyrags (Major) + Vawk (Major)",
+    "Raqsoun (Major) + The Inflatterer (Major)",
+    "eRmA gUrDy (Major) + Dakktyl (Major)",
+    "Jerm (Major) + Shhimmer (Major)",
+    "Galymph (Major) + Arcorina (Major)",
+    "Unklaw (Major) + Owlesque (Major)",
+    "Illoost (Major) + Hairionette (Major)"
+  ]
+}

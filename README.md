@@ -1,7 +1,11 @@
  <h1 align="center"> LATEST UPDATE: </h1>
-<p align="center"> <b>Added:</b> The new BBli$zard Family, Island, and Unklaw! </p>
+ <p align="center"><b>Version: 5.7.4</b></p>
 
-<p align="center"> <i>Dev Note: All images from this update should now be high quality now!</i> </p>
+<p align="center"> <b>Added:</b> bb$ynth, bb$ervo, Epic Withur, both dipsters, and more!</p>
+
+---
+
+<p align="center"> <i>Additional Fixes: <br> * Fixed multiple monsters not having newer islands in their "island" propterty. <br> * Refactored "cold_diamond_cost" to "cost" for members of the bb$lizard family. <br> * More monsters without a combination (Single Elements, Weridos, etc) have gotten unique phrasing in the breeding combo menu for how you are supposed to obtain them. <br> * Fixed some monsters having incorrect / incomplete likes.</i></p>
 
 -----
 

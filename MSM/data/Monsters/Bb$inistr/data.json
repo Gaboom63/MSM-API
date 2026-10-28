@@ -12,7 +12,7 @@
   },
   "Costs": {
     "name": "Bb$inister",
-    "cold_diamond_cost": "700"
+    "cost": "700"
   },
   "Breeding Times": {
     "Enhanced": "?1d 2h 15m",

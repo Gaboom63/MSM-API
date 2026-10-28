@@ -1,0 +1,30 @@
+{
+  "Name": "Bb$ervo",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "bbli$zard island"
+  ],
+  "Description": {
+    "name": "Bb$ervo",
+    "description": "Hold up - is the bb$ervo a robotic simulacrum or a very elaborate cosplay? At this point, we wouldn't put anything past the bb$quad. Sharing lead vocal duties with bbli$zard itself, everyone knew that it would take two to raise the island's song to its full potential. The Monster's been known to chew up pieces of the asphalt surfaces of its native island to grind down into crude oil - whether it's using it to grease its joints or lubricate its voicebox is anyone's guess."
+  },
+  "Costs": {
+    "name": "Bb$ervo",
+    "cost": "700"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Standard": "1d 11h"
+  },
+  "Likes": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "Combinations to Breed": [
+    "Bbli$zard + Riff"
+  ]
+}

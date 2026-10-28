@@ -22,13 +22,16 @@
     "Banjaw": "Banjaw",
     "Barrb": "Barrb",
     "Bb$enior": "Bb$enior",
+    "Bb$ervo": "Bb$ervo",
     "Bb$inistr": "Bb$inistr",
     "Bb$kinbash": "Bb$kinbash",
+    "Bb$ynth": "Bb$ynth",
     "Bbdek$tr": "Bbdek$tr",
     "Bbjunior$": "Bbjunior$",
     "Bbli$zard": "Bbli$zard",
     "BeMeebEth": "BeMeebEth",
     "Bellowfish": "Bellowfish",
+    "Bishop Mi": "Bishop Mi",
     "Bisonorus": "Bisonorus",
     "Blabbit": "Blabbit",
     "Blarret": "Blarret",
@@ -201,6 +204,7 @@
     "Epic Wheezel": "Epic Wheezel",
     "Epic Whisp": "Epic Whisp",
     "Epic Whiz-bang": "Epic Whiz-bang",
+    "Epic Withur": "Epic Withur",
     "Epic Woolabee": "Epic Woolabee",
     "Epic Wubbox Air": "Epic Wubbox Air",
     "Epic Wubbox Cold": "Epic Wubbox Cold",
@@ -505,6 +509,7 @@
     "Roarick": "Roarick",
     "Rooba": "Rooba",
     "Rootitoot": "Rootitoot",
+    "STRingmaster": "STRingmaster",
     "Scallyrags": "Scallyrags",
     "Scaratar": "Scaratar",
     "Scargo": "Scargo",
@@ -542,6 +547,7 @@
     "Tapricorn": "Tapricorn",
     "Tawkerr": "Tawkerr",
     "Teeter-Tauter": "Teeter-Tauter",
+    "Terrene Sol": "Terrene Sol",
     "The Inflatterer": "The Inflatterer",
     "Theremind": "Theremind",
     "Thrumble": "Thrumble",
@@ -851,10 +857,16 @@
     "Bb$enior": [
       "bbli$zard island"
     ],
+    "Bb$ervo": [
+      "bbli$zard island"
+    ],
     "Bb$inister": [
       "bbli$zard island"
     ],
     "Bb$kinbash": [
+      "bbli$zard island"
+    ],
+    "Bb$ynth": [
       "bbli$zard island"
     ],
     "Bbdek$tr": [
@@ -876,6 +888,30 @@
       "colossingum",
       "mech",
       "crystal"
+    ],
+    "Bishop Mi": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
     ],
     "Bisonorus": [
       "psychic",
@@ -1139,7 +1175,8 @@
       "mirror plant",
       "mirror air",
       "mirror earth",
-      "mirror faerie"
+      "mirror faerie",
+      "bbli$zard island"
     ],
     "Dwumrohl": [
       "wublin"
@@ -1856,6 +1893,11 @@
       "light",
       "seasonal",
       "mirror light"
+    ],
+    "Epic Withur": [
+      "bone",
+      "nexus",
+      "mirror bone"
     ],
     "Epic Woolabee": [
       "oasis",
@@ -3672,6 +3714,9 @@
       "amber",
       "mirror psychic"
     ],
+    "STRingmaster": [
+      "paironormal"
+    ],
     "Scallyrags": [
       "paironormal"
     ],
@@ -3880,6 +3925,30 @@
       "mech",
       "crystal"
     ],
+    "Terrene Sol": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
     "The Inflatterer": [
       "paironormal"
     ],
@@ -3984,7 +4053,8 @@
       "mirror cold",
       "mirror air",
       "mirror water",
-      "mirror earth"
+      "mirror earth",
+      "bbli$zard island"
     ],
     "Tympa": [
       "wublin"

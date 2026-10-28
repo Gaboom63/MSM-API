@@ -1,0 +1,30 @@
+{
+  "Name": "Bb$ynth",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "bbli$zard island"
+  ],
+  "Description": {
+    "name": "Bb$ynth",
+    "description": "Envied by all for its impressive pompadour, this Legendary experimented with multiple monikers - bbkey$ and bbca$io, to name a couple - before settling on bb$ynth. Despite the fact that it makes it look effortless now, the bb$ynth's early days of learning the piano were hampered by the confounding complexity of music theory. Today, the Monster's affinity with its keytar is so strong, it rivals that of Riff's with its living guitar (the two love jamming together)!"
+  },
+  "Costs": {
+    "name": "Bb$ynth",
+    "cost": "700"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 2h 15m",
+    "Standard": "1d 11h"
+  },
+  "Likes": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "Combinations to Breed": [
+    "Bbli$zard + Pango"
+  ]
+}

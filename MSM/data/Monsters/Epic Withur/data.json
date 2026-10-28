@@ -1,0 +1,36 @@
+{
+  "Name": "Epic Withur",
+  "Elements": [
+    "Earth",
+    "Water",
+    "Bone"
+  ],
+  "Islands": [
+    "bone",
+    "nexus",
+    "mirror bone"
+  ],
+  "Description": {
+    "name": "Epic Withur",
+    "description": "While it's known that the spiritual nature of every Withur allows the Monster to phase through solid objects, in the case of the Epic Withur, it's probably more accurate to say that it is itself going through a phase. Of course, the Epic Magical would reject this assertion vehemently, while playing its haunting melodies on the skeletal remains of its Lyrodocus Max. Unlike its Common and Rare cousins, the Epic Withur insists that these bones are no mere fiberglass model, but the remains of its partner and companion who valiantly sacrificed itself to give the Monster the instrument it needed to defeat the Dee-Mon Lord and... Ah, it seems that in addition to crafting models, the Epic Withur also has a talent for fan-fiction."
+  },
+  "Costs": {
+    "name": "Epic Withur",
+    "diamond_cost": "1000"
+  },
+  "Breeding Times": {
+    "Enhanced": "1d 13h 38m 15s",
+    "Enhanced_Skin": "1d 8h 37m 9s",
+    "Standard": "2d 2h 11m",
+    "Standard_Skin": "1d 21h 9m 54s"
+  },
+  "Likes": [
+    "La",
+    "Reflecting Pool",
+    "Smunkin Patch",
+    "Optiglowbe"
+  ],
+  "Combinations to Breed": [
+    "Thrumble + Hawlo"
+  ]
+}
