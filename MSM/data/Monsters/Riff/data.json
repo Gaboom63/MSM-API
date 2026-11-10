@@ -4,8 +4,7 @@
     "Air",
     "Earth",
     "Water",
-    "Cold",
-    "bbli$zard island"
+    "Cold"
   ],
   "Islands": [
     "air",
@@ -13,7 +12,8 @@
     "gold",
     "tribal",
     "composer",
-    "mirror air"
+    "mirror air",
+    "bbli$zard island"
   ],
   "Description": {
     "name": "Riff",
