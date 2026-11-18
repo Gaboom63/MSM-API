@@ -1,0 +1,33 @@
+{
+  "Name": "Epic Maulch",
+  "Elements": [
+    "Electricity"
+  ],
+  "Islands": [
+    "Wublin"
+  ],
+  "Description": {
+    "name": "Epic Maulch",
+    "description": "After a great feast, what becomes of all the leftover food? Does it go to waste? Not on the Wubbox's watch! In a 'ground-breaking' feat, naturally-decomposing material has been merged with Maulch's already soiled state to produce a three-headed Epic whose commitment to environmentalism should be lauded, if not its outward presentation."
+  },
+  "Wublin Inventory": {
+    "Cost": "7",
+    "Inventory": {
+      "Epic Clamble": 1,
+      "Epic Entbrat": 1,
+      "Epic Furcorn": 1,
+      "Epic Noggin": 1,
+      "Epic Pummel": 1,
+      "Epic Quarrister": 1,
+      "Epic Spunge": 1,
+      "Epic Flowah": 1, 
+      "Epic Barrb": 1, 
+      "Epic Edamimi": 1
+    },
+    "Time Limit": "No time limit.",
+    "Total Eggs": "10"
+  },
+  "Combinations to Breed": [
+    "Zap The Eggs Needed To Fill Maulch"
+  ]
+}

@@ -151,6 +151,7 @@
     "Epic Krillby": "Epic Krillby",
     "Epic Larvaluss": "Epic Larvaluss",
     "Epic Mammott": "Epic Mammott",
+    "Epic Maulch": "Epic Maulch",
     "Epic Maw": "Epic Maw",
     "Epic Mimic": "Epic Mimic",
     "Epic Monculus": "Epic Monculus",
@@ -228,6 +229,7 @@
     "Fandhul": "Fandhul",
     "Ffidyll": "Ffidyll",
     "Fiddlement": "Fiddlement",
+    "First Verchuoso": "First Verchuoso",
     "Flasque": "Flasque",
     "Fleechwurm": "Fleechwurm",
     "Floogull": "Floogull",
@@ -1563,6 +1565,9 @@
       "faerie",
       "mirror faerie"
     ],
+    "Epic Maulch": [
+      "Wublin"
+    ],
     "Epic Maw": [
       "plant",
       "cold",
@@ -2009,6 +2014,9 @@
       "light",
       "nexus",
       "mirror light"
+    ],
+    "First Verchuoso": [
+      "haven"
     ],
     "Flasque": [
       "workshop",

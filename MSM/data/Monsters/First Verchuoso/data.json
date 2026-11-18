@@ -1,0 +1,32 @@
+{
+  "Name": "First Verchuoso",
+  "Elements": [
+    "Legendary"
+  ],
+  "Islands": [
+    "haven"
+  ],
+  "Description": {
+    "name": "First Verchuoso",
+    "description": "There's a lot of pressure that comes with being the holotype of a new sub-class of Legendary Monster, but the 'First Verchuoso' is taking it in stride. While it's unknown at this time whether Verchuosos are capable of speech like their Werdo fellows, we can confirm that they are extreme musical prodigies who focus instead on exhibiting a virtuosic command of multiple instruments. The 'First Verchuoso's area of expertise is any keyboard instrument, and the Monster has the innate ability to create music from just about any source material, provided it has the Relic-powered inspiration to get started. Quirkily, it also has a knack for accidentally composing melodies that evoke existing songs... but this skill has proved unexpectedly helpful for its chosen habitat: an island whose motif is already a callback! On top of it's musical prowess, the 'First Verchuoso' is a talented comedian who can bring a smile even to a Flowah's frowny face."
+  },
+  "Costs": {
+    "name": "First Verchuoso",
+    "relic_cost": "100"
+  },
+  "Breeding Times": {
+    "Enhanced": "6h",
+    "Enhanced_Skin": "5h 12m",
+    "Standard": "8h",
+    "Standard_Skin": "7h 12m"
+  },
+  "Likes": [
+    "Charrkoll",
+    "Wild Bagpipe",
+    "Guitree",
+    "Elmenco Stump"
+  ],
+  "Combinations to Breed": [
+    "Buy First Verchuoso From The Market."
+  ]
+}
