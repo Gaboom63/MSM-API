@@ -13,16 +13,19 @@
   "Wublin Inventory": {
     "Cost": "14",
     "Inventory": {
-      "Epic Cybop": 14,
-      "Epic Entbrat": 6,
-      "Epic Fwog": 10,
-      "Epic Pummel": 8,
-      "Epic Riff": 6,
-      "Epic Scups": 10,
-      "Epic T-Rox": 8
+      "Epic Riff": 1, 
+      "Epic Entbrat": 1, 
+      "Epic Scups": 1, 
+      "Epic Pummel": 1, 
+      "Epic T-Rox": 1, 
+      "Epic Cybop": 1, 
+      "Epic Fwog": 1, 
+      "Epic Barrb": 1, 
+      "Epic Woolabee": 1,
+      "Epic Tiawa": 1
     },
-    "Time Limit": "",
-    "Total Eggs": "62"
+    "Time Limit": "None",
+    "Total Eggs": "10"
   },
   "Combinations to Breed": [
     "Zap The Eggs Needed To Fill Pixolotl"

@@ -5,9 +5,9 @@
 
 ---
 
-<p align="center"> <i>Additional Fixes: <br> * Fixed Rare Maulch naming. </i></p>
+<p align="center"> <i>Additional Fixes: <br> * Fixed Rare/Epic Wublins that had incorrect inventories.</i></p>
 
-<p align="center"> <i>Known Issues: <br> * Most Epic Wublins inventories are incorrect. (Fix Coming within a day or two)</i></p>
+<p align="center"> <i>Known Issues: <br> * Although image loading has been substantially upgraded since the inital launch of this tool, some images will just fail to load even if the path is correct. This is being investagted. </i></p>
 
 -----
 
