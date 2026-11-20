@@ -26,6 +26,36 @@
 
   let monsterRegistryCache = null;
 
+  // Monster data lives in category sub-folders: data/Monsters/<Category>/<Monster>/data.json
+  const MONSTER_CATEGORIES = {
+    "Celestials": ["Adult Attmoz", "Adult Blasoom", "Adult Furnoss", "Adult Galvana", "Adult Glaishur", "Adult Hornacle", "Adult Loodvigg", "Adult Plixie", "Adult Scaratar", "Adult Syncopite", "Adult Torrt", "Adult Vhamp", "Attmoz", "Blasoom", "Furnoss", "Galvana", "Glaishur", "Hornacle", "Loodvigg", "Plixie", "Scaratar", "Syncopite", "Torrt", "Vhamp"],
+    "Dipsters": ["Bishop Mi", "Do", "Fa", "King Do", "La", "Mi", "Queen Re", "Re", "Sol", "Superno-Fa", "Terrene Sol", "Ti", "Vitreous Ti", "Waxen La"],
+    "Ethereal Monsters": ["Arackulele", "Auglur", "Bellowfish", "BeMeebEth", "Blarret", "Boodoo", "Dragong", "Epic Arackulele", "Epic Bellowfish", "Epic Boodoo", "Epic Dragong", "Epic Fung Pray", "Epic Ghazt", "Epic Grumpyre", "Epic Humbug", "Epic Jeeode", "Epic Jellbilly", "Epic Kazilleon", "Epic Nebulob", "Epic Reebro", "Epic Sox", "Epic Whisp", "Flasque", "Fung Pray", "Gaddzooks", "Ghazt", "Grumpyre", "Humbug", "Jeeode", "Jellbilly", "Kazilleon", "Meebkin", "Nebulob", "Nitebear", "Oogiddy", "Pentumbra", "Piplash", "Rare Arackulele", "Rare Auglur", "Rare Bellowfish", "Rare Blarret", "Rare Boodoo", "Rare Dragong", "Rare Flasque", "Rare Fung Pray", "Rare Gaddzooks", "Rare Ghazt", "Rare Grumpyre", "Rare Humbug", "Rare Jeeode", "Rare Jellbilly", "Rare Kazilleon", "Rare Meebkin", "Rare Nebulob", "Rare Nitebear", "Rare Pentumbra", "Rare Piplash", "Rare Reebro", "Rare Sox", "Rare Vhenshun", "Rare Whaill", "Rare Whisp", "Rare X'rt", "Rare Yooreek", "Reebro", "Rhysmuth", "Sox", "Teeter-Tauter", "Vhenshun", "Whaill", "Whisp", "X'rt", "Yooreek"],
+    "Fire Monsters": ["Barrb", "Bisonorus", "Boskus", "Bowhead", "Candelavra", "Drummidary", "Edamimi", "Epic Barrb", "Epic Bisonorus", "Epic Boskus", "Epic Bowhead", "Epic Candelavra", "Epic Drummidary", "Epic Edamimi", "Epic Floogull", "Epic Flowah", "Epic Flum Ox", "Epic Glowl", "Epic Gnarls", "Epic Incisaur", "Epic Kayna", "Epic Krillby", "Epic Phangler", "Epic PongPing", "Epic Repatillo", "Epic Rootitoot", "Epic Sneyser", "Epic Sooza", "Epic Stogg", "Epic Thrumble", "Epic Tiawa", "Epic Tring", "Epic Tuskski", "Epic Whaddle", "Epic Woolabee", "Epic Wynq", "Epic Yelmut", "Epic Ziggurab", "Floogull", "Flowah", "Flum Ox", "Glowl", "Gnarls", "Incisaur", "Kayna", "Krillby", "Phangler", "PongPing", "Rare Barrb", "Rare Bisonorus", "Rare Boskus", "Rare Bowhead", "Rare Candelavra", "Rare Drummidary", "Rare Edamimi", "Rare Floogull", "Rare Flowah", "Rare Flum Ox", "Rare Glowl", "Rare Gnarls", "Rare Incisaur", "Rare Kayna", "Rare Krillby", "Rare Phangler", "Rare PongPing", "Rare Repatillo", "Rare Rootitoot", "Rare Sneyser", "Rare Sooza", "Rare Stogg", "Rare Thrumble", "Rare Tiawa", "Rare Tring", "Rare Tuskski", "Rare Whaddle", "Rare Woolabee", "Rare Wynq", "Rare Yelmut", "Rare Ziggurab", "Repatillo", "Rootitoot", "Sneyser", "Sooza", "Stogg", "Thrumble", "Tiawa", "Tring", "Tuskski", "Whaddle", "Woolabee", "Wynq", "Yelmut", "Ziggurab"],
+    "Legendary Monsters": ["Alcordion", "AnomaLee", "Bb$enior", "Bb$ervo", "Bb$inistr", "Bb$kinbash", "Bb$ynth", "Bbdek$tr", "Bbjunior$", "Bbli$zard", "Charrkoll", "First Verchuoso", "Maggpi", "Parlsona", "Shugabass", "Shugabeats", "Shugabush", "Shugabuzz", "Shugajo", "Shugarock", "Shugavox", "Shugitar", "Stoowarb", "Tawkerr", "T-Pirainha"],
+    "Magical Monsters": ["Banjaw", "Blow't", "Bonkers", "Bridg-it", "Bulbo", "Cahoot", "Cantorell", "Clackula", "Clavi Gnat", "Deja-Jin", "Denchuhs", "Enchantling", "Epic Cantorell", "Epic Clackula", "Epic Floot Fly", "Epic Fluoress", "Epic Knucklehead", "Epic Larvaluss", "Epic Peckidna", "Epic Rooba", "Epic Theremind", "Epic TooToo", "Epic Withur", "Fiddlement", "Floot Fly", "Fluoress", "Frondley", "G'day", "Gloptic", "Gob", "Hawlo", "HippityHop", "Knucklehead", "Larvaluss", "Mushaboom", "Osstax", "Peckidna", "Periscorp", "Pladdie", "Plinkajou", "Pluckbill", "Poppette", "Rare Banjaw", "Rare Blow't", "Rare Bonkers", "Rare Bridg-it", "Rare Bulbo", "Rare Cahoot", "Rare Cantorell", "Rare Clackula", "Rare Clavi Gnat", "Rare Deja-Jin", "Rare Denchuhs", "Rare Enchantling", "Rare Fiddlement", "Rare Floot Fly", "Rare Fluoress", "Rare Frondley", "Rare G'day", "Rare Gloptic", "Rare Gob", "Rare Hawlo", "Rare HippityHop", "Rare Knucklehead", "Rare Larvaluss", "Rare Mushaboom", "Rare Osstax", "Rare Peckidna", "Rare Periscorp", "Rare Pladdie", "Rare Plinkajou", "Rare Pluckbill", "Rare Poppette", "Rare Roarick", "Rare Rooba", "Rare Spytrap", "Rare Squot", "Rare Tapricorn", "Rare Theremind", "Rare TooToo", "Rare Uuduk", "Rare Wimmzies", "Rare Withur", "Rare Xyster", "Rare Yuggler", "Roarick", "Rooba", "Spytrap", "Squot", "Tapricorn", "Theremind", "TooToo", "Uuduk", "Wimmzies", "Withur", "Xyster", "Yuggler"],
+    "Meebs": ["Crystal Meeb", "Mech Meeb", "Plasma Meeb", "Poison Meeb", "Rare Crystal Meeb", "Rare Mech Meeb", "Rare Plasma Meeb", "Rare Poison Meeb", "Rare Shadow Meeb", "Shadow Meeb"],
+    "Mythical Monsters": ["Anglow", "Bleatnik", "Buzzinga", "Cataliszt", "Cherubble", "Cranchee", "Epic Anglow", "Epic Bleatnik", "Epic Buzzinga", "Epic Cataliszt", "Epic Cherubble", "Epic Cranchee", "Epic G'joob", "Epic Hyehehe", "Epic Knurv", "Epic Pinghound", "Epic shLep", "Epic Sporerow", "Epic Strombonin", "Epic Wheezel", "Epic Yawstrich", "G'joob", "Hyehehe", "Knurv", "Pinghound", "Rare Anglow", "Rare Bleatnik", "Rare Buzzinga", "Rare Cataliszt", "Rare Cherubble", "Rare Cranchee", "Rare G'joob", "Rare Hyehehe", "Rare Knurv", "Rare Pinghound", "Rare shLep", "Rare Sporerow", "Rare Strombonin", "Rare Wheezel", "Rare Yawstrich", "ShLep", "Sporerow", "Strombonin", "Wheezel", "Yawstrich"],
+    "Natural Monsters": ["Bowgart", "Clamble", "Congle", "Cybop", "Dandidoo", "Deedge", "Drumpler", "Entbrat", "Epic Bowgart", "Epic Clamble", "Epic Congle", "Epic Cybop", "Epic Dandidoo", "Epic Deedge", "Epic Drumpler", "Epic Entbrat", "Epic Furcorn", "Epic Fwog", "Epic Mammott", "Epic Maw", "Epic Mimic", "Epic Noggin", "Epic Oaktopus", "Epic Pango", "Epic PomPom", "Epic Potbelly", "Epic Pummel", "Epic Quarrister", "Epic Quibble", "Epic Reedling", "Epic Riff", "Epic Scups", "Epic Shellbeat", "Epic Shrubb", "Epic Spunge", "Epic Thumpies", "Epic Toe Jammer", "Epic T-Rox", "Epic Tweedle", "Furcorn", "Fwog", "Mammott", "Maw", "Mimic", "Noggin", "Oaktopus", "Pango", "PomPom", "Potbelly", "Pummel", "Quarrister", "Quibble", "Rare Bowgart", "Rare Clamble", "Rare Congle", "Rare Cybop", "Rare Dandidoo", "Rare Deedge", "Rare Drumpler", "Rare Entbrat", "Rare Furcorn", "Rare Fwog", "Rare Mammott", "Rare Maw", "Rare Mimic", "Rare Noggin", "Rare Oaktopus", "Rare Pango", "Rare PomPom", "Rare Potbelly", "Rare Pummel", "Rare Quarrister", "Rare Quibble", "Rare Reedling", "Rare Riff", "Rare Scups", "Rare Shellbeat", "Rare Shrubb", "Rare Spunge", "Rare Thumpies", "Rare Toe Jammer", "Rare T-Rox", "Rare Tweedle", "Reedling", "Riff", "Scups", "Shellbeat", "Shrubb", "Spunge", "Thumpies", "Toe Jammer", "T-Rox", "Tweedle"],
+    "Paironormal Monsters": ["Arcorina", "Dakktyl", "eRmA gUrDy", "Galymph", "Hairionette", "Illoost", "Jerm", "Owlesque", "Raqsoun", "Scallyrags", "Shhimmer", "STRingmaster", "The Inflatterer", "Unklaw", "Vawk"],
+    "Primordial Monsters": ["Bogle", "Droah", "Fandhul", "Lowb"],
+    "Seasonal Monsters": ["Blabbit", "Boo'qwurm", "Carillong", "Clavavera", "Epic Blabbit", "Epic Boo'qwurm", "Epic Carillong", "Epic Clavavera", "Epic Ffidyll", "Epic Gobbleygourd", "Epic Hoola", "Epic Jam Boree", "Epic Monculus", "Epic Punkleton", "Epic Schmoochle", "Epic Spurrit", "Epic Viveine", "Epic Whiz-bang", "Epic Yool", "Ffidyll", "Gobbleygourd", "Hoola", "Jam Boree", "Monculus", "Punkleton", "Rare Blabbit", "Rare Boo'qwurm", "Rare Carillong", "Rare Clavavera", "Rare Ffidyll", "Rare Gobbleygourd", "Rare Hoola", "Rare Jam Boree", "Rare Monculus", "Rare Punkleton", "Rare Schmoochle", "Rare Spurrit", "Rare Viveine", "Rare Whiz-bang", "Rare Yool", "Schmoochle", "Spurrit", "Viveine", "Whiz-bang", "Yool"],
+    "Supernatural Monsters": ["Astropod", "Blipsqueak", "Bona-Petite", "Brump", "Creepuscule", "Dermit", "Dwumrohl", "Epic Astropod", "Epic Blipsqueak", "Epic Bona-Petite", "Epic Brump", "Epic Dermit", "Epic Dwumrohl", "Epic Fleechwurm", "Epic Gheegur", "Epic Maulch", "Epic Pixolotl", "Epic Poewk", "Epic Thwok", "Epic Tympa", "Epic Wubbox Air", "Epic Wubbox Cold", "Epic Wubbox Earth", "Epic Wubbox Ethereal", "Epic Wubbox Haven", "Epic Wubbox Oasis", "Epic Wubbox Plant", "Epic Wubbox Water", "Epic Zuuker", "Epic Zynth", "Fleechwurm", "Gheegur", "Maulch", "Pixolotl", "Poewk", "Rare Astropod", "Rare Blipsqueak", "Rare Bona-Petite", "Rare Brump", "Rare Creepuscule", "Rare Dermit", "Rare Dwumrohl", "Rare Fleechwurm", "Rare Gheegur", "Rare Maulch", "Rare Pixolotl", "Rare Poewk", "Rare Scargo", "Rare Screemu", "Rare Thwok", "Rare Tympa", "Rare Whajje", "Rare Wubbox", "Rare Zuuker", "Rare Zynth", "Scargo", "Screemu", "Thwok", "Tympa", "Whajje", "Wubbox", "Zuuker", "Zynth"],
+    "Titansouls": ["Cruv'laaphtian Crocus", "Faesoddoid Fungus", "Phosphoran Phlox"]
+  };
+
+  // lowercased monster folder name -> { category, folder } (built once, on first use)
+  let monsterLocationIndex = null;
+  function findMonsterLocation(folderName) {
+    if (!monsterLocationIndex) {
+      monsterLocationIndex = Object.create(null);
+      for (const [category, names] of Object.entries(MONSTER_CATEGORIES)) {
+        for (const folder of names) monsterLocationIndex[folder.toLowerCase()] = { category, folder };
+      }
+    }
+    return monsterLocationIndex[String(folderName).toLowerCase()] || null;
+  }
+
   function updateUrls() {
     if (LOCAL_MODE) {
       console.log("LOADING LOCAL MODE!");
@@ -41,7 +71,6 @@
       NEWS_IMAGES_URL = `/MSM-API/MSM/images/sales/`;
       NEWS_IMAGES_INDEX_URL = `/MSM-API/MSM/images/sales/index.json`;
       MONSTER_REGISTRY_URL = `/MSM-API/MSM/data/monster_index.json`;
-
     } else {
       const cdn = useRawHost
         ? `https://raw.githubusercontent.com/${REPO}/${CDN_REF}/`
@@ -91,9 +120,6 @@
     });
   }
 
-  // jsDelivr can answer 503 (with no CORS headers) for a commit it hasn't picked up yet, which makes every
-  // JSON file and image under that hash fail. Before trusting a hash, check once per 10 minutes that it is
-  // really being served; if not, use @main for this visit.
   async function verifyRef() {
     if (LOCAL_MODE || CDN_REF === 'main') return;
     const [okRef, okTime] = (store.get('msm_ref_ok') || '').split('|');
@@ -125,8 +151,6 @@
     const lastFail = Number(store.get('msm_hash_last_fail')) || 0;
     const hashKnown = COMMIT_HASH !== 'main';
 
-    // GitHub's unauthenticated API allows only 60 requests/hour per IP, so check sparingly
-    // (persisted across tabs/sessions) and back off after a failure instead of retrying every load.
     if ((hashKnown && now - lastCheck < CHECK_INTERVAL_MS) || now - lastFail < RETRY_INTERVAL_MS) {
       updateUrls();
       await verifyRef();
@@ -144,7 +168,7 @@
         store.set('msm_hash_last_check', String(now));
         if (COMMIT_HASH !== data.sha) {
           store.set('msm_api_hash', data.sha);
-          if (!hashKnown) { // first visit: we have to wait for this, so apply it right away
+          if (!hashKnown) {
             COMMIT_HASH = data.sha;
             CDN_REF = COMMIT_HASH;
             console.log(`MSM API using commit ${COMMIT_HASH.substring(0, 7)}`);
@@ -158,20 +182,17 @@
       }
     })();
 
-    // We already have a usable stored hash: don't make every request wait on api.github.com.
-    // The refreshed hash is picked up on the next page load.
     if (!hashKnown) await check;
     updateUrls();
     await verifyRef();
     pruneStaleCache();
   }
 
-  // Plain-object caches without a prototype so keys like "constructor" can't collide.
   const cache = Object.create(null);
   const fetchPromises = Object.create(null);
   const RETRY_COOLDOWN_MS = 15000;
-  const failedUntil = Object.create(null); // storageKey -> time before which a failed download is not retried
-  const missing = new Set(); // per-monster data files that returned 404 this session (avoids refetching)
+  const failedUntil = Object.create(null);
+  const missing = new Set();
   let dbCache = null;
   let soundsIndexCache = null;
   let soundsIndexCacheLower = null;
@@ -185,8 +206,6 @@
   const isJsdelivr = url => /^https:\/\/cdn\.jsdelivr\.net\/gh\//.test(url);
   const toRawUrl = url => url.replace(/^https:\/\/cdn\.jsdelivr\.net\/gh\/([^@/]+\/[^@/]+)@([^/]+)\//, 'https://raw.githubusercontent.com/$1/$2/');
 
-  // GET a JSON file. If jsDelivr fails (5xx, or a network/CORS error from its error page), retry once on
-  // raw.githubusercontent.com and keep using that host for the rest of this page view.
   async function fetchJsonWithFallback(url) {
     const attempt = u => fetch(u, { credentials: 'omit', cache: LOCAL_MODE ? 'no-store' : 'default' });
     const canFallBack = !LOCAL_MODE && isJsdelivr(url);
@@ -207,9 +226,8 @@
     if (storageKey in cache) return cache[storageKey];
     if (fetchPromises[storageKey]) return fetchPromises[storageKey];
     if (missing.has(storageKey)) return null;
-    if (failedUntil[storageKey] > Date.now()) return null; // recently failed: don't hammer the CDN
+    if (failedUntil[storageKey] > Date.now()) return null;
 
-    // Never persist under the "main" placeholder: it has no version, so it could go stale forever.
     const persist = !LOCAL_MODE && COMMIT_HASH !== 'main' && CDN_REF === COMMIT_HASH;
     const versionedKey = `msm_${COMMIT_HASH}_${storageKey}`;
 
@@ -261,7 +279,6 @@
     return fetchPromise;
   }
 
-  // One shared init promise; if the master DB failed to load, the next call retries instead of staying empty forever.
   function initDatabases() {
     if (!initPromise) {
       initPromise = (async () => {
@@ -277,7 +294,6 @@
         soundsIndexCache = soundsData || {};
         costumesIndexCache = costumesData || {};
 
-        // Lowercase indexes for case-insensitive lookups (built once, not scanned per call)
         soundsIndexCacheLower = Object.create(null);
         for (const [k, v] of Object.entries(soundsIndexCache)) {
           soundsIndexCacheLower[k.toLowerCase()] = v;
@@ -299,7 +315,7 @@
   let nameRegistry = {};
 
   async function getBreedingDatabase() {
-    await syncPromise; // breeding only needs the commit hash, not the master DB / sounds / costumes
+    await syncPromise;
     if (breedingCache) return breedingCache;
 
     const rawData = await fetchWithCache('breeding_db', BREEDING_FILE_PATH);
@@ -332,7 +348,6 @@
   const NAME_ALIASES = { gnarl: 'Gnarls' };
   const VARIANT_RE = /\s*\((major|minor)\)\s*$/i;
 
-  // Returns the correctly-cased manifest key for a typed name ("entbrat" -> "Entbrat"), or null.
   function findManifestKey(name) {
     if (!imageManifestLower) return null;
     const lower = String(name).trim().toLowerCase();
@@ -372,8 +387,6 @@
       const { folder: rarity, baseNameClean } = resolveMonsterPath(rawName);
       const typedName = rawName.trim();
 
-      // Split off "(Major)"/"(Minor)", canonicalise the casing of the base name against the
-      // manifest (the CDN is case-sensitive), then put the suffix back.
       const variantMatch = typedName.match(VARIANT_RE);
       const variant = variantMatch ? ` (${variantMatch[1][0].toUpperCase()}${variantMatch[1].slice(1).toLowerCase()})` : "";
       const typedBase = variantMatch ? typedName.slice(0, variantMatch.index).trim() : typedName;
@@ -382,7 +395,10 @@
       const eggName = dataFolderName;
 
       const safeFolderName = dataFolderName.replace(/\//g, "-").replace(/:/g, "");
-      const dedicatedDataUrl = `${MONSTERS_URL}${encodeURIComponent(safeFolderName)}/data.json`;
+      const monsterLoc = findMonsterLocation(safeFolderName);
+      const categoryPath = monsterLoc ? `${encodeURIComponent(monsterLoc.category)}/` : "";
+      const urlFolderName = monsterLoc ? monsterLoc.folder : safeFolderName;
+      const dedicatedDataUrl = `${MONSTERS_URL}${categoryPath}${encodeURIComponent(urlFolderName)}/data.json`;
 
       const mData = await fetchWithCache(`monster_data_${safeFolderName}`, dedicatedDataUrl);
 
@@ -418,8 +434,6 @@
         };
       });
 
-      // --- COSTUME SYSTEM ---
-      // Any costume whose name starts with "MonsterName (" (eggName has Major/Minor stripped).
       let costumes = [];
       if (costumesIndexCache) {
         const searchPrefix = `${eggName} (`.toLowerCase();
@@ -429,13 +443,11 @@
           .filter(([cName]) => {
             const lowerCName = cName.toLowerCase();
             if (!lowerCName.startsWith(searchPrefix)) return false;
-            // Filter out group/promo images that accidentally got scraped
             return !excludeKeywords.some(kw => lowerCName.includes(kw));
           })
           .map(([, cPath]) => `${BASE_URL}${cPath}`);
       }
 
-      // --- SOUND SYSTEM ---
       const lowerFullName = fullName.toLowerCase();
       const lowerBaseName = baseNameClean.toLowerCase();
 
@@ -461,7 +473,7 @@
         inventory: mData["Celestial Inventory"] || mData["Wublin Inventory"] || null,
         likes: mData.Likes || [],
         costumes: costumes,
-        _costumeIndex: costumes.length, // index === costumes.length means "base image"
+        _costumeIndex: costumes.length,
         sounds: sounds,
         breedingTimes: mData["Breeding Times"] || null,
 
@@ -471,9 +483,9 @@
         getCostume(index) {
           const n = this.costumes.length;
           if (!n) return this.imageUrl;
-          const total = n + 1; // all costumes + the base image
+          const total = n + 1;
           const raw = Number.isInteger(index) ? index : this._costumeIndex;
-          const i = ((raw % total) + total) % total; // wraps negatives too
+          const i = ((raw % total) + total) % total;
           return i === n ? this.imageUrl : this.costumes[i];
         },
         nextCostume() {
@@ -544,7 +556,7 @@
             }
             const trackIndex = Number.isInteger(index) && index >= 0 && index < this.sounds.length ? index : 0;
             const audio = new Audio();
-            audio.crossOrigin = "anonymous"; // must be set before src, otherwise it is ignored / refetched
+            audio.crossOrigin = "anonymous";
             audio.src = this.sounds[trackIndex];
             currentPlayingAudio = audio;
             audio.addEventListener('ended', () => {
@@ -552,7 +564,7 @@
             }, { once: true });
             await audio.play();
           } catch (error) {
-            if (error && error.name === 'AbortError') return; // interrupted by another sound - expected
+            if (error && error.name === 'AbortError') return;
             console.warn(`Failed to play sound for ${this.name}:`, error);
           }
         }
@@ -572,8 +584,6 @@
     img.src = url;
   });
 
-  // Loads `primary`. If it errors, or is still not loaded after 3s, also tries `alt` and uses whichever
-  // loads first (never slower than the better of the two). Returns `primary` if neither loads.
   async function pickWorkingImageUrl(primary, alt) {
     const first = tryLoadImage(primary);
     const early = await Promise.race([first, new Promise(r => setTimeout(() => r('slow'), 3000))]);
@@ -581,7 +591,7 @@
 
     const second = tryLoadImage(alt);
     const winner = await new Promise(resolve => {
-      let left = early === 'slow' ? 2 : 1; // primary may still be in flight
+      let left = early === 'slow' ? 2 : 1;
       const settle = u => { if (u) resolve(u); else if (--left === 0) resolve(null); };
       if (early === 'slow') first.then(settle);
       second.then(settle);
@@ -598,11 +608,6 @@
     return `${IMAGE_BASE_URL}${encodeURIComponent((findManifestKey(base) || base) + variant)}.png`;
   }
 
-  // Fast path for <img> tags: no monster data.json or big databases needed. By default it also checks the
-  // image really loads (falling back to raw.githubusercontent.com if jsDelivr errors or stalls); the browser
-  // keeps the downloaded image, so assigning the returned URL to an <img> afterwards is instant.
-  // Pass { verify: false } to just get the URL (e.g. for background preloading).
-  // Casing is corrected via the Image Manifest only if it is already loaded, so pass the exact name.
   function getImageUrl(rawName, opts) {
     if (typeof rawName !== 'string' || !rawName.trim()) return Promise.resolve(null);
     if (opts && opts.verify === false) return buildImageUrl(rawName);
@@ -614,7 +619,7 @@
         const primary = await buildImageUrl(rawName);
         if (LOCAL_MODE || typeof Image === 'undefined' || !isJsdelivr(primary)) return primary;
         const chosen = await pickWorkingImageUrl(primary, toRawUrl(primary));
-        if (chosen !== primary) { useRawHost = true; updateUrls(); } // jsDelivr is struggling: use the fallback host from now on
+        if (chosen !== primary) { useRawHost = true; updateUrls(); }
         return chosen;
       })();
       imageUrlCache.set(key, p);
@@ -625,7 +630,7 @@
   async function getDofMonster(rawName) {
     if (typeof rawName !== 'string' || !rawName.trim()) return null;
     try {
-      await syncPromise; // make sure we're using the latest commit's URL
+      await syncPromise;
       const folderName = rawName.trim();
       const safeFolderName = folderName.replace(/\//g, "-").replace(/:/g, "");
       const dedicatedDataUrl = `${DOF_MONSTERS_URL}${encodeURIComponent(safeFolderName)}/data.json`;
@@ -688,7 +693,6 @@
     return monsterRegistryCache;
   }
 
-
   async function fetchIslands() {
     await initDatabases();
     const dbIslands = dbCache['Islands'] || {};
@@ -716,7 +720,6 @@
       });
   }
 
-
   async function fetchIsland(identifier) {
     if (typeof identifier !== 'string' || !identifier.trim()) {
       return { error: "Please provide an island name, e.g. MSM.fetchIsland(\"Plant\")." };
@@ -729,7 +732,6 @@
     const target = norm(identifier);
     const targetCore = stripIsland(identifier);
 
-    // Every distinct island name, once (lowercase -> display name)
     const allIslands = new Map();
     for (const arr of Object.values(dbIslands)) {
       if (!Array.isArray(arr)) continue;
@@ -740,8 +742,6 @@
     }
     const names = Array.from(allIslands.keys());
 
-    // Exact match first (so "Fire" means Fire Island, not Fire Haven + Fire Oasis + ...),
-    // and only fall back to partial matching when nothing matches exactly.
     let matched = names.filter(n => n === target || stripIsland(n) === targetCore);
     if (!matched.length && target.length > 3) matched = names.filter(n => n.includes(target));
 
@@ -787,21 +787,18 @@
       .map(file => `${NEWS_IMAGES_URL}${encodeURIComponent(file)}`);
   }
 
-  // Property names that tooling probes on objects (await, console.log, JSON.stringify, bundlers...).
-  // They must NOT be treated as monster names, or `await MSM` / `return MSM` would resolve to null.
   const RESERVED_KEYS = new Set([
     'then', 'toJSON', 'inspect', 'constructor', 'prototype', '__esModule', 'default',
     '$$typeof', 'nodeType', 'asymmetricMatch', 'toString', 'valueOf'
   ]);
 
-  // One loader per monster name, kept separate from the raw-JSON cache so the two can't collide.
   const monsterLoaders = new Map();
   function loadMonsterOnce(name) {
     const k = name.trim().toLowerCase();
     let p = monsterLoaders.get(k);
     if (!p) {
       p = getMonster(name).then(m => {
-        if (!m) monsterLoaders.delete(k); // don't cache failures - allow a retry
+        if (!m) monsterLoaders.delete(k);
         return m;
       });
       monsterLoaders.set(k, p);

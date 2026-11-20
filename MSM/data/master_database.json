@@ -12,16 +12,200 @@
     "Adult Syncopite": "Adult Syncopite",
     "Adult Torrt": "Adult Torrt",
     "Adult Vhamp": "Adult Vhamp",
-    "Alcordion": "Alcordion",
-    "Anglow": "Anglow",
-    "AnomaLee": "AnomaLee",
-    "Arackulele": "Arackulele",
-    "Arcorina": "Arcorina",
-    "Astropod": "Astropod",
     "Attmoz": "Attmoz",
+    "Blasoom": "Blasoom",
+    "Furnoss": "Furnoss",
+    "Galvana": "Galvana",
+    "Glaishur": "Glaishur",
+    "Hornacle": "Hornacle",
+    "Loodvigg": "Loodvigg",
+    "Plixie": "Plixie",
+    "Scaratar": "Scaratar",
+    "Syncopite": "Syncopite",
+    "Torrt": "Torrt",
+    "Vhamp": "Vhamp",
+    "Bishop Mi": "Bishop Mi",
+    "Do": "Do",
+    "Fa": "Fa",
+    "King Do": "King Do",
+    "La": "La",
+    "Mi": "Mi",
+    "Queen Re": "Queen Re",
+    "Re": "Re",
+    "Sol": "Sol",
+    "Superno-Fa": "Superno-Fa",
+    "Terrene Sol": "Terrene Sol",
+    "Ti": "Ti",
+    "Vitreous Ti": "Vitreous Ti",
+    "Waxen La": "Waxen La",
+    "Arackulele": "Arackulele",
     "Auglur": "Auglur",
-    "Banjaw": "Banjaw",
+    "BeMeebEth": "BeMeebEth",
+    "Bellowfish": "Bellowfish",
+    "Blarret": "Blarret",
+    "Boodoo": "Boodoo",
+    "Dragong": "Dragong",
+    "Epic Arackulele": "Epic Arackulele",
+    "Epic Bellowfish": "Epic Bellowfish",
+    "Epic Boodoo": "Epic Boodoo",
+    "Epic Dragong": "Epic Dragong",
+    "Epic Fung Pray": "Epic Fung Pray",
+    "Epic Ghazt": "Epic Ghazt",
+    "Epic Grumpyre": "Epic Grumpyre",
+    "Epic Humbug": "Epic Humbug",
+    "Epic Jeeode": "Epic Jeeode",
+    "Epic Jellbilly": "Epic Jellbilly",
+    "Epic Kazilleon": "Epic Kazilleon",
+    "Epic Nebulob": "Epic Nebulob",
+    "Epic Reebro": "Epic Reebro",
+    "Epic Sox": "Epic Sox",
+    "Epic Whisp": "Epic Whisp",
+    "Flasque": "Flasque",
+    "Fung Pray": "Fung Pray",
+    "Gaddzooks": "Gaddzooks",
+    "Ghazt": "Ghazt",
+    "Grumpyre": "Grumpyre",
+    "Humbug": "Humbug",
+    "Jeeode": "Jeeode",
+    "Jellbilly": "Jellbilly",
+    "Kazilleon": "Kazilleon",
+    "Meebkin": "Meebkin",
+    "Nebulob": "Nebulob",
+    "Nitebear": "Nitebear",
+    "Oogiddy": "Oogiddy",
+    "Pentumbra": "Pentumbra",
+    "Piplash": "Piplash",
+    "Rare Arackulele": "Rare Arackulele",
+    "Rare Auglur": "Rare Auglur",
+    "Rare Bellowfish": "Rare Bellowfish",
+    "Rare Blarret": "Rare Blarret",
+    "Rare Boodoo": "Rare Boodoo",
+    "Rare Dragong": "Rare Dragong",
+    "Rare Flasque": "Rare Flasque",
+    "Rare Fung Pray": "Rare Fung Pray",
+    "Rare Gaddzooks": "Rare Gaddzooks",
+    "Rare Ghazt": "Rare Ghazt",
+    "Rare Grumpyre": "Rare Grumpyre",
+    "Rare Humbug": "Rare Humbug",
+    "Rare Jeeode": "Rare Jeeode",
+    "Rare Jellbilly": "Rare Jellbilly",
+    "Rare Kazilleon": "Rare Kazilleon",
+    "Rare Meebkin": "Rare Meebkin",
+    "Rare Nebulob": "Rare Nebulob",
+    "Rare Nitebear": "Rare Nitebear",
+    "Rare Pentumbra": "Rare Pentumbra",
+    "Rare Piplash": "Rare Piplash",
+    "Rare Reebro": "Rare Reebro",
+    "Rare Sox": "Rare Sox",
+    "Rare Vhenshun": "Rare Vhenshun",
+    "Rare Whaill": "Rare Whaill",
+    "Rare Whisp": "Rare Whisp",
+    "Rare X'rt": "Rare X'rt",
+    "Rare Yooreek": "Rare Yooreek",
+    "Reebro": "Reebro",
+    "Rhysmuth": "Rhysmuth",
+    "Sox": "Sox",
+    "Teeter-Tauter": "Teeter-Tauter",
+    "Vhenshun": "Vhenshun",
+    "Whaill": "Whaill",
+    "Whisp": "Whisp",
+    "X'rt": "X'rt",
+    "Yooreek": "Yooreek",
     "Barrb": "Barrb",
+    "Bisonorus": "Bisonorus",
+    "Boskus": "Boskus",
+    "Bowhead": "Bowhead",
+    "Candelavra": "Candelavra",
+    "Drummidary": "Drummidary",
+    "Edamimi": "Edamimi",
+    "Epic Barrb": "Epic Barrb",
+    "Epic Bisonorus": "Epic Bisonorus",
+    "Epic Boskus": "Epic Boskus",
+    "Epic Bowhead": "Epic Bowhead",
+    "Epic Candelavra": "Epic Candelavra",
+    "Epic Drummidary": "Epic Drummidary",
+    "Epic Edamimi": "Epic Edamimi",
+    "Epic Floogull": "Epic Floogull",
+    "Epic Flowah": "Epic Flowah",
+    "Epic Flum Ox": "Epic Flum Ox",
+    "Epic Glowl": "Epic Glowl",
+    "Epic Gnarls": "Epic Gnarls",
+    "Epic Incisaur": "Epic Incisaur",
+    "Epic Kayna": "Epic Kayna",
+    "Epic Krillby": "Epic Krillby",
+    "Epic Phangler": "Epic Phangler",
+    "Epic PongPing": "Epic PongPing",
+    "Epic Repatillo": "Epic Repatillo",
+    "Epic Rootitoot": "Epic Rootitoot",
+    "Epic Sneyser": "Epic Sneyser",
+    "Epic Sooza": "Epic Sooza",
+    "Epic Stogg": "Epic Stogg",
+    "Epic Thrumble": "Epic Thrumble",
+    "Epic Tiawa": "Epic Tiawa",
+    "Epic Tring": "Epic Tring",
+    "Epic Tuskski": "Epic Tuskski",
+    "Epic Whaddle": "Epic Whaddle",
+    "Epic Woolabee": "Epic Woolabee",
+    "Epic Wynq": "Epic Wynq",
+    "Epic Yelmut": "Epic Yelmut",
+    "Epic Ziggurab": "Epic Ziggurab",
+    "Floogull": "Floogull",
+    "Flowah": "Flowah",
+    "Flum Ox": "Flum Ox",
+    "Glowl": "Glowl",
+    "Gnarls": "Gnarls",
+    "Incisaur": "Incisaur",
+    "Kayna": "Kayna",
+    "Krillby": "Krillby",
+    "Phangler": "Phangler",
+    "PongPing": "PongPing",
+    "Rare Barrb": "Rare Barrb",
+    "Rare Bisonorus": "Rare Bisonorus",
+    "Rare Boskus": "Rare Boskus",
+    "Rare Bowhead": "Rare Bowhead",
+    "Rare Candelavra": "Rare Candelavra",
+    "Rare Drummidary": "Rare Drummidary",
+    "Rare Edamimi": "Rare Edamimi",
+    "Rare Floogull": "Rare Floogull",
+    "Rare Flowah": "Rare Flowah",
+    "Rare Flum Ox": "Rare Flum Ox",
+    "Rare Glowl": "Rare Glowl",
+    "Rare Gnarls": "Rare Gnarls",
+    "Rare Incisaur": "Rare Incisaur",
+    "Rare Kayna": "Rare Kayna",
+    "Rare Krillby": "Rare Krillby",
+    "Rare Phangler": "Rare Phangler",
+    "Rare PongPing": "Rare PongPing",
+    "Rare Repatillo": "Rare Repatillo",
+    "Rare Rootitoot": "Rare Rootitoot",
+    "Rare Sneyser": "Rare Sneyser",
+    "Rare Sooza": "Rare Sooza",
+    "Rare Stogg": "Rare Stogg",
+    "Rare Thrumble": "Rare Thrumble",
+    "Rare Tiawa": "Rare Tiawa",
+    "Rare Tring": "Rare Tring",
+    "Rare Tuskski": "Rare Tuskski",
+    "Rare Whaddle": "Rare Whaddle",
+    "Rare Woolabee": "Rare Woolabee",
+    "Rare Wynq": "Rare Wynq",
+    "Rare Yelmut": "Rare Yelmut",
+    "Rare Ziggurab": "Rare Ziggurab",
+    "Repatillo": "Repatillo",
+    "Rootitoot": "Rootitoot",
+    "Sneyser": "Sneyser",
+    "Sooza": "Sooza",
+    "Stogg": "Stogg",
+    "Thrumble": "Thrumble",
+    "Tiawa": "Tiawa",
+    "Tring": "Tring",
+    "Tuskski": "Tuskski",
+    "Whaddle": "Whaddle",
+    "Woolabee": "Woolabee",
+    "Wynq": "Wynq",
+    "Yelmut": "Yelmut",
+    "Ziggurab": "Ziggurab",
+    "Alcordion": "Alcordion",
+    "AnomaLee": "AnomaLee",
     "Bb$enior": "Bb$enior",
     "Bb$ervo": "Bb$ervo",
     "Bb$inistr": "Bb$inistr",
@@ -30,498 +214,10 @@
     "Bbdek$tr": "Bbdek$tr",
     "Bbjunior$": "Bbjunior$",
     "Bbli$zard": "Bbli$zard",
-    "BeMeebEth": "BeMeebEth",
-    "Bellowfish": "Bellowfish",
-    "Bishop Mi": "Bishop Mi",
-    "Bisonorus": "Bisonorus",
-    "Blabbit": "Blabbit",
-    "Blarret": "Blarret",
-    "Blasoom": "Blasoom",
-    "Bleatnik": "Bleatnik",
-    "Blipsqueak": "Blipsqueak",
-    "Blow't": "Blow't",
-    "Bogle": "Bogle",
-    "Bona-Petite": "Bona-Petite",
-    "Bonkers": "Bonkers",
-    "Boo'qwurm": "Boo'qwurm",
-    "Boodoo": "Boodoo",
-    "Boskus": "Boskus",
-    "Bowgart": "Bowgart",
-    "Bowhead": "Bowhead",
-    "Bridg-it": "Bridg-it",
-    "Brump": "Brump",
-    "Bulbo": "Bulbo",
-    "Buzzinga": "Buzzinga",
-    "Cahoot": "Cahoot",
-    "Candelavra": "Candelavra",
-    "Cantorell": "Cantorell",
-    "Carillong": "Carillong",
-    "Cataliszt": "Cataliszt",
     "Charrkoll": "Charrkoll",
-    "Cherubble": "Cherubble",
-    "Clackula": "Clackula",
-    "Clamble": "Clamble",
-    "Clavavera": "Clavavera",
-    "Clavi Gnat": "Clavi Gnat",
-    "Congle": "Congle",
-    "Cranchee": "Cranchee",
-    "Creepuscule": "Creepuscule",
-    "Cruv'laaphtian Crocus": "Cruv'laaphtian Crocus",
-    "Cybop": "Cybop",
-    "Dakktyl": "Dakktyl",
-    "Dandidoo": "Dandidoo",
-    "Deedge": "Deedge",
-    "Deja-Jin": "Deja-Jin",
-    "Denchuhs": "Denchuhs",
-    "Dermit": "Dermit",
-    "Do": "Do",
-    "Dragong": "Dragong",
-    "Droah": "Droah",
-    "Drummidary": "Drummidary",
-    "Drumpler": "Drumpler",
-    "Dwumrohl": "Dwumrohl",
-    "Edamimi": "Edamimi",
-    "Enchantling": "Enchantling",
-    "Entbrat": "Entbrat",
-    "Epic Anglow": "Epic Anglow",
-    "Epic Arackulele": "Epic Arackulele",
-    "Epic Astropod": "Epic Astropod",
-    "Epic Barrb": "Epic Barrb",
-    "Epic Bellowfish": "Epic Bellowfish",
-    "Epic Bisonorus": "Epic Bisonorus",
-    "Epic Blabbit": "Epic Blabbit",
-    "Epic Bleatnik": "Epic Bleatnik",
-    "Epic Blipsqueak": "Epic Blipsqueak",
-    "Epic Bona-Petite": "Epic Bona-Petite",
-    "Epic Boo'qwurm": "Epic Boo'qwurm",
-    "Epic Boodoo": "Epic Boodoo",
-    "Epic Boskus": "Epic Boskus",
-    "Epic Bowgart": "Epic Bowgart",
-    "Epic Bowhead": "Epic Bowhead",
-    "Epic Brump": "Epic Brump",
-    "Epic Buzzinga": "Epic Buzzinga",
-    "Epic Candelavra": "Epic Candelavra",
-    "Epic Cantorell": "Epic Cantorell",
-    "Epic Carillong": "Epic Carillong",
-    "Epic Cataliszt": "Epic Cataliszt",
-    "Epic Cherubble": "Epic Cherubble",
-    "Epic Clackula": "Epic Clackula",
-    "Epic Clamble": "Epic Clamble",
-    "Epic Clavavera": "Epic Clavavera",
-    "Epic Congle": "Epic Congle",
-    "Epic Cranchee": "Epic Cranchee",
-    "Epic Cybop": "Epic Cybop",
-    "Epic Dandidoo": "Epic Dandidoo",
-    "Epic Deedge": "Epic Deedge",
-    "Epic Dermit": "Epic Dermit",
-    "Epic Dragong": "Epic Dragong",
-    "Epic Drummidary": "Epic Drummidary",
-    "Epic Drumpler": "Epic Drumpler",
-    "Epic Dwumrohl": "Epic Dwumrohl",
-    "Epic Edamimi": "Epic Edamimi",
-    "Epic Entbrat": "Epic Entbrat",
-    "Epic Ffidyll": "Epic Ffidyll",
-    "Epic Fleechwurm": "Epic Fleechwurm",
-    "Epic Floogull": "Epic Floogull",
-    "Epic Floot Fly": "Epic Floot Fly",
-    "Epic Flowah": "Epic Flowah",
-    "Epic Flum Ox": "Epic Flum Ox",
-    "Epic Fluoress": "Epic Fluoress",
-    "Epic Fung Pray": "Epic Fung Pray",
-    "Epic Furcorn": "Epic Furcorn",
-    "Epic Fwog": "Epic Fwog",
-    "Epic G'joob": "Epic G'joob",
-    "Epic Ghazt": "Epic Ghazt",
-    "Epic Gheegur": "Epic Gheegur",
-    "Epic Glowl": "Epic Glowl",
-    "Epic Gnarls": "Epic Gnarls",
-    "Epic Gobbleygourd": "Epic Gobbleygourd",
-    "Epic Grumpyre": "Epic Grumpyre",
-    "Epic Hoola": "Epic Hoola",
-    "Epic Humbug": "Epic Humbug",
-    "Epic Hyehehe": "Epic Hyehehe",
-    "Epic Incisaur": "Epic Incisaur",
-    "Epic Jam Boree": "Epic Jam Boree",
-    "Epic Jeeode": "Epic Jeeode",
-    "Epic Jellbilly": "Epic Jellbilly",
-    "Epic Kayna": "Epic Kayna",
-    "Epic Kazilleon": "Epic Kazilleon",
-    "Epic Knucklehead": "Epic Knucklehead",
-    "Epic Knurv": "Epic Knurv",
-    "Epic Krillby": "Epic Krillby",
-    "Epic Larvaluss": "Epic Larvaluss",
-    "Epic Mammott": "Epic Mammott",
-    "Epic Maulch": "Epic Maulch",
-    "Epic Maw": "Epic Maw",
-    "Epic Mimic": "Epic Mimic",
-    "Epic Monculus": "Epic Monculus",
-    "Epic Nebulob": "Epic Nebulob",
-    "Epic Noggin": "Epic Noggin",
-    "Epic Oaktopus": "Epic Oaktopus",
-    "Epic Pango": "Epic Pango",
-    "Epic Peckidna": "Epic Peckidna",
-    "Epic Phangler": "Epic Phangler",
-    "Epic Pinghound": "Epic Pinghound",
-    "Epic Pixolotl": "Epic Pixolotl",
-    "Epic Poewk": "Epic Poewk",
-    "Epic PomPom": "Epic PomPom",
-    "Epic PongPing": "Epic PongPing",
-    "Epic Potbelly": "Epic Potbelly",
-    "Epic Pummel": "Epic Pummel",
-    "Epic Punkleton": "Epic Punkleton",
-    "Epic Quarrister": "Epic Quarrister",
-    "Epic Quibble": "Epic Quibble",
-    "Epic Reebro": "Epic Reebro",
-    "Epic Reedling": "Epic Reedling",
-    "Epic Repatillo": "Epic Repatillo",
-    "Epic Riff": "Epic Riff",
-    "Epic Rooba": "Epic Rooba",
-    "Epic Rootitoot": "Epic Rootitoot",
-    "Epic Schmoochle": "Epic Schmoochle",
-    "Epic Scups": "Epic Scups",
-    "Epic Shellbeat": "Epic Shellbeat",
-    "Epic Shrubb": "Epic Shrubb",
-    "Epic Sneyser": "Epic Sneyser",
-    "Epic Sooza": "Epic Sooza",
-    "Epic Sox": "Epic Sox",
-    "Epic Sporerow": "Epic Sporerow",
-    "Epic Spunge": "Epic Spunge",
-    "Epic Spurrit": "Epic Spurrit",
-    "Epic Stogg": "Epic Stogg",
-    "Epic Strombonin": "Epic Strombonin",
-    "Epic T-Rox": "Epic T-Rox",
-    "Epic Theremind": "Epic Theremind",
-    "Epic Thrumble": "Epic Thrumble",
-    "Epic Thumpies": "Epic Thumpies",
-    "Epic Thwok": "Epic Thwok",
-    "Epic Tiawa": "Epic Tiawa",
-    "Epic Toe Jammer": "Epic Toe Jammer",
-    "Epic TooToo": "Epic TooToo",
-    "Epic Tring": "Epic Tring",
-    "Epic Tuskski": "Epic Tuskski",
-    "Epic Tweedle": "Epic Tweedle",
-    "Epic Tympa": "Epic Tympa",
-    "Epic Viveine": "Epic Viveine",
-    "Epic Whaddle": "Epic Whaddle",
-    "Epic Wheezel": "Epic Wheezel",
-    "Epic Whisp": "Epic Whisp",
-    "Epic Whiz-bang": "Epic Whiz-bang",
-    "Epic Withur": "Epic Withur",
-    "Epic Woolabee": "Epic Woolabee",
-    "Epic Wubbox Air": "Epic Wubbox Air",
-    "Epic Wubbox Cold": "Epic Wubbox Cold",
-    "Epic Wubbox Earth": "Epic Wubbox Earth",
-    "Epic Wubbox Ethereal": "Epic Wubbox Ethereal",
-    "Epic Wubbox Haven": "Epic Wubbox Haven",
-    "Epic Wubbox Oasis": "Epic Wubbox Oasis",
-    "Epic Wubbox Plant": "Epic Wubbox Plant",
-    "Epic Wubbox Water": "Epic Wubbox Water",
-    "Epic Wynq": "Epic Wynq",
-    "Epic Yawstrich": "Epic Yawstrich",
-    "Epic Yelmut": "Epic Yelmut",
-    "Epic Yool": "Epic Yool",
-    "Epic Ziggurab": "Epic Ziggurab",
-    "Epic Zuuker": "Epic Zuuker",
-    "Epic Zynth": "Epic Zynth",
-    "Epic shLep": "Epic shLep",
-    "Fa": "Fa",
-    "Faesoddoid Fungus": "Faesoddoid Fungus",
-    "Fandhul": "Fandhul",
-    "Ffidyll": "Ffidyll",
-    "Fiddlement": "Fiddlement",
     "First Verchuoso": "First Verchuoso",
-    "Flasque": "Flasque",
-    "Fleechwurm": "Fleechwurm",
-    "Floogull": "Floogull",
-    "Floot Fly": "Floot Fly",
-    "Flowah": "Flowah",
-    "Flum Ox": "Flum Ox",
-    "Fluoress": "Fluoress",
-    "Frondley": "Frondley",
-    "Fung Pray": "Fung Pray",
-    "Furcorn": "Furcorn",
-    "Furnoss": "Furnoss",
-    "Fwog": "Fwog",
-    "G'day": "G'day",
-    "G'joob": "G'joob",
-    "Gaddzooks": "Gaddzooks",
-    "Galvana": "Galvana",
-    "Galymph": "Galymph",
-    "Ghazt": "Ghazt",
-    "Gheegur": "Gheegur",
-    "Glaishur": "Glaishur",
-    "Gloptic": "Gloptic",
-    "Glowl": "Glowl",
-    "Gnarls": "Gnarls",
-    "Gob": "Gob",
-    "Gobbleygourd": "Gobbleygourd",
-    "Grumpyre": "Grumpyre",
-    "Hairionette": "Hairionette",
-    "Hawlo": "Hawlo",
-    "HippityHop": "HippityHop",
-    "Hoola": "Hoola",
-    "Hornacle": "Hornacle",
-    "Humbug": "Humbug",
-    "Hyehehe": "Hyehehe",
-    "Illoost": "Illoost",
-    "Incisaur": "Incisaur",
-    "Jam Boree": "Jam Boree",
-    "Jeeode": "Jeeode",
-    "Jellbilly": "Jellbilly",
-    "Jerm": "Jerm",
-    "Kayna": "Kayna",
-    "Kazilleon": "Kazilleon",
-    "King Do": "King Do",
-    "Knucklehead": "Knucklehead",
-    "Knurv": "Knurv",
-    "Krillby": "Krillby",
-    "La": "La",
-    "Larvaluss": "Larvaluss",
-    "Loodvigg": "Loodvigg",
-    "Lowb": "Lowb",
     "Maggpi": "Maggpi",
-    "Mammott": "Mammott",
-    "Maulch": "Maulch",
-    "Maw": "Maw",
-    "Meebkin": "Meebkin",
-    "Mi": "Mi",
-    "Mimic": "Mimic",
-    "Monculus": "Monculus",
-    "Mushaboom": "Mushaboom",
-    "Nebulob": "Nebulob",
-    "Nitebear": "Nitebear",
-    "Noggin": "Noggin",
-    "Oaktopus": "Oaktopus",
-    "Oogiddy": "Oogiddy",
-    "Osstax": "Osstax",
-    "Owlesque": "Owlesque",
-    "Pango": "Pango",
     "Parlsona": "Parlsona",
-    "Peckidna": "Peckidna",
-    "Pentumbra": "Pentumbra",
-    "Periscorp": "Periscorp",
-    "Phangler": "Phangler",
-    "Phosphoran Phlox": "Phosphoran Phlox",
-    "Pinghound": "Pinghound",
-    "Piplash": "Piplash",
-    "Pixolotl": "Pixolotl",
-    "Pladdie": "Pladdie",
-    "Plinkajou": "Plinkajou",
-    "Plixie": "Plixie",
-    "Pluckbill": "Pluckbill",
-    "Poewk": "Poewk",
-    "PomPom": "PomPom",
-    "PongPing": "PongPing",
-    "Poppette": "Poppette",
-    "Potbelly": "Potbelly",
-    "Pummel": "Pummel",
-    "Punkleton": "Punkleton",
-    "Quarrister": "Quarrister",
-    "Queen Re": "Queen Re",
-    "Quibble": "Quibble",
-    "Raqsoun": "Raqsoun",
-    "Rare Anglow": "Rare Anglow",
-    "Rare Arackulele": "Rare Arackulele",
-    "Rare Astropod": "Rare Astropod",
-    "Rare Auglur": "Rare Auglur",
-    "Rare Banjaw": "Rare Banjaw",
-    "Rare Barrb": "Rare Barrb",
-    "Rare Bellowfish": "Rare Bellowfish",
-    "Rare Bisonorus": "Rare Bisonorus",
-    "Rare Blabbit": "Rare Blabbit",
-    "Rare Blarret": "Rare Blarret",
-    "Rare Bleatnik": "Rare Bleatnik",
-    "Rare Blipsqueak": "Rare Blipsqueak",
-    "Rare Blow't": "Rare Blow't",
-    "Rare Bona-Petite": "Rare Bona-Petite",
-    "Rare Bonkers": "Rare Bonkers",
-    "Rare Boo'qwurm": "Rare Boo'qwurm",
-    "Rare Boodoo": "Rare Boodoo",
-    "Rare Boskus": "Rare Boskus",
-    "Rare Bowgart": "Rare Bowgart",
-    "Rare Bowhead": "Rare Bowhead",
-    "Rare Bridg-it": "Rare Bridg-it",
-    "Rare Brump": "Rare Brump",
-    "Rare Bulbo": "Rare Bulbo",
-    "Rare Buzzinga": "Rare Buzzinga",
-    "Rare Cahoot": "Rare Cahoot",
-    "Rare Candelavra": "Rare Candelavra",
-    "Rare Cantorell": "Rare Cantorell",
-    "Rare Carillong": "Rare Carillong",
-    "Rare Cataliszt": "Rare Cataliszt",
-    "Rare Cherubble": "Rare Cherubble",
-    "Rare Clackula": "Rare Clackula",
-    "Rare Clamble": "Rare Clamble",
-    "Rare Clavavera": "Rare Clavavera",
-    "Rare Clavi Gnat": "Rare Clavi Gnat",
-    "Rare Congle": "Rare Congle",
-    "Rare Cranchee": "Rare Cranchee",
-    "Rare Creepuscule": "Rare Creepuscule",
-    "Rare Cybop": "Rare Cybop",
-    "Rare Dandidoo": "Rare Dandidoo",
-    "Rare Deedge": "Rare Deedge",
-    "Rare Deja-Jin": "Rare Deja-Jin",
-    "Rare Denchuhs": "Rare Denchuhs",
-    "Rare Dermit": "Rare Dermit",
-    "Rare Dragong": "Rare Dragong",
-    "Rare Drummidary": "Rare Drummidary",
-    "Rare Drumpler": "Rare Drumpler",
-    "Rare Dwumrohl": "Rare Dwumrohl",
-    "Rare Edamimi": "Rare Edamimi",
-    "Rare Enchantling": "Rare Enchantling",
-    "Rare Entbrat": "Rare Entbrat",
-    "Rare Ffidyll": "Rare Ffidyll",
-    "Rare Fiddlement": "Rare Fiddlement",
-    "Rare Flasque": "Rare Flasque",
-    "Rare Fleechwurm": "Rare Fleechwurm",
-    "Rare Floogull": "Rare Floogull",
-    "Rare Floot Fly": "Rare Floot Fly",
-    "Rare Flowah": "Rare Flowah",
-    "Rare Flum Ox": "Rare Flum Ox",
-    "Rare Fluoress": "Rare Fluoress",
-    "Rare Frondley": "Rare Frondley",
-    "Rare Fung Pray": "Rare Fung Pray",
-    "Rare Furcorn": "Rare Furcorn",
-    "Rare Fwog": "Rare Fwog",
-    "Rare G'day": "Rare G'day",
-    "Rare G'joob": "Rare G'joob",
-    "Rare Gaddzooks": "Rare Gaddzooks",
-    "Rare Ghazt": "Rare Ghazt",
-    "Rare Gheegur": "Rare Gheegur",
-    "Rare Gloptic": "Rare Gloptic",
-    "Rare Glowl": "Rare Glowl",
-    "Rare Gnarls": "Rare Gnarls",
-    "Rare Gob": "Rare Gob",
-    "Rare Gobbleygourd": "Rare Gobbleygourd",
-    "Rare Grumpyre": "Rare Grumpyre",
-    "Rare Hawlo": "Rare Hawlo",
-    "Rare HippityHop": "Rare HippityHop",
-    "Rare Hoola": "Rare Hoola",
-    "Rare Humbug": "Rare Humbug",
-    "Rare Hyehehe": "Rare Hyehehe",
-    "Rare Incisaur": "Rare Incisaur",
-    "Rare Jam Boree": "Rare Jam Boree",
-    "Rare Jeeode": "Rare Jeeode",
-    "Rare Jellbilly": "Rare Jellbilly",
-    "Rare Kayna": "Rare Kayna",
-    "Rare Kazilleon": "Rare Kazilleon",
-    "Rare Knucklehead": "Rare Knucklehead",
-    "Rare Knurv": "Rare Knurv",
-    "Rare Krillby": "Rare Krillby",
-    "Rare Larvaluss": "Rare Larvaluss",
-    "Rare Mammott": "Rare Mammott",
-    "Rare Maulch": "Rare Maulch",
-    "Rare Maw": "Rare Maw",
-    "Rare Meebkin": "Rare Meebkin",
-    "Rare Mimic": "Rare Mimic",
-    "Rare Monculus": "Rare Monculus",
-    "Rare Mushaboom": "Rare Mushaboom",
-    "Rare Nebulob": "Rare Nebulob",
-    "Rare Nitebear": "Rare Nitebear",
-    "Rare Noggin": "Rare Noggin",
-    "Rare Oaktopus": "Rare Oaktopus",
-    "Rare Osstax": "Rare Osstax",
-    "Rare Pango": "Rare Pango",
-    "Rare Peckidna": "Rare Peckidna",
-    "Rare Pentumbra": "Rare Pentumbra",
-    "Rare Periscorp": "Rare Periscorp",
-    "Rare Phangler": "Rare Phangler",
-    "Rare Pinghound": "Rare Pinghound",
-    "Rare Piplash": "Rare Piplash",
-    "Rare Pixolotl": "Rare Pixolotl",
-    "Rare Pladdie": "Rare Pladdie",
-    "Rare Plinkajou": "Rare Plinkajou",
-    "Rare Pluckbill": "Rare Pluckbill",
-    "Rare Poewk": "Rare Poewk",
-    "Rare PomPom": "Rare PomPom",
-    "Rare PongPing": "Rare PongPing",
-    "Rare Poppette": "Rare Poppette",
-    "Rare Potbelly": "Rare Potbelly",
-    "Rare Pummel": "Rare Pummel",
-    "Rare Punkleton": "Rare Punkleton",
-    "Rare Quarrister": "Rare Quarrister",
-    "Rare Quibble": "Rare Quibble",
-    "Rare Reebro": "Rare Reebro",
-    "Rare Reedling": "Rare Reedling",
-    "Rare Repatillo": "Rare Repatillo",
-    "Rare Riff": "Rare Riff",
-    "Rare Roarick": "Rare Roarick",
-    "Rare Rooba": "Rare Rooba",
-    "Rare Rootitoot": "Rare Rootitoot",
-    "Rare Scargo": "Rare Scargo",
-    "Rare Schmoochle": "Rare Schmoochle",
-    "Rare Screemu": "Rare Screemu",
-    "Rare Scups": "Rare Scups",
-    "Rare Shellbeat": "Rare Shellbeat",
-    "Rare Shrubb": "Rare Shrubb",
-    "Rare Sneyser": "Rare Sneyser",
-    "Rare Sooza": "Rare Sooza",
-    "Rare Sox": "Rare Sox",
-    "Rare Sporerow": "Rare Sporerow",
-    "Rare Spunge": "Rare Spunge",
-    "Rare Spurrit": "Rare Spurrit",
-    "Rare Spytrap": "Rare Spytrap",
-    "Rare Squot": "Rare Squot",
-    "Rare Stogg": "Rare Stogg",
-    "Rare Strombonin": "Rare Strombonin",
-    "Rare T-Rox": "Rare T-Rox",
-    "Rare Tapricorn": "Rare Tapricorn",
-    "Rare Theremind": "Rare Theremind",
-    "Rare Thrumble": "Rare Thrumble",
-    "Rare Thumpies": "Rare Thumpies",
-    "Rare Thwok": "Rare Thwok",
-    "Rare Tiawa": "Rare Tiawa",
-    "Rare Toe Jammer": "Rare Toe Jammer",
-    "Rare TooToo": "Rare TooToo",
-    "Rare Tring": "Rare Tring",
-    "Rare Tuskski": "Rare Tuskski",
-    "Rare Tweedle": "Rare Tweedle",
-    "Rare Tympa": "Rare Tympa",
-    "Rare Uuduk": "Rare Uuduk",
-    "Rare Vhenshun": "Rare Vhenshun",
-    "Rare Viveine": "Rare Viveine",
-    "Rare Whaddle": "Rare Whaddle",
-    "Rare Whaill": "Rare Whaill",
-    "Rare Whajje": "Rare Whajje",
-    "Rare Wheezel": "Rare Wheezel",
-    "Rare Whisp": "Rare Whisp",
-    "Rare Whiz-bang": "Rare Whiz-bang",
-    "Rare Wimmzies": "Rare Wimmzies",
-    "Rare Withur": "Rare Withur",
-    "Rare Woolabee": "Rare Woolabee",
-    "Rare Wubbox": "Rare Wubbox",
-    "Rare Wynq": "Rare Wynq",
-    "Rare X'rt": "Rare X'rt",
-    "Rare Xyster": "Rare Xyster",
-    "Rare Yawstrich": "Rare Yawstrich",
-    "Rare Yelmut": "Rare Yelmut",
-    "Rare Yool": "Rare Yool",
-    "Rare Yooreek": "Rare Yooreek",
-    "Rare Yuggler": "Rare Yuggler",
-    "Rare Ziggurab": "Rare Ziggurab",
-    "Rare Zuuker": "Rare Zuuker",
-    "Rare Zynth": "Rare Zynth",
-    "Rare shLep": "Rare shLep",
-    "Re": "Re",
-    "Reebro": "Reebro",
-    "Reedling": "Reedling",
-    "Repatillo": "Repatillo",
-    "Rhysmuth": "Rhysmuth",
-    "Riff": "Riff",
-    "Roarick": "Roarick",
-    "Rooba": "Rooba",
-    "Rootitoot": "Rootitoot",
-    "STRingmaster": "STRingmaster",
-    "Scallyrags": "Scallyrags",
-    "Scaratar": "Scaratar",
-    "Scargo": "Scargo",
-    "Schmoochle": "Schmoochle",
-    "Screemu": "Screemu",
-    "Scups": "Scups",
-    "ShLep": "ShLep",
-    "Shellbeat": "Shellbeat",
-    "Shhimmer": "Shhimmer",
-    "Shrubb": "Shrubb",
     "Shugabass": "Shugabass",
     "Shugabeats": "Shugabeats",
     "Shugabush": "Shugabush",
@@ -530,70 +226,374 @@
     "Shugarock": "Shugarock",
     "Shugavox": "Shugavox",
     "Shugitar": "Shugitar",
-    "Sneyser": "Sneyser",
-    "Sol": "Sol",
-    "Sooza": "Sooza",
-    "Sox": "Sox",
-    "Sporerow": "Sporerow",
-    "Spunge": "Spunge",
-    "Spurrit": "Spurrit",
+    "Stoowarb": "Stoowarb",
+    "T-Pirainha": "T-Pirainha",
+    "Tawkerr": "Tawkerr",
+    "Banjaw": "Banjaw",
+    "Blow't": "Blow't",
+    "Bonkers": "Bonkers",
+    "Bridg-it": "Bridg-it",
+    "Bulbo": "Bulbo",
+    "Cahoot": "Cahoot",
+    "Cantorell": "Cantorell",
+    "Clackula": "Clackula",
+    "Clavi Gnat": "Clavi Gnat",
+    "Deja-Jin": "Deja-Jin",
+    "Denchuhs": "Denchuhs",
+    "Enchantling": "Enchantling",
+    "Epic Cantorell": "Epic Cantorell",
+    "Epic Clackula": "Epic Clackula",
+    "Epic Floot Fly": "Epic Floot Fly",
+    "Epic Fluoress": "Epic Fluoress",
+    "Epic Knucklehead": "Epic Knucklehead",
+    "Epic Larvaluss": "Epic Larvaluss",
+    "Epic Peckidna": "Epic Peckidna",
+    "Epic Rooba": "Epic Rooba",
+    "Epic Theremind": "Epic Theremind",
+    "Epic TooToo": "Epic TooToo",
+    "Epic Withur": "Epic Withur",
+    "Fiddlement": "Fiddlement",
+    "Floot Fly": "Floot Fly",
+    "Fluoress": "Fluoress",
+    "Frondley": "Frondley",
+    "G'day": "G'day",
+    "Gloptic": "Gloptic",
+    "Gob": "Gob",
+    "Hawlo": "Hawlo",
+    "HippityHop": "HippityHop",
+    "Knucklehead": "Knucklehead",
+    "Larvaluss": "Larvaluss",
+    "Mushaboom": "Mushaboom",
+    "Osstax": "Osstax",
+    "Peckidna": "Peckidna",
+    "Periscorp": "Periscorp",
+    "Pladdie": "Pladdie",
+    "Plinkajou": "Plinkajou",
+    "Pluckbill": "Pluckbill",
+    "Poppette": "Poppette",
+    "Rare Banjaw": "Rare Banjaw",
+    "Rare Blow't": "Rare Blow't",
+    "Rare Bonkers": "Rare Bonkers",
+    "Rare Bridg-it": "Rare Bridg-it",
+    "Rare Bulbo": "Rare Bulbo",
+    "Rare Cahoot": "Rare Cahoot",
+    "Rare Cantorell": "Rare Cantorell",
+    "Rare Clackula": "Rare Clackula",
+    "Rare Clavi Gnat": "Rare Clavi Gnat",
+    "Rare Deja-Jin": "Rare Deja-Jin",
+    "Rare Denchuhs": "Rare Denchuhs",
+    "Rare Enchantling": "Rare Enchantling",
+    "Rare Fiddlement": "Rare Fiddlement",
+    "Rare Floot Fly": "Rare Floot Fly",
+    "Rare Fluoress": "Rare Fluoress",
+    "Rare Frondley": "Rare Frondley",
+    "Rare G'day": "Rare G'day",
+    "Rare Gloptic": "Rare Gloptic",
+    "Rare Gob": "Rare Gob",
+    "Rare Hawlo": "Rare Hawlo",
+    "Rare HippityHop": "Rare HippityHop",
+    "Rare Knucklehead": "Rare Knucklehead",
+    "Rare Larvaluss": "Rare Larvaluss",
+    "Rare Mushaboom": "Rare Mushaboom",
+    "Rare Osstax": "Rare Osstax",
+    "Rare Peckidna": "Rare Peckidna",
+    "Rare Periscorp": "Rare Periscorp",
+    "Rare Pladdie": "Rare Pladdie",
+    "Rare Plinkajou": "Rare Plinkajou",
+    "Rare Pluckbill": "Rare Pluckbill",
+    "Rare Poppette": "Rare Poppette",
+    "Rare Roarick": "Rare Roarick",
+    "Rare Rooba": "Rare Rooba",
+    "Rare Spytrap": "Rare Spytrap",
+    "Rare Squot": "Rare Squot",
+    "Rare Tapricorn": "Rare Tapricorn",
+    "Rare Theremind": "Rare Theremind",
+    "Rare TooToo": "Rare TooToo",
+    "Rare Uuduk": "Rare Uuduk",
+    "Rare Wimmzies": "Rare Wimmzies",
+    "Rare Withur": "Rare Withur",
+    "Rare Xyster": "Rare Xyster",
+    "Rare Yuggler": "Rare Yuggler",
+    "Roarick": "Roarick",
+    "Rooba": "Rooba",
     "Spytrap": "Spytrap",
     "Squot": "Squot",
-    "Stogg": "Stogg",
-    "Stoowarb": "Stoowarb",
-    "Strombonin": "Strombonin",
-    "Superno-Fa": "Superno-Fa",
-    "Syncopite": "Syncopite",
-    "T-Pirainha": "T-Pirainha",
-    "T-Rox": "T-Rox",
     "Tapricorn": "Tapricorn",
-    "Tawkerr": "Tawkerr",
-    "Teeter-Tauter": "Teeter-Tauter",
-    "Terrene Sol": "Terrene Sol",
-    "The Inflatterer": "The Inflatterer",
     "Theremind": "Theremind",
-    "Thrumble": "Thrumble",
-    "Thumpies": "Thumpies",
-    "Thwok": "Thwok",
-    "Ti": "Ti",
-    "Tiawa": "Tiawa",
-    "Toe Jammer": "Toe Jammer",
     "TooToo": "TooToo",
-    "Torrt": "Torrt",
-    "Tring": "Tring",
-    "Tuskski": "Tuskski",
-    "Tweedle": "Tweedle",
-    "Tympa": "Tympa",
-    "Unklaw": "Unklaw",
     "Uuduk": "Uuduk",
-    "Vawk": "Vawk",
-    "Vhamp": "Vhamp",
-    "Vhenshun": "Vhenshun",
-    "Vitreous Ti": "Vitreous Ti",
-    "Viveine": "Viveine",
-    "Waxen La": "Waxen La",
-    "Whaddle": "Whaddle",
-    "Whaill": "Whaill",
-    "Whajje": "Whajje",
-    "Wheezel": "Wheezel",
-    "Whisp": "Whisp",
-    "Whiz-bang": "Whiz-bang",
     "Wimmzies": "Wimmzies",
     "Withur": "Withur",
-    "Woolabee": "Woolabee",
-    "Wubbox": "Wubbox",
-    "Wynq": "Wynq",
-    "X'rt": "X'rt",
     "Xyster": "Xyster",
-    "Yawstrich": "Yawstrich",
-    "Yelmut": "Yelmut",
-    "Yool": "Yool",
-    "Yooreek": "Yooreek",
     "Yuggler": "Yuggler",
-    "Ziggurab": "Ziggurab",
+    "Anglow": "Anglow",
+    "Bleatnik": "Bleatnik",
+    "Buzzinga": "Buzzinga",
+    "Cataliszt": "Cataliszt",
+    "Cherubble": "Cherubble",
+    "Cranchee": "Cranchee",
+    "Epic Anglow": "Epic Anglow",
+    "Epic Bleatnik": "Epic Bleatnik",
+    "Epic Buzzinga": "Epic Buzzinga",
+    "Epic Cataliszt": "Epic Cataliszt",
+    "Epic Cherubble": "Epic Cherubble",
+    "Epic Cranchee": "Epic Cranchee",
+    "Epic G'joob": "Epic G'joob",
+    "Epic Hyehehe": "Epic Hyehehe",
+    "Epic Knurv": "Epic Knurv",
+    "Epic Pinghound": "Epic Pinghound",
+    "Epic Sporerow": "Epic Sporerow",
+    "Epic Strombonin": "Epic Strombonin",
+    "Epic Wheezel": "Epic Wheezel",
+    "Epic Yawstrich": "Epic Yawstrich",
+    "Epic shLep": "Epic shLep",
+    "G'joob": "G'joob",
+    "Hyehehe": "Hyehehe",
+    "Knurv": "Knurv",
+    "Pinghound": "Pinghound",
+    "Rare Anglow": "Rare Anglow",
+    "Rare Bleatnik": "Rare Bleatnik",
+    "Rare Buzzinga": "Rare Buzzinga",
+    "Rare Cataliszt": "Rare Cataliszt",
+    "Rare Cherubble": "Rare Cherubble",
+    "Rare Cranchee": "Rare Cranchee",
+    "Rare G'joob": "Rare G'joob",
+    "Rare Hyehehe": "Rare Hyehehe",
+    "Rare Knurv": "Rare Knurv",
+    "Rare Pinghound": "Rare Pinghound",
+    "Rare Sporerow": "Rare Sporerow",
+    "Rare Strombonin": "Rare Strombonin",
+    "Rare Wheezel": "Rare Wheezel",
+    "Rare Yawstrich": "Rare Yawstrich",
+    "Rare shLep": "Rare shLep",
+    "ShLep": "ShLep",
+    "Sporerow": "Sporerow",
+    "Strombonin": "Strombonin",
+    "Wheezel": "Wheezel",
+    "Yawstrich": "Yawstrich",
+    "Bowgart": "Bowgart",
+    "Clamble": "Clamble",
+    "Congle": "Congle",
+    "Cybop": "Cybop",
+    "Dandidoo": "Dandidoo",
+    "Deedge": "Deedge",
+    "Drumpler": "Drumpler",
+    "Entbrat": "Entbrat",
+    "Epic Bowgart": "Epic Bowgart",
+    "Epic Clamble": "Epic Clamble",
+    "Epic Congle": "Epic Congle",
+    "Epic Cybop": "Epic Cybop",
+    "Epic Dandidoo": "Epic Dandidoo",
+    "Epic Deedge": "Epic Deedge",
+    "Epic Drumpler": "Epic Drumpler",
+    "Epic Entbrat": "Epic Entbrat",
+    "Epic Furcorn": "Epic Furcorn",
+    "Epic Fwog": "Epic Fwog",
+    "Epic Mammott": "Epic Mammott",
+    "Epic Maw": "Epic Maw",
+    "Epic Mimic": "Epic Mimic",
+    "Epic Noggin": "Epic Noggin",
+    "Epic Oaktopus": "Epic Oaktopus",
+    "Epic Pango": "Epic Pango",
+    "Epic PomPom": "Epic PomPom",
+    "Epic Potbelly": "Epic Potbelly",
+    "Epic Pummel": "Epic Pummel",
+    "Epic Quarrister": "Epic Quarrister",
+    "Epic Quibble": "Epic Quibble",
+    "Epic Reedling": "Epic Reedling",
+    "Epic Riff": "Epic Riff",
+    "Epic Scups": "Epic Scups",
+    "Epic Shellbeat": "Epic Shellbeat",
+    "Epic Shrubb": "Epic Shrubb",
+    "Epic Spunge": "Epic Spunge",
+    "Epic T-Rox": "Epic T-Rox",
+    "Epic Thumpies": "Epic Thumpies",
+    "Epic Toe Jammer": "Epic Toe Jammer",
+    "Epic Tweedle": "Epic Tweedle",
+    "Furcorn": "Furcorn",
+    "Fwog": "Fwog",
+    "Mammott": "Mammott",
+    "Maw": "Maw",
+    "Mimic": "Mimic",
+    "Noggin": "Noggin",
+    "Oaktopus": "Oaktopus",
+    "Pango": "Pango",
+    "PomPom": "PomPom",
+    "Potbelly": "Potbelly",
+    "Pummel": "Pummel",
+    "Quarrister": "Quarrister",
+    "Quibble": "Quibble",
+    "Rare Bowgart": "Rare Bowgart",
+    "Rare Clamble": "Rare Clamble",
+    "Rare Congle": "Rare Congle",
+    "Rare Cybop": "Rare Cybop",
+    "Rare Dandidoo": "Rare Dandidoo",
+    "Rare Deedge": "Rare Deedge",
+    "Rare Drumpler": "Rare Drumpler",
+    "Rare Entbrat": "Rare Entbrat",
+    "Rare Furcorn": "Rare Furcorn",
+    "Rare Fwog": "Rare Fwog",
+    "Rare Mammott": "Rare Mammott",
+    "Rare Maw": "Rare Maw",
+    "Rare Mimic": "Rare Mimic",
+    "Rare Noggin": "Rare Noggin",
+    "Rare Oaktopus": "Rare Oaktopus",
+    "Rare Pango": "Rare Pango",
+    "Rare PomPom": "Rare PomPom",
+    "Rare Potbelly": "Rare Potbelly",
+    "Rare Pummel": "Rare Pummel",
+    "Rare Quarrister": "Rare Quarrister",
+    "Rare Quibble": "Rare Quibble",
+    "Rare Reedling": "Rare Reedling",
+    "Rare Riff": "Rare Riff",
+    "Rare Scups": "Rare Scups",
+    "Rare Shellbeat": "Rare Shellbeat",
+    "Rare Shrubb": "Rare Shrubb",
+    "Rare Spunge": "Rare Spunge",
+    "Rare T-Rox": "Rare T-Rox",
+    "Rare Thumpies": "Rare Thumpies",
+    "Rare Toe Jammer": "Rare Toe Jammer",
+    "Rare Tweedle": "Rare Tweedle",
+    "Reedling": "Reedling",
+    "Riff": "Riff",
+    "Scups": "Scups",
+    "Shellbeat": "Shellbeat",
+    "Shrubb": "Shrubb",
+    "Spunge": "Spunge",
+    "T-Rox": "T-Rox",
+    "Thumpies": "Thumpies",
+    "Toe Jammer": "Toe Jammer",
+    "Tweedle": "Tweedle",
+    "Arcorina": "Arcorina",
+    "Dakktyl": "Dakktyl",
+    "Galymph": "Galymph",
+    "Hairionette": "Hairionette",
+    "Illoost": "Illoost",
+    "Jerm": "Jerm",
+    "Owlesque": "Owlesque",
+    "Raqsoun": "Raqsoun",
+    "STRingmaster": "STRingmaster",
+    "Scallyrags": "Scallyrags",
+    "Shhimmer": "Shhimmer",
+    "The Inflatterer": "The Inflatterer",
+    "Unklaw": "Unklaw",
+    "Vawk": "Vawk",
+    "eRmA gUrDy": "eRmA gUrDy",
+    "Bogle": "Bogle",
+    "Droah": "Droah",
+    "Fandhul": "Fandhul",
+    "Lowb": "Lowb",
+    "Blabbit": "Blabbit",
+    "Boo'qwurm": "Boo'qwurm",
+    "Carillong": "Carillong",
+    "Clavavera": "Clavavera",
+    "Epic Blabbit": "Epic Blabbit",
+    "Epic Boo'qwurm": "Epic Boo'qwurm",
+    "Epic Carillong": "Epic Carillong",
+    "Epic Clavavera": "Epic Clavavera",
+    "Epic Ffidyll": "Epic Ffidyll",
+    "Epic Gobbleygourd": "Epic Gobbleygourd",
+    "Epic Hoola": "Epic Hoola",
+    "Epic Jam Boree": "Epic Jam Boree",
+    "Epic Monculus": "Epic Monculus",
+    "Epic Punkleton": "Epic Punkleton",
+    "Epic Schmoochle": "Epic Schmoochle",
+    "Epic Spurrit": "Epic Spurrit",
+    "Epic Viveine": "Epic Viveine",
+    "Epic Whiz-bang": "Epic Whiz-bang",
+    "Epic Yool": "Epic Yool",
+    "Ffidyll": "Ffidyll",
+    "Gobbleygourd": "Gobbleygourd",
+    "Hoola": "Hoola",
+    "Jam Boree": "Jam Boree",
+    "Monculus": "Monculus",
+    "Punkleton": "Punkleton",
+    "Rare Blabbit": "Rare Blabbit",
+    "Rare Boo'qwurm": "Rare Boo'qwurm",
+    "Rare Carillong": "Rare Carillong",
+    "Rare Clavavera": "Rare Clavavera",
+    "Rare Ffidyll": "Rare Ffidyll",
+    "Rare Gobbleygourd": "Rare Gobbleygourd",
+    "Rare Hoola": "Rare Hoola",
+    "Rare Jam Boree": "Rare Jam Boree",
+    "Rare Monculus": "Rare Monculus",
+    "Rare Punkleton": "Rare Punkleton",
+    "Rare Schmoochle": "Rare Schmoochle",
+    "Rare Spurrit": "Rare Spurrit",
+    "Rare Viveine": "Rare Viveine",
+    "Rare Whiz-bang": "Rare Whiz-bang",
+    "Rare Yool": "Rare Yool",
+    "Schmoochle": "Schmoochle",
+    "Spurrit": "Spurrit",
+    "Viveine": "Viveine",
+    "Whiz-bang": "Whiz-bang",
+    "Yool": "Yool",
+    "Astropod": "Astropod",
+    "Blipsqueak": "Blipsqueak",
+    "Bona-Petite": "Bona-Petite",
+    "Brump": "Brump",
+    "Creepuscule": "Creepuscule",
+    "Dermit": "Dermit",
+    "Dwumrohl": "Dwumrohl",
+    "Epic Astropod": "Epic Astropod",
+    "Epic Blipsqueak": "Epic Blipsqueak",
+    "Epic Bona-Petite": "Epic Bona-Petite",
+    "Epic Brump": "Epic Brump",
+    "Epic Dermit": "Epic Dermit",
+    "Epic Dwumrohl": "Epic Dwumrohl",
+    "Epic Fleechwurm": "Epic Fleechwurm",
+    "Epic Gheegur": "Epic Gheegur",
+    "Epic Maulch": "Epic Maulch",
+    "Epic Pixolotl": "Epic Pixolotl",
+    "Epic Poewk": "Epic Poewk",
+    "Epic Thwok": "Epic Thwok",
+    "Epic Tympa": "Epic Tympa",
+    "Epic Wubbox Air": "Epic Wubbox Air",
+    "Epic Wubbox Cold": "Epic Wubbox Cold",
+    "Epic Wubbox Earth": "Epic Wubbox Earth",
+    "Epic Wubbox Ethereal": "Epic Wubbox Ethereal",
+    "Epic Wubbox Haven": "Epic Wubbox Haven",
+    "Epic Wubbox Oasis": "Epic Wubbox Oasis",
+    "Epic Wubbox Plant": "Epic Wubbox Plant",
+    "Epic Wubbox Water": "Epic Wubbox Water",
+    "Epic Zuuker": "Epic Zuuker",
+    "Epic Zynth": "Epic Zynth",
+    "Fleechwurm": "Fleechwurm",
+    "Gheegur": "Gheegur",
+    "Maulch": "Maulch",
+    "Pixolotl": "Pixolotl",
+    "Poewk": "Poewk",
+    "Rare Astropod": "Rare Astropod",
+    "Rare Blipsqueak": "Rare Blipsqueak",
+    "Rare Bona-Petite": "Rare Bona-Petite",
+    "Rare Brump": "Rare Brump",
+    "Rare Creepuscule": "Rare Creepuscule",
+    "Rare Dermit": "Rare Dermit",
+    "Rare Dwumrohl": "Rare Dwumrohl",
+    "Rare Fleechwurm": "Rare Fleechwurm",
+    "Rare Gheegur": "Rare Gheegur",
+    "Rare Maulch": "Rare Maulch",
+    "Rare Pixolotl": "Rare Pixolotl",
+    "Rare Poewk": "Rare Poewk",
+    "Rare Scargo": "Rare Scargo",
+    "Rare Screemu": "Rare Screemu",
+    "Rare Thwok": "Rare Thwok",
+    "Rare Tympa": "Rare Tympa",
+    "Rare Whajje": "Rare Whajje",
+    "Rare Wubbox": "Rare Wubbox",
+    "Rare Zuuker": "Rare Zuuker",
+    "Rare Zynth": "Rare Zynth",
+    "Scargo": "Scargo",
+    "Screemu": "Screemu",
+    "Thwok": "Thwok",
+    "Tympa": "Tympa",
+    "Whajje": "Whajje",
+    "Wubbox": "Wubbox",
     "Zuuker": "Zuuker",
     "Zynth": "Zynth",
-    "eRmA gUrDy": "eRmA gUrDy"
+    "Cruv'laaphtian Crocus": "Cruv'laaphtian Crocus",
+    "Faesoddoid Fungus": "Faesoddoid Fungus",
+    "Phosphoran Phlox": "Phosphoran Phlox"
   },
   "Element Image Manifest": {
     "Celestial": "Celestial.png",
@@ -779,8 +779,2882 @@
       "images/islands/Wublin Island.png"
     ]
   },
-  "Costumes": {},
-  "Sounds": {},
+  "Costumes": {
+    "Alcordion": {
+      "Common": [
+        "Alcordion (ClassicAl Countenance).png"
+      ]
+    },
+    "Anglow": {
+      "Common": [
+        "Anglow (Flashy Wobbler).png",
+        "Anglow (Little Cosmic Egg).png",
+        "Anglow (Splashy Seafarer).png",
+        "Anglow (Steamy Artificer).png"
+      ]
+    },
+    "AnomaLee": {
+      "Common": [
+        "AnomaLee (Fantasy Chrysalis).png",
+        "AnomaLee (Gothic Antihero).png"
+      ]
+    },
+    "Arackulele": {
+      "Common": [
+        "Arackulele (1derland Freeze).png",
+        "Arackulele (Baseborn Busker).png",
+        "Arackulele (Blimp My Ride).png",
+        "Arackulele (Fastest Webslinger).png",
+        "Arackulele (Lionized).png",
+        "Arackulele (Pollinator Poise).png"
+      ]
+    },
+    "Arcorina": {
+      "Common": [
+        "Arcorina (Altared State).png"
+      ]
+    },
+    "Attmoz": {
+      "Common": [
+        "Attmoz (Mecha Trooper).png",
+        "Attmoz (Punk Leather).png"
+      ]
+    },
+    "Barrb": {
+      "Common": [
+        "Barrb (Gourdness Gracious).png"
+      ]
+    },
+    "Bblizard": {
+      "Common": [
+        "Bblizard (OK  Karaoke).png"
+      ]
+    },
+    "BeMeebEth": {
+      "Common": [
+        "BeMeebEth (Planetarium Voyager).png"
+      ]
+    },
+    "Bellowfish": {
+      "Common": [
+        "Bellowfish (1derland Firefighter).png",
+        "Bellowfish (Aquaslime Spout).png",
+        "Bellowfish (Bellow-blerite Belly).png",
+        "Bellowfish (Crystal Habit).png",
+        "Bellowfish (Take the Plunge).png"
+      ]
+    },
+    "Bisonorus": {
+      "Common": [
+        "Bisonorus (Candy Smorgasbord).png"
+      ]
+    },
+    "Blabbit": {
+      "Common": [
+        "Blabbit (Big Shell-Out).png",
+        "Blabbit (Pastoral Pounce).png"
+      ]
+    },
+    "Blowt": {
+      "Common": [
+        "Blowt (Short Fused).png"
+      ]
+    },
+    "Bonkers": {
+      "Common": [
+        "Bonkers (Hardcover Hits).png"
+      ]
+    },
+    "Boodoo": {
+      "Common": [
+        "Boodoo (Chande-leer).png",
+        "Boodoo (Private Eyes).png",
+        "Boodoo (We All Scream).png"
+      ]
+    },
+    "Boskus": {
+      "Common": [
+        "Boskus (Trample On).png"
+      ]
+    },
+    "Bowgart": {
+      "Common": [
+        "Bowgart (Bowzo the Clown).png",
+        "Bowgart (Jack Eloper).png",
+        "Bowgart (Legacy Festival of Yay).png",
+        "Bowgart (Legacy Spooktacle 2012).png",
+        "Bowgart (Legacy Spooktacle 2015).png",
+        "Bowgart (Legacy Spooktacle 2018).png",
+        "Bowgart (Oh Ossy).png",
+        "Bowgart (Ushanka Very Much).png",
+        "Bowgart (Wintergreen Vesture).png",
+        "Bowgart (Wood You Mind).png"
+      ]
+    },
+    "Bowhead": {
+      "Common": [
+        "Bowhead (Tale of a Whale).png"
+      ]
+    },
+    "Bulbo": {
+      "Common": [
+        "Bulbo (Merry and Bright).png"
+      ]
+    },
+    "Buzzinga": {
+      "Common": [
+        "Buzzinga (Orn of Plenty).png"
+      ]
+    },
+    "Candelavra": {
+      "Common": [
+        "Candelavra (Drift Diva).png",
+        "Candelavra (Gobbley Idolater).png",
+        "Candelavra (Metro Flapper).png"
+      ]
+    },
+    "Cantorell": {
+      "Common": [
+        "Cantorell (Buckled Caps).png"
+      ]
+    },
+    "Charrkoll": {
+      "Common": [
+        "Charrkoll (Signature Bow Tie).png",
+        "Charrkoll (Tec-Charrkoll).png"
+      ]
+    },
+    "Cherubble": {
+      "Common": [
+        "Cherubble (Shape of Umm).png"
+      ]
+    },
+    "Clackula": {
+      "Common": [
+        "Clackula (Charming Charro).png"
+      ]
+    },
+    "Clamble": {
+      "Common": [
+        "Clamble (1derland Archer).png",
+        "Clamble (Bough Down).png",
+        "Clamble (Merch Mogul).png",
+        "Clamble (Nevernoot).png",
+        "Clamble (Tasteful Noods).png",
+        "Clamble (Veggie Burger).png",
+        "Clamble (Working in the Lab).png",
+        "Clamble (Youve Got Mail).png"
+      ]
+    },
+    "Congle": {
+      "Common": [
+        "Congle (Beat Poet).png",
+        "Congle (Catch of the Day).png",
+        "Congle (Chick n Chokk).png",
+        "Congle (Giddy Giftwrap).png",
+        "Congle (Monster Mothma).png",
+        "Congle (Playground Calico).png",
+        "Congle (Playground Snow Crab).png",
+        "Congle (Ten Gallon Hat).png",
+        "Congle (Water-shellon).png"
+      ]
+    },
+    "Cybop": {
+      "Common": [
+        "Cybop (1derland Pirate).png",
+        "Cybop (Chitin Mittens).png",
+        "Cybop (Parasol-ing).png",
+        "Cybop (Petal Propeller).png",
+        "Cybop (Rag Mop).png",
+        "Cybop (Talent in Spades).png",
+        "Cybop (You Spin Me Round).png"
+      ]
+    },
+    "Dandidoo": {
+      "Common": [
+        "Dandidoo (1derland Artichoke).png",
+        "Dandidoo (Bubble Whammy).png",
+        "Dandidoo (Fanciful Florets).png",
+        "Dandidoo (GrillMonster).png",
+        "Dandidoo (Memories of Youth).png",
+        "Dandidoo (Orrery Story).png",
+        "Dandidoo (Punk Apparel).png",
+        "Dandidoo (Stocking Cap).png"
+      ]
+    },
+    "Deedge": {
+      "Common": [
+        "Deedge (1derland Sweetheart).png",
+        "Deedge (Beach Bum).png",
+        "Deedge (Cousin Steady).png",
+        "Deedge (Ore So Vein).png",
+        "Deedge (Skrooball).png",
+        "Deedge (Vintage Speakers).png"
+      ]
+    },
+    "Denchuhs": {
+      "Common": [
+        "Denchuhs (Best Cuspuds).png"
+      ]
+    },
+    "Dermit": {
+      "Common": [
+        "Dermit (Flashy Shock Jock).png",
+        "Dermit (Splashy Puffer).png",
+        "Dermit (Steamy Bosun).png"
+      ]
+    },
+    "Do": {
+      "Common": [
+        "Do (Daffodil Topper).png",
+        "Do (Heart Box Topper).png",
+        "Do (Palm Tree Topper).png",
+        "Do (Prezzie Topper).png",
+        "Do (Undead Hand Topper).png"
+      ]
+    },
+    "Dragong": {
+      "Common": [
+        "Dragong (1derland Twin).png",
+        "Dragong (Archaeo Rodeo).png",
+        "Dragong (Frill Thrill).png",
+        "Dragong (Terracotta Regalia).png",
+        "Dragong (Time to Pretend).png"
+      ]
+    },
+    "Drummidary": {
+      "Common": [
+        "Drummidary (Becoming Bijou).png",
+        "Drummidary (Get the Hook).png"
+      ]
+    },
+    "Drumpler": {
+      "Common": [
+        "Drumpler (1derland Frog).png",
+        "Drumpler (Bionic Braces).png",
+        "Drumpler (Cherubic Cheer).png",
+        "Drumpler (Foot of Furcorn Helm).png",
+        "Drumpler (Forward March).png",
+        "Drumpler (Lifeguard Luxe).png",
+        "Drumpler (Lycan Likeness).png",
+        "Drumpler (Thingia Swag).png",
+        "Drumpler (Tomayto Tomahto).png",
+        "Drumpler (Tune Up Mechanic).png"
+      ]
+    },
+    "Dwumrohl": {
+      "Common": [
+        "Dwumrohl (Fantasy Warlock).png",
+        "Dwumrohl (Gothic Maverick).png"
+      ]
+    },
+    "Déjà-Jin": {
+      "Common": [
+        "Déjà-Jin (Lucky Mask).png"
+      ]
+    },
+    "Edamimi": {
+      "Common": [
+        "Edamimi (Fruit Salad Style).png",
+        "Edamimi (Pulse-inella).png"
+      ]
+    },
+    "Enchantling": {
+      "Common": [
+        "Enchantling (Lion Dancer).png"
+      ]
+    },
+    "Entbrat": {
+      "Common": [
+        "Entbrat (1derland Cat).png",
+        "Entbrat (Brat-wurst).png",
+        "Entbrat (Gigacheep Chic).png",
+        "Entbrat (He-Brat Harness).png",
+        "Entbrat (Horn Warmers).png",
+        "Entbrat (Legacy Spooktacle).png",
+        "Entbrat (Playground Hydrangea).png",
+        "Entbrat (Playground Peony).png",
+        "Entbrat (Security Guard).png",
+        "Entbrat (Spiral Engravings).png"
+      ]
+    },
+    "Epic Blabbit": {
+      "Common": [
+        "Epic Blabbit (Velvety Bunnyhug).png"
+      ]
+    },
+    "Epic Bowgart": {
+      "Common": [
+        "Epic Bowgart (Legacy Spooktacle).png",
+        "Epic Bowgart (Pure Polkagris).png"
+      ]
+    },
+    "Epic Clamble": {
+      "Common": [
+        "Epic Clamble (DIY-zard).png"
+      ]
+    },
+    "Epic Cybop": {
+      "Common": [
+        "Epic Cybop (Thruster Thorns).png"
+      ]
+    },
+    "Epic Dandidoo": {
+      "Common": [
+        "Epic Dandidoo (Major Egghead).png"
+      ]
+    },
+    "Epic Entbrat": {
+      "Common": [
+        "Epic Entbrat (Zombie-ie-ie).png"
+      ]
+    },
+    "Epic Furcorn": {
+      "Common": [
+        "Epic Furcorn (Big Blue Bauble).png",
+        "Epic Furcorn (Legacy Spooktacle).png"
+      ]
+    },
+    "Epic Fwog": {
+      "Common": [
+        "Epic Fwog (See No Bite).png"
+      ]
+    },
+    "Epic Hoola": {
+      "Common": [
+        "Epic Hoola (Derby Queen).png"
+      ]
+    },
+    "Epic Jam Boree": {
+      "Common": [
+        "Epic Jam Boree (Almighty Ambrosia).png"
+      ]
+    },
+    "Epic Mammott": {
+      "Common": [
+        "Epic Mammott (E-I-E-I-BUM).png",
+        "Epic Mammott (Legacy Festival of Yay).png",
+        "Epic Mammott (Legacy Spooktacle).png"
+      ]
+    },
+    "Epic Maw": {
+      "Common": [
+        "Epic Maw (Guided Mistletoe).png",
+        "Epic Maw (Legacy Spooktacle).png"
+      ]
+    },
+    "Epic Nebulob": {
+      "Common": [
+        "Epic Nebulob (Vase-cular System).png"
+      ]
+    },
+    "Epic Noggin": {
+      "Common": [
+        "Epic Noggin (Burning Love).png"
+      ]
+    },
+    "Epic Oaktopus": {
+      "Common": [
+        "Epic Oaktopus (Legacy Spooktacle).png"
+      ]
+    },
+    "Epic Pango": {
+      "Common": [
+        "Epic Pango (Cozy Heart).png",
+        "Epic Pango (Legacy Festival of Yay).png"
+      ]
+    },
+    "Epic Phangler": {
+      "Common": [
+        "Epic Phangler (Mecha Scout).png",
+        "Epic Phangler (Punk Rebel).png"
+      ]
+    },
+    "Epic PomPom": {
+      "Common": [
+        "Epic PomPom (Sunshine of My Life).png"
+      ]
+    },
+    "Epic Potbelly": {
+      "Common": [
+        "Epic Potbelly (Drake the Halls).png"
+      ]
+    },
+    "Epic Pummel": {
+      "Common": [
+        "Epic Pummel (Bonnethead).png"
+      ]
+    },
+    "Epic Punkleton": {
+      "Common": [
+        "Epic Punkleton (Cucurbit Carver).png"
+      ]
+    },
+    "Epic Reedling": {
+      "Common": [
+        "Epic Reedling (Cant Stand the Heat).png"
+      ]
+    },
+    "Epic Riff": {
+      "Common": [
+        "Epic Riff (will U B MINE).png"
+      ]
+    },
+    "Epic Rootitoot": {
+      "Common": [
+        "Epic Rootitoot (Doctor Zay-uss).png"
+      ]
+    },
+    "Epic Schmoochle": {
+      "Common": [
+        "Epic Schmoochle (Best Friend Bedecked).png"
+      ]
+    },
+    "Epic Scups": {
+      "Common": [
+        "Epic Scups (Dongle the Thing).png"
+      ]
+    },
+    "Epic Shellbeat": {
+      "Common": [
+        "Epic Shellbeat (Splash Zone).png"
+      ]
+    },
+    "Epic Shrubb": {
+      "Common": [
+        "Epic Shrubb (Legacy Festival of Yay).png",
+        "Epic Shrubb (Mages Cackleberry).png"
+      ]
+    },
+    "Epic Spunge": {
+      "Common": [
+        "Epic Spunge (O Spungy Tree).png"
+      ]
+    },
+    "Epic T-Rox": {
+      "Common": [
+        "Epic T-Rox (Dino-morph).png"
+      ]
+    },
+    "Epic Thumpies": {
+      "Common": [
+        "Epic Thumpies (BoOoo and YucKLeS).png",
+        "Epic Thumpies (MacE and KarrTooF).png"
+      ]
+    },
+    "Epic Toe Jammer": {
+      "Common": [
+        "Epic Toe Jammer (Medusa Doozy).png"
+      ]
+    },
+    "Epic Tweedle": {
+      "Common": [
+        "Epic Tweedle (Quadruple Clawing).png"
+      ]
+    },
+    "Epic Yool": {
+      "Common": [
+        "Epic Yool (Incognito Snowed).png"
+      ]
+    },
+    "Fa": {
+      "Common": [
+        "Fa (Freesia Topper).png",
+        "Fa (Headstone Topper).png",
+        "Fa (Love Letter Topper).png",
+        "Fa (Snow Cone Topper).png",
+        "Fa (Tiki Mask Topper).png"
+      ]
+    },
+    "Fleechwurm": {
+      "Common": [
+        "Fleechwurm (Mecha Drone).png",
+        "Fleechwurm (Punk Stud).png"
+      ]
+    },
+    "Floogull": {
+      "Common": [
+        "Floogull (Appetizing Apron).png"
+      ]
+    },
+    "Floot Fly": {
+      "Common": [
+        "Floot Fly (The Green Mon).png"
+      ]
+    },
+    "Flowah": {
+      "Common": [
+        "Flowah (Gobbley Mascot).png",
+        "Flowah (Secondhand Sunnies).png"
+      ]
+    },
+    "Flum Ox": {
+      "Common": [
+        "Flum Ox (Bovine Unicorn).png"
+      ]
+    },
+    "Fluoress": {
+      "Common": [
+        "Fluoress (Pride and Precious Fits).png"
+      ]
+    },
+    "Frondley": {
+      "Common": [
+        "Frondley (Hot Pot Hum).png"
+      ]
+    },
+    "Fung Pray": {
+      "Common": [
+        "Fung Pray (Awesome Saucer).png",
+        "Fung Pray (Burgomaster).png",
+        "Fung Pray (Tip Topiary).png",
+        "Fung Pray (Under my Umbrella).png"
+      ]
+    },
+    "Furcorn": {
+      "Common": [
+        "Furcorn (1derland Bar).png",
+        "Furcorn (Ananastic).png",
+        "Furcorn (Canuck Stalk).png",
+        "Furcorn (Chaun Job).png",
+        "Furcorn (Clubbox Swagger).png",
+        "Furcorn (Fandemonium Frock).png",
+        "Furcorn (Fashion Forward).png",
+        "Furcorn (Festive Socks).png",
+        "Furcorn (Freshener-Faced).png",
+        "Furcorn (Legacy Spooktacle 2012).png",
+        "Furcorn (Legacy Spooktacle 2015).png",
+        "Furcorn (Legacy Spooktacle 2018).png",
+        "Furcorn (Legacy Spooktacle 2019).png",
+        "Furcorn (Lucky Thirteen).png",
+        "Furcorn (Playground Pourge).png",
+        "Furcorn (Playground Strawberry).png",
+        "Furcorn (Spritely Sheet).png",
+        "Furcorn (Voidcorn).png"
+      ]
+    },
+    "Fwog": {
+      "Common": [
+        "Fwog (All Squashed Up).png",
+        "Fwog (Bunny Slippers).png",
+        "Fwog (Calaca Coiffure).png",
+        "Fwog (Ironclad Claws).png",
+        "Fwog (Lovestruck).png",
+        "Fwog (Mer-Meridian).png",
+        "Fwog (Narwhaaa).png"
+      ]
+    },
+    "Ghazt": {
+      "Common": [
+        "Ghazt (1derland Lemonade).png",
+        "Ghazt (Blinded with Science).png",
+        "Ghazt (Flashy PLURalist).png",
+        "Ghazt (GKO).png",
+        "Ghazt (Kinda Sketchy).png",
+        "Ghazt (Med-Hiss-inal).png",
+        "Ghazt (Orbiting Ova).png",
+        "Ghazt (Seus-spicious).png",
+        "Ghazt (Splashy Portalist).png",
+        "Ghazt (Steamy Aetherist).png"
+      ]
+    },
+    "Gjoob": {
+      "Common": [
+        "Gjoob (Sgt Flipper).png"
+      ]
+    },
+    "Gloptic": {
+      "Common": [
+        "Gloptic (Langstrump).png"
+      ]
+    },
+    "Glowl": {
+      "Common": [
+        "Glowl (Airhart).png",
+        "Glowl (Gobbley Tribute).png"
+      ]
+    },
+    "Gnarls": {
+      "Common": [
+        "Gnarls (Teddiberry Trim).png",
+        "Gnarls (Tree of Life).png"
+      ]
+    },
+    "Gob": {
+      "Common": [
+        "Gob (Blinky Buddy).png"
+      ]
+    },
+    "Grumpyre": {
+      "Common": [
+        "Grumpyre (1derland Dynamo).png",
+        "Grumpyre (Dungeon Master).png",
+        "Grumpyre (Garbed in Goth).png",
+        "Grumpyre (Holly-lujah).png",
+        "Grumpyre (Im Not the Sun).png"
+      ]
+    },
+    "Hairionette": {
+      "Common": [
+        "Hairionette (Old-Fashioned).png",
+        "Hairionette (Oz and Effect).png"
+      ]
+    },
+    "Hawlo": {
+      "Common": [
+        "Hawlo (Hawlo Knight).png"
+      ]
+    },
+    "HippityHop": {
+      "Common": [
+        "HippityHop (Peanut Gallery).png"
+      ]
+    },
+    "Hoola": {
+      "Common": [
+        "Hoola (Bubblegum Citrus).png",
+        "Hoola (DJ Epic Drip).png",
+        "Hoola (Drift Powerslide).png",
+        "Hoola (Flower Earth Child).png",
+        "Hoola (Golf Pro).png",
+        "Hoola (M-Pop Vocalist).png",
+        "Hoola (Metro Moderne).png"
+      ]
+    },
+    "Hornacle": {
+      "Common": [
+        "Hornacle (Flashy Raver).png",
+        "Hornacle (Splashy Sidekick).png",
+        "Hornacle (Steamy Skipper).png"
+      ]
+    },
+    "Humbug": {
+      "Common": [
+        "Humbug (Big Fungus).png",
+        "Humbug (Kissing Booth).png",
+        "Humbug (MailMon Mike).png",
+        "Humbug (Straw Hat Disguise).png"
+      ]
+    },
+    "Hyehehe": {
+      "Common": [
+        "Hyehehe (Snicker Snorkel).png"
+      ]
+    },
+    "Incisaur": {
+      "Common": [
+        "Incisaur (Amiable Alebrije).png"
+      ]
+    },
+    "Jam Boree": {
+      "Common": [
+        "Jam Boree (Say Cherry Cheese).png"
+      ]
+    },
+    "Jeeode": {
+      "Common": [
+        "Jeeode (Arctic Armonica).png",
+        "Jeeode (Darlin Garlands).png",
+        "Jeeode (For Soothsayer).png",
+        "Jeeode (Krystillium Kouture).png",
+        "Jeeode (Tactile Taproot).png"
+      ]
+    },
+    "Jellbilly": {
+      "Common": [
+        "Jellbilly (Propeller Beanie).png",
+        "Jellbilly (Refrain Conductor).png",
+        "Jellbilly (Revisionist History).png",
+        "Jellbilly (Think Tank).png"
+      ]
+    },
+    "Kayna": {
+      "Common": [
+        "Kayna (Gobbley Get-Up).png",
+        "Kayna (Halleberry Heat).png",
+        "Kayna (Light-Bright).png",
+        "Kayna (Playground Frostbite).png",
+        "Kayna (Playground Roseate).png",
+        "Kayna (Trailblazer).png"
+      ]
+    },
+    "Kazilleon": {
+      "Common": [
+        "Kazilleon (1derland Bright).png",
+        "Kazilleon (Ivy League).png",
+        "Kazilleon (Lobster Role).png",
+        "Kazilleon (Paleo Diet).png",
+        "Kazilleon (Scale Model).png"
+      ]
+    },
+    "Knurv": {
+      "Common": [
+        "Knurv (Cadaverous Cryptid).png"
+      ]
+    },
+    "Krillby": {
+      "Common": [
+        "Krillby (Kangafruit Cocktail).png"
+      ]
+    },
+    "La": {
+      "Common": [
+        "La (Frosty Face Topper).png",
+        "La (Hibiscus Topper).png",
+        "La (Lily-of-the-Valley Topper).png",
+        "La (Teddybear Topper).png",
+        "La (Witch Hat Topper).png"
+      ]
+    },
+    "Maggpi": {
+      "Common": [
+        "Maggpi (Cane-Do Attitude).png",
+        "Maggpi (Positively Brimming).png"
+      ]
+    },
+    "Mammott": {
+      "Common": [
+        "Mammott (1derland Cotton Candy).png",
+        "Mammott (Automammotton).png",
+        "Mammott (Belt of Belting).png",
+        "Mammott (Bill).png",
+        "Mammott (BlitherPhish Merch).png",
+        "Mammott (Bunce Cap).png",
+        "Mammott (Clubbox HypeMon).png",
+        "Mammott (Fandemonium Duds).png",
+        "Mammott (Father Yay).png",
+        "Mammott (LVX LVMENZ Merch).png",
+        "Mammott (Legacy Spooktacle 2012).png",
+        "Mammott (Legacy Spooktacle 2014).png",
+        "Mammott (Mam-maillot).png",
+        "Mammott (Off the Cuffs).png",
+        "Mammott (Playground Panda).png",
+        "Mammott (Playground Sloth).png",
+        "Mammott (Pomily Family Band Merch).png",
+        "Mammott (Rapture in Ruins Merch).png",
+        "Mammott (Sea Sharp).png",
+        "Mammott (Stentorian Skeleton).png",
+        "Mammott (Water Buff-a-low).png",
+        "Mammott (Waveform Merch).png"
+      ]
+    },
+    "Maw": {
+      "Common": [
+        "Maw (1derland Corn).png",
+        "Maw (Antique Antennae).png",
+        "Maw (Groucho Slouch).png",
+        "Maw (Heart Bopper).png",
+        "Maw (Honeycombover).png",
+        "Maw (No Eyes with a Vase).png",
+        "Maw (Portable Maptop).png",
+        "Maw (Sensory Furphones).png",
+        "Maw (Wreck the Halls).png"
+      ]
+    },
+    "Mi": {
+      "Common": [
+        "Mi (Boo-in-the-Box Topper).png",
+        "Mi (Muscari Topper).png",
+        "Mi (Pineapple Topper).png",
+        "Mi (Stocking Topper).png",
+        "Mi (Sweetheart Topper).png"
+      ]
+    },
+    "Mimic": {
+      "Common": [
+        "Mimic (Festyvalgoer).png",
+        "Mimic (In Between Evolution).png"
+      ]
+    },
+    "Monculus": {
+      "Common": [
+        "Monculus (Fantasy Gladiator).png",
+        "Monculus (Gothic Ruffian).png"
+      ]
+    },
+    "Mushaboom": {
+      "Common": [
+        "Mushaboom (Gift Box Goodies).png"
+      ]
+    },
+    "Mysterious Werdo": {
+      "Common": [
+        "Mysterious Werdo (Fantasy Chrysalis).png",
+        "Mysterious Werdo (Gothic Antihero).png"
+      ]
+    },
+    "Nebulob": {
+      "Common": [
+        "Nebulob (1derland Shocker).png",
+        "Nebulob (Air Purifier).png",
+        "Nebulob (Mega Mon).png",
+        "Nebulob (Shake n Flake).png",
+        "Nebulob (Sticky Handed).png"
+      ]
+    },
+    "Noggin": {
+      "Common": [
+        "Noggin (1derland Ice).png",
+        "Noggin (Ball Bearing).png",
+        "Noggin (Chalk-full).png",
+        "Noggin (HELPful Rings).png",
+        "Noggin (Kinetic Kicks).png",
+        "Noggin (Playground Gamemaker).gif",
+        "Noggin (Rock Candy).png",
+        "Noggin (Slideshow Intern).png",
+        "Noggin (Two to Tango).png"
+      ]
+    },
+    "Oaktopus": {
+      "Common": [
+        "Oaktopus (1derland Bok Choy).png",
+        "Oaktopus (Bred Delicious).png",
+        "Oaktopus (Cotton Dandy).png",
+        "Oaktopus (Cushy Curlers).png",
+        "Oaktopus (Eggy Wiggs).png",
+        "Oaktopus (Gone Commercial).png",
+        "Oaktopus (TPd Shoubadour).png",
+        "Oaktopus (Target Practice).png",
+        "Oaktopus (Touch of Tromino).png"
+      ]
+    },
+    "Osstax": {
+      "Common": [
+        "Osstax (Golden Ginkgos).png"
+      ]
+    },
+    "Owlesque": {
+      "Common": [
+        "Owlesque (Great Pretender).png"
+      ]
+    },
+    "Pango": {
+      "Common": [
+        "Pango (1derland Crystal).png",
+        "Pango (Cozy Winter Wear).png",
+        "Pango (Downhome Puffin).png",
+        "Pango (Dynamic Dome).png",
+        "Pango (Lei It On Me).png",
+        "Pango (Playground Blue Jay).png",
+        "Pango (Playground Toucan).png",
+        "Pango (PosiTRONic).png",
+        "Pango (Prom King).png",
+        "Pango (Rainbow Raiment).png",
+        "Pango (Serving of Just Ice).png"
+      ]
+    },
+    "Parlsona": {
+      "Common": [
+        "Parlsona (Papercute).png",
+        "Parlsona (Witch is Which).png",
+        "Parlsona (Wondrous Waistcoat).png"
+      ]
+    },
+    "Peckidna": {
+      "Common": [
+        "Peckidna (Calaverita Cutie).png"
+      ]
+    },
+    "Periscorp": {
+      "Common": [
+        "Periscorp (Other Monster).png"
+      ]
+    },
+    "Phangler": {
+      "Common": [
+        "Phangler (Sumpter Net).png"
+      ]
+    },
+    "Pladdie": {
+      "Common": [
+        "Pladdie (Bullate Bloomer).png"
+      ]
+    },
+    "Plinkajou": {
+      "Common": [
+        "Plinkajou (Monarchs Rest).png"
+      ]
+    },
+    "Poewk": {
+      "Common": [
+        "Poewk (Fantasy Ranger).png",
+        "Poewk (Gothic Surgeon).png"
+      ]
+    },
+    "PomPom": {
+      "Common": [
+        "PomPom (1derland Rabbit).png",
+        "PomPom (Borg Booties).png",
+        "PomPom (Bubblegum Lollipop).png",
+        "PomPom (Drop-Dead Gorg).png",
+        "PomPom (Fandemonium Uniform).png",
+        "PomPom (Fantasy Wings).png",
+        "PomPom (Flower Tie-dye).png",
+        "PomPom (Homecoming Queen).png",
+        "PomPom (M-Pop Leader).png",
+        "PomPom (Not So Mid Summer).png",
+        "PomPom (Offworld Outfit).png",
+        "PomPom (On the Bleachers).png",
+        "PomPom (Playground Candy Cane).png",
+        "PomPom (Playground Moody).png",
+        "PomPom (Pom-Mohawk).png"
+      ]
+    },
+    "PongPing": {
+      "Common": [
+        "PongPing (Luck o the Firish).png"
+      ]
+    },
+    "Potbelly": {
+      "Common": [
+        "Potbelly (1derland Fins).png",
+        "Potbelly (Beauteous Bloom).png",
+        "Potbelly (Bowl-Cuttings).png",
+        "Potbelly (Infamous Mug Pot).png",
+        "Potbelly (Lichenthrope).png",
+        "Potbelly (Mean Green).png",
+        "Potbelly (Shopping Spurge).png",
+        "Potbelly (Soils of Spore).png"
+      ]
+    },
+    "Pummel": {
+      "Common": [
+        "Pummel (Baited Breath).png",
+        "Pummel (Carotene Bump).png",
+        "Pummel (Horned Spangenhelm).png",
+        "Pummel (Ol 1-2 Thump).png",
+        "Pummel (Rainbow Shark).png",
+        "Pummel (Toque-n Togs).png",
+        "Pummel (Trickster Trappings).png"
+      ]
+    },
+    "Punkleton": {
+      "Common": [
+        "Punkleton (Mouth Waterer).png",
+        "Punkleton (Squashetor).png"
+      ]
+    },
+    "Quarrister": {
+      "Common": [
+        "Quarrister (1derland Tiger Troupe).png",
+        "Quarrister (Rock Pile Rags).png",
+        "Quarrister (Sparring Pads).png",
+        "Quarrister (Sweatbands).png",
+        "Quarrister (Teddy Rocks-Pin).png",
+        "Quarrister (Tentacool).png"
+      ]
+    },
+    "Quibble": {
+      "Common": [
+        "Quibble (1derland Draconic).png",
+        "Quibble (Beaky Clean).png",
+        "Quibble (Chokkolit Keys).png",
+        "Quibble (Dyad Hatters).png",
+        "Quibble (Miner Key).png",
+        "Quibble (Sakura Corsage).png",
+        "Quibble (Torrtle Doves).png",
+        "Quibble (Valiant Visors).png"
+      ]
+    },
+    "Rare Blabbit": {
+      "Common": [
+        "Rare Blabbit (Convincing Fake).png"
+      ]
+    },
+    "Rare Boodoo": {
+      "Common": [
+        "Rare Boodoo (Speaking in Tongues).png"
+      ]
+    },
+    "Rare Bowgart": {
+      "Common": [
+        "Rare Bowgart (Bolt-gart).png",
+        "Rare Bowgart (Legacy Festival of Yay).png",
+        "Rare Bowgart (Legacy Spooktacle).png"
+      ]
+    },
+    "Rare Clamble": {
+      "Common": [
+        "Rare Clamble (On a LARP).png"
+      ]
+    },
+    "Rare Congle": {
+      "Common": [
+        "Rare Congle (Gaudy Giftwrap).png",
+        "Rare Congle (Legacy Festival of Yay).png"
+      ]
+    },
+    "Rare Cranchee": {
+      "Common": [
+        "Rare Cranchee (Drift Clutch).png",
+        "Rare Cranchee (Metro Mobster).png"
+      ]
+    },
+    "Rare Dandidoo": {
+      "Common": [
+        "Rare Dandidoo (Legacy Festival of Yay).png",
+        "Rare Dandidoo (Onesie Twosie).png"
+      ]
+    },
+    "Rare Entbrat": {
+      "Common": [
+        "Rare Entbrat (Legacy Spooktacle 2016).png",
+        "Rare Entbrat (Legacy Spooktacle 2019).png"
+      ]
+    },
+    "Rare Flowah": {
+      "Common": [
+        "Rare Flowah (Beads of Sweat).png"
+      ]
+    },
+    "Rare Furcorn": {
+      "Common": [
+        "Rare Furcorn (Furcorn the 13th).png",
+        "Rare Furcorn (Legacy Festival of Yay).png",
+        "Rare Furcorn (Legacy Spooktacle 2015).png",
+        "Rare Furcorn (Whats the Ti).png"
+      ]
+    },
+    "Rare Fwog": {
+      "Common": [
+        "Rare Fwog (Legacy Spooktacle).png"
+      ]
+    },
+    "Rare Hoola": {
+      "Common": [
+        "Rare Hoola (Track Star).png"
+      ]
+    },
+    "Rare Jam Boree": {
+      "Common": [
+        "Rare Jam Boree (Corporate Cake).png"
+      ]
+    },
+    "Rare Mammott": {
+      "Common": [
+        "Rare Mammott (Kramp My Style).png",
+        "Rare Mammott (Legacy Spooktacle).png"
+      ]
+    },
+    "Rare Maw": {
+      "Common": [
+        "Rare Maw (Smitten Stritch).png"
+      ]
+    },
+    "Rare Noggin": {
+      "Common": [
+        "Rare Noggin (Legacy Spooktacle).png",
+        "Rare Noggin (Rock and Dice Roll).png"
+      ]
+    },
+    "Rare Pango": {
+      "Common": [
+        "Rare Pango (Legacy Festival of Yay).png"
+      ]
+    },
+    "Rare PomPom": {
+      "Common": [
+        "Rare PomPom (Legacy Spooktacle).png"
+      ]
+    },
+    "Rare Potbelly": {
+      "Common": [
+        "Rare Potbelly (Legacy Festival of Yay).png"
+      ]
+    },
+    "Rare Pummel": {
+      "Common": [
+        "Rare Pummel (Legacy Festival of Yay).png",
+        "Rare Pummel (Legacy Spooktacle).png"
+      ]
+    },
+    "Rare Punkleton": {
+      "Common": [
+        "Rare Punkleton (Demogourdon).png"
+      ]
+    },
+    "Rare Quibble": {
+      "Common": [
+        "Rare Quibble (Sunday Best).png"
+      ]
+    },
+    "Rare Reebro": {
+      "Common": [
+        "Rare Reebro (Legacy Spooktacle).png"
+      ]
+    },
+    "Rare Reedling": {
+      "Common": [
+        "Rare Reedling (Legacy Spooktacle 2016).png",
+        "Rare Reedling (Legacy Spooktacle 2018).png",
+        "Rare Reedling (Legacy Spooktacle 2019).png"
+      ]
+    },
+    "Rare Rooba": {
+      "Common": [
+        "Rare Rooba (Picsie Perfect).png"
+      ]
+    },
+    "Rare Schmoochle": {
+      "Common": [
+        "Rare Schmoochle (Lover AND Fighter).png"
+      ]
+    },
+    "Rare Scups": {
+      "Common": [
+        "Rare Scups (Legacy Festival of Yay).png"
+      ]
+    },
+    "Rare Shellbeat": {
+      "Common": [
+        "Rare Shellbeat (Mecha Smith).png",
+        "Rare Shellbeat (Punk Subculture).png"
+      ]
+    },
+    "Rare Shrubb": {
+      "Common": [
+        "Rare Shrubb (Legacy Festival of Yay).png",
+        "Rare Shrubb (Legacy Spooktacle).png"
+      ]
+    },
+    "Rare Spunge": {
+      "Common": [
+        "Rare Spunge (Legacy Spooktacle).png"
+      ]
+    },
+    "Rare Thumpies": {
+      "Common": [
+        "Rare Thumpies (FLipPy and TawooO).png",
+        "Rare Thumpies (Gahwg and Anyanka).png",
+        "Rare Thumpies (Legacy Festival of Yay).png",
+        "Rare Thumpies (Legacy Spooktacle).png",
+        "Rare Thumpies (SkwEE and ChesH).png"
+      ]
+    },
+    "Rare Toe Jammer": {
+      "Common": [
+        "Rare Toe Jammer (Bunny Ears).png"
+      ]
+    },
+    "Rare Whisp": {
+      "Common": [
+        "Rare Whisp (Legacy Spooktacle).png"
+      ]
+    },
+    "Rare Wynq": {
+      "Common": [
+        "Rare Wynq (Horpustrip).png"
+      ]
+    },
+    "Rare Yool": {
+      "Common": [
+        "Rare Yool (Know Me Better).png"
+      ]
+    },
+    "Re": {
+      "Common": [
+        "Re (Abnormal Skull Topper).png",
+        "Re (Choktruff Topper).png",
+        "Re (Pull Bow Topper).png",
+        "Re (Ranunculus Topper).png",
+        "Re (Volcano Topper).png"
+      ]
+    },
+    "Reebro": {
+      "Common": [
+        "Reebro (1derland Armor).png",
+        "Reebro (Brain on Plugs).png",
+        "Reebro (Chiefly Masterful).png",
+        "Reebro (Future So Bright).png",
+        "Reebro (Love Machine).png",
+        "Reebro (Proof of Concept).png"
+      ]
+    },
+    "Reedling": {
+      "Common": [
+        "Reedling (1derland Horn).png",
+        "Reedling (Beetle Bounce).png",
+        "Reedling (Breath Tweeter).png",
+        "Reedling (Grassy Gnoll).png",
+        "Reedling (Hot Tropic).png",
+        "Reedling (In It To Fin It).png",
+        "Reedling (Legacy Spooktacle).png",
+        "Reedling (Oni-rous Mask).png",
+        "Reedling (Smunkin Mask).png"
+      ]
+    },
+    "Repatillo": {
+      "Common": [
+        "Repatillo (Gobbley Homage).png"
+      ]
+    },
+    "Riff": {
+      "Common": [
+        "Riff (1derland Post Officer).png",
+        "Riff (Fantasy Gatekeeper).png",
+        "Riff (Gothic Aristobat).png",
+        "Riff (Heavymetal Helmet).png",
+        "Riff (Power of Luff).png",
+        "Riff (Rockin Around the Yay Tree).png",
+        "Riff (Seaweed Wraps).png",
+        "Riff (Spiny Six-String).png"
+      ]
+    },
+    "Rooba": {
+      "Common": [
+        "Rooba (Bubblegum Floss).png",
+        "Rooba (Flower Boho Chic).png",
+        "Rooba (M-Pop Visual).png"
+      ]
+    },
+    "Rootitoot": {
+      "Common": [
+        "Rootitoot (Jigsaw Spud).png"
+      ]
+    },
+    "Schmoochle": {
+      "Common": [
+        "Schmoochle (Dashing Suitor).png",
+        "Schmoochle (Gonna be Golden).png"
+      ]
+    },
+    "Scups": {
+      "Common": [
+        "Scups (1derland Chirper).png",
+        "Scups (Aloof Leaf).png",
+        "Scups (Nest Egg).png",
+        "Scups (Plans for Nigel).png",
+        "Scups (Plug Lyfe).png",
+        "Scups (Ruddy Rednose).png",
+        "Scups (Shape of You).png",
+        "Scups (Space Ploddity).png"
+      ]
+    },
+    "ShLep": {
+      "Common": [
+        "ShLep (Surprisingly Kind).png"
+      ]
+    },
+    "Shellbeat": {
+      "Common": [
+        "Shellbeat (Call of Shellthulhu).png",
+        "Shellbeat (Cod Topper).png",
+        "Shellbeat (Cooler Head Prevails).png",
+        "Shellbeat (Dirty Work).png",
+        "Shellbeat (Driftwood Drum).png",
+        "Shellbeat (Gene Krabba).png"
+      ]
+    },
+    "Shhimmer": {
+      "Common": [
+        "Shhimmer (Fructuous Footage).png"
+      ]
+    },
+    "Shrubb": {
+      "Common": [
+        "Shrubb (1derland Scuba).png",
+        "Shrubb (Conehead).png",
+        "Shrubb (Drool Noodles).png",
+        "Shrubb (Ire Hydrant).png",
+        "Shrubb (Legacy Festival of Yay).png",
+        "Shrubb (Shrubbles the Clown).png",
+        "Shrubb (Spring in Your Step).png",
+        "Shrubb (Thumpiebait Cap).png"
+      ]
+    },
+    "Sneyser": {
+      "Common": [
+        "Sneyser (Observatoribum).png"
+      ]
+    },
+    "Sol": {
+      "Common": [
+        "Sol (Chokstrawb Topper).png",
+        "Sol (Coconut Topper).png",
+        "Sol (Smunk-o-Lantern Topper).png",
+        "Sol (Snowdrop Topper).png",
+        "Sol (Two Canes Topper).png"
+      ]
+    },
+    "Sooza": {
+      "Common": [
+        "Sooza (Bubblegum Sprinkles).png",
+        "Sooza (Flower Free Spirit).png",
+        "Sooza (M-Pop All-Rounder).png",
+        "Sooza (Parade Prepped).png"
+      ]
+    },
+    "Sox": {
+      "Common": [
+        "Sox (Business Casual).png",
+        "Sox (Careless Kit).png",
+        "Sox (Forest Cloak).png",
+        "Sox (What Big Eyes).png"
+      ]
+    },
+    "Spunge": {
+      "Common": [
+        "Spunge (1derland Mermaid).png",
+        "Spunge (Holiday Party).png",
+        "Spunge (Peep Show).png",
+        "Spunge (Perfect Hennin).png",
+        "Spunge (Starry Eyes).png",
+        "Spunge (Umbrella Hat).png",
+        "Spunge (Vampiric Veneer).png",
+        "Spunge (Wetsuit Whimsy).png"
+      ]
+    },
+    "Spurrit": {
+      "Common": [
+        "Spurrit (Badge of Honor).png"
+      ]
+    },
+    "Spytrap": {
+      "Common": [
+        "Spytrap (Prismatica Ball).png"
+      ]
+    },
+    "Squot": {
+      "Common": [
+        "Squot (I Knew You Were Truffle).png"
+      ]
+    },
+    "Stogg": {
+      "Common": [
+        "Stogg (Drop the Myc).png",
+        "Stogg (Monkey Business).png"
+      ]
+    },
+    "Stoowarb": {
+      "Common": [
+        "Stoowarb (Adorpheus).png",
+        "Stoowarb (Nutcracker Sweetie).png"
+      ]
+    },
+    "Strombonin": {
+      "Common": [
+        "Strombonin (Peppermint Swirl).png"
+      ]
+    },
+    "T-Pirainha": {
+      "Common": [
+        "T-Pirainha (Flashy Front Mon).png",
+        "T-Pirainha (Splashy Sanga).png",
+        "T-Pirainha (Steamy Captain).png"
+      ]
+    },
+    "T-Rox": {
+      "Common": [
+        "T-Rox (1derland Bamboo).png",
+        "T-Rox (Chain Reaction).png",
+        "T-Rox (Cinderfella).png",
+        "T-Rox (Construction a Head).png",
+        "T-Rox (Fossil Faucet).png",
+        "T-Rox (Gamma Guise).png",
+        "T-Rox (Gilded Pauldrons).png",
+        "T-Rox (Piñata T-Rox).png",
+        "T-Rox (Summer Blockbuster).png"
+      ]
+    },
+    "Tapricorn": {
+      "Common": [
+        "Tapricorn (Edge of the Map).png"
+      ]
+    },
+    "Tawkerr": {
+      "Common": [
+        "Tawkerr (Detective SherTawk).png",
+        "Tawkerr (I Want My Mummy).png",
+        "Tawkerr (Stark Raving).png"
+      ]
+    },
+    "Teeter-Tauter": {
+      "Common": [
+        "Teeter-Tauter (Helping Hands).png",
+        "Teeter-Tauter (Tater-Totter).png"
+      ]
+    },
+    "The Inflatterer": {
+      "Common": [
+        "The Inflatterer (Drift Honk).png",
+        "The Inflatterer (Metro Stretch).png"
+      ]
+    },
+    "Theremind": {
+      "Common": [
+        "Theremind (Believe in Magic).png",
+        "Theremind (Rhymes with Orange).png"
+      ]
+    },
+    "Thrumble": {
+      "Common": [
+        "Thrumble (If Looks Could Kill).png"
+      ]
+    },
+    "Thumpies": {
+      "Common": [
+        "Thumpies (Aug-mandibles).png",
+        "Thumpies (ChoMph and MoSH).png",
+        "Thumpies (Crash Test Gear).png",
+        "Thumpies (Fluffy Snowballs).png",
+        "Thumpies (FwoOT and BuTter).png",
+        "Thumpies (KaL and Gooie).png",
+        "Thumpies (Odd-ball Flavor).png",
+        "Thumpies (Take Me to Thumpie Town).png",
+        "Thumpies (Thump and Chase).png",
+        "Thumpies (sKetcHY and BeehAw).png"
+      ]
+    },
+    "Ti": {
+      "Common": [
+        "Ti (Bouquet Topper).png",
+        "Ti (Festive Tree Topper).png",
+        "Ti (Flora Topper).png",
+        "Ti (Treat Bag Topper).png",
+        "Ti (Tulip Topper).png"
+      ]
+    },
+    "Tiawa": {
+      "Common": [
+        "Tiawa (Flash Prance).png"
+      ]
+    },
+    "Toe Jammer": {
+      "Common": [
+        "Toe Jammer (1derland Cream).png",
+        "Toe Jammer (Bow Glamor).png",
+        "Toe Jammer (Flair Supply).png",
+        "Toe Jammer (Floral Fascinator).png",
+        "Toe Jammer (Folly Roger).png",
+        "Toe Jammer (Frosty the Toe Mon).png",
+        "Toe Jammer (Pad Hair Day).png",
+        "Toe Jammer (Slippery when Iced).png",
+        "Toe Jammer (Socks of Splendor).png"
+      ]
+    },
+    "TooToo": {
+      "Common": [
+        "TooToo (Bubblegum Gummy).png",
+        "TooToo (CMYK Cutie).png",
+        "TooToo (Flower Groovy Gal).png",
+        "TooToo (M-Pop Maknae).png"
+      ]
+    },
+    "Tring": {
+      "Common": [
+        "Tring (Harvest Basket).png"
+      ]
+    },
+    "Tuskski": {
+      "Common": [
+        "Tuskski (Green Jumbo).png",
+        "Tuskski (Sundae Sailor).png"
+      ]
+    },
+    "Tweedle": {
+      "Common": [
+        "Tweedle (1derland Chick).png",
+        "Tweedle (All-Seeing Belly).png",
+        "Tweedle (Be Like the Bluebird).png",
+        "Tweedle (Clubbox Necklace).png",
+        "Tweedle (Growth Spur-ts).png",
+        "Tweedle (Party Hardy Hat).png",
+        "Tweedle (Plaster of Power).png",
+        "Tweedle (Rose-Colored Glasses).png",
+        "Tweedle (Tuxtweedo Mask).png"
+      ]
+    },
+    "Uuduk": {
+      "Common": [
+        "Uuduk (Sugar Skull).png"
+      ]
+    },
+    "Whaddle": {
+      "Common": [
+        "Whaddle (Great Scaup).png"
+      ]
+    },
+    "Whisp": {
+      "Common": [
+        "Whisp (1derland Medusa).png",
+        "Whisp (Blue Balayage).png",
+        "Whisp (Cute Corsair).png",
+        "Whisp (Familiar Phase).png",
+        "Whisp (Flaxen Siren).png",
+        "Whisp (Fractal Crown).png"
+      ]
+    },
+    "Wimmzies": {
+      "Common": [
+        "Wimmzies (The Jig is Up).png"
+      ]
+    },
+    "Woolabee": {
+      "Common": [
+        "Woolabee (Best of All Possible Birds).png",
+        "Woolabee (Cartographer Cud).png"
+      ]
+    },
+    "Wubbox": {
+      "Common": [
+        "Wubbox (1derland Prime).png",
+        "Wubbox (Boomerkrang).png",
+        "Wubbox (En-Ginger-eering).png",
+        "Wubbox (Hey Wubberboy).png",
+        "Wubbox (In Da Club).png",
+        "Wubbox (Mmmetallized).png"
+      ]
+    },
+    "Wynq": {
+      "Common": [
+        "Wynq (Loopy Loupes).png",
+        "Wynq (Ranch Dressing).png"
+      ]
+    },
+    "Xrt": {
+      "Common": [
+        "Xrt (Xrt Likes Soup).png"
+      ]
+    },
+    "Xyster": {
+      "Common": [
+        "Xyster (Koi With Me).png"
+      ]
+    },
+    "Yawstrich": {
+      "Common": [
+        "Yawstrich (First Date).png"
+      ]
+    },
+    "Yelmut": {
+      "Common": [
+        "Yelmut (Apt Apriarist).png"
+      ]
+    },
+    "Yool": {
+      "Common": [
+        "Yool (Fir Suit).png",
+        "Yool (Reindeer Games).png"
+      ]
+    },
+    "Yuggler": {
+      "Common": [
+        "Yuggler (Puzzle Solver).png"
+      ]
+    },
+    "Ziggurab": {
+      "Common": [
+        "Ziggurab (Heart of Gold).png"
+      ]
+    }
+  },
+  "Sounds": {
+    "Alcordion": {
+      "Common": [
+        "Alcordion.mp3"
+      ]
+    },
+    "Anglow": {
+      "Common": [
+        "Anglow.mp3"
+      ]
+    },
+    "AnomaLee": {
+      "Common": [
+        "AnomaLee.mp3"
+      ]
+    },
+    "Arackulele": {
+      "Common": [
+        "Arackulele.mp3"
+      ]
+    },
+    "Arcorina": {
+      "Common": [
+        "Arcorina.mp3"
+      ]
+    },
+    "Astropod": {
+      "Common": [
+        "Astropod.mp3"
+      ]
+    },
+    "Attmoz": {
+      "Common": [
+        "Attmoz.mp3"
+      ]
+    },
+    "Auglur": {
+      "Common": [
+        "Auglur.mp3"
+      ]
+    },
+    "Banjaw": {
+      "Common": [
+        "Banjaw.mp3"
+      ]
+    },
+    "Barrb": {
+      "Common": [
+        "Barrb.mp3"
+      ]
+    },
+    "BeMeebEth": {
+      "Common": [
+        "BeMeebEth.mp3"
+      ]
+    },
+    "Bellowfish": {
+      "Common": [
+        "Bellowfish.mp3"
+      ]
+    },
+    "Bisonorus": {
+      "Common": [
+        "Bisonorus.mp3"
+      ]
+    },
+    "Blabbit": {
+      "Common": [
+        "Blabbit.mp3"
+      ]
+    },
+    "Blarret": {
+      "Common": [
+        "Blarret.mp3"
+      ]
+    },
+    "Blasoom": {
+      "Common": [
+        "Blasoom.mp3"
+      ]
+    },
+    "Bleatnik": {
+      "Common": [
+        "Bleatnik.mp3"
+      ]
+    },
+    "Blipsqueak": {
+      "Common": [
+        "Blipsqueak.mp3"
+      ]
+    },
+    "Blowt": {
+      "Common": [
+        "Blowt.mp3"
+      ]
+    },
+    "Bogle": {
+      "Common": [
+        "Bogle.mp3"
+      ]
+    },
+    "Bona-Petite": {
+      "Common": [
+        "Bona-Petite.mp3"
+      ]
+    },
+    "Bonkers": {
+      "Common": [
+        "Bonkers.mp3"
+      ]
+    },
+    "Boodoo": {
+      "Common": [
+        "Boodoo.mp3"
+      ]
+    },
+    "Booqwurm": {
+      "Common": [
+        "Booqwurm.mp3"
+      ]
+    },
+    "Boskus": {
+      "Common": [
+        "Boskus.mp3"
+      ]
+    },
+    "Bowgart": {
+      "Common": [
+        "Bowgart.mp3"
+      ]
+    },
+    "Bowhead": {
+      "Common": [
+        "Bowhead.mp3"
+      ]
+    },
+    "Bridg-it": {
+      "Common": [
+        "Bridg-it.mp3"
+      ]
+    },
+    "Brump": {
+      "Common": [
+        "Brump.mp3"
+      ]
+    },
+    "Bulbo": {
+      "Common": [
+        "Bulbo.mp3"
+      ]
+    },
+    "Buzzinga": {
+      "Common": [
+        "Buzzinga.mp3"
+      ]
+    },
+    "Cahoot": {
+      "Common": [
+        "Cahoot.mp3"
+      ]
+    },
+    "Candelavra": {
+      "Common": [
+        "Candelavra.mp3"
+      ]
+    },
+    "Cantorell": {
+      "Common": [
+        "Cantorell.mp3"
+      ]
+    },
+    "Carillong": {
+      "Common": [
+        "Carillong.mp3"
+      ]
+    },
+    "Cataliszt": {
+      "Common": [
+        "Cataliszt.mp3"
+      ]
+    },
+    "Charrkoll": {
+      "Common": [
+        "Charrkoll.mp3"
+      ]
+    },
+    "Cherubble": {
+      "Common": [
+        "Cherubble.mp3"
+      ]
+    },
+    "Clackula": {
+      "Common": [
+        "Clackula.mp3"
+      ]
+    },
+    "Clamble": {
+      "Common": [
+        "Clamble.mp3"
+      ]
+    },
+    "Clavavera": {
+      "Common": [
+        "Clavavera.mp3"
+      ]
+    },
+    "Clavi Gnat": {
+      "Common": [
+        "Clavi Gnat.mp3"
+      ]
+    },
+    "Congle": {
+      "Common": [
+        "Congle.mp3"
+      ]
+    },
+    "Cranchee": {
+      "Common": [
+        "Cranchee.mp3"
+      ]
+    },
+    "Creepuscule": {
+      "Common": [
+        "Creepuscule.mp3"
+      ]
+    },
+    "Cruvlaaphtian Crocus": {
+      "Common": [
+        "Cruvlaaphtian Crocus.mp3"
+      ]
+    },
+    "Cybop": {
+      "Common": [
+        "Cybop.mp3"
+      ]
+    },
+    "Dakktyl": {
+      "Common": [
+        "Dakktyl.mp3"
+      ]
+    },
+    "Dandidoo": {
+      "Common": [
+        "Dandidoo.mp3"
+      ]
+    },
+    "Deedge": {
+      "Common": [
+        "Deedge.mp3"
+      ]
+    },
+    "Denchuhs": {
+      "Common": [
+        "Denchuhs.mp3"
+      ]
+    },
+    "Dermit": {
+      "Common": [
+        "Dermit.mp3"
+      ]
+    },
+    "Do": {
+      "Common": [
+        "Do.mp3"
+      ]
+    },
+    "Dragong": {
+      "Common": [
+        "Dragong.mp3"
+      ]
+    },
+    "Droah": {
+      "Common": [
+        "Droah.mp3"
+      ]
+    },
+    "Drummidary": {
+      "Common": [
+        "Drummidary.mp3"
+      ]
+    },
+    "Drumpler": {
+      "Common": [
+        "Drumpler.mp3"
+      ]
+    },
+    "Dwumrohl": {
+      "Common": [
+        "Dwumrohl.mp3"
+      ]
+    },
+    "Déjà-Jin": {
+      "Common": [
+        "Déjà-Jin.mp3"
+      ]
+    },
+    "ERmA gUrDy": {
+      "Common": [
+        "ERmA gUrDy.mp3"
+      ]
+    },
+    "Edamimi": {
+      "Common": [
+        "Edamimi.mp3"
+      ]
+    },
+    "Enchantling": {
+      "Common": [
+        "Enchantling.mp3"
+      ]
+    },
+    "Entbrat": {
+      "Common": [
+        "Entbrat.mp3"
+      ]
+    },
+    "Epic Wubbox": {
+      "Common": [
+        "Epic Wubbox.mp3"
+      ]
+    },
+    "Fa": {
+      "Common": [
+        "Fa.mp3"
+      ]
+    },
+    "Faesoddoid Fungus": {
+      "Common": [
+        "Faesoddoid Fungus.mp3"
+      ]
+    },
+    "Fandhul": {
+      "Common": [
+        "Fandhul.mp3"
+      ]
+    },
+    "Ffidyll": {
+      "Common": [
+        "Ffidyll.mp3"
+      ]
+    },
+    "Fiddlement": {
+      "Common": [
+        "Fiddlement.mp3"
+      ]
+    },
+    "First Verchuoso": {
+      "Common": [
+        "First Verchuoso.mp3"
+      ]
+    },
+    "Flasque": {
+      "Common": [
+        "Flasque.mp3"
+      ]
+    },
+    "Fleechwurm": {
+      "Common": [
+        "Fleechwurm.mp3"
+      ]
+    },
+    "Floogull": {
+      "Common": [
+        "Floogull.mp3"
+      ]
+    },
+    "Floot Fly": {
+      "Common": [
+        "Floot Fly.mp3"
+      ]
+    },
+    "Flowah": {
+      "Common": [
+        "Flowah.mp3"
+      ]
+    },
+    "Flum Ox": {
+      "Common": [
+        "Flum Ox.mp3"
+      ]
+    },
+    "Fluoress": {
+      "Common": [
+        "Fluoress.mp3"
+      ]
+    },
+    "Frigil": {
+      "Common": [
+        "Frigil.mp3"
+      ]
+    },
+    "Frondley": {
+      "Common": [
+        "Frondley.mp3"
+      ]
+    },
+    "Fung Pray": {
+      "Common": [
+        "Fung Pray.mp3"
+      ]
+    },
+    "Furcorn": {
+      "Common": [
+        "Furcorn.mp3"
+      ]
+    },
+    "Furnoss": {
+      "Common": [
+        "Furnoss.mp3"
+      ]
+    },
+    "Fwog": {
+      "Common": [
+        "Fwog.mp3"
+      ]
+    },
+    "Gaddzooks": {
+      "Common": [
+        "Gaddzooks.mp3"
+      ]
+    },
+    "Galvana": {
+      "Common": [
+        "Galvana.mp3"
+      ]
+    },
+    "Galymph": {
+      "Common": [
+        "Galymph.mp3"
+      ]
+    },
+    "Gday": {
+      "Common": [
+        "Gday.mp3"
+      ]
+    },
+    "Ghazt": {
+      "Common": [
+        "Ghazt.mp3"
+      ]
+    },
+    "Gheegur": {
+      "Common": [
+        "Gheegur.mp3"
+      ]
+    },
+    "Gjoob": {
+      "Common": [
+        "Gjoob.mp3"
+      ]
+    },
+    "Glaishur": {
+      "Common": [
+        "Glaishur.mp3"
+      ]
+    },
+    "Gloptic": {
+      "Common": [
+        "Gloptic.mp3"
+      ]
+    },
+    "Glowl": {
+      "Common": [
+        "Glowl.mp3"
+      ]
+    },
+    "Gnarls": {
+      "Common": [
+        "Gnarls.mp3"
+      ]
+    },
+    "Gob": {
+      "Common": [
+        "Gob.mp3"
+      ]
+    },
+    "Gobbleygourd": {
+      "Common": [
+        "Gobbleygourd.mp3"
+      ]
+    },
+    "Grennitch": {
+      "Common": [
+        "Grennitch.mp3"
+      ]
+    },
+    "Grumpyre": {
+      "Common": [
+        "Grumpyre.mp3"
+      ]
+    },
+    "Hairionette": {
+      "Common": [
+        "Hairionette.mp3"
+      ]
+    },
+    "Hawlo": {
+      "Common": [
+        "Hawlo.mp3"
+      ]
+    },
+    "HippityHop": {
+      "Common": [
+        "HippityHop.mp3"
+      ]
+    },
+    "Hoola": {
+      "Common": [
+        "Hoola.mp3"
+      ]
+    },
+    "Hornacle": {
+      "Common": [
+        "Hornacle.mp3"
+      ]
+    },
+    "Humbug": {
+      "Common": [
+        "Humbug.mp3"
+      ]
+    },
+    "Hyddryd": {
+      "Common": [
+        "Hyddryd.mp3"
+      ]
+    },
+    "Hyehehe": {
+      "Common": [
+        "Hyehehe.mp3"
+      ]
+    },
+    "Illoost": {
+      "Common": [
+        "Illoost.mp3"
+      ]
+    },
+    "Incisaur": {
+      "Common": [
+        "Incisaur.mp3"
+      ]
+    },
+    "Jam Boree": {
+      "Common": [
+        "Jam Boree.mp3"
+      ]
+    },
+    "Jeeode": {
+      "Common": [
+        "Jeeode.mp3"
+      ]
+    },
+    "Jellbilly": {
+      "Common": [
+        "Jellbilly.mp3"
+      ]
+    },
+    "Jerm": {
+      "Common": [
+        "Jerm.mp3"
+      ]
+    },
+    "Kayna": {
+      "Common": [
+        "Kayna.mp3"
+      ]
+    },
+    "Kazilleon": {
+      "Common": [
+        "Kazilleon.mp3"
+      ]
+    },
+    "Knucklehead": {
+      "Common": [
+        "Knucklehead.mp3"
+      ]
+    },
+    "Knurv": {
+      "Common": [
+        "Knurv.mp3"
+      ]
+    },
+    "Krillby": {
+      "Common": [
+        "Krillby.mp3"
+      ]
+    },
+    "La": {
+      "Common": [
+        "La.mp3"
+      ]
+    },
+    "Larvaluss": {
+      "Common": [
+        "Larvaluss.mp3"
+      ]
+    },
+    "Loodvigg": {
+      "Common": [
+        "Loodvigg.mp3"
+      ]
+    },
+    "Lowb": {
+      "Common": [
+        "Lowb.mp3"
+      ]
+    },
+    "Maggpi": {
+      "Common": [
+        "Maggpi.mp3"
+      ]
+    },
+    "Mammott": {
+      "Common": [
+        "Mammott.mp3"
+      ]
+    },
+    "Maulch": {
+      "Common": [
+        "Maulch.mp3"
+      ]
+    },
+    "Maw": {
+      "Common": [
+        "Maw.mp3"
+      ]
+    },
+    "Meebkin": {
+      "Common": [
+        "Meebkin.mp3"
+      ]
+    },
+    "Mi": {
+      "Common": [
+        "Mi.mp3"
+      ]
+    },
+    "Mimic": {
+      "Common": [
+        "Mimic.mp3"
+      ]
+    },
+    "Monculus": {
+      "Common": [
+        "Monculus.mp3"
+      ]
+    },
+    "Mushaboom": {
+      "Common": [
+        "Mushaboom.mp3"
+      ]
+    },
+    "Mysterious Werdo": {
+      "Common": [
+        "Mysterious Werdo.mp3"
+      ]
+    },
+    "Nebulob": {
+      "Common": [
+        "Nebulob.mp3"
+      ]
+    },
+    "Nitebear": {
+      "Common": [
+        "Nitebear.mp3"
+      ]
+    },
+    "Noggin": {
+      "Common": [
+        "Noggin.mp3"
+      ]
+    },
+    "Oaktopus": {
+      "Common": [
+        "Oaktopus.mp3"
+      ]
+    },
+    "Oogiddy": {
+      "Common": [
+        "Oogiddy.mp3"
+      ]
+    },
+    "Osstax": {
+      "Common": [
+        "Osstax.mp3"
+      ]
+    },
+    "Owlesque": {
+      "Common": [
+        "Owlesque.mp3"
+      ]
+    },
+    "Pango": {
+      "Common": [
+        "Pango.mp3"
+      ]
+    },
+    "Parlsona": {
+      "Common": [
+        "Parlsona.mp3"
+      ]
+    },
+    "Peckidna": {
+      "Common": [
+        "Peckidna.mp3"
+      ]
+    },
+    "Pentumbra": {
+      "Common": [
+        "Pentumbra.mp3"
+      ]
+    },
+    "Periscorp": {
+      "Common": [
+        "Periscorp.mp3"
+      ]
+    },
+    "Phangler": {
+      "Common": [
+        "Phangler.mp3"
+      ]
+    },
+    "Phosphoran Phlox": {
+      "Common": [
+        "Phosphoran Phlox.mp3"
+      ]
+    },
+    "Pinghound": {
+      "Common": [
+        "Pinghound.mp3"
+      ]
+    },
+    "Piplash": {
+      "Common": [
+        "Piplash.mp3"
+      ]
+    },
+    "Pixolotl": {
+      "Common": [
+        "Pixolotl.mp3"
+      ]
+    },
+    "Pladdie": {
+      "Common": [
+        "Pladdie.mp3"
+      ]
+    },
+    "Plinkajou": {
+      "Common": [
+        "Plinkajou.mp3"
+      ]
+    },
+    "Plixie": {
+      "Common": [
+        "Plixie.mp3"
+      ]
+    },
+    "Pluckbill": {
+      "Common": [
+        "Pluckbill.mp3"
+      ]
+    },
+    "Poewk": {
+      "Common": [
+        "Poewk.mp3"
+      ]
+    },
+    "PomPom": {
+      "Common": [
+        "PomPom.mp3"
+      ]
+    },
+    "PongPing": {
+      "Common": [
+        "PongPing.mp3"
+      ]
+    },
+    "Poppette": {
+      "Common": [
+        "Poppette.mp3"
+      ]
+    },
+    "Potbelly": {
+      "Common": [
+        "Potbelly.mp3"
+      ]
+    },
+    "Pummel": {
+      "Common": [
+        "Pummel.mp3"
+      ]
+    },
+    "Punkleton": {
+      "Common": [
+        "Punkleton.mp3"
+      ]
+    },
+    "Quarrister": {
+      "Common": [
+        "Quarrister.mp3"
+      ]
+    },
+    "Quibble": {
+      "Common": [
+        "Quibble.mp3"
+      ]
+    },
+    "Raqsoun": {
+      "Common": [
+        "Raqsoun.mp3"
+      ]
+    },
+    "Rare Wubbox": {
+      "Common": [
+        "Rare Wubbox.mp3"
+      ]
+    },
+    "Re": {
+      "Common": [
+        "Re.mp3"
+      ]
+    },
+    "Reebro": {
+      "Common": [
+        "Reebro.mp3"
+      ]
+    },
+    "Reedling": {
+      "Common": [
+        "Reedling.mp3"
+      ]
+    },
+    "Repatillo": {
+      "Common": [
+        "Repatillo.mp3"
+      ]
+    },
+    "Rhysmuth": {
+      "Common": [
+        "Rhysmuth.mp3"
+      ]
+    },
+    "Riff": {
+      "Common": [
+        "Riff.mp3"
+      ]
+    },
+    "Roarick": {
+      "Common": [
+        "Roarick.mp3"
+      ]
+    },
+    "Rooba": {
+      "Common": [
+        "Rooba.mp3"
+      ]
+    },
+    "Rootitoot": {
+      "Common": [
+        "Rootitoot.mp3"
+      ]
+    },
+    "STRingmaster": {
+      "Common": [
+        "STRingmaster.mp3"
+      ]
+    },
+    "Scallyrags": {
+      "Common": [
+        "Scallyrags.mp3"
+      ]
+    },
+    "Scaratar": {
+      "Common": [
+        "Scaratar.mp3"
+      ]
+    },
+    "Scargo": {
+      "Common": [
+        "Scargo.mp3"
+      ]
+    },
+    "Schmoochle": {
+      "Common": [
+        "Schmoochle.mp3"
+      ]
+    },
+    "Screemu": {
+      "Common": [
+        "Screemu.mp3"
+      ]
+    },
+    "Scups": {
+      "Common": [
+        "Scups.mp3"
+      ]
+    },
+    "Shellbeat": {
+      "Common": [
+        "Shellbeat.mp3"
+      ]
+    },
+    "Shhimmer": {
+      "Common": [
+        "Shhimmer.mp3"
+      ]
+    },
+    "Shrubb": {
+      "Common": [
+        "Shrubb.mp3"
+      ]
+    },
+    "Shugabass": {
+      "Common": [
+        "Shugabass.mp3"
+      ]
+    },
+    "Shugabeats": {
+      "Common": [
+        "Shugabeats.mp3"
+      ]
+    },
+    "Shugabush": {
+      "Common": [
+        "Shugabush.mp3"
+      ]
+    },
+    "Shugabuzz": {
+      "Common": [
+        "Shugabuzz.mp3"
+      ]
+    },
+    "Shugajo": {
+      "Common": [
+        "Shugajo.mp3"
+      ]
+    },
+    "Shugarock": {
+      "Common": [
+        "Shugarock.mp3"
+      ]
+    },
+    "Shugavox": {
+      "Common": [
+        "Shugavox.mp3"
+      ]
+    },
+    "Shugitar": {
+      "Common": [
+        "Shugitar.mp3"
+      ]
+    },
+    "Sneyser": {
+      "Common": [
+        "Sneyser.mp3"
+      ]
+    },
+    "Sol": {
+      "Common": [
+        "Sol.mp3"
+      ]
+    },
+    "Sollum": {
+      "Common": [
+        "Sollum.mp3"
+      ]
+    },
+    "Sooza": {
+      "Common": [
+        "Sooza.mp3"
+      ]
+    },
+    "Sox": {
+      "Common": [
+        "Sox.mp3"
+      ]
+    },
+    "Sporerow": {
+      "Common": [
+        "Sporerow.mp3"
+      ]
+    },
+    "Spunge": {
+      "Common": [
+        "Spunge.mp3"
+      ]
+    },
+    "Spurrit": {
+      "Common": [
+        "Spurrit.mp3"
+      ]
+    },
+    "Spytrap": {
+      "Common": [
+        "Spytrap.mp3"
+      ]
+    },
+    "Squot": {
+      "Common": [
+        "Squot.mp3"
+      ]
+    },
+    "Stogg": {
+      "Common": [
+        "Stogg.mp3"
+      ]
+    },
+    "Stoowarb": {
+      "Common": [
+        "Stoowarb.mp3"
+      ]
+    },
+    "Strombonin": {
+      "Common": [
+        "Strombonin.mp3"
+      ]
+    },
+    "Superno-Fa": {
+      "Common": [
+        "Superno-Fa.mp3"
+      ]
+    },
+    "Syncopite": {
+      "Common": [
+        "Syncopite.mp3"
+      ]
+    },
+    "T-Pirainha": {
+      "Common": [
+        "T-Pirainha.mp3"
+      ]
+    },
+    "T-Rox": {
+      "Common": [
+        "T-Rox.mp3"
+      ]
+    },
+    "Tapricorn": {
+      "Common": [
+        "Tapricorn.mp3"
+      ]
+    },
+    "Tawkerr": {
+      "Common": [
+        "Tawkerr.mp3"
+      ]
+    },
+    "Teeter-Tauter": {
+      "Common": [
+        "Teeter-Tauter.mp3"
+      ]
+    },
+    "The Inflatterer": {
+      "Common": [
+        "The Inflatterer.mp3"
+      ]
+    },
+    "Theremind": {
+      "Common": [
+        "Theremind.mp3"
+      ]
+    },
+    "Thrumble": {
+      "Common": [
+        "Thrumble.mp3"
+      ]
+    },
+    "Thumpies": {
+      "Common": [
+        "Thumpies.mp3"
+      ]
+    },
+    "Thwok": {
+      "Common": [
+        "Thwok.mp3"
+      ]
+    },
+    "Ti": {
+      "Common": [
+        "Ti.mp3"
+      ]
+    },
+    "Tiawa": {
+      "Common": [
+        "Tiawa.mp3"
+      ]
+    },
+    "Toe Jammer": {
+      "Common": [
+        "Toe Jammer.mp3"
+      ]
+    },
+    "TooToo": {
+      "Common": [
+        "TooToo.mp3"
+      ]
+    },
+    "Torrt": {
+      "Common": [
+        "Torrt.mp3"
+      ]
+    },
+    "Tring": {
+      "Common": [
+        "Tring.mp3"
+      ]
+    },
+    "Tuskski": {
+      "Common": [
+        "Tuskski.mp3"
+      ]
+    },
+    "Tweedle": {
+      "Common": [
+        "Tweedle.mp3"
+      ]
+    },
+    "Tympa": {
+      "Common": [
+        "Tympa.mp3"
+      ]
+    },
+    "Unklaw": {
+      "Common": [
+        "Unklaw.mp3"
+      ]
+    },
+    "Uuduk": {
+      "Common": [
+        "Uuduk.mp3"
+      ]
+    },
+    "Vawk": {
+      "Common": [
+        "Vawk.mp3"
+      ]
+    },
+    "Vhamp": {
+      "Common": [
+        "Vhamp.mp3"
+      ]
+    },
+    "Vhenshun": {
+      "Common": [
+        "Vhenshun.mp3"
+      ]
+    },
+    "Viveine": {
+      "Common": [
+        "Viveine.mp3"
+      ]
+    },
+    "Whaddle": {
+      "Common": [
+        "Whaddle.mp3"
+      ]
+    },
+    "Whaill": {
+      "Common": [
+        "Whaill.mp3"
+      ]
+    },
+    "Whajje": {
+      "Common": [
+        "Whajje.mp3"
+      ]
+    },
+    "Wheezel": {
+      "Common": [
+        "Wheezel.mp3"
+      ]
+    },
+    "Whisp": {
+      "Common": [
+        "Whisp.mp3"
+      ]
+    },
+    "Whiz-bang": {
+      "Common": [
+        "Whiz-bang.mp3"
+      ]
+    },
+    "Wimmzies": {
+      "Common": [
+        "Wimmzies.mp3"
+      ]
+    },
+    "Withur": {
+      "Common": [
+        "Withur.mp3"
+      ]
+    },
+    "Woolabee": {
+      "Common": [
+        "Woolabee.mp3"
+      ]
+    },
+    "Wubbox": {
+      "Common": [
+        "Wubbox.mp3"
+      ]
+    },
+    "Wynq": {
+      "Common": [
+        "Wynq.mp3"
+      ]
+    },
+    "Xrt": {
+      "Common": [
+        "Xrt.mp3"
+      ]
+    },
+    "Xyster": {
+      "Common": [
+        "Xyster.mp3"
+      ]
+    },
+    "Yawstrich": {
+      "Common": [
+        "Yawstrich.mp3"
+      ]
+    },
+    "Yelmut": {
+      "Common": [
+        "Yelmut.mp3"
+      ]
+    },
+    "Yool": {
+      "Common": [
+        "Yool.mp3"
+      ]
+    },
+    "Yooreek": {
+      "Common": [
+        "Yooreek.mp3"
+      ]
+    },
+    "Yuggler": {
+      "Common": [
+        "Yuggler.mp3"
+      ]
+    },
+    "Zeffree": {
+      "Common": [
+        "Zeffree.mp3"
+      ]
+    },
+    "Ziggurab": {
+      "Common": [
+        "Ziggurab.mp3"
+      ]
+    },
+    "Zuuker": {
+      "Common": [
+        "Zuuker.mp3"
+      ]
+    },
+    "Zynth": {
+      "Common": [
+        "Zynth.mp3"
+      ]
+    },
+    "bbdektr": {
+      "Common": [
+        "bbdektr.mp3"
+      ]
+    },
+    "bbenior": {
+      "Common": [
+        "bbenior.mp3"
+      ]
+    },
+    "bbervo": {
+      "Common": [
+        "bbervo.mp3"
+      ]
+    },
+    "bbinistr": {
+      "Common": [
+        "bbinistr.mp3"
+      ]
+    },
+    "bbjunior": {
+      "Common": [
+        "bbjunior.mp3"
+      ]
+    },
+    "bbkinbash": {
+      "Common": [
+        "bbkinbash.mp3"
+      ]
+    },
+    "bblizard": {
+      "Common": [
+        "bblizard.mp3"
+      ]
+    },
+    "bbynth": {
+      "Common": [
+        "bbynth.mp3"
+      ]
+    },
+    "shLep": {
+      "Common": [
+        "shLep.mp3"
+      ]
+    }
+  },
   "Islands": {
     "Adult Attmoz": [
       "celestial"
@@ -818,47 +3692,1206 @@
     "Adult Vhamp": [
       "celestial"
     ],
-    "Alcordion": [
+    "Attmoz": [
+      "celestial"
+    ],
+    "Blasoom": [
+      "celestial"
+    ],
+    "Furnoss": [
+      "celestial"
+    ],
+    "Galvana": [
+      "celestial"
+    ],
+    "Glaishur": [
+      "celestial"
+    ],
+    "Hornacle": [
+      "celestial"
+    ],
+    "Loodvigg": [
+      "celestial"
+    ],
+    "Plixie": [
+      "celestial"
+    ],
+    "Scaratar": [
+      "celestial"
+    ],
+    "Syncopite": [
+      "celestial"
+    ],
+    "Torrt": [
+      "celestial"
+    ],
+    "Vhamp": [
+      "celestial"
+    ],
+    "Bishop Mi": [
+      "plant",
+      "cold",
       "air",
-      "mirror air"
-    ],
-    "Anglow": [
       "water",
-      "mythical",
-      "mirror water"
-    ],
-    "AnomaLee": [
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
       "psychic",
-      "mirror psychic"
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Do": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Fa": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "King Do": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "La": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Mi": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Queen Re": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Re": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Sol": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Superno-Fa": [
+      "celestial"
+    ],
+    "Terrene Sol": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Ti": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Vitreous Ti": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Waxen La": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
     ],
     "Arackulele": [
       "ethereal",
       "colossingum",
       "mech"
     ],
-    "Arcorina": [
-      "bone",
-      "paironormal"
-    ],
-    "Astropod": [
-      "Wublin"
-    ],
-    "Attmoz": [
-      "celestial"
-    ],
     "Auglur": [
       "workshop",
       "plasma",
       "mech"
     ],
-    "Banjaw": [
-      "bone",
-      "nexus",
-      "mirror bone"
+    "BeMeebEth": [
+      "workshop"
+    ],
+    "Bellowfish": [
+      "ethereal",
+      "colossingum",
+      "mech",
+      "crystal"
+    ],
+    "Blarret": [
+      "workshop",
+      "plasma"
+    ],
+    "Boodoo": [
+      "ethereal",
+      "colossingum",
+      "crystal"
+    ],
+    "Dragong": [
+      "ethereal",
+      "colossingum",
+      "mech"
+    ],
+    "Epic Arackulele": [
+      "ethereal"
+    ],
+    "Epic Bellowfish": [
+      "ethereal"
+    ],
+    "Epic Boodoo": [
+      "ethereal"
+    ],
+    "Epic Dragong": [
+      "ethereal",
+      "mech"
+    ],
+    "Epic Fung Pray": [
+      "ethereal"
+    ],
+    "Epic Ghazt": [
+      "plant",
+      "ethereal",
+      "mirror plant"
+    ],
+    "Epic Grumpyre": [
+      "cold",
+      "ethereal",
+      "mirror cold"
+    ],
+    "Epic Humbug": [
+      "earth",
+      "ethereal",
+      "mirror earth"
+    ],
+    "Epic Jeeode": [
+      "water",
+      "ethereal",
+      "mirror water"
+    ],
+    "Epic Jellbilly": [
+      "ethereal"
+    ],
+    "Epic Kazilleon": [
+      "ethereal"
+    ],
+    "Epic Nebulob": [
+      "ethereal"
+    ],
+    "Epic Reebro": [
+      "air",
+      "ethereal",
+      "mirror air"
+    ],
+    "Epic Sox": [
+      "ethereal"
+    ],
+    "Epic Whisp": [
+      "ethereal"
+    ],
+    "Flasque": [
+      "workshop",
+      "plasma",
+      "crystal"
+    ],
+    "Fung Pray": [
+      "ethereal",
+      "colossingum"
+    ],
+    "Gaddzooks": [
+      "workshop",
+      "plasma",
+      "mech",
+      "crystal"
+    ],
+    "Ghazt": [
+      "plant",
+      "colossingum",
+      "ethereal",
+      "composer",
+      "mirror plant",
+      "plasma"
+    ],
+    "Grumpyre": [
+      "cold",
+      "colossingum",
+      "ethereal",
+      "mirror cold"
+    ],
+    "Humbug": [
+      "earth",
+      "colossingum",
+      "ethereal",
+      "mirror earth"
+    ],
+    "Jeeode": [
+      "water",
+      "colossingum",
+      "ethereal",
+      "mirror water",
+      "crystal"
+    ],
+    "Jellbilly": [
+      "ethereal",
+      "colossingum",
+      "plasma"
+    ],
+    "Kazilleon": [
+      "ethereal",
+      "colossingum"
+    ],
+    "Meebkin": [
+      "workshop",
+      "plasma",
+      "crystal"
+    ],
+    "Nebulob": [
+      "ethereal",
+      "colossingum",
+      "plasma",
+      "mech"
+    ],
+    "Nitebear": [
+      "workshop",
+      "mech",
+      "crystal"
+    ],
+    "Oogiddy": [
+      "workshop"
+    ],
+    "Pentumbra": [
+      "workshop",
+      "shadow"
+    ],
+    "Piplash": [
+      "workshop",
+      "mech"
+    ],
+    "Rare Arackulele": [
+      "ethereal",
+      "colossingum",
+      "mech"
+    ],
+    "Rare Auglur": [
+      "workshop",
+      "plasma",
+      "mech"
+    ],
+    "Rare Bellowfish": [
+      "ethereal",
+      "colossingum",
+      "mech",
+      "crystal"
+    ],
+    "Rare Blarret": [
+      "workshop",
+      "plasma"
+    ],
+    "Rare Boodoo": [
+      "ethereal",
+      "colossingum",
+      "crystal"
+    ],
+    "Rare Dragong": [
+      "ethereal",
+      "colossingum",
+      "mech"
+    ],
+    "Rare Flasque": [
+      "workshop",
+      "crystal"
+    ],
+    "Rare Fung Pray": [
+      "ethereal",
+      "colossingum",
+      "crystal"
+    ],
+    "Rare Gaddzooks": [
+      "workshop",
+      "plasma",
+      "mech",
+      "crystal"
+    ],
+    "Rare Ghazt": [
+      "plant",
+      "colossingum",
+      "ethereal",
+      "composer",
+      "mirror plant",
+      "plasma"
+    ],
+    "Rare Grumpyre": [
+      "cold",
+      "colossingum",
+      "ethereal",
+      "mirror cold"
+    ],
+    "Rare Humbug": [
+      "earth",
+      "colossingum",
+      "ethereal",
+      "mirror earth"
+    ],
+    "Rare Jeeode": [
+      "water",
+      "ethereal",
+      "mirror water",
+      "crystal"
+    ],
+    "Rare Jellbilly": [
+      "ethereal",
+      "plasma"
+    ],
+    "Rare Kazilleon": [
+      "ethereal"
+    ],
+    "Rare Meebkin": [
+      "workshop",
+      "plasma",
+      "crystal"
+    ],
+    "Rare Nebulob": [
+      "ethereal",
+      "plasma",
+      "mech"
+    ],
+    "Rare Nitebear": [
+      "workshop",
+      "mech",
+      "crystal"
+    ],
+    "Rare Pentumbra": [
+      "workshop",
+      "shadow"
+    ],
+    "Rare Piplash": [
+      "workshop",
+      "mech"
+    ],
+    "Rare Reebro": [
+      "air",
+      "ethereal",
+      "mirror air",
+      "mech"
+    ],
+    "Rare Sox": [
+      "ethereal",
+      "plasma"
+    ],
+    "Rare Vhenshun": [
+      "workshop",
+      "mech"
+    ],
+    "Rare Whaill": [
+      "workshop",
+      "plasma"
+    ],
+    "Rare Whisp": [
+      "ethereal",
+      "colossingum",
+      "plasma"
+    ],
+    "Rare X'rt": [
+      "workshop",
+      "crystal"
+    ],
+    "Rare Yooreek": [
+      "workshop",
+      "plasma",
+      "mech"
+    ],
+    "Reebro": [
+      "air",
+      "colossingum",
+      "ethereal",
+      "mirror air",
+      "mech"
+    ],
+    "Rhysmuth": [
+      "workshop",
+      "crystal"
+    ],
+    "Sox": [
+      "ethereal",
+      "colossingum",
+      "plasma",
+      "crystal"
+    ],
+    "Teeter-Tauter": [
+      "workshop",
+      "mech",
+      "crystal"
+    ],
+    "Vhenshun": [
+      "workshop",
+      "mech"
+    ],
+    "Whaill": [
+      "workshop",
+      "plasma"
+    ],
+    "Whisp": [
+      "ethereal",
+      "colossingum",
+      "plasma"
+    ],
+    "X'rt": [
+      "workshop",
+      "crystal"
+    ],
+    "Yooreek": [
+      "workshop",
+      "plasma",
+      "mech"
     ],
     "Barrb": [
       "haven",
       "amber"
+    ],
+    "Bisonorus": [
+      "psychic",
+      "amber",
+      "mirror psychic"
+    ],
+    "Boskus": [
+      "oasis",
+      "light",
+      "faerie",
+      "amber",
+      "mirror light",
+      "mirror faerie"
+    ],
+    "Bowhead": [
+      "psychic",
+      "amber",
+      "mirror psychic"
+    ],
+    "Candelavra": [
+      "haven",
+      "amber"
+    ],
+    "Drummidary": [
+      "light",
+      "amber",
+      "mirror light"
+    ],
+    "Edamimi": [
+      "psychic",
+      "amber",
+      "mirror psychic"
+    ],
+    "Epic Barrb": [
+      "haven",
+      "amber"
+    ],
+    "Epic Bisonorus": [
+      "psychic",
+      "amber",
+      "mirror psychic"
+    ],
+    "Epic Boskus": [
+      "oasis",
+      "light",
+      "faerie",
+      "amber",
+      "mirror light",
+      "mirror faerie"
+    ],
+    "Epic Bowhead": [
+      "psychic",
+      "amber",
+      "mirror psychic"
+    ],
+    "Epic Candelavra": [
+      "haven",
+      "amber"
+    ],
+    "Epic Drummidary": [
+      "oasis",
+      "amber"
+    ],
+    "Epic Edamimi": [
+      "psychic",
+      "amber",
+      "mirror psychic"
+    ],
+    "Epic Floogull": [
+      "haven",
+      "amber"
+    ],
+    "Epic Flowah": [
+      "haven",
+      "light",
+      "psychic",
+      "amber",
+      "mirror light",
+      "mirror psychic"
+    ],
+    "Epic Flum Ox": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Epic Glowl": [
+      "haven",
+      "oasis",
+      "amber"
+    ],
+    "Epic Gnarls": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Epic Incisaur": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Epic Kayna": [
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "amber",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Epic Krillby": [
+      "faerie",
+      "amber",
+      "mirror faerie"
+    ],
+    "Epic Phangler": [
+      "oasis",
+      "psychic",
+      "bone",
+      "amber",
+      "mirror psychic",
+      "mirror bone"
+    ],
+    "Epic PongPing": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Epic Repatillo": [
+      "haven",
+      "amber"
+    ],
+    "Epic Rootitoot": [
+      "psychic",
+      "amber",
+      "mirror psychic"
+    ],
+    "Epic Sneyser": [
+      "oasis",
+      "amber"
+    ],
+    "Epic Sooza": [
+      "light",
+      "amber",
+      "mirror light"
+    ],
+    "Epic Stogg": [
+      "haven",
+      "faerie",
+      "bone",
+      "amber",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Epic Thrumble": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Epic Tiawa": [
+      "light",
+      "amber",
+      "mirror light"
+    ],
+    "Epic Tring": [
+      "haven",
+      "amber"
+    ],
+    "Epic Tuskski": [
+      "faerie",
+      "amber",
+      "mirror faerie"
+    ],
+    "Epic Whaddle": [
+      "oasis",
+      "amber"
+    ],
+    "Epic Woolabee": [
+      "oasis",
+      "amber"
+    ],
+    "Epic Wynq": [
+      "oasis",
+      "amber"
+    ],
+    "Epic Yelmut": [
+      "light",
+      "amber",
+      "mirror light"
+    ],
+    "Epic Ziggurab": [
+      "faerie",
+      "amber",
+      "mirror faerie"
+    ],
+    "Floogull": [
+      "haven",
+      "amber"
+    ],
+    "Flowah": [
+      "haven",
+      "light",
+      "psychic",
+      "amber",
+      "mirror light",
+      "mirror psychic"
+    ],
+    "Flum Ox": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Glowl": [
+      "haven",
+      "oasis",
+      "amber"
+    ],
+    "Gnarls": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Incisaur": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Kayna": [
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "amber",
+      "tribal",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Krillby": [
+      "faerie",
+      "amber",
+      "mirror faerie"
+    ],
+    "Phangler": [
+      "oasis",
+      "psychic",
+      "bone",
+      "amber",
+      "mirror psychic",
+      "mirror bone"
+    ],
+    "PongPing": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Rare Barrb": [
+      "haven",
+      "amber"
+    ],
+    "Rare Bisonorus": [
+      "psychic",
+      "amber",
+      "mirror psychic"
+    ],
+    "Rare Boskus": [
+      "oasis",
+      "light",
+      "faerie",
+      "amber",
+      "mirror light",
+      "mirror faerie"
+    ],
+    "Rare Bowhead": [
+      "psychic",
+      "amber",
+      "mirror psychic"
+    ],
+    "Rare Candelavra": [
+      "haven",
+      "amber"
+    ],
+    "Rare Drummidary": [
+      "light",
+      "amber",
+      "mirror light"
+    ],
+    "Rare Edamimi": [
+      "psychic",
+      "amber",
+      "mirror psychic"
+    ],
+    "Rare Floogull": [
+      "haven",
+      "amber"
+    ],
+    "Rare Flowah": [
+      "haven",
+      "light",
+      "psychic",
+      "amber",
+      "mirror light",
+      "mirror psychic"
+    ],
+    "Rare Flum Ox": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Rare Glowl": [
+      "haven",
+      "oasis",
+      "amber"
+    ],
+    "Rare Gnarls": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Rare Incisaur": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Rare Kayna": [
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "amber",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Rare Krillby": [
+      "faerie",
+      "amber",
+      "mirror faerie"
+    ],
+    "Rare Phangler": [
+      "oasis",
+      "psychic",
+      "bone",
+      "amber",
+      "mirror psychic",
+      "mirror bone"
+    ],
+    "Rare PongPing": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Rare Repatillo": [
+      "haven",
+      "amber"
+    ],
+    "Rare Rootitoot": [
+      "psychic",
+      "amber",
+      "mirror psychic"
+    ],
+    "Rare Sneyser": [
+      "oasis",
+      "amber"
+    ],
+    "Rare Sooza": [
+      "light",
+      "amber",
+      "mirror light"
+    ],
+    "Rare Stogg": [
+      "haven",
+      "faerie",
+      "bone",
+      "amber",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Rare Thrumble": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Rare Tiawa": [
+      "light",
+      "amber",
+      "mirror light"
+    ],
+    "Rare Tring": [
+      "haven",
+      "amber"
+    ],
+    "Rare Tuskski": [
+      "faerie",
+      "amber",
+      "mirror faerie"
+    ],
+    "Rare Whaddle": [
+      "oasis",
+      "amber"
+    ],
+    "Rare Woolabee": [
+      "oasis",
+      "amber"
+    ],
+    "Rare Wynq": [
+      "oasis",
+      "amber"
+    ],
+    "Rare Yelmut": [
+      "light",
+      "amber",
+      "mirror light"
+    ],
+    "Rare Ziggurab": [
+      "faerie",
+      "amber",
+      "mirror faerie"
+    ],
+    "Repatillo": [
+      "haven",
+      "amber"
+    ],
+    "Rootitoot": [
+      "psychic",
+      "amber",
+      "mirror psychic"
+    ],
+    "Sneyser": [
+      "oasis",
+      "amber"
+    ],
+    "Sooza": [
+      "light",
+      "amber",
+      "mirror light"
+    ],
+    "Stogg": [
+      "haven",
+      "faerie",
+      "bone",
+      "amber",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Thrumble": [
+      "bone",
+      "amber",
+      "mirror bone"
+    ],
+    "Tiawa": [
+      "light",
+      "amber",
+      "mirror light"
+    ],
+    "Tring": [
+      "haven",
+      "amber"
+    ],
+    "Tuskski": [
+      "faerie",
+      "amber",
+      "mirror faerie"
+    ],
+    "Whaddle": [
+      "oasis",
+      "amber"
+    ],
+    "Woolabee": [
+      "oasis",
+      "amber"
+    ],
+    "Wynq": [
+      "oasis",
+      "amber"
+    ],
+    "Yelmut": [
+      "light",
+      "amber",
+      "mirror light"
+    ],
+    "Ziggurab": [
+      "faerie",
+      "amber",
+      "mirror faerie"
+    ],
+    "Alcordion": [
+      "air",
+      "mirror air"
+    ],
+    "AnomaLee": [
+      "psychic",
+      "mirror psychic"
     ],
     "Bb$enior": [
       "bbli$zard island"
@@ -886,97 +4919,689 @@
       "mirror cold",
       "bbli$zard island"
     ],
-    "BeMeebEth": [
-      "workshop"
+    "Charrkoll": [
+      "haven"
     ],
-    "Bellowfish": [
-      "ethereal",
-      "colossingum",
-      "mech",
-      "crystal"
+    "First Verchuoso": [
+      "haven"
     ],
-    "Bishop Mi": [
-      "plant",
+    "Maggpi": [
       "cold",
-      "air",
       "water",
-      "earth",
-      "ethereal",
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "Magical Sanctum",
-      "mirror plant",
       "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Bisonorus": [
-      "psychic",
-      "amber",
-      "mirror psychic"
-    ],
-    "Blabbit": [
-      "water",
-      "colossingum",
-      "gold",
-      "seasonal",
       "mirror water"
     ],
-    "Blarret": [
-      "workshop",
-      "plasma"
+    "Parlsona": [
+      "plant",
+      "air",
+      "water",
+      "mirror plant",
+      "mirror air",
+      "mirror water"
     ],
-    "Blasoom": [
-      "celestial"
+    "Shugabass": [
+      "shugabush"
     ],
-    "Bleatnik": [
-      "mythical"
+    "Shugabeats": [
+      "shugabush"
     ],
-    "Blipsqueak": [
-      "wublin"
+    "Shugabush": [
+      "plant",
+      "shugabush",
+      "gold",
+      "mirror plant"
+    ],
+    "Shugabuzz": [
+      "shugabush"
+    ],
+    "Shugajo": [
+      "shugabush"
+    ],
+    "Shugarock": [
+      "shugabush"
+    ],
+    "Shugavox": [
+      "shugabush"
+    ],
+    "Shugitar": [
+      "shugabush"
+    ],
+    "Stoowarb": [
+      "air",
+      "earth",
+      "mirror air",
+      "mirror earth"
+    ],
+    "T-Pirainha": [
+      "water",
+      "mirror water"
+    ],
+    "Tawkerr": [
+      "plant",
+      "cold",
+      "earth",
+      "mirror plant",
+      "mirror cold",
+      "mirror earth"
+    ],
+    "Banjaw": [
+      "bone",
+      "nexus",
+      "mirror bone"
     ],
     "Blow't": [
       "light",
       "nexus",
       "mirror light"
     ],
-    "Bogle": [
-      "mech"
-    ],
-    "Bona-Petite": [
-      "wublin"
-    ],
     "Bonkers": [
       "Psychic",
       "Nexus",
       "Mirror Psychic"
     ],
-    "Boo'qwurm": [
+    "Bridg-it": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Bulbo": [
+      "Light",
+      "Nexus",
+      "Mirror Light"
+    ],
+    "Cahoot": [
+      "sanctum"
+    ],
+    "Cantorell": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Clackula": [
+      "bone",
+      "Magical Sanctum",
+      "nexus",
+      "mirror bone"
+    ],
+    "Clavi Gnat": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Deja-Jin": [
+      "Magical Sanctum"
+    ],
+    "Denchuhs": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "Enchantling": [
+      "sanctum"
+    ],
+    "Epic Cantorell": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Epic Clackula": [
+      "bone",
+      "Magical Sanctum",
+      "nexus",
+      "mirror bone"
+    ],
+    "Epic Floot Fly": [
+      "faerie",
+      "Magical Sanctum",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Epic Fluoress": [
+      "light",
+      "Magical Sanctum",
+      "nexus",
+      "mirror light"
+    ],
+    "Epic Knucklehead": [
+      "sanctum"
+    ],
+    "Epic Larvaluss": [
+      "sanctum"
+    ],
+    "Epic Peckidna": [
+      "bone",
+      "mirror bone"
+    ],
+    "Epic Rooba": [
       "psychic",
-      "seasonal",
+      "nexus",
       "mirror psychic"
     ],
-    "Boodoo": [
-      "ethereal",
-      "colossingum",
-      "crystal"
+    "Epic Theremind": [
+      "psychic",
+      "Magical Sanctum",
+      "nexus",
+      "mirror psychic"
     ],
-    "Boskus": [
-      "oasis",
+    "Epic TooToo": [
       "light",
+      "nexus",
+      "mirror light"
+    ],
+    "Epic Withur": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "Fiddlement": [
+      "light",
+      "nexus",
+      "mirror light"
+    ],
+    "Floot Fly": [
       "faerie",
-      "amber",
-      "mirror light",
+      "Magical Sanctum",
+      "nexus",
       "mirror faerie"
+    ],
+    "Fluoress": [
+      "light",
+      "Magical Sanctum",
+      "nexus",
+      "mirror light"
+    ],
+    "Frondley": [
+      "sanctum"
+    ],
+    "G'day": [
+      "sanctum"
+    ],
+    "Gloptic": [
+      "psychic",
+      "nexus",
+      "mirror psychic"
+    ],
+    "Gob": [
+      "light",
+      "nexus",
+      "mirror light"
+    ],
+    "Hawlo": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "HippityHop": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Knucklehead": [
+      "sanctum"
+    ],
+    "Larvaluss": [
+      "sanctum"
+    ],
+    "Mushaboom": [
+      "sanctum"
+    ],
+    "Osstax": [
+      "sanctum"
+    ],
+    "Peckidna": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "Periscorp": [
+      "psychic",
+      "nexus",
+      "mirror psychic"
+    ],
+    "Pladdie": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Plinkajou": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "Pluckbill": [
+      "light",
+      "nexus",
+      "mirror light"
+    ],
+    "Poppette": [
+      "psychic",
+      "nexus",
+      "mirror psychic"
+    ],
+    "Rare Banjaw": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "Rare Blow't": [
+      "light",
+      "nexus",
+      "mirror light"
+    ],
+    "Rare Bonkers": [
+      "Psychic",
+      "Nexus",
+      "Mirror Psychic"
+    ],
+    "Rare Bridg-it": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Rare Bulbo": [
+      "Light",
+      "Nexus",
+      "Mirror Light"
+    ],
+    "Rare Cahoot": [
+      "sanctum"
+    ],
+    "Rare Cantorell": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Rare Clackula": [
+      "bone",
+      "Magical Sanctum",
+      "nexus",
+      "mirror bone"
+    ],
+    "Rare Clavi Gnat": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Rare Deja-Jin": [
+      "Magical Sanctum"
+    ],
+    "Rare Denchuhs": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "Rare Enchantling": [
+      "sanctum"
+    ],
+    "Rare Fiddlement": [
+      "light",
+      "nexus",
+      "mirror light"
+    ],
+    "Rare Floot Fly": [
+      "faerie",
+      "Magical Sanctum",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Rare Fluoress": [
+      "light",
+      "Magical Sanctum",
+      "nexus",
+      "mirror light"
+    ],
+    "Rare Frondley": [
+      "sanctum"
+    ],
+    "Rare G'day": [
+      "sanctum"
+    ],
+    "Rare Gloptic": [
+      "psychic",
+      "nexus",
+      "mirror psychic"
+    ],
+    "Rare Gob": [
+      "light",
+      "nexus",
+      "mirror light"
+    ],
+    "Rare Hawlo": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "Rare HippityHop": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Rare Knucklehead": [
+      "sanctum"
+    ],
+    "Rare Larvaluss": [
+      "sanctum"
+    ],
+    "Rare Mushaboom": [
+      "sanctum"
+    ],
+    "Rare Osstax": [
+      "sanctum"
+    ],
+    "Rare Peckidna": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "Rare Periscorp": [
+      "psychic",
+      "nexus",
+      "mirror psychic"
+    ],
+    "Rare Pladdie": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Rare Plinkajou": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "Rare Pluckbill": [
+      "light",
+      "nexus",
+      "mirror light"
+    ],
+    "Rare Poppette": [
+      "psychic",
+      "nexus",
+      "mirror psychic"
+    ],
+    "Rare Roarick": [
+      "sanctum"
+    ],
+    "Rare Rooba": [
+      "psychic",
+      "nexus",
+      "mirror psychic"
+    ],
+    "Rare Spytrap": [
+      "light",
+      "nexus",
+      "mirror light"
+    ],
+    "Rare Squot": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Rare Tapricorn": [
+      "psychic",
+      "nexus",
+      "mirror psychic"
+    ],
+    "Rare Theremind": [
+      "psychic",
+      "Magical Sanctum",
+      "nexus",
+      "mirror psychic"
+    ],
+    "Rare TooToo": [
+      "light",
+      "nexus",
+      "mirror light"
+    ],
+    "Rare Uuduk": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "Rare Wimmzies": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Rare Withur": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "Rare Xyster": [
+      "sanctum"
+    ],
+    "Rare Yuggler": [
+      "psychic",
+      "nexus",
+      "mirror psychic"
+    ],
+    "Roarick": [
+      "sanctum"
+    ],
+    "Rooba": [
+      "psychic",
+      "nexus",
+      "mirror psychic"
+    ],
+    "Spytrap": [
+      "light",
+      "nexus",
+      "mirror light"
+    ],
+    "Squot": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Tapricorn": [
+      "psychic",
+      "nexus",
+      "mirror psychic"
+    ],
+    "Theremind": [
+      "psychic",
+      "Magical Sanctum",
+      "nexus",
+      "mirror psychic"
+    ],
+    "TooToo": [
+      "light",
+      "nexus",
+      "mirror light"
+    ],
+    "Uuduk": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "Wimmzies": [
+      "faerie",
+      "nexus",
+      "mirror faerie"
+    ],
+    "Withur": [
+      "bone",
+      "nexus",
+      "mirror bone"
+    ],
+    "Xyster": [
+      "sanctum"
+    ],
+    "Yuggler": [
+      "psychic",
+      "nexus",
+      "mirror psychic"
+    ],
+    "Anglow": [
+      "water",
+      "mythical",
+      "mirror water"
+    ],
+    "Bleatnik": [
+      "mythical"
+    ],
+    "Buzzinga": [
+      "haven",
+      "mythical"
+    ],
+    "Cataliszt": [
+      "mythical"
+    ],
+    "Cherubble": [
+      "oasis",
+      "mythical"
+    ],
+    "Cranchee": [
+      "mythical"
+    ],
+    "Epic Anglow": [
+      "water",
+      "mythical",
+      "mirror water"
+    ],
+    "Epic Bleatnik": [
+      "mythical"
+    ],
+    "Epic Buzzinga": [
+      "haven",
+      "mythical"
+    ],
+    "Epic Cataliszt": [
+      "mythical"
+    ],
+    "Epic Cherubble": [
+      "oasis",
+      "mythical"
+    ],
+    "Epic Cranchee": [
+      "mythical"
+    ],
+    "Epic G'joob": [
+      "plant",
+      "mythical",
+      "mirror plant"
+    ],
+    "Epic Hyehehe": [
+      "earth",
+      "mythical",
+      "mirror earth"
+    ],
+    "Epic Knurv": [
+      "mythical"
+    ],
+    "Epic Pinghound": [
+      "mythical"
+    ],
+    "Epic Sporerow": [
+      "mythical"
+    ],
+    "Epic Strombonin": [
+      "cold",
+      "mythical",
+      "mirror cold"
+    ],
+    "Epic Wheezel": [
+      "mythical"
+    ],
+    "Epic Yawstrich": [
+      "air",
+      "mythical",
+      "mirror air"
+    ],
+    "Epic shLep": [
+      "mythical"
+    ],
+    "G'joob": [
+      "plant",
+      "mythical",
+      "mirror plant"
+    ],
+    "Hyehehe": [
+      "earth",
+      "mythical",
+      "mirror earth"
+    ],
+    "Knurv": [
+      "mythical"
+    ],
+    "Pinghound": [
+      "mythical"
+    ],
+    "Rare Anglow": [
+      "water",
+      "mythical",
+      "mirror water"
+    ],
+    "Rare Bleatnik": [
+      "mythical"
+    ],
+    "Rare Buzzinga": [
+      "haven",
+      "mythical"
+    ],
+    "Rare Cataliszt": [
+      "mythical"
+    ],
+    "Rare Cherubble": [
+      "oasis",
+      "mythical"
+    ],
+    "Rare Cranchee": [
+      "mythical"
+    ],
+    "Rare G'joob": [
+      "plant",
+      "mythical",
+      "mirror plant"
+    ],
+    "Rare Hyehehe": [
+      "earth",
+      "mythical",
+      "mirror earth"
+    ],
+    "Rare Knurv": [
+      "mythical"
+    ],
+    "Rare Pinghound": [
+      "mythical"
+    ],
+    "Rare Sporerow": [
+      "mythical"
+    ],
+    "Rare Strombonin": [
+      "cold",
+      "mythical",
+      "mirror cold"
+    ],
+    "Rare Wheezel": [
+      "mythical"
+    ],
+    "Rare Yawstrich": [
+      "air",
+      "mythical",
+      "mirror air"
+    ],
+    "Rare shLep": [
+      "mythical"
+    ],
+    "ShLep": [
+      "mythical"
+    ],
+    "Sporerow": [
+      "mythical"
+    ],
+    "Strombonin": [
+      "cold",
+      "mythical",
+      "mirror cold"
+    ],
+    "Wheezel": [
+      "mythical"
+    ],
+    "Yawstrich": [
+      "air",
+      "mythical",
+      "mirror air"
     ],
     "Bowgart": [
       "plant",
@@ -988,60 +5613,6 @@
       "mirror plant",
       "mirror cold"
     ],
-    "Bowhead": [
-      "psychic",
-      "amber",
-      "mirror psychic"
-    ],
-    "Bridg-it": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Brump": [
-      "wublin"
-    ],
-    "Bulbo": [
-      "Light",
-      "Nexus",
-      "Mirror Light"
-    ],
-    "Buzzinga": [
-      "haven",
-      "mythical"
-    ],
-    "Cahoot": [
-      "sanctum"
-    ],
-    "Candelavra": [
-      "haven",
-      "amber"
-    ],
-    "Cantorell": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Carillong": [
-      "Magical Sanctum",
-      "seasonal"
-    ],
-    "Cataliszt": [
-      "mythical"
-    ],
-    "Charrkoll": [
-      "haven"
-    ],
-    "Cherubble": [
-      "oasis",
-      "mythical"
-    ],
-    "Clackula": [
-      "bone",
-      "Magical Sanctum",
-      "nexus",
-      "mirror bone"
-    ],
     "Clamble": [
       "plant",
       "earth",
@@ -1051,16 +5622,6 @@
       "composer",
       "mirror plant",
       "mirror earth"
-    ],
-    "Clavavera": [
-      "bone",
-      "seasonal",
-      "mirror bone"
-    ],
-    "Clavi Gnat": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
     ],
     "Congle": [
       "cold",
@@ -1072,16 +5633,6 @@
       "composer",
       "mirror cold",
       "mirror air"
-    ],
-    "Cranchee": [
-      "mythical"
-    ],
-    "Creepuscule": [
-      "wublin"
-    ],
-    "Cruv'laaphtian Crocus": [
-      "psychic",
-      "mirror psychic"
     ],
     "Cybop": [
       "air",
@@ -1095,9 +5646,6 @@
       "mirror air",
       "mirror water",
       "mirror earth"
-    ],
-    "Dakktyl": [
-      "paironormal"
     ],
     "Dandidoo": [
       "cold",
@@ -1121,54 +5669,6 @@
       "composer",
       "mirror cold"
     ],
-    "Deja-Jin": [
-      "Magical Sanctum"
-    ],
-    "Denchuhs": [
-      "bone",
-      "nexus",
-      "mirror bone"
-    ],
-    "Dermit": [
-      "wublin"
-    ],
-    "Do": [
-      "plant",
-      "cold",
-      "air",
-      "water",
-      "earth",
-      "ethereal",
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "Magical Sanctum",
-      "mirror plant",
-      "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Dragong": [
-      "ethereal",
-      "colossingum",
-      "mech"
-    ],
-    "Droah": [
-      "crystal"
-    ],
-    "Drummidary": [
-      "light",
-      "amber",
-      "mirror light"
-    ],
     "Drumpler": [
       "plant",
       "air",
@@ -1184,17 +5684,6 @@
       "mirror faerie",
       "bbli$zard island"
     ],
-    "Dwumrohl": [
-      "wublin"
-    ],
-    "Edamimi": [
-      "psychic",
-      "amber",
-      "mirror psychic"
-    ],
-    "Enchantling": [
-      "sanctum"
-    ],
     "Entbrat": [
       "plant",
       "colossingum",
@@ -1203,105 +5692,12 @@
       "composer",
       "mirror plant"
     ],
-    "Epic Anglow": [
-      "water",
-      "mythical",
-      "mirror water"
-    ],
-    "Epic Arackulele": [
-      "ethereal"
-    ],
-    "Epic Astropod": [
-      "Wublin"
-    ],
-    "Epic Barrb": [
-      "haven",
-      "amber"
-    ],
-    "Epic Bellowfish": [
-      "ethereal"
-    ],
-    "Epic Bisonorus": [
-      "psychic",
-      "amber",
-      "mirror psychic"
-    ],
-    "Epic Blabbit": [
-      "water",
-      "colossingum",
-      "gold",
-      "seasonal",
-      "mirror water"
-    ],
-    "Epic Bleatnik": [
-      "mythical"
-    ],
-    "Epic Blipsqueak": [
-      "wublin"
-    ],
-    "Epic Bona-Petite": [
-      "wublin"
-    ],
-    "Epic Boo'qwurm": [
-      "psychic",
-      "seasonal",
-      "mirror psychic"
-    ],
-    "Epic Boodoo": [
-      "ethereal"
-    ],
-    "Epic Boskus": [
-      "oasis",
-      "light",
-      "faerie",
-      "amber",
-      "mirror light",
-      "mirror faerie"
-    ],
     "Epic Bowgart": [
       "plant",
       "cold",
       "gold",
       "mirror plant",
       "mirror cold"
-    ],
-    "Epic Bowhead": [
-      "psychic",
-      "amber",
-      "mirror psychic"
-    ],
-    "Epic Brump": [
-      "wublin"
-    ],
-    "Epic Buzzinga": [
-      "haven",
-      "mythical"
-    ],
-    "Epic Candelavra": [
-      "haven",
-      "amber"
-    ],
-    "Epic Cantorell": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Epic Carillong": [
-      "Magical Sanctum",
-      "seasonal"
-    ],
-    "Epic Cataliszt": [
-      "mythical"
-    ],
-    "Epic Cherubble": [
-      "oasis",
-      "mythical"
-    ],
-    "Epic Clackula": [
-      "bone",
-      "Magical Sanctum",
-      "nexus",
-      "mirror bone"
     ],
     "Epic Clamble": [
       "plant",
@@ -1310,11 +5706,6 @@
       "mirror plant",
       "mirror earth"
     ],
-    "Epic Clavavera": [
-      "bone",
-      "seasonal",
-      "mirror bone"
-    ],
     "Epic Congle": [
       "cold",
       "air",
@@ -1322,9 +5713,6 @@
       "oasis",
       "mirror cold",
       "mirror air"
-    ],
-    "Epic Cranchee": [
-      "mythical"
     ],
     "Epic Cybop": [
       "air",
@@ -1352,17 +5740,6 @@
       "gold",
       "mirror cold"
     ],
-    "Epic Dermit": [
-      "wublin"
-    ],
-    "Epic Dragong": [
-      "ethereal",
-      "mech"
-    ],
-    "Epic Drummidary": [
-      "oasis",
-      "amber"
-    ],
     "Epic Drumpler": [
       "plant",
       "air",
@@ -1374,58 +5751,10 @@
       "mirror earth",
       "mirror faerie"
     ],
-    "Epic Dwumrohl": [
-      "wublin"
-    ],
-    "Epic Edamimi": [
-      "psychic",
-      "amber",
-      "mirror psychic"
-    ],
     "Epic Entbrat": [
       "plant",
       "gold",
       "mirror plant"
-    ],
-    "Epic Ffidyll": [
-      "faerie",
-      "seasonal",
-      "mirror faerie"
-    ],
-    "Epic Fleechwurm": [
-      "wublin"
-    ],
-    "Epic Floogull": [
-      "haven",
-      "amber"
-    ],
-    "Epic Floot Fly": [
-      "faerie",
-      "Magical Sanctum",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Epic Flowah": [
-      "haven",
-      "light",
-      "psychic",
-      "amber",
-      "mirror light",
-      "mirror psychic"
-    ],
-    "Epic Flum Ox": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
-    "Epic Fluoress": [
-      "light",
-      "Magical Sanctum",
-      "nexus",
-      "mirror light"
-    ],
-    "Epic Fung Pray": [
-      "ethereal"
     ],
     "Epic Furcorn": [
       "plant",
@@ -1450,104 +5779,6 @@
       "mirror water",
       "mirror bone"
     ],
-    "Epic G'joob": [
-      "plant",
-      "mythical",
-      "mirror plant"
-    ],
-    "Epic Ghazt": [
-      "plant",
-      "ethereal",
-      "mirror plant"
-    ],
-    "Epic Gheegur": [
-      "wublin"
-    ],
-    "Epic Glowl": [
-      "haven",
-      "oasis",
-      "amber"
-    ],
-    "Epic Gnarls": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
-    "Epic Gobbleygourd": [
-      "haven",
-      "oasis",
-      "seasonal"
-    ],
-    "Epic Grumpyre": [
-      "cold",
-      "ethereal",
-      "mirror cold"
-    ],
-    "Epic Hoola": [
-      "air",
-      "earth",
-      "gold",
-      "seasonal",
-      "mirror air",
-      "mirror earth"
-    ],
-    "Epic Humbug": [
-      "earth",
-      "ethereal",
-      "mirror earth"
-    ],
-    "Epic Hyehehe": [
-      "earth",
-      "mythical",
-      "mirror earth"
-    ],
-    "Epic Incisaur": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
-    "Epic Jam Boree": [
-      "gold",
-      "seasonal"
-    ],
-    "Epic Jeeode": [
-      "water",
-      "ethereal",
-      "mirror water"
-    ],
-    "Epic Jellbilly": [
-      "ethereal"
-    ],
-    "Epic Kayna": [
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "amber",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Epic Kazilleon": [
-      "ethereal"
-    ],
-    "Epic Knucklehead": [
-      "sanctum"
-    ],
-    "Epic Knurv": [
-      "mythical"
-    ],
-    "Epic Krillby": [
-      "faerie",
-      "amber",
-      "mirror faerie"
-    ],
-    "Epic Larvaluss": [
-      "sanctum"
-    ],
     "Epic Mammott": [
       "plant",
       "cold",
@@ -1565,9 +5796,6 @@
       "faerie",
       "mirror faerie"
     ],
-    "Epic Maulch": [
-      "Wublin"
-    ],
     "Epic Maw": [
       "plant",
       "cold",
@@ -1580,14 +5808,6 @@
     ],
     "Epic Mimic": [
       "oasis"
-    ],
-    "Epic Monculus": [
-      "ethereal",
-      "seasonal",
-      "wublin"
-    ],
-    "Epic Nebulob": [
-      "ethereal"
     ],
     "Epic Noggin": [
       "plant",
@@ -1625,27 +5845,6 @@
       "mirror air",
       "mirror earth"
     ],
-    "Epic Peckidna": [
-      "bone",
-      "mirror bone"
-    ],
-    "Epic Phangler": [
-      "oasis",
-      "psychic",
-      "bone",
-      "amber",
-      "mirror psychic",
-      "mirror bone"
-    ],
-    "Epic Pinghound": [
-      "mythical"
-    ],
-    "Epic Pixolotl": [
-      "wublin"
-    ],
-    "Epic Poewk": [
-      "wublin"
-    ],
     "Epic PomPom": [
       "air",
       "earth",
@@ -1653,11 +5852,6 @@
       "gold",
       "mirror air",
       "mirror earth"
-    ],
-    "Epic PongPing": [
-      "bone",
-      "amber",
-      "mirror bone"
     ],
     "Epic Potbelly": [
       "plant",
@@ -1681,12 +5875,6 @@
       "mirror plant",
       "mirror water"
     ],
-    "Epic Punkleton": [
-      "plant",
-      "gold",
-      "seasonal",
-      "mirror plant"
-    ],
     "Epic Quarrister": [
       "earth",
       "gold",
@@ -1703,11 +5891,6 @@
       "mirror air",
       "mirror water"
     ],
-    "Epic Reebro": [
-      "air",
-      "ethereal",
-      "mirror air"
-    ],
     "Epic Reedling": [
       "water",
       "earth",
@@ -1716,29 +5899,9 @@
       "mirror water",
       "mirror earth"
     ],
-    "Epic Repatillo": [
-      "haven",
-      "amber"
-    ],
     "Epic Riff": [
       "air",
       "gold",
-      "mirror air"
-    ],
-    "Epic Rooba": [
-      "psychic",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Epic Rootitoot": [
-      "psychic",
-      "amber",
-      "mirror psychic"
-    ],
-    "Epic Schmoochle": [
-      "air",
-      "gold",
-      "seasonal",
       "mirror air"
     ],
     "Epic Scups": [
@@ -1763,44 +5926,12 @@
       "mirror water",
       "mirror earth"
     ],
-    "Epic Sneyser": [
-      "oasis",
-      "amber"
-    ],
-    "Epic Sooza": [
-      "light",
-      "amber",
-      "mirror light"
-    ],
-    "Epic Sox": [
-      "ethereal"
-    ],
-    "Epic Sporerow": [
-      "mythical"
-    ],
     "Epic Spunge": [
       "cold",
       "water",
       "gold",
       "mirror cold",
       "mirror water"
-    ],
-    "Epic Spurrit": [
-      "oasis",
-      "seasonal"
-    ],
-    "Epic Stogg": [
-      "haven",
-      "faerie",
-      "bone",
-      "amber",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Epic Strombonin": [
-      "cold",
-      "mythical",
-      "mirror cold"
     ],
     "Epic T-Rox": [
       "plant",
@@ -1809,31 +5940,12 @@
       "mirror plant",
       "mirror air"
     ],
-    "Epic Theremind": [
-      "psychic",
-      "Magical Sanctum",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Epic Thrumble": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
     "Epic Thumpies": [
       "cold",
       "earth",
       "gold",
       "mirror cold",
       "mirror earth"
-    ],
-    "Epic Thwok": [
-      "wublin"
-    ],
-    "Epic Tiawa": [
-      "light",
-      "amber",
-      "mirror light"
     ],
     "Epic Toe Jammer": [
       "plant",
@@ -1849,20 +5961,6 @@
       "mirror water",
       "mirror psychic",
       "mirror bone"
-    ],
-    "Epic TooToo": [
-      "light",
-      "nexus",
-      "mirror light"
-    ],
-    "Epic Tring": [
-      "haven",
-      "amber"
-    ],
-    "Epic Tuskski": [
-      "faerie",
-      "amber",
-      "mirror faerie"
     ],
     "Epic Tweedle": [
       "cold",
@@ -1880,188 +5978,6 @@
       "mirror water",
       "mirror earth"
     ],
-    "Epic Tympa": [
-      "wublin"
-    ],
-    "Epic Viveine": [
-      "shugabush",
-      "seasonal",
-      "amber"
-    ],
-    "Epic Whaddle": [
-      "oasis",
-      "amber"
-    ],
-    "Epic Wheezel": [
-      "mythical"
-    ],
-    "Epic Whisp": [
-      "ethereal"
-    ],
-    "Epic Whiz-bang": [
-      "light",
-      "seasonal",
-      "mirror light"
-    ],
-    "Epic Withur": [
-      "bone",
-      "nexus",
-      "mirror bone"
-    ],
-    "Epic Woolabee": [
-      "oasis",
-      "amber"
-    ],
-    "Epic Wubbox Air": [
-      "air",
-      "mirror air"
-    ],
-    "Epic Wubbox Cold": [
-      "cold",
-      "mirror cold"
-    ],
-    "Epic Wubbox Earth": [
-      "earth",
-      "mirror earth"
-    ],
-    "Epic Wubbox Ethereal": [
-      "ethereal"
-    ],
-    "Epic Wubbox Haven": [
-      "haven"
-    ],
-    "Epic Wubbox Oasis": [
-      "oasis"
-    ],
-    "Epic Wubbox Plant": [
-      "plant",
-      "mirror plant"
-    ],
-    "Epic Wubbox Water": [
-      "water",
-      "mirror water"
-    ],
-    "Epic Wynq": [
-      "oasis",
-      "amber"
-    ],
-    "Epic Yawstrich": [
-      "air",
-      "mythical",
-      "mirror air"
-    ],
-    "Epic Yelmut": [
-      "light",
-      "amber",
-      "mirror light"
-    ],
-    "Epic Yool": [
-      "cold",
-      "gold",
-      "seasonal",
-      "mirror cold"
-    ],
-    "Epic Ziggurab": [
-      "faerie",
-      "amber",
-      "mirror faerie"
-    ],
-    "Epic Zuuker": [
-      "wublin"
-    ],
-    "Epic Zynth": [
-      "wublin"
-    ],
-    "Epic shLep": [
-      "mythical"
-    ],
-    "Fa": [
-      "plant",
-      "cold",
-      "air",
-      "water",
-      "earth",
-      "ethereal",
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "Magical Sanctum",
-      "mirror plant",
-      "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Faesoddoid Fungus": [
-      "Faerie"
-    ],
-    "Fandhul": [
-      "shadow"
-    ],
-    "Ffidyll": [
-      "faerie",
-      "seasonal",
-      "mirror faerie"
-    ],
-    "Fiddlement": [
-      "light",
-      "nexus",
-      "mirror light"
-    ],
-    "First Verchuoso": [
-      "haven"
-    ],
-    "Flasque": [
-      "workshop",
-      "plasma",
-      "crystal"
-    ],
-    "Fleechwurm": [
-      "wublin"
-    ],
-    "Floogull": [
-      "haven",
-      "amber"
-    ],
-    "Floot Fly": [
-      "faerie",
-      "Magical Sanctum",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Flowah": [
-      "haven",
-      "light",
-      "psychic",
-      "amber",
-      "mirror light",
-      "mirror psychic"
-    ],
-    "Flum Ox": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
-    "Fluoress": [
-      "light",
-      "Magical Sanctum",
-      "nexus",
-      "mirror light"
-    ],
-    "Frondley": [
-      "sanctum"
-    ],
-    "Fung Pray": [
-      "ethereal",
-      "colossingum"
-    ],
     "Furcorn": [
       "plant",
       "cold",
@@ -2074,9 +5990,6 @@
       "shugabush",
       "light",
       "mirror light"
-    ],
-    "Furnoss": [
-      "celestial"
     ],
     "Fwog": [
       "plant",
@@ -2092,227 +6005,6 @@
       "mirror water",
       "mirror bone",
       "bb$lizard island"
-    ],
-    "G'day": [
-      "sanctum"
-    ],
-    "G'joob": [
-      "plant",
-      "mythical",
-      "mirror plant"
-    ],
-    "Gaddzooks": [
-      "workshop",
-      "plasma",
-      "mech",
-      "crystal"
-    ],
-    "Galvana": [
-      "celestial"
-    ],
-    "Galymph": [
-      "paironormal"
-    ],
-    "Ghazt": [
-      "plant",
-      "colossingum",
-      "ethereal",
-      "composer",
-      "mirror plant",
-      "plasma"
-    ],
-    "Gheegur": [
-      "wublin"
-    ],
-    "Glaishur": [
-      "celestial"
-    ],
-    "Gloptic": [
-      "psychic",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Glowl": [
-      "haven",
-      "oasis",
-      "amber"
-    ],
-    "Gnarls": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
-    "Gob": [
-      "light",
-      "nexus",
-      "mirror light"
-    ],
-    "Gobbleygourd": [
-      "haven",
-      "oasis",
-      "seasonal"
-    ],
-    "Grumpyre": [
-      "cold",
-      "colossingum",
-      "ethereal",
-      "mirror cold"
-    ],
-    "Hairionette": [
-      "psychic",
-      "paironormal"
-    ],
-    "Hawlo": [
-      "bone",
-      "nexus",
-      "mirror bone"
-    ],
-    "HippityHop": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Hoola": [
-      "air",
-      "earth",
-      "colossingum",
-      "gold",
-      "seasonal",
-      "mirror air",
-      "mirror earth"
-    ],
-    "Hornacle": [
-      "celestial"
-    ],
-    "Humbug": [
-      "earth",
-      "colossingum",
-      "ethereal",
-      "mirror earth"
-    ],
-    "Hyehehe": [
-      "earth",
-      "mythical",
-      "mirror earth"
-    ],
-    "Illoost": [
-      "paironormal"
-    ],
-    "Incisaur": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
-    "Jam Boree": [
-      "gold",
-      "seasonal"
-    ],
-    "Jeeode": [
-      "water",
-      "colossingum",
-      "ethereal",
-      "mirror water",
-      "crystal"
-    ],
-    "Jellbilly": [
-      "ethereal",
-      "colossingum",
-      "plasma"
-    ],
-    "Jerm": [
-      "paironormal"
-    ],
-    "Kayna": [
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "amber",
-      "tribal",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Kazilleon": [
-      "ethereal",
-      "colossingum"
-    ],
-    "King Do": [
-      "plant",
-      "cold",
-      "air",
-      "water",
-      "earth",
-      "ethereal",
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "Magical Sanctum",
-      "mirror plant",
-      "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Knucklehead": [
-      "sanctum"
-    ],
-    "Knurv": [
-      "mythical"
-    ],
-    "Krillby": [
-      "faerie",
-      "amber",
-      "mirror faerie"
-    ],
-    "La": [
-      "plant",
-      "cold",
-      "air",
-      "water",
-      "earth",
-      "ethereal",
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "Magical Sanctum",
-      "mirror plant",
-      "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Larvaluss": [
-      "sanctum"
-    ],
-    "Loodvigg": [
-      "celestial"
-    ],
-    "Lowb": [
-      "plasma"
-    ],
-    "Maggpi": [
-      "cold",
-      "water",
-      "mirror cold",
-      "mirror water"
     ],
     "Mammott": [
       "plant",
@@ -2335,9 +6027,6 @@
       "mirror faerie",
       "bb$lizard island"
     ],
-    "Maulch": [
-      "Wublin"
-    ],
     "Maw": [
       "plant",
       "cold",
@@ -2350,56 +6039,8 @@
       "mirror cold",
       "mirror air"
     ],
-    "Meebkin": [
-      "workshop",
-      "plasma",
-      "crystal"
-    ],
-    "Mi": [
-      "plant",
-      "cold",
-      "air",
-      "water",
-      "earth",
-      "ethereal",
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "Magical Sanctum",
-      "mirror plant",
-      "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
     "Mimic": [
       "oasis"
-    ],
-    "Monculus": [
-      "ethereal",
-      "seasonal",
-      "wublin"
-    ],
-    "Mushaboom": [
-      "sanctum"
-    ],
-    "Nebulob": [
-      "ethereal",
-      "colossingum",
-      "plasma",
-      "mech"
-    ],
-    "Nitebear": [
-      "workshop",
-      "mech",
-      "crystal"
     ],
     "Noggin": [
       "plant",
@@ -2432,16 +6073,6 @@
       "mirror water",
       "mirror psychic"
     ],
-    "Oogiddy": [
-      "workshop"
-    ],
-    "Osstax": [
-      "sanctum"
-    ],
-    "Owlesque": [
-      "faerie",
-      "paironormal"
-    ],
     "Pango": [
       "cold",
       "air",
@@ -2455,71 +6086,6 @@
       "mirror air",
       "mirror earth"
     ],
-    "Parlsona": [
-      "plant",
-      "air",
-      "water",
-      "mirror plant",
-      "mirror air",
-      "mirror water"
-    ],
-    "Peckidna": [
-      "bone",
-      "nexus",
-      "mirror bone"
-    ],
-    "Pentumbra": [
-      "workshop",
-      "shadow"
-    ],
-    "Periscorp": [
-      "psychic",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Phangler": [
-      "oasis",
-      "psychic",
-      "bone",
-      "amber",
-      "mirror psychic",
-      "mirror bone"
-    ],
-    "Phosphoran Phlox": [
-      "light",
-      "mirror light"
-    ],
-    "Pinghound": [
-      "mythical"
-    ],
-    "Piplash": [
-      "workshop",
-      "mech"
-    ],
-    "Pixolotl": [
-      "wublin"
-    ],
-    "Pladdie": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Plinkajou": [
-      "bone",
-      "nexus",
-      "mirror bone"
-    ],
-    "Plixie": [
-      "celestial"
-    ],
-    "Pluckbill": [
-      "light",
-      "nexus",
-      "mirror light"
-    ],
-    "Poewk": [
-      "wublin"
-    ],
     "PomPom": [
       "air",
       "earth",
@@ -2530,16 +6096,6 @@
       "composer",
       "mirror air",
       "mirror earth"
-    ],
-    "PongPing": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
-    "Poppette": [
-      "psychic",
-      "nexus",
-      "mirror psychic"
     ],
     "Potbelly": [
       "plant",
@@ -2569,13 +6125,6 @@
       "mirror plant",
       "mirror water"
     ],
-    "Punkleton": [
-      "plant",
-      "colossingum",
-      "gold",
-      "seasonal",
-      "mirror plant"
-    ],
     "Quarrister": [
       "earth",
       "colossingum",
@@ -2583,30 +6132,6 @@
       "tribal",
       "composer",
       "mirror earth"
-    ],
-    "Queen Re": [
-      "plant",
-      "cold",
-      "air",
-      "water",
-      "earth",
-      "ethereal",
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "Magical Sanctum",
-      "mirror plant",
-      "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
     ],
     "Quibble": [
       "cold",
@@ -2622,95 +6147,6 @@
       "mirror air",
       "mirror water"
     ],
-    "Raqsoun": [
-      "paironormal"
-    ],
-    "Rare Anglow": [
-      "water",
-      "mythical",
-      "mirror water"
-    ],
-    "Rare Arackulele": [
-      "ethereal",
-      "colossingum",
-      "mech"
-    ],
-    "Rare Astropod": [
-      "Wublin"
-    ],
-    "Rare Auglur": [
-      "workshop",
-      "plasma",
-      "mech"
-    ],
-    "Rare Banjaw": [
-      "bone",
-      "nexus",
-      "mirror bone"
-    ],
-    "Rare Barrb": [
-      "haven",
-      "amber"
-    ],
-    "Rare Bellowfish": [
-      "ethereal",
-      "colossingum",
-      "mech",
-      "crystal"
-    ],
-    "Rare Bisonorus": [
-      "psychic",
-      "amber",
-      "mirror psychic"
-    ],
-    "Rare Blabbit": [
-      "water",
-      "colossingum",
-      "gold",
-      "seasonal",
-      "mirror water"
-    ],
-    "Rare Blarret": [
-      "workshop",
-      "plasma"
-    ],
-    "Rare Bleatnik": [
-      "mythical"
-    ],
-    "Rare Blipsqueak": [
-      "wublin"
-    ],
-    "Rare Blow't": [
-      "light",
-      "nexus",
-      "mirror light"
-    ],
-    "Rare Bona-Petite": [
-      "wublin"
-    ],
-    "Rare Bonkers": [
-      "Psychic",
-      "Nexus",
-      "Mirror Psychic"
-    ],
-    "Rare Boo'qwurm": [
-      "psychic",
-      "seasonal",
-      "mirror psychic"
-    ],
-    "Rare Boodoo": [
-      "ethereal",
-      "colossingum",
-      "crystal"
-    ],
-    "Rare Boskus": [
-      "oasis",
-      "light",
-      "faerie",
-      "amber",
-      "mirror light",
-      "mirror faerie"
-    ],
     "Rare Bowgart": [
       "plant",
       "cold",
@@ -2720,57 +6156,6 @@
       "composer",
       "mirror plant",
       "mirror cold"
-    ],
-    "Rare Bowhead": [
-      "psychic",
-      "amber",
-      "mirror psychic"
-    ],
-    "Rare Bridg-it": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Rare Brump": [
-      "wublin"
-    ],
-    "Rare Bulbo": [
-      "Light",
-      "Nexus",
-      "Mirror Light"
-    ],
-    "Rare Buzzinga": [
-      "haven",
-      "mythical"
-    ],
-    "Rare Cahoot": [
-      "sanctum"
-    ],
-    "Rare Candelavra": [
-      "haven",
-      "amber"
-    ],
-    "Rare Cantorell": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Rare Carillong": [
-      "Magical Sanctum",
-      "seasonal"
-    ],
-    "Rare Cataliszt": [
-      "mythical"
-    ],
-    "Rare Cherubble": [
-      "oasis",
-      "mythical"
-    ],
-    "Rare Clackula": [
-      "bone",
-      "Magical Sanctum",
-      "nexus",
-      "mirror bone"
     ],
     "Rare Clamble": [
       "plant",
@@ -2782,16 +6167,6 @@
       "mirror plant",
       "mirror earth"
     ],
-    "Rare Clavavera": [
-      "bone",
-      "seasonal",
-      "mirror bone"
-    ],
-    "Rare Clavi Gnat": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
-    ],
     "Rare Congle": [
       "cold",
       "air",
@@ -2802,12 +6177,6 @@
       "composer",
       "mirror cold",
       "mirror air"
-    ],
-    "Rare Cranchee": [
-      "mythical"
-    ],
-    "Rare Creepuscule": [
-      "wublin"
     ],
     "Rare Cybop": [
       "air",
@@ -2844,27 +6213,6 @@
       "composer",
       "mirror cold"
     ],
-    "Rare Deja-Jin": [
-      "Magical Sanctum"
-    ],
-    "Rare Denchuhs": [
-      "bone",
-      "nexus",
-      "mirror bone"
-    ],
-    "Rare Dermit": [
-      "wublin"
-    ],
-    "Rare Dragong": [
-      "ethereal",
-      "colossingum",
-      "mech"
-    ],
-    "Rare Drummidary": [
-      "light",
-      "amber",
-      "mirror light"
-    ],
     "Rare Drumpler": [
       "plant",
       "air",
@@ -2879,17 +6227,6 @@
       "mirror earth",
       "mirror faerie"
     ],
-    "Rare Dwumrohl": [
-      "wublin"
-    ],
-    "Rare Edamimi": [
-      "psychic",
-      "amber",
-      "mirror psychic"
-    ],
-    "Rare Enchantling": [
-      "sanctum"
-    ],
     "Rare Entbrat": [
       "plant",
       "colossingum",
@@ -2897,60 +6234,6 @@
       "tribal",
       "composer",
       "mirror plant"
-    ],
-    "Rare Ffidyll": [
-      "faerie",
-      "seasonal",
-      "mirror faerie"
-    ],
-    "Rare Fiddlement": [
-      "light",
-      "nexus",
-      "mirror light"
-    ],
-    "Rare Flasque": [
-      "workshop",
-      "crystal"
-    ],
-    "Rare Fleechwurm": [
-      "wublin"
-    ],
-    "Rare Floogull": [
-      "haven",
-      "amber"
-    ],
-    "Rare Floot Fly": [
-      "faerie",
-      "Magical Sanctum",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Rare Flowah": [
-      "haven",
-      "light",
-      "psychic",
-      "amber",
-      "mirror light",
-      "mirror psychic"
-    ],
-    "Rare Flum Ox": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
-    "Rare Fluoress": [
-      "light",
-      "Magical Sanctum",
-      "nexus",
-      "mirror light"
-    ],
-    "Rare Frondley": [
-      "sanctum"
-    ],
-    "Rare Fung Pray": [
-      "ethereal",
-      "colossingum",
-      "crystal"
     ],
     "Rare Furcorn": [
       "plant",
@@ -2979,141 +6262,6 @@
       "mirror water",
       "mirror bone"
     ],
-    "Rare G'day": [
-      "sanctum"
-    ],
-    "Rare G'joob": [
-      "plant",
-      "mythical",
-      "mirror plant"
-    ],
-    "Rare Gaddzooks": [
-      "workshop",
-      "plasma",
-      "mech",
-      "crystal"
-    ],
-    "Rare Ghazt": [
-      "plant",
-      "colossingum",
-      "ethereal",
-      "composer",
-      "mirror plant",
-      "plasma"
-    ],
-    "Rare Gheegur": [
-      "wublin"
-    ],
-    "Rare Gloptic": [
-      "psychic",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Rare Glowl": [
-      "haven",
-      "oasis",
-      "amber"
-    ],
-    "Rare Gnarls": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
-    "Rare Gob": [
-      "light",
-      "nexus",
-      "mirror light"
-    ],
-    "Rare Gobbleygourd": [
-      "haven",
-      "oasis",
-      "seasonal"
-    ],
-    "Rare Grumpyre": [
-      "cold",
-      "colossingum",
-      "ethereal",
-      "mirror cold"
-    ],
-    "Rare Hawlo": [
-      "bone",
-      "nexus",
-      "mirror bone"
-    ],
-    "Rare HippityHop": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Rare Hoola": [
-      "air",
-      "earth",
-      "colossingum",
-      "gold",
-      "seasonal",
-      "mirror air",
-      "mirror earth"
-    ],
-    "Rare Humbug": [
-      "earth",
-      "colossingum",
-      "ethereal",
-      "mirror earth"
-    ],
-    "Rare Hyehehe": [
-      "earth",
-      "mythical",
-      "mirror earth"
-    ],
-    "Rare Incisaur": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
-    "Rare Jam Boree": [
-      "gold",
-      "seasonal"
-    ],
-    "Rare Jeeode": [
-      "water",
-      "ethereal",
-      "mirror water",
-      "crystal"
-    ],
-    "Rare Jellbilly": [
-      "ethereal",
-      "plasma"
-    ],
-    "Rare Kayna": [
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "amber",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Rare Kazilleon": [
-      "ethereal"
-    ],
-    "Rare Knucklehead": [
-      "sanctum"
-    ],
-    "Rare Knurv": [
-      "mythical"
-    ],
-    "Rare Krillby": [
-      "faerie",
-      "amber",
-      "mirror faerie"
-    ],
-    "Rare Larvaluss": [
-      "sanctum"
-    ],
     "Rare Mammott": [
       "plant",
       "cold",
@@ -3132,9 +6280,6 @@
       "faerie",
       "mirror faerie"
     ],
-    "Rare Maulch": [
-      "Wublin"
-    ],
     "Rare Maw": [
       "plant",
       "cold",
@@ -3145,31 +6290,8 @@
       "mirror cold",
       "mirror air"
     ],
-    "Rare Meebkin": [
-      "workshop",
-      "plasma",
-      "crystal"
-    ],
     "Rare Mimic": [
       "oasis"
-    ],
-    "Rare Monculus": [
-      "ethereal",
-      "seasonal",
-      "wublin"
-    ],
-    "Rare Mushaboom": [
-      "sanctum"
-    ],
-    "Rare Nebulob": [
-      "ethereal",
-      "plasma",
-      "mech"
-    ],
-    "Rare Nitebear": [
-      "workshop",
-      "mech",
-      "crystal"
     ],
     "Rare Noggin": [
       "plant",
@@ -3199,9 +6321,6 @@
       "mirror water",
       "mirror psychic"
     ],
-    "Rare Osstax": [
-      "sanctum"
-    ],
     "Rare Pango": [
       "cold",
       "air",
@@ -3212,56 +6331,6 @@
       "mirror air",
       "mirror earth"
     ],
-    "Rare Peckidna": [
-      "bone",
-      "nexus",
-      "mirror bone"
-    ],
-    "Rare Pentumbra": [
-      "workshop",
-      "shadow"
-    ],
-    "Rare Periscorp": [
-      "psychic",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Rare Phangler": [
-      "oasis",
-      "psychic",
-      "bone",
-      "amber",
-      "mirror psychic",
-      "mirror bone"
-    ],
-    "Rare Pinghound": [
-      "mythical"
-    ],
-    "Rare Piplash": [
-      "workshop",
-      "mech"
-    ],
-    "Rare Pixolotl": [
-      "wublin"
-    ],
-    "Rare Pladdie": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Rare Plinkajou": [
-      "bone",
-      "nexus",
-      "mirror bone"
-    ],
-    "Rare Pluckbill": [
-      "light",
-      "nexus",
-      "mirror light"
-    ],
-    "Rare Poewk": [
-      "wublin"
-    ],
     "Rare PomPom": [
       "air",
       "earth",
@@ -3269,16 +6338,6 @@
       "gold",
       "mirror air",
       "mirror earth"
-    ],
-    "Rare PongPing": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
-    "Rare Poppette": [
-      "psychic",
-      "nexus",
-      "mirror psychic"
     ],
     "Rare Potbelly": [
       "plant",
@@ -3302,13 +6361,6 @@
       "mirror plant",
       "mirror water"
     ],
-    "Rare Punkleton": [
-      "plant",
-      "colossingum",
-      "gold",
-      "seasonal",
-      "mirror plant"
-    ],
     "Rare Quarrister": [
       "earth",
       "gold",
@@ -3325,12 +6377,6 @@
       "mirror air",
       "mirror water"
     ],
-    "Rare Reebro": [
-      "air",
-      "ethereal",
-      "mirror air",
-      "mech"
-    ],
     "Rare Reedling": [
       "water",
       "earth",
@@ -3339,39 +6385,10 @@
       "mirror water",
       "mirror earth"
     ],
-    "Rare Repatillo": [
-      "haven",
-      "amber"
-    ],
     "Rare Riff": [
       "air",
       "gold",
       "mirror air"
-    ],
-    "Rare Roarick": [
-      "sanctum"
-    ],
-    "Rare Rooba": [
-      "psychic",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Rare Rootitoot": [
-      "psychic",
-      "amber",
-      "mirror psychic"
-    ],
-    "Rare Scargo": [
-      "wublin"
-    ],
-    "Rare Schmoochle": [
-      "air",
-      "gold",
-      "seasonal",
-      "mirror air"
-    ],
-    "Rare Screemu": [
-      "wublin"
     ],
     "Rare Scups": [
       "air",
@@ -3395,55 +6412,12 @@
       "mirror water",
       "mirror earth"
     ],
-    "Rare Sneyser": [
-      "oasis",
-      "amber"
-    ],
-    "Rare Sooza": [
-      "light",
-      "amber",
-      "mirror light"
-    ],
-    "Rare Sox": [
-      "ethereal",
-      "plasma"
-    ],
-    "Rare Sporerow": [
-      "mythical"
-    ],
     "Rare Spunge": [
       "cold",
       "water",
       "gold",
       "mirror cold",
       "mirror water"
-    ],
-    "Rare Spurrit": [
-      "oasis",
-      "seasonal"
-    ],
-    "Rare Spytrap": [
-      "light",
-      "nexus",
-      "mirror light"
-    ],
-    "Rare Squot": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Rare Stogg": [
-      "haven",
-      "faerie",
-      "bone",
-      "amber",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Rare Strombonin": [
-      "cold",
-      "mythical",
-      "mirror cold"
     ],
     "Rare T-Rox": [
       "plant",
@@ -3452,36 +6426,12 @@
       "mirror plant",
       "mirror air"
     ],
-    "Rare Tapricorn": [
-      "psychic",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Rare Theremind": [
-      "psychic",
-      "Magical Sanctum",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Rare Thrumble": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
     "Rare Thumpies": [
       "cold",
       "earth",
       "gold",
       "mirror cold",
       "mirror earth"
-    ],
-    "Rare Thwok": [
-      "wublin"
-    ],
-    "Rare Tiawa": [
-      "light",
-      "amber",
-      "mirror light"
     ],
     "Rare Toe Jammer": [
       "plant",
@@ -3497,20 +6447,6 @@
       "mirror water",
       "mirror psychic",
       "mirror bone"
-    ],
-    "Rare TooToo": [
-      "light",
-      "nexus",
-      "mirror light"
-    ],
-    "Rare Tring": [
-      "haven",
-      "amber"
-    ],
-    "Rare Tuskski": [
-      "faerie",
-      "amber",
-      "mirror faerie"
     ],
     "Rare Tweedle": [
       "cold",
@@ -3528,160 +6464,6 @@
       "mirror water",
       "mirror earth"
     ],
-    "Rare Tympa": [
-      "wublin"
-    ],
-    "Rare Uuduk": [
-      "bone",
-      "nexus",
-      "mirror bone"
-    ],
-    "Rare Vhenshun": [
-      "workshop",
-      "mech"
-    ],
-    "Rare Viveine": [
-      "shugabush",
-      "seasonal",
-      "amber"
-    ],
-    "Rare Whaddle": [
-      "oasis",
-      "amber"
-    ],
-    "Rare Whaill": [
-      "workshop",
-      "plasma"
-    ],
-    "Rare Whajje": [
-      "wublin"
-    ],
-    "Rare Wheezel": [
-      "mythical"
-    ],
-    "Rare Whisp": [
-      "ethereal",
-      "colossingum",
-      "plasma"
-    ],
-    "Rare Whiz-bang": [
-      "light",
-      "seasonal",
-      "mirror light"
-    ],
-    "Rare Wimmzies": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Rare Withur": [
-      "bone",
-      "nexus",
-      "mirror bone"
-    ],
-    "Rare Woolabee": [
-      "oasis",
-      "amber"
-    ],
-    "Rare Wubbox": [
-      "plant",
-      "cold",
-      "air",
-      "water",
-      "earth",
-      "gold",
-      "ethereal",
-      "haven",
-      "oasis",
-      "wublin",
-      "mirror plant",
-      "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth"
-    ],
-    "Rare Wynq": [
-      "oasis",
-      "amber"
-    ],
-    "Rare X'rt": [
-      "workshop",
-      "crystal"
-    ],
-    "Rare Xyster": [
-      "sanctum"
-    ],
-    "Rare Yawstrich": [
-      "air",
-      "mythical",
-      "mirror air"
-    ],
-    "Rare Yelmut": [
-      "light",
-      "amber",
-      "mirror light"
-    ],
-    "Rare Yool": [
-      "cold",
-      "gold",
-      "seasonal",
-      "mirror cold"
-    ],
-    "Rare Yooreek": [
-      "workshop",
-      "plasma",
-      "mech"
-    ],
-    "Rare Yuggler": [
-      "psychic",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Rare Ziggurab": [
-      "faerie",
-      "amber",
-      "mirror faerie"
-    ],
-    "Rare Zuuker": [
-      "wublin"
-    ],
-    "Rare Zynth": [
-      "wublin"
-    ],
-    "Rare shLep": [
-      "mythical"
-    ],
-    "Re": [
-      "plant",
-      "cold",
-      "air",
-      "water",
-      "earth",
-      "ethereal",
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "Magical Sanctum",
-      "mirror plant",
-      "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Reebro": [
-      "air",
-      "colossingum",
-      "ethereal",
-      "mirror air",
-      "mech"
-    ],
     "Reedling": [
       "water",
       "earth",
@@ -3693,14 +6475,6 @@
       "mirror water",
       "mirror earth"
     ],
-    "Repatillo": [
-      "haven",
-      "amber"
-    ],
-    "Rhysmuth": [
-      "workshop",
-      "crystal"
-    ],
     "Riff": [
       "air",
       "colossingum",
@@ -3709,41 +6483,6 @@
       "composer",
       "mirror air",
       "bbli$zard island"
-    ],
-    "Roarick": [
-      "sanctum"
-    ],
-    "Rooba": [
-      "psychic",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Rootitoot": [
-      "psychic",
-      "amber",
-      "mirror psychic"
-    ],
-    "STRingmaster": [
-      "paironormal"
-    ],
-    "Scallyrags": [
-      "paironormal"
-    ],
-    "Scaratar": [
-      "celestial"
-    ],
-    "Scargo": [
-      "wublin"
-    ],
-    "Schmoochle": [
-      "air",
-      "colossingum",
-      "gold",
-      "seasonal",
-      "mirror air"
-    ],
-    "Screemu": [
-      "wublin"
     ],
     "Scups": [
       "air",
@@ -3755,9 +6494,6 @@
       "mirror air",
       "mirror water"
     ],
-    "ShLep": [
-      "mythical"
-    ],
     "Shellbeat": [
       "water",
       "colossingum",
@@ -3765,10 +6501,6 @@
       "tribal",
       "composer",
       "mirror water"
-    ],
-    "Shhimmer": [
-      "light",
-      "paironormal"
     ],
     "Shrubb": [
       "plant",
@@ -3783,75 +6515,6 @@
       "mirror water",
       "mirror earth"
     ],
-    "Shugabass": [
-      "shugabush"
-    ],
-    "Shugabeats": [
-      "shugabush"
-    ],
-    "Shugabush": [
-      "plant",
-      "shugabush",
-      "gold",
-      "mirror plant"
-    ],
-    "Shugabuzz": [
-      "shugabush"
-    ],
-    "Shugajo": [
-      "shugabush"
-    ],
-    "Shugarock": [
-      "shugabush"
-    ],
-    "Shugavox": [
-      "shugabush"
-    ],
-    "Shugitar": [
-      "shugabush"
-    ],
-    "Sneyser": [
-      "oasis",
-      "amber"
-    ],
-    "Sol": [
-      "plant",
-      "cold",
-      "air",
-      "water",
-      "earth",
-      "ethereal",
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "Magical Sanctum",
-      "mirror plant",
-      "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Sooza": [
-      "light",
-      "amber",
-      "mirror light"
-    ],
-    "Sox": [
-      "ethereal",
-      "colossingum",
-      "plasma",
-      "crystal"
-    ],
-    "Sporerow": [
-      "mythical"
-    ],
     "Spunge": [
       "cold",
       "water",
@@ -3863,49 +6526,6 @@
       "mirror water",
       "bb$lizard island"
     ],
-    "Spurrit": [
-      "oasis",
-      "seasonal"
-    ],
-    "Spytrap": [
-      "light",
-      "nexus",
-      "mirror light"
-    ],
-    "Squot": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
-    ],
-    "Stogg": [
-      "haven",
-      "faerie",
-      "bone",
-      "amber",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Stoowarb": [
-      "air",
-      "earth",
-      "mirror air",
-      "mirror earth"
-    ],
-    "Strombonin": [
-      "cold",
-      "mythical",
-      "mirror cold"
-    ],
-    "Superno-Fa": [
-      "celestial"
-    ],
-    "Syncopite": [
-      "celestial"
-    ],
-    "T-Pirainha": [
-      "water",
-      "mirror water"
-    ],
     "T-Rox": [
       "plant",
       "air",
@@ -3916,62 +6536,6 @@
       "mirror plant",
       "mirror air"
     ],
-    "Tapricorn": [
-      "psychic",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Tawkerr": [
-      "plant",
-      "cold",
-      "earth",
-      "mirror plant",
-      "mirror cold",
-      "mirror earth"
-    ],
-    "Teeter-Tauter": [
-      "workshop",
-      "mech",
-      "crystal"
-    ],
-    "Terrene Sol": [
-      "plant",
-      "cold",
-      "air",
-      "water",
-      "earth",
-      "ethereal",
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "Magical Sanctum",
-      "mirror plant",
-      "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "The Inflatterer": [
-      "paironormal"
-    ],
-    "Theremind": [
-      "psychic",
-      "Magical Sanctum",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Thrumble": [
-      "bone",
-      "amber",
-      "mirror bone"
-    ],
     "Thumpies": [
       "cold",
       "earth",
@@ -3980,38 +6544,6 @@
       "composer",
       "mirror cold",
       "mirror earth"
-    ],
-    "Thwok": [
-      "wublin"
-    ],
-    "Ti": [
-      "plant",
-      "cold",
-      "air",
-      "water",
-      "earth",
-      "ethereal",
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "Magical Sanctum",
-      "mirror plant",
-      "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Tiawa": [
-      "light",
-      "amber",
-      "mirror light"
     ],
     "Toe Jammer": [
       "plant",
@@ -4031,23 +6563,6 @@
       "mirror psychic",
       "mirror bone"
     ],
-    "TooToo": [
-      "light",
-      "nexus",
-      "mirror light"
-    ],
-    "Torrt": [
-      "celestial"
-    ],
-    "Tring": [
-      "haven",
-      "amber"
-    ],
-    "Tuskski": [
-      "faerie",
-      "amber",
-      "mirror faerie"
-    ],
     "Tweedle": [
       "cold",
       "air",
@@ -4065,117 +6580,511 @@
       "mirror earth",
       "bbli$zard island"
     ],
-    "Tympa": [
-      "wublin"
+    "Arcorina": [
+      "bone",
+      "paironormal"
+    ],
+    "Dakktyl": [
+      "paironormal"
+    ],
+    "Galymph": [
+      "paironormal"
+    ],
+    "Hairionette": [
+      "psychic",
+      "paironormal"
+    ],
+    "Illoost": [
+      "paironormal"
+    ],
+    "Jerm": [
+      "paironormal"
+    ],
+    "Owlesque": [
+      "faerie",
+      "paironormal"
+    ],
+    "Raqsoun": [
+      "paironormal"
+    ],
+    "STRingmaster": [
+      "paironormal"
+    ],
+    "Scallyrags": [
+      "paironormal"
+    ],
+    "Shhimmer": [
+      "light",
+      "paironormal"
+    ],
+    "The Inflatterer": [
+      "paironormal"
     ],
     "Unklaw": [
       "paironormal"
     ],
-    "Uuduk": [
-      "bone",
-      "nexus",
-      "mirror bone"
-    ],
     "Vawk": [
       "paironormal"
     ],
-    "Vhamp": [
-      "celestial"
+    "eRmA gUrDy": [
+      "paironormal"
     ],
-    "Vhenshun": [
-      "workshop",
+    "Bogle": [
       "mech"
     ],
-    "Vitreous Ti": [
-      "plant",
-      "cold",
-      "air",
+    "Droah": [
+      "crystal"
+    ],
+    "Fandhul": [
+      "shadow"
+    ],
+    "Lowb": [
+      "plasma"
+    ],
+    "Blabbit": [
       "water",
-      "earth",
-      "ethereal",
+      "colossingum",
+      "gold",
+      "seasonal",
+      "mirror water"
+    ],
+    "Boo'qwurm": [
+      "psychic",
+      "seasonal",
+      "mirror psychic"
+    ],
+    "Carillong": [
+      "Magical Sanctum",
+      "seasonal"
+    ],
+    "Clavavera": [
+      "bone",
+      "seasonal",
+      "mirror bone"
+    ],
+    "Epic Blabbit": [
+      "water",
+      "colossingum",
+      "gold",
+      "seasonal",
+      "mirror water"
+    ],
+    "Epic Boo'qwurm": [
+      "psychic",
+      "seasonal",
+      "mirror psychic"
+    ],
+    "Epic Carillong": [
+      "Magical Sanctum",
+      "seasonal"
+    ],
+    "Epic Clavavera": [
+      "bone",
+      "seasonal",
+      "mirror bone"
+    ],
+    "Epic Ffidyll": [
+      "faerie",
+      "seasonal",
+      "mirror faerie"
+    ],
+    "Epic Gobbleygourd": [
       "haven",
       "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "Magical Sanctum",
-      "mirror plant",
-      "mirror cold",
+      "seasonal"
+    ],
+    "Epic Hoola": [
+      "air",
+      "earth",
+      "gold",
+      "seasonal",
       "mirror air",
-      "mirror water",
-      "mirror earth",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
+      "mirror earth"
+    ],
+    "Epic Jam Boree": [
+      "gold",
+      "seasonal"
+    ],
+    "Epic Monculus": [
+      "ethereal",
+      "seasonal",
+      "wublin"
+    ],
+    "Epic Punkleton": [
+      "plant",
+      "gold",
+      "seasonal",
+      "mirror plant"
+    ],
+    "Epic Schmoochle": [
+      "air",
+      "gold",
+      "seasonal",
+      "mirror air"
+    ],
+    "Epic Spurrit": [
+      "oasis",
+      "seasonal"
+    ],
+    "Epic Viveine": [
+      "shugabush",
+      "seasonal",
+      "amber"
+    ],
+    "Epic Whiz-bang": [
+      "light",
+      "seasonal",
+      "mirror light"
+    ],
+    "Epic Yool": [
+      "cold",
+      "gold",
+      "seasonal",
+      "mirror cold"
+    ],
+    "Ffidyll": [
+      "faerie",
+      "seasonal",
+      "mirror faerie"
+    ],
+    "Gobbleygourd": [
+      "haven",
+      "oasis",
+      "seasonal"
+    ],
+    "Hoola": [
+      "air",
+      "earth",
+      "colossingum",
+      "gold",
+      "seasonal",
+      "mirror air",
+      "mirror earth"
+    ],
+    "Jam Boree": [
+      "gold",
+      "seasonal"
+    ],
+    "Monculus": [
+      "ethereal",
+      "seasonal",
+      "wublin"
+    ],
+    "Punkleton": [
+      "plant",
+      "colossingum",
+      "gold",
+      "seasonal",
+      "mirror plant"
+    ],
+    "Rare Blabbit": [
+      "water",
+      "colossingum",
+      "gold",
+      "seasonal",
+      "mirror water"
+    ],
+    "Rare Boo'qwurm": [
+      "psychic",
+      "seasonal",
+      "mirror psychic"
+    ],
+    "Rare Carillong": [
+      "Magical Sanctum",
+      "seasonal"
+    ],
+    "Rare Clavavera": [
+      "bone",
+      "seasonal",
       "mirror bone"
+    ],
+    "Rare Ffidyll": [
+      "faerie",
+      "seasonal",
+      "mirror faerie"
+    ],
+    "Rare Gobbleygourd": [
+      "haven",
+      "oasis",
+      "seasonal"
+    ],
+    "Rare Hoola": [
+      "air",
+      "earth",
+      "colossingum",
+      "gold",
+      "seasonal",
+      "mirror air",
+      "mirror earth"
+    ],
+    "Rare Jam Boree": [
+      "gold",
+      "seasonal"
+    ],
+    "Rare Monculus": [
+      "ethereal",
+      "seasonal",
+      "wublin"
+    ],
+    "Rare Punkleton": [
+      "plant",
+      "colossingum",
+      "gold",
+      "seasonal",
+      "mirror plant"
+    ],
+    "Rare Schmoochle": [
+      "air",
+      "gold",
+      "seasonal",
+      "mirror air"
+    ],
+    "Rare Spurrit": [
+      "oasis",
+      "seasonal"
+    ],
+    "Rare Viveine": [
+      "shugabush",
+      "seasonal",
+      "amber"
+    ],
+    "Rare Whiz-bang": [
+      "light",
+      "seasonal",
+      "mirror light"
+    ],
+    "Rare Yool": [
+      "cold",
+      "gold",
+      "seasonal",
+      "mirror cold"
+    ],
+    "Schmoochle": [
+      "air",
+      "colossingum",
+      "gold",
+      "seasonal",
+      "mirror air"
+    ],
+    "Spurrit": [
+      "oasis",
+      "seasonal"
     ],
     "Viveine": [
       "shugabush",
       "seasonal",
       "amber"
     ],
-    "Waxen La": [
-      "plant",
-      "cold",
-      "air",
-      "water",
-      "earth",
-      "ethereal",
-      "haven",
-      "oasis",
-      "light",
-      "psychic",
-      "faerie",
-      "bone",
-      "Magical Sanctum",
-      "mirror plant",
-      "mirror cold",
-      "mirror air",
-      "mirror water",
-      "mirror earth",
-      "mirror light",
-      "mirror psychic",
-      "mirror faerie",
-      "mirror bone"
-    ],
-    "Whaddle": [
-      "oasis",
-      "amber"
-    ],
-    "Whaill": [
-      "workshop",
-      "plasma"
-    ],
-    "Whajje": [
-      "wublin"
-    ],
-    "Wheezel": [
-      "mythical"
-    ],
-    "Whisp": [
-      "ethereal",
-      "colossingum",
-      "plasma"
-    ],
     "Whiz-bang": [
       "light",
       "seasonal",
       "mirror light"
     ],
-    "Wimmzies": [
-      "faerie",
-      "nexus",
-      "mirror faerie"
+    "Yool": [
+      "cold",
+      "colossingum",
+      "gold",
+      "seasonal",
+      "mirror cold"
     ],
-    "Withur": [
-      "bone",
-      "nexus",
-      "mirror bone"
+    "Astropod": [
+      "Wublin"
     ],
-    "Woolabee": [
+    "Blipsqueak": [
+      "wublin"
+    ],
+    "Bona-Petite": [
+      "wublin"
+    ],
+    "Brump": [
+      "wublin"
+    ],
+    "Creepuscule": [
+      "wublin"
+    ],
+    "Dermit": [
+      "wublin"
+    ],
+    "Dwumrohl": [
+      "wublin"
+    ],
+    "Epic Astropod": [
+      "Wublin"
+    ],
+    "Epic Blipsqueak": [
+      "wublin"
+    ],
+    "Epic Bona-Petite": [
+      "wublin"
+    ],
+    "Epic Brump": [
+      "wublin"
+    ],
+    "Epic Dermit": [
+      "wublin"
+    ],
+    "Epic Dwumrohl": [
+      "wublin"
+    ],
+    "Epic Fleechwurm": [
+      "wublin"
+    ],
+    "Epic Gheegur": [
+      "wublin"
+    ],
+    "Epic Maulch": [
+      "Wublin"
+    ],
+    "Epic Pixolotl": [
+      "wublin"
+    ],
+    "Epic Poewk": [
+      "wublin"
+    ],
+    "Epic Thwok": [
+      "wublin"
+    ],
+    "Epic Tympa": [
+      "wublin"
+    ],
+    "Epic Wubbox Air": [
+      "air",
+      "mirror air"
+    ],
+    "Epic Wubbox Cold": [
+      "cold",
+      "mirror cold"
+    ],
+    "Epic Wubbox Earth": [
+      "earth",
+      "mirror earth"
+    ],
+    "Epic Wubbox Ethereal": [
+      "ethereal"
+    ],
+    "Epic Wubbox Haven": [
+      "haven"
+    ],
+    "Epic Wubbox Oasis": [
+      "oasis"
+    ],
+    "Epic Wubbox Plant": [
+      "plant",
+      "mirror plant"
+    ],
+    "Epic Wubbox Water": [
+      "water",
+      "mirror water"
+    ],
+    "Epic Zuuker": [
+      "wublin"
+    ],
+    "Epic Zynth": [
+      "wublin"
+    ],
+    "Fleechwurm": [
+      "wublin"
+    ],
+    "Gheegur": [
+      "wublin"
+    ],
+    "Maulch": [
+      "Wublin"
+    ],
+    "Pixolotl": [
+      "wublin"
+    ],
+    "Poewk": [
+      "wublin"
+    ],
+    "Rare Astropod": [
+      "Wublin"
+    ],
+    "Rare Blipsqueak": [
+      "wublin"
+    ],
+    "Rare Bona-Petite": [
+      "wublin"
+    ],
+    "Rare Brump": [
+      "wublin"
+    ],
+    "Rare Creepuscule": [
+      "wublin"
+    ],
+    "Rare Dermit": [
+      "wublin"
+    ],
+    "Rare Dwumrohl": [
+      "wublin"
+    ],
+    "Rare Fleechwurm": [
+      "wublin"
+    ],
+    "Rare Gheegur": [
+      "wublin"
+    ],
+    "Rare Maulch": [
+      "Wublin"
+    ],
+    "Rare Pixolotl": [
+      "wublin"
+    ],
+    "Rare Poewk": [
+      "wublin"
+    ],
+    "Rare Scargo": [
+      "wublin"
+    ],
+    "Rare Screemu": [
+      "wublin"
+    ],
+    "Rare Thwok": [
+      "wublin"
+    ],
+    "Rare Tympa": [
+      "wublin"
+    ],
+    "Rare Whajje": [
+      "wublin"
+    ],
+    "Rare Wubbox": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "gold",
+      "ethereal",
+      "haven",
       "oasis",
-      "amber"
+      "wublin",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth"
+    ],
+    "Rare Zuuker": [
+      "wublin"
+    ],
+    "Rare Zynth": [
+      "wublin"
+    ],
+    "Scargo": [
+      "wublin"
+    ],
+    "Screemu": [
+      "wublin"
+    ],
+    "Thwok": [
+      "wublin"
+    ],
+    "Tympa": [
+      "wublin"
+    ],
+    "Whajje": [
+      "wublin"
     ],
     "Wubbox": [
       "plant",
@@ -4194,57 +7103,22 @@
       "mirror water",
       "mirror earth"
     ],
-    "Wynq": [
-      "oasis",
-      "amber"
-    ],
-    "X'rt": [
-      "workshop",
-      "crystal"
-    ],
-    "Xyster": [
-      "sanctum"
-    ],
-    "Yawstrich": [
-      "air",
-      "mythical",
-      "mirror air"
-    ],
-    "Yelmut": [
-      "light",
-      "amber",
-      "mirror light"
-    ],
-    "Yool": [
-      "cold",
-      "colossingum",
-      "gold",
-      "seasonal",
-      "mirror cold"
-    ],
-    "Yooreek": [
-      "workshop",
-      "plasma",
-      "mech"
-    ],
-    "Yuggler": [
-      "psychic",
-      "nexus",
-      "mirror psychic"
-    ],
-    "Ziggurab": [
-      "faerie",
-      "amber",
-      "mirror faerie"
-    ],
     "Zuuker": [
       "wublin"
     ],
     "Zynth": [
       "wublin"
     ],
-    "eRmA gUrDy": [
-      "paironormal"
+    "Cruv'laaphtian Crocus": [
+      "psychic",
+      "mirror psychic"
+    ],
+    "Faesoddoid Fungus": [
+      "Faerie"
+    ],
+    "Phosphoran Phlox": [
+      "light",
+      "mirror light"
     ]
   }
 }

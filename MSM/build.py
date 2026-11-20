@@ -13,8 +13,8 @@ Pipeline (stops at the first hard failure):
     4. JSON Validator       (must pass before the build)
     5. Master Database      -> data/master_database.json   (always last)
 
-Put this file in the repo root and run:
-    python3 run_all.py
+Put this file in the repo root (or ./MSM) and run:
+    python3 build.py
 
 Requires:  pip install requests beautifulsoup4
 """
@@ -172,7 +172,6 @@ def download_queue(queue, output_dir, rel_prefix):
         file_name = f"{safe_name}{data['ext']}"
         file_path = os.path.join(output_dir, file_name)
 
-        # Save the readable name -> relative file path mapping for the API
         index[data['name']] = f"{rel_prefix}/{file_name}"
 
         progress(i, total, data['name'])
@@ -213,6 +212,26 @@ def download_result(stats):
     return "ok", f"{stats['new']} new, {stats['skipped']} existing"
 
 
+def iter_monster_folders(monsters_dir: Path):
+    """
+    Yield (category_or_none, monster_folder_path) for both:
+      - Categorized layout: data/Monsters/<Category>/<Monster>/data.json
+      - Flat layout:        data/Monsters/<Monster>/data.json
+    """
+    if not monsters_dir.exists():
+        return
+
+    for entry in sorted(monsters_dir.iterdir(), key=lambda p: p.name):
+        if not entry.is_dir():
+            continue
+        if (entry / 'data.json').is_file():
+            yield None, entry
+        else:
+            for sub in sorted(entry.iterdir(), key=lambda p: p.name):
+                if sub.is_dir() and (sub / 'data.json').is_file():
+                    yield entry.name, sub
+
+
 # ═══════════════════════════════════════════════════════════════════════════
 #  STEP 1 - COSTUME DOWNLOADER
 # ═══════════════════════════════════════════════════════════════════════════
@@ -229,14 +248,11 @@ def step_costumes():
 
     queue = {}
 
-    # Fandom wraps its wiki images in <a class="image"> tags. This grabs gallery
-    # images, table sprites, and inline costume icons.
     for a_tag in soup.find_all('a', class_='image'):
         img_tag = a_tag.find('img')
         if not img_tag:
             continue
 
-        # Highest-quality source link (Fandom lazy-loads via data-src)
         img_url = img_tag.get('data-src') or img_tag.get('src')
         if not img_url:
             continue
@@ -244,7 +260,6 @@ def step_costumes():
         if img_url.startswith('//'):
             img_url = 'https:' + img_url
 
-        # Clean the URL to get the base image (removes downscaling params)
         parsed_url = urlparse(img_url)
         clean_path = parsed_url.path.split('/revision/')[0]
         ext = os.path.splitext(clean_path)[1]
@@ -252,7 +267,6 @@ def step_costumes():
         if ext.lower() not in ['.png', '.jpg', '.jpeg', '.gif']:
             continue
 
-        # The 'title' on the <a> gives the exact file name ("File:Mammott ... Costume.png")
         raw_title = a_tag.get('title', '')
         if raw_title.startswith('File:'):
             costume_name = raw_title.replace('File:', '').replace(ext, '').strip()
@@ -265,13 +279,12 @@ def step_costumes():
         if not costume_name or len(costume_name) > 60:
             continue
 
-        # Strip characters that are unsafe in file names
         safe_name = "".join(c for c in costume_name if c.isalnum() or c in " -_()").strip()
 
         if safe_name and safe_name not in queue:
             queue[safe_name] = {
                 'name': costume_name,
-                'url': img_url.split('/revision/')[0],  # full-resolution CDN URL
+                'url': img_url.split('/revision/')[0],
                 'ext': ext,
             }
 
@@ -309,7 +322,6 @@ def step_sounds():
             if len(cols) < 2:
                 continue
 
-            # Find the monster name (first link with real text bypasses image links)
             monster_name = ""
             for a_tag in cols[0].find_all('a'):
                 if a_tag.text.strip():
@@ -321,11 +333,9 @@ def step_sounds():
 
             monster_name = monster_name.replace('*', '').strip()
 
-            # Safety net: skip massive table headers or raw URLs
             if not monster_name or len(monster_name) > 40 or "http" in monster_name:
                 continue
 
-            # Find the audio link
             audio_url = None
             for tag in row.find_all(True):
                 for attr in ['src', 'data-file', 'data-src', 'href']:
@@ -374,7 +384,6 @@ def step_monster_index():
     if not os.path.exists(image_dir):
         raise StepError(f"Directory {image_dir} not found.", "images/bm not found")
 
-    # Strip '.png' to get the clean monster name, sorted for a tidy registry
     monsters = sorted(
         f[:-4] for f in os.listdir(image_dir)
         if f.endswith('.png') and f[:-4] not in EXCLUDED_MONSTERS
@@ -441,31 +450,25 @@ def step_build():
 
     info("Scanning file system to build master database...")
 
-    # 1. Image Manifest & Islands roster from /data/Monsters/
+    # 1. Image Manifest & Islands roster from /data/Monsters/<Category>/<Monster>/data.json
     monsters_dir = data_dir / 'Monsters'
-    if monsters_dir.exists():
-        for folder in sorted(os.listdir(monsters_dir)):
-            folder_path = monsters_dir / folder
-            if not folder_path.is_dir():
-                continue
+    for _category, folder_path in iter_monster_folders(monsters_dir):
+        folder = folder_path.name
+        if folder in EXCLUDED_MONSTERS:
+            note(f"Excluding monster: {folder}")
+            continue
 
-            if folder in EXCLUDED_MONSTERS:
-                note(f"Excluding monster: {folder}")
-                continue
+        master["Image Manifest"][folder] = folder
 
-            # Keep the exact casing of the folder for Linux lookups
-            master["Image Manifest"][folder] = folder
-
-            data_json = folder_path / 'data.json'
-            if data_json.exists():
-                try:
-                    with open(data_json, 'r', encoding='utf-8') as f:
-                        m_data = json.load(f)
-                    if isinstance(m_data, dict) and isinstance(m_data.get("Islands"), list):
-                        master["Islands"][str(m_data.get("Name") or folder)] = m_data["Islands"]
-                except Exception as e:
-                    bad(f"Error parsing {data_json}: {e}")
-                    problems += 1
+        data_json = folder_path / 'data.json'
+        try:
+            with open(data_json, 'r', encoding='utf-8') as f:
+                m_data = json.load(f)
+            if isinstance(m_data, dict) and isinstance(m_data.get("Islands"), list):
+                master["Islands"][str(m_data.get("Name") or folder)] = m_data["Islands"]
+        except Exception as e:
+            bad(f"Error parsing {data_json}: {e}")
+            problems += 1
 
     # 2. Element Image Manifest from /images/elements/
     elements_dir = images_dir / 'elements'
@@ -483,7 +486,6 @@ def step_build():
             file_name = Path(file).stem.strip()
             key = file_name
 
-            # Split only on the FIRST " - "
             sep = file_name.find(' - ')
             if sep != -1:
                 category = file_name[:sep].strip()
@@ -506,55 +508,69 @@ def step_build():
             if not file.lower().endswith('.png'):
                 continue
 
-            # "Plant Island.png" and "Plant Island (Spooktacle Skin).png" -> "plant_island"
             base = Path(file).stem.split('(')[0].strip().lower()
             base = re.sub(r'\s+', '_', base)
             groups.setdefault(base, []).append(f"images/islands/{file}")
 
-        # Some skins drop the word "Island": "Fire Haven (Feast-Ember Skin).png" ->
-        # "fire_haven", but the base file is "Fire Haven Island.png" -> "fire_haven_island".
         for key in list(groups.keys()):
             if not key.endswith('_island') and f"{key}_island" in groups:
                 groups[f"{key}_island"].extend(groups[key])
                 del groups[key]
 
-        # Base image first, then skins alphabetically
         for key in sorted(groups):
             master["Island Manifest"][key] = sorted(
                 groups[key],
                 key=lambda p: ('(' in p, p.lower(), p),
             )
 
-    # 4. Costumes from /data/costumes/{Common,Rare,Epic}/<Monster>/*.png
+    # 4. Costumes from /data/costumes (supports both flat files and {Common,Rare,Epic}/<Monster>/*.png)
     costumes_dir = data_dir / 'costumes'
-    for rarity in RARITIES:
-        rarity_path = costumes_dir / rarity
-        if not rarity_path.exists():
-            continue
-        for monster in sorted(os.listdir(rarity_path)):
-            if monster in EXCLUDED_MONSTERS:
-                continue
-            monster_path = rarity_path / monster
-            if monster_path.is_dir():
-                master["Costumes"].setdefault(monster, {})[rarity] = [
-                    f for f in sorted(os.listdir(monster_path)) if f.endswith('.png')
-                ]
+    if costumes_dir.exists():
+        for file in sorted(os.listdir(costumes_dir)):
+            file_path = costumes_dir / file
+            if file_path.is_file() and file.lower().endswith(('.png', '.jpg', '.jpeg', '.gif')):
+                stem = Path(file).stem
+                if ' (' in stem and stem.endswith(')'):
+                    monster_guess = stem.split(' (', 1)[0].strip()
+                    if monster_guess and monster_guess not in EXCLUDED_MONSTERS:
+                        master["Costumes"].setdefault(monster_guess, {}).setdefault("Common", []).append(file)
 
-    # 5. Sounds from /data/sounds/{Common,Rare,Epic}/<Monster>/*.(mp3|wav|ogg)
-    sounds_dir = data_dir / 'sounds'
-    for rarity in RARITIES:
-        rarity_path = sounds_dir / rarity
-        if not rarity_path.exists():
-            continue
-        for monster in sorted(os.listdir(rarity_path)):
-            if monster in EXCLUDED_MONSTERS:
+        for rarity in RARITIES:
+            rarity_path = costumes_dir / rarity
+            if not rarity_path.exists():
                 continue
-            monster_path = rarity_path / monster
-            if monster_path.is_dir():
-                master["Sounds"].setdefault(monster, {})[rarity] = [
-                    f for f in sorted(os.listdir(monster_path))
-                    if f.lower().endswith(('.mp3', '.wav', '.ogg'))
-                ]
+            for monster in sorted(os.listdir(rarity_path)):
+                if monster in EXCLUDED_MONSTERS:
+                    continue
+                monster_path = rarity_path / monster
+                if monster_path.is_dir():
+                    master["Costumes"].setdefault(monster, {})[rarity] = [
+                        f for f in sorted(os.listdir(monster_path)) if f.endswith('.png')
+                    ]
+
+    # 5. Sounds from /data/sounds (supports both flat files and {Common,Rare,Epic}/<Monster>/*.(mp3|wav|ogg))
+    sounds_dir = data_dir / 'sounds'
+    if sounds_dir.exists():
+        for file in sorted(os.listdir(sounds_dir)):
+            file_path = sounds_dir / file
+            if file_path.is_file() and file.lower().endswith(('.mp3', '.wav', '.ogg')):
+                monster_guess = Path(file).stem.strip()
+                if monster_guess and monster_guess not in EXCLUDED_MONSTERS:
+                    master["Sounds"].setdefault(monster_guess, {})["Common"] = [file]
+
+        for rarity in RARITIES:
+            rarity_path = sounds_dir / rarity
+            if not rarity_path.exists():
+                continue
+            for monster in sorted(os.listdir(rarity_path)):
+                if monster in EXCLUDED_MONSTERS:
+                    continue
+                monster_path = rarity_path / monster
+                if monster_path.is_dir():
+                    master["Sounds"].setdefault(monster, {})[rarity] = [
+                        f for f in sorted(os.listdir(monster_path))
+                        if f.lower().endswith(('.mp3', '.wav', '.ogg'))
+                    ]
 
     os.makedirs(data_dir, exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -602,7 +618,7 @@ def run_step(step):
         bad(str(e))
     except KeyboardInterrupt:
         raise
-    except Exception as e:  # unexpected crash inside a step
+    except Exception as e:
         status, detail = "failed", type(e).__name__
         bad(f"Unexpected error: {e}")
         traceback.print_exc()
@@ -653,7 +669,7 @@ def recap(total_elapsed):
         status = s.get("status", "pending")
         icon, color = STATUS_STYLE[status]
         if status in ("ok", "warn"):
-            right = f"{s['detail']} · {fmt_time(s['elapsed'])}" if s["detail"] else fmt_time(s["elapsed"])
+            right = f"{s['detail']} · {fmt_time(s['elapsed'])}" if s["detail"] else fmt_time(s['elapsed'])
         elif status == "failed":
             right = s["detail"]
         else:
@@ -682,7 +698,6 @@ def main():
         bad("Missing libraries. Install them with:  pip install requests beautifulsoup4")
         sys.exit(1)
 
-    # All paths in the steps are relative to the repo root
     os.chdir(ROOT)
     info(f"Running {len(STEPS)} steps from {C_BOLD}{ROOT}{C_RESET}")
 
