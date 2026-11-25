@@ -24,15 +24,18 @@
     "Syncopite": "Syncopite",
     "Torrt": "Torrt",
     "Vhamp": "Vhamp",
+    "Aquatic Fa": "Aquatic Fa",
     "Bishop Mi": "Bishop Mi",
     "Do": "Do",
     "Fa": "Fa",
     "King Do": "King Do",
+    "Knight Fa": "Knight Fa",
     "La": "La",
     "Mi": "Mi",
     "Queen Re": "Queen Re",
     "Re": "Re",
     "Sol": "Sol",
+    "Sol-stice": "Sol-stice",
     "Superno-Fa": "Superno-Fa",
     "Terrene Sol": "Terrene Sol",
     "Ti": "Ti",
@@ -245,6 +248,7 @@
     "Epic Clackula": "Epic Clackula",
     "Epic Floot Fly": "Epic Floot Fly",
     "Epic Fluoress": "Epic Fluoress",
+    "Epic Gob": "Epic Gob",
     "Epic Knucklehead": "Epic Knucklehead",
     "Epic Larvaluss": "Epic Larvaluss",
     "Epic Peckidna": "Epic Peckidna",
@@ -796,6 +800,7 @@
     "AnomaLee": {
       "Common": [
         "AnomaLee (Fantasy Chrysalis).png",
+        "AnomaLee (Fantasy Majesty).png",
         "AnomaLee (Gothic Antihero).png"
       ]
     },
@@ -3728,6 +3733,30 @@
     "Vhamp": [
       "celestial"
     ],
+    "Aquatic Fa": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
     "Bishop Mi": [
       "plant",
       "cold",
@@ -3801,6 +3830,30 @@
       "mirror bone"
     ],
     "King Do": [
+      "plant",
+      "cold",
+      "air",
+      "water",
+      "earth",
+      "ethereal",
+      "haven",
+      "oasis",
+      "light",
+      "psychic",
+      "faerie",
+      "bone",
+      "Magical Sanctum",
+      "mirror plant",
+      "mirror cold",
+      "mirror air",
+      "mirror water",
+      "mirror earth",
+      "mirror light",
+      "mirror psychic",
+      "mirror faerie",
+      "mirror bone"
+    ],
+    "Knight Fa": [
       "plant",
       "cold",
       "air",
@@ -3943,6 +3996,9 @@
       "mirror psychic",
       "mirror faerie",
       "mirror bone"
+    ],
+    "Sol-stice": [
+      "celestial"
     ],
     "Superno-Fa": [
       "celestial"
@@ -5059,6 +5115,11 @@
     "Epic Fluoress": [
       "light",
       "Magical Sanctum",
+      "nexus",
+      "mirror light"
+    ],
+    "Epic Gob": [
+      "light",
       "nexus",
       "mirror light"
     ],

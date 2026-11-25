@@ -1,0 +1,35 @@
+{
+    "Name": "Epic Gob",
+    "Elements": [
+        "Plant",
+        "Light"
+    ],
+    "Islands": [
+        "light",
+        "nexus",
+        "mirror light"
+    ],
+    "Description": {
+        "name": "Epic Gob",
+        "description": "Ohhh - so THAT'S why there was that mix-up some years back... Ahem! Aside from syllabic similarity between the two Monsters' species names, it's plain to see how a budding Monstrologist might confuse the Epic subspecies of this Magical with the Feast-Ember Seasonal, Gobbleygourd. The Epic Gob's Plant-Element lineage is particularly on display, and if we didn't know better, we'd suspect it was a Mimic playing a trick on us! Brightly-colored, feather-like foliage announces its presence anywhere it takes root, and even the lolling tongue calls the Seasonal's snood to mind. Whereas the Common Gob's goal may have been to blend in, there's no doubt that the Epic Gob wants to stand out!"
+    },
+    "Costs": {
+        "name": "Epic Gob",
+        "diamond_cost": "500"
+    },
+    "Breeding Times": {
+        "Enhanced": "23h 46m 30s",
+        "Enhanced_Skin": "20h 36m 18s",
+        "Standard": "1d 7h 42m",
+        "Standard_Skin": "1d 4h 31m 48s"
+    },
+    "Likes": [
+        "Epic Potbelly",
+        "Smunkin Patch",
+        "Dragoon Statue",
+        "Ambered Thing"
+    ],
+    "Combinations to Breed": [
+        "Fiddlement + Furcorn"
+    ]
+}
