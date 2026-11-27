@@ -442,6 +442,7 @@ def step_build():
         "Image Manifest": {},
         "Element Image Manifest": {},
         "Island Manifest": {},
+        "Monster Categories": {},
         "Costumes": {},
         "Sounds": {},
         "Islands": {},
@@ -452,8 +453,15 @@ def step_build():
 
     # 1. Image Manifest & Islands roster from /data/Monsters/<Category>/<Monster>/data.json
     monsters_dir = data_dir / 'Monsters'
-    for _category, folder_path in iter_monster_folders(monsters_dir):
+    for category, folder_path in iter_monster_folders(monsters_dir):
         folder = folder_path.name
+
+        # Category map used by msm.js to find data/Monsters/<Category>/<Monster>/data.json.
+        # Recorded BEFORE the exclusion check: excluded monsters (e.g. Meebs) are hidden
+        # from the manifest but their data.json still has to be locatable.
+        if category:
+            master["Monster Categories"].setdefault(category, []).append(folder)
+
         if folder in EXCLUDED_MONSTERS:
             note(f"Excluding monster: {folder}")
             continue
@@ -469,6 +477,12 @@ def step_build():
         except Exception as e:
             bad(f"Error parsing {data_json}: {e}")
             problems += 1
+
+    # Keep the category map stable/diff-friendly
+    master["Monster Categories"] = {
+        cat: sorted(names, key=str.lower)
+        for cat, names in sorted(master["Monster Categories"].items())
+    }
 
     # 2. Element Image Manifest from /images/elements/
     elements_dir = images_dir / 'elements'
@@ -577,7 +591,8 @@ def step_build():
         json.dump(master, f, indent=2, ensure_ascii=False)
 
     good(f"Wrote {output_file}")
-    detail = f"{len(master['Image Manifest'])} monsters, {len(master['Element Image Manifest'])} elements"
+    detail = (f"{len(master['Image Manifest'])} monsters in "
+              f"{len(master['Monster Categories'])} categories, {len(master['Element Image Manifest'])} elements")
     return ("warn" if problems else "ok"), detail
 
 
